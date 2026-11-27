@@ -2786,8 +2786,20 @@
                 "ko": "노래하지 마세요"
               },
               {
-                "en": "unless you have permission.",
-                "ko": "허락을 받지 않으면."
+                "en": "unless",
+                "ko": "~하지 않으면"
+              },
+              {
+                "en": "you",
+                "ko": "당신이"
+              },
+              {
+                "en": "have",
+                "ko": "가지고 있지"
+              },
+              {
+                "en": "permission.",
+                "ko": "허락을."
               }
             ]
           }

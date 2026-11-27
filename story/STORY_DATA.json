@@ -23,7 +23,21 @@
           "ko": "신택스 왕국에."
         }
       ],
-      "speaker_en": "Narrator"
+      "speaker_en": "Narrator",
+      "direct_chunks": [
+        {
+          "en": "Peace",
+          "ko": "평화가"
+        },
+        {
+          "en": "returned",
+          "ko": "돌아왔다"
+        },
+        {
+          "en": "to the Syntax Kingdom.",
+          "ko": "신택스 왕국에."
+        }
+      ]
     },
     {
       "speaker": "그래머 할아버지",
@@ -39,7 +53,21 @@
           "ko": "그래머 대륙에서."
         }
       ],
-      "speaker_en": "Grandpa Grammar"
+      "speaker_en": "Grandpa Grammar",
+      "direct_chunks": [
+        {
+          "en": "This letter",
+          "ko": "이 편지는"
+        },
+        {
+          "en": "is",
+          "ko": "이란다"
+        },
+        {
+          "en": "from the Grammar Continent.",
+          "ko": "그래머 대륙에서 온."
+        }
+      ]
     },
     {
       "speaker": "버벨라",
@@ -71,7 +99,21 @@
           "ko": "그라마티카에."
         }
       ],
-      "speaker_en": "Grandpa Grammar"
+      "speaker_en": "Grandpa Grammar",
+      "direct_chunks": [
+        {
+          "en": "Something",
+          "ko": "무언가"
+        },
+        {
+          "en": "is wrong",
+          "ko": "문제가 생겼구나"
+        },
+        {
+          "en": "with the Grammatica.",
+          "ko": "그라마티카에."
+        }
+      ]
     },
     {
       "speaker": "컴플리",
@@ -87,7 +129,25 @@
           "ko": "아직 끝나지 않았군."
         }
       ],
-      "speaker_en": "Comple"
+      "speaker_en": "Comple",
+      "direct_chunks": [
+        {
+          "en": "Our adventure",
+          "ko": "우리의 모험은"
+        },
+        {
+          "en": "is not",
+          "ko": "아니군"
+        },
+        {
+          "en": "over",
+          "ko": "끝난"
+        },
+        {
+          "en": "yet.",
+          "ko": "아직."
+        }
+      ]
     },
     {
       "speaker": "오브",
@@ -103,7 +163,17 @@
           "ko": "그래머 대륙으로!"
         }
       ],
-      "speaker_en": "Ob"
+      "speaker_en": "Ob",
+      "direct_chunks": [
+        {
+          "en": "Let's go",
+          "ko": "가자"
+        },
+        {
+          "en": "to the Grammar Continent!",
+          "ko": "그래머 대륙으로!"
+        }
+      ]
     }
   ],
   "library_intro": [
@@ -133,7 +203,25 @@
           "ko": "우리는 두 가지 언어를 사용한다네."
         }
       ],
-      "speaker_en": "Lexion"
+      "speaker_en": "Lexion",
+      "direct_chunks": [
+        {
+          "en": "In this land,",
+          "ko": "이 대륙에서는"
+        },
+        {
+          "en": "we",
+          "ko": "우리는"
+        },
+        {
+          "en": "speak",
+          "ko": "사용한다네"
+        },
+        {
+          "en": "two languages.",
+          "ko": "두 가지 언어를."
+        }
+      ]
     },
     {
       "speaker": "렉시온",
@@ -149,7 +237,25 @@
           "ko": "마법의 언어."
         }
       ],
-      "speaker_en": "Lexion"
+      "speaker_en": "Lexion",
+      "direct_chunks": [
+        {
+          "en": "English",
+          "ko": "영어는"
+        },
+        {
+          "en": "is",
+          "ko": "이라네"
+        },
+        {
+          "en": "the language",
+          "ko": "언어"
+        },
+        {
+          "en": "of magic.",
+          "ko": "마법의."
+        }
+      ]
     },
     {
       "speaker": "렉시온",
@@ -256,7 +362,21 @@
               }
             ],
             "speaker_legacy": "농부 팜",
-            "speaker_en": "Farmer Am"
+            "speaker_en": "Farmer Am",
+            "direct_chunks": [
+              {
+                "en": "My English",
+                "ko": "제 영어가"
+              },
+              {
+                "en": "is",
+                "ko": "예요"
+              },
+              {
+                "en": "all mixed up.",
+                "ko": "완전히 뒤죽박죽."
+              }
+            ]
           },
           "after_recovery": {
             "speaker": "농부 앰",
@@ -326,7 +446,21 @@
               }
             ],
             "speaker_legacy": "꼬마 리나",
-            "speaker_en": "Little Izzy"
+            "speaker_en": "Little Izzy",
+            "direct_chunks": [
+              {
+                "en": "A big tree monster",
+                "ko": "커다란 나무 괴물이"
+              },
+              {
+                "en": "took",
+                "ko": "가져갔어요"
+              },
+              {
+                "en": "the page.",
+                "ko": "페이지를."
+              }
+            ]
           },
           "original_problem_ref": "TOWN.g1.n[1]",
           "name_legacy": "꼬마 리나",
@@ -373,7 +507,21 @@
               }
             ],
             "speaker_legacy": "할머니 로즈",
-            "speaker_en": "Granny Aria"
+            "speaker_en": "Granny Aria",
+            "direct_chunks": [
+              {
+                "en": "The guardian",
+                "ko": "수호자는"
+              },
+              {
+                "en": "was kind",
+                "ko": "친절했단다"
+              },
+              {
+                "en": "to us.",
+                "ko": "우리에게."
+              }
+            ]
           },
           "original_problem_ref": "TOWN.g1.n[2]",
           "name_legacy": "할머니 로즈",
@@ -414,7 +562,21 @@
               }
             ],
             "speaker_legacy": "개 주인 벤",
-            "speaker_en": "Ben Bee"
+            "speaker_en": "Ben Bee",
+            "direct_chunks": [
+              {
+                "en": "Dark magic",
+                "ko": "어둠의 마력이"
+              },
+              {
+                "en": "is",
+                "ko": "있어요"
+              },
+              {
+                "en": "near the meadow.",
+                "ko": "초원 근처에."
+              }
+            ]
           },
           "original_problem_ref": "TOWN.g1.n[3]",
           "name_legacy": "개 주인 벤",
@@ -645,7 +807,21 @@
               }
             ],
             "speaker_legacy": "요리사 하루",
-            "speaker_en": "Chef Dot"
+            "speaker_en": "Chef Dot",
+            "direct_chunks": [
+              {
+                "en": "My customers",
+                "ko": "손님들이"
+              },
+              {
+                "en": "get",
+                "ko": "받아요"
+              },
+              {
+                "en": "the wrong meals.",
+                "ko": "잘못된 음식을."
+              }
+            ]
           },
           "after_recovery": {
             "speaker": "요리사 도트",
@@ -715,7 +891,25 @@
               }
             ],
             "speaker_legacy": "소년 닉",
-            "speaker_en": "Donny"
+            "speaker_en": "Donny",
+            "direct_chunks": [
+              {
+                "en": "Does",
+                "ko": "~하나요"
+              },
+              {
+                "en": "the guard",
+                "ko": "경비병은"
+              },
+              {
+                "en": "know",
+                "ko": "알고 있나요"
+              },
+              {
+                "en": "about the cave?",
+                "ko": "동굴에 대해?"
+              }
+            ]
           },
           "original_problem_ref": "TOWN.g2.n[2]",
           "name_legacy": "소년 닉",
@@ -739,7 +933,29 @@
               }
             ],
             "speaker_legacy": "고양이 집사 유나",
-            "speaker_en": "Miss Nott"
+            "speaker_en": "Miss Nott",
+            "direct_chunks": [
+              {
+                "en": "Can you",
+                "ko": "~해 주실래요"
+              },
+              {
+                "en": "help",
+                "ko": "도와"
+              },
+              {
+                "en": "me",
+                "ko": "저를"
+              },
+              {
+                "en": "find",
+                "ko": "찾게"
+              },
+              {
+                "en": "a pet sitter?",
+                "ko": "반려동물 돌봐 줄 사람을?"
+              }
+            ]
           },
           "after_recovery": {
             "speaker": "미스 노트",
@@ -756,7 +972,21 @@
               }
             ],
             "speaker_legacy": "고양이 집사 유나",
-            "speaker_en": "Miss Nott"
+            "speaker_en": "Miss Nott",
+            "direct_chunks": [
+              {
+                "en": "My cat",
+                "ko": "제 고양이가"
+              },
+              {
+                "en": "heard",
+                "ko": "들었어요"
+              },
+              {
+                "en": "a strange voice.",
+                "ko": "이상한 목소리를."
+              }
+            ]
           },
           "original_problem_ref": "TOWN.g2.n[3]",
           "name_legacy": "고양이 집사 유나",
@@ -973,7 +1203,29 @@
               }
             ],
             "speaker_legacy": "빵집 주인 보리",
-            "speaker_en": "Baker Preston"
+            "speaker_en": "Baker Preston",
+            "direct_chunks": [
+              {
+                "en": "The clock",
+                "ko": "시계가"
+              },
+              {
+                "en": "stopped",
+                "ko": "멈췄어요"
+              },
+              {
+                "en": "when",
+                "ko": "~했을 때"
+              },
+              {
+                "en": "the light",
+                "ko": "빛이"
+              },
+              {
+                "en": "appeared.",
+                "ko": "나타났."
+              }
+            ]
           },
           "original_problem_ref": "TOWN.tn.n[0]",
           "name_legacy": "빵집 주인 보리",
@@ -1046,7 +1298,21 @@
               }
             ],
             "speaker_legacy": "시계 할아버지",
-            "speaker_en": "Grandpa Tick"
+            "speaker_en": "Grandpa Tick",
+            "direct_chunks": [
+              {
+                "en": "My clock",
+                "ko": "내 시계가"
+              },
+              {
+                "en": "shows",
+                "ko": "보여 주는구나"
+              },
+              {
+                "en": "the wrong time.",
+                "ko": "잘못된 시간을."
+              }
+            ]
           },
           "after_recovery": {
             "speaker": "시계 할아버지 틱",
@@ -1063,7 +1329,21 @@
               }
             ],
             "speaker_legacy": "시계 할아버지",
-            "speaker_en": "Grandpa Tick"
+            "speaker_en": "Grandpa Tick",
+            "direct_chunks": [
+              {
+                "en": "The light",
+                "ko": "빛은"
+              },
+              {
+                "en": "came",
+                "ko": "왔단다"
+              },
+              {
+                "en": "from the plain.",
+                "ko": "평원에서."
+              }
+            ]
           },
           "original_problem_ref": "TOWN.tn.n[2]",
           "name_legacy": "시계 할아버지",
@@ -1087,7 +1367,21 @@
               }
             ],
             "speaker_legacy": "우체부 톰",
-            "speaker_en": "Postman Will"
+            "speaker_en": "Postman Will",
+            "direct_chunks": [
+              {
+                "en": "My delivery schedule",
+                "ko": "제 배달 일정이"
+              },
+              {
+                "en": "is",
+                "ko": "예요"
+              },
+              {
+                "en": "a mess.",
+                "ko": "엉망."
+              }
+            ]
           },
           "after_recovery": {
             "speaker": "우체부 윌",
@@ -1407,7 +1701,21 @@
               }
             ],
             "speaker_legacy": "심부름꾼 민",
-            "speaker_en": "Runner Canby"
+            "speaker_en": "Runner Canby",
+            "direct_chunks": [
+              {
+                "en": "The valley gate",
+                "ko": "계곡의 문이"
+              },
+              {
+                "en": "is open",
+                "ko": "열려 있어요"
+              },
+              {
+                "en": "now.",
+                "ko": "지금."
+              }
+            ]
           },
           "original_problem_ref": "TOWN.md.n[2]",
           "name_legacy": "심부름꾼 민",
@@ -1431,7 +1739,25 @@
               }
             ],
             "speaker_legacy": "경비대장 로이",
-            "speaker_en": "Captain Coulden"
+            "speaker_en": "Captain Coulden",
+            "direct_chunks": [
+              {
+                "en": "We",
+                "ko": "우리는"
+              },
+              {
+                "en": "need",
+                "ko": "필요하오"
+              },
+              {
+                "en": "help",
+                "ko": "도움이"
+              },
+              {
+                "en": "from the other side.",
+                "ko": "반대편의."
+              }
+            ]
           },
           "after_recovery": {
             "speaker": "경비대장 쿠든",
@@ -1702,7 +2028,21 @@
               }
             ],
             "speaker_legacy": "도서관 사서 노아",
-            "speaker_en": "Librarian Thatton"
+            "speaker_en": "Librarian Thatton",
+            "direct_chunks": [
+              {
+                "en": "Its map",
+                "ko": "그 책의 지도에는"
+              },
+              {
+                "en": "shows",
+                "ko": "나와요"
+              },
+              {
+                "en": "an old shelter.",
+                "ko": "오래된 대피소가."
+              }
+            ]
           },
           "original_problem_ref": "TOWN.rp.n[1]",
           "name_legacy": "도서관 사서 노아",
@@ -1747,7 +2087,21 @@
               }
             ],
             "speaker_legacy": "정비공 잭",
-            "speaker_en": "Mechanic Whoseley"
+            "speaker_en": "Mechanic Whoseley",
+            "direct_chunks": [
+              {
+                "en": "He",
+                "ko": "그는"
+              },
+              {
+                "en": "is waiting",
+                "ko": "기다리고 있어요"
+              },
+              {
+                "en": "near the forest.",
+                "ko": "숲 근처에서."
+              }
+            ]
           },
           "original_problem_ref": "TOWN.rp.n[2]",
           "name_legacy": "정비공 잭",
@@ -1796,7 +2150,21 @@
               }
             ],
             "speaker_legacy": "사냥꾼 한",
-            "speaker_en": "Hunter Whit"
+            "speaker_en": "Hunter Whit",
+            "direct_chunks": [
+              {
+                "en": "The girl",
+                "ko": "소녀는"
+              },
+              {
+                "en": "went",
+                "ko": "갔네"
+              },
+              {
+                "en": "toward the shelter.",
+                "ko": "대피소 쪽으로."
+              }
+            ]
           },
           "original_problem_ref": "TOWN.rp.n[3]",
           "name_legacy": "사냥꾼 한",
@@ -1972,7 +2340,21 @@
               }
             ],
             "speaker_legacy": "빵집 아가씨 소피",
-            "speaker_en": "Baker Bea"
+            "speaker_en": "Baker Bea",
+            "direct_chunks": [
+              {
+                "en": "The window",
+                "ko": "창문이"
+              },
+              {
+                "en": "was broken",
+                "ko": "깨졌어요"
+              },
+              {
+                "en": "last night.",
+                "ko": "어젯밤."
+              }
+            ]
           },
           "after_recovery": {
             "speaker": "제빵사 비아",
@@ -2534,7 +2916,21 @@
           }
         ],
         "speaker_legacy": "집주인 맥스",
-        "speaker_en": "Landlord Haven"
+        "speaker_en": "Landlord Haven",
+        "direct_chunks": [
+          {
+            "en": "My family",
+            "ko": "제 가족은"
+          },
+          {
+            "en": "has not forgotten",
+            "ko": "잊지 않았어요"
+          },
+          {
+            "en": "me.",
+            "ko": "저를."
+          }
+        ]
       },
       "next_dialogue": {
         "speaker": "집주인 헤이븐",
@@ -2713,7 +3109,21 @@
               }
             ],
             "speaker_legacy": "어부 노아",
-            "speaker_en": "Fisher Whereley"
+            "speaker_en": "Fisher Whereley",
+            "direct_chunks": [
+              {
+                "en": "The old harbor",
+                "ko": "옛 항구는"
+              },
+              {
+                "en": "is",
+                "ko": "있어요"
+              },
+              {
+                "en": "near that house.",
+                "ko": "그 집 근처에."
+              }
+            ]
           },
           "original_problem_ref": "TOWN.rv.n[0]",
           "name_legacy": "어부 노아",
@@ -2815,7 +3225,21 @@
               }
             ],
             "speaker_legacy": "코치 샘",
-            "speaker_en": "Coach Howie"
+            "speaker_en": "Coach Howie",
+            "direct_chunks": [
+              {
+                "en": "The old house",
+                "ko": "오래된 집은"
+              },
+              {
+                "en": "is",
+                "ko": "있어요"
+              },
+              {
+                "en": "behind the park.",
+                "ko": "공원 뒤에."
+              }
+            ]
           },
           "original_problem_ref": "TOWN.rv.n[2]",
           "name_legacy": "코치 샘",
@@ -2839,7 +3263,25 @@
               }
             ],
             "speaker_legacy": "이장님",
-            "speaker_en": "Mayor Whyatt"
+            "speaker_en": "Mayor Whyatt",
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "나는"
+              },
+              {
+                "en": "keep",
+                "ko": "보관한다네"
+              },
+              {
+                "en": "records",
+                "ko": "기록을"
+              },
+              {
+                "en": "of our village.",
+                "ko": "우리 마을의."
+              }
+            ]
           },
           "after_recovery": {
             "speaker": "이장 와이엇",
@@ -2856,7 +3298,21 @@
               }
             ],
             "speaker_legacy": "이장님",
-            "speaker_en": "Mayor Whyatt"
+            "speaker_en": "Mayor Whyatt",
+            "direct_chunks": [
+              {
+                "en": "The record",
+                "ko": "기록은"
+              },
+              {
+                "en": "points",
+                "ko": "가리킨다네"
+              },
+              {
+                "en": "to the canyon.",
+                "ko": "협곡을."
+              }
+            ]
           },
           "original_problem_ref": "TOWN.rv.n[3]",
           "name_legacy": "이장님",
@@ -3122,7 +3578,21 @@
               }
             ],
             "speaker_legacy": "학생 카이",
-            "speaker_en": "Student Knowing"
+            "speaker_en": "Student Knowing",
+            "direct_chunks": [
+              {
+                "en": "The monsters",
+                "ko": "괴물들은"
+              },
+              {
+                "en": "were created",
+                "ko": "만들어졌어요"
+              },
+              {
+                "en": "by magic.",
+                "ko": "마법으로."
+              }
+            ]
           },
           "original_problem_ref": "TOWN.pc.n[1]",
           "name_legacy": "학생 카이",
@@ -3203,7 +3673,25 @@
               }
             ],
             "speaker_legacy": "소녀 하나",
-            "speaker_en": "Faye"
+            "speaker_en": "Faye",
+            "direct_chunks": [
+              {
+                "en": "Not feeling well,",
+                "ko": "몸이 좋지 않아서"
+              },
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "stayed",
+                "ko": "있었어요"
+              },
+              {
+                "en": "home.",
+                "ko": "집에."
+              }
+            ]
           },
           "after_recovery": {
             "speaker": "페이",
@@ -3275,7 +3763,21 @@
           }
         ],
         "speaker_legacy": "산책자 윌",
-        "speaker_en": "Walker Ingmar"
+        "speaker_en": "Walker Ingmar",
+        "direct_chunks": [
+          {
+            "en": "A similar mark",
+            "ko": "비슷한 문양이"
+          },
+          {
+            "en": "was found",
+            "ko": "발견됐어요"
+          },
+          {
+            "en": "in Ifhaven.",
+            "ko": "이프헤이븐에서."
+          }
+        ]
       },
       "boss_intro": [
         {
@@ -3829,7 +4331,25 @@
               }
             ],
             "speaker_legacy": "달리기 선수 아이",
-            "speaker_en": "Runner Swift"
+            "speaker_en": "Runner Swift",
+            "direct_chunks": [
+              {
+                "en": "The birds",
+                "ko": "새들에게도"
+              },
+              {
+                "en": "need",
+                "ko": "필요해요"
+              },
+              {
+                "en": "a fair race",
+                "ko": "공정한 경주가"
+              },
+              {
+                "en": "too.",
+                "ko": "역시."
+              }
+            ]
           },
           "original_problem_ref": "TOWN.cp.n[0]",
           "name_legacy": "달리기 선수 아이",
@@ -3874,7 +4394,21 @@
               }
             ],
             "speaker_legacy": "가방 상인 릴리",
-            "speaker_en": "Merchant Morella"
+            "speaker_en": "Merchant Morella",
+            "direct_chunks": [
+              {
+                "en": "The winning bird",
+                "ko": "우승한 새에게는"
+              },
+              {
+                "en": "needs",
+                "ko": "필요해요"
+              },
+              {
+                "en": "a light bag.",
+                "ko": "가벼운 가방이."
+              }
+            ]
           },
           "original_problem_ref": "TOWN.cp.n[1]",
           "name_legacy": "가방 상인 릴리",
@@ -4019,7 +4553,25 @@
           }
         ],
         "speaker_legacy": "달리기 선수 아이",
-        "speaker_en": "Runner Swift"
+        "speaker_en": "Runner Swift",
+        "direct_chunks": [
+          {
+            "en": "Some prizes",
+            "ko": "일부 상품이"
+          },
+          {
+            "en": "were sent",
+            "ko": "보내졌어요"
+          },
+          {
+            "en": "to Pronovia",
+            "ko": "프로노비아로"
+          },
+          {
+            "en": "by mistake.",
+            "ko": "실수로."
+          }
+        ]
       },
       "boss_intro": [
         {
@@ -4177,7 +4729,21 @@
               }
             ],
             "speaker_legacy": "책방 주인 메이",
-            "speaker_en": "Bookseller Myra"
+            "speaker_en": "Bookseller Myra",
+            "direct_chunks": [
+              {
+                "en": "An old book",
+                "ko": "오래된 책에"
+              },
+              {
+                "en": "has",
+                "ko": "있어요"
+              },
+              {
+                "en": "a strange seal.",
+                "ko": "이상한 인장이."
+              }
+            ]
           },
           "original_problem_ref": "TOWN.pn.n[0]",
           "name_legacy": "책방 주인 메이",
@@ -4256,7 +4822,25 @@
               }
             ],
             "speaker_legacy": "소녀 지아",
-            "speaker_en": "Selma"
+            "speaker_en": "Selma",
+            "direct_chunks": [
+              {
+                "en": "She",
+                "ko": "그녀는"
+              },
+              {
+                "en": "hurt",
+                "ko": "다쳤어요"
+              },
+              {
+                "en": "herself",
+                "ko": "몸을"
+              },
+              {
+                "en": "at the race.",
+                "ko": "경주에서."
+              }
+            ]
           },
           "after_recovery": {
             "speaker": "셀마",
@@ -4277,7 +4861,21 @@
               }
             ],
             "speaker_legacy": "소녀 지아",
-            "speaker_en": "Selma"
+            "speaker_en": "Selma",
+            "direct_chunks": [
+              {
+                "en": "Her bag",
+                "ko": "그녀의 가방은"
+              },
+              {
+                "en": "is",
+                "ko": "있어요"
+              },
+              {
+                "en": "at the lost property desk.",
+                "ko": "분실물 보관소에."
+              }
+            ]
           },
           "original_problem_ref": "TOWN.pn.n[2]",
           "name_legacy": "소녀 지아",
@@ -4301,7 +4899,25 @@
               }
             ],
             "speaker_legacy": "소년 레오",
-            "speaker_en": "Theo"
+            "speaker_en": "Theo",
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "play",
+                "ko": "해요"
+              },
+              {
+                "en": "soccer",
+                "ko": "축구를"
+              },
+              {
+                "en": "with my friends.",
+                "ko": "친구들과."
+              }
+            ]
           },
           "after_recovery": {
             "speaker": "테오",
@@ -4340,7 +4956,21 @@
           }
         ],
         "speaker_legacy": "책방 주인 메이",
-        "speaker_en": "Bookseller Myra"
+        "speaker_en": "Bookseller Myra",
+        "direct_chunks": [
+          {
+            "en": "Everything",
+            "ko": "모든 물건이"
+          },
+          {
+            "en": "is back",
+            "ko": "돌아갔어요"
+          },
+          {
+            "en": "with its owner.",
+            "ko": "주인에게."
+          }
+        ]
       },
       "next_dialogue": {
         "speaker": "책방 주인 마이라",
@@ -4539,7 +5169,21 @@
               }
             ],
             "speaker_legacy": "소녀 수아",
-            "speaker_en": "Onna"
+            "speaker_en": "Onna",
+            "direct_chunks": [
+              {
+                "en": "The trip",
+                "ko": "여행은"
+              },
+              {
+                "en": "is",
+                "ko": "이에요"
+              },
+              {
+                "en": "on May fifth.",
+                "ko": "5월 5일."
+              }
+            ]
           },
           "after_recovery": {
             "speaker": "오나",
@@ -4556,7 +5200,21 @@
               }
             ],
             "speaker_legacy": "소녀 수아",
-            "speaker_en": "Onna"
+            "speaker_en": "Onna",
+            "direct_chunks": [
+              {
+                "en": "The ticket",
+                "ko": "표는"
+              },
+              {
+                "en": "is",
+                "ko": "있어요"
+              },
+              {
+                "en": "in my bag.",
+                "ko": "제 가방 안에."
+              }
+            ]
           },
           "original_problem_ref": "TOWN.ot.n[1]",
           "name_legacy": "소녀 수아",
@@ -4617,7 +5275,21 @@
               }
             ],
             "speaker_legacy": "수학 선생 라이언",
-            "speaker_en": "Teacher Atley"
+            "speaker_en": "Teacher Atley",
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "can check",
+                "ko": "확인할 수 있어요"
+              },
+              {
+                "en": "the cargo list.",
+                "ko": "화물 목록을."
+              }
+            ]
           },
           "original_problem_ref": "TOWN.ot.n[2]",
           "name_legacy": "수학 선생 라이언",
@@ -4641,7 +5313,21 @@
               }
             ],
             "speaker_legacy": "어부 소피아",
-            "speaker_en": "Fisher Inna"
+            "speaker_en": "Fisher Inna",
+            "direct_chunks": [
+              {
+                "en": "The cat",
+                "ko": "고양이는"
+              },
+              {
+                "en": "is",
+                "ko": "있어요"
+              },
+              {
+                "en": "under the table.",
+                "ko": "탁자 아래에."
+              }
+            ]
           },
           "after_recovery": {
             "speaker": "어부 이나",
@@ -4658,7 +5344,21 @@
               }
             ],
             "speaker_legacy": "어부 소피아",
-            "speaker_en": "Fisher Inna"
+            "speaker_en": "Fisher Inna",
+            "direct_chunks": [
+              {
+                "en": "The map",
+                "ko": "지도는"
+              },
+              {
+                "en": "is",
+                "ko": "있어요"
+              },
+              {
+                "en": "in the cabin.",
+                "ko": "선실 안에."
+              }
+            ]
           },
           "original_problem_ref": "TOWN.ot.n[3]",
           "name_legacy": "어부 소피아",
@@ -4701,7 +5401,21 @@
           }
         ],
         "speaker_legacy": "선원 보",
-        "speaker_en": "Sailor Byron"
+        "speaker_en": "Sailor Byron",
+        "direct_chunks": [
+          {
+            "en": "Our next stop",
+            "ko": "우리의 다음 목적지는"
+          },
+          {
+            "en": "is",
+            "ko": "이에요"
+          },
+          {
+            "en": "Verbal Heights.",
+            "ko": "버벌 하이츠."
+          }
+        ]
       },
       "boss_intro": [
         {
@@ -4892,7 +5606,21 @@
               }
             ],
             "speaker_legacy": "여행자 켄",
-            "speaker_en": "Traveler Togo"
+            "speaker_en": "Traveler Togo",
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "finished reading",
+                "ko": "다 읽었어요"
+              },
+              {
+                "en": "the travel guide.",
+                "ko": "여행 안내서를."
+              }
+            ]
           },
           "original_problem_ref": "TOWN.iv.n[1]",
           "name_legacy": "여행자 켄",
@@ -4916,7 +5644,25 @@
               }
             ],
             "speaker_legacy": "언어학자 노라",
-            "speaker_en": "Linguist Infina"
+            "speaker_en": "Linguist Infina",
+            "direct_chunks": [
+              {
+                "en": "It",
+                "ko": "~은"
+              },
+              {
+                "en": "is hard",
+                "ko": "어려워요"
+              },
+              {
+                "en": "to read",
+                "ko": "읽기가"
+              },
+              {
+                "en": "this report.",
+                "ko": "이 보고서를."
+              }
+            ]
           },
           "after_recovery": {
             "speaker": "언어학자 인피나",
@@ -5008,7 +5754,25 @@
           }
         ],
         "speaker_legacy": "수영 선수 진",
-        "speaker_en": "Swimmer Finn"
+        "speaker_en": "Swimmer Finn",
+        "direct_chunks": [
+          {
+            "en": "We",
+            "ko": "우리는"
+          },
+          {
+            "en": "are ready",
+            "ko": "준비가 됐어요"
+          },
+          {
+            "en": "to follow",
+            "ko": "나아갈"
+          },
+          {
+            "en": "our dreams.",
+            "ko": "꿈을 향해."
+          }
+        ]
       },
       "next_dialogue": {
         "speaker": "수영 선수 핀",
@@ -5158,7 +5922,29 @@
               }
             ],
             "speaker_legacy": "새 관찰자 에이",
-            "speaker_en": "Birdwatcher Seer"
+            "speaker_en": "Birdwatcher Seer",
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "saw",
+                "ko": "봤어요"
+              },
+              {
+                "en": "someone",
+                "ko": "누군가"
+              },
+              {
+                "en": "cross",
+                "ko": "건너는 것을"
+              },
+              {
+                "en": "the road.",
+                "ko": "길을."
+              }
+            ]
           },
           "after_recovery": {
             "speaker": "새 관찰자 시어",
@@ -5281,7 +6067,21 @@
               }
             ],
             "speaker_legacy": "요리사 간",
-            "speaker_en": "Chef Savory"
+            "speaker_en": "Chef Savory",
+            "direct_chunks": [
+              {
+                "en": "The smell",
+                "ko": "그 냄새는"
+              },
+              {
+                "en": "came",
+                "ko": "왔어요"
+              },
+              {
+                "en": "from the road.",
+                "ko": "길에서."
+              }
+            ]
           },
           "original_problem_ref": "TOWN.pe.n[2]",
           "name_legacy": "요리사 간",
@@ -5360,7 +6160,21 @@
           }
         ],
         "speaker_legacy": "새 관찰자 에이",
-        "speaker_en": "Birdwatcher Seer"
+        "speaker_en": "Birdwatcher Seer",
+        "direct_chunks": [
+          {
+            "en": "Our reports",
+            "ko": "우리의 보고는"
+          },
+          {
+            "en": "tell",
+            "ko": "전해요"
+          },
+          {
+            "en": "the same story.",
+            "ko": "같은 이야기를."
+          }
+        ]
       },
       "next_dialogue": {
         "speaker": "새 관찰자 시어",
@@ -5684,7 +6498,25 @@
               }
             ],
             "speaker_legacy": "공원지기 헨리",
-            "speaker_en": "Keeper Letty"
+            "speaker_en": "Keeper Letty",
+            "direct_chunks": [
+              {
+                "en": "Keep",
+                "ko": "두세요"
+              },
+              {
+                "en": "the path",
+                "ko": "길을"
+              },
+              {
+                "en": "clear",
+                "ko": "비워"
+              },
+              {
+                "en": "for the visitors.",
+                "ko": "방문객들을 위해."
+              }
+            ]
           },
           "original_problem_ref": "TOWN.ng.n[3]",
           "name_legacy": "공원지기 헨리",
@@ -5729,7 +6561,21 @@
           }
         ],
         "speaker_legacy": "꽃집 아가씨 로사",
-        "speaker_en": "Florist Flora"
+        "speaker_en": "Florist Flora",
+        "direct_chunks": [
+          {
+            "en": "An urgent message",
+            "ko": "긴급 전갈이"
+          },
+          {
+            "en": "has arrived",
+            "ko": "도착했어요"
+          },
+          {
+            "en": "from Speechport.",
+            "ko": "스피치포트에서."
+          }
+        ]
       },
       "boss_intro": [
         {
@@ -5883,7 +6729,21 @@
               }
             ],
             "speaker_legacy": "우체부 샘",
-            "speaker_en": "Postman Tell"
+            "speaker_en": "Postman Tell",
+            "direct_chunks": [
+              {
+                "en": "The sender",
+                "ko": "발신자는"
+              },
+              {
+                "en": "used",
+                "ko": "사용했어요"
+              },
+              {
+                "en": "a black seal.",
+                "ko": "검은 인장을."
+              }
+            ]
           },
           "original_problem_ref": "TOWN.rs.n[0]",
           "name_legacy": "우체부 샘",
@@ -5907,7 +6767,25 @@
               }
             ],
             "speaker_legacy": "탐정 노아",
-            "speaker_en": "Detective Ask"
+            "speaker_en": "Detective Ask",
+            "direct_chunks": [
+              {
+                "en": "Do you know",
+                "ko": "알고 있나요"
+              },
+              {
+                "en": "where",
+                "ko": "어디에"
+              },
+              {
+                "en": "the sender",
+                "ko": "발신자가"
+              },
+              {
+                "en": "is?",
+                "ko": "있는지?"
+              }
+            ]
           },
           "after_recovery": {
             "speaker": "탐정 애스크",
@@ -5924,7 +6802,25 @@
               }
             ],
             "speaker_legacy": "탐정 노아",
-            "speaker_en": "Detective Ask"
+            "speaker_en": "Detective Ask",
+            "direct_chunks": [
+              {
+                "en": "The seal",
+                "ko": "인장이"
+              },
+              {
+                "en": "matches",
+                "ko": "일치해요"
+              },
+              {
+                "en": "the one",
+                "ko": "그것과"
+              },
+              {
+                "en": "from Sensewood.",
+                "ko": "센스우드에서 온."
+              }
+            ]
           },
           "original_problem_ref": "TOWN.rs.n[1]",
           "name_legacy": "탐정 노아",
@@ -5948,7 +6844,33 @@
               }
             ],
             "speaker_legacy": "학생 미나",
-            "speaker_en": "Student Quora"
+            "speaker_en": "Student Quora",
+            "direct_chunks": [
+              {
+                "en": "He",
+                "ko": "그는"
+              },
+              {
+                "en": "asked",
+                "ko": "물었어요"
+              },
+              {
+                "en": "me",
+                "ko": "제게"
+              },
+              {
+                "en": "where",
+                "ko": "어디에"
+              },
+              {
+                "en": "the castle",
+                "ko": "성이"
+              },
+              {
+                "en": "was.",
+                "ko": "있는지."
+              }
+            ]
           },
           "after_recovery": {
             "speaker": "학생 쿼라",
@@ -6206,7 +7128,21 @@
               }
             ],
             "speaker_legacy": "선장 아벨",
-            "speaker_en": "Captain Never"
+            "speaker_en": "Captain Never",
+            "direct_chunks": [
+              {
+                "en": "Never",
+                "ko": "결코"
+              },
+              {
+                "en": "have I seen",
+                "ko": "본 적 없소"
+              },
+              {
+                "en": "such a dark sky.",
+                "ko": "그렇게 어두운 하늘은."
+              }
+            ]
           },
           "after_recovery": {
             "speaker": "선장 네버",
@@ -6223,7 +7159,21 @@
               }
             ],
             "speaker_legacy": "선장 아벨",
-            "speaker_en": "Captain Never"
+            "speaker_en": "Captain Never",
+            "direct_chunks": [
+              {
+                "en": "The storm",
+                "ko": "폭풍은"
+              },
+              {
+                "en": "began",
+                "ko": "시작됐소"
+              },
+              {
+                "en": "above the castle.",
+                "ko": "성 위에서."
+              }
+            ]
           },
           "original_problem_ref": "TOWN.sx.n[0]",
           "name_legacy": "선장 아벨",
@@ -6292,7 +7242,29 @@
               }
             ],
             "speaker_legacy": "예술가 비비",
-            "speaker_en": "Artist Parallel"
+            "speaker_en": "Artist Parallel",
+            "direct_chunks": [
+              {
+                "en": "The wall",
+                "ko": "벽에는"
+              },
+              {
+                "en": "shows",
+                "ko": "나타나 있어요"
+              },
+              {
+                "en": "reading,",
+                "ko": "읽기,"
+              },
+              {
+                "en": "writing,",
+                "ko": "쓰기,"
+              },
+              {
+                "en": "and speaking.",
+                "ko": "그리고 말하기가."
+              }
+            ]
           },
           "after_recovery": {
             "speaker": "예술가 패럴렐",
@@ -6401,7 +7373,21 @@
           }
         ],
         "speaker_legacy": "선장 아벨",
-        "speaker_en": "Captain Never"
+        "speaker_en": "Captain Never",
+        "direct_chunks": [
+          {
+            "en": "Return",
+            "ko": "돌아가세요"
+          },
+          {
+            "en": "to the library",
+            "ko": "도서관으로"
+          },
+          {
+            "en": "with all the pages.",
+            "ko": "모든 페이지를 가지고."
+          }
+        ]
       },
       "boss_intro": [
         {
@@ -6516,7 +7502,21 @@
             "ko": "같은 문양을 지니고 있네."
           }
         ],
-        "speaker_en": "Lexion"
+        "speaker_en": "Lexion",
+        "direct_chunks": [
+          {
+            "en": "The pages",
+            "ko": "페이지들은"
+          },
+          {
+            "en": "share",
+            "ko": "지니고 있네"
+          },
+          {
+            "en": "the same mark.",
+            "ko": "같은 문양을."
+          }
+        ]
       }
     ],
     "6": [
@@ -6570,7 +7570,21 @@
             "ko": "우리 도서관을 공격했네."
           }
         ],
-        "speaker_en": "Lexion"
+        "speaker_en": "Lexion",
+        "direct_chunks": [
+          {
+            "en": "The dark army",
+            "ko": "대마왕군이"
+          },
+          {
+            "en": "attacked",
+            "ko": "공격했네"
+          },
+          {
+            "en": "our library.",
+            "ko": "우리 도서관을."
+          }
+        ]
       }
     ],
     "15": [
@@ -6588,7 +7602,21 @@
             "ko": "공격들을 연결해 주네."
           }
         ],
-        "speaker_en": "Lexion"
+        "speaker_en": "Lexion",
+        "direct_chunks": [
+          {
+            "en": "The black seal",
+            "ko": "검은 인장이"
+          },
+          {
+            "en": "links",
+            "ko": "연결하네"
+          },
+          {
+            "en": "the attacks.",
+            "ko": "공격들을."
+          }
+        ]
       }
     ],
     "18": [
@@ -6683,7 +7711,29 @@
           "ko": "자신의 생각을 말할."
         }
       ],
-      "speaker_en": "Comple"
+      "speaker_en": "Comple",
+      "direct_chunks": [
+        {
+          "en": "Everyone",
+          "ko": "모든 사람은"
+        },
+        {
+          "en": "has",
+          "ko": "가지고 있다"
+        },
+        {
+          "en": "the right",
+          "ko": "권리를"
+        },
+        {
+          "en": "to speak",
+          "ko": "말할"
+        },
+        {
+          "en": "for themselves.",
+          "ko": "자신을 위해."
+        }
+      ]
     },
     {
       "speaker": "옥시",

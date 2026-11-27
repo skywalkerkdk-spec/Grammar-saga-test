@@ -456,12 +456,24 @@
           "ko": "우리가 시작한 일을 끝내요.",
           "direct_chunks": [
             {
-              "en": "Let us finish",
-              "ko": "끝내요"
+              "en": "Let us",
+              "ko": "~해요"
             },
             {
-              "en": "what we started.",
-              "ko": "우리가 시작한 일을."
+              "en": "finish",
+              "ko": "끝내자"
+            },
+            {
+              "en": "what",
+              "ko": "~것을"
+            },
+            {
+              "en": "we",
+              "ko": "우리가"
+            },
+            {
+              "en": "started.",
+              "ko": "시작한."
             }
           ]
         }

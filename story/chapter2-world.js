@@ -309,6 +309,7 @@ window.createChapterWorld = function(api, data) {
     const ids=new Set(['arrival','reveal','answer']);
     const support=mainArc.support.filter(item=>flag(item.requires)).map(item=>({
       speaker:'Lexion',en:item.en+' helped us reach this place.',ko:item.ko+' 덕분에 여기까지 올 수 있었네.',
+      direct_chunks:[{en:item.en,ko:item.ko},{en:'helped',ko:'도왔어'},{en:'us',ko:'우리가'},{en:'reach',ko:'도착하도록'},{en:'this place.',ko:'이곳에.'}],
     }));
     return [...close.finale.filter(line=>ids.has(line.id)),...support].map(line=>localized(line));
   }

@@ -227,8 +227,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "I must find",
-                "ko": "나는 찾아야 해"
+                "en": "I",
+                "ko": "나는"
+              },
+              {
+                "en": "must find",
+                "ko": "찾아야 해"
               },
               {
                 "en": "the right person.",
@@ -958,8 +962,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "You cannot cross!",
-                "ko": "너희는 건널 수 없다!"
+                "en": "You",
+                "ko": "너희는"
+              },
+              {
+                "en": "cannot cross!",
+                "ko": "건널 수 없다!"
               }
             ]
           }
@@ -2765,8 +2773,12 @@
                 "ko": "마지막 페이지가"
               },
               {
-                "en": "is within reach.",
-                "ko": "손에 닿을 곳에 있다."
+                "en": "is",
+                "ko": "있다"
+              },
+              {
+                "en": "within reach.",
+                "ko": "손에 닿을 곳에."
               }
             ]
           }
@@ -3007,7 +3019,29 @@
             "ko": "자신의 생각을 말할."
           }
         ],
-        "speaker_en": "Comple"
+        "speaker_en": "Comple",
+        "direct_chunks": [
+          {
+            "en": "Everyone",
+            "ko": "모든 사람은"
+          },
+          {
+            "en": "has",
+            "ko": "가지고 있다"
+          },
+          {
+            "en": "the right",
+            "ko": "권리를"
+          },
+          {
+            "en": "to speak",
+            "ko": "말할"
+          },
+          {
+            "en": "for themselves.",
+            "ko": "자신을 위해."
+          }
+        ]
       },
       {
         "speaker": "옥시",

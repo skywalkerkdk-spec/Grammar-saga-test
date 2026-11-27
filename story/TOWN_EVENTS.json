@@ -810,12 +810,20 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I am glad",
-                    "ko": "저는 기뻐요"
+                    "en": "I",
+                    "ko": "저는"
                   },
                   {
-                    "en": "we could help.",
-                    "ko": "우리가 도울 수 있어서."
+                    "en": "am glad",
+                    "ko": "기뻐요"
+                  },
+                  {
+                    "en": "we",
+                    "ko": "우리가"
+                  },
+                  {
+                    "en": "could help.",
+                    "ko": "도울 수 있어서."
                   }
                 ]
               }
@@ -944,8 +952,16 @@
                     "ko": "저는"
                   },
                   {
-                    "en": "will put it to use",
-                    "ko": "쓸게요."
+                    "en": "will put",
+                    "ko": "쓸게요"
+                  },
+                  {
+                    "en": "it",
+                    "ko": "그것을"
+                  },
+                  {
+                    "en": "to use",
+                    "ko": "사용에"
                   },
                   {
                     "en": "today.",
@@ -2003,12 +2019,20 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I am glad",
-                    "ko": "저는 기뻐요"
+                    "en": "I",
+                    "ko": "저는"
                   },
                   {
-                    "en": "we could help.",
-                    "ko": "우리가 도울 수 있어서."
+                    "en": "am glad",
+                    "ko": "기뻐요"
+                  },
+                  {
+                    "en": "we",
+                    "ko": "우리가"
+                  },
+                  {
+                    "en": "could help.",
+                    "ko": "도울 수 있어서."
                   }
                 ]
               }
@@ -2141,8 +2165,16 @@
                     "ko": "저는"
                   },
                   {
-                    "en": "will put it to use",
-                    "ko": "쓸게요."
+                    "en": "will put",
+                    "ko": "쓸게요"
+                  },
+                  {
+                    "en": "it",
+                    "ko": "그것을"
+                  },
+                  {
+                    "en": "to use",
+                    "ko": "사용에"
                   },
                   {
                     "en": "today.",
@@ -3210,12 +3242,20 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I am glad",
-                    "ko": "저는 기뻐요"
+                    "en": "I",
+                    "ko": "저는"
                   },
                   {
-                    "en": "we could help.",
-                    "ko": "우리가 도울 수 있어서."
+                    "en": "am glad",
+                    "ko": "기뻐요"
+                  },
+                  {
+                    "en": "we",
+                    "ko": "우리가"
+                  },
+                  {
+                    "en": "could help.",
+                    "ko": "도울 수 있어서."
                   }
                 ]
               }
@@ -3344,8 +3384,16 @@
                     "ko": "저는"
                   },
                   {
-                    "en": "will put it to use",
-                    "ko": "쓸게요."
+                    "en": "will put",
+                    "ko": "쓸게요"
+                  },
+                  {
+                    "en": "it",
+                    "ko": "그것을"
+                  },
+                  {
+                    "en": "to use",
+                    "ko": "사용에"
                   },
                   {
                     "en": "today.",
@@ -4373,12 +4421,20 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I am glad",
-                    "ko": "저는 기뻐요"
+                    "en": "I",
+                    "ko": "저는"
                   },
                   {
-                    "en": "we could help.",
-                    "ko": "우리가 도울 수 있어서."
+                    "en": "am glad",
+                    "ko": "기뻐요"
+                  },
+                  {
+                    "en": "we",
+                    "ko": "우리가"
+                  },
+                  {
+                    "en": "could help.",
+                    "ko": "도울 수 있어서."
                   }
                 ]
               }
@@ -4511,8 +4567,16 @@
                     "ko": "저는"
                   },
                   {
-                    "en": "will put it to use",
-                    "ko": "쓸게요."
+                    "en": "will put",
+                    "ko": "쓸게요"
+                  },
+                  {
+                    "en": "it",
+                    "ko": "그것을"
+                  },
+                  {
+                    "en": "to use",
+                    "ko": "사용에"
                   },
                   {
                     "en": "today.",
@@ -4586,7 +4650,7 @@
                   },
                   {
                     "en": "has been canceled.",
-                    "ko": "취소됐어요."
+                    "ko": "취소됐대요."
                   }
                 ]
               }
@@ -5552,12 +5616,20 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I am glad",
-                    "ko": "저는 기뻐요"
+                    "en": "I",
+                    "ko": "저는"
                   },
                   {
-                    "en": "we could help.",
-                    "ko": "우리가 도울 수 있어서."
+                    "en": "am glad",
+                    "ko": "기뻐요"
+                  },
+                  {
+                    "en": "we",
+                    "ko": "우리가"
+                  },
+                  {
+                    "en": "could help.",
+                    "ko": "도울 수 있어서."
                   }
                 ]
               }
@@ -5611,7 +5683,7 @@
                   },
                   {
                     "en": "for",
-                    "ko": "을"
+                    "ko": "~을"
                   },
                   {
                     "en": "a bottle of blue ink.",
@@ -5694,8 +5766,16 @@
                     "ko": "저는"
                   },
                   {
-                    "en": "will put it to use",
-                    "ko": "쓸게요."
+                    "en": "will put",
+                    "ko": "쓸게요"
+                  },
+                  {
+                    "en": "it",
+                    "ko": "그것을"
+                  },
+                  {
+                    "en": "to use",
+                    "ko": "사용에"
                   },
                   {
                     "en": "today.",
@@ -5775,11 +5855,11 @@
                 "direct_chunks": [
                   {
                     "en": "The white stones",
-                    "ko": "흰 돌들이"
+                    "ko": "흰 돌을"
                   },
                   {
                     "en": "have all been removed.",
-                    "ko": "모두 치워졌어요."
+                    "ko": "전부 치웠대요."
                   }
                 ]
               }
@@ -6749,12 +6829,20 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I am glad",
-                    "ko": "저는 기뻐요"
+                    "en": "I",
+                    "ko": "저는"
                   },
                   {
-                    "en": "we could help.",
-                    "ko": "우리가 도울 수 있어서."
+                    "en": "am glad",
+                    "ko": "기뻐요"
+                  },
+                  {
+                    "en": "we",
+                    "ko": "우리가"
+                  },
+                  {
+                    "en": "could help.",
+                    "ko": "도울 수 있어서."
                   }
                 ]
               }
@@ -6887,8 +6975,16 @@
                     "ko": "저는"
                   },
                   {
-                    "en": "will put it to use",
-                    "ko": "쓸게요."
+                    "en": "will put",
+                    "ko": "쓸게요"
+                  },
+                  {
+                    "en": "it",
+                    "ko": "그것을"
+                  },
+                  {
+                    "en": "to use",
+                    "ko": "사용에"
                   },
                   {
                     "en": "today.",
@@ -7940,12 +8036,20 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I am glad",
-                    "ko": "저는 기뻐요"
+                    "en": "I",
+                    "ko": "저는"
                   },
                   {
-                    "en": "we could help.",
-                    "ko": "우리가 도울 수 있어서."
+                    "en": "am glad",
+                    "ko": "기뻐요"
+                  },
+                  {
+                    "en": "we",
+                    "ko": "우리가"
+                  },
+                  {
+                    "en": "could help.",
+                    "ko": "도울 수 있어서."
                   }
                 ]
               }
@@ -8078,8 +8182,16 @@
                     "ko": "저는"
                   },
                   {
-                    "en": "will put it to use",
-                    "ko": "쓸게요."
+                    "en": "will put",
+                    "ko": "쓸게요"
+                  },
+                  {
+                    "en": "it",
+                    "ko": "그것을"
+                  },
+                  {
+                    "en": "to use",
+                    "ko": "사용에"
                   },
                   {
                     "en": "today.",
@@ -9151,12 +9263,20 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I am glad",
-                    "ko": "저는 기뻐요"
+                    "en": "I",
+                    "ko": "저는"
                   },
                   {
-                    "en": "we could help.",
-                    "ko": "우리가 도울 수 있어서."
+                    "en": "am glad",
+                    "ko": "기뻐요"
+                  },
+                  {
+                    "en": "we",
+                    "ko": "우리가"
+                  },
+                  {
+                    "en": "could help.",
+                    "ko": "도울 수 있어서."
                   }
                 ]
               }
@@ -9289,8 +9409,16 @@
                     "ko": "저는"
                   },
                   {
-                    "en": "will put it to use",
-                    "ko": "쓸게요."
+                    "en": "will put",
+                    "ko": "쓸게요"
+                  },
+                  {
+                    "en": "it",
+                    "ko": "그것을"
+                  },
+                  {
+                    "en": "to use",
+                    "ko": "사용에"
                   },
                   {
                     "en": "today.",
@@ -10324,12 +10452,20 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I am glad",
-                    "ko": "저는 기뻐요"
+                    "en": "I",
+                    "ko": "저는"
                   },
                   {
-                    "en": "we could help.",
-                    "ko": "우리가 도울 수 있어서."
+                    "en": "am glad",
+                    "ko": "기뻐요"
+                  },
+                  {
+                    "en": "we",
+                    "ko": "우리가"
+                  },
+                  {
+                    "en": "could help.",
+                    "ko": "도울 수 있어서."
                   }
                 ]
               }
@@ -10462,8 +10598,16 @@
                     "ko": "저는"
                   },
                   {
-                    "en": "will put it to use",
-                    "ko": "쓸게요."
+                    "en": "will put",
+                    "ko": "쓸게요"
+                  },
+                  {
+                    "en": "it",
+                    "ko": "그것을"
+                  },
+                  {
+                    "en": "to use",
+                    "ko": "사용에"
                   },
                   {
                     "en": "today.",
@@ -11529,12 +11673,20 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I am glad",
-                    "ko": "저는 기뻐요"
+                    "en": "I",
+                    "ko": "저는"
                   },
                   {
-                    "en": "we could help.",
-                    "ko": "우리가 도울 수 있어서."
+                    "en": "am glad",
+                    "ko": "기뻐요"
+                  },
+                  {
+                    "en": "we",
+                    "ko": "우리가"
+                  },
+                  {
+                    "en": "could help.",
+                    "ko": "도울 수 있어서."
                   }
                 ]
               }
@@ -11675,8 +11827,16 @@
                     "ko": "저는"
                   },
                   {
-                    "en": "will put it to use",
-                    "ko": "쓸게요."
+                    "en": "will put",
+                    "ko": "쓸게요"
+                  },
+                  {
+                    "en": "it",
+                    "ko": "그것을"
+                  },
+                  {
+                    "en": "to use",
+                    "ko": "사용에"
                   },
                   {
                     "en": "today.",
@@ -11750,7 +11910,7 @@
                   },
                   {
                     "en": "have left.",
-                    "ko": "떠났어요."
+                    "ko": "떠났대요."
                   }
                 ]
               }
@@ -12720,12 +12880,20 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I am glad",
-                    "ko": "저는 기뻐요"
+                    "en": "I",
+                    "ko": "저는"
                   },
                   {
-                    "en": "we could help.",
-                    "ko": "우리가 도울 수 있어서."
+                    "en": "am glad",
+                    "ko": "기뻐요"
+                  },
+                  {
+                    "en": "we",
+                    "ko": "우리가"
+                  },
+                  {
+                    "en": "could help.",
+                    "ko": "도울 수 있어서."
                   }
                 ]
               }
@@ -12858,8 +13026,16 @@
                     "ko": "저는"
                   },
                   {
-                    "en": "will put it to use",
-                    "ko": "쓸게요."
+                    "en": "will put",
+                    "ko": "쓸게요"
+                  },
+                  {
+                    "en": "it",
+                    "ko": "그것을"
+                  },
+                  {
+                    "en": "to use",
+                    "ko": "사용에"
                   },
                   {
                     "en": "today.",
@@ -12933,7 +13109,7 @@
                   },
                   {
                     "en": "has already started.",
-                    "ko": "벌써 시작됐어요."
+                    "ko": "벌써 시작됐대요."
                   }
                 ]
               }
@@ -13919,12 +14095,20 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I am glad",
-                    "ko": "저는 기뻐요"
+                    "en": "I",
+                    "ko": "저는"
                   },
                   {
-                    "en": "we could help.",
-                    "ko": "우리가 도울 수 있어서."
+                    "en": "am glad",
+                    "ko": "기뻐요"
+                  },
+                  {
+                    "en": "we",
+                    "ko": "우리가"
+                  },
+                  {
+                    "en": "could help.",
+                    "ko": "도울 수 있어서."
                   }
                 ]
               }
@@ -14065,8 +14249,16 @@
                     "ko": "저는"
                   },
                   {
-                    "en": "will put it to use",
-                    "ko": "쓸게요."
+                    "en": "will put",
+                    "ko": "쓸게요"
+                  },
+                  {
+                    "en": "it",
+                    "ko": "그것을"
+                  },
+                  {
+                    "en": "to use",
+                    "ko": "사용에"
                   },
                   {
                     "en": "today.",
@@ -15104,12 +15296,20 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I am glad",
-                    "ko": "저는 기뻐요"
+                    "en": "I",
+                    "ko": "저는"
                   },
                   {
-                    "en": "we could help.",
-                    "ko": "우리가 도울 수 있어서."
+                    "en": "am glad",
+                    "ko": "기뻐요"
+                  },
+                  {
+                    "en": "we",
+                    "ko": "우리가"
+                  },
+                  {
+                    "en": "could help.",
+                    "ko": "도울 수 있어서."
                   }
                 ]
               }
@@ -15242,8 +15442,16 @@
                     "ko": "저는"
                   },
                   {
-                    "en": "will put it to use",
-                    "ko": "쓸게요."
+                    "en": "will put",
+                    "ko": "쓸게요"
+                  },
+                  {
+                    "en": "it",
+                    "ko": "그것을"
+                  },
+                  {
+                    "en": "to use",
+                    "ko": "사용에"
                   },
                   {
                     "en": "today.",
@@ -16337,12 +16545,20 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I am glad",
-                    "ko": "저는 기뻐요"
+                    "en": "I",
+                    "ko": "저는"
                   },
                   {
-                    "en": "we could help.",
-                    "ko": "우리가 도울 수 있어서."
+                    "en": "am glad",
+                    "ko": "기뻐요"
+                  },
+                  {
+                    "en": "we",
+                    "ko": "우리가"
+                  },
+                  {
+                    "en": "could help.",
+                    "ko": "도울 수 있어서."
                   }
                 ]
               }
@@ -16471,8 +16687,16 @@
                     "ko": "저는"
                   },
                   {
-                    "en": "will put it to use",
-                    "ko": "쓸게요."
+                    "en": "will put",
+                    "ko": "쓸게요"
+                  },
+                  {
+                    "en": "it",
+                    "ko": "그것을"
+                  },
+                  {
+                    "en": "to use",
+                    "ko": "사용에"
                   },
                   {
                     "en": "today.",
@@ -16552,11 +16776,15 @@
                 "direct_chunks": [
                   {
                     "en": "The upper shelter",
-                    "ko": "위쪽 쉼터에는"
+                    "ko": "위쪽 쉼터에"
                   },
                   {
-                    "en": "has no room left.",
-                    "ko": "남은 자리가 없어요."
+                    "en": "has",
+                    "ko": "있대요"
+                  },
+                  {
+                    "en": "no room left.",
+                    "ko": "남은 자리가 없이."
                   }
                 ]
               }
@@ -17530,12 +17758,20 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I am glad",
-                    "ko": "저는 기뻐요"
+                    "en": "I",
+                    "ko": "저는"
                   },
                   {
-                    "en": "we could help.",
-                    "ko": "우리가 도울 수 있어서."
+                    "en": "am glad",
+                    "ko": "기뻐요"
+                  },
+                  {
+                    "en": "we",
+                    "ko": "우리가"
+                  },
+                  {
+                    "en": "could help.",
+                    "ko": "도울 수 있어서."
                   }
                 ]
               }
@@ -17664,8 +17900,16 @@
                     "ko": "저는"
                   },
                   {
-                    "en": "will put it to use",
-                    "ko": "쓸게요."
+                    "en": "will put",
+                    "ko": "쓸게요"
+                  },
+                  {
+                    "en": "it",
+                    "ko": "그것을"
+                  },
+                  {
+                    "en": "to use",
+                    "ko": "사용에"
                   },
                   {
                     "en": "today.",
@@ -18691,12 +18935,20 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I am glad",
-                    "ko": "저는 기뻐요"
+                    "en": "I",
+                    "ko": "저는"
                   },
                   {
-                    "en": "we could help.",
-                    "ko": "우리가 도울 수 있어서."
+                    "en": "am glad",
+                    "ko": "기뻐요"
+                  },
+                  {
+                    "en": "we",
+                    "ko": "우리가"
+                  },
+                  {
+                    "en": "could help.",
+                    "ko": "도울 수 있어서."
                   }
                 ]
               }
@@ -18829,8 +19081,16 @@
                     "ko": "저는"
                   },
                   {
-                    "en": "will put it to use",
-                    "ko": "쓸게요."
+                    "en": "will put",
+                    "ko": "쓸게요"
+                  },
+                  {
+                    "en": "it",
+                    "ko": "그것을"
+                  },
+                  {
+                    "en": "to use",
+                    "ko": "사용에"
                   },
                   {
                     "en": "today.",
@@ -19896,12 +20156,20 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I am glad",
-                    "ko": "저는 기뻐요"
+                    "en": "I",
+                    "ko": "저는"
                   },
                   {
-                    "en": "we could help.",
-                    "ko": "우리가 도울 수 있어서."
+                    "en": "am glad",
+                    "ko": "기뻐요"
+                  },
+                  {
+                    "en": "we",
+                    "ko": "우리가"
+                  },
+                  {
+                    "en": "could help.",
+                    "ko": "도울 수 있어서."
                   }
                 ]
               }
@@ -20042,8 +20310,16 @@
                     "ko": "저는"
                   },
                   {
-                    "en": "will put it to use",
-                    "ko": "쓸게요."
+                    "en": "will put",
+                    "ko": "쓸게요"
+                  },
+                  {
+                    "en": "it",
+                    "ko": "그것을"
+                  },
+                  {
+                    "en": "to use",
+                    "ko": "사용에"
                   },
                   {
                     "en": "today.",
@@ -21113,12 +21389,20 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I am glad",
-                    "ko": "저는 기뻐요"
+                    "en": "I",
+                    "ko": "저는"
                   },
                   {
-                    "en": "we could help.",
-                    "ko": "우리가 도울 수 있어서."
+                    "en": "am glad",
+                    "ko": "기뻐요"
+                  },
+                  {
+                    "en": "we",
+                    "ko": "우리가"
+                  },
+                  {
+                    "en": "could help.",
+                    "ko": "도울 수 있어서."
                   }
                 ]
               }
@@ -21251,8 +21535,16 @@
                     "ko": "저는"
                   },
                   {
-                    "en": "will put it to use",
-                    "ko": "쓸게요."
+                    "en": "will put",
+                    "ko": "쓸게요"
+                  },
+                  {
+                    "en": "it",
+                    "ko": "그것을"
+                  },
+                  {
+                    "en": "to use",
+                    "ko": "사용에"
                   },
                   {
                     "en": "today.",

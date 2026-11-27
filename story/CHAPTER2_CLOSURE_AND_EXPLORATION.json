@@ -647,6 +647,20 @@
           "en": "not the command.",
           "ko": "명령을 지키는 게 아니라."
         }
+      ],
+      "direct_chunks": [
+        {
+          "en": "Protect",
+          "ko": "지켜"
+        },
+        {
+          "en": "the people,",
+          "ko": "사람들을"
+        },
+        {
+          "en": "not the command.",
+          "ko": "명령이 아니라."
+        }
       ]
     },
     {
@@ -662,6 +676,24 @@
         {
           "en": "which words are ours.",
           "ko": "어느 말이 우리의 것인지"
+        }
+      ],
+      "direct_chunks": [
+        {
+          "en": "We",
+          "ko": "우리는"
+        },
+        {
+          "en": "know",
+          "ko": "알아"
+        },
+        {
+          "en": "which words",
+          "ko": "어떤 말이"
+        },
+        {
+          "en": "are ours.",
+          "ko": "우리의 것인지."
         }
       ]
     },
@@ -1142,8 +1174,12 @@
       ],
       "direct_chunks": [
         {
-          "en": "Bring your questions",
-          "ko": "당신의 질문을 가져오세요"
+          "en": "Bring",
+          "ko": "가져오세요"
+        },
+        {
+          "en": "your questions",
+          "ko": "질문을"
         },
         {
           "en": "to the next lesson.",

@@ -56,8 +56,12 @@
           "ko": "방앗간 옆에서 자랐어요.",
           "direct_chunks": [
             {
-              "en": "I grew up",
-              "ko": "저는 자랐어요"
+              "en": "I",
+              "ko": "저는"
+            },
+            {
+              "en": "grew up",
+              "ko": "자랐어요"
             },
             {
               "en": "beside the mill.",
@@ -126,12 +130,20 @@
           "ko": "인근 농장의 사과를 팔아요.",
           "direct_chunks": [
             {
-              "en": "I sell apples",
-              "ko": "저는 사과를 팔아요"
+              "en": "I",
+              "ko": "저는"
+            },
+            {
+              "en": "sell",
+              "ko": "팔아요"
+            },
+            {
+              "en": "apples",
+              "ko": "사과를"
             },
             {
               "en": "from nearby farms.",
-              "ko": "인근 농장에서 온."
+              "ko": "인근 농장의."
             }
           ]
         }
@@ -344,8 +356,12 @@
               "ko": "고운 밀가루가"
             },
             {
-              "en": "makes a softer loaf.",
-              "ko": "더 부드러운 빵을 만들어요."
+              "en": "makes",
+              "ko": "만들어요"
+            },
+            {
+              "en": "a softer loaf.",
+              "ko": "더 부드러운 빵을."
             }
           ]
         }
@@ -1068,8 +1084,20 @@
               "ko": "더 잘"
             },
             {
-              "en": "when I write them down.",
-              "ko": "제가 적을 때."
+              "en": "when",
+              "ko": "~할 때"
+            },
+            {
+              "en": "I",
+              "ko": "제가"
+            },
+            {
+              "en": "write",
+              "ko": "쓸"
+            },
+            {
+              "en": "them down.",
+              "ko": "그것들을 받아 적을 때."
             }
           ]
         }
@@ -1590,7 +1618,11 @@
               "ko": "사람들에게"
             },
             {
-              "en": "on their way to work.",
+              "en": "on their way",
+              "ko": "가는 길에"
+            },
+            {
+              "en": "to work.",
               "ko": "출근하는."
             }
           ]
@@ -1652,8 +1684,12 @@
           "ko": "일찍 일어난 손님들은 광장 시계 소리를 들을 수 있어요.",
           "direct_chunks": [
             {
-              "en": "Early guests can hear",
-              "ko": "일찍 일어난 손님들은 들을 수 있어요"
+              "en": "Early guests",
+              "ko": "일찍 일어난 손님들은"
+            },
+            {
+              "en": "can hear",
+              "ko": "들을 수 있어요"
             },
             {
               "en": "the square clock.",
@@ -1714,12 +1750,24 @@
           "ko": "펜들이 제 시계를 점검해 줘요.",
           "direct_chunks": [
             {
-              "en": "Pendle helps me",
-              "ko": "펜들이 저를 도와줘요"
+              "en": "Pendle",
+              "ko": "펜들이"
             },
             {
-              "en": "check my watch.",
-              "ko": "제 시계를 점검하도록."
+              "en": "helps",
+              "ko": "도와요"
+            },
+            {
+              "en": "me",
+              "ko": "저를"
+            },
+            {
+              "en": "check",
+              "ko": "점검하도록"
+            },
+            {
+              "en": "my watch.",
+              "ko": "제 시계를."
             }
           ]
         }
@@ -2598,8 +2646,12 @@
           "ko": "참나무는 여러 수리에 유용해요.",
           "direct_chunks": [
             {
-              "en": "Oak wood is useful",
-              "ko": "참나무는 유용해요"
+              "en": "Oak wood",
+              "ko": "참나무는"
+            },
+            {
+              "en": "is useful",
+              "ko": "유용해요"
             },
             {
               "en": "for many repairs.",
@@ -4554,8 +4606,12 @@
           "ko": "지친 여행자들에게 대추야자가 인기예요.",
           "direct_chunks": [
             {
-              "en": "Dates are popular",
-              "ko": "대추야자는 인기가 있어요"
+              "en": "Dates",
+              "ko": "대추야자는"
+            },
+            {
+              "en": "are popular",
+              "ko": "인기예요"
             },
             {
               "en": "with tired travelers.",
@@ -5134,12 +5190,16 @@
           "ko": "더운 날에는 가벼운 천이 인기예요.",
           "direct_chunks": [
             {
-              "en": "Light cloth is popular",
-              "ko": "가벼운 천은 인기가 있어요"
+              "en": "Light cloth",
+              "ko": "가벼운 천은"
+            },
+            {
+              "en": "is popular",
+              "ko": "인기예요"
             },
             {
               "en": "in hot weather.",
-              "ko": "더운 날씨에."
+              "ko": "더운 날에는."
             }
           ]
         }
@@ -5278,8 +5338,16 @@
           "ko": "선원들은 떠나기 전에 과일을 자주 사요.",
           "direct_chunks": [
             {
-              "en": "Sailors often buy fruit",
-              "ko": "선원들은 자주 과일을 사요"
+              "en": "Sailors",
+              "ko": "선원들은"
+            },
+            {
+              "en": "often buy",
+              "ko": "자주 사요"
+            },
+            {
+              "en": "fruit",
+              "ko": "과일을"
             },
             {
               "en": "before leaving.",
@@ -7570,12 +7638,20 @@
           "ko": "선수들은 연습 후에 과일을 자주 사요.",
           "direct_chunks": [
             {
-              "en": "Runners often buy fruit",
-              "ko": "선수들은 자주 과일을 사요"
+              "en": "Runners",
+              "ko": "선수들은"
+            },
+            {
+              "en": "often buy",
+              "ko": "자주 사요"
+            },
+            {
+              "en": "fruit",
+              "ko": "과일을"
             },
             {
               "en": "after practice.",
-              "ko": "연습 뒤에."
+              "ko": "연습 후에."
             }
           ]
         }
@@ -9908,12 +9984,24 @@
           "ko": "손님들은 더 높이 오르기 전에 여기서 쉬어요.",
           "direct_chunks": [
             {
-              "en": "Guests often rest here",
-              "ko": "손님들은 자주 여기서 쉬어요"
+              "en": "Guests",
+              "ko": "손님들은"
             },
             {
-              "en": "before climbing higher.",
-              "ko": "더 높이 오르기 전에."
+              "en": "often rest",
+              "ko": "자주 쉬어요"
+            },
+            {
+              "en": "here",
+              "ko": "여기서"
+            },
+            {
+              "en": "before climbing",
+              "ko": "오르기 전에"
+            },
+            {
+              "en": "higher.",
+              "ko": "더 높이."
             }
           ]
         }
@@ -10656,8 +10744,12 @@
           "ko": "손님들은 고요한 숲의 저녁을 좋아해요.",
           "direct_chunks": [
             {
-              "en": "My guests enjoy",
-              "ko": "제 손님들은 좋아해요"
+              "en": "My guests",
+              "ko": "손님들은"
+            },
+            {
+              "en": "enjoy",
+              "ko": "좋아해요"
             },
             {
               "en": "the quiet forest evenings.",
@@ -11404,12 +11496,20 @@
           "ko": "공연자들이 여관에서 노래를 자주 연습해요.",
           "direct_chunks": [
             {
-              "en": "Performers often practice songs",
-              "ko": "공연자들은 자주 노래를 연습해요"
+              "en": "Performers",
+              "ko": "공연자들이"
+            },
+            {
+              "en": "often practice",
+              "ko": "자주 연습해요"
+            },
+            {
+              "en": "songs",
+              "ko": "노래를"
             },
             {
               "en": "in my inn.",
-              "ko": "제 여관에서."
+              "ko": "여관에서."
             }
           ]
         }
@@ -12152,12 +12252,20 @@
           "ko": "손님들은 친구에게 전갈을 자주 남겨요.",
           "direct_chunks": [
             {
-              "en": "Guests often leave messages",
-              "ko": "손님들은 종종 전갈을 남겨요"
+              "en": "Guests",
+              "ko": "손님들은"
+            },
+            {
+              "en": "often leave",
+              "ko": "자주 남겨요"
+            },
+            {
+              "en": "messages",
+              "ko": "전갈을"
             },
             {
               "en": "for their friends.",
-              "ko": "친구들을 위해."
+              "ko": "친구에게."
             }
           ]
         }
@@ -14407,8 +14515,12 @@
             "ko": "조용한 시간을"
           },
           {
-            "en": "at the end of the day.",
-            "ko": "하루가 끝날 무렵의."
+            "en": "at the end",
+            "ko": "끝날 무렵의"
+          },
+          {
+            "en": "of the day.",
+            "ko": "하루가."
           }
         ]
       },

@@ -214,6 +214,20 @@
               "en": "meat and rice.",
               "ko": "고기와 밥을."
             }
+          ],
+          "direct_chunks": [
+            {
+              "en": "The guest",
+              "ko": "손님은"
+            },
+            {
+              "en": "likes",
+              "ko": "좋아한다"
+            },
+            {
+              "en": "meat and rice.",
+              "ko": "고기와 밥을."
+            }
           ]
         }
       ],
@@ -492,6 +506,20 @@
               "en": "the wooden boat.",
               "ko": "나무 보트를."
             }
+          ],
+          "direct_chunks": [
+            {
+              "en": "We",
+              "ko": "우리는"
+            },
+            {
+              "en": "can use",
+              "ko": "사용할 수 있다"
+            },
+            {
+              "en": "the wooden boat.",
+              "ko": "나무 보트를."
+            }
           ]
         },
         {
@@ -506,6 +534,20 @@
             {
               "en": "will be able to cross",
               "ko": "건널 수 있을 것이다."
+            },
+            {
+              "en": "tomorrow.",
+              "ko": "내일."
+            }
+          ],
+          "direct_chunks": [
+            {
+              "en": "We",
+              "ko": "우리는"
+            },
+            {
+              "en": "will be able to cross",
+              "ko": "건널 수 있을 것이다"
             },
             {
               "en": "tomorrow.",
@@ -1399,7 +1441,21 @@
           }
         ],
         "speaker_legacy": "산책자 윌",
-        "speaker_en": "Walker Ingmar"
+        "speaker_en": "Walker Ingmar",
+        "direct_chunks": [
+          {
+            "en": "A similar mark",
+            "ko": "비슷한 문양이"
+          },
+          {
+            "en": "was found",
+            "ko": "발견됐어요"
+          },
+          {
+            "en": "in Ifhaven.",
+            "ko": "이프헤이븐에서."
+          }
+        ]
       },
       "next_id": "sj"
     },
@@ -1494,6 +1550,28 @@
             {
               "en": "my brother were here.",
               "ko": "오빠가 여기 있기를."
+            }
+          ],
+          "direct_chunks": [
+            {
+              "en": "I",
+              "ko": "나는"
+            },
+            {
+              "en": "wish",
+              "ko": "바란다"
+            },
+            {
+              "en": "my brother",
+              "ko": "오빠가"
+            },
+            {
+              "en": "were",
+              "ko": "있기를"
+            },
+            {
+              "en": "here.",
+              "ko": "여기."
             }
           ]
         },
@@ -1664,6 +1742,20 @@
               "en": "wins the medal.",
               "ko": "메달을 받는다."
             }
+          ],
+          "direct_chunks": [
+            {
+              "en": "The fastest runner",
+              "ko": "가장 빠른 선수가"
+            },
+            {
+              "en": "wins",
+              "ko": "받는다"
+            },
+            {
+              "en": "the medal.",
+              "ko": "메달을."
+            }
           ]
         }
       ],
@@ -1722,7 +1814,25 @@
           }
         ],
         "speaker_legacy": "달리기 선수 아이",
-        "speaker_en": "Runner Swift"
+        "speaker_en": "Runner Swift",
+        "direct_chunks": [
+          {
+            "en": "Some prizes",
+            "ko": "일부 상품이"
+          },
+          {
+            "en": "were sent",
+            "ko": "보내졌어요"
+          },
+          {
+            "en": "to Pronovia",
+            "ko": "프로노비아로"
+          },
+          {
+            "en": "by mistake.",
+            "ko": "실수로."
+          }
+        ]
       },
       "next_id": "pn"
     },
@@ -1921,6 +2031,20 @@
               "en": "under the table.",
               "ko": "탁자 아래에."
             }
+          ],
+          "direct_chunks": [
+            {
+              "en": "The map",
+              "ko": "지도는"
+            },
+            {
+              "en": "is",
+              "ko": "있다"
+            },
+            {
+              "en": "under the table.",
+              "ko": "탁자 아래에."
+            }
           ]
         },
         {
@@ -1931,6 +2055,20 @@
             {
               "en": "The boat is",
               "ko": "배는 있다"
+            },
+            {
+              "en": "beside the lighthouse.",
+              "ko": "등대 옆에."
+            }
+          ],
+          "direct_chunks": [
+            {
+              "en": "The boat",
+              "ko": "배는"
+            },
+            {
+              "en": "is",
+              "ko": "있다"
             },
             {
               "en": "beside the lighthouse.",
@@ -1992,7 +2130,21 @@
           }
         ],
         "speaker_legacy": "선원 보",
-        "speaker_en": "Sailor Byron"
+        "speaker_en": "Sailor Byron",
+        "direct_chunks": [
+          {
+            "en": "Our next stop",
+            "ko": "우리의 다음 목적지는"
+          },
+          {
+            "en": "is",
+            "ko": "이에요"
+          },
+          {
+            "en": "Verbal Heights.",
+            "ko": "버벌 하이츠."
+          }
+        ]
       },
       "next_id": "iv"
     },
@@ -2047,6 +2199,24 @@
             {
               "en": "to learn ancient English.",
               "ko": "고대 영어를 배우기를."
+            }
+          ],
+          "direct_chunks": [
+            {
+              "en": "I",
+              "ko": "나는"
+            },
+            {
+              "en": "want",
+              "ko": "원한다"
+            },
+            {
+              "en": "to learn",
+              "ko": "배우기를"
+            },
+            {
+              "en": "ancient English.",
+              "ko": "고대 영어를."
             }
           ]
         },
@@ -2418,7 +2588,21 @@
           }
         ],
         "speaker_legacy": "꽃집 아가씨 로사",
-        "speaker_en": "Florist Flora"
+        "speaker_en": "Florist Flora",
+        "direct_chunks": [
+          {
+            "en": "An urgent message",
+            "ko": "긴급 전갈이"
+          },
+          {
+            "en": "has arrived",
+            "ko": "도착했어요"
+          },
+          {
+            "en": "from Speechport.",
+            "ko": "스피치포트에서."
+          }
+        ]
       },
       "next_id": "rs"
     },
@@ -2467,6 +2651,28 @@
               "en": "where the messenger is.",
               "ko": "전령이 어디 있는지."
             }
+          ],
+          "direct_chunks": [
+            {
+              "en": "I",
+              "ko": "나는"
+            },
+            {
+              "en": "know",
+              "ko": "안다"
+            },
+            {
+              "en": "where",
+              "ko": "어디에"
+            },
+            {
+              "en": "the messenger",
+              "ko": "전령이"
+            },
+            {
+              "en": "is.",
+              "ko": "있는지."
+            }
           ]
         },
         {
@@ -2481,6 +2687,32 @@
             {
               "en": "where I lived.",
               "ko": "내가 어디에 사는지."
+            }
+          ],
+          "direct_chunks": [
+            {
+              "en": "He",
+              "ko": "그는"
+            },
+            {
+              "en": "asked",
+              "ko": "물었다"
+            },
+            {
+              "en": "me",
+              "ko": "내게"
+            },
+            {
+              "en": "where",
+              "ko": "어디에"
+            },
+            {
+              "en": "I",
+              "ko": "내가"
+            },
+            {
+              "en": "lived.",
+              "ko": "사는지."
             }
           ]
         },
@@ -2610,6 +2842,20 @@
               "en": "such a dark sky.",
               "ko": "그렇게 어두운 하늘을."
             }
+          ],
+          "direct_chunks": [
+            {
+              "en": "Never",
+              "ko": "결코"
+            },
+            {
+              "en": "have I seen",
+              "ko": "본 적 없소"
+            },
+            {
+              "en": "such a dark sky.",
+              "ko": "그렇게 어두운 하늘은."
+            }
           ]
         },
         {
@@ -2730,7 +2976,21 @@
           }
         ],
         "speaker_legacy": "선장 아벨",
-        "speaker_en": "Captain Never"
+        "speaker_en": "Captain Never",
+        "direct_chunks": [
+          {
+            "en": "Return",
+            "ko": "돌아가세요"
+          },
+          {
+            "en": "to the library",
+            "ko": "도서관으로"
+          },
+          {
+            "en": "with all the pages.",
+            "ko": "모든 페이지를 가지고."
+          }
+        ]
       },
       "next_id": null
     }

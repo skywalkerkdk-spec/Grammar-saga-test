@@ -553,12 +553,24 @@
               "ko": "행동하기 전에 먼저 들을게요.",
               "direct_chunks": [
                 {
-                  "en": "I will listen",
-                  "ko": "나는 들을게"
+                  "en": "I",
+                  "ko": "저는"
                 },
                 {
-                  "en": "before I act.",
-                  "ko": "내가 행동하기 전에."
+                  "en": "will listen",
+                  "ko": "들을게요"
+                },
+                {
+                  "en": "before",
+                  "ko": "~하기 전에"
+                },
+                {
+                  "en": "I",
+                  "ko": "제가"
+                },
+                {
+                  "en": "act.",
+                  "ko": "행동하."
                 }
               ]
             },

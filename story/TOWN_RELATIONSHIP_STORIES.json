@@ -460,12 +460,24 @@
             ],
             "direct_chunks": [
               {
-                "en": "We should ask",
-                "ko": "우리는 물어봐야겠어요"
+                "en": "We",
+                "ko": "우리는"
               },
               {
-                "en": "what she can eat.",
-                "ko": "그 아이가 무엇을 먹을 수 있는지."
+                "en": "should ask",
+                "ko": "물어봐야겠어요"
+              },
+              {
+                "en": "what",
+                "ko": "무엇을"
+              },
+              {
+                "en": "she",
+                "ko": "그녀가"
+              },
+              {
+                "en": "can eat.",
+                "ko": "먹을 수 있는지."
               }
             ]
           },
@@ -5094,8 +5106,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "We can make",
-                "ko": "우리는 만들 수 있어요"
+                "en": "We",
+                "ko": "우리는"
+              },
+              {
+                "en": "can make",
+                "ko": "만들 수 있어요"
               },
               {
                 "en": "a safe reading area.",
