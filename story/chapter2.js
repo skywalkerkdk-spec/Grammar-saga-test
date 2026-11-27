@@ -712,6 +712,15 @@
     townFieldActions(body,episode,()=>villageField(episode,map));
     showTownGuidance(body,episode);
     const targets=residentTargets(episode,index=>`story/maps/villages/${episode.id}-${index}.webp`);
+    if (map.exits?.length) {
+      const note=node('p','');
+      note.setAttribute('role','status');
+      body.append(note);
+      map.exits.forEach((exit,index)=>targets.push({id:exit.id,label:exit.label,action:()=>{
+        if (index===0) closeDialogue();
+        else note.textContent=exit.label+'은(는) 필드 길과 연결될 예정입니다. 지금은 남쪽 관문으로 나가 던전에 갈 수 있습니다.';
+      }}));
+    }
     const layout=townResidentsOnMap(episode,map,targets,()=>villageField(episode,map));
     const positions=G.c2VillagePositions ||= {};
     window.openChapterField(body,layout.map,isRpgM()?rhero():lhero(),layout.targets,{
