@@ -746,7 +746,7 @@
       body.append(note);
       map.exits.forEach((exit,index)=>targets.push({id:exit.id,label:exit.label,action:()=>{
         if (index===0) closeDialogue();
-        else note.textContent=exit.label+'은(는) 필드 길과 연결될 예정입니다. 지금은 남쪽 관문으로 나가 던전에 갈 수 있습니다.';
+        else note.textContent=exit.label+'은(는) 필드 길과 연결될 예정입니다. 월드맵으로 표시된 출구에서 마을을 나갈 수 있습니다.';
       }}));
     }
     const layout=townResidentsOnMap(episode,map,targets,()=>villageField(episode,map));
