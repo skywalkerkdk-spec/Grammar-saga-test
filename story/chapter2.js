@@ -124,9 +124,10 @@
         const header=node('div',undefined,'c2-field-speaker');
         if (options.field) {
           const portrait=node('img');
-          portrait.src=options.field;
+          const art=/art\/npc\/sprites\/(npc_[\w]+)\.webp$/.exec(options.field);
+          portrait.src=art?'art/npc/face/'+art[1]+'.webp':options.field;
           portrait.alt='';
-          const frame=node('div',undefined,'c2-speaker-photo');
+          const frame=node('div',undefined,'c2-speaker-photo'+(art?' is-art':''));
           frame.append(portrait);
           header.append(frame);
         }
