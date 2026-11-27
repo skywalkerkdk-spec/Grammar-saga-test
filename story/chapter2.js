@@ -134,7 +134,7 @@
         const identity=node('div',undefined,'c2-speaker-identity');
         identity.append(node('span',options.questTitle?'퀘스트 대화':'일반 대화','c2-talk-label'));
         if(options.questTitle)identity.append(node('span',options.questTitle,'c2-dialogue-quest-title'));
-        if(line.speakerJob)identity.append(node('span',line.speakerJob,'c2-speaker-job'));
+        // job label is shown on the map only
         identity.append(speaker);
         header.append(identity);
         content.append(header);
@@ -244,7 +244,7 @@
       if(field?.open)dialogue=field;
     };
     const title=node('h2',npc.name,'c2-speaker-name');
-    if(npc.job)title.prepend(node('span',npc.job+' ','c2-speaker-job'));
+    // job label is shown on the map only
     body.append(title,button('닫기',close));
     dialogue.append(body);
     dialogue.addEventListener('cancel',event=>{event.preventDefault();close();});
@@ -451,15 +451,8 @@
     const en=resident.name_en||resident.name;
     const boundary=en.lastIndexOf(' ');
     const job=en.slice(0,boundary);
-    const names={Farmer:'농부',Herbalist:'약초상',Chef:'요리사',Baker:'제빵사',Postman:'우체부',
-      Foreman:'반장',Runner:'달리기 선수',Captain:'대장',Ranger:'숲지기',Librarian:'사서',
-      Mechanic:'정비공',Hunter:'사냥꾼',Traveler:'여행자',Guard:'경비병',Cleaner:'청소부',
-      Landlord:'여관 주인',Student:'학생',Clockmaker:'시계공',Gourmet:'미식가',Fisher:'어부',
-      Coach:'코치',Mayor:'마을 대표',Walker:'산책객',Falconer:'매사냥꾼',Merchant:'상인',
-      Teacher:'교사',Bookseller:'책방 주인','Fruit Seller':'과일 상인',Sailor:'선원',
-      Swimmer:'수영 선수',Linguist:'언어학자','Chess Master':'체스 명인',Birdwatcher:'탐조가',
-      Florist:'꽃집 주인',Keeper:'관리인',Detective:'탐정',Guide:'안내인',Officer:'장교',Artist:'화가'};
-    return names[job]?{name:en.slice(boundary+1),job:names[job]}:{name:en};
+    const label=boundary>0?window.C2_JOB_LABEL(job):'';
+    return label?{name:en.slice(boundary+1),job:label}:{name:en};
   }
 
   function townDialogue(episode,resident,portrait) {
