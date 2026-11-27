@@ -1722,7 +1722,21 @@
           "npc": "g2_extra_5",
           "action": "collect_evidence",
           "en": "The box is for Chef Dot.",
-          "ko": "상자는 도트 요리사에게 갈 것이다."
+          "ko": "상자는 도트 요리사에게 갈 것이다.",
+          "direct_chunks": [
+            {
+              "en": "The box",
+              "ko": "상자는"
+            },
+            {
+              "en": "is for",
+              "ko": "위한 것이다"
+            },
+            {
+              "en": "Chef Dot.",
+              "ko": "도트 요리사를."
+            }
+          ]
         },
         {
           "id": "report",
@@ -2040,7 +2054,21 @@
           "npc": "cp_extra_5",
           "action": "collect_evidence",
           "en": "The medal belongs to the winner.",
-          "ko": "메달은 우승자의 것이다."
+          "ko": "메달은 우승자의 것이다.",
+          "direct_chunks": [
+            {
+              "en": "The medal",
+              "ko": "메달은"
+            },
+            {
+              "en": "belongs to",
+              "ko": "속한다"
+            },
+            {
+              "en": "the winner.",
+              "ko": "우승자에게."
+            }
+          ]
         },
         {
           "id": "report",
@@ -2052,7 +2080,21 @@
           "npc": "pn_extra_5",
           "action": "collect_evidence",
           "en": "The parcel was sent to Pronovia.",
-          "ko": "소포는 프로노비아로 보내졌다."
+          "ko": "소포는 프로노비아로 보내졌다.",
+          "direct_chunks": [
+            {
+              "en": "The parcel",
+              "ko": "소포는"
+            },
+            {
+              "en": "was sent",
+              "ko": "보내졌다"
+            },
+            {
+              "en": "to Pronovia.",
+              "ko": "프로노비아로."
+            }
+          ]
         },
         {
           "id": "verify",
@@ -2178,7 +2220,25 @@
           "npc": "pe_extra_5",
           "action": "collect_evidence",
           "en": "The noise made the horses run.",
-          "ko": "소리 때문에 말들이 달렸다."
+          "ko": "소리 때문에 말들이 달렸다.",
+          "direct_chunks": [
+            {
+              "en": "The noise",
+              "ko": "소리가"
+            },
+            {
+              "en": "made",
+              "ko": "만들었다"
+            },
+            {
+              "en": "the horses",
+              "ko": "말들을"
+            },
+            {
+              "en": "run.",
+              "ko": "달리게."
+            }
+          ]
         },
         {
           "id": "report",
@@ -2190,7 +2250,17 @@
           "npc": "ng_extra_5",
           "action": "collect_evidence",
           "en": "Do not use the forest road.",
-          "ko": "숲길을 이용하지 마라."
+          "ko": "숲길을 이용하지 마라.",
+          "direct_chunks": [
+            {
+              "en": "Do not use",
+              "ko": "이용하지 마라"
+            },
+            {
+              "en": "the forest road.",
+              "ko": "숲길을."
+            }
+          ]
         },
         {
           "id": "verify",

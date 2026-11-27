@@ -227,11 +227,39 @@
       "clues": [
         {
           "en": "I can carry the box alone.",
-          "ko": "나는 상자를 혼자 나를 수 있어."
+          "ko": "나는 상자를 혼자 나를 수 있어.",
+          "direct_chunks": [
+            {
+              "en": "I can carry",
+              "ko": "나는 나를 수 있어"
+            },
+            {
+              "en": "the box",
+              "ko": "상자를"
+            },
+            {
+              "en": "alone.",
+              "ko": "혼자."
+            }
+          ]
         },
         {
           "en": "The box is too heavy for one person.",
-          "ko": "상자는 한 사람이 들기에는 너무 무겁다."
+          "ko": "상자는 한 사람이 들기에는 너무 무겁다.",
+          "direct_chunks": [
+            {
+              "en": "The box",
+              "ko": "상자는"
+            },
+            {
+              "en": "is too heavy",
+              "ko": "너무 무겁다"
+            },
+            {
+              "en": "for one person.",
+              "ko": "한 사람에게는."
+            }
+          ]
         }
       ],
       "task": {
@@ -254,11 +282,35 @@
       "clues": [
         {
           "en": "The guest is hungry.",
-          "ko": "손님은 배가 고프다."
+          "ko": "손님은 배가 고프다.",
+          "direct_chunks": [
+            {
+              "en": "The guest",
+              "ko": "손님은"
+            },
+            {
+              "en": "is hungry.",
+              "ko": "배가 고프다."
+            }
+          ]
         },
         {
           "en": "He likes rice, but he does not like fish.",
-          "ko": "그는 밥을 좋아하지만 생선은 좋아하지 않는다."
+          "ko": "그는 밥을 좋아하지만 생선은 좋아하지 않는다.",
+          "direct_chunks": [
+            {
+              "en": "He likes rice,",
+              "ko": "그는 밥을 좋아하지만"
+            },
+            {
+              "en": "but he does not like",
+              "ko": "좋아하지 않는다"
+            },
+            {
+              "en": "fish.",
+              "ko": "생선은."
+            }
+          ]
         }
       ],
       "task": {
@@ -281,11 +333,35 @@
       "clues": [
         {
           "en": "The old bridge is unsafe.",
-          "ko": "낡은 다리는 안전하지 않다."
+          "ko": "낡은 다리는 안전하지 않다.",
+          "direct_chunks": [
+            {
+              "en": "The old bridge",
+              "ko": "낡은 다리는"
+            },
+            {
+              "en": "is unsafe.",
+              "ko": "안전하지 않다."
+            }
+          ]
         },
         {
           "en": "We can use a boat together.",
-          "ko": "우리는 함께 배를 이용할 수 있다."
+          "ko": "우리는 함께 배를 이용할 수 있다.",
+          "direct_chunks": [
+            {
+              "en": "We can use",
+              "ko": "우리는 이용할 수 있다"
+            },
+            {
+              "en": "a boat",
+              "ko": "배를"
+            },
+            {
+              "en": "together.",
+              "ko": "함께."
+            }
+          ]
         }
       ],
       "task": {
@@ -308,11 +384,39 @@
       "clues": [
         {
           "en": "We are looking for a girl.",
-          "ko": "우리는 소녀를 찾고 있다."
+          "ko": "우리는 소녀를 찾고 있다.",
+          "direct_chunks": [
+            {
+              "en": "We are looking for",
+              "ko": "우리는 찾고 있다"
+            },
+            {
+              "en": "a girl.",
+              "ko": "소녀를."
+            }
+          ]
         },
         {
           "en": "She is the girl who has a star on her bag.",
-          "ko": "그녀는 가방에 별이 있는 소녀다."
+          "ko": "그녀는 가방에 별이 있는 소녀다.",
+          "direct_chunks": [
+            {
+              "en": "She",
+              "ko": "그녀는"
+            },
+            {
+              "en": "is the girl",
+              "ko": "소녀다"
+            },
+            {
+              "en": "who has a star",
+              "ko": "별이 있는"
+            },
+            {
+              "en": "on her bag.",
+              "ko": "그녀의 가방에."
+            }
+          ]
         }
       ],
       "task": {
@@ -335,11 +439,47 @@
       "clues": [
         {
           "en": "The smoke made the villagers cough.",
-          "ko": "연기 때문에 주민들이 기침했다."
+          "ko": "연기 때문에 주민들이 기침했다.",
+          "direct_chunks": [
+            {
+              "en": "The smoke",
+              "ko": "연기가"
+            },
+            {
+              "en": "made",
+              "ko": "만들었다"
+            },
+            {
+              "en": "the villagers",
+              "ko": "주민들을"
+            },
+            {
+              "en": "cough.",
+              "ko": "기침하게."
+            }
+          ]
         },
         {
           "en": "Clean air will make them feel better.",
-          "ko": "깨끗한 공기는 주민들의 기분을 나아지게 할 것이다."
+          "ko": "깨끗한 공기는 주민들의 기분을 나아지게 할 것이다.",
+          "direct_chunks": [
+            {
+              "en": "Clean air",
+              "ko": "깨끗한 공기는"
+            },
+            {
+              "en": "will make",
+              "ko": "만들 것이다"
+            },
+            {
+              "en": "them",
+              "ko": "그들을"
+            },
+            {
+              "en": "feel better.",
+              "ko": "기분이 나아지게."
+            }
+          ]
         }
       ],
       "task": {
@@ -362,11 +502,35 @@
       "clues": [
         {
           "en": "This book is not mine.",
-          "ko": "이 책은 내 것이 아니다."
+          "ko": "이 책은 내 것이 아니다.",
+          "direct_chunks": [
+            {
+              "en": "This book",
+              "ko": "이 책은"
+            },
+            {
+              "en": "is not mine.",
+              "ko": "내 것이 아니다."
+            }
+          ]
         },
         {
           "en": "It belongs to Myra.",
-          "ko": "그것은 마이라의 것이다."
+          "ko": "그것은 마이라의 것이다.",
+          "direct_chunks": [
+            {
+              "en": "It",
+              "ko": "그것은"
+            },
+            {
+              "en": "belongs to",
+              "ko": "속한다"
+            },
+            {
+              "en": "Myra.",
+              "ko": "마이라에게."
+            }
+          ]
         }
       ],
       "task": {
@@ -389,11 +553,39 @@
       "clues": [
         {
           "en": "The sailor needs a map.",
-          "ko": "선원은 지도가 필요하다."
+          "ko": "선원은 지도가 필요하다.",
+          "direct_chunks": [
+            {
+              "en": "The sailor",
+              "ko": "선원은"
+            },
+            {
+              "en": "needs",
+              "ko": "필요하다"
+            },
+            {
+              "en": "a map.",
+              "ko": "지도가."
+            }
+          ]
         },
         {
           "en": "The map is under the table.",
-          "ko": "지도는 탁자 아래에 있다."
+          "ko": "지도는 탁자 아래에 있다.",
+          "direct_chunks": [
+            {
+              "en": "The map",
+              "ko": "지도는"
+            },
+            {
+              "en": "is",
+              "ko": "있다"
+            },
+            {
+              "en": "under the table.",
+              "ko": "탁자 아래에."
+            }
+          ]
         }
       ],
       "task": {
@@ -416,11 +608,35 @@
       "clues": [
         {
           "en": "The house is near the park.",
-          "ko": "집은 공원 근처에 있다."
+          "ko": "집은 공원 근처에 있다.",
+          "direct_chunks": [
+            {
+              "en": "The house",
+              "ko": "집은"
+            },
+            {
+              "en": "is near",
+              "ko": "가까이 있다"
+            },
+            {
+              "en": "the park.",
+              "ko": "공원에."
+            }
+          ]
         },
         {
           "en": "It has a small blue door.",
-          "ko": "그 집에는 작은 파란 문이 있다."
+          "ko": "그 집에는 작은 파란 문이 있다.",
+          "direct_chunks": [
+            {
+              "en": "It has",
+              "ko": "그것은 가지고 있다"
+            },
+            {
+              "en": "a small blue door.",
+              "ko": "작은 파란 문을."
+            }
+          ]
         }
       ],
       "task": {

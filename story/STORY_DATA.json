@@ -314,7 +314,17 @@
               }
             ],
             "speaker_legacy": "할머니 로즈",
-            "speaker_en": "Granny Aria"
+            "speaker_en": "Granny Aria",
+            "direct_chunks": [
+              {
+                "en": "My sister",
+                "ko": "내 여동생이"
+              },
+              {
+                "en": "is here.",
+                "ko": "여기 있단다."
+              }
+            ]
           },
           "after_recovery": {
             "speaker": "할머니 아리아",
@@ -390,7 +400,17 @@
           }
         ],
         "speaker_legacy": "농부 팜",
-        "speaker_en": "Farmer Am"
+        "speaker_en": "Farmer Am",
+        "direct_chunks": [
+          {
+            "en": "We can speak",
+            "ko": "우리는 말할 수 있어요"
+          },
+          {
+            "en": "again!",
+            "ko": "다시!"
+          }
+        ]
       },
       "next_dialogue": {
         "speaker": "농부 앰",
@@ -438,7 +458,17 @@
             }
           ],
           "speaker_legacy": "컴플리",
-          "speaker_en": "Comple"
+          "speaker_en": "Comple",
+          "direct_chunks": [
+            {
+              "en": "Let us break",
+              "ko": "풀자"
+            },
+            {
+              "en": "the curse.",
+              "ko": "저주를."
+            }
+          ]
         }
       ],
       "boss_clear": [
@@ -470,7 +500,17 @@
             }
           ],
           "speaker_legacy": "옥시",
-          "speaker_en": "Oxy"
+          "speaker_en": "Oxy",
+          "direct_chunks": [
+            {
+              "en": "We found",
+              "ko": "우리는 찾았어"
+            },
+            {
+              "en": "another page.",
+              "ko": "또 한 장의 페이지를."
+            }
+          ]
         }
       ],
       "town_legacy": "비이 마을",
@@ -726,7 +766,17 @@
             }
           ],
           "speaker_legacy": "컴플리",
-          "speaker_en": "Comple"
+          "speaker_en": "Comple",
+          "direct_chunks": [
+            {
+              "en": "Let us break",
+              "ko": "풀자"
+            },
+            {
+              "en": "the curse.",
+              "ko": "저주를."
+            }
+          ]
         }
       ],
       "boss_clear": [
@@ -758,7 +808,17 @@
             }
           ],
           "speaker_legacy": "옥시",
-          "speaker_en": "Oxy"
+          "speaker_en": "Oxy",
+          "direct_chunks": [
+            {
+              "en": "We found",
+              "ko": "우리는 찾았어"
+            },
+            {
+              "en": "another page.",
+              "ko": "또 한 장의 페이지를."
+            }
+          ]
         }
       ],
       "town_legacy": "두낫 마을",
@@ -1010,7 +1070,17 @@
             }
           ],
           "speaker_legacy": "컴플리",
-          "speaker_en": "Comple"
+          "speaker_en": "Comple",
+          "direct_chunks": [
+            {
+              "en": "Let us break",
+              "ko": "풀자"
+            },
+            {
+              "en": "the curse.",
+              "ko": "저주를."
+            }
+          ]
         }
       ],
       "boss_clear": [
@@ -1042,7 +1112,17 @@
             }
           ],
           "speaker_legacy": "옥시",
-          "speaker_en": "Oxy"
+          "speaker_en": "Oxy",
+          "direct_chunks": [
+            {
+              "en": "We found",
+              "ko": "우리는 찾았어"
+            },
+            {
+              "en": "another page.",
+              "ko": "또 한 장의 페이지를."
+            }
+          ]
         }
       ],
       "town_legacy": "크로노 마을",
@@ -1294,7 +1374,17 @@
             }
           ],
           "speaker_legacy": "컴플리",
-          "speaker_en": "Comple"
+          "speaker_en": "Comple",
+          "direct_chunks": [
+            {
+              "en": "Let us break",
+              "ko": "풀자"
+            },
+            {
+              "en": "the curse.",
+              "ko": "저주를."
+            }
+          ]
         }
       ],
       "boss_clear": [
@@ -1326,7 +1416,17 @@
             }
           ],
           "speaker_legacy": "옥시",
-          "speaker_en": "Oxy"
+          "speaker_en": "Oxy",
+          "direct_chunks": [
+            {
+              "en": "We found",
+              "ko": "우리는 찾았어"
+            },
+            {
+              "en": "another page.",
+              "ko": "또 한 장의 페이지를."
+            }
+          ]
         }
       ],
       "town_legacy": "캔윌 마을",
@@ -1578,7 +1678,17 @@
             }
           ],
           "speaker_legacy": "컴플리",
-          "speaker_en": "Comple"
+          "speaker_en": "Comple",
+          "direct_chunks": [
+            {
+              "en": "Let us break",
+              "ko": "풀자"
+            },
+            {
+              "en": "the curse.",
+              "ko": "저주를."
+            }
+          ]
         }
       ],
       "boss_clear": [
@@ -1610,7 +1720,17 @@
             }
           ],
           "speaker_legacy": "옥시",
-          "speaker_en": "Oxy"
+          "speaker_en": "Oxy",
+          "direct_chunks": [
+            {
+              "en": "We found",
+              "ko": "우리는 찾았어"
+            },
+            {
+              "en": "another page.",
+              "ko": "또 한 장의 페이지를."
+            }
+          ]
         }
       ],
       "town_legacy": "이어말 숲 마을",
@@ -1862,7 +1982,17 @@
             }
           ],
           "speaker_legacy": "컴플리",
-          "speaker_en": "Comple"
+          "speaker_en": "Comple",
+          "direct_chunks": [
+            {
+              "en": "Let us break",
+              "ko": "풀자"
+            },
+            {
+              "en": "the curse.",
+              "ko": "저주를."
+            }
+          ]
         }
       ],
       "boss_clear": [
@@ -1894,7 +2024,17 @@
             }
           ],
           "speaker_legacy": "옥시",
-          "speaker_en": "Oxy"
+          "speaker_en": "Oxy",
+          "direct_chunks": [
+            {
+              "en": "We found",
+              "ko": "우리는 찾았어"
+            },
+            {
+              "en": "another page.",
+              "ko": "또 한 장의 페이지를."
+            }
+          ]
         }
       ],
       "town_legacy": "수동 마을",
@@ -2146,7 +2286,17 @@
             }
           ],
           "speaker_legacy": "컴플리",
-          "speaker_en": "Comple"
+          "speaker_en": "Comple",
+          "direct_chunks": [
+            {
+              "en": "Let us break",
+              "ko": "풀자"
+            },
+            {
+              "en": "the curse.",
+              "ko": "저주를."
+            }
+          ]
         }
       ],
       "boss_clear": [
@@ -2178,7 +2328,17 @@
             }
           ],
           "speaker_legacy": "옥시",
-          "speaker_en": "Oxy"
+          "speaker_en": "Oxy",
+          "direct_chunks": [
+            {
+              "en": "We found",
+              "ko": "우리는 찾았어"
+            },
+            {
+              "en": "another page.",
+              "ko": "또 한 장의 페이지를."
+            }
+          ]
         }
       ],
       "town_legacy": "해브 마을",
@@ -2430,7 +2590,17 @@
             }
           ],
           "speaker_legacy": "컴플리",
-          "speaker_en": "Comple"
+          "speaker_en": "Comple",
+          "direct_chunks": [
+            {
+              "en": "Let us break",
+              "ko": "풀자"
+            },
+            {
+              "en": "the curse.",
+              "ko": "저주를."
+            }
+          ]
         }
       ],
       "boss_clear": [
@@ -2462,7 +2632,17 @@
             }
           ],
           "speaker_legacy": "옥시",
-          "speaker_en": "Oxy"
+          "speaker_en": "Oxy",
+          "direct_chunks": [
+            {
+              "en": "We found",
+              "ko": "우리는 찾았어"
+            },
+            {
+              "en": "another page.",
+              "ko": "또 한 장의 페이지를."
+            }
+          ]
         }
       ],
       "town_legacy": "웨어 마을",
@@ -2714,7 +2894,17 @@
             }
           ],
           "speaker_legacy": "컴플리",
-          "speaker_en": "Comple"
+          "speaker_en": "Comple",
+          "direct_chunks": [
+            {
+              "en": "Let us break",
+              "ko": "풀자"
+            },
+            {
+              "en": "the curse.",
+              "ko": "저주를."
+            }
+          ]
         }
       ],
       "boss_clear": [
@@ -2746,7 +2936,17 @@
             }
           ],
           "speaker_legacy": "옥시",
-          "speaker_en": "Oxy"
+          "speaker_en": "Oxy",
+          "direct_chunks": [
+            {
+              "en": "We found",
+              "ko": "우리는 찾았어"
+            },
+            {
+              "en": "another page.",
+              "ko": "또 한 장의 페이지를."
+            }
+          ]
         }
       ],
       "town_legacy": "이잉 마을",
@@ -2998,7 +3198,17 @@
             }
           ],
           "speaker_legacy": "컴플리",
-          "speaker_en": "Comple"
+          "speaker_en": "Comple",
+          "direct_chunks": [
+            {
+              "en": "Let us break",
+              "ko": "풀자"
+            },
+            {
+              "en": "the curse.",
+              "ko": "저주를."
+            }
+          ]
         }
       ],
       "boss_clear": [
@@ -3030,7 +3240,17 @@
             }
           ],
           "speaker_legacy": "옥시",
-          "speaker_en": "Oxy"
+          "speaker_en": "Oxy",
+          "direct_chunks": [
+            {
+              "en": "We found",
+              "ko": "우리는 찾았어"
+            },
+            {
+              "en": "another page.",
+              "ko": "또 한 장의 페이지를."
+            }
+          ]
         }
       ],
       "town_legacy": "이프 마을",
@@ -3282,7 +3502,17 @@
             }
           ],
           "speaker_legacy": "컴플리",
-          "speaker_en": "Comple"
+          "speaker_en": "Comple",
+          "direct_chunks": [
+            {
+              "en": "Let us break",
+              "ko": "풀자"
+            },
+            {
+              "en": "the curse.",
+              "ko": "저주를."
+            }
+          ]
         }
       ],
       "boss_clear": [
@@ -3314,7 +3544,17 @@
             }
           ],
           "speaker_legacy": "옥시",
-          "speaker_en": "Oxy"
+          "speaker_en": "Oxy",
+          "direct_chunks": [
+            {
+              "en": "We found",
+              "ko": "우리는 찾았어"
+            },
+            {
+              "en": "another page.",
+              "ko": "또 한 장의 페이지를."
+            }
+          ]
         }
       ],
       "town_legacy": "비교 마을",
@@ -3410,7 +3650,17 @@
               }
             ],
             "speaker_legacy": "과일 장수 오리",
-            "speaker_en": "Fruit Seller Annie"
+            "speaker_en": "Fruit Seller Annie",
+            "direct_chunks": [
+              {
+                "en": "They are not",
+                "ko": "그것들은 아니에요"
+              },
+              {
+                "en": "mine.",
+                "ko": "제 것이."
+              }
+            ]
           },
           "original_problem_ref": "TOWN.pn.n[1]",
           "name_legacy": "과일 장수 오리",
@@ -3562,7 +3812,17 @@
             }
           ],
           "speaker_legacy": "컴플리",
-          "speaker_en": "Comple"
+          "speaker_en": "Comple",
+          "direct_chunks": [
+            {
+              "en": "Let us break",
+              "ko": "풀자"
+            },
+            {
+              "en": "the curse.",
+              "ko": "저주를."
+            }
+          ]
         }
       ],
       "boss_clear": [
@@ -3594,7 +3854,17 @@
             }
           ],
           "speaker_legacy": "옥시",
-          "speaker_en": "Oxy"
+          "speaker_en": "Oxy",
+          "direct_chunks": [
+            {
+              "en": "We found",
+              "ko": "우리는 찾았어"
+            },
+            {
+              "en": "another page.",
+              "ko": "또 한 장의 페이지를."
+            }
+          ]
         }
       ],
       "town_legacy": "프로 마을",
@@ -3846,7 +4116,17 @@
             }
           ],
           "speaker_legacy": "컴플리",
-          "speaker_en": "Comple"
+          "speaker_en": "Comple",
+          "direct_chunks": [
+            {
+              "en": "Let us break",
+              "ko": "풀자"
+            },
+            {
+              "en": "the curse.",
+              "ko": "저주를."
+            }
+          ]
         }
       ],
       "boss_clear": [
@@ -3878,7 +4158,17 @@
             }
           ],
           "speaker_legacy": "옥시",
-          "speaker_en": "Oxy"
+          "speaker_en": "Oxy",
+          "direct_chunks": [
+            {
+              "en": "We found",
+              "ko": "우리는 찾았어"
+            },
+            {
+              "en": "another page.",
+              "ko": "또 한 장의 페이지를."
+            }
+          ]
         }
       ],
       "town_legacy": "프렙 마을",
@@ -4130,7 +4420,17 @@
             }
           ],
           "speaker_legacy": "컴플리",
-          "speaker_en": "Comple"
+          "speaker_en": "Comple",
+          "direct_chunks": [
+            {
+              "en": "Let us break",
+              "ko": "풀자"
+            },
+            {
+              "en": "the curse.",
+              "ko": "저주를."
+            }
+          ]
         }
       ],
       "boss_clear": [
@@ -4162,7 +4462,17 @@
             }
           ],
           "speaker_legacy": "옥시",
-          "speaker_en": "Oxy"
+          "speaker_en": "Oxy",
+          "direct_chunks": [
+            {
+              "en": "We found",
+              "ko": "우리는 찾았어"
+            },
+            {
+              "en": "another page.",
+              "ko": "또 한 장의 페이지를."
+            }
+          ]
         }
       ],
       "town_legacy": "투 마을",
@@ -4414,7 +4724,17 @@
             }
           ],
           "speaker_legacy": "컴플리",
-          "speaker_en": "Comple"
+          "speaker_en": "Comple",
+          "direct_chunks": [
+            {
+              "en": "Let us break",
+              "ko": "풀자"
+            },
+            {
+              "en": "the curse.",
+              "ko": "저주를."
+            }
+          ]
         }
       ],
       "boss_clear": [
@@ -4446,7 +4766,17 @@
             }
           ],
           "speaker_legacy": "옥시",
-          "speaker_en": "Oxy"
+          "speaker_en": "Oxy",
+          "direct_chunks": [
+            {
+              "en": "We found",
+              "ko": "우리는 찾았어"
+            },
+            {
+              "en": "another page.",
+              "ko": "또 한 장의 페이지를."
+            }
+          ]
         }
       ],
       "town_legacy": "센스 마을",
@@ -4484,7 +4814,17 @@
               }
             ],
             "speaker_legacy": "꽃집 아가씨 로사",
-            "speaker_en": "Florist Flora"
+            "speaker_en": "Florist Flora",
+            "direct_chunks": [
+              {
+                "en": "What a beautiful",
+                "ko": "정말 아름다운"
+              },
+              {
+                "en": "flower!",
+                "ko": "꽃이네요!"
+              }
+            ]
           },
           "after_recovery": {
             "speaker": "꽃집 주인 플로라",
@@ -4642,7 +4982,17 @@
           }
         ],
         "speaker_legacy": "꽃집 아가씨 로사",
-        "speaker_en": "Florist Flora"
+        "speaker_en": "Florist Flora",
+        "direct_chunks": [
+          {
+            "en": "What a wonderful",
+            "ko": "정말 멋진"
+          },
+          {
+            "en": "festival!",
+            "ko": "축제네요!"
+          }
+        ]
       },
       "next_dialogue": {
         "speaker": "꽃집 주인 플로라",
@@ -4690,7 +5040,17 @@
             }
           ],
           "speaker_legacy": "컴플리",
-          "speaker_en": "Comple"
+          "speaker_en": "Comple",
+          "direct_chunks": [
+            {
+              "en": "Let us break",
+              "ko": "풀자"
+            },
+            {
+              "en": "the curse.",
+              "ko": "저주를."
+            }
+          ]
         }
       ],
       "boss_clear": [
@@ -4722,7 +5082,17 @@
             }
           ],
           "speaker_legacy": "옥시",
-          "speaker_en": "Oxy"
+          "speaker_en": "Oxy",
+          "direct_chunks": [
+            {
+              "en": "We found",
+              "ko": "우리는 찾았어"
+            },
+            {
+              "en": "another page.",
+              "ko": "또 한 장의 페이지를."
+            }
+          ]
         }
       ],
       "town_legacy": "엑스 마을",
@@ -4974,7 +5344,17 @@
             }
           ],
           "speaker_legacy": "컴플리",
-          "speaker_en": "Comple"
+          "speaker_en": "Comple",
+          "direct_chunks": [
+            {
+              "en": "Let us break",
+              "ko": "풀자"
+            },
+            {
+              "en": "the curse.",
+              "ko": "저주를."
+            }
+          ]
         }
       ],
       "boss_clear": [
@@ -5006,7 +5386,17 @@
             }
           ],
           "speaker_legacy": "옥시",
-          "speaker_en": "Oxy"
+          "speaker_en": "Oxy",
+          "direct_chunks": [
+            {
+              "en": "We found",
+              "ko": "우리는 찾았어"
+            },
+            {
+              "en": "another page.",
+              "ko": "또 한 장의 페이지를."
+            }
+          ]
         }
       ],
       "town_legacy": "세이 마을",
@@ -5258,7 +5648,17 @@
             }
           ],
           "speaker_legacy": "컴플리",
-          "speaker_en": "Comple"
+          "speaker_en": "Comple",
+          "direct_chunks": [
+            {
+              "en": "Let us break",
+              "ko": "풀자"
+            },
+            {
+              "en": "the curse.",
+              "ko": "저주를."
+            }
+          ]
         }
       ],
       "boss_clear": [
@@ -5290,7 +5690,17 @@
             }
           ],
           "speaker_legacy": "옥시",
-          "speaker_en": "Oxy"
+          "speaker_en": "Oxy",
+          "direct_chunks": [
+            {
+              "en": "We found",
+              "ko": "우리는 찾았어"
+            },
+            {
+              "en": "another page.",
+              "ko": "또 한 장의 페이지를."
+            }
+          ]
         }
       ],
       "town_legacy": "톱 마을",
@@ -5443,7 +5853,21 @@
           "ko": "그건 평화가 아니에요."
         }
       ],
-      "speaker_en": "Verbella"
+      "speaker_en": "Verbella",
+      "direct_chunks": [
+        {
+          "en": "That",
+          "ko": "그건"
+        },
+        {
+          "en": "is not",
+          "ko": "아니에요"
+        },
+        {
+          "en": "peace.",
+          "ko": "평화가."
+        }
+      ]
     },
     {
       "speaker": "컴플리",

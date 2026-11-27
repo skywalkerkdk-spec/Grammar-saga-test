@@ -18,12 +18,56 @@
             {
               "speaker": "Subject",
               "en": "I promised to carry every sack myself.",
-              "ko": "모든 자루를 혼자 나르겠다고 약속했어."
+              "ko": "모든 자루를 혼자 나르겠다고 약속했어.",
+              "direct_chunks": [
+                {
+                  "en": "I promised",
+                  "ko": "나는 약속했어"
+                },
+                {
+                  "en": "to carry",
+                  "ko": "나르겠다고"
+                },
+                {
+                  "en": "every sack",
+                  "ko": "모든 자루를"
+                },
+                {
+                  "en": "myself.",
+                  "ko": "혼자."
+                }
+              ]
             },
             {
               "speaker": "g1_extra_5",
               "en": "We have three carts and six workers. You do not need to carry them alone.",
-              "ko": "수레 세 대와 일꾼 여섯 명이 있어요. 혼자 나를 필요 없어요."
+              "ko": "수레 세 대와 일꾼 여섯 명이 있어요. 혼자 나를 필요 없어요.",
+              "direct_chunks": [
+                {
+                  "en": "We have",
+                  "ko": "우리에게는 있어요"
+                },
+                {
+                  "en": "three carts",
+                  "ko": "수레 세 대와"
+                },
+                {
+                  "en": "and six workers.",
+                  "ko": "일꾼 여섯 명이."
+                },
+                {
+                  "en": "You do not need",
+                  "ko": "당신은 필요 없어요"
+                },
+                {
+                  "en": "to carry them",
+                  "ko": "그것들을 나를"
+                },
+                {
+                  "en": "alone.",
+                  "ko": "혼자."
+                }
+              ]
             }
           ]
         },
@@ -33,12 +77,40 @@
             {
               "speaker": "md_extra_7",
               "en": "The bridge can take one loaded cart at a time.",
-              "ko": "다리에는 짐을 실은 수레가 한 번에 한 대씩 지나갈 수 있어요."
+              "ko": "다리에는 짐을 실은 수레가 한 번에 한 대씩 지나갈 수 있어요.",
+              "direct_chunks": [
+                {
+                  "en": "The bridge",
+                  "ko": "다리는"
+                },
+                {
+                  "en": "can take",
+                  "ko": "받을 수 있어요"
+                },
+                {
+                  "en": "one loaded cart",
+                  "ko": "짐을 실은 수레 한 대를"
+                },
+                {
+                  "en": "at a time.",
+                  "ko": "한 번에."
+                }
+              ]
             },
             {
               "speaker": "Subject",
               "en": "I should remember that.",
-              "ko": "그걸 기억해야겠어."
+              "ko": "그걸 기억해야겠어.",
+              "direct_chunks": [
+                {
+                  "en": "I should remember",
+                  "ko": "나는 기억해야겠어"
+                },
+                {
+                  "en": "that.",
+                  "ko": "그것을."
+                }
+              ]
             }
           ]
         },
@@ -49,17 +121,63 @@
             {
               "speaker": "g1_extra_5",
               "en": "The cart is ready, but one wheel is loose.",
-              "ko": "수레는 준비됐지만 바퀴 하나가 헐거워요."
+              "ko": "수레는 준비됐지만 바퀴 하나가 헐거워요.",
+              "direct_chunks": [
+                {
+                  "en": "The cart is ready,",
+                  "ko": "수레는 준비됐지만"
+                },
+                {
+                  "en": "but one wheel",
+                  "ko": "바퀴 하나가"
+                },
+                {
+                  "en": "is loose.",
+                  "ko": "헐거워요."
+                }
+              ]
             },
             {
               "speaker": "Subject",
               "en": "I wanted to leave before anyone noticed the delay.",
-              "ko": "아무도 지연을 알아차리기 전에 떠나고 싶었어."
+              "ko": "아무도 지연을 알아차리기 전에 떠나고 싶었어.",
+              "direct_chunks": [
+                {
+                  "en": "I wanted to leave",
+                  "ko": "나는 떠나고 싶었어"
+                },
+                {
+                  "en": "before anyone noticed",
+                  "ko": "아무도 알아차리기 전에"
+                },
+                {
+                  "en": "the delay.",
+                  "ko": "지연을."
+                }
+              ]
             },
             {
               "speaker": "Comple",
               "en": "A leader can change a plan when it is unsafe.",
-              "ko": "지도자는 계획이 위험하면 바꿀 수 있어."
+              "ko": "지도자는 계획이 위험하면 바꿀 수 있어.",
+              "direct_chunks": [
+                {
+                  "en": "A leader",
+                  "ko": "지도자는"
+                },
+                {
+                  "en": "can change",
+                  "ko": "바꿀 수 있어"
+                },
+                {
+                  "en": "a plan",
+                  "ko": "계획을"
+                },
+                {
+                  "en": "when it is unsafe.",
+                  "ko": "그것이 위험할 때."
+                }
+              ]
             }
           ]
         },
@@ -79,7 +197,25 @@
             {
               "speaker": "Subject",
               "en": "I will wait for the repair and ask everyone to share the work.",
-              "ko": "수리를 기다리고 모두에게 일을 나누자고 할게."
+              "ko": "수리를 기다리고 모두에게 일을 나누자고 할게.",
+              "direct_chunks": [
+                {
+                  "en": "I will wait",
+                  "ko": "나는 기다릴게"
+                },
+                {
+                  "en": "for the repair",
+                  "ko": "수리를"
+                },
+                {
+                  "en": "and ask everyone",
+                  "ko": "그리고 모두에게 부탁할게"
+                },
+                {
+                  "en": "to share the work.",
+                  "ko": "일을 나누자고."
+                }
+              ]
             }
           ]
         },
@@ -89,12 +225,44 @@
             {
               "speaker": "Subject",
               "en": "I will organize the team instead of doing everything myself.",
-              "ko": "모든 일을 혼자 하는 대신 팀을 이끌겠어."
+              "ko": "모든 일을 혼자 하는 대신 팀을 이끌겠어.",
+              "direct_chunks": [
+                {
+                  "en": "I will organize",
+                  "ko": "나는 이끌겠어"
+                },
+                {
+                  "en": "the team",
+                  "ko": "팀을"
+                },
+                {
+                  "en": "instead of doing everything",
+                  "ko": "모든 일을 하는 대신"
+                },
+                {
+                  "en": "myself.",
+                  "ko": "혼자."
+                }
+              ]
             },
             {
               "speaker": "g1_extra_5",
               "en": "Come back whenever you need a friend.",
-              "ko": "친구가 필요할 때 언제든 돌아오세요."
+              "ko": "친구가 필요할 때 언제든 돌아오세요.",
+              "direct_chunks": [
+                {
+                  "en": "Come back",
+                  "ko": "돌아오세요"
+                },
+                {
+                  "en": "whenever you need",
+                  "ko": "당신이 필요할 때 언제든"
+                },
+                {
+                  "en": "a friend.",
+                  "ko": "친구가."
+                }
+              ]
             }
           ]
         }
@@ -107,7 +275,25 @@
           {
             "speaker": "Subject",
             "en": "I will wait for the repair and ask everyone to share the work.",
-            "ko": "수리를 기다리고 모두에게 일을 나누자고 할게."
+            "ko": "수리를 기다리고 모두에게 일을 나누자고 할게.",
+            "direct_chunks": [
+              {
+                "en": "I will wait",
+                "ko": "나는 기다릴게"
+              },
+              {
+                "en": "for the repair",
+                "ko": "수리를"
+              },
+              {
+                "en": "and ask everyone",
+                "ko": "그리고 모두에게 부탁할게"
+              },
+              {
+                "en": "to share the work.",
+                "ko": "일을 나누자고."
+              }
+            ]
           }
         ]
       }
@@ -129,12 +315,60 @@
             {
               "speaker": "Verbella",
               "en": "I used to think helping meant doing something immediately.",
-              "ko": "도움이란 즉시 무언가를 하는 것이라고 생각했어요."
+              "ko": "도움이란 즉시 무언가를 하는 것이라고 생각했어요.",
+              "direct_chunks": [
+                {
+                  "en": "I used to think",
+                  "ko": "나는 생각하곤 했어요"
+                },
+                {
+                  "en": "helping meant",
+                  "ko": "도움이란 뜻이라고"
+                },
+                {
+                  "en": "doing something",
+                  "ko": "무언가를 하는 것"
+                },
+                {
+                  "en": "immediately.",
+                  "ko": "즉시."
+                }
+              ]
             },
             {
               "speaker": "g2_extra_7",
               "en": "Daisy needs a meal without fish. Please ask her first.",
-              "ko": "데이지에게는 생선 없는 식사가 필요해요. 먼저 아이에게 물어보세요."
+              "ko": "데이지에게는 생선 없는 식사가 필요해요. 먼저 아이에게 물어보세요.",
+              "direct_chunks": [
+                {
+                  "en": "Daisy",
+                  "ko": "데이지에게는"
+                },
+                {
+                  "en": "needs",
+                  "ko": "필요해요"
+                },
+                {
+                  "en": "a meal",
+                  "ko": "식사가"
+                },
+                {
+                  "en": "without fish.",
+                  "ko": "생선 없는."
+                },
+                {
+                  "en": "Please ask",
+                  "ko": "물어보세요"
+                },
+                {
+                  "en": "her",
+                  "ko": "아이에게"
+                },
+                {
+                  "en": "first.",
+                  "ko": "먼저."
+                }
+              ]
             }
           ]
         },
@@ -144,12 +378,40 @@
             {
               "speaker": "pf_extra_6",
               "en": "Some travelers need water, while others need a place to rest.",
-              "ko": "어떤 여행자는 물이 필요하고 다른 사람은 쉴 곳이 필요해요."
+              "ko": "어떤 여행자는 물이 필요하고 다른 사람은 쉴 곳이 필요해요.",
+              "direct_chunks": [
+                {
+                  "en": "Some travelers",
+                  "ko": "어떤 여행자는"
+                },
+                {
+                  "en": "need water,",
+                  "ko": "물이 필요하고"
+                },
+                {
+                  "en": "while others",
+                  "ko": "다른 사람은"
+                },
+                {
+                  "en": "need a place to rest.",
+                  "ko": "쉴 곳이 필요해요."
+                }
+              ]
             },
             {
               "speaker": "Verbella",
               "en": "I should remember that.",
-              "ko": "그걸 기억해야겠어."
+              "ko": "그걸 기억해야겠어.",
+              "direct_chunks": [
+                {
+                  "en": "I should remember",
+                  "ko": "나는 기억해야겠어"
+                },
+                {
+                  "en": "that.",
+                  "ko": "그것을."
+                }
+              ]
             }
           ]
         },
@@ -160,17 +422,67 @@
             {
               "speaker": "g2_extra_7",
               "en": "One guest wants soup without fish. Another wants only water.",
-              "ko": "한 손님은 생선 없는 수프를 원하고 다른 손님은 물만 원해요."
+              "ko": "한 손님은 생선 없는 수프를 원하고 다른 손님은 물만 원해요.",
+              "direct_chunks": [
+                {
+                  "en": "One guest",
+                  "ko": "한 손님은"
+                },
+                {
+                  "en": "wants soup",
+                  "ko": "수프를 원하고"
+                },
+                {
+                  "en": "without fish.",
+                  "ko": "생선 없는"
+                },
+                {
+                  "en": "Another",
+                  "ko": "다른 손님은"
+                },
+                {
+                  "en": "wants only water.",
+                  "ko": "물만 원해요."
+                }
+              ]
             },
             {
               "speaker": "Verbella",
               "en": "I nearly brought the same meal to both.",
-              "ko": "두 사람에게 같은 음식을 가져다줄 뻔했어요."
+              "ko": "두 사람에게 같은 음식을 가져다줄 뻔했어요.",
+              "direct_chunks": [
+                {
+                  "en": "I nearly brought",
+                  "ko": "저는 거의 가져다줄 뻔했어요"
+                },
+                {
+                  "en": "the same meal",
+                  "ko": "같은 음식을"
+                },
+                {
+                  "en": "to both.",
+                  "ko": "두 사람 모두에게."
+                }
+              ]
             },
             {
               "speaker": "Indy",
               "en": "Ask them what they need before you choose.",
-              "ko": "선택하기 전에 무엇이 필요한지 물어봐."
+              "ko": "선택하기 전에 무엇이 필요한지 물어봐.",
+              "direct_chunks": [
+                {
+                  "en": "Ask them",
+                  "ko": "그들에게 물어봐"
+                },
+                {
+                  "en": "what they need",
+                  "ko": "그들이 필요한 것을"
+                },
+                {
+                  "en": "before you choose.",
+                  "ko": "네가 선택하기 전에."
+                }
+              ]
             }
           ]
         },
@@ -190,7 +502,21 @@
             {
               "speaker": "Verbella",
               "en": "I will ask each guest before preparing anything.",
-              "ko": "준비하기 전에 손님마다 먼저 물어볼게요."
+              "ko": "준비하기 전에 손님마다 먼저 물어볼게요.",
+              "direct_chunks": [
+                {
+                  "en": "I will ask",
+                  "ko": "제가 물어볼게요"
+                },
+                {
+                  "en": "each guest",
+                  "ko": "손님마다"
+                },
+                {
+                  "en": "before preparing anything.",
+                  "ko": "무엇이든 준비하기 전에."
+                }
+              ]
             }
           ]
         },
@@ -200,12 +526,36 @@
             {
               "speaker": "Verbella",
               "en": "I will listen before I act.",
-              "ko": "행동하기 전에 먼저 들을게요."
+              "ko": "행동하기 전에 먼저 들을게요.",
+              "direct_chunks": [
+                {
+                  "en": "I will listen",
+                  "ko": "나는 들을게"
+                },
+                {
+                  "en": "before I act.",
+                  "ko": "내가 행동하기 전에."
+                }
+              ]
             },
             {
               "speaker": "g2_extra_7",
               "en": "Come back whenever you need a friend.",
-              "ko": "친구가 필요할 때 언제든 돌아오세요."
+              "ko": "친구가 필요할 때 언제든 돌아오세요.",
+              "direct_chunks": [
+                {
+                  "en": "Come back",
+                  "ko": "돌아오세요"
+                },
+                {
+                  "en": "whenever you need",
+                  "ko": "당신이 필요할 때 언제든"
+                },
+                {
+                  "en": "a friend.",
+                  "ko": "친구가."
+                }
+              ]
             }
           ]
         }
@@ -218,7 +568,21 @@
           {
             "speaker": "Verbella",
             "en": "I will ask each guest before preparing anything.",
-            "ko": "준비하기 전에 손님마다 먼저 물어볼게요."
+            "ko": "준비하기 전에 손님마다 먼저 물어볼게요.",
+            "direct_chunks": [
+              {
+                "en": "I will ask",
+                "ko": "제가 물어볼게요"
+              },
+              {
+                "en": "each guest",
+                "ko": "손님마다"
+              },
+              {
+                "en": "before preparing anything.",
+                "ko": "무엇이든 준비하기 전에."
+              }
+            ]
           }
         ]
       }
@@ -240,12 +604,52 @@
             {
               "speaker": "Comple",
               "en": "I once refused help because I thought a knight must stand alone.",
-              "ko": "기사는 홀로 서야 한다고 생각해 도움을 거절한 적이 있어."
+              "ko": "기사는 홀로 서야 한다고 생각해 도움을 거절한 적이 있어.",
+              "direct_chunks": [
+                {
+                  "en": "I once refused help",
+                  "ko": "나는 한때 도움을 거절했어"
+                },
+                {
+                  "en": "because I thought",
+                  "ko": "내가 생각했기 때문에"
+                },
+                {
+                  "en": "a knight must stand alone.",
+                  "ko": "기사는 홀로 서야 한다고."
+                }
+              ]
             },
             {
               "speaker": "md_extra_7",
               "en": "A shield cannot repair a bridge. We need carpenters too.",
-              "ko": "방패로 다리를 고칠 수는 없어요. 목수도 필요해요."
+              "ko": "방패로 다리를 고칠 수는 없어요. 목수도 필요해요.",
+              "direct_chunks": [
+                {
+                  "en": "A shield",
+                  "ko": "방패로는"
+                },
+                {
+                  "en": "cannot repair",
+                  "ko": "고칠 수 없어요"
+                },
+                {
+                  "en": "a bridge.",
+                  "ko": "다리를."
+                },
+                {
+                  "en": "We need",
+                  "ko": "우리는 필요해요"
+                },
+                {
+                  "en": "carpenters",
+                  "ko": "목수도"
+                },
+                {
+                  "en": "too.",
+                  "ko": "역시."
+                }
+              ]
             }
           ]
         },
@@ -255,12 +659,40 @@
             {
               "speaker": "pe_extra_5",
               "en": "I can show you a safe path while you protect the travelers.",
-              "ko": "여행자를 지키는 동안 안전한 길을 안내할게요."
+              "ko": "여행자를 지키는 동안 안전한 길을 안내할게요.",
+              "direct_chunks": [
+                {
+                  "en": "I can show you",
+                  "ko": "내가 보여 줄 수 있어"
+                },
+                {
+                  "en": "a safe path",
+                  "ko": "안전한 길을"
+                },
+                {
+                  "en": "while you protect",
+                  "ko": "네가 지키는 동안"
+                },
+                {
+                  "en": "the travelers.",
+                  "ko": "여행자들을."
+                }
+              ]
             },
             {
               "speaker": "Comple",
               "en": "I should remember that.",
-              "ko": "그걸 기억해야겠어."
+              "ko": "그걸 기억해야겠어.",
+              "direct_chunks": [
+                {
+                  "en": "I should remember",
+                  "ko": "나는 기억해야겠어"
+                },
+                {
+                  "en": "that.",
+                  "ko": "그것을."
+                }
+              ]
             }
           ]
         },
@@ -271,17 +703,67 @@
             {
               "speaker": "md_extra_7",
               "en": "The repaired bridge is open, but the old path is still unsafe.",
-              "ko": "수리한 다리는 열렸지만 옛길은 여전히 위험해요."
+              "ko": "수리한 다리는 열렸지만 옛길은 여전히 위험해요.",
+              "direct_chunks": [
+                {
+                  "en": "The repaired bridge",
+                  "ko": "수리한 다리는"
+                },
+                {
+                  "en": "is open,",
+                  "ko": "열렸지만"
+                },
+                {
+                  "en": "but the old path",
+                  "ko": "옛길은"
+                },
+                {
+                  "en": "is still unsafe.",
+                  "ko": "여전히 위험해요."
+                }
+              ]
             },
             {
               "speaker": "Comple",
               "en": "I cannot guard both paths alone.",
-              "ko": "두 길을 혼자 지킬 수는 없어."
+              "ko": "두 길을 혼자 지킬 수는 없어.",
+              "direct_chunks": [
+                {
+                  "en": "I cannot guard",
+                  "ko": "나는 지킬 수 없어"
+                },
+                {
+                  "en": "both paths",
+                  "ko": "두 길을"
+                },
+                {
+                  "en": "alone.",
+                  "ko": "혼자."
+                }
+              ]
             },
             {
               "speaker": "Ob",
               "en": "I can guide the travelers while you watch the bridge.",
-              "ko": "네가 다리를 지키는 동안 여행자들을 안내할게."
+              "ko": "네가 다리를 지키는 동안 여행자들을 안내할게.",
+              "direct_chunks": [
+                {
+                  "en": "I can guide",
+                  "ko": "내가 안내할게"
+                },
+                {
+                  "en": "the travelers",
+                  "ko": "여행자들을"
+                },
+                {
+                  "en": "while you watch",
+                  "ko": "네가 지키는 동안"
+                },
+                {
+                  "en": "the bridge.",
+                  "ko": "다리를."
+                }
+              ]
             }
           ]
         },
@@ -301,7 +783,17 @@
             {
               "speaker": "Comple",
               "en": "Let us divide the work.",
-              "ko": "일을 나누자."
+              "ko": "일을 나누자.",
+              "direct_chunks": [
+                {
+                  "en": "Let us divide",
+                  "ko": "나누자"
+                },
+                {
+                  "en": "the work.",
+                  "ko": "일을."
+                }
+              ]
             }
           ]
         },
@@ -311,12 +803,40 @@
             {
               "speaker": "Comple",
               "en": "A knight can trust others without abandoning duty.",
-              "ko": "기사는 의무를 버리지 않고도 다른 사람을 믿을 수 있어."
+              "ko": "기사는 의무를 버리지 않고도 다른 사람을 믿을 수 있어.",
+              "direct_chunks": [
+                {
+                  "en": "A knight",
+                  "ko": "기사는"
+                },
+                {
+                  "en": "can trust others",
+                  "ko": "다른 사람을 믿을 수 있어"
+                },
+                {
+                  "en": "without abandoning duty.",
+                  "ko": "의무를 버리지 않고도."
+                }
+              ]
             },
             {
               "speaker": "md_extra_7",
               "en": "Come back whenever you need a friend.",
-              "ko": "친구가 필요할 때 언제든 돌아오세요."
+              "ko": "친구가 필요할 때 언제든 돌아오세요.",
+              "direct_chunks": [
+                {
+                  "en": "Come back",
+                  "ko": "돌아오세요"
+                },
+                {
+                  "en": "whenever you need",
+                  "ko": "당신이 필요할 때 언제든"
+                },
+                {
+                  "en": "a friend.",
+                  "ko": "친구가."
+                }
+              ]
             }
           ]
         }
@@ -329,7 +849,17 @@
           {
             "speaker": "Comple",
             "en": "Let us divide the work.",
-            "ko": "일을 나누자."
+            "ko": "일을 나누자.",
+            "direct_chunks": [
+              {
+                "en": "Let us divide",
+                "ko": "나누자"
+              },
+              {
+                "en": "the work.",
+                "ko": "일을."
+              }
+            ]
           }
         ]
       }
@@ -351,12 +881,56 @@
             {
               "speaker": "Ob",
               "en": "I used to follow the first clue I found.",
-              "ko": "처음 발견한 단서를 곧바로 따라가곤 했어."
+              "ko": "처음 발견한 단서를 곧바로 따라가곤 했어.",
+              "direct_chunks": [
+                {
+                  "en": "I used to follow",
+                  "ko": "나는 따라가곤 했어"
+                },
+                {
+                  "en": "the first clue",
+                  "ko": "첫 단서를"
+                },
+                {
+                  "en": "I found.",
+                  "ko": "내가 발견한."
+                }
+              ]
             },
             {
               "speaker": "rp_extra_6",
               "en": "Two bags have stars on them. Only one has a green strap.",
-              "ko": "가방 두 개에 별이 있어요. 초록색 끈은 하나에만 있어요."
+              "ko": "가방 두 개에 별이 있어요. 초록색 끈은 하나에만 있어요.",
+              "direct_chunks": [
+                {
+                  "en": "Two bags",
+                  "ko": "가방 두 개에"
+                },
+                {
+                  "en": "have",
+                  "ko": "있어요"
+                },
+                {
+                  "en": "stars",
+                  "ko": "별이"
+                },
+                {
+                  "en": "on them.",
+                  "ko": "그 위에."
+                },
+                {
+                  "en": "Only one",
+                  "ko": "하나만"
+                },
+                {
+                  "en": "has",
+                  "ko": "가지고 있어요"
+                },
+                {
+                  "en": "a green strap.",
+                  "ko": "초록색 끈을."
+                }
+              ]
             }
           ]
         },
@@ -366,12 +940,40 @@
             {
               "speaker": "pn_extra_5",
               "en": "The owner described a green strap, not a red one.",
-              "ko": "주인은 빨간 끈이 아니라 초록 끈이라고 설명했어요."
+              "ko": "주인은 빨간 끈이 아니라 초록 끈이라고 설명했어요.",
+              "direct_chunks": [
+                {
+                  "en": "The owner",
+                  "ko": "주인은"
+                },
+                {
+                  "en": "described",
+                  "ko": "설명했어요"
+                },
+                {
+                  "en": "a green strap,",
+                  "ko": "초록 끈을"
+                },
+                {
+                  "en": "not a red one.",
+                  "ko": "빨간 끈이 아니라."
+                }
+              ]
             },
             {
               "speaker": "Ob",
               "en": "I should remember that.",
-              "ko": "그걸 기억해야겠어."
+              "ko": "그걸 기억해야겠어.",
+              "direct_chunks": [
+                {
+                  "en": "I should remember",
+                  "ko": "나는 기억해야겠어"
+                },
+                {
+                  "en": "that.",
+                  "ko": "그것을."
+                }
+              ]
             }
           ]
         },
@@ -382,17 +984,67 @@
             {
               "speaker": "pn_extra_5",
               "en": "The owner described a green strap and a small silver button.",
-              "ko": "주인은 초록색 끈과 작은 은색 단추를 설명했어요."
+              "ko": "주인은 초록색 끈과 작은 은색 단추를 설명했어요.",
+              "direct_chunks": [
+                {
+                  "en": "The owner",
+                  "ko": "주인은"
+                },
+                {
+                  "en": "described",
+                  "ko": "설명했어요"
+                },
+                {
+                  "en": "a green strap",
+                  "ko": "초록색 끈을"
+                },
+                {
+                  "en": "and a small silver button.",
+                  "ko": "그리고 작은 은색 단추를."
+                }
+              ]
             },
             {
               "speaker": "Ob",
               "en": "I found a bag with a green strap, but its button is black.",
-              "ko": "초록색 끈이 달린 가방을 찾았지만 단추가 검은색이야."
+              "ko": "초록색 끈이 달린 가방을 찾았지만 단추가 검은색이야.",
+              "direct_chunks": [
+                {
+                  "en": "I found a bag",
+                  "ko": "나는 가방을 찾았지만"
+                },
+                {
+                  "en": "with a green strap,",
+                  "ko": "초록색 끈이 달린"
+                },
+                {
+                  "en": "but its button",
+                  "ko": "그 단추는"
+                },
+                {
+                  "en": "is black.",
+                  "ko": "검은색이야."
+                }
+              ]
             },
             {
               "speaker": "Modi",
               "en": "Look at the other bag before you decide.",
-              "ko": "결정하기 전에 다른 가방을 봐."
+              "ko": "결정하기 전에 다른 가방을 봐.",
+              "direct_chunks": [
+                {
+                  "en": "Look at",
+                  "ko": "봐"
+                },
+                {
+                  "en": "the other bag",
+                  "ko": "다른 가방을"
+                },
+                {
+                  "en": "before you decide.",
+                  "ko": "네가 결정하기 전에."
+                }
+              ]
             }
           ]
         },
@@ -412,7 +1064,17 @@
             {
               "speaker": "Ob",
               "en": "I will check both details.",
-              "ko": "두 가지 단서를 모두 확인할게."
+              "ko": "두 가지 단서를 모두 확인할게.",
+              "direct_chunks": [
+                {
+                  "en": "I will check",
+                  "ko": "나는 확인할게"
+                },
+                {
+                  "en": "both details.",
+                  "ko": "두 가지 단서를 모두."
+                }
+              ]
             }
           ]
         },
@@ -422,12 +1084,40 @@
             {
               "speaker": "Ob",
               "en": "I will check my target before I act.",
-              "ko": "행동하기 전에 목표를 확인할게."
+              "ko": "행동하기 전에 목표를 확인할게.",
+              "direct_chunks": [
+                {
+                  "en": "I will check",
+                  "ko": "나는 확인할게"
+                },
+                {
+                  "en": "my target",
+                  "ko": "내 목표를"
+                },
+                {
+                  "en": "before I act.",
+                  "ko": "내가 행동하기 전에."
+                }
+              ]
             },
             {
               "speaker": "rp_extra_6",
               "en": "Come back whenever you need a friend.",
-              "ko": "친구가 필요할 때 언제든 돌아오세요."
+              "ko": "친구가 필요할 때 언제든 돌아오세요.",
+              "direct_chunks": [
+                {
+                  "en": "Come back",
+                  "ko": "돌아오세요"
+                },
+                {
+                  "en": "whenever you need",
+                  "ko": "당신이 필요할 때 언제든"
+                },
+                {
+                  "en": "a friend.",
+                  "ko": "친구가."
+                }
+              ]
             }
           ]
         }
@@ -440,7 +1130,17 @@
           {
             "speaker": "Ob",
             "en": "I will check both details.",
-            "ko": "두 가지 단서를 모두 확인할게."
+            "ko": "두 가지 단서를 모두 확인할게.",
+            "direct_chunks": [
+              {
+                "en": "I will check",
+                "ko": "나는 확인할게"
+              },
+              {
+                "en": "both details.",
+                "ko": "두 가지 단서를 모두."
+              }
+            ]
           }
         ]
       }
@@ -462,12 +1162,44 @@
             {
               "speaker": "Oxy",
               "en": "I once changed a broken object before anyone could examine it.",
-              "ko": "누군가 조사하기 전에 망가진 물건을 바꿔 버린 적이 있어."
+              "ko": "누군가 조사하기 전에 망가진 물건을 바꿔 버린 적이 있어.",
+              "direct_chunks": [
+                {
+                  "en": "I once changed",
+                  "ko": "나는 한때 바꿔 버렸어"
+                },
+                {
+                  "en": "a broken object",
+                  "ko": "망가진 물건을"
+                },
+                {
+                  "en": "before anyone could examine it.",
+                  "ko": "누군가 그것을 조사하기 전에."
+                }
+              ]
             },
             {
               "speaker": "pe_extra_7",
               "en": "This bell needs a new rope, not a new shape.",
-              "ko": "이 종에는 새 모양이 아니라 새 밧줄이 필요해요."
+              "ko": "이 종에는 새 모양이 아니라 새 밧줄이 필요해요.",
+              "direct_chunks": [
+                {
+                  "en": "This bell",
+                  "ko": "이 종에는"
+                },
+                {
+                  "en": "needs",
+                  "ko": "필요해요"
+                },
+                {
+                  "en": "a new rope,",
+                  "ko": "새 밧줄이"
+                },
+                {
+                  "en": "not a new shape.",
+                  "ko": "새 모양이 아니라."
+                }
+              ]
             }
           ]
         },
@@ -477,12 +1209,36 @@
             {
               "speaker": "pc_extra_6",
               "en": "Please copy the old marks before you repair the stone.",
-              "ko": "돌을 수리하기 전에 옛 문양을 옮겨 적어 주세요."
+              "ko": "돌을 수리하기 전에 옛 문양을 옮겨 적어 주세요.",
+              "direct_chunks": [
+                {
+                  "en": "Please copy",
+                  "ko": "옮겨 적어 주세요"
+                },
+                {
+                  "en": "the old marks",
+                  "ko": "옛 문양을"
+                },
+                {
+                  "en": "before you repair the stone.",
+                  "ko": "돌을 수리하기 전에."
+                }
+              ]
             },
             {
               "speaker": "Oxy",
               "en": "I should remember that.",
-              "ko": "그걸 기억해야겠어."
+              "ko": "그걸 기억해야겠어.",
+              "direct_chunks": [
+                {
+                  "en": "I should remember",
+                  "ko": "나는 기억해야겠어"
+                },
+                {
+                  "en": "that.",
+                  "ko": "그것을."
+                }
+              ]
             }
           ]
         },
@@ -493,17 +1249,75 @@
             {
               "speaker": "pc_extra_6",
               "en": "The stone has a damaged letter. The old copy shows the whole word.",
-              "ko": "돌의 글자 하나가 손상됐어요. 옛 사본에는 단어 전체가 보여요."
+              "ko": "돌의 글자 하나가 손상됐어요. 옛 사본에는 단어 전체가 보여요.",
+              "direct_chunks": [
+                {
+                  "en": "The stone",
+                  "ko": "돌에는"
+                },
+                {
+                  "en": "has",
+                  "ko": "있어요"
+                },
+                {
+                  "en": "a damaged letter.",
+                  "ko": "손상된 글자 하나가."
+                },
+                {
+                  "en": "The old copy",
+                  "ko": "옛 사본은"
+                },
+                {
+                  "en": "shows",
+                  "ko": "보여 줘요"
+                },
+                {
+                  "en": "the whole word.",
+                  "ko": "단어 전체를."
+                }
+              ]
             },
             {
               "speaker": "Oxy",
               "en": "I could repair the letter with magic, but I might change its shape.",
-              "ko": "마법으로 글자를 고칠 수 있지만 모양을 바꿀 수도 있어."
+              "ko": "마법으로 글자를 고칠 수 있지만 모양을 바꿀 수도 있어.",
+              "direct_chunks": [
+                {
+                  "en": "I could repair the letter",
+                  "ko": "나는 글자를 고칠 수 있지만"
+                },
+                {
+                  "en": "with magic,",
+                  "ko": "마법으로"
+                },
+                {
+                  "en": "but I might change",
+                  "ko": "바꿀 수도 있어"
+                },
+                {
+                  "en": "its shape.",
+                  "ko": "그 모양을."
+                }
+              ]
             },
             {
               "speaker": "Comple",
               "en": "Keep the original and make a separate copy.",
-              "ko": "원본은 보존하고 별도의 사본을 만들어."
+              "ko": "원본은 보존하고 별도의 사본을 만들어.",
+              "direct_chunks": [
+                {
+                  "en": "Keep the original",
+                  "ko": "원본은 보존하고"
+                },
+                {
+                  "en": "and make",
+                  "ko": "만들어"
+                },
+                {
+                  "en": "a separate copy.",
+                  "ko": "별도의 사본을."
+                }
+              ]
             }
           ]
         },
@@ -523,7 +1337,21 @@
             {
               "speaker": "Oxy",
               "en": "I will record the damage before making a copy.",
-              "ko": "사본을 만들기 전에 손상된 부분을 기록할게."
+              "ko": "사본을 만들기 전에 손상된 부분을 기록할게.",
+              "direct_chunks": [
+                {
+                  "en": "I will record",
+                  "ko": "나는 기록할게"
+                },
+                {
+                  "en": "the damage",
+                  "ko": "손상된 부분을"
+                },
+                {
+                  "en": "before making a copy.",
+                  "ko": "사본을 만들기 전에."
+                }
+              ]
             }
           ]
         },
@@ -533,12 +1361,40 @@
             {
               "speaker": "Oxy",
               "en": "I can change things without erasing their history.",
-              "ko": "역사를 지우지 않고도 사물을 바꿀 수 있어."
+              "ko": "역사를 지우지 않고도 사물을 바꿀 수 있어.",
+              "direct_chunks": [
+                {
+                  "en": "I can change things",
+                  "ko": "나는 사물을 바꿀 수 있어"
+                },
+                {
+                  "en": "without erasing",
+                  "ko": "지우지 않고"
+                },
+                {
+                  "en": "their history.",
+                  "ko": "그것들의 역사를."
+                }
+              ]
             },
             {
               "speaker": "pe_extra_7",
               "en": "Come back whenever you need a friend.",
-              "ko": "친구가 필요할 때 언제든 돌아오세요."
+              "ko": "친구가 필요할 때 언제든 돌아오세요.",
+              "direct_chunks": [
+                {
+                  "en": "Come back",
+                  "ko": "돌아오세요"
+                },
+                {
+                  "en": "whenever you need",
+                  "ko": "당신이 필요할 때 언제든"
+                },
+                {
+                  "en": "a friend.",
+                  "ko": "친구가."
+                }
+              ]
             }
           ]
         }
@@ -551,7 +1407,21 @@
           {
             "speaker": "Oxy",
             "en": "I will record the damage before making a copy.",
-            "ko": "사본을 만들기 전에 손상된 부분을 기록할게."
+            "ko": "사본을 만들기 전에 손상된 부분을 기록할게.",
+            "direct_chunks": [
+              {
+                "en": "I will record",
+                "ko": "나는 기록할게"
+              },
+              {
+                "en": "the damage",
+                "ko": "손상된 부분을"
+              },
+              {
+                "en": "before making a copy.",
+                "ko": "사본을 만들기 전에."
+              }
+            ]
           }
         ]
       }
@@ -573,12 +1443,44 @@
             {
               "speaker": "Indy",
               "en": "I used to count every gift as a lost sale.",
-              "ko": "선물을 줄 때마다 판매 기회를 잃었다고 생각했어."
+              "ko": "선물을 줄 때마다 판매 기회를 잃었다고 생각했어.",
+              "direct_chunks": [
+                {
+                  "en": "I used to count",
+                  "ko": "나는 생각하곤 했어"
+                },
+                {
+                  "en": "every gift",
+                  "ko": "선물을 줄 때마다"
+                },
+                {
+                  "en": "as a lost sale.",
+                  "ko": "판매 기회를 잃은 것으로."
+                }
+              ]
             },
             {
               "speaker": "pn_extra_7",
               "en": "This spare cover is useful to a child with a torn notebook.",
-              "ko": "이 여분 표지는 공책이 찢어진 아이에게 유용해요."
+              "ko": "이 여분 표지는 공책이 찢어진 아이에게 유용해요.",
+              "direct_chunks": [
+                {
+                  "en": "This spare cover",
+                  "ko": "이 여분 표지는"
+                },
+                {
+                  "en": "is useful",
+                  "ko": "유용해요"
+                },
+                {
+                  "en": "to a child",
+                  "ko": "아이에게"
+                },
+                {
+                  "en": "with a torn notebook.",
+                  "ko": "공책이 찢어진."
+                }
+              ]
             }
           ]
         },
@@ -588,12 +1490,36 @@
             {
               "speaker": "g1_extra_6",
               "en": "A traveler paid for bread for the next guest.",
-              "ko": "한 여행자가 다음 손님의 빵값을 냈어요."
+              "ko": "한 여행자가 다음 손님의 빵값을 냈어요.",
+              "direct_chunks": [
+                {
+                  "en": "A traveler",
+                  "ko": "한 여행자가"
+                },
+                {
+                  "en": "paid for bread",
+                  "ko": "빵값을 냈어요"
+                },
+                {
+                  "en": "for the next guest.",
+                  "ko": "다음 손님을 위한."
+                }
+              ]
             },
             {
               "speaker": "Indy",
               "en": "I should remember that.",
-              "ko": "그걸 기억해야겠어."
+              "ko": "그걸 기억해야겠어.",
+              "direct_chunks": [
+                {
+                  "en": "I should remember",
+                  "ko": "나는 기억해야겠어"
+                },
+                {
+                  "en": "that.",
+                  "ko": "그것을."
+                }
+              ]
             }
           ]
         },
@@ -604,17 +1530,63 @@
             {
               "speaker": "g1_extra_6",
               "en": "A customer paid for two loaves and left one for a traveler.",
-              "ko": "손님이 빵 두 개 값을 내고 하나는 여행자에게 남겼어요."
+              "ko": "손님이 빵 두 개 값을 내고 하나는 여행자에게 남겼어요.",
+              "direct_chunks": [
+                {
+                  "en": "A customer",
+                  "ko": "손님이"
+                },
+                {
+                  "en": "paid for two loaves",
+                  "ko": "빵 두 개 값을 내고"
+                },
+                {
+                  "en": "and left one",
+                  "ko": "하나는 남겼어요"
+                },
+                {
+                  "en": "for a traveler.",
+                  "ko": "여행자를 위해."
+                }
+              ]
             },
             {
               "speaker": "Indy",
               "en": "I thought the second loaf was unsold.",
-              "ko": "두 번째 빵은 팔리지 않은 줄 알았어."
+              "ko": "두 번째 빵은 팔리지 않은 줄 알았어.",
+              "direct_chunks": [
+                {
+                  "en": "I thought",
+                  "ko": "나는 생각했어"
+                },
+                {
+                  "en": "the second loaf",
+                  "ko": "두 번째 빵은"
+                },
+                {
+                  "en": "was unsold.",
+                  "ko": "팔리지 않은 줄."
+                }
+              ]
             },
             {
               "speaker": "Direct",
               "en": "It already has a purpose.",
-              "ko": "이미 쓰임새가 정해졌어."
+              "ko": "이미 쓰임새가 정해졌어.",
+              "direct_chunks": [
+                {
+                  "en": "It",
+                  "ko": "그것은"
+                },
+                {
+                  "en": "already has",
+                  "ko": "이미 가지고 있어"
+                },
+                {
+                  "en": "a purpose.",
+                  "ko": "쓰임새를."
+                }
+              ]
             }
           ]
         },
@@ -634,7 +1606,25 @@
             {
               "speaker": "Indy",
               "en": "I will keep the gift separate from my stock.",
-              "ko": "선물은 판매 물품과 따로 보관할게."
+              "ko": "선물은 판매 물품과 따로 보관할게.",
+              "direct_chunks": [
+                {
+                  "en": "I will keep",
+                  "ko": "나는 보관할게"
+                },
+                {
+                  "en": "the gift",
+                  "ko": "선물을"
+                },
+                {
+                  "en": "separate",
+                  "ko": "따로"
+                },
+                {
+                  "en": "from my stock.",
+                  "ko": "내 재고와."
+                }
+              ]
             }
           ]
         },
@@ -644,12 +1634,40 @@
             {
               "speaker": "Indy",
               "en": "I can run a shop and still choose to give.",
-              "ko": "상점을 운영하면서도 나눔을 선택할 수 있어."
+              "ko": "상점을 운영하면서도 나눔을 선택할 수 있어.",
+              "direct_chunks": [
+                {
+                  "en": "I can run a shop",
+                  "ko": "나는 상점을 운영할 수 있어"
+                },
+                {
+                  "en": "and still choose",
+                  "ko": "그러면서도 선택할 수 있어"
+                },
+                {
+                  "en": "to give.",
+                  "ko": "나눔을."
+                }
+              ]
             },
             {
               "speaker": "pn_extra_7",
               "en": "Come back whenever you need a friend.",
-              "ko": "친구가 필요할 때 언제든 돌아오세요."
+              "ko": "친구가 필요할 때 언제든 돌아오세요.",
+              "direct_chunks": [
+                {
+                  "en": "Come back",
+                  "ko": "돌아오세요"
+                },
+                {
+                  "en": "whenever you need",
+                  "ko": "당신이 필요할 때 언제든"
+                },
+                {
+                  "en": "a friend.",
+                  "ko": "친구가."
+                }
+              ]
             }
           ]
         }
@@ -662,7 +1680,25 @@
           {
             "speaker": "Indy",
             "en": "I will keep the gift separate from my stock.",
-            "ko": "선물은 판매 물품과 따로 보관할게."
+            "ko": "선물은 판매 물품과 따로 보관할게.",
+            "direct_chunks": [
+              {
+                "en": "I will keep",
+                "ko": "나는 보관할게"
+              },
+              {
+                "en": "the gift",
+                "ko": "선물을"
+              },
+              {
+                "en": "separate",
+                "ko": "따로"
+              },
+              {
+                "en": "from my stock.",
+                "ko": "내 재고와."
+              }
+            ]
           }
         ]
       }
@@ -684,12 +1720,44 @@
             {
               "speaker": "Direct",
               "en": "I have carried many things, but I do not always know who needs them.",
-              "ko": "많은 물건을 담아 왔지만 누가 필요한지 늘 아는 건 아니야."
+              "ko": "많은 물건을 담아 왔지만 누가 필요한지 늘 아는 건 아니야.",
+              "direct_chunks": [
+                {
+                  "en": "I have carried",
+                  "ko": "나는 담아 왔지만"
+                },
+                {
+                  "en": "many things,",
+                  "ko": "많은 물건을"
+                },
+                {
+                  "en": "but I do not always know",
+                  "ko": "늘 아는 건 아니야"
+                },
+                {
+                  "en": "who needs them.",
+                  "ko": "누가 그것이 필요한지."
+                }
+              ]
             },
             {
               "speaker": "ot_extra_5",
               "en": "The sailor needs a chart, not another empty bag.",
-              "ko": "선원에게는 빈 가방이 아니라 해도가 필요해요."
+              "ko": "선원에게는 빈 가방이 아니라 해도가 필요해요.",
+              "direct_chunks": [
+                {
+                  "en": "The sailor",
+                  "ko": "선원에게는"
+                },
+                {
+                  "en": "needs a chart,",
+                  "ko": "해도가 필요해요"
+                },
+                {
+                  "en": "not another empty bag.",
+                  "ko": "또 다른 빈 가방이 아니라."
+                }
+              ]
             }
           ]
         },
@@ -699,12 +1767,40 @@
             {
               "speaker": "rv_extra_5",
               "en": "This copy belongs to the traveler who requested it.",
-              "ko": "이 사본은 요청한 여행자의 것이에요."
+              "ko": "이 사본은 요청한 여행자의 것이에요.",
+              "direct_chunks": [
+                {
+                  "en": "This copy",
+                  "ko": "이 사본은"
+                },
+                {
+                  "en": "belongs to",
+                  "ko": "속해요"
+                },
+                {
+                  "en": "the traveler",
+                  "ko": "여행자에게"
+                },
+                {
+                  "en": "who requested it.",
+                  "ko": "그것을 요청한."
+                }
+              ]
             },
             {
               "speaker": "Direct",
               "en": "I should remember that.",
-              "ko": "그걸 기억해야겠어."
+              "ko": "그걸 기억해야겠어.",
+              "direct_chunks": [
+                {
+                  "en": "I should remember",
+                  "ko": "나는 기억해야겠어"
+                },
+                {
+                  "en": "that.",
+                  "ko": "그것을."
+                }
+              ]
             }
           ]
         },
@@ -715,17 +1811,63 @@
             {
               "speaker": "rv_extra_5",
               "en": "This chart is for a sailor. That notebook is for a student.",
-              "ko": "이 해도는 선원에게, 저 공책은 학생에게 줄 거예요."
+              "ko": "이 해도는 선원에게, 저 공책은 학생에게 줄 거예요.",
+              "direct_chunks": [
+                {
+                  "en": "This chart",
+                  "ko": "이 해도는"
+                },
+                {
+                  "en": "is for a sailor.",
+                  "ko": "선원을 위한 거예요"
+                },
+                {
+                  "en": "That notebook",
+                  "ko": "저 공책은"
+                },
+                {
+                  "en": "is for a student.",
+                  "ko": "학생을 위한 거예요."
+                }
+              ]
             },
             {
               "speaker": "Direct",
               "en": "Both objects fit inside me, but they have different owners.",
-              "ko": "두 물건 모두 내 안에 들어가지만 주인이 달라."
+              "ko": "두 물건 모두 내 안에 들어가지만 주인이 달라.",
+              "direct_chunks": [
+                {
+                  "en": "Both objects",
+                  "ko": "두 물건 모두"
+                },
+                {
+                  "en": "fit",
+                  "ko": "들어가지만"
+                },
+                {
+                  "en": "inside me,",
+                  "ko": "내 안에"
+                },
+                {
+                  "en": "but they have different owners.",
+                  "ko": "주인이 달라."
+                }
+              ]
             },
             {
               "speaker": "Indy",
               "en": "Let us label them before we leave.",
-              "ko": "떠나기 전에 이름표를 붙이자."
+              "ko": "떠나기 전에 이름표를 붙이자.",
+              "direct_chunks": [
+                {
+                  "en": "Let us label them",
+                  "ko": "이름표를 붙이자"
+                },
+                {
+                  "en": "before we leave.",
+                  "ko": "우리가 떠나기 전에."
+                }
+              ]
             }
           ]
         },
@@ -745,7 +1887,21 @@
             {
               "speaker": "Direct",
               "en": "I will deliver each object to the right person.",
-              "ko": "각 물건을 알맞은 사람에게 전달할게."
+              "ko": "각 물건을 알맞은 사람에게 전달할게.",
+              "direct_chunks": [
+                {
+                  "en": "I will deliver",
+                  "ko": "나는 전달할게"
+                },
+                {
+                  "en": "each object",
+                  "ko": "각 물건을"
+                },
+                {
+                  "en": "to the right person.",
+                  "ko": "알맞은 사람에게."
+                }
+              ]
             }
           ]
         },
@@ -755,12 +1911,40 @@
             {
               "speaker": "Direct",
               "en": "I will keep things safe until they reach the right person.",
-              "ko": "물건이 필요한 사람에게 닿을 때까지 안전하게 보관할게."
+              "ko": "물건이 필요한 사람에게 닿을 때까지 안전하게 보관할게.",
+              "direct_chunks": [
+                {
+                  "en": "I will keep things safe",
+                  "ko": "나는 물건을 안전하게 보관할게"
+                },
+                {
+                  "en": "until they reach",
+                  "ko": "그것들이 닿을 때까지"
+                },
+                {
+                  "en": "the right person.",
+                  "ko": "알맞은 사람에게."
+                }
+              ]
             },
             {
               "speaker": "ot_extra_5",
               "en": "Come back whenever you need a friend.",
-              "ko": "친구가 필요할 때 언제든 돌아오세요."
+              "ko": "친구가 필요할 때 언제든 돌아오세요.",
+              "direct_chunks": [
+                {
+                  "en": "Come back",
+                  "ko": "돌아오세요"
+                },
+                {
+                  "en": "whenever you need",
+                  "ko": "당신이 필요할 때 언제든"
+                },
+                {
+                  "en": "a friend.",
+                  "ko": "친구가."
+                }
+              ]
             }
           ]
         }
@@ -773,7 +1957,21 @@
           {
             "speaker": "Direct",
             "en": "I will deliver each object to the right person.",
-            "ko": "각 물건을 알맞은 사람에게 전달할게."
+            "ko": "각 물건을 알맞은 사람에게 전달할게.",
+            "direct_chunks": [
+              {
+                "en": "I will deliver",
+                "ko": "나는 전달할게"
+              },
+              {
+                "en": "each object",
+                "ko": "각 물건을"
+              },
+              {
+                "en": "to the right person.",
+                "ko": "알맞은 사람에게."
+              }
+            ]
           }
         ]
       }
@@ -795,12 +1993,40 @@
             {
               "speaker": "Modi",
               "en": "I notice little things that others miss.",
-              "ko": "다른 사람들이 놓치는 작은 것들을 발견해."
+              "ko": "다른 사람들이 놓치는 작은 것들을 발견해.",
+              "direct_chunks": [
+                {
+                  "en": "I notice",
+                  "ko": "나는 발견해"
+                },
+                {
+                  "en": "little things",
+                  "ko": "작은 것들을"
+                },
+                {
+                  "en": "that others miss.",
+                  "ko": "다른 사람들이 놓치는."
+                }
+              ]
             },
             {
               "speaker": "rv_extra_5",
               "en": "The bird is above the circle, not inside it.",
-              "ko": "새는 원 안이 아니라 위에 있어요."
+              "ko": "새는 원 안이 아니라 위에 있어요.",
+              "direct_chunks": [
+                {
+                  "en": "The bird",
+                  "ko": "새는"
+                },
+                {
+                  "en": "is above the circle,",
+                  "ko": "원 위에 있어요"
+                },
+                {
+                  "en": "not inside it.",
+                  "ko": "그 안이 아니라."
+                }
+              ]
             }
           ]
         },
@@ -810,12 +2036,36 @@
             {
               "speaker": "sj_extra_5",
               "en": "My grandmother's cage has the same mark.",
-              "ko": "할머니의 새장에도 같은 문양이 있어요."
+              "ko": "할머니의 새장에도 같은 문양이 있어요.",
+              "direct_chunks": [
+                {
+                  "en": "My grandmother's cage",
+                  "ko": "제 할머니의 새장에도"
+                },
+                {
+                  "en": "has",
+                  "ko": "있어요"
+                },
+                {
+                  "en": "the same mark.",
+                  "ko": "같은 문양이."
+                }
+              ]
             },
             {
               "speaker": "Modi",
               "en": "I should remember that.",
-              "ko": "그걸 기억해야겠어."
+              "ko": "그걸 기억해야겠어.",
+              "direct_chunks": [
+                {
+                  "en": "I should remember",
+                  "ko": "나는 기억해야겠어"
+                },
+                {
+                  "en": "that.",
+                  "ko": "그것을."
+                }
+              ]
             }
           ]
         },
@@ -826,17 +2076,67 @@
             {
               "speaker": "sj_extra_5",
               "en": "The old sign shows a bird above a broken circle.",
-              "ko": "옛 표지에는 끊어진 원 위에 새가 있어요."
+              "ko": "옛 표지에는 끊어진 원 위에 새가 있어요.",
+              "direct_chunks": [
+                {
+                  "en": "The old sign",
+                  "ko": "옛 표지에는"
+                },
+                {
+                  "en": "shows",
+                  "ko": "보여요"
+                },
+                {
+                  "en": "a bird",
+                  "ko": "새가"
+                },
+                {
+                  "en": "above a broken circle.",
+                  "ko": "끊어진 원 위에."
+                }
+              ]
             },
             {
               "speaker": "Modi",
               "en": "The new drawing shows a bird inside a circle.",
-              "ko": "새 그림에는 원 안에 새가 있어."
+              "ko": "새 그림에는 원 안에 새가 있어.",
+              "direct_chunks": [
+                {
+                  "en": "The new drawing",
+                  "ko": "새 그림에는"
+                },
+                {
+                  "en": "shows",
+                  "ko": "보여"
+                },
+                {
+                  "en": "a bird",
+                  "ko": "새가"
+                },
+                {
+                  "en": "inside a circle.",
+                  "ko": "원 안에."
+                }
+              ]
             },
             {
               "speaker": "Ob",
               "en": "Those are not the same sign.",
-              "ko": "두 문양은 같지 않아."
+              "ko": "두 문양은 같지 않아.",
+              "direct_chunks": [
+                {
+                  "en": "Those",
+                  "ko": "그것들은"
+                },
+                {
+                  "en": "are not",
+                  "ko": "아니야"
+                },
+                {
+                  "en": "the same sign.",
+                  "ko": "같은 문양이."
+                }
+              ]
             }
           ]
         },
@@ -856,7 +2156,25 @@
             {
               "speaker": "Modi",
               "en": "I will draw the old sign carefully in our notes.",
-              "ko": "수첩에 옛 문양을 정확히 그려 둘게."
+              "ko": "수첩에 옛 문양을 정확히 그려 둘게.",
+              "direct_chunks": [
+                {
+                  "en": "I will draw",
+                  "ko": "나는 그릴게"
+                },
+                {
+                  "en": "the old sign",
+                  "ko": "옛 문양을"
+                },
+                {
+                  "en": "carefully",
+                  "ko": "정확히"
+                },
+                {
+                  "en": "in our notes.",
+                  "ko": "우리 수첩에."
+                }
+              ]
             }
           ]
         },
@@ -866,12 +2184,40 @@
             {
               "speaker": "Modi",
               "en": "Small details can help us find a bigger story.",
-              "ko": "작은 단서로 더 큰 이야기를 찾을 수 있어."
+              "ko": "작은 단서로 더 큰 이야기를 찾을 수 있어.",
+              "direct_chunks": [
+                {
+                  "en": "Small details",
+                  "ko": "작은 단서가"
+                },
+                {
+                  "en": "can help us",
+                  "ko": "우리를 도울 수 있어"
+                },
+                {
+                  "en": "find a bigger story.",
+                  "ko": "더 큰 이야기를 찾도록."
+                }
+              ]
             },
             {
               "speaker": "rv_extra_5",
               "en": "Come back whenever you need a friend.",
-              "ko": "친구가 필요할 때 언제든 돌아오세요."
+              "ko": "친구가 필요할 때 언제든 돌아오세요.",
+              "direct_chunks": [
+                {
+                  "en": "Come back",
+                  "ko": "돌아오세요"
+                },
+                {
+                  "en": "whenever you need",
+                  "ko": "당신이 필요할 때 언제든"
+                },
+                {
+                  "en": "a friend.",
+                  "ko": "친구가."
+                }
+              ]
             }
           ]
         }
@@ -884,7 +2230,25 @@
           {
             "speaker": "Modi",
             "en": "I will draw the old sign carefully in our notes.",
-            "ko": "수첩에 옛 문양을 정확히 그려 둘게."
+            "ko": "수첩에 옛 문양을 정확히 그려 둘게.",
+            "direct_chunks": [
+              {
+                "en": "I will draw",
+                "ko": "나는 그릴게"
+              },
+              {
+                "en": "the old sign",
+                "ko": "옛 문양을"
+              },
+              {
+                "en": "carefully",
+                "ko": "정확히"
+              },
+              {
+                "en": "in our notes.",
+                "ko": "우리 수첩에."
+              }
+            ]
           }
         ]
       }
@@ -898,18 +2262,76 @@
         {
           "speaker": "Raven",
           "en": "I once carried supplies to hungry villages. Then I began to decide who deserved them.",
-          "ko": "한때 굶주린 마을에 물자를 날랐다. 그러다 누가 받을 자격이 있는지 내가 결정하기 시작했지."
+          "ko": "한때 굶주린 마을에 물자를 날랐다. 그러다 누가 받을 자격이 있는지 내가 결정하기 시작했지.",
+          "direct_chunks": [
+            {
+              "en": "I once carried",
+              "ko": "한때 나는 날랐다"
+            },
+            {
+              "en": "supplies",
+              "ko": "물자를"
+            },
+            {
+              "en": "to hungry villages.",
+              "ko": "굶주린 마을에."
+            },
+            {
+              "en": "Then",
+              "ko": "그러다"
+            },
+            {
+              "en": "I began to decide",
+              "ko": "내가 결정하기 시작했지"
+            },
+            {
+              "en": "who deserved them.",
+              "ko": "누가 그것을 받을 자격이 있는지."
+            }
+          ]
         },
         {
           "speaker": "Verbella",
           "en": "The stolen records will go back to their owners.",
-          "ko": "도난 기록은 주인에게 돌아갈 거야."
+          "ko": "도난 기록은 주인에게 돌아갈 거야.",
+          "direct_chunks": [
+            {
+              "en": "The stolen records",
+              "ko": "도난 기록은"
+            },
+            {
+              "en": "will go back",
+              "ko": "돌아갈 거야"
+            },
+            {
+              "en": "to their owners.",
+              "ko": "주인에게."
+            }
+          ]
         }
       ],
       "after_clear": {
         "speaker": "Lexion",
         "en": "Record what we learned, but do not excuse the harm.",
-        "ko": "알게 된 사실은 기록하되 피해를 정당화하지는 말게."
+        "ko": "알게 된 사실은 기록하되 피해를 정당화하지는 말게.",
+        "direct_chunks": [
+          {
+            "en": "Record",
+            "ko": "기록하게"
+          },
+          {
+            "en": "what we learned,",
+            "ko": "우리가 알게 된 것을"
+          },
+          {
+            "en": "but do not excuse",
+            "ko": "하지만 정당화하지는 말게"
+          },
+          {
+            "en": "the harm.",
+            "ko": "피해를."
+          }
+        ]
       }
     },
     {
@@ -919,18 +2341,72 @@
         {
           "speaker": "Mendax",
           "en": "I learned that a frightening rumor travels faster than a careful report.",
-          "ko": "무서운 소문이 신중한 보고보다 빨리 퍼진다는 것을 배웠지."
+          "ko": "무서운 소문이 신중한 보고보다 빨리 퍼진다는 것을 배웠지.",
+          "direct_chunks": [
+            {
+              "en": "I learned",
+              "ko": "나는 배웠지"
+            },
+            {
+              "en": "that a frightening rumor",
+              "ko": "무서운 소문이"
+            },
+            {
+              "en": "travels faster",
+              "ko": "더 빨리 퍼진다는 것을"
+            },
+            {
+              "en": "than a careful report.",
+              "ko": "신중한 보고보다."
+            }
+          ]
         },
         {
           "speaker": "Verbella",
           "en": "That does not make the rumor true.",
-          "ko": "그렇다고 소문이 사실이 되는 것은 아니야."
+          "ko": "그렇다고 소문이 사실이 되는 것은 아니야.",
+          "direct_chunks": [
+            {
+              "en": "That",
+              "ko": "그것이"
+            },
+            {
+              "en": "does not make",
+              "ko": "만들지는 않아"
+            },
+            {
+              "en": "the rumor",
+              "ko": "소문을"
+            },
+            {
+              "en": "true.",
+              "ko": "사실로."
+            }
+          ]
         }
       ],
       "after_clear": {
         "speaker": "Lexion",
         "en": "Record what we learned, but do not excuse the harm.",
-        "ko": "알게 된 사실은 기록하되 피해를 정당화하지는 말게."
+        "ko": "알게 된 사실은 기록하되 피해를 정당화하지는 말게.",
+        "direct_chunks": [
+          {
+            "en": "Record",
+            "ko": "기록하게"
+          },
+          {
+            "en": "what we learned,",
+            "ko": "우리가 알게 된 것을"
+          },
+          {
+            "en": "but do not excuse",
+            "ko": "하지만 정당화하지는 말게"
+          },
+          {
+            "en": "the harm.",
+            "ko": "피해를."
+          }
+        ]
       }
     },
     {
@@ -940,18 +2416,84 @@
         {
           "speaker": "Palim",
           "en": "I removed a line from a record to protect my teacher. Soon I was removing whole pages.",
-          "ko": "스승을 보호하려 기록 한 줄을 지웠다. 곧 페이지 전체를 지우게 되었지."
+          "ko": "스승을 보호하려 기록 한 줄을 지웠다. 곧 페이지 전체를 지우게 되었지.",
+          "direct_chunks": [
+            {
+              "en": "I removed",
+              "ko": "나는 지웠다"
+            },
+            {
+              "en": "a line",
+              "ko": "한 줄을"
+            },
+            {
+              "en": "from a record",
+              "ko": "기록에서"
+            },
+            {
+              "en": "to protect my teacher.",
+              "ko": "스승을 보호하려고."
+            },
+            {
+              "en": "Soon",
+              "ko": "곧"
+            },
+            {
+              "en": "I was removing",
+              "ko": "나는 지우게 되었지"
+            },
+            {
+              "en": "whole pages.",
+              "ko": "페이지 전체를."
+            }
+          ]
         },
         {
           "speaker": "Verbella",
           "en": "We can preserve the truth without hiding the mistake.",
-          "ko": "실수를 숨기지 않고 진실을 보존할 수 있어."
+          "ko": "실수를 숨기지 않고 진실을 보존할 수 있어.",
+          "direct_chunks": [
+            {
+              "en": "We can preserve",
+              "ko": "우리는 보존할 수 있어"
+            },
+            {
+              "en": "the truth",
+              "ko": "진실을"
+            },
+            {
+              "en": "without hiding",
+              "ko": "숨기지 않고"
+            },
+            {
+              "en": "the mistake.",
+              "ko": "실수를."
+            }
+          ]
         }
       ],
       "after_clear": {
         "speaker": "Lexion",
         "en": "Record what we learned, but do not excuse the harm.",
-        "ko": "알게 된 사실은 기록하되 피해를 정당화하지는 말게."
+        "ko": "알게 된 사실은 기록하되 피해를 정당화하지는 말게.",
+        "direct_chunks": [
+          {
+            "en": "Record",
+            "ko": "기록하게"
+          },
+          {
+            "en": "what we learned,",
+            "ko": "우리가 알게 된 것을"
+          },
+          {
+            "en": "but do not excuse",
+            "ko": "하지만 정당화하지는 말게"
+          },
+          {
+            "en": "the harm.",
+            "ko": "피해를."
+          }
+        ]
       }
     },
     {
@@ -961,18 +2503,84 @@
         {
           "speaker": "Ferron",
           "en": "I saw a bridge collapse because no one paid for repairs. I decided that every road should have a price.",
-          "ko": "수리비를 아무도 내지 않아 다리가 무너지는 것을 봤다. 모든 길에 가격을 매겨야 한다고 생각했지."
+          "ko": "수리비를 아무도 내지 않아 다리가 무너지는 것을 봤다. 모든 길에 가격을 매겨야 한다고 생각했지.",
+          "direct_chunks": [
+            {
+              "en": "I saw",
+              "ko": "나는 봤다"
+            },
+            {
+              "en": "a bridge",
+              "ko": "다리가"
+            },
+            {
+              "en": "collapse",
+              "ko": "무너지는 것을"
+            },
+            {
+              "en": "because no one paid for repairs.",
+              "ko": "수리비를 아무도 내지 않아서."
+            },
+            {
+              "en": "I decided",
+              "ko": "나는 생각했지"
+            },
+            {
+              "en": "that every road",
+              "ko": "모든 길에"
+            },
+            {
+              "en": "should have",
+              "ko": "있어야 한다고"
+            },
+            {
+              "en": "a price.",
+              "ko": "가격이."
+            }
+          ]
         },
         {
           "speaker": "Verbella",
           "en": "A fair agreement is different from a forced payment.",
-          "ko": "공정한 합의와 강제 징수는 달라."
+          "ko": "공정한 합의와 강제 징수는 달라.",
+          "direct_chunks": [
+            {
+              "en": "A fair agreement",
+              "ko": "공정한 합의는"
+            },
+            {
+              "en": "is different",
+              "ko": "달라"
+            },
+            {
+              "en": "from a forced payment.",
+              "ko": "강제 징수와."
+            }
+          ]
         }
       ],
       "after_clear": {
         "speaker": "Lexion",
         "en": "Record what we learned, but do not excuse the harm.",
-        "ko": "알게 된 사실은 기록하되 피해를 정당화하지는 말게."
+        "ko": "알게 된 사실은 기록하되 피해를 정당화하지는 말게.",
+        "direct_chunks": [
+          {
+            "en": "Record",
+            "ko": "기록하게"
+          },
+          {
+            "en": "what we learned,",
+            "ko": "우리가 알게 된 것을"
+          },
+          {
+            "en": "but do not excuse",
+            "ko": "하지만 정당화하지는 말게"
+          },
+          {
+            "en": "the harm.",
+            "ko": "피해를."
+          }
+        ]
       }
     },
     {
@@ -982,18 +2590,84 @@
         {
           "speaker": "Absol",
           "en": "I wanted a school where no child would be mocked. I made a rule against every question.",
-          "ko": "아무 아이도 놀림받지 않는 학교를 원했다. 그래서 모든 질문을 금지했지."
+          "ko": "아무 아이도 놀림받지 않는 학교를 원했다. 그래서 모든 질문을 금지했지.",
+          "direct_chunks": [
+            {
+              "en": "I wanted",
+              "ko": "나는 원했다"
+            },
+            {
+              "en": "a school",
+              "ko": "학교를"
+            },
+            {
+              "en": "where no child",
+              "ko": "아무 아이도"
+            },
+            {
+              "en": "would be mocked.",
+              "ko": "놀림받지 않는."
+            },
+            {
+              "en": "I made",
+              "ko": "그래서 나는 만들었지"
+            },
+            {
+              "en": "a rule",
+              "ko": "규칙을"
+            },
+            {
+              "en": "against every question.",
+              "ko": "모든 질문에 반하는."
+            }
+          ]
         },
         {
           "speaker": "Verbella",
           "en": "Children need safety and the freedom to ask.",
-          "ko": "아이들에게는 안전과 질문할 자유가 모두 필요해."
+          "ko": "아이들에게는 안전과 질문할 자유가 모두 필요해.",
+          "direct_chunks": [
+            {
+              "en": "Children",
+              "ko": "아이들에게는"
+            },
+            {
+              "en": "need",
+              "ko": "필요해"
+            },
+            {
+              "en": "safety",
+              "ko": "안전이"
+            },
+            {
+              "en": "and the freedom to ask.",
+              "ko": "그리고 질문할 자유가."
+            }
+          ]
         }
       ],
       "after_clear": {
         "speaker": "Lexion",
         "en": "Record what we learned, but do not excuse the harm.",
-        "ko": "알게 된 사실은 기록하되 피해를 정당화하지는 말게."
+        "ko": "알게 된 사실은 기록하되 피해를 정당화하지는 말게.",
+        "direct_chunks": [
+          {
+            "en": "Record",
+            "ko": "기록하게"
+          },
+          {
+            "en": "what we learned,",
+            "ko": "우리가 알게 된 것을"
+          },
+          {
+            "en": "but do not excuse",
+            "ko": "하지만 정당화하지는 말게"
+          },
+          {
+            "en": "the harm.",
+            "ko": "피해를."
+          }
+        ]
       }
     }
   ],

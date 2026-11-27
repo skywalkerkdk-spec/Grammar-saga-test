@@ -10,17 +10,75 @@
         {
           "speaker": "g1_agent",
           "en": "A traveler needs more than a sword. Take this bread.",
-          "ko": "여행자에게는 검만 필요한 게 아니지요. 이 빵을 받으세요."
+          "ko": "여행자에게는 검만 필요한 게 아니지요. 이 빵을 받으세요.",
+          "direct_chunks": [
+            {
+              "en": "A traveler",
+              "ko": "여행자에게는"
+            },
+            {
+              "en": "needs more",
+              "ko": "더 필요하지요"
+            },
+            {
+              "en": "than a sword.",
+              "ko": "검보다."
+            },
+            {
+              "en": "Take",
+              "ko": "받으세요"
+            },
+            {
+              "en": "this bread.",
+              "ko": "이 빵을."
+            }
+          ]
         },
         {
           "speaker": "Verbella",
           "en": "That was kind of him.",
-          "ko": "친절한 분이네요."
+          "ko": "친절한 분이네요.",
+          "direct_chunks": [
+            {
+              "en": "That",
+              "ko": "그것은"
+            },
+            {
+              "en": "was kind",
+              "ko": "친절한 일이네요"
+            },
+            {
+              "en": "of him.",
+              "ko": "그분의."
+            }
+          ]
         },
         {
           "speaker": "g1_agent",
           "en": "If you find an old page, the library is the best place for it.",
-          "ko": "오래된 페이지를 찾으면 도서관에 가져가는 것이 가장 좋습니다."
+          "ko": "오래된 페이지를 찾으면 도서관에 가져가는 것이 가장 좋습니다.",
+          "direct_chunks": [
+            {
+              "en": "If you find",
+              "ko": "당신이 찾으면"
+            },
+            {
+              "en": "an old page,",
+              "ko": "오래된 페이지를"
+            },
+            {
+              "en": "the library",
+              "ko": "도서관이"
+            },
+            {
+              "en": "is the best place",
+              "ko": "가장 좋은 곳입니다"
+            },
+            {
+              "en": "for it.",
+              "ko": "그것을 위한."
+            }
+          ]
         }
       ]
     },
@@ -32,17 +90,75 @@
         {
           "speaker": "pc_extra_6",
           "en": "The ink is new, but the mark is old.",
-          "ko": "잉크는 새것이지만 문양은 오래됐어요."
+          "ko": "잉크는 새것이지만 문양은 오래됐어요.",
+          "direct_chunks": [
+            {
+              "en": "The ink",
+              "ko": "잉크는"
+            },
+            {
+              "en": "is new,",
+              "ko": "새것이지만"
+            },
+            {
+              "en": "but the mark",
+              "ko": "문양은"
+            },
+            {
+              "en": "is old.",
+              "ko": "오래됐어요."
+            }
+          ]
         },
         {
           "speaker": "Lexion",
           "en": "Someone wants us to read the book in a particular way.",
-          "ko": "누군가 우리가 책을 특정한 방식으로 읽기를 바라는군."
+          "ko": "누군가 우리가 책을 특정한 방식으로 읽기를 바라는군.",
+          "direct_chunks": [
+            {
+              "en": "Someone",
+              "ko": "누군가"
+            },
+            {
+              "en": "wants",
+              "ko": "바라는군"
+            },
+            {
+              "en": "us to read",
+              "ko": "우리가 읽기를"
+            },
+            {
+              "en": "the book",
+              "ko": "책을"
+            },
+            {
+              "en": "in a particular way.",
+              "ko": "특정한 방식으로."
+            }
+          ]
         },
         {
           "speaker": "Ob",
           "en": "Then we need the original, not another copy.",
-          "ko": "그렇다면 또 다른 사본이 아니라 원본이 필요해요."
+          "ko": "그렇다면 또 다른 사본이 아니라 원본이 필요해요.",
+          "direct_chunks": [
+            {
+              "en": "Then",
+              "ko": "그렇다면"
+            },
+            {
+              "en": "we need",
+              "ko": "우리는 필요해요"
+            },
+            {
+              "en": "the original,",
+              "ko": "원본이"
+            },
+            {
+              "en": "not another copy.",
+              "ko": "또 다른 사본이 아니라."
+            }
+          ]
         }
       ]
     },
@@ -54,22 +170,94 @@
         {
           "speaker": "pf_agent",
           "en": "I kept the letters because I was afraid.",
-          "ko": "두려워서 편지들을 숨겼어요."
+          "ko": "두려워서 편지들을 숨겼어요.",
+          "direct_chunks": [
+            {
+              "en": "I kept",
+              "ko": "저는 숨겼어요"
+            },
+            {
+              "en": "the letters",
+              "ko": "편지들을"
+            },
+            {
+              "en": "because I was afraid.",
+              "ko": "두려웠기 때문에."
+            }
+          ]
         },
         {
           "speaker": "Verbella",
           "en": "You can still help the people you hurt.",
-          "ko": "당신이 상처 입힌 사람들을 아직 도울 수 있어요."
+          "ko": "당신이 상처 입힌 사람들을 아직 도울 수 있어요.",
+          "direct_chunks": [
+            {
+              "en": "You can still help",
+              "ko": "당신은 아직 도울 수 있어요"
+            },
+            {
+              "en": "the people",
+              "ko": "사람들을"
+            },
+            {
+              "en": "you hurt.",
+              "ko": "당신이 상처 입힌."
+            }
+          ]
         },
         {
           "speaker": "pf_agent",
           "en": "Vesper told me the pages must return to the library.",
-          "ko": "베스퍼는 페이지들이 도서관으로 돌아가야 한다고 말했어요."
+          "ko": "베스퍼는 페이지들이 도서관으로 돌아가야 한다고 말했어요.",
+          "direct_chunks": [
+            {
+              "en": "Vesper",
+              "ko": "베스퍼는"
+            },
+            {
+              "en": "told me",
+              "ko": "저에게 말했어요"
+            },
+            {
+              "en": "the pages",
+              "ko": "페이지들이"
+            },
+            {
+              "en": "must return",
+              "ko": "돌아가야 한다고"
+            },
+            {
+              "en": "to the library.",
+              "ko": "도서관으로."
+            }
+          ]
         },
         {
           "speaker": "Comple",
           "en": "We will check your story. The letters must go home.",
-          "ko": "당신의 이야기를 확인하겠어요. 편지는 주인에게 돌아가야 해요."
+          "ko": "당신의 이야기를 확인하겠어요. 편지는 주인에게 돌아가야 해요.",
+          "direct_chunks": [
+            {
+              "en": "We will check",
+              "ko": "우리가 확인하겠어요"
+            },
+            {
+              "en": "your story.",
+              "ko": "당신의 이야기를."
+            },
+            {
+              "en": "The letters",
+              "ko": "편지는"
+            },
+            {
+              "en": "must go",
+              "ko": "가야 해요"
+            },
+            {
+              "en": "home.",
+              "ko": "주인에게."
+            }
+          ]
         }
       ]
     },
@@ -81,27 +269,117 @@
         {
           "speaker": "g1_agent",
           "en": "You have done exactly what we needed.",
-          "ko": "당신은 우리가 필요로 하던 일을 정확히 해 주었군요."
+          "ko": "당신은 우리가 필요로 하던 일을 정확히 해 주었군요.",
+          "direct_chunks": [
+            {
+              "en": "You have done",
+              "ko": "당신은 해 주었군요"
+            },
+            {
+              "en": "exactly",
+              "ko": "정확히"
+            },
+            {
+              "en": "what we needed.",
+              "ko": "우리가 필요로 하던 일을."
+            }
+          ]
         },
         {
           "speaker": "Ob",
           "en": "You wanted us to find the pages?",
-          "ko": "우리가 페이지를 찾기를 원했다고요?"
+          "ko": "우리가 페이지를 찾기를 원했다고요?",
+          "direct_chunks": [
+            {
+              "en": "You wanted",
+              "ko": "당신은 원했다고요"
+            },
+            {
+              "en": "us to find",
+              "ko": "우리가 찾기를"
+            },
+            {
+              "en": "the pages?",
+              "ko": "페이지를?"
+            }
+          ]
         },
         {
           "speaker": "g1_agent",
           "en": "A scattered book has little power. A restored book can open the sanctuary.",
-          "ko": "흩어진 책에는 힘이 거의 없지요. 복원된 책은 성역을 열 수 있습니다."
+          "ko": "흩어진 책에는 힘이 거의 없지요. 복원된 책은 성역을 열 수 있습니다.",
+          "direct_chunks": [
+            {
+              "en": "A scattered book",
+              "ko": "흩어진 책은"
+            },
+            {
+              "en": "has",
+              "ko": "가지고 있지요"
+            },
+            {
+              "en": "little power.",
+              "ko": "힘이 거의 없는 것을."
+            },
+            {
+              "en": "A restored book",
+              "ko": "복원된 책은"
+            },
+            {
+              "en": "can open",
+              "ko": "열 수 있습니다"
+            },
+            {
+              "en": "the sanctuary.",
+              "ko": "성역을."
+            }
+          ]
         },
         {
           "speaker": "Lexion",
           "en": "The pages are not the enemy. The spell placed upon them is.",
-          "ko": "페이지가 적인 것이 아니야. 그 위에 걸린 주문이 적이지."
+          "ko": "페이지가 적인 것이 아니야. 그 위에 걸린 주문이 적이지.",
+          "direct_chunks": [
+            {
+              "en": "The pages",
+              "ko": "페이지가"
+            },
+            {
+              "en": "are not",
+              "ko": "아니야"
+            },
+            {
+              "en": "the enemy.",
+              "ko": "적이."
+            },
+            {
+              "en": "The spell",
+              "ko": "주문이"
+            },
+            {
+              "en": "placed upon them",
+              "ko": "그 위에 걸린"
+            },
+            {
+              "en": "is.",
+              "ko": "적이지."
+            }
+          ]
         },
         {
           "speaker": "g1_agent",
           "en": "Then try to break it.",
-          "ko": "그렇다면 한번 풀어 보시지요."
+          "ko": "그렇다면 한번 풀어 보시지요.",
+          "direct_chunks": [
+            {
+              "en": "Then",
+              "ko": "그렇다면"
+            },
+            {
+              "en": "try to break it.",
+              "ko": "풀어 보시지요."
+            }
+          ]
         }
       ]
     },
@@ -113,17 +391,75 @@
         {
           "speaker": "Lexion",
           "en": "The book can open the sanctuary, but no one must control its words.",
-          "ko": "책은 성역을 열 수 있지만 누구도 그 말을 지배해서는 안 되네."
+          "ko": "책은 성역을 열 수 있지만 누구도 그 말을 지배해서는 안 되네.",
+          "direct_chunks": [
+            {
+              "en": "The book",
+              "ko": "책은"
+            },
+            {
+              "en": "can open",
+              "ko": "열 수 있지만"
+            },
+            {
+              "en": "the sanctuary,",
+              "ko": "성역을"
+            },
+            {
+              "en": "but no one",
+              "ko": "누구도"
+            },
+            {
+              "en": "must control",
+              "ko": "지배해서는 안 되네"
+            },
+            {
+              "en": "its words.",
+              "ko": "그 말을."
+            }
+          ]
         },
         {
           "speaker": "Comple",
           "en": "We are not alone. The villages are ready to help.",
-          "ko": "우리는 혼자가 아니에요. 마을들이 도울 준비가 되어 있어요."
+          "ko": "우리는 혼자가 아니에요. 마을들이 도울 준비가 되어 있어요.",
+          "direct_chunks": [
+            {
+              "en": "We are not",
+              "ko": "우리는 아니에요"
+            },
+            {
+              "en": "alone.",
+              "ko": "혼자가."
+            },
+            {
+              "en": "The villages",
+              "ko": "마을들이"
+            },
+            {
+              "en": "are ready",
+              "ko": "준비되어 있어요"
+            },
+            {
+              "en": "to help.",
+              "ko": "도울."
+            }
+          ]
         },
         {
           "speaker": "Verbella",
           "en": "Let us finish what we started.",
-          "ko": "우리가 시작한 일을 끝내요."
+          "ko": "우리가 시작한 일을 끝내요.",
+          "direct_chunks": [
+            {
+              "en": "Let us finish",
+              "ko": "끝내요"
+            },
+            {
+              "en": "what we started.",
+              "ko": "우리가 시작한 일을."
+            }
+          ]
         }
       ]
     },
@@ -135,22 +471,94 @@
         {
           "speaker": "Silentius",
           "en": "You brought me every page. Now the world will speak with one voice.",
-          "ko": "너희가 모든 페이지를 가져왔다. 이제 세계는 하나의 목소리로 말할 것이다."
+          "ko": "너희가 모든 페이지를 가져왔다. 이제 세계는 하나의 목소리로 말할 것이다.",
+          "direct_chunks": [
+            {
+              "en": "You brought",
+              "ko": "너희가 가져왔다"
+            },
+            {
+              "en": "me",
+              "ko": "나에게"
+            },
+            {
+              "en": "every page.",
+              "ko": "모든 페이지를."
+            },
+            {
+              "en": "Now",
+              "ko": "이제"
+            },
+            {
+              "en": "the world",
+              "ko": "세계는"
+            },
+            {
+              "en": "will speak",
+              "ko": "말할 것이다"
+            },
+            {
+              "en": "with one voice.",
+              "ko": "하나의 목소리로."
+            }
+          ]
         },
         {
           "speaker": "Oxy",
           "en": "The book belongs to the people who use it.",
-          "ko": "책은 그것을 사용하는 사람들의 것이야."
+          "ko": "책은 그것을 사용하는 사람들의 것이야.",
+          "direct_chunks": [
+            {
+              "en": "The book",
+              "ko": "책은"
+            },
+            {
+              "en": "belongs to",
+              "ko": "속해요"
+            },
+            {
+              "en": "the people",
+              "ko": "사람들에게"
+            },
+            {
+              "en": "who use it.",
+              "ko": "그것을 사용하는."
+            }
+          ]
         },
         {
           "speaker": "Lexion",
           "en": "Read the words as they are, not as he commands.",
-          "ko": "그가 명령하는 대로가 아니라 있는 그대로 읽게."
+          "ko": "그가 명령하는 대로가 아니라 있는 그대로 읽게.",
+          "direct_chunks": [
+            {
+              "en": "Read the words",
+              "ko": "말을 읽게"
+            },
+            {
+              "en": "as they are,",
+              "ko": "있는 그대로"
+            },
+            {
+              "en": "not as he commands.",
+              "ko": "그가 명령하는 대로가 아니라."
+            }
+          ]
         },
         {
           "speaker": "Verbella",
           "en": "We choose our own words.",
-          "ko": "우리는 우리 자신의 말을 선택해요."
+          "ko": "우리는 우리 자신의 말을 선택해요.",
+          "direct_chunks": [
+            {
+              "en": "We choose",
+              "ko": "우리는 선택해요"
+            },
+            {
+              "en": "our own words.",
+              "ko": "우리 자신의 말을."
+            }
+          ]
         }
       ]
     }

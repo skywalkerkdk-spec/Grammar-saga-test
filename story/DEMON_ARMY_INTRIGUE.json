@@ -34,6 +34,24 @@
                 "en": "The stranger gave us seeds for free.",
                 "ko": "낯선 사람이 씨앗을 무료로 주었어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The stranger",
+                "ko": "낯선 사람이"
+              },
+              {
+                "en": "gave us",
+                "ko": "우리에게 주었어요"
+              },
+              {
+                "en": "seeds",
+                "ko": "씨앗을"
+              },
+              {
+                "en": "for free.",
+                "ko": "무료로."
+              }
             ]
           }
         },
@@ -47,6 +65,16 @@
               {
                 "en": "There must be a misunderstanding.",
                 "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "There must be",
+                "ko": "~임이 틀림없어요"
+              },
+              {
+                "en": "a misunderstanding.",
+                "ko": "오해가."
               }
             ]
           }
@@ -62,6 +90,24 @@
                 "en": "The same mark is on the seed bag and the stolen page.",
                 "ko": "씨앗 자루와 도난당한 페이지에 같은 문양이 있어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The same mark",
+                "ko": "같은 문양이"
+              },
+              {
+                "en": "is on",
+                "ko": "있어요"
+              },
+              {
+                "en": "the seed bag",
+                "ko": "씨앗 자루와"
+              },
+              {
+                "en": "and the stolen page.",
+                "ko": "도난당한 페이지에."
+              }
             ]
           }
         },
@@ -76,6 +122,20 @@
                 "en": "Keep the bag as evidence.",
                 "ko": "자루를 증거로 보관하세요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Keep",
+                "ko": "보관하세요"
+              },
+              {
+                "en": "the bag",
+                "ko": "자루를"
+              },
+              {
+                "en": "as evidence.",
+                "ko": "증거로."
+              }
             ]
           }
         },
@@ -89,6 +149,20 @@
               {
                 "en": "We need to check the records before we make a decision.",
                 "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We need to check",
+                "ko": "우리는 확인해야 해요"
+              },
+              {
+                "en": "the records",
+                "ko": "기록을"
+              },
+              {
+                "en": "before we make a decision.",
+                "ko": "결정을 내리기 전에."
               }
             ]
           }
@@ -123,6 +197,24 @@
                 "en": "Someone changed the orders after I wrote them.",
                 "ko": "누군가 내가 주문서를 쓴 뒤 내용을 바꿨어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Someone",
+                "ko": "누군가"
+              },
+              {
+                "en": "changed",
+                "ko": "바꿨어요"
+              },
+              {
+                "en": "the orders",
+                "ko": "주문서를"
+              },
+              {
+                "en": "after I wrote them.",
+                "ko": "내가 쓴 뒤에."
+              }
             ]
           }
         },
@@ -136,6 +228,16 @@
               {
                 "en": "There must be a misunderstanding.",
                 "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "There must be",
+                "ko": "~임이 틀림없어요"
+              },
+              {
+                "en": "a misunderstanding.",
+                "ko": "오해가."
               }
             ]
           }
@@ -151,6 +253,20 @@
                 "en": "The original order says no fish.",
                 "ko": "원래 주문서에는 생선을 넣지 말라고 적혀 있어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The original order",
+                "ko": "원래 주문서에는"
+              },
+              {
+                "en": "says",
+                "ko": "적혀 있어요"
+              },
+              {
+                "en": "no fish.",
+                "ko": "생선은 안 된다고."
+              }
             ]
           }
         },
@@ -165,6 +281,20 @@
                 "en": "Compare the two orders before blaming anyone.",
                 "ko": "누구를 탓하기 전에 두 주문서를 비교하세요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Compare",
+                "ko": "비교하세요"
+              },
+              {
+                "en": "the two orders",
+                "ko": "두 주문서를"
+              },
+              {
+                "en": "before blaming anyone.",
+                "ko": "누구를 탓하기 전에."
+              }
             ]
           }
         },
@@ -178,6 +308,20 @@
               {
                 "en": "We need to check the records before we make a decision.",
                 "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We need to check",
+                "ko": "우리는 확인해야 해요"
+              },
+              {
+                "en": "the records",
+                "ko": "기록을"
+              },
+              {
+                "en": "before we make a decision.",
+                "ko": "결정을 내리기 전에."
               }
             ]
           }
@@ -212,6 +356,24 @@
                 "en": "The delivery arrived at noon, not at one.",
                 "ko": "배달은 한 시가 아니라 정오에 도착했어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The delivery",
+                "ko": "배달은"
+              },
+              {
+                "en": "arrived",
+                "ko": "도착했어요"
+              },
+              {
+                "en": "at noon,",
+                "ko": "정오에"
+              },
+              {
+                "en": "not at one.",
+                "ko": "한 시가 아니라."
+              }
             ]
           }
         },
@@ -225,6 +387,16 @@
               {
                 "en": "There must be a misunderstanding.",
                 "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "There must be",
+                "ko": "~임이 틀림없어요"
+              },
+              {
+                "en": "a misunderstanding.",
+                "ko": "오해가."
               }
             ]
           }
@@ -240,6 +412,20 @@
                 "en": "The dealer's receipt shows a different time.",
                 "ko": "상인의 영수증에는 다른 시간이 적혀 있어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The dealer's receipt",
+                "ko": "상인의 영수증에는"
+              },
+              {
+                "en": "shows",
+                "ko": "적혀 있어요"
+              },
+              {
+                "en": "a different time.",
+                "ko": "다른 시간이."
+              }
             ]
           }
         },
@@ -254,6 +440,20 @@
                 "en": "Ask the courier to confirm the delivery time.",
                 "ko": "전령에게 배달 시간을 확인하세요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Ask the courier",
+                "ko": "전령에게 부탁하세요"
+              },
+              {
+                "en": "to confirm",
+                "ko": "확인해 달라고"
+              },
+              {
+                "en": "the delivery time.",
+                "ko": "배달 시간을."
+              }
             ]
           }
         },
@@ -267,6 +467,20 @@
               {
                 "en": "We need to check the records before we make a decision.",
                 "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We need to check",
+                "ko": "우리는 확인해야 해요"
+              },
+              {
+                "en": "the records",
+                "ko": "기록을"
+              },
+              {
+                "en": "before we make a decision.",
+                "ko": "결정을 내리기 전에."
               }
             ]
           }
@@ -301,6 +515,24 @@
                 "en": "The supplier says we must pay before we can cross.",
                 "ko": "물자 상인은 건너기 전에 돈을 내야 한다고 해요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The supplier",
+                "ko": "물자 상인은"
+              },
+              {
+                "en": "says",
+                "ko": "말해요"
+              },
+              {
+                "en": "we must pay",
+                "ko": "우리가 돈을 내야 한다고"
+              },
+              {
+                "en": "before we can cross.",
+                "ko": "건너기 전에."
+              }
             ]
           }
         },
@@ -314,6 +546,16 @@
               {
                 "en": "There must be a misunderstanding.",
                 "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "There must be",
+                "ko": "~임이 틀림없어요"
+              },
+              {
+                "en": "a misunderstanding.",
+                "ko": "오해가."
               }
             ]
           }
@@ -329,6 +571,20 @@
                 "en": "The bridge belongs to the village, not the supplier.",
                 "ko": "다리는 상인이 아니라 마을의 것이에요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The bridge",
+                "ko": "다리는"
+              },
+              {
+                "en": "belongs to the village,",
+                "ko": "마을의 것이에요"
+              },
+              {
+                "en": "not the supplier.",
+                "ko": "상인의 것이 아니라."
+              }
             ]
           }
         },
@@ -343,6 +599,20 @@
                 "en": "Show the village leader the false agreement.",
                 "ko": "마을 대표에게 거짓 계약서를 보여 주세요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Show",
+                "ko": "보여 주세요"
+              },
+              {
+                "en": "the village leader",
+                "ko": "마을 대표에게"
+              },
+              {
+                "en": "the false agreement.",
+                "ko": "거짓 계약서를."
+              }
             ]
           }
         },
@@ -356,6 +626,20 @@
               {
                 "en": "We need to check the records before we make a decision.",
                 "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We need to check",
+                "ko": "우리는 확인해야 해요"
+              },
+              {
+                "en": "the records",
+                "ko": "기록을"
+              },
+              {
+                "en": "before we make a decision.",
+                "ko": "결정을 내리기 전에."
               }
             ]
           }
@@ -390,6 +674,24 @@
                 "en": "The guide sent us down the path that leads away from the village.",
                 "ko": "안내자는 마을에서 멀어지는 길로 우리를 보냈어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The guide",
+                "ko": "안내자는"
+              },
+              {
+                "en": "sent us",
+                "ko": "우리를 보냈어요"
+              },
+              {
+                "en": "down the path",
+                "ko": "길로"
+              },
+              {
+                "en": "that leads away from the village.",
+                "ko": "마을에서 멀어지는."
+              }
             ]
           }
         },
@@ -403,6 +705,16 @@
               {
                 "en": "There must be a misunderstanding.",
                 "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "There must be",
+                "ko": "~임이 틀림없어요"
+              },
+              {
+                "en": "a misunderstanding.",
+                "ko": "오해가."
               }
             ]
           }
@@ -418,6 +730,24 @@
                 "en": "The real trail has stones with white marks.",
                 "ko": "진짜 길에는 흰 표시가 있는 돌들이 있어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The real trail",
+                "ko": "진짜 길에는"
+              },
+              {
+                "en": "has",
+                "ko": "있어요"
+              },
+              {
+                "en": "stones",
+                "ko": "돌들이"
+              },
+              {
+                "en": "with white marks.",
+                "ko": "흰 표시가 있는."
+              }
             ]
           }
         },
@@ -432,6 +762,20 @@
                 "en": "Warn the search party about the false signs.",
                 "ko": "수색대에 거짓 표지판을 알려 주세요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Warn",
+                "ko": "알려 주세요"
+              },
+              {
+                "en": "the search party",
+                "ko": "수색대에"
+              },
+              {
+                "en": "about the false signs.",
+                "ko": "거짓 표지판에 대해."
+              }
             ]
           }
         },
@@ -445,6 +789,20 @@
               {
                 "en": "We need to check the records before we make a decision.",
                 "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We need to check",
+                "ko": "우리는 확인해야 해요"
+              },
+              {
+                "en": "the records",
+                "ko": "기록을"
+              },
+              {
+                "en": "before we make a decision.",
+                "ko": "결정을 내리기 전에."
               }
             ]
           }
@@ -479,6 +837,20 @@
                 "en": "The traveler was blamed before the book was found.",
                 "ko": "책이 발견되기 전에 여행자가 비난받았어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The traveler",
+                "ko": "여행자가"
+              },
+              {
+                "en": "was blamed",
+                "ko": "비난받았어요"
+              },
+              {
+                "en": "before the book was found.",
+                "ko": "책이 발견되기 전에."
+              }
             ]
           }
         },
@@ -492,6 +864,16 @@
               {
                 "en": "There must be a misunderstanding.",
                 "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "There must be",
+                "ko": "~임이 틀림없어요"
+              },
+              {
+                "en": "a misunderstanding.",
+                "ko": "오해가."
               }
             ]
           }
@@ -507,6 +889,20 @@
                 "en": "The accusation was written before the theft was reported.",
                 "ko": "절도 신고 전에 고발장이 작성되었어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The accusation",
+                "ko": "고발장이"
+              },
+              {
+                "en": "was written",
+                "ko": "작성되었어요"
+              },
+              {
+                "en": "before the theft was reported.",
+                "ko": "절도 신고 전에."
+              }
             ]
           }
         },
@@ -521,6 +917,20 @@
                 "en": "Give both records to the guard.",
                 "ko": "두 기록을 경비병에게 주세요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Give",
+                "ko": "주세요"
+              },
+              {
+                "en": "both records",
+                "ko": "두 기록을"
+              },
+              {
+                "en": "to the guard.",
+                "ko": "경비병에게."
+              }
             ]
           }
         },
@@ -534,6 +944,20 @@
               {
                 "en": "We need to check the records before we make a decision.",
                 "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We need to check",
+                "ko": "우리는 확인해야 해요"
+              },
+              {
+                "en": "the records",
+                "ko": "기록을"
+              },
+              {
+                "en": "before we make a decision.",
+                "ko": "결정을 내리기 전에."
               }
             ]
           }
@@ -602,6 +1026,16 @@
                 "en": "There must be a misunderstanding.",
                 "ko": "무언가 오해가 있는 것 같군요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "There must be",
+                "ko": "~임이 틀림없어요"
+              },
+              {
+                "en": "a misunderstanding.",
+                "ko": "오해가."
+              }
             ]
           }
         },
@@ -615,6 +1049,24 @@
               {
                 "en": "The clerk has kept the letters in a locked box.",
                 "ko": "서기가 편지들을 잠긴 상자에 보관해 왔어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The clerk",
+                "ko": "서기가"
+              },
+              {
+                "en": "has kept",
+                "ko": "보관해 왔어요"
+              },
+              {
+                "en": "the letters",
+                "ko": "편지들을"
+              },
+              {
+                "en": "in a locked box.",
+                "ko": "잠긴 상자에."
               }
             ]
           }
@@ -630,6 +1082,20 @@
                 "en": "Ask the letter keeper to recover the letters.",
                 "ko": "편지 보관인에게 편지를 되찾아 달라고 하세요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Ask the letter keeper",
+                "ko": "편지 보관인에게 부탁하세요"
+              },
+              {
+                "en": "to recover",
+                "ko": "되찾아 달라고"
+              },
+              {
+                "en": "the letters.",
+                "ko": "편지들을."
+              }
             ]
           }
         },
@@ -643,6 +1109,20 @@
               {
                 "en": "We need to check the records before we make a decision.",
                 "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We need to check",
+                "ko": "우리는 확인해야 해요"
+              },
+              {
+                "en": "the records",
+                "ko": "기록을"
+              },
+              {
+                "en": "before we make a decision.",
+                "ko": "결정을 내리기 전에."
               }
             ]
           }
@@ -677,6 +1157,20 @@
                 "en": "This is the place where the old house stood.",
                 "ko": "이곳은 옛집이 있던 장소예요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "This is the place",
+                "ko": "이곳은 장소예요"
+              },
+              {
+                "en": "where",
+                "ko": "~한"
+              },
+              {
+                "en": "the old house stood.",
+                "ko": "옛집이 있던."
+              }
             ]
           }
         },
@@ -690,6 +1184,16 @@
               {
                 "en": "There must be a misunderstanding.",
                 "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "There must be",
+                "ko": "~임이 틀림없어요"
+              },
+              {
+                "en": "a misunderstanding.",
+                "ko": "오해가."
               }
             ]
           }
@@ -705,6 +1209,20 @@
                 "en": "The new map shows a road where there is only water.",
                 "ko": "새 지도에는 물밖에 없는 곳에 길이 표시돼 있어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The new map",
+                "ko": "새 지도에는"
+              },
+              {
+                "en": "shows a road",
+                "ko": "길이 표시돼 있어요"
+              },
+              {
+                "en": "where there is only water.",
+                "ko": "물밖에 없는 곳에."
+              }
             ]
           }
         },
@@ -719,6 +1237,20 @@
                 "en": "Bring the original map to the harbor master.",
                 "ko": "원본 지도를 항구 책임자에게 가져가세요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Bring",
+                "ko": "가져가세요"
+              },
+              {
+                "en": "the original map",
+                "ko": "원본 지도를"
+              },
+              {
+                "en": "to the harbor master.",
+                "ko": "항구 책임자에게."
+              }
             ]
           }
         },
@@ -732,6 +1264,20 @@
               {
                 "en": "We need to check the records before we make a decision.",
                 "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We need to check",
+                "ko": "우리는 확인해야 해요"
+              },
+              {
+                "en": "the records",
+                "ko": "기록을"
+              },
+              {
+                "en": "before we make a decision.",
+                "ko": "결정을 내리기 전에."
               }
             ]
           }
@@ -766,6 +1312,24 @@
                 "en": "Written in fresh ink, the last line cannot be ancient.",
                 "ko": "새 잉크로 쓰인 마지막 줄은 고대 기록일 수 없어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Written in fresh ink,",
+                "ko": "새 잉크로 쓰인"
+              },
+              {
+                "en": "the last line",
+                "ko": "마지막 줄은"
+              },
+              {
+                "en": "cannot be",
+                "ko": "~일 수 없어요"
+              },
+              {
+                "en": "ancient.",
+                "ko": "고대 기록."
+              }
             ]
           }
         },
@@ -779,6 +1343,16 @@
               {
                 "en": "There must be a misunderstanding.",
                 "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "There must be",
+                "ko": "~임이 틀림없어요"
+              },
+              {
+                "en": "a misunderstanding.",
+                "ko": "오해가."
               }
             ]
           }
@@ -794,6 +1368,20 @@
                 "en": "The stone copy has no such line.",
                 "ko": "돌에 새긴 사본에는 그런 줄이 없어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The stone copy",
+                "ko": "돌에 새긴 사본에는"
+              },
+              {
+                "en": "has",
+                "ko": "있어요"
+              },
+              {
+                "en": "no such line.",
+                "ko": "그런 줄이 없어요."
+              }
             ]
           }
         },
@@ -808,6 +1396,20 @@
                 "en": "Preserve both copies for the library.",
                 "ko": "두 사본을 도서관에 보관하세요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Preserve",
+                "ko": "보관하세요"
+              },
+              {
+                "en": "both copies",
+                "ko": "두 사본을"
+              },
+              {
+                "en": "for the library.",
+                "ko": "도서관을 위해."
+              }
             ]
           }
         },
@@ -821,6 +1423,20 @@
               {
                 "en": "We need to check the records before we make a decision.",
                 "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We need to check",
+                "ko": "우리는 확인해야 해요"
+              },
+              {
+                "en": "the records",
+                "ko": "기록을"
+              },
+              {
+                "en": "before we make a decision.",
+                "ko": "결정을 내리기 전에."
               }
             ]
           }
@@ -855,6 +1471,20 @@
                 "en": "If I signed the paper, he would grant my wish.",
                 "ko": "내가 서류에 서명하면 그가 소원을 들어줄 거라고 했어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "If I signed the paper,",
+                "ko": "내가 서류에 서명하면"
+              },
+              {
+                "en": "he would grant",
+                "ko": "그가 들어줄 거라고"
+              },
+              {
+                "en": "my wish.",
+                "ko": "내 소원을."
+              }
             ]
           }
         },
@@ -868,6 +1498,16 @@
               {
                 "en": "There must be a misunderstanding.",
                 "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "There must be",
+                "ko": "~임이 틀림없어요"
+              },
+              {
+                "en": "a misunderstanding.",
+                "ko": "오해가."
               }
             ]
           }
@@ -883,6 +1523,28 @@
                 "en": "The paper says you must obey him forever.",
                 "ko": "서류에는 영원히 그에게 복종해야 한다고 적혀 있어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The paper",
+                "ko": "서류에는"
+              },
+              {
+                "en": "says",
+                "ko": "적혀 있어요"
+              },
+              {
+                "en": "you must obey",
+                "ko": "당신이 복종해야 한다고"
+              },
+              {
+                "en": "him",
+                "ko": "그에게"
+              },
+              {
+                "en": "forever.",
+                "ko": "영원히."
+              }
             ]
           }
         },
@@ -897,6 +1559,20 @@
                 "en": "Let the villagers decide after reading the whole agreement.",
                 "ko": "주민들이 계약서 전체를 읽고 결정하게 하세요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Let the villagers decide",
+                "ko": "주민들이 결정하게 하세요"
+              },
+              {
+                "en": "after reading",
+                "ko": "읽고 난 뒤에"
+              },
+              {
+                "en": "the whole agreement.",
+                "ko": "계약서 전체를."
+              }
             ]
           }
         },
@@ -910,6 +1586,20 @@
               {
                 "en": "We need to check the records before we make a decision.",
                 "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We need to check",
+                "ko": "우리는 확인해야 해요"
+              },
+              {
+                "en": "the records",
+                "ko": "기록을"
+              },
+              {
+                "en": "before we make a decision.",
+                "ko": "결정을 내리기 전에."
               }
             ]
           }
@@ -944,6 +1634,20 @@
                 "en": "The second runner was faster than the declared winner.",
                 "ko": "두 번째 선수가 발표된 우승자보다 빨랐어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The second runner",
+                "ko": "두 번째 선수가"
+              },
+              {
+                "en": "was faster",
+                "ko": "더 빨랐어요"
+              },
+              {
+                "en": "than the declared winner.",
+                "ko": "발표된 우승자보다."
+              }
             ]
           }
         },
@@ -957,6 +1661,16 @@
               {
                 "en": "There must be a misunderstanding.",
                 "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "There must be",
+                "ko": "~임이 틀림없어요"
+              },
+              {
+                "en": "a misunderstanding.",
+                "ko": "오해가."
               }
             ]
           }
@@ -972,6 +1686,20 @@
                 "en": "The original race record proves it.",
                 "ko": "원래 경주 기록이 그것을 증명해요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The original race record",
+                "ko": "원래 경주 기록이"
+              },
+              {
+                "en": "proves",
+                "ko": "증명해요"
+              },
+              {
+                "en": "it.",
+                "ko": "그것을."
+              }
             ]
           }
         },
@@ -986,6 +1714,20 @@
                 "en": "Ask the judge to publish the original result.",
                 "ko": "심판에게 원래 결과를 공개해 달라고 하세요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Ask the judge",
+                "ko": "심판에게 부탁하세요"
+              },
+              {
+                "en": "to publish",
+                "ko": "공개해 달라고"
+              },
+              {
+                "en": "the original result.",
+                "ko": "원래 결과를."
+              }
             ]
           }
         },
@@ -999,6 +1741,20 @@
               {
                 "en": "We need to check the records before we make a decision.",
                 "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We need to check",
+                "ko": "우리는 확인해야 해요"
+              },
+              {
+                "en": "the records",
+                "ko": "기록을"
+              },
+              {
+                "en": "before we make a decision.",
+                "ko": "결정을 내리기 전에."
               }
             ]
           }
@@ -1033,6 +1789,24 @@
                 "en": "This seal is mine, but the signature is not.",
                 "ko": "이 인장은 내 것이지만 서명은 내 것이 아니에요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "This seal",
+                "ko": "이 인장은"
+              },
+              {
+                "en": "is mine,",
+                "ko": "내 것이지만"
+              },
+              {
+                "en": "but the signature",
+                "ko": "서명은"
+              },
+              {
+                "en": "is not.",
+                "ko": "그렇지 않아요."
+              }
             ]
           }
         },
@@ -1046,6 +1820,16 @@
               {
                 "en": "There must be a misunderstanding.",
                 "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "There must be",
+                "ko": "~임이 틀림없어요"
+              },
+              {
+                "en": "a misunderstanding.",
+                "ko": "오해가."
               }
             ]
           }
@@ -1061,6 +1845,20 @@
                 "en": "The broker used someone else's name.",
                 "ko": "중개인은 다른 사람의 이름을 사용했어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The broker",
+                "ko": "중개인은"
+              },
+              {
+                "en": "used",
+                "ko": "사용했어요"
+              },
+              {
+                "en": "someone else's name.",
+                "ko": "다른 사람의 이름을."
+              }
             ]
           }
         },
@@ -1075,6 +1873,24 @@
                 "en": "Return the seal to its owner and report the forgery.",
                 "ko": "인장을 주인에게 돌려주고 위조를 신고하세요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Return the seal",
+                "ko": "인장을 돌려주고"
+              },
+              {
+                "en": "to its owner",
+                "ko": "주인에게"
+              },
+              {
+                "en": "and report",
+                "ko": "그리고 신고하세요"
+              },
+              {
+                "en": "the forgery.",
+                "ko": "위조를."
+              }
             ]
           }
         },
@@ -1088,6 +1904,20 @@
               {
                 "en": "We need to check the records before we make a decision.",
                 "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We need to check",
+                "ko": "우리는 확인해야 해요"
+              },
+              {
+                "en": "the records",
+                "ko": "기록을"
+              },
+              {
+                "en": "before we make a decision.",
+                "ko": "결정을 내리기 전에."
               }
             ]
           }
@@ -1122,6 +1952,24 @@
                 "en": "The notice says the harbor is closed until Friday.",
                 "ko": "안내문에는 금요일까지 항구가 폐쇄된다고 적혀 있어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The notice",
+                "ko": "안내문에는"
+              },
+              {
+                "en": "says",
+                "ko": "적혀 있어요"
+              },
+              {
+                "en": "the harbor is closed",
+                "ko": "항구가 폐쇄된다고"
+              },
+              {
+                "en": "until Friday.",
+                "ko": "금요일까지."
+              }
             ]
           }
         },
@@ -1135,6 +1983,16 @@
               {
                 "en": "There must be a misunderstanding.",
                 "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "There must be",
+                "ko": "~임이 틀림없어요"
+              },
+              {
+                "en": "a misunderstanding.",
+                "ko": "오해가."
               }
             ]
           }
@@ -1150,6 +2008,20 @@
                 "en": "The harbor master issued no such notice.",
                 "ko": "항구 책임자는 그런 안내문을 발행하지 않았어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The harbor master",
+                "ko": "항구 책임자는"
+              },
+              {
+                "en": "issued",
+                "ko": "발행하지 않았어요"
+              },
+              {
+                "en": "no such notice.",
+                "ko": "그런 안내문을."
+              }
             ]
           }
         },
@@ -1164,6 +2036,20 @@
                 "en": "Ask the harbor master to correct the notice.",
                 "ko": "항구 책임자에게 안내문을 바로잡아 달라고 하세요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Ask the harbor master",
+                "ko": "항구 책임자에게 부탁하세요"
+              },
+              {
+                "en": "to correct",
+                "ko": "바로잡아 달라고"
+              },
+              {
+                "en": "the notice.",
+                "ko": "안내문을."
+              }
             ]
           }
         },
@@ -1177,6 +2063,20 @@
               {
                 "en": "We need to check the records before we make a decision.",
                 "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We need to check",
+                "ko": "우리는 확인해야 해요"
+              },
+              {
+                "en": "the records",
+                "ko": "기록을"
+              },
+              {
+                "en": "before we make a decision.",
+                "ko": "결정을 내리기 전에."
               }
             ]
           }
@@ -1211,6 +2111,24 @@
                 "en": "They teach students to repeat, not to ask questions.",
                 "ko": "그들은 학생들에게 질문하지 않고 따라 말하도록 가르쳐요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "They teach",
+                "ko": "그들은 가르쳐요"
+              },
+              {
+                "en": "students",
+                "ko": "학생들에게"
+              },
+              {
+                "en": "to repeat,",
+                "ko": "따라 말하도록"
+              },
+              {
+                "en": "not to ask questions.",
+                "ko": "질문하지 않고."
+              }
             ]
           }
         },
@@ -1224,6 +2142,16 @@
               {
                 "en": "There must be a misunderstanding.",
                 "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "There must be",
+                "ko": "~임이 틀림없어요"
+              },
+              {
+                "en": "a misunderstanding.",
+                "ko": "오해가."
               }
             ]
           }
@@ -1239,6 +2167,24 @@
                 "en": "Learning means understanding, not merely repeating.",
                 "ko": "배움은 단순히 반복하는 것이 아니라 이해하는 것이에요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Learning",
+                "ko": "배움은"
+              },
+              {
+                "en": "means",
+                "ko": "뜻해요"
+              },
+              {
+                "en": "understanding,",
+                "ko": "이해하는 것을"
+              },
+              {
+                "en": "not merely repeating.",
+                "ko": "단순히 반복하는 것이 아니라."
+              }
             ]
           }
         },
@@ -1253,6 +2199,20 @@
                 "en": "Invite the students to the open lesson.",
                 "ko": "학생들을 공개 수업에 초대하세요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Invite",
+                "ko": "초대하세요"
+              },
+              {
+                "en": "the students",
+                "ko": "학생들을"
+              },
+              {
+                "en": "to the open lesson.",
+                "ko": "공개 수업에."
+              }
             ]
           }
         },
@@ -1266,6 +2226,20 @@
               {
                 "en": "We need to check the records before we make a decision.",
                 "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We need to check",
+                "ko": "우리는 확인해야 해요"
+              },
+              {
+                "en": "the records",
+                "ko": "기록을"
+              },
+              {
+                "en": "before we make a decision.",
+                "ko": "결정을 내리기 전에."
               }
             ]
           }
@@ -1334,6 +2308,16 @@
                 "en": "There must be a misunderstanding.",
                 "ko": "무언가 오해가 있는 것 같군요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "There must be",
+                "ko": "~임이 틀림없어요"
+              },
+              {
+                "en": "a misunderstanding.",
+                "ko": "오해가."
+              }
             ]
           }
         },
@@ -1347,6 +2331,24 @@
               {
                 "en": "The hunter's story says a monster rang it.",
                 "ko": "사냥꾼의 이야기에는 괴물이 종을 울렸다고 되어 있어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The hunter's story",
+                "ko": "사냥꾼의 이야기에는"
+              },
+              {
+                "en": "says",
+                "ko": "되어 있어요"
+              },
+              {
+                "en": "a monster",
+                "ko": "괴물이"
+              },
+              {
+                "en": "rang it.",
+                "ko": "그것을 울렸다고."
               }
             ]
           }
@@ -1362,6 +2364,20 @@
                 "en": "Compare the witness reports before entering the woods.",
                 "ko": "숲에 들어가기 전에 목격자들의 증언을 비교하세요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Compare",
+                "ko": "비교하세요"
+              },
+              {
+                "en": "the witness reports",
+                "ko": "목격자들의 증언을"
+              },
+              {
+                "en": "before entering the woods.",
+                "ko": "숲에 들어가기 전에."
+              }
             ]
           }
         },
@@ -1375,6 +2391,20 @@
               {
                 "en": "We need to check the records before we make a decision.",
                 "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We need to check",
+                "ko": "우리는 확인해야 해요"
+              },
+              {
+                "en": "the records",
+                "ko": "기록을"
+              },
+              {
+                "en": "before we make a decision.",
+                "ko": "결정을 내리기 전에."
               }
             ]
           }
@@ -1409,6 +2439,16 @@
                 "en": "Do not sing unless you have permission.",
                 "ko": "허락을 받지 않으면 노래하지 마세요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Do not sing",
+                "ko": "노래하지 마세요"
+              },
+              {
+                "en": "unless you have permission.",
+                "ko": "허락을 받지 않으면."
+              }
             ]
           }
         },
@@ -1422,6 +2462,16 @@
               {
                 "en": "There must be a misunderstanding.",
                 "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "There must be",
+                "ko": "~임이 틀림없어요"
+              },
+              {
+                "en": "a misunderstanding.",
+                "ko": "오해가."
               }
             ]
           }
@@ -1437,6 +2487,20 @@
                 "en": "The festival committee never approved that rule.",
                 "ko": "축제 위원회는 그 규칙을 승인한 적이 없어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The festival committee",
+                "ko": "축제 위원회는"
+              },
+              {
+                "en": "never approved",
+                "ko": "승인한 적이 없어요"
+              },
+              {
+                "en": "that rule.",
+                "ko": "그 규칙을."
+              }
             ]
           }
         },
@@ -1451,6 +2515,20 @@
                 "en": "Ask the committee to restore the original program.",
                 "ko": "위원회에 원래 프로그램을 복원해 달라고 하세요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Ask the committee",
+                "ko": "위원회에 부탁하세요"
+              },
+              {
+                "en": "to restore",
+                "ko": "복원해 달라고"
+              },
+              {
+                "en": "the original program.",
+                "ko": "원래 프로그램을."
+              }
             ]
           }
         },
@@ -1464,6 +2542,20 @@
               {
                 "en": "We need to check the records before we make a decision.",
                 "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We need to check",
+                "ko": "우리는 확인해야 해요"
+              },
+              {
+                "en": "the records",
+                "ko": "기록을"
+              },
+              {
+                "en": "before we make a decision.",
+                "ko": "결정을 내리기 전에."
               }
             ]
           }
@@ -1498,6 +2590,20 @@
                 "en": "He said that the library was safe.",
                 "ko": "그는 도서관이 안전하다고 말했어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "He said",
+                "ko": "그는 말했어요"
+              },
+              {
+                "en": "that the library",
+                "ko": "도서관이"
+              },
+              {
+                "en": "was safe.",
+                "ko": "안전하다고."
+              }
             ]
           }
         },
@@ -1511,6 +2617,16 @@
               {
                 "en": "There must be a misunderstanding.",
                 "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "There must be",
+                "ko": "~임이 틀림없어요"
+              },
+              {
+                "en": "a misunderstanding.",
+                "ko": "오해가."
               }
             ]
           }
@@ -1526,6 +2642,20 @@
                 "en": "The copied message says that it must be closed.",
                 "ko": "복사된 전갈에는 도서관을 폐쇄해야 한다고 적혀 있어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The copied message",
+                "ko": "복사된 전갈에는"
+              },
+              {
+                "en": "says",
+                "ko": "적혀 있어요"
+              },
+              {
+                "en": "that it must be closed.",
+                "ko": "도서관을 폐쇄해야 한다고."
+              }
             ]
           }
         },
@@ -1540,6 +2670,20 @@
                 "en": "Take the original message to Lexion.",
                 "ko": "원본 전갈을 렉시온에게 가져가세요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Take",
+                "ko": "가져가세요"
+              },
+              {
+                "en": "the original message",
+                "ko": "원본 전갈을"
+              },
+              {
+                "en": "to Lexion.",
+                "ko": "렉시온에게."
+              }
             ]
           }
         },
@@ -1553,6 +2697,20 @@
               {
                 "en": "We need to check the records before we make a decision.",
                 "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We need to check",
+                "ko": "우리는 확인해야 해요"
+              },
+              {
+                "en": "the records",
+                "ko": "기록을"
+              },
+              {
+                "en": "before we make a decision.",
+                "ko": "결정을 내리기 전에."
               }
             ]
           }
@@ -1587,6 +2745,24 @@
                 "en": "It was the council, not the counselor, that made the law.",
                 "ko": "법을 만든 것은 고문이 아니라 의회였어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "It was the council,",
+                "ko": "의회였어요"
+              },
+              {
+                "en": "not the counselor,",
+                "ko": "고문이 아니라"
+              },
+              {
+                "en": "that made",
+                "ko": "만든 것은"
+              },
+              {
+                "en": "the law.",
+                "ko": "법을."
+              }
             ]
           }
         },
@@ -1600,6 +2776,16 @@
               {
                 "en": "There must be a misunderstanding.",
                 "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "There must be",
+                "ko": "~임이 틀림없어요"
+              },
+              {
+                "en": "a misunderstanding.",
+                "ko": "오해가."
               }
             ]
           }
@@ -1615,6 +2801,24 @@
                 "en": "Never did the council approve the order to silence the towns.",
                 "ko": "의회는 마을들을 침묵시키라는 명령을 승인한 적이 없어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Never did",
+                "ko": "~한 적이 없어요"
+              },
+              {
+                "en": "the council approve",
+                "ko": "의회는 승인한"
+              },
+              {
+                "en": "the order",
+                "ko": "명령을"
+              },
+              {
+                "en": "to silence the towns.",
+                "ko": "마을들을 침묵시키라는."
+              }
             ]
           }
         },
@@ -1629,6 +2833,20 @@
                 "en": "Bring the council record to the castellan.",
                 "ko": "의회 기록을 성주에게 가져가세요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Bring",
+                "ko": "가져가세요"
+              },
+              {
+                "en": "the council record",
+                "ko": "의회 기록을"
+              },
+              {
+                "en": "to the castellan.",
+                "ko": "성주에게."
+              }
             ]
           }
         },
@@ -1642,6 +2860,20 @@
               {
                 "en": "We need to check the records before we make a decision.",
                 "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We need to check",
+                "ko": "우리는 확인해야 해요"
+              },
+              {
+                "en": "the records",
+                "ko": "기록을"
+              },
+              {
+                "en": "before we make a decision.",
+                "ko": "결정을 내리기 전에."
               }
             ]
           }

@@ -23,6 +23,20 @@
                 "en": "I can lead, but I need my friends.",
                 "ko": "나는 이끌 수 있지만 친구들이 필요해."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I can lead,",
+                "ko": "나는 이끌 수 있지만"
+              },
+              {
+                "en": "but I need",
+                "ko": "나는 필요해"
+              },
+              {
+                "en": "my friends.",
+                "ko": "내 친구들이."
+              }
             ]
           },
           {
@@ -33,6 +47,20 @@
               {
                 "en": "We are a team.",
                 "ko": "우리는 한 팀이야."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We",
+                "ko": "우리는"
+              },
+              {
+                "en": "are",
+                "ko": "이다"
+              },
+              {
+                "en": "a team.",
+                "ko": "한 팀."
               }
             ]
           }
@@ -62,6 +90,20 @@
                 "en": "What can I do for you?",
                 "ko": "무엇을 도와드릴까요?"
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "What",
+                "ko": "무엇을"
+              },
+              {
+                "en": "can I do",
+                "ko": "내가 할 수 있을까요"
+              },
+              {
+                "en": "for you?",
+                "ko": "당신을 위해?"
+              }
             ]
           },
           {
@@ -72,6 +114,20 @@
               {
                 "en": "Small actions can change lives.",
                 "ko": "작은 행동도 삶을 바꿀 수 있어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Small actions",
+                "ko": "작은 행동도"
+              },
+              {
+                "en": "can change",
+                "ko": "바꿀 수 있어요"
+              },
+              {
+                "en": "lives.",
+                "ko": "삶을."
               }
             ]
           }
@@ -101,6 +157,20 @@
                 "en": "A shield alone is not enough.",
                 "ko": "방패만으로는 충분하지 않아."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "A shield alone",
+                "ko": "방패만으로는"
+              },
+              {
+                "en": "is not",
+                "ko": "아니야"
+              },
+              {
+                "en": "enough.",
+                "ko": "충분하지."
+              }
             ]
           },
           {
@@ -111,6 +181,20 @@
               {
                 "en": "We become stronger together.",
                 "ko": "우리는 함께 더 강해진다."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We",
+                "ko": "우리는"
+              },
+              {
+                "en": "become stronger",
+                "ko": "더 강해진다"
+              },
+              {
+                "en": "together.",
+                "ko": "함께."
               }
             ]
           }
@@ -140,6 +224,16 @@
                 "en": "I must find the right person.",
                 "ko": "올바른 사람을 찾아야 해."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I must find",
+                "ko": "나는 찾아야 해"
+              },
+              {
+                "en": "the right person.",
+                "ko": "올바른 사람을."
+              }
             ]
           },
           {
@@ -150,6 +244,20 @@
               {
                 "en": "A clear goal guides my arrow.",
                 "ko": "분명한 목표가 내 화살을 이끌어."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "A clear goal",
+                "ko": "분명한 목표가"
+              },
+              {
+                "en": "guides",
+                "ko": "이끌어"
+              },
+              {
+                "en": "my arrow.",
+                "ko": "내 화살을."
               }
             ]
           }
@@ -179,6 +287,24 @@
                 "en": "Magic can make things different.",
                 "ko": "마법은 사물을 변화시킬 수 있어."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Magic",
+                "ko": "마법은"
+              },
+              {
+                "en": "can make",
+                "ko": "만들 수 있어"
+              },
+              {
+                "en": "things",
+                "ko": "사물을"
+              },
+              {
+                "en": "different.",
+                "ko": "다르게."
+              }
             ]
           },
           {
@@ -189,6 +315,20 @@
               {
                 "en": "Change should help, not harm.",
                 "ko": "변화는 해치지 않고 도와야 해."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Change",
+                "ko": "변화는"
+              },
+              {
+                "en": "should help,",
+                "ko": "도와야 해"
+              },
+              {
+                "en": "not harm.",
+                "ko": "해치지 말고."
               }
             ]
           }
@@ -218,6 +358,20 @@
                 "en": "Who needs this gift?",
                 "ko": "누가 이 선물을 필요로 할까?"
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Who",
+                "ko": "누가"
+              },
+              {
+                "en": "needs",
+                "ko": "필요로 할까"
+              },
+              {
+                "en": "this gift?",
+                "ko": "이 선물을?"
+              }
             ]
           },
           {
@@ -228,6 +382,20 @@
               {
                 "en": "A gift matters when it reaches someone.",
                 "ko": "선물은 누군가에게 전달될 때 의미가 있어."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "A gift",
+                "ko": "선물은"
+              },
+              {
+                "en": "matters",
+                "ko": "의미가 있어"
+              },
+              {
+                "en": "when it reaches someone.",
+                "ko": "누군가에게 닿을 때."
               }
             ]
           }
@@ -257,6 +425,20 @@
                 "en": "I have something for you.",
                 "ko": "네게 줄 것이 있어."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I have",
+                "ko": "나는 가지고 있어"
+              },
+              {
+                "en": "something",
+                "ko": "무언가를"
+              },
+              {
+                "en": "for you.",
+                "ko": "너를 위한."
+              }
             ]
           },
           {
@@ -267,6 +449,20 @@
               {
                 "en": "The right gift can open a door.",
                 "ko": "알맞은 선물은 문을 열 수 있어."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The right gift",
+                "ko": "알맞은 선물은"
+              },
+              {
+                "en": "can open",
+                "ko": "열 수 있어"
+              },
+              {
+                "en": "a door.",
+                "ko": "문을."
               }
             ]
           }
@@ -296,6 +492,16 @@
                 "en": "Look under the table!",
                 "ko": "탁자 아래를 봐!"
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Look",
+                "ko": "봐"
+              },
+              {
+                "en": "under the table!",
+                "ko": "탁자 아래를!"
+              }
             ]
           },
           {
@@ -306,6 +512,16 @@
               {
                 "en": "Small details matter.",
                 "ko": "작은 세부 사항도 중요해."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Small details",
+                "ko": "작은 세부 사항도"
+              },
+              {
+                "en": "matter.",
+                "ko": "중요해."
               }
             ]
           }
@@ -331,6 +547,16 @@
                 "en": "The welcome desk is closed.",
                 "ko": "안내소가 닫혀 있다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The welcome desk",
+                "ko": "안내소가"
+              },
+              {
+                "en": "is closed.",
+                "ko": "닫혀 있다."
+              }
             ]
           }
         ]
@@ -347,6 +573,16 @@
               {
                 "en": "I cannot remember my words!",
                 "ko": "내 말을 기억할 수 없어!"
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I cannot remember",
+                "ko": "나는 기억할 수 없어"
+              },
+              {
+                "en": "my words!",
+                "ko": "내 말을!"
               }
             ]
           }
@@ -365,6 +601,24 @@
                 "en": "The village knows its own voice again.",
                 "ko": "마을이 다시 자신의 목소리를 되찾았다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The village",
+                "ko": "마을이"
+              },
+              {
+                "en": "knows",
+                "ko": "안다"
+              },
+              {
+                "en": "its own voice",
+                "ko": "자신의 목소리를"
+              },
+              {
+                "en": "again.",
+                "ko": "다시."
+              }
             ]
           }
         ]
@@ -380,6 +634,24 @@
               {
                 "en": "We understood the clues and helped the village.",
                 "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We understood",
+                "ko": "우리는 이해하고"
+              },
+              {
+                "en": "the clues",
+                "ko": "단서를"
+              },
+              {
+                "en": "and helped",
+                "ko": "도왔어요"
+              },
+              {
+                "en": "the village.",
+                "ko": "마을을."
               }
             ]
           }
@@ -402,6 +674,20 @@
                 "en": "The kitchen is full of wrong orders.",
                 "ko": "부엌에 잘못된 주문이 가득하다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The kitchen",
+                "ko": "부엌이"
+              },
+              {
+                "en": "is full",
+                "ko": "가득하다"
+              },
+              {
+                "en": "of wrong orders.",
+                "ko": "잘못된 주문으로."
+              }
             ]
           }
         ]
@@ -418,6 +704,20 @@
               {
                 "en": "No one can ask the right question!",
                 "ko": "아무도 제대로 질문할 수 없어!"
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "No one",
+                "ko": "아무도"
+              },
+              {
+                "en": "can ask",
+                "ko": "물을 수 없어"
+              },
+              {
+                "en": "the right question!",
+                "ko": "제대로 된 질문을!"
               }
             ]
           }
@@ -436,6 +736,20 @@
                 "en": "Dinner is ready at last.",
                 "ko": "드디어 저녁 식사가 준비됐다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Dinner",
+                "ko": "저녁 식사가"
+              },
+              {
+                "en": "is ready",
+                "ko": "준비됐다"
+              },
+              {
+                "en": "at last.",
+                "ko": "드디어."
+              }
             ]
           }
         ]
@@ -451,6 +765,24 @@
               {
                 "en": "We understood the clues and helped the village.",
                 "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We understood",
+                "ko": "우리는 이해하고"
+              },
+              {
+                "en": "the clues",
+                "ko": "단서를"
+              },
+              {
+                "en": "and helped",
+                "ko": "도왔어요"
+              },
+              {
+                "en": "the village.",
+                "ko": "마을을."
               }
             ]
           }
@@ -473,6 +805,20 @@
                 "en": "The clocks show different times.",
                 "ko": "시계들이 서로 다른 시간을 가리킨다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The clocks",
+                "ko": "시계들이"
+              },
+              {
+                "en": "show",
+                "ko": "가리킨다"
+              },
+              {
+                "en": "different times.",
+                "ko": "서로 다른 시간을."
+              }
             ]
           }
         ]
@@ -489,6 +835,16 @@
               {
                 "en": "Yesterday and tomorrow are mixed up!",
                 "ko": "어제와 내일이 뒤섞였어!"
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Yesterday and tomorrow",
+                "ko": "어제와 내일이"
+              },
+              {
+                "en": "are mixed up!",
+                "ko": "뒤섞였어!"
               }
             ]
           }
@@ -507,6 +863,16 @@
                 "en": "The birthday party can begin.",
                 "ko": "생일 파티를 시작할 수 있다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The birthday party",
+                "ko": "생일 파티를"
+              },
+              {
+                "en": "can begin.",
+                "ko": "시작할 수 있다."
+              }
             ]
           }
         ]
@@ -522,6 +888,24 @@
               {
                 "en": "We understood the clues and helped the village.",
                 "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We understood",
+                "ko": "우리는 이해하고"
+              },
+              {
+                "en": "the clues",
+                "ko": "단서를"
+              },
+              {
+                "en": "and helped",
+                "ko": "도왔어요"
+              },
+              {
+                "en": "the village.",
+                "ko": "마을을."
               }
             ]
           }
@@ -544,6 +928,16 @@
                 "en": "The bridge is broken.",
                 "ko": "다리가 부서졌다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The bridge",
+                "ko": "다리가"
+              },
+              {
+                "en": "is broken.",
+                "ko": "부서졌다."
+              }
             ]
           }
         ]
@@ -557,6 +951,12 @@
             "en": "You cannot cross!",
             "ko": "너희는 건널 수 없다!",
             "chunks": [
+              {
+                "en": "You cannot cross!",
+                "ko": "너희는 건널 수 없다!"
+              }
+            ],
+            "direct_chunks": [
               {
                 "en": "You cannot cross!",
                 "ko": "너희는 건널 수 없다!"
@@ -578,6 +978,20 @@
                 "en": "The rescue team can cross safely.",
                 "ko": "구조대가 안전하게 건널 수 있다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The rescue team",
+                "ko": "구조대가"
+              },
+              {
+                "en": "can cross",
+                "ko": "건널 수 있다"
+              },
+              {
+                "en": "safely.",
+                "ko": "안전하게."
+              }
             ]
           }
         ]
@@ -593,6 +1007,24 @@
               {
                 "en": "We understood the clues and helped the village.",
                 "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We understood",
+                "ko": "우리는 이해하고"
+              },
+              {
+                "en": "the clues",
+                "ko": "단서를"
+              },
+              {
+                "en": "and helped",
+                "ko": "도왔어요"
+              },
+              {
+                "en": "the village.",
+                "ko": "마을을."
               }
             ]
           }
@@ -615,6 +1047,20 @@
                 "en": "A child is missing in the forest.",
                 "ko": "숲에서 아이가 실종됐다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "A child",
+                "ko": "아이가"
+              },
+              {
+                "en": "is missing",
+                "ko": "실종됐다"
+              },
+              {
+                "en": "in the forest.",
+                "ko": "숲에서."
+              }
             ]
           }
         ]
@@ -631,6 +1077,20 @@
               {
                 "en": "Every path looks the same!",
                 "ko": "모든 길이 똑같아 보여!"
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Every path",
+                "ko": "모든 길이"
+              },
+              {
+                "en": "looks",
+                "ko": "보여"
+              },
+              {
+                "en": "the same!",
+                "ko": "똑같아!"
               }
             ]
           }
@@ -649,6 +1109,20 @@
                 "en": "The search team has a clear lead.",
                 "ko": "수색대가 확실한 단서를 얻었다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The search team",
+                "ko": "수색대가"
+              },
+              {
+                "en": "has",
+                "ko": "가지고 있다"
+              },
+              {
+                "en": "a clear lead.",
+                "ko": "확실한 단서를."
+              }
             ]
           }
         ]
@@ -664,6 +1138,24 @@
               {
                 "en": "We understood the clues and helped the village.",
                 "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We understood",
+                "ko": "우리는 이해하고"
+              },
+              {
+                "en": "the clues",
+                "ko": "단서를"
+              },
+              {
+                "en": "and helped",
+                "ko": "도왔어요"
+              },
+              {
+                "en": "the village.",
+                "ko": "마을을."
               }
             ]
           }
@@ -686,6 +1178,16 @@
                 "en": "A valuable book is missing.",
                 "ko": "귀중한 책이 사라졌다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "A valuable book",
+                "ko": "귀중한 책이"
+              },
+              {
+                "en": "is missing.",
+                "ko": "사라졌다."
+              }
             ]
           }
         ]
@@ -702,6 +1204,16 @@
               {
                 "en": "The truth is hidden!",
                 "ko": "진실은 숨겨져 있다!"
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The truth",
+                "ko": "진실은"
+              },
+              {
+                "en": "is hidden!",
+                "ko": "숨겨져 있다!"
               }
             ]
           }
@@ -720,6 +1232,20 @@
                 "en": "The villagers can investigate the theft.",
                 "ko": "주민들이 절도 사건을 조사할 수 있다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The villagers",
+                "ko": "주민들이"
+              },
+              {
+                "en": "can investigate",
+                "ko": "조사할 수 있다"
+              },
+              {
+                "en": "the theft.",
+                "ko": "절도 사건을."
+              }
             ]
           }
         ]
@@ -735,6 +1261,24 @@
               {
                 "en": "We understood the clues and helped the village.",
                 "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We understood",
+                "ko": "우리는 이해하고"
+              },
+              {
+                "en": "the clues",
+                "ko": "단서를"
+              },
+              {
+                "en": "and helped",
+                "ko": "도왔어요"
+              },
+              {
+                "en": "the village.",
+                "ko": "마을을."
               }
             ]
           }
@@ -757,6 +1301,20 @@
                 "en": "An old letter waits for its reader.",
                 "ko": "오래된 편지가 읽어 줄 사람을 기다린다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "An old letter",
+                "ko": "오래된 편지가"
+              },
+              {
+                "en": "waits",
+                "ko": "기다린다"
+              },
+              {
+                "en": "for its reader.",
+                "ko": "읽어 줄 사람을."
+              }
             ]
           }
         ]
@@ -773,6 +1331,16 @@
               {
                 "en": "The past will never return!",
                 "ko": "과거는 결코 돌아오지 않아!"
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The past",
+                "ko": "과거는"
+              },
+              {
+                "en": "will never return!",
+                "ko": "결코 돌아오지 않아!"
               }
             ]
           }
@@ -791,6 +1359,20 @@
                 "en": "The letter can finally be read.",
                 "ko": "마침내 편지를 읽을 수 있다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The letter",
+                "ko": "편지를"
+              },
+              {
+                "en": "can finally",
+                "ko": "마침내"
+              },
+              {
+                "en": "be read.",
+                "ko": "읽을 수 있다."
+              }
             ]
           }
         ]
@@ -806,6 +1388,24 @@
               {
                 "en": "We understood the clues and helped the village.",
                 "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We understood",
+                "ko": "우리는 이해하고"
+              },
+              {
+                "en": "the clues",
+                "ko": "단서를"
+              },
+              {
+                "en": "and helped",
+                "ko": "도왔어요"
+              },
+              {
+                "en": "the village.",
+                "ko": "마을을."
               }
             ]
           }
@@ -828,6 +1428,20 @@
                 "en": "A map points to a forgotten home.",
                 "ko": "지도가 잊힌 고향을 가리킨다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "A map",
+                "ko": "지도가"
+              },
+              {
+                "en": "points to",
+                "ko": "가리킨다"
+              },
+              {
+                "en": "a forgotten home.",
+                "ko": "잊힌 고향을."
+              }
             ]
           }
         ]
@@ -844,6 +1458,20 @@
               {
                 "en": "You will lose your way!",
                 "ko": "너희는 길을 잃을 것이다!"
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "You",
+                "ko": "너희는"
+              },
+              {
+                "en": "will lose",
+                "ko": "잃을 것이다"
+              },
+              {
+                "en": "your way!",
+                "ko": "길을!"
               }
             ]
           }
@@ -862,6 +1490,20 @@
                 "en": "The path to the old house is clear.",
                 "ko": "옛집으로 가는 길이 분명해졌다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The path",
+                "ko": "길이"
+              },
+              {
+                "en": "to the old house",
+                "ko": "옛집으로 가는"
+              },
+              {
+                "en": "is clear.",
+                "ko": "분명해졌다."
+              }
             ]
           }
         ]
@@ -877,6 +1519,24 @@
               {
                 "en": "We understood the clues and helped the village.",
                 "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We understood",
+                "ko": "우리는 이해하고"
+              },
+              {
+                "en": "the clues",
+                "ko": "단서를"
+              },
+              {
+                "en": "and helped",
+                "ko": "도왔어요"
+              },
+              {
+                "en": "the village.",
+                "ko": "마을을."
               }
             ]
           }
@@ -899,6 +1559,20 @@
                 "en": "An ancient tablet lies in the canyon.",
                 "ko": "협곡에 고대 돌판이 놓여 있다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "An ancient tablet",
+                "ko": "고대 돌판이"
+              },
+              {
+                "en": "lies",
+                "ko": "놓여 있다"
+              },
+              {
+                "en": "in the canyon.",
+                "ko": "협곡에."
+              }
             ]
           }
         ]
@@ -915,6 +1589,20 @@
               {
                 "en": "The record must remain hidden!",
                 "ko": "기록은 숨겨져 있어야 한다!"
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The record",
+                "ko": "기록은"
+              },
+              {
+                "en": "must remain",
+                "ko": "있어야 한다"
+              },
+              {
+                "en": "hidden!",
+                "ko": "숨겨져!"
               }
             ]
           }
@@ -933,6 +1621,16 @@
                 "en": "The ancient record can be studied.",
                 "ko": "고대 기록을 연구할 수 있다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The ancient record",
+                "ko": "고대 기록을"
+              },
+              {
+                "en": "can be studied.",
+                "ko": "연구할 수 있다."
+              }
             ]
           }
         ]
@@ -948,6 +1646,24 @@
               {
                 "en": "We understood the clues and helped the village.",
                 "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We understood",
+                "ko": "우리는 이해하고"
+              },
+              {
+                "en": "the clues",
+                "ko": "단서를"
+              },
+              {
+                "en": "and helped",
+                "ko": "도왔어요"
+              },
+              {
+                "en": "the village.",
+                "ko": "마을을."
               }
             ]
           }
@@ -970,6 +1686,20 @@
                 "en": "A young girl waits for her brother.",
                 "ko": "한 소녀가 오빠를 기다린다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "A young girl",
+                "ko": "한 소녀가"
+              },
+              {
+                "en": "waits",
+                "ko": "기다린다"
+              },
+              {
+                "en": "for her brother.",
+                "ko": "오빠를."
+              }
             ]
           }
         ]
@@ -986,6 +1716,20 @@
               {
                 "en": "Your wishes will never come true!",
                 "ko": "너희의 소원은 결코 이루어지지 않아!"
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Your wishes",
+                "ko": "너희의 소원은"
+              },
+              {
+                "en": "will never",
+                "ko": "결코"
+              },
+              {
+                "en": "come true!",
+                "ko": "이루어지지 않아!"
               }
             ]
           }
@@ -1004,6 +1748,20 @@
                 "en": "The villagers can hope again.",
                 "ko": "주민들이 다시 희망을 품을 수 있다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The villagers",
+                "ko": "주민들이"
+              },
+              {
+                "en": "can hope",
+                "ko": "희망을 품을 수 있다"
+              },
+              {
+                "en": "again.",
+                "ko": "다시."
+              }
             ]
           }
         ]
@@ -1019,6 +1777,24 @@
               {
                 "en": "We understood the clues and helped the village.",
                 "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We understood",
+                "ko": "우리는 이해하고"
+              },
+              {
+                "en": "the clues",
+                "ko": "단서를"
+              },
+              {
+                "en": "and helped",
+                "ko": "도왔어요"
+              },
+              {
+                "en": "the village.",
+                "ko": "마을을."
               }
             ]
           }
@@ -1041,6 +1817,20 @@
                 "en": "The race has no clear winner.",
                 "ko": "경주에 분명한 우승자가 없다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The race",
+                "ko": "경주에는"
+              },
+              {
+                "en": "has",
+                "ko": "있다"
+              },
+              {
+                "en": "no clear winner.",
+                "ko": "분명한 우승자가 없다."
+              }
             ]
           }
         ]
@@ -1057,6 +1847,20 @@
               {
                 "en": "No one is better than me!",
                 "ko": "아무도 나보다 낫지 않아!"
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "No one",
+                "ko": "아무도"
+              },
+              {
+                "en": "is better",
+                "ko": "낫지 않아"
+              },
+              {
+                "en": "than me!",
+                "ko": "나보다!"
               }
             ]
           }
@@ -1075,6 +1879,20 @@
                 "en": "The judges can compare the results.",
                 "ko": "심판들이 결과를 비교할 수 있다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The judges",
+                "ko": "심판들이"
+              },
+              {
+                "en": "can compare",
+                "ko": "비교할 수 있다"
+              },
+              {
+                "en": "the results.",
+                "ko": "결과를."
+              }
             ]
           }
         ]
@@ -1090,6 +1908,24 @@
               {
                 "en": "We understood the clues and helped the village.",
                 "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We understood",
+                "ko": "우리는 이해하고"
+              },
+              {
+                "en": "the clues",
+                "ko": "단서를"
+              },
+              {
+                "en": "and helped",
+                "ko": "도왔어요"
+              },
+              {
+                "en": "the village.",
+                "ko": "마을을."
               }
             ]
           }
@@ -1112,6 +1948,20 @@
                 "en": "Lost objects fill the village hall.",
                 "ko": "분실물이 마을 회관을 가득 채운다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Lost objects",
+                "ko": "분실물이"
+              },
+              {
+                "en": "fill",
+                "ko": "채운다"
+              },
+              {
+                "en": "the village hall.",
+                "ko": "마을 회관을."
+              }
             ]
           }
         ]
@@ -1128,6 +1978,16 @@
               {
                 "en": "Everything is mine!",
                 "ko": "모든 것이 내 것이다!"
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Everything",
+                "ko": "모든 것이"
+              },
+              {
+                "en": "is mine!",
+                "ko": "내 것이다!"
               }
             ]
           }
@@ -1146,6 +2006,20 @@
                 "en": "The owners can claim their belongings.",
                 "ko": "주인들이 물건을 되찾을 수 있다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The owners",
+                "ko": "주인들이"
+              },
+              {
+                "en": "can claim",
+                "ko": "되찾을 수 있다"
+              },
+              {
+                "en": "their belongings.",
+                "ko": "그들의 물건을."
+              }
             ]
           }
         ]
@@ -1161,6 +2035,24 @@
               {
                 "en": "We understood the clues and helped the village.",
                 "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We understood",
+                "ko": "우리는 이해하고"
+              },
+              {
+                "en": "the clues",
+                "ko": "단서를"
+              },
+              {
+                "en": "and helped",
+                "ko": "도왔어요"
+              },
+              {
+                "en": "the village.",
+                "ko": "마을을."
               }
             ]
           }
@@ -1183,6 +2075,20 @@
                 "en": "A ship waits beside the lighthouse.",
                 "ko": "배가 등대 옆에서 기다린다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "A ship",
+                "ko": "배가"
+              },
+              {
+                "en": "waits",
+                "ko": "기다린다"
+              },
+              {
+                "en": "beside the lighthouse.",
+                "ko": "등대 옆에서."
+              }
             ]
           }
         ]
@@ -1199,6 +2105,20 @@
               {
                 "en": "You will never find the route!",
                 "ko": "너희는 결코 항로를 찾지 못할 것이다!"
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "You",
+                "ko": "너희는"
+              },
+              {
+                "en": "will never find",
+                "ko": "결코 찾지 못할 것이다"
+              },
+              {
+                "en": "the route!",
+                "ko": "항로를!"
               }
             ]
           }
@@ -1217,6 +2137,20 @@
                 "en": "The sailors can prepare to leave.",
                 "ko": "선원들이 출항을 준비할 수 있다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The sailors",
+                "ko": "선원들이"
+              },
+              {
+                "en": "can prepare",
+                "ko": "준비할 수 있다"
+              },
+              {
+                "en": "to leave.",
+                "ko": "출항을."
+              }
             ]
           }
         ]
@@ -1232,6 +2166,24 @@
               {
                 "en": "We understood the clues and helped the village.",
                 "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We understood",
+                "ko": "우리는 이해하고"
+              },
+              {
+                "en": "the clues",
+                "ko": "단서를"
+              },
+              {
+                "en": "and helped",
+                "ko": "도왔어요"
+              },
+              {
+                "en": "the village.",
+                "ko": "마을을."
               }
             ]
           }
@@ -1254,6 +2206,20 @@
                 "en": "The travelers have lost their plans.",
                 "ko": "여행자들이 계획을 잃었다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The travelers",
+                "ko": "여행자들이"
+              },
+              {
+                "en": "have lost",
+                "ko": "잃었다"
+              },
+              {
+                "en": "their plans.",
+                "ko": "그들의 계획을."
+              }
             ]
           }
         ]
@@ -1270,6 +2236,16 @@
               {
                 "en": "Give up your dreams!",
                 "ko": "꿈을 포기해라!"
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Give up",
+                "ko": "포기해라"
+              },
+              {
+                "en": "your dreams!",
+                "ko": "너희의 꿈을!"
               }
             ]
           }
@@ -1288,6 +2264,20 @@
                 "en": "The travelers can plan their journeys.",
                 "ko": "여행자들이 여행을 계획할 수 있다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The travelers",
+                "ko": "여행자들이"
+              },
+              {
+                "en": "can plan",
+                "ko": "계획할 수 있다"
+              },
+              {
+                "en": "their journeys.",
+                "ko": "그들의 여행을."
+              }
             ]
           }
         ]
@@ -1303,6 +2293,24 @@
               {
                 "en": "We understood the clues and helped the village.",
                 "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We understood",
+                "ko": "우리는 이해하고"
+              },
+              {
+                "en": "the clues",
+                "ko": "단서를"
+              },
+              {
+                "en": "and helped",
+                "ko": "도왔어요"
+              },
+              {
+                "en": "the village.",
+                "ko": "마을을."
               }
             ]
           }
@@ -1325,6 +2333,20 @@
                 "en": "A strange sound comes from the woods.",
                 "ko": "숲에서 이상한 소리가 들려온다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "A strange sound",
+                "ko": "이상한 소리가"
+              },
+              {
+                "en": "comes",
+                "ko": "들려온다"
+              },
+              {
+                "en": "from the woods.",
+                "ko": "숲에서."
+              }
             ]
           }
         ]
@@ -1341,6 +2363,16 @@
               {
                 "en": "Do not trust your senses!",
                 "ko": "너희의 감각을 믿지 마라!"
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Do not trust",
+                "ko": "믿지 마라"
+              },
+              {
+                "en": "your senses!",
+                "ko": "너희의 감각을!"
               }
             ]
           }
@@ -1359,6 +2391,20 @@
                 "en": "The witnesses can share their stories.",
                 "ko": "목격자들이 이야기를 나눌 수 있다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The witnesses",
+                "ko": "목격자들이"
+              },
+              {
+                "en": "can share",
+                "ko": "나눌 수 있다"
+              },
+              {
+                "en": "their stories.",
+                "ko": "그들의 이야기를."
+              }
             ]
           }
         ]
@@ -1374,6 +2420,24 @@
               {
                 "en": "We understood the clues and helped the village.",
                 "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We understood",
+                "ko": "우리는 이해하고"
+              },
+              {
+                "en": "the clues",
+                "ko": "단서를"
+              },
+              {
+                "en": "and helped",
+                "ko": "도왔어요"
+              },
+              {
+                "en": "the village.",
+                "ko": "마을을."
               }
             ]
           }
@@ -1395,6 +2459,16 @@
               {
                 "en": "The festival square is empty.",
                 "ko": "축제 광장이 텅 비어 있다."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The festival square",
+                "ko": "축제 광장이"
+              },
+              {
+                "en": "is empty.",
+                "ko": "텅 비어 있다."
               }
             ]
           }
@@ -1430,6 +2504,16 @@
                 "en": "The festival preparations can resume.",
                 "ko": "축제 준비를 다시 시작할 수 있다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The festival preparations",
+                "ko": "축제 준비를"
+              },
+              {
+                "en": "can resume.",
+                "ko": "다시 시작할 수 있다."
+              }
             ]
           }
         ]
@@ -1445,6 +2529,24 @@
               {
                 "en": "We understood the clues and helped the village.",
                 "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We understood",
+                "ko": "우리는 이해하고"
+              },
+              {
+                "en": "the clues",
+                "ko": "단서를"
+              },
+              {
+                "en": "and helped",
+                "ko": "도왔어요"
+              },
+              {
+                "en": "the village.",
+                "ko": "마을을."
               }
             ]
           }
@@ -1467,6 +2569,20 @@
                 "en": "A messenger carries a broken message.",
                 "ko": "전령이 왜곡된 전갈을 가지고 있다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "A messenger",
+                "ko": "전령이"
+              },
+              {
+                "en": "carries",
+                "ko": "가지고 있다"
+              },
+              {
+                "en": "a broken message.",
+                "ko": "왜곡된 전갈을."
+              }
             ]
           }
         ]
@@ -1483,6 +2599,20 @@
               {
                 "en": "No one will hear the truth!",
                 "ko": "아무도 진실을 듣지 못할 것이다!"
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "No one",
+                "ko": "아무도"
+              },
+              {
+                "en": "will hear",
+                "ko": "듣지 못할 것이다"
+              },
+              {
+                "en": "the truth!",
+                "ko": "진실을!"
               }
             ]
           }
@@ -1501,6 +2631,16 @@
                 "en": "The message can be restored.",
                 "ko": "전갈을 복원할 수 있다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The message",
+                "ko": "전갈을"
+              },
+              {
+                "en": "can be restored.",
+                "ko": "복원할 수 있다."
+              }
             ]
           }
         ]
@@ -1516,6 +2656,24 @@
               {
                 "en": "We understood the clues and helped the village.",
                 "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We understood",
+                "ko": "우리는 이해하고"
+              },
+              {
+                "en": "the clues",
+                "ko": "단서를"
+              },
+              {
+                "en": "and helped",
+                "ko": "도왔어요"
+              },
+              {
+                "en": "the village.",
+                "ko": "마을을."
               }
             ]
           }
@@ -1538,6 +2696,20 @@
                 "en": "The castle gate stands in darkness.",
                 "ko": "성문이 어둠 속에 서 있다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The castle gate",
+                "ko": "성문이"
+              },
+              {
+                "en": "stands",
+                "ko": "서 있다"
+              },
+              {
+                "en": "in darkness.",
+                "ko": "어둠 속에."
+              }
             ]
           }
         ]
@@ -1554,6 +2726,20 @@
               {
                 "en": "Never will you restore the book!",
                 "ko": "너희는 결코 책을 복원하지 못할 것이다!"
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Never",
+                "ko": "결코"
+              },
+              {
+                "en": "will you restore",
+                "ko": "너희는 복원하지 못할 것이다"
+              },
+              {
+                "en": "the book!",
+                "ko": "책을!"
               }
             ]
           }
@@ -1572,6 +2758,16 @@
                 "en": "The last page is within reach.",
                 "ko": "마지막 페이지가 손에 닿을 곳에 있다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The last page",
+                "ko": "마지막 페이지가"
+              },
+              {
+                "en": "is within reach.",
+                "ko": "손에 닿을 곳에 있다."
+              }
             ]
           }
         ]
@@ -1587,6 +2783,24 @@
               {
                 "en": "We understood the clues and helped the village.",
                 "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We understood",
+                "ko": "우리는 이해하고"
+              },
+              {
+                "en": "the clues",
+                "ko": "단서를"
+              },
+              {
+                "en": "and helped",
+                "ko": "도왔어요"
+              },
+              {
+                "en": "the village.",
+                "ko": "마을을."
               }
             ]
           }
@@ -1618,6 +2832,20 @@
             "en": "The book is whole, but its final warning is clear.",
             "ko": "책은 완전해졌지만 마지막 경고는 분명하네."
           }
+        ],
+        "direct_chunks": [
+          {
+            "en": "The book is whole,",
+            "ko": "책은 완전해졌지만"
+          },
+          {
+            "en": "but its final warning",
+            "ko": "마지막 경고는"
+          },
+          {
+            "en": "is clear.",
+            "ko": "분명하네."
+          }
         ]
       },
       {
@@ -1628,6 +2856,32 @@
           {
             "en": "One voice. One rule. No more arguments.",
             "ko": "하나의 목소리. 하나의 규칙. 더 이상의 논쟁은 없다."
+          }
+        ],
+        "direct_chunks": [
+          {
+            "en": "One",
+            "ko": "하나의"
+          },
+          {
+            "en": "voice.",
+            "ko": "목소리."
+          },
+          {
+            "en": "One",
+            "ko": "하나의"
+          },
+          {
+            "en": "rule.",
+            "ko": "규칙."
+          },
+          {
+            "en": "No more",
+            "ko": "더 이상의"
+          },
+          {
+            "en": "arguments.",
+            "ko": "논쟁은 없다."
           }
         ]
       }
@@ -1711,7 +2965,21 @@
             "ko": "그건 평화가 아니에요."
           }
         ],
-        "speaker_en": "Verbella"
+        "speaker_en": "Verbella",
+        "direct_chunks": [
+          {
+            "en": "That",
+            "ko": "그건"
+          },
+          {
+            "en": "is not",
+            "ko": "아니에요"
+          },
+          {
+            "en": "peace.",
+            "ko": "평화가."
+          }
+        ]
       },
       {
         "speaker": "컴플리",
@@ -1772,6 +3040,20 @@
             "en": "I cannot decide what everyone should say.",
             "ko": "모든 사람이 무엇을 말해야 할지 내가 결정할 수는 없다."
           }
+        ],
+        "direct_chunks": [
+          {
+            "en": "I cannot decide",
+            "ko": "나는 결정할 수 없다"
+          },
+          {
+            "en": "what everyone",
+            "ko": "모든 사람이"
+          },
+          {
+            "en": "should say.",
+            "ko": "무엇을 말해야 할지."
+          }
         ]
       },
       {
@@ -1782,6 +3064,20 @@
           {
             "en": "We can listen, even when we disagree.",
             "ko": "의견이 달라도 우리는 서로의 말을 들을 수 있어요."
+          }
+        ],
+        "direct_chunks": [
+          {
+            "en": "We can listen,",
+            "ko": "우리는 들을 수 있어요"
+          },
+          {
+            "en": "even when",
+            "ko": "~할 때도"
+          },
+          {
+            "en": "we disagree.",
+            "ko": "의견이 달라도."
           }
         ]
       },
@@ -1794,6 +3090,20 @@
             "en": "The Grammatica belongs to everyone.",
             "ko": "그라마티카는 모두의 것이네."
           }
+        ],
+        "direct_chunks": [
+          {
+            "en": "The Grammatica",
+            "ko": "그라마티카는"
+          },
+          {
+            "en": "belongs to",
+            "ko": "속하네"
+          },
+          {
+            "en": "everyone.",
+            "ko": "모두에게."
+          }
         ]
       },
       {
@@ -1804,6 +3114,20 @@
           {
             "en": "The voices of the continent returned.",
             "ko": "대륙의 목소리들이 돌아왔다."
+          }
+        ],
+        "direct_chunks": [
+          {
+            "en": "The voices",
+            "ko": "목소리들이"
+          },
+          {
+            "en": "of the continent",
+            "ko": "대륙의"
+          },
+          {
+            "en": "returned.",
+            "ko": "돌아왔다."
           }
         ]
       }
@@ -1823,6 +3147,20 @@
             "en": "Beyond the sea, an ancient rune began to glow.",
             "ko": "바다 너머에서 고대 룬 하나가 빛나기 시작했다."
           }
+        ],
+        "direct_chunks": [
+          {
+            "en": "Beyond the sea,",
+            "ko": "바다 너머에서"
+          },
+          {
+            "en": "an ancient rune",
+            "ko": "고대 룬 하나가"
+          },
+          {
+            "en": "began to glow.",
+            "ko": "빛나기 시작했다."
+          }
         ]
       },
       {
@@ -1833,6 +3171,16 @@
           {
             "en": "What does that word mean?",
             "ko": "저 단어는 무슨 뜻이지?"
+          }
+        ],
+        "direct_chunks": [
+          {
+            "en": "What",
+            "ko": "무엇을"
+          },
+          {
+            "en": "does that word mean?",
+            "ko": "저 단어는 뜻하지?"
           }
         ]
       }

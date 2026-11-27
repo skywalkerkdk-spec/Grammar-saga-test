@@ -19,6 +19,28 @@
                 "en": "The judges are waiting, but the inn needs a loaf too.",
                 "ko": "심사위원들이 기다리고 있지만 여관에도 빵 한 덩이가 필요해요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The judges are waiting,",
+                "ko": "심사위원들이 기다리고 있지만"
+              },
+              {
+                "en": "but the inn",
+                "ko": "여관에도"
+              },
+              {
+                "en": "needs",
+                "ko": "필요해요"
+              },
+              {
+                "en": "a loaf",
+                "ko": "빵 한 덩이가"
+              },
+              {
+                "en": "too.",
+                "ko": "역시."
+              }
             ]
           }
         },
@@ -33,6 +55,20 @@
                 "en": "The round loaf is for the contest.",
                 "ko": "둥근 빵은 대회용이에요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The round loaf",
+                "ko": "둥근 빵은"
+              },
+              {
+                "en": "is for",
+                "ko": "위한 거예요"
+              },
+              {
+                "en": "the contest.",
+                "ko": "대회를."
+              }
             ]
           }
         },
@@ -46,6 +82,20 @@
               {
                 "en": "The long loaf is for the inn.",
                 "ko": "긴 빵은 여관용이에요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The long loaf",
+                "ko": "긴 빵은"
+              },
+              {
+                "en": "is for",
+                "ko": "위한 거예요"
+              },
+              {
+                "en": "the inn.",
+                "ko": "여관을."
               }
             ]
           }
@@ -72,6 +122,24 @@
                 "en": "The round loaf is on the judges’ table now.",
                 "ko": "둥근 빵은 이제 심사위원들의 탁자 위에 있어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The round loaf",
+                "ko": "둥근 빵은"
+              },
+              {
+                "en": "is",
+                "ko": "있어요"
+              },
+              {
+                "en": "on the judges’ table",
+                "ko": "심사위원들의 탁자 위에"
+              },
+              {
+                "en": "now.",
+                "ko": "이제."
+              }
             ]
           }
         },
@@ -85,6 +153,24 @@
               {
                 "en": "I left the long loaf at the inn before the judging began.",
                 "ko": "심사가 시작되기 전에 긴 빵을 여관에 두었어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I left",
+                "ko": "저는 두었어요"
+              },
+              {
+                "en": "the long loaf",
+                "ko": "긴 빵을"
+              },
+              {
+                "en": "at the inn",
+                "ko": "여관에"
+              },
+              {
+                "en": "before the judging began.",
+                "ko": "심사가 시작되기 전에."
               }
             ]
           }
@@ -111,6 +197,32 @@
                 "en": "The cook lost the order of the steps, and the pot is already hot.",
                 "ko": "요리사가 조리 순서를 잊어버렸는데 냄비는 벌써 뜨거워요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The cook",
+                "ko": "요리사가"
+              },
+              {
+                "en": "lost",
+                "ko": "잊어버렸는데"
+              },
+              {
+                "en": "the order",
+                "ko": "순서를"
+              },
+              {
+                "en": "of the steps,",
+                "ko": "조리 단계의"
+              },
+              {
+                "en": "and the pot",
+                "ko": "냄비는"
+              },
+              {
+                "en": "is already hot.",
+                "ko": "벌써 뜨거워요."
+              }
             ]
           }
         },
@@ -125,6 +237,20 @@
                 "en": "Add the onions before the fish.",
                 "ko": "생선보다 먼저 양파를 넣으세요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Add",
+                "ko": "넣으세요"
+              },
+              {
+                "en": "the onions",
+                "ko": "양파를"
+              },
+              {
+                "en": "before the fish.",
+                "ko": "생선보다 먼저."
+              }
             ]
           }
         },
@@ -138,6 +264,20 @@
               {
                 "en": "Add the herbs last.",
                 "ko": "약초는 마지막에 넣으세요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Add",
+                "ko": "넣으세요"
+              },
+              {
+                "en": "the herbs",
+                "ko": "약초는"
+              },
+              {
+                "en": "last.",
+                "ko": "마지막에."
               }
             ]
           }
@@ -164,6 +304,24 @@
                 "en": "The onions have softened, so the fish can go in.",
                 "ko": "양파가 부드러워졌으니 이제 생선을 넣으면 돼요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The onions",
+                "ko": "양파가"
+              },
+              {
+                "en": "have softened,",
+                "ko": "부드러워졌으니"
+              },
+              {
+                "en": "so the fish",
+                "ko": "생선을"
+              },
+              {
+                "en": "can go in.",
+                "ko": "넣으면 돼요."
+              }
             ]
           }
         },
@@ -177,6 +335,24 @@
               {
                 "en": "We added the herbs just before serving the soup.",
                 "ko": "수프를 내기 직전에 허브를 넣었어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We added",
+                "ko": "우리는 넣었어요"
+              },
+              {
+                "en": "the herbs",
+                "ko": "허브를"
+              },
+              {
+                "en": "just before serving",
+                "ko": "내기 직전에"
+              },
+              {
+                "en": "the soup.",
+                "ko": "수프를."
               }
             ]
           }
@@ -203,6 +379,28 @@
                 "en": "The guest is coming at six, and the room still looks empty.",
                 "ko": "손님은 여섯 시에 오는데 방은 아직 비어 보여요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The guest",
+                "ko": "손님은"
+              },
+              {
+                "en": "is coming",
+                "ko": "와요"
+              },
+              {
+                "en": "at six,",
+                "ko": "여섯 시에"
+              },
+              {
+                "en": "and the room",
+                "ko": "방은"
+              },
+              {
+                "en": "still looks empty.",
+                "ko": "아직 비어 보여요."
+              }
             ]
           }
         },
@@ -217,6 +415,20 @@
                 "en": "The guest arrives at six.",
                 "ko": "손님은 6시에 도착해요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The guest",
+                "ko": "손님은"
+              },
+              {
+                "en": "arrives",
+                "ko": "도착해요"
+              },
+              {
+                "en": "at six.",
+                "ko": "6시에."
+              }
             ]
           }
         },
@@ -230,6 +442,16 @@
               {
                 "en": "We need to hide before six.",
                 "ko": "6시 전에 숨어야 해요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We need to hide",
+                "ko": "우리는 숨어야 해요"
+              },
+              {
+                "en": "before six.",
+                "ko": "6시 전에."
               }
             ]
           }
@@ -256,6 +478,24 @@
                 "en": "Everyone was out of sight before the clock struck six.",
                 "ko": "시계가 여섯 번 울리기 전에 모두 몸을 숨겼어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Everyone",
+                "ko": "모두"
+              },
+              {
+                "en": "was out of sight",
+                "ko": "몸을 숨겼어요"
+              },
+              {
+                "en": "before the clock",
+                "ko": "시계가"
+              },
+              {
+                "en": "struck six.",
+                "ko": "여섯 번 울리기 전에."
+              }
             ]
           }
         },
@@ -269,6 +509,24 @@
               {
                 "en": "The guest saw the ribbon only when we stepped out.",
                 "ko": "손님은 우리가 모습을 드러내고 나서야 리본을 보았어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The guest",
+                "ko": "손님은"
+              },
+              {
+                "en": "saw",
+                "ko": "보았어요"
+              },
+              {
+                "en": "the ribbon",
+                "ko": "리본을"
+              },
+              {
+                "en": "only when we stepped out.",
+                "ko": "우리가 모습을 드러내고 나서야."
               }
             ]
           }
@@ -295,6 +553,24 @@
                 "en": "We will practice a rescue without putting anyone in danger.",
                 "ko": "아무도 위험에 빠뜨리지 않고 구조 훈련을 할 거예요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We will practice",
+                "ko": "우리는 훈련할 거예요"
+              },
+              {
+                "en": "a rescue",
+                "ko": "구조를"
+              },
+              {
+                "en": "without putting anyone",
+                "ko": "아무도 빠뜨리지 않고"
+              },
+              {
+                "en": "in danger.",
+                "ko": "위험에."
+              }
             ]
           }
         },
@@ -309,6 +585,16 @@
                 "en": "You must wear a helmet.",
                 "ko": "안전모를 반드시 써야 해요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "You must wear",
+                "ko": "당신은 써야 해요"
+              },
+              {
+                "en": "a helmet.",
+                "ko": "안전모를."
+              }
             ]
           }
         },
@@ -322,6 +608,16 @@
               {
                 "en": "You must not enter the broken tunnel.",
                 "ko": "부서진 터널에 들어가면 안 돼요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "You must not enter",
+                "ko": "당신은 들어가면 안 돼요"
+              },
+              {
+                "en": "the broken tunnel.",
+                "ko": "부서진 터널에."
               }
             ]
           }
@@ -348,6 +644,24 @@
                 "en": "The team put on helmets and stayed outside the damaged tunnel.",
                 "ko": "훈련팀은 헬멧을 쓰고 무너진 터널 밖에 머물렀어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The team",
+                "ko": "훈련팀은"
+              },
+              {
+                "en": "put on helmets",
+                "ko": "헬멧을 쓰고"
+              },
+              {
+                "en": "and stayed outside",
+                "ko": "밖에 머물렀어요"
+              },
+              {
+                "en": "the damaged tunnel.",
+                "ko": "무너진 터널."
+              }
             ]
           }
         },
@@ -361,6 +675,20 @@
               {
                 "en": "The next group will start at the same safe point.",
                 "ko": "다음 조도 같은 안전 지점에서 시작할 거예요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The next group",
+                "ko": "다음 조도"
+              },
+              {
+                "en": "will start",
+                "ko": "시작할 거예요"
+              },
+              {
+                "en": "at the same safe point.",
+                "ko": "같은 안전 지점에서."
               }
             ]
           }
@@ -387,6 +715,32 @@
                 "en": "Two trails split at the oak, but only one reaches the shelter.",
                 "ko": "참나무에서 길이 갈라지는데 한쪽만 쉼터로 이어져요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Two trails",
+                "ko": "길 두 개가"
+              },
+              {
+                "en": "split",
+                "ko": "갈라지는데"
+              },
+              {
+                "en": "at the oak,",
+                "ko": "참나무에서"
+              },
+              {
+                "en": "but only one",
+                "ko": "한쪽만"
+              },
+              {
+                "en": "reaches",
+                "ko": "이어져요"
+              },
+              {
+                "en": "the shelter.",
+                "ko": "쉼터로."
+              }
             ]
           }
         },
@@ -401,6 +755,20 @@
                 "en": "Follow the path that has white stones.",
                 "ko": "흰 돌이 있는 길을 따라가세요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Follow",
+                "ko": "따라가세요"
+              },
+              {
+                "en": "the path",
+                "ko": "길을"
+              },
+              {
+                "en": "that has white stones.",
+                "ko": "흰 돌이 있는."
+              }
             ]
           }
         },
@@ -414,6 +782,20 @@
               {
                 "en": "Avoid the path that leads to the swamp.",
                 "ko": "늪으로 이어지는 길은 피하세요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Avoid",
+                "ko": "피하세요"
+              },
+              {
+                "en": "the path",
+                "ko": "길은"
+              },
+              {
+                "en": "that leads to the swamp.",
+                "ko": "늪으로 이어지는."
               }
             ]
           }
@@ -440,6 +822,24 @@
                 "en": "The white stones led straight to the shelter.",
                 "ko": "흰 돌을 따라가니 곧장 쉼터가 나왔어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The white stones",
+                "ko": "흰 돌이"
+              },
+              {
+                "en": "led",
+                "ko": "이끌었어요"
+              },
+              {
+                "en": "straight",
+                "ko": "곧장"
+              },
+              {
+                "en": "to the shelter.",
+                "ko": "쉼터로."
+              }
             ]
           }
         },
@@ -453,6 +853,24 @@
               {
                 "en": "We will repaint the first marker so the next visitor can see it.",
                 "ko": "다음 방문객도 볼 수 있도록 첫 표식을 다시 칠할게요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We will repaint",
+                "ko": "우리는 다시 칠할게요"
+              },
+              {
+                "en": "the first marker",
+                "ko": "첫 표식을"
+              },
+              {
+                "en": "so the next visitor",
+                "ko": "다음 방문객이"
+              },
+              {
+                "en": "can see it.",
+                "ko": "볼 수 있도록."
               }
             ]
           }
@@ -479,6 +897,24 @@
                 "en": "Before anyone blames the child, please find out what broke the window.",
                 "ko": "아이를 탓하기 전에 무엇이 창문을 깼는지 알아봐 주세요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Before anyone blames the child,",
+                "ko": "누가 아이를 탓하기 전에"
+              },
+              {
+                "en": "please find out",
+                "ko": "알아봐 주세요"
+              },
+              {
+                "en": "what broke",
+                "ko": "무엇이 깼는지"
+              },
+              {
+                "en": "the window.",
+                "ko": "창문을."
+              }
             ]
           }
         },
@@ -493,6 +929,20 @@
                 "en": "The window was broken by a branch.",
                 "ko": "창문은 나뭇가지 때문에 깨졌어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The window",
+                "ko": "창문은"
+              },
+              {
+                "en": "was broken",
+                "ko": "깨졌어요"
+              },
+              {
+                "en": "by a branch.",
+                "ko": "나뭇가지 때문에."
+              }
             ]
           }
         },
@@ -506,6 +956,20 @@
               {
                 "en": "The child was inside the inn.",
                 "ko": "아이는 여관 안에 있었어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The child",
+                "ko": "아이는"
+              },
+              {
+                "en": "was",
+                "ko": "있었어요"
+              },
+              {
+                "en": "inside the inn.",
+                "ko": "여관 안에."
               }
             ]
           }
@@ -532,6 +996,20 @@
                 "en": "We found the branch beneath the broken window.",
                 "ko": "깨진 창문 밑에서 나뭇가지를 찾았어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We found",
+                "ko": "우리는 찾았어요"
+              },
+              {
+                "en": "the branch",
+                "ko": "나뭇가지를"
+              },
+              {
+                "en": "beneath the broken window.",
+                "ko": "깨진 창문 밑에서."
+              }
             ]
           }
         },
@@ -545,6 +1023,24 @@
               {
                 "en": "The child helped us hang a cloth over the opening.",
                 "ko": "아이가 창문이 뚫린 곳에 천을 거는 일을 도와주었어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The child",
+                "ko": "아이가"
+              },
+              {
+                "en": "helped us",
+                "ko": "우리를 도와주었어요"
+              },
+              {
+                "en": "hang a cloth",
+                "ko": "천을 거는 일을"
+              },
+              {
+                "en": "over the opening.",
+                "ko": "뚫린 곳에."
               }
             ]
           }
@@ -571,6 +1067,24 @@
                 "en": "Our first visitor has time for one more activity before sunset.",
                 "ko": "오늘 첫 손님은 해가 지기 전에 한 가지를 더 할 시간이 있어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Our first visitor",
+                "ko": "오늘 첫 손님은"
+              },
+              {
+                "en": "has time",
+                "ko": "시간이 있어요"
+              },
+              {
+                "en": "for one more activity",
+                "ko": "한 가지를 더 할"
+              },
+              {
+                "en": "before sunset.",
+                "ko": "해가 지기 전에."
+              }
             ]
           }
         },
@@ -585,6 +1099,16 @@
                 "en": "I have never ridden a camel.",
                 "ko": "낙타를 타 본 적이 없어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I have never ridden",
+                "ko": "저는 타 본 적이 없어요"
+              },
+              {
+                "en": "a camel.",
+                "ko": "낙타를."
+              }
             ]
           }
         },
@@ -598,6 +1122,16 @@
               {
                 "en": "I have already visited the well.",
                 "ko": "우물은 이미 방문했어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I have already visited",
+                "ko": "저는 이미 방문했어요"
+              },
+              {
+                "en": "the well.",
+                "ko": "우물은."
               }
             ]
           }
@@ -624,6 +1158,24 @@
                 "en": "The guide offered a short camel ride near the well.",
                 "ko": "안내인은 우물 근처에서 잠깐 낙타를 타 보자고 했어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The guide",
+                "ko": "안내인은"
+              },
+              {
+                "en": "offered",
+                "ko": "제안했어요"
+              },
+              {
+                "en": "a short camel ride",
+                "ko": "잠깐 낙타를 타 보자고"
+              },
+              {
+                "en": "near the well.",
+                "ko": "우물 근처에서."
+              }
             ]
           }
         },
@@ -637,6 +1189,24 @@
               {
                 "en": "The visitor came back before dark with a story to tell.",
                 "ko": "손님은 들려줄 이야기를 안고 어두워지기 전에 돌아왔어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The visitor",
+                "ko": "손님은"
+              },
+              {
+                "en": "came back",
+                "ko": "돌아왔어요"
+              },
+              {
+                "en": "before dark",
+                "ko": "어두워지기 전에"
+              },
+              {
+                "en": "with a story to tell.",
+                "ko": "들려줄 이야기를 안고."
               }
             ]
           }
@@ -663,6 +1233,28 @@
                 "en": "We know where the chest is, but we must choose a safe time to go.",
                 "ko": "상자가 있는 곳은 알지만 안전하게 갈 시간을 정해야 해요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We know",
+                "ko": "우리는 알지만"
+              },
+              {
+                "en": "where the chest is,",
+                "ko": "상자가 있는 곳은"
+              },
+              {
+                "en": "but we must choose",
+                "ko": "우리는 정해야 해요"
+              },
+              {
+                "en": "a safe time",
+                "ko": "안전한 시간을"
+              },
+              {
+                "en": "to go.",
+                "ko": "갈."
+              }
             ]
           }
         },
@@ -677,6 +1269,24 @@
                 "en": "The cave is the place where we hid the chest.",
                 "ko": "동굴은 우리가 상자를 숨긴 장소예요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The cave",
+                "ko": "동굴은"
+              },
+              {
+                "en": "is the place",
+                "ko": "장소예요"
+              },
+              {
+                "en": "where",
+                "ko": "~한"
+              },
+              {
+                "en": "we hid the chest.",
+                "ko": "우리가 상자를 숨긴."
+              }
             ]
           }
         },
@@ -690,6 +1300,20 @@
               {
                 "en": "No one may enter until the tide goes out.",
                 "ko": "썰물이 될 때까지 아무도 들어가면 안 돼요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "No one",
+                "ko": "아무도"
+              },
+              {
+                "en": "may enter",
+                "ko": "들어가면 안 돼요"
+              },
+              {
+                "en": "until the tide goes out.",
+                "ko": "썰물이 될 때까지."
               }
             ]
           }
@@ -716,6 +1340,24 @@
                 "en": "We waited until the water had left the mouth of the cave.",
                 "ko": "동굴 입구의 물이 빠질 때까지 기다렸어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We waited",
+                "ko": "우리는 기다렸어요"
+              },
+              {
+                "en": "until the water",
+                "ko": "물이"
+              },
+              {
+                "en": "had left",
+                "ko": "빠질 때까지"
+              },
+              {
+                "en": "the mouth of the cave.",
+                "ko": "동굴 입구에서."
+              }
             ]
           }
         },
@@ -729,6 +1371,28 @@
               {
                 "en": "The harbor keeper brought the chest back before the tide returned.",
                 "ko": "항구 관리인은 물이 다시 차오르기 전에 상자를 가져왔어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The harbor keeper",
+                "ko": "항구 관리인은"
+              },
+              {
+                "en": "brought",
+                "ko": "가져왔어요"
+              },
+              {
+                "en": "the chest",
+                "ko": "상자를"
+              },
+              {
+                "en": "back",
+                "ko": "다시"
+              },
+              {
+                "en": "before the tide returned.",
+                "ko": "물이 다시 차오르기 전에."
               }
             ]
           }
@@ -755,6 +1419,28 @@
                 "en": "The request names two records, but only one can still be read.",
                 "ko": "의뢰서에는 기록 두 가지가 나오지만 지금 읽을 수 있는 것은 하나뿐이에요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The request",
+                "ko": "의뢰서에는"
+              },
+              {
+                "en": "names",
+                "ko": "나와요"
+              },
+              {
+                "en": "two records,",
+                "ko": "기록 두 가지가"
+              },
+              {
+                "en": "but only one",
+                "ko": "하지만 하나뿐이에요"
+              },
+              {
+                "en": "can still be read.",
+                "ko": "지금 읽을 수 있는 것은."
+              }
             ]
           }
         },
@@ -769,6 +1455,24 @@
                 "en": "Written on stone, the message lasted for centuries.",
                 "ko": "돌에 새겨진 메시지는 수 세기 동안 남았어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Written on stone,",
+                "ko": "돌에 새겨진"
+              },
+              {
+                "en": "the message",
+                "ko": "메시지는"
+              },
+              {
+                "en": "lasted",
+                "ko": "남았어요"
+              },
+              {
+                "en": "for centuries.",
+                "ko": "수 세기 동안."
+              }
             ]
           }
         },
@@ -782,6 +1486,16 @@
               {
                 "en": "The paper copy was destroyed.",
                 "ko": "종이 사본은 파괴되었어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The paper copy",
+                "ko": "종이 사본은"
+              },
+              {
+                "en": "was destroyed.",
+                "ko": "파괴되었어요."
               }
             ]
           }
@@ -808,6 +1522,24 @@
                 "en": "We copied the stone text without adding any letters.",
                 "ko": "글자를 보태지 않고 돌에 새긴 글을 옮겨 적었어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We copied",
+                "ko": "우리는 옮겨 적었어요"
+              },
+              {
+                "en": "the stone text",
+                "ko": "돌에 새긴 글을"
+              },
+              {
+                "en": "without adding",
+                "ko": "보태지 않고"
+              },
+              {
+                "en": "any letters.",
+                "ko": "글자를."
+              }
             ]
           }
         },
@@ -821,6 +1553,24 @@
               {
                 "en": "The damaged paper is mentioned separately in the catalog.",
                 "ko": "훼손된 종이 기록은 목록에 따로 적어 두었어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The damaged paper",
+                "ko": "훼손된 종이 기록은"
+              },
+              {
+                "en": "is mentioned",
+                "ko": "적혀 있어요"
+              },
+              {
+                "en": "separately",
+                "ko": "따로"
+              },
+              {
+                "en": "in the catalog.",
+                "ko": "목록에."
               }
             ]
           }
@@ -847,6 +1597,28 @@
                 "en": "My friend lives far away, and I do not know when she can visit.",
                 "ko": "친구는 먼 곳에 살아서 언제 찾아올 수 있을지 몰라요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "My friend",
+                "ko": "친구는"
+              },
+              {
+                "en": "lives",
+                "ko": "살아서"
+              },
+              {
+                "en": "far away,",
+                "ko": "먼 곳에"
+              },
+              {
+                "en": "and I do not know",
+                "ko": "저는 몰라요"
+              },
+              {
+                "en": "when she can visit.",
+                "ko": "언제 찾아올 수 있을지."
+              }
             ]
           }
         },
@@ -861,6 +1633,24 @@
                 "en": "I wish my friend could visit me.",
                 "ko": "친구가 나를 방문할 수 있으면 좋겠어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I wish",
+                "ko": "저는 바라요"
+              },
+              {
+                "en": "my friend",
+                "ko": "친구가"
+              },
+              {
+                "en": "could visit",
+                "ko": "방문할 수 있기를"
+              },
+              {
+                "en": "me.",
+                "ko": "저를."
+              }
             ]
           }
         },
@@ -874,6 +1664,20 @@
               {
                 "en": "We can send her a letter.",
                 "ko": "그녀에게 편지를 보낼 수 있어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We can send",
+                "ko": "우리는 보낼 수 있어요"
+              },
+              {
+                "en": "her",
+                "ko": "그녀에게"
+              },
+              {
+                "en": "a letter.",
+                "ko": "편지를."
               }
             ]
           }
@@ -900,6 +1704,24 @@
                 "en": "We sent a letter instead of waiting without news.",
                 "ko": "소식 없이 기다리는 대신 편지를 보냈어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We sent",
+                "ko": "우리는 보냈어요"
+              },
+              {
+                "en": "a letter",
+                "ko": "편지를"
+              },
+              {
+                "en": "instead of waiting",
+                "ko": "기다리는 대신"
+              },
+              {
+                "en": "without news.",
+                "ko": "소식 없이."
+              }
             ]
           }
         },
@@ -913,6 +1735,20 @@
               {
                 "en": "I will leave space in the next letter for her answer.",
                 "ko": "다음 편지에는 친구가 답을 써 줄 자리를 남겨 둘 거예요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I will leave space",
+                "ko": "저는 자리를 남겨 둘 거예요"
+              },
+              {
+                "en": "in the next letter",
+                "ko": "다음 편지에는"
+              },
+              {
+                "en": "for her answer.",
+                "ko": "친구의 답을 위해."
               }
             ]
           }
@@ -939,6 +1775,32 @@
                 "en": "The timekeeper recorded the runners in pairs. Can you work out the order?",
                 "ko": "기록원이 주자들을 두 명씩 비교해 적었어요. 순서를 알아낼 수 있나요?"
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The timekeeper",
+                "ko": "기록원이"
+              },
+              {
+                "en": "recorded",
+                "ko": "적었어요"
+              },
+              {
+                "en": "the runners",
+                "ko": "주자들을"
+              },
+              {
+                "en": "in pairs.",
+                "ko": "두 명씩."
+              },
+              {
+                "en": "Can you work out",
+                "ko": "알아낼 수 있나요"
+              },
+              {
+                "en": "the order?",
+                "ko": "순서를?"
+              }
             ]
           }
         },
@@ -953,6 +1815,20 @@
                 "en": "Mia ran faster than Leo.",
                 "ko": "미아는 레오보다 빨리 달렸어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Mia",
+                "ko": "미아는"
+              },
+              {
+                "en": "ran faster",
+                "ko": "빨리 달렸어요"
+              },
+              {
+                "en": "than Leo.",
+                "ko": "레오보다."
+              }
             ]
           }
         },
@@ -966,6 +1842,20 @@
               {
                 "en": "Leo ran faster than Sam.",
                 "ko": "레오는 샘보다 빨리 달렸어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Leo",
+                "ko": "레오는"
+              },
+              {
+                "en": "ran faster",
+                "ko": "빨리 달렸어요"
+              },
+              {
+                "en": "than Sam.",
+                "ko": "샘보다."
               }
             ]
           }
@@ -992,6 +1882,20 @@
                 "en": "Mia finished ahead of both Leo and Sam.",
                 "ko": "미아는 레오와 샘보다 앞서 들어왔어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Mia",
+                "ko": "미아는"
+              },
+              {
+                "en": "finished ahead",
+                "ko": "앞서 들어왔어요"
+              },
+              {
+                "en": "of both Leo and Sam.",
+                "ko": "레오와 샘보다."
+              }
             ]
           }
         },
@@ -1005,6 +1909,20 @@
               {
                 "en": "We posted the comparisons beside the result.",
                 "ko": "결과 옆에 비교 기록도 붙였어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We posted",
+                "ko": "우리는 붙였어요"
+              },
+              {
+                "en": "the comparisons",
+                "ko": "비교 기록도"
+              },
+              {
+                "en": "beside the result.",
+                "ko": "결과 옆에."
               }
             ]
           }
@@ -1031,6 +1949,24 @@
                 "en": "Two scarves were left on the bench after the gift exchange.",
                 "ko": "선물 교환이 끝난 뒤 벤치에 목도리 두 개가 남아 있었어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Two scarves",
+                "ko": "목도리 두 개가"
+              },
+              {
+                "en": "were left",
+                "ko": "남아 있었어요"
+              },
+              {
+                "en": "on the bench",
+                "ko": "벤치에"
+              },
+              {
+                "en": "after the gift exchange.",
+                "ko": "선물 교환이 끝난 뒤."
+              }
             ]
           }
         },
@@ -1045,6 +1981,16 @@
                 "en": "The red scarf is mine.",
                 "ko": "빨간 목도리는 내 것이에요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The red scarf",
+                "ko": "빨간 목도리는"
+              },
+              {
+                "en": "is mine.",
+                "ko": "내 것이에요."
+              }
             ]
           }
         },
@@ -1058,6 +2004,20 @@
               {
                 "en": "The blue scarf belongs to Rain.",
                 "ko": "파란 목도리는 레인의 것이에요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The blue scarf",
+                "ko": "파란 목도리는"
+              },
+              {
+                "en": "belongs to",
+                "ko": "속해요"
+              },
+              {
+                "en": "Rain.",
+                "ko": "레인에게."
               }
             ]
           }
@@ -1084,6 +2044,28 @@
                 "en": "Rain took the blue scarf and left the red one for its owner.",
                 "ko": "레인은 파란 목도리를 가져가고 빨간 것은 주인을 위해 남겨 두었어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Rain took",
+                "ko": "레인은 가져가고"
+              },
+              {
+                "en": "the blue scarf",
+                "ko": "파란 목도리를"
+              },
+              {
+                "en": "and left",
+                "ko": "남겨 두었어요"
+              },
+              {
+                "en": "the red one",
+                "ko": "빨간 것은"
+              },
+              {
+                "en": "for its owner.",
+                "ko": "주인을 위해."
+              }
             ]
           }
         },
@@ -1097,6 +2079,24 @@
               {
                 "en": "I will put a name tag on my scarf next time.",
                 "ko": "다음에는 내 목도리에 이름표를 달 거예요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I will put",
+                "ko": "저는 달 거예요"
+              },
+              {
+                "en": "a name tag",
+                "ko": "이름표를"
+              },
+              {
+                "en": "on my scarf",
+                "ko": "제 목도리에"
+              },
+              {
+                "en": "next time.",
+                "ko": "다음에는."
               }
             ]
           }
@@ -1123,6 +2123,28 @@
                 "en": "The crew is ready to leave, but one route on the harbor chart has closed.",
                 "ko": "선원들은 출항할 준비가 됐지만 항구 해도의 항로 한 곳이 막혔어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The crew",
+                "ko": "선원들은"
+              },
+              {
+                "en": "is ready to leave,",
+                "ko": "출항할 준비가 됐지만"
+              },
+              {
+                "en": "but one route",
+                "ko": "항로 한 곳이"
+              },
+              {
+                "en": "on the harbor chart",
+                "ko": "항구 해도의"
+              },
+              {
+                "en": "has closed.",
+                "ko": "막혔어요."
+              }
             ]
           }
         },
@@ -1137,6 +2159,24 @@
                 "en": "The safe island is east of the harbor.",
                 "ko": "안전한 섬은 항구 동쪽에 있어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The safe island",
+                "ko": "안전한 섬은"
+              },
+              {
+                "en": "is",
+                "ko": "있어요"
+              },
+              {
+                "en": "east",
+                "ko": "동쪽에"
+              },
+              {
+                "en": "of the harbor.",
+                "ko": "항구의."
+              }
             ]
           }
         },
@@ -1150,6 +2190,16 @@
               {
                 "en": "The western route is closed.",
                 "ko": "서쪽 항로는 폐쇄되었어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The western route",
+                "ko": "서쪽 항로는"
+              },
+              {
+                "en": "is closed.",
+                "ko": "폐쇄되었어요."
               }
             ]
           }
@@ -1176,6 +2226,20 @@
                 "en": "We sailed east and stayed away from the closed channel.",
                 "ko": "우리는 동쪽으로 항해하고 막힌 물길에는 접근하지 않았어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We sailed east",
+                "ko": "우리는 동쪽으로 항해하고"
+              },
+              {
+                "en": "and stayed away",
+                "ko": "접근하지 않았어요"
+              },
+              {
+                "en": "from the closed channel.",
+                "ko": "막힌 물길에는."
+              }
             ]
           }
         },
@@ -1189,6 +2253,24 @@
               {
                 "en": "I marked the safe route on the copy for the next crew.",
                 "ko": "다음 선원들을 위해 사본에 안전한 길을 표시했어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I marked",
+                "ko": "저는 표시했어요"
+              },
+              {
+                "en": "the safe route",
+                "ko": "안전한 길을"
+              },
+              {
+                "en": "on the copy",
+                "ko": "사본에"
+              },
+              {
+                "en": "for the next crew.",
+                "ko": "다음 선원들을 위해."
               }
             ]
           }
@@ -1215,6 +2297,28 @@
                 "en": "An apprentice wants to try a job that matches what she enjoys.",
                 "ko": "한 견습생이 자기가 좋아하는 일과 맞는 직업을 체험하고 싶어 해요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "An apprentice",
+                "ko": "한 견습생이"
+              },
+              {
+                "en": "wants to try",
+                "ko": "체험하고 싶어 해요"
+              },
+              {
+                "en": "a job",
+                "ko": "직업을"
+              },
+              {
+                "en": "that matches",
+                "ko": "맞는"
+              },
+              {
+                "en": "what she enjoys.",
+                "ko": "자기가 좋아하는 일과."
+              }
             ]
           }
         },
@@ -1229,6 +2333,16 @@
                 "en": "I enjoy repairing tools.",
                 "ko": "저는 도구 수리를 즐겨요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I enjoy",
+                "ko": "저는 즐겨요"
+              },
+              {
+                "en": "repairing tools.",
+                "ko": "도구 수리를."
+              }
             ]
           }
         },
@@ -1242,6 +2356,16 @@
               {
                 "en": "I want to learn from a mechanic.",
                 "ko": "정비공에게 배우고 싶어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I want to learn",
+                "ko": "저는 배우고 싶어요"
+              },
+              {
+                "en": "from a mechanic.",
+                "ko": "정비공에게."
               }
             ]
           }
@@ -1268,6 +2392,28 @@
                 "en": "The mechanic gave the apprentice a tool to repair.",
                 "ko": "정비공은 견습생에게 수리해 볼 도구를 주었어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The mechanic",
+                "ko": "정비공은"
+              },
+              {
+                "en": "gave",
+                "ko": "주었어요"
+              },
+              {
+                "en": "the apprentice",
+                "ko": "견습생에게"
+              },
+              {
+                "en": "a tool",
+                "ko": "도구를"
+              },
+              {
+                "en": "to repair.",
+                "ko": "수리해 볼."
+              }
             ]
           }
         },
@@ -1281,6 +2427,28 @@
               {
                 "en": "She fixed the handle and asked how to care for it next time.",
                 "ko": "견습생은 손잡이를 고치고 다음에는 어떻게 관리하면 되는지 물었어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "She",
+                "ko": "견습생은"
+              },
+              {
+                "en": "fixed the handle",
+                "ko": "손잡이를 고치고"
+              },
+              {
+                "en": "and asked",
+                "ko": "물었어요"
+              },
+              {
+                "en": "how to care for it",
+                "ko": "어떻게 관리하면 되는지"
+              },
+              {
+                "en": "next time.",
+                "ko": "다음에는."
               }
             ]
           }
@@ -1307,6 +2475,32 @@
                 "en": "Someone heard a sound after dark. Let us find out what moved.",
                 "ko": "누군가 밤에 소리를 들었어요. 무엇이 움직였는지 알아봐요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Someone",
+                "ko": "누군가"
+              },
+              {
+                "en": "heard",
+                "ko": "들었어요"
+              },
+              {
+                "en": "a sound",
+                "ko": "소리를"
+              },
+              {
+                "en": "after dark.",
+                "ko": "밤에."
+              },
+              {
+                "en": "Let us find out",
+                "ko": "알아봐요"
+              },
+              {
+                "en": "what moved.",
+                "ko": "무엇이 움직였는지."
+              }
             ]
           }
         },
@@ -1321,6 +2515,24 @@
                 "en": "I heard a bell ring twice.",
                 "ko": "종이 두 번 울리는 것을 들었어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I heard",
+                "ko": "저는 들었어요"
+              },
+              {
+                "en": "a bell",
+                "ko": "종이"
+              },
+              {
+                "en": "ring",
+                "ko": "울리는 것을"
+              },
+              {
+                "en": "twice.",
+                "ko": "두 번."
+              }
             ]
           }
         },
@@ -1334,6 +2546,24 @@
               {
                 "en": "The wind made the bell move.",
                 "ko": "바람이 종을 움직이게 했어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The wind",
+                "ko": "바람이"
+              },
+              {
+                "en": "made",
+                "ko": "하게 했어요"
+              },
+              {
+                "en": "the bell",
+                "ko": "종을"
+              },
+              {
+                "en": "move.",
+                "ko": "움직이게."
               }
             ]
           }
@@ -1360,6 +2590,24 @@
                 "en": "The wind moved the bell twice.",
                 "ko": "바람이 종을 두 번 움직였어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The wind",
+                "ko": "바람이"
+              },
+              {
+                "en": "moved",
+                "ko": "움직였어요"
+              },
+              {
+                "en": "the bell",
+                "ko": "종을"
+              },
+              {
+                "en": "twice.",
+                "ko": "두 번."
+              }
             ]
           }
         },
@@ -1373,6 +2621,24 @@
               {
                 "en": "I tied the bell a little more firmly before nightfall.",
                 "ko": "어두워지기 전에 종을 조금 더 단단히 묶었어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I tied",
+                "ko": "저는 묶었어요"
+              },
+              {
+                "en": "the bell",
+                "ko": "종을"
+              },
+              {
+                "en": "a little more firmly",
+                "ko": "조금 더 단단히"
+              },
+              {
+                "en": "before nightfall.",
+                "ko": "어두워지기 전에."
               }
             ]
           }
@@ -1399,6 +2665,24 @@
                 "en": "We need to tell the audience when it is their turn to clap.",
                 "ko": "관객들에게 언제 박수를 치면 되는지 알려 줘야 해요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We need to tell",
+                "ko": "우리는 알려 줘야 해요"
+              },
+              {
+                "en": "the audience",
+                "ko": "관객들에게"
+              },
+              {
+                "en": "when it is their turn",
+                "ko": "언제가 그들 차례인지"
+              },
+              {
+                "en": "to clap.",
+                "ko": "박수 칠."
+              }
             ]
           }
         },
@@ -1413,6 +2697,16 @@
                 "en": "Be quiet during the song.",
                 "ko": "노래하는 동안 조용히 하세요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Be quiet",
+                "ko": "조용히 하세요"
+              },
+              {
+                "en": "during the song.",
+                "ko": "노래하는 동안."
+              }
             ]
           }
         },
@@ -1426,6 +2720,16 @@
               {
                 "en": "Clap after the song.",
                 "ko": "노래가 끝난 뒤 박수를 치세요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Clap",
+                "ko": "박수를 치세요"
+              },
+              {
+                "en": "after the song.",
+                "ko": "노래가 끝난 뒤."
               }
             ]
           }
@@ -1452,6 +2756,20 @@
                 "en": "The room stayed quiet until the last note.",
                 "ko": "마지막 음이 끝날 때까지 공연장은 조용했어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The room",
+                "ko": "공연장은"
+              },
+              {
+                "en": "stayed quiet",
+                "ko": "조용했어요"
+              },
+              {
+                "en": "until the last note.",
+                "ko": "마지막 음이 끝날 때까지."
+              }
             ]
           }
         },
@@ -1465,6 +2783,28 @@
               {
                 "en": "Then the audience clapped, and the singers bowed together.",
                 "ko": "그러고 나서 관객들이 박수를 쳤고 가수들은 함께 인사했어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Then",
+                "ko": "그러고 나서"
+              },
+              {
+                "en": "the audience clapped,",
+                "ko": "관객들이 박수를 쳤고"
+              },
+              {
+                "en": "and the singers",
+                "ko": "가수들은"
+              },
+              {
+                "en": "bowed",
+                "ko": "인사했어요"
+              },
+              {
+                "en": "together.",
+                "ko": "함께."
               }
             ]
           }
@@ -1491,6 +2831,28 @@
                 "en": "The note and the witness give different times. Which time did the witness hear?",
                 "ko": "쪽지와 증인이 서로 다른 시각을 말해요. 증인은 몇 시라고 들었나요?"
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The note and the witness",
+                "ko": "쪽지와 증인이"
+              },
+              {
+                "en": "give",
+                "ko": "말해요"
+              },
+              {
+                "en": "different times.",
+                "ko": "서로 다른 시각을."
+              },
+              {
+                "en": "Which time",
+                "ko": "몇 시를"
+              },
+              {
+                "en": "did the witness hear?",
+                "ko": "증인은 들었나요?"
+              }
             ]
           }
         },
@@ -1505,6 +2867,20 @@
                 "en": "She said the meeting was at noon.",
                 "ko": "그녀는 회의가 정오라고 말했어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "She said",
+                "ko": "그녀는 말했어요"
+              },
+              {
+                "en": "the meeting",
+                "ko": "회의가"
+              },
+              {
+                "en": "was at noon.",
+                "ko": "정오라고."
+              }
             ]
           }
         },
@@ -1518,6 +2894,20 @@
               {
                 "en": "The written note says midnight.",
                 "ko": "쪽지에는 자정이라고 적혀 있어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The written note",
+                "ko": "쪽지에는"
+              },
+              {
+                "en": "says",
+                "ko": "적혀 있어요"
+              },
+              {
+                "en": "midnight.",
+                "ko": "자정이라고."
               }
             ]
           }
@@ -1544,6 +2934,28 @@
                 "en": "We entered noon as the reported time and kept the note as evidence.",
                 "ko": "보고된 시각은 정오로 적고 쪽지는 증거로 남겼어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We entered",
+                "ko": "우리는 적었어요"
+              },
+              {
+                "en": "noon",
+                "ko": "정오로"
+              },
+              {
+                "en": "as the reported time",
+                "ko": "보고된 시각으로"
+              },
+              {
+                "en": "and kept the note",
+                "ko": "그리고 쪽지는 남겼어요"
+              },
+              {
+                "en": "as evidence.",
+                "ko": "증거로."
+              }
             ]
           }
         },
@@ -1557,6 +2969,24 @@
               {
                 "en": "The clerk will check who wrote midnight before changing the record.",
                 "ko": "서기는 기록을 고치기 전에 누가 자정이라고 적었는지 확인할 거예요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The clerk",
+                "ko": "서기는"
+              },
+              {
+                "en": "will check",
+                "ko": "확인할 거예요"
+              },
+              {
+                "en": "who wrote midnight",
+                "ko": "누가 자정이라고 적었는지"
+              },
+              {
+                "en": "before changing the record.",
+                "ko": "기록을 고치기 전에."
               }
             ]
           }
@@ -1582,6 +3012,40 @@
               {
                 "en": "One key opened the gate and another opened the chest. Please check the account.",
                 "ko": "열쇠 하나는 성문을 열었고 다른 하나는 상자를 열었어요. 진술을 확인해 주세요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "One key",
+                "ko": "열쇠 하나는"
+              },
+              {
+                "en": "opened",
+                "ko": "열었고"
+              },
+              {
+                "en": "the gate",
+                "ko": "성문을"
+              },
+              {
+                "en": "and another",
+                "ko": "다른 하나는"
+              },
+              {
+                "en": "opened",
+                "ko": "열었어요"
+              },
+              {
+                "en": "the chest.",
+                "ko": "상자를."
+              },
+              {
+                "en": "Please check",
+                "ko": "확인해 주세요"
+              },
+              {
+                "en": "the account.",
+                "ko": "진술을."
               }
             ]
           }
@@ -1611,6 +3075,20 @@
                   }
                 ]
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "It was the silver key",
+                "ko": "바로 은빛 열쇠였어요"
+              },
+              {
+                "en": "that opened",
+                "ko": "연 것은"
+              },
+              {
+                "en": "the gate.",
+                "ko": "문을."
+              }
             ]
           }
         },
@@ -1624,6 +3102,20 @@
               {
                 "en": "The gold key opened the chest.",
                 "ko": "금빛 열쇠는 상자를 열었어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The gold key",
+                "ko": "금빛 열쇠는"
+              },
+              {
+                "en": "opened",
+                "ko": "열었어요"
+              },
+              {
+                "en": "the chest.",
+                "ko": "상자를."
               }
             ]
           }
@@ -1650,6 +3142,20 @@
                 "en": "We returned the silver key to the gatekeeper.",
                 "ko": "은 열쇠는 문지기에게 돌려주었어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We returned",
+                "ko": "우리는 돌려주었어요"
+              },
+              {
+                "en": "the silver key",
+                "ko": "은 열쇠를"
+              },
+              {
+                "en": "to the gatekeeper.",
+                "ko": "문지기에게."
+              }
             ]
           }
         },
@@ -1663,6 +3169,20 @@
               {
                 "en": "The gold key remains with the keeper of the chest.",
                 "ko": "금 열쇠는 상자 관리인이 계속 보관해요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The gold key",
+                "ko": "금 열쇠는"
+              },
+              {
+                "en": "remains",
+                "ko": "남아 있어요"
+              },
+              {
+                "en": "with the keeper of the chest.",
+                "ko": "상자 관리인에게."
               }
             ]
           }

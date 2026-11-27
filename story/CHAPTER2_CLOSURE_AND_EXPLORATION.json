@@ -10,11 +10,55 @@
       "entry": {
         "speaker": "Narrator",
         "en": "The keeper opens a small room for visitors.",
-        "ko": "관리인이 방문객을 위해 작은 방을 열어 준다."
+        "ko": "관리인이 방문객을 위해 작은 방을 열어 준다.",
+        "direct_chunks": [
+          {
+            "en": "The keeper",
+            "ko": "관리인이"
+          },
+          {
+            "en": "opens",
+            "ko": "열어 준다"
+          },
+          {
+            "en": "a small room",
+            "ko": "작은 방을"
+          },
+          {
+            "en": "for visitors.",
+            "ko": "방문객을 위해."
+          }
+        ]
       },
       "evidence": {
         "en": "The bird is above the circle. The tree marks the garden.",
-        "ko": "새는 원 위에 있어요. 나무는 정원을 표시해요."
+        "ko": "새는 원 위에 있어요. 나무는 정원을 표시해요.",
+        "direct_chunks": [
+          {
+            "en": "The bird",
+            "ko": "새는"
+          },
+          {
+            "en": "is above",
+            "ko": "있어요"
+          },
+          {
+            "en": "the circle.",
+            "ko": "원 위에."
+          },
+          {
+            "en": "The tree",
+            "ko": "나무는"
+          },
+          {
+            "en": "marks",
+            "ko": "표시해요"
+          },
+          {
+            "en": "the garden.",
+            "ko": "정원을."
+          }
+        ]
       },
       "task": {
         "question_en": "Which sign marks the shelter?",
@@ -29,7 +73,17 @@
         "id": "relic_guild",
         "en": "Guild Register Copy",
         "ko": "길드 명부 사본",
-        "type": "collection_only"
+        "type": "collection_only",
+        "direct_chunks": [
+          {
+            "en": "Guild Register",
+            "ko": "길드 명부"
+          },
+          {
+            "en": "Copy",
+            "ko": "사본"
+          }
+        ]
       },
       "exit": "return_to_town",
       "fallback": "dialogue evidence panel if no verified map anchor"
@@ -43,11 +97,55 @@
       "entry": {
         "speaker": "Narrator",
         "en": "The keeper opens a small room for visitors.",
-        "ko": "관리인이 방문객을 위해 작은 방을 열어 준다."
+        "ko": "관리인이 방문객을 위해 작은 방을 열어 준다.",
+        "direct_chunks": [
+          {
+            "en": "The keeper",
+            "ko": "관리인이"
+          },
+          {
+            "en": "opens",
+            "ko": "열어 준다"
+          },
+          {
+            "en": "a small room",
+            "ko": "작은 방을"
+          },
+          {
+            "en": "for visitors.",
+            "ko": "방문객을 위해."
+          }
+        ]
       },
       "evidence": {
         "en": "The drawing shows a bell. The shield is shown as its source of metal.",
-        "ko": "그림에는 종이 있어요. 방패는 금속의 출처로 표시돼요."
+        "ko": "그림에는 종이 있어요. 방패는 금속의 출처로 표시돼요.",
+        "direct_chunks": [
+          {
+            "en": "The drawing",
+            "ko": "그림은"
+          },
+          {
+            "en": "shows",
+            "ko": "보여 줘요"
+          },
+          {
+            "en": "a bell.",
+            "ko": "종을."
+          },
+          {
+            "en": "The shield",
+            "ko": "방패는"
+          },
+          {
+            "en": "is shown",
+            "ko": "표시돼요"
+          },
+          {
+            "en": "as its source of metal.",
+            "ko": "금속의 출처로."
+          }
+        ]
       },
       "task": {
         "question_en": "What was made from the shield?",
@@ -62,7 +160,17 @@
         "id": "relic_bell",
         "en": "Bronze Bell Replica",
         "ko": "청동 종 모형",
-        "type": "collection_only"
+        "type": "collection_only",
+        "direct_chunks": [
+          {
+            "en": "Bronze Bell",
+            "ko": "청동 종"
+          },
+          {
+            "en": "Replica",
+            "ko": "모형"
+          }
+        ]
       },
       "exit": "return_to_town",
       "fallback": "dialogue evidence panel if no verified map anchor"
@@ -76,11 +184,55 @@
       "entry": {
         "speaker": "Narrator",
         "en": "The keeper opens a small room for visitors.",
-        "ko": "관리인이 방문객을 위해 작은 방을 열어 준다."
+        "ko": "관리인이 방문객을 위해 작은 방을 열어 준다.",
+        "direct_chunks": [
+          {
+            "en": "The keeper",
+            "ko": "관리인이"
+          },
+          {
+            "en": "opens",
+            "ko": "열어 준다"
+          },
+          {
+            "en": "a small room",
+            "ko": "작은 방을"
+          },
+          {
+            "en": "for visitors.",
+            "ko": "방문객을 위해."
+          }
+        ]
       },
       "evidence": {
         "en": "The chart shows stars and coastal landmarks. The other sheet lists cargo.",
-        "ko": "해도에는 별과 해안 지형이 있어요. 다른 종이에는 화물이 적혀 있어요."
+        "ko": "해도에는 별과 해안 지형이 있어요. 다른 종이에는 화물이 적혀 있어요.",
+        "direct_chunks": [
+          {
+            "en": "The chart",
+            "ko": "해도는"
+          },
+          {
+            "en": "shows",
+            "ko": "보여 줘요"
+          },
+          {
+            "en": "stars and coastal landmarks.",
+            "ko": "별과 해안 지형을."
+          },
+          {
+            "en": "The other sheet",
+            "ko": "다른 종이는"
+          },
+          {
+            "en": "lists",
+            "ko": "적어 놓았어요"
+          },
+          {
+            "en": "cargo.",
+            "ko": "화물을."
+          }
+        ]
       },
       "task": {
         "question_en": "Which sheet helps explain navigation?",
@@ -95,7 +247,17 @@
         "id": "relic_chart",
         "en": "Navigator's Seal Replica",
         "ko": "항해사 인장 모형",
-        "type": "collection_only"
+        "type": "collection_only",
+        "direct_chunks": [
+          {
+            "en": "Navigator's Seal",
+            "ko": "항해사 인장"
+          },
+          {
+            "en": "Replica",
+            "ko": "모형"
+          }
+        ]
       },
       "exit": "return_to_town",
       "fallback": "dialogue evidence panel if no verified map anchor"
@@ -109,11 +271,55 @@
       "entry": {
         "speaker": "Narrator",
         "en": "The keeper invites the party inside.",
-        "ko": "관리인이 모험단을 안으로 초대한다."
+        "ko": "관리인이 모험단을 안으로 초대한다.",
+        "direct_chunks": [
+          {
+            "en": "The keeper",
+            "ko": "관리인이"
+          },
+          {
+            "en": "invites",
+            "ko": "초대한다"
+          },
+          {
+            "en": "the party",
+            "ko": "모험단을"
+          },
+          {
+            "en": "inside.",
+            "ko": "안으로."
+          }
+        ]
       },
       "evidence": {
         "en": "The first copy has a date and a source. The second has neither.",
-        "ko": "첫 사본에는 날짜와 출처가 있어요. 두 번째에는 둘 다 없어요."
+        "ko": "첫 사본에는 날짜와 출처가 있어요. 두 번째에는 둘 다 없어요.",
+        "direct_chunks": [
+          {
+            "en": "The first copy",
+            "ko": "첫 사본에는"
+          },
+          {
+            "en": "has",
+            "ko": "있어요"
+          },
+          {
+            "en": "a date and a source.",
+            "ko": "날짜와 출처가."
+          },
+          {
+            "en": "The second",
+            "ko": "두 번째에는"
+          },
+          {
+            "en": "has",
+            "ko": "있어요"
+          },
+          {
+            "en": "neither.",
+            "ko": "둘 다 없어요."
+          }
+        ]
       },
       "task": {
         "question_en": "Which copy can we trace?",
@@ -142,11 +348,55 @@
       "entry": {
         "speaker": "Narrator",
         "en": "The keeper invites the party inside.",
-        "ko": "관리인이 모험단을 안으로 초대한다."
+        "ko": "관리인이 모험단을 안으로 초대한다.",
+        "direct_chunks": [
+          {
+            "en": "The keeper",
+            "ko": "관리인이"
+          },
+          {
+            "en": "invites",
+            "ko": "초대한다"
+          },
+          {
+            "en": "the party",
+            "ko": "모험단을"
+          },
+          {
+            "en": "inside.",
+            "ko": "안으로."
+          }
+        ]
       },
       "evidence": {
         "en": "The crown is made of wood. The actors' names are inside it.",
-        "ko": "왕관은 나무로 만들어졌어요. 안에는 배우들의 이름이 있어요."
+        "ko": "왕관은 나무로 만들어졌어요. 안에는 배우들의 이름이 있어요.",
+        "direct_chunks": [
+          {
+            "en": "The crown",
+            "ko": "왕관은"
+          },
+          {
+            "en": "is made",
+            "ko": "만들어졌어요"
+          },
+          {
+            "en": "of wood.",
+            "ko": "나무로."
+          },
+          {
+            "en": "The actors' names",
+            "ko": "배우들의 이름이"
+          },
+          {
+            "en": "are",
+            "ko": "있어요"
+          },
+          {
+            "en": "inside it.",
+            "ko": "그 안에."
+          }
+        ]
       },
       "task": {
         "question_en": "What is inside the crown?",
@@ -161,7 +411,17 @@
         "id": "relic_stage",
         "en": "Wooden Crown Replica",
         "ko": "나무 왕관 모형",
-        "type": "collection_only"
+        "type": "collection_only",
+        "direct_chunks": [
+          {
+            "en": "Wooden Crown",
+            "ko": "나무 왕관"
+          },
+          {
+            "en": "Replica",
+            "ko": "모형"
+          }
+        ]
       },
       "exit": "return_to_town",
       "fallback": "dialogue evidence panel if no verified map anchor"
@@ -175,11 +435,55 @@
       "entry": {
         "speaker": "Narrator",
         "en": "The keeper invites the party inside.",
-        "ko": "관리인이 모험단을 안으로 초대한다."
+        "ko": "관리인이 모험단을 안으로 초대한다.",
+        "direct_chunks": [
+          {
+            "en": "The keeper",
+            "ko": "관리인이"
+          },
+          {
+            "en": "invites",
+            "ko": "초대한다"
+          },
+          {
+            "en": "the party",
+            "ko": "모험단을"
+          },
+          {
+            "en": "inside.",
+            "ko": "안으로."
+          }
+        ]
       },
       "evidence": {
         "en": "The blue cover belongs to a blank notebook. The brown cover belongs to a finished journal.",
-        "ko": "파란 표지는 빈 공책의 것이고 갈색 표지는 완성된 여행기의 것이에요."
+        "ko": "파란 표지는 빈 공책의 것이고 갈색 표지는 완성된 여행기의 것이에요.",
+        "direct_chunks": [
+          {
+            "en": "The blue cover",
+            "ko": "파란 표지는"
+          },
+          {
+            "en": "belongs to",
+            "ko": "속해요"
+          },
+          {
+            "en": "a blank notebook.",
+            "ko": "빈 공책에"
+          },
+          {
+            "en": "The brown cover",
+            "ko": "갈색 표지는"
+          },
+          {
+            "en": "belongs to",
+            "ko": "속해요"
+          },
+          {
+            "en": "a finished journal.",
+            "ko": "완성된 여행기에."
+          }
+        ]
       },
       "task": {
         "question_en": "Which cover belongs to the finished journal?",
@@ -221,7 +525,33 @@
       "id": "reveal",
       "speaker": "Silentius",
       "en": "I needed the book to be whole. Its power will carry my command.",
-      "ko": "책이 완전해질 필요가 있었다. 그 힘이 내 명령을 전할 것이다."
+      "ko": "책이 완전해질 필요가 있었다. 그 힘이 내 명령을 전할 것이다.",
+      "direct_chunks": [
+        {
+          "en": "I needed",
+          "ko": "나는 필요로 했다"
+        },
+        {
+          "en": "the book",
+          "ko": "책이"
+        },
+        {
+          "en": "to be whole.",
+          "ko": "완전해지는 것을."
+        },
+        {
+          "en": "Its power",
+          "ko": "그 힘이"
+        },
+        {
+          "en": "will carry",
+          "ko": "전할 것이다"
+        },
+        {
+          "en": "my command.",
+          "ko": "내 명령을."
+        }
+      ]
     },
     {
       "id": "answer",
@@ -307,7 +637,25 @@
       "id": "victory",
       "speaker": "Silentius",
       "en": "I thought silence would end every argument.",
-      "ko": "침묵이 모든 다툼을 끝낼 거라 생각했다."
+      "ko": "침묵이 모든 다툼을 끝낼 거라 생각했다.",
+      "direct_chunks": [
+        {
+          "en": "I thought",
+          "ko": "나는 생각했다"
+        },
+        {
+          "en": "silence",
+          "ko": "침묵이"
+        },
+        {
+          "en": "would end",
+          "ko": "끝낼 거라고"
+        },
+        {
+          "en": "every argument.",
+          "ko": "모든 다툼을."
+        }
+      ]
     },
     {
       "id": "victory2",
@@ -329,13 +677,61 @@
       "id": "return",
       "speaker": "Lexion",
       "en": "Leave room in the book for the next reader.",
-      "ko": "다음 독자를 위한 자리를 책에 남겨 두게."
+      "ko": "다음 독자를 위한 자리를 책에 남겨 두게.",
+      "direct_chunks": [
+        {
+          "en": "Leave room",
+          "ko": "자리를 남겨 두게"
+        },
+        {
+          "en": "in the book",
+          "ko": "책에"
+        },
+        {
+          "en": "for the next reader.",
+          "ko": "다음 독자를 위한."
+        }
+      ]
     },
     {
       "id": "end",
       "speaker": "Narrator",
       "en": "The doors of the library opened again. The travelers had a place to return to.",
-      "ko": "도서관의 문이 다시 열렸다. 여행자들에게 돌아갈 곳이 생겼다."
+      "ko": "도서관의 문이 다시 열렸다. 여행자들에게 돌아갈 곳이 생겼다.",
+      "direct_chunks": [
+        {
+          "en": "The doors",
+          "ko": "문이"
+        },
+        {
+          "en": "of the library",
+          "ko": "도서관의"
+        },
+        {
+          "en": "opened",
+          "ko": "열렸다"
+        },
+        {
+          "en": "again.",
+          "ko": "다시."
+        },
+        {
+          "en": "The travelers",
+          "ko": "여행자들에게"
+        },
+        {
+          "en": "had",
+          "ko": "생겼다"
+        },
+        {
+          "en": "a place",
+          "ko": "곳이"
+        },
+        {
+          "en": "to return to.",
+          "ko": "돌아갈."
+        }
+      ]
     }
   ],
   "aftermath": [
@@ -347,6 +743,24 @@
       "requires": [
         "sanctuary_of_silence_cleared",
         "town_recovered"
+      ],
+      "direct_chunks": [
+        {
+          "en": "There is",
+          "ko": "있어요"
+        },
+        {
+          "en": "fresh bread",
+          "ko": "갓 구운 빵이"
+        },
+        {
+          "en": "for anyone",
+          "ko": "누구에게나"
+        },
+        {
+          "en": "who has come a long way.",
+          "ko": "먼 길을 온."
+        }
       ]
     },
     {
@@ -357,6 +771,20 @@
       "requires": [
         "sanctuary_of_silence_cleared",
         "town_recovered"
+      ],
+      "direct_chunks": [
+        {
+          "en": "Tell me",
+          "ko": "저에게 말씀해 주세요"
+        },
+        {
+          "en": "what you would like",
+          "ko": "당신이 원하는 것을"
+        },
+        {
+          "en": "for dinner.",
+          "ko": "저녁으로."
+        }
       ]
     },
     {
@@ -367,6 +795,20 @@
       "requires": [
         "sanctuary_of_silence_cleared",
         "town_recovered"
+      ],
+      "direct_chunks": [
+        {
+          "en": "The clock",
+          "ko": "시계가"
+        },
+        {
+          "en": "is ready",
+          "ko": "준비됐어요"
+        },
+        {
+          "en": "for another day.",
+          "ko": "새로운 하루를 위해."
+        }
       ]
     },
     {
@@ -377,6 +819,16 @@
       "requires": [
         "sanctuary_of_silence_cleared",
         "town_recovered"
+      ],
+      "direct_chunks": [
+        {
+          "en": "We will keep checking",
+          "ko": "우리는 계속 점검할 거예요"
+        },
+        {
+          "en": "the bridge.",
+          "ko": "다리를."
+        }
       ]
     },
     {
@@ -387,6 +839,20 @@
       "requires": [
         "sanctuary_of_silence_cleared",
         "town_recovered"
+      ],
+      "direct_chunks": [
+        {
+          "en": "The paths",
+          "ko": "길들이"
+        },
+        {
+          "en": "are open",
+          "ko": "열려 있어요"
+        },
+        {
+          "en": "for careful travelers.",
+          "ko": "조심하는 여행자들에게."
+        }
       ]
     },
     {
@@ -397,6 +863,20 @@
       "requires": [
         "sanctuary_of_silence_cleared",
         "town_recovered"
+      ],
+      "direct_chunks": [
+        {
+          "en": "Readers",
+          "ko": "독자들은"
+        },
+        {
+          "en": "are welcome",
+          "ko": "환영받아요"
+        },
+        {
+          "en": "at the archive.",
+          "ko": "기록실에서."
+        }
       ]
     },
     {
@@ -407,6 +887,20 @@
       "requires": [
         "sanctuary_of_silence_cleared",
         "town_recovered"
+      ],
+      "direct_chunks": [
+        {
+          "en": "There is room",
+          "ko": "자리가 있어요"
+        },
+        {
+          "en": "for another letter",
+          "ko": "편지 한 통을 더 넣을"
+        },
+        {
+          "en": "in my bag.",
+          "ko": "제 가방에."
+        }
       ]
     },
     {
@@ -417,6 +911,20 @@
       "requires": [
         "sanctuary_of_silence_cleared",
         "town_recovered"
+      ],
+      "direct_chunks": [
+        {
+          "en": "There are still places",
+          "ko": "아직 곳들이 있어요"
+        },
+        {
+          "en": "to add",
+          "ko": "추가할"
+        },
+        {
+          "en": "to our map.",
+          "ko": "우리 지도에."
+        }
       ]
     },
     {
@@ -427,6 +935,20 @@
       "requires": [
         "sanctuary_of_silence_cleared",
         "town_recovered"
+      ],
+      "direct_chunks": [
+        {
+          "en": "We will keep",
+          "ko": "우리는 보관할 거예요"
+        },
+        {
+          "en": "the old records",
+          "ko": "옛 기록을"
+        },
+        {
+          "en": "beside the new ones.",
+          "ko": "새 기록 옆에."
+        }
       ]
     },
     {
@@ -437,6 +959,20 @@
       "requires": [
         "sanctuary_of_silence_cleared",
         "town_recovered"
+      ],
+      "direct_chunks": [
+        {
+          "en": "The birds",
+          "ko": "새들이"
+        },
+        {
+          "en": "are singing",
+          "ko": "노래하고 있어요"
+        },
+        {
+          "en": "again.",
+          "ko": "다시."
+        }
       ]
     },
     {
@@ -447,6 +983,24 @@
       "requires": [
         "sanctuary_of_silence_cleared",
         "town_recovered"
+      ],
+      "direct_chunks": [
+        {
+          "en": "Everyone",
+          "ko": "누구나"
+        },
+        {
+          "en": "can enter",
+          "ko": "참가할 수 있어요"
+        },
+        {
+          "en": "the next race",
+          "ko": "다음 경주에"
+        },
+        {
+          "en": "under the same rules.",
+          "ko": "같은 규칙으로."
+        }
       ]
     },
     {
@@ -457,6 +1011,20 @@
       "requires": [
         "sanctuary_of_silence_cleared",
         "town_recovered"
+      ],
+      "direct_chunks": [
+        {
+          "en": "We are ready",
+          "ko": "우리는 준비됐어요"
+        },
+        {
+          "en": "to help people",
+          "ko": "사람들을 도울"
+        },
+        {
+          "en": "find their things.",
+          "ko": "그들의 물건을 찾도록."
+        }
       ]
     },
     {
@@ -467,6 +1035,20 @@
       "requires": [
         "sanctuary_of_silence_cleared",
         "town_recovered"
+      ],
+      "direct_chunks": [
+        {
+          "en": "The light",
+          "ko": "등불이"
+        },
+        {
+          "en": "is on",
+          "ko": "켜져 있어요"
+        },
+        {
+          "en": "for returning ships.",
+          "ko": "돌아오는 배를 위해."
+        }
       ]
     },
     {
@@ -477,6 +1059,16 @@
       "requires": [
         "sanctuary_of_silence_cleared",
         "town_recovered"
+      ],
+      "direct_chunks": [
+        {
+          "en": "Bring your questions",
+          "ko": "당신의 질문을 가져오세요"
+        },
+        {
+          "en": "to the next lesson.",
+          "ko": "다음 수업에."
+        }
       ]
     },
     {
@@ -487,6 +1079,20 @@
       "requires": [
         "sanctuary_of_silence_cleared",
         "town_recovered"
+      ],
+      "direct_chunks": [
+        {
+          "en": "The bell",
+          "ko": "종이"
+        },
+        {
+          "en": "is ready",
+          "ko": "준비됐어요"
+        },
+        {
+          "en": "for the evening.",
+          "ko": "저녁을 위해."
+        }
       ]
     },
     {
@@ -497,6 +1103,16 @@
       "requires": [
         "sanctuary_of_silence_cleared",
         "town_recovered"
+      ],
+      "direct_chunks": [
+        {
+          "en": "There is always room",
+          "ko": "언제나 자리가 있어요"
+        },
+        {
+          "en": "for a new song.",
+          "ko": "새로운 노래를 위한."
+        }
       ]
     },
     {
@@ -507,6 +1123,20 @@
       "requires": [
         "sanctuary_of_silence_cleared",
         "town_recovered"
+      ],
+      "direct_chunks": [
+        {
+          "en": "I will carry",
+          "ko": "제가 전달할게요"
+        },
+        {
+          "en": "your message",
+          "ko": "당신의 전갈을"
+        },
+        {
+          "en": "carefully.",
+          "ko": "신중하게."
+        }
       ]
     },
     {
@@ -517,6 +1147,20 @@
       "requires": [
         "sanctuary_of_silence_cleared",
         "town_recovered"
+      ],
+      "direct_chunks": [
+        {
+          "en": "Our records",
+          "ko": "우리 기록은"
+        },
+        {
+          "en": "are open",
+          "ko": "공개돼 있어요"
+        },
+        {
+          "en": "to readers.",
+          "ko": "독자들에게."
+        }
       ]
     }
   ],
@@ -527,22 +1171,94 @@
       {
         "speaker": "Ob",
         "en": "The student is safe, but the door has locked behind us.",
-        "ko": "학생은 안전하지만 우리 뒤로 문이 잠겼어."
+        "ko": "학생은 안전하지만 우리 뒤로 문이 잠겼어.",
+        "direct_chunks": [
+          {
+            "en": "The student is safe,",
+            "ko": "학생은 안전하지만"
+          },
+          {
+            "en": "but the door",
+            "ko": "문이"
+          },
+          {
+            "en": "has locked",
+            "ko": "잠겼어"
+          },
+          {
+            "en": "behind us.",
+            "ko": "우리 뒤로."
+          }
+        ]
       },
       {
         "speaker": "Comple",
         "en": "Stay there. We will ask Silver to open it.",
-        "ko": "거기 있어. 실버에게 문을 열어 달라고 할게."
+        "ko": "거기 있어. 실버에게 문을 열어 달라고 할게.",
+        "direct_chunks": [
+          {
+            "en": "Stay",
+            "ko": "있어"
+          },
+          {
+            "en": "there.",
+            "ko": "거기."
+          },
+          {
+            "en": "We will ask",
+            "ko": "우리가 부탁할게"
+          },
+          {
+            "en": "Silver",
+            "ko": "실버에게"
+          },
+          {
+            "en": "to open it.",
+            "ko": "문을 열어 달라고."
+          }
+        ]
       },
       {
         "speaker": "sx_extra_5",
         "en": "This key opens the archive door.",
-        "ko": "이 열쇠가 기록실 문을 열어요."
+        "ko": "이 열쇠가 기록실 문을 열어요.",
+        "direct_chunks": [
+          {
+            "en": "This key",
+            "ko": "이 열쇠가"
+          },
+          {
+            "en": "opens",
+            "ko": "열어요"
+          },
+          {
+            "en": "the archive door.",
+            "ko": "기록실 문을."
+          }
+        ]
       },
       {
         "speaker": "Ob",
         "en": "We are both out now. Thank you.",
-        "ko": "이제 둘 다 나왔어. 고마워."
+        "ko": "이제 둘 다 나왔어. 고마워.",
+        "direct_chunks": [
+          {
+            "en": "We are",
+            "ko": "우리는"
+          },
+          {
+            "en": "both",
+            "ko": "둘 다"
+          },
+          {
+            "en": "out now.",
+            "ko": "이제 나왔어."
+          },
+          {
+            "en": "Thank you.",
+            "ko": "고마워요."
+          }
+        ]
       }
     ],
     "policy": "Narrative-only temporary separation; never remove playable party member or block main progression."

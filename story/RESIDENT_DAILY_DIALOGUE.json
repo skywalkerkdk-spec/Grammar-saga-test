@@ -20,7 +20,21 @@
       },
       "local_topic": {
         "en": "The mill is busy before sunrise.",
-        "ko": "방앗간은 해 뜨기 전부터 바빠요."
+        "ko": "방앗간은 해 뜨기 전부터 바빠요.",
+        "direct_chunks": [
+          {
+            "en": "The mill",
+            "ko": "방앗간은"
+          },
+          {
+            "en": "is busy",
+            "ko": "바빠요"
+          },
+          {
+            "en": "before sunrise.",
+            "ko": "해 뜨기 전부터."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -74,7 +88,21 @@
       },
       "local_topic": {
         "en": "The mill is busy before sunrise.",
-        "ko": "방앗간은 해 뜨기 전부터 바빠요."
+        "ko": "방앗간은 해 뜨기 전부터 바빠요.",
+        "direct_chunks": [
+          {
+            "en": "The mill",
+            "ko": "방앗간은"
+          },
+          {
+            "en": "is busy",
+            "ko": "바빠요"
+          },
+          {
+            "en": "before sunrise.",
+            "ko": "해 뜨기 전부터."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -128,7 +156,21 @@
       },
       "local_topic": {
         "en": "The mill is busy before sunrise.",
-        "ko": "방앗간은 해 뜨기 전부터 바빠요."
+        "ko": "방앗간은 해 뜨기 전부터 바빠요.",
+        "direct_chunks": [
+          {
+            "en": "The mill",
+            "ko": "방앗간은"
+          },
+          {
+            "en": "is busy",
+            "ko": "바빠요"
+          },
+          {
+            "en": "before sunrise.",
+            "ko": "해 뜨기 전부터."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -176,7 +218,21 @@
       },
       "local_topic": {
         "en": "The mill is busy before sunrise.",
-        "ko": "방앗간은 해 뜨기 전부터 바빠요."
+        "ko": "방앗간은 해 뜨기 전부터 바빠요.",
+        "direct_chunks": [
+          {
+            "en": "The mill",
+            "ko": "방앗간은"
+          },
+          {
+            "en": "is busy",
+            "ko": "바빠요"
+          },
+          {
+            "en": "before sunrise.",
+            "ko": "해 뜨기 전부터."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -230,7 +286,21 @@
       },
       "local_topic": {
         "en": "The mill is busy before sunrise.",
-        "ko": "방앗간은 해 뜨기 전부터 바빠요."
+        "ko": "방앗간은 해 뜨기 전부터 바빠요.",
+        "direct_chunks": [
+          {
+            "en": "The mill",
+            "ko": "방앗간은"
+          },
+          {
+            "en": "is busy",
+            "ko": "바빠요"
+          },
+          {
+            "en": "before sunrise.",
+            "ko": "해 뜨기 전부터."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -274,7 +344,21 @@
       },
       "local_topic": {
         "en": "The mill is busy before sunrise.",
-        "ko": "방앗간은 해 뜨기 전부터 바빠요."
+        "ko": "방앗간은 해 뜨기 전부터 바빠요.",
+        "direct_chunks": [
+          {
+            "en": "The mill",
+            "ko": "방앗간은"
+          },
+          {
+            "en": "is busy",
+            "ko": "바빠요"
+          },
+          {
+            "en": "before sunrise.",
+            "ko": "해 뜨기 전부터."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -336,7 +420,21 @@
       },
       "local_topic": {
         "en": "The mill is busy before sunrise.",
-        "ko": "방앗간은 해 뜨기 전부터 바빠요."
+        "ko": "방앗간은 해 뜨기 전부터 바빠요.",
+        "direct_chunks": [
+          {
+            "en": "The mill",
+            "ko": "방앗간은"
+          },
+          {
+            "en": "is busy",
+            "ko": "바빠요"
+          },
+          {
+            "en": "before sunrise.",
+            "ko": "해 뜨기 전부터."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -384,7 +482,21 @@
       },
       "local_topic": {
         "en": "The mill is busy before sunrise.",
-        "ko": "방앗간은 해 뜨기 전부터 바빠요."
+        "ko": "방앗간은 해 뜨기 전부터 바빠요.",
+        "direct_chunks": [
+          {
+            "en": "The mill",
+            "ko": "방앗간은"
+          },
+          {
+            "en": "is busy",
+            "ko": "바빠요"
+          },
+          {
+            "en": "before sunrise.",
+            "ko": "해 뜨기 전부터."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -432,7 +544,21 @@
       },
       "local_topic": {
         "en": "The mill is busy before sunrise.",
-        "ko": "방앗간은 해 뜨기 전부터 바빠요."
+        "ko": "방앗간은 해 뜨기 전부터 바빠요.",
+        "direct_chunks": [
+          {
+            "en": "The mill",
+            "ko": "방앗간은"
+          },
+          {
+            "en": "is busy",
+            "ko": "바빠요"
+          },
+          {
+            "en": "before sunrise.",
+            "ko": "해 뜨기 전부터."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -480,7 +606,21 @@
       },
       "local_topic": {
         "en": "The mill is busy before sunrise.",
-        "ko": "방앗간은 해 뜨기 전부터 바빠요."
+        "ko": "방앗간은 해 뜨기 전부터 바빠요.",
+        "direct_chunks": [
+          {
+            "en": "The mill",
+            "ko": "방앗간은"
+          },
+          {
+            "en": "is busy",
+            "ko": "바빠요"
+          },
+          {
+            "en": "before sunrise.",
+            "ko": "해 뜨기 전부터."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -528,7 +668,21 @@
       },
       "local_topic": {
         "en": "The kitchen smells of fresh soup.",
-        "ko": "주방에서 갓 만든 수프 냄새가 나요."
+        "ko": "주방에서 갓 만든 수프 냄새가 나요.",
+        "direct_chunks": [
+          {
+            "en": "The kitchen",
+            "ko": "주방에서"
+          },
+          {
+            "en": "smells",
+            "ko": "냄새가 나요"
+          },
+          {
+            "en": "of fresh soup.",
+            "ko": "갓 만든 수프의."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -596,7 +750,21 @@
       },
       "local_topic": {
         "en": "The kitchen smells of fresh soup.",
-        "ko": "주방에서 갓 만든 수프 냄새가 나요."
+        "ko": "주방에서 갓 만든 수프 냄새가 나요.",
+        "direct_chunks": [
+          {
+            "en": "The kitchen",
+            "ko": "주방에서"
+          },
+          {
+            "en": "smells",
+            "ko": "냄새가 나요"
+          },
+          {
+            "en": "of fresh soup.",
+            "ko": "갓 만든 수프의."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -650,7 +818,21 @@
       },
       "local_topic": {
         "en": "The kitchen smells of fresh soup.",
-        "ko": "주방에서 갓 만든 수프 냄새가 나요."
+        "ko": "주방에서 갓 만든 수프 냄새가 나요.",
+        "direct_chunks": [
+          {
+            "en": "The kitchen",
+            "ko": "주방에서"
+          },
+          {
+            "en": "smells",
+            "ko": "냄새가 나요"
+          },
+          {
+            "en": "of fresh soup.",
+            "ko": "갓 만든 수프의."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -698,7 +880,21 @@
       },
       "local_topic": {
         "en": "The kitchen smells of fresh soup.",
-        "ko": "주방에서 갓 만든 수프 냄새가 나요."
+        "ko": "주방에서 갓 만든 수프 냄새가 나요.",
+        "direct_chunks": [
+          {
+            "en": "The kitchen",
+            "ko": "주방에서"
+          },
+          {
+            "en": "smells",
+            "ko": "냄새가 나요"
+          },
+          {
+            "en": "of fresh soup.",
+            "ko": "갓 만든 수프의."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -756,7 +952,21 @@
       },
       "local_topic": {
         "en": "The kitchen smells of fresh soup.",
-        "ko": "주방에서 갓 만든 수프 냄새가 나요."
+        "ko": "주방에서 갓 만든 수프 냄새가 나요.",
+        "direct_chunks": [
+          {
+            "en": "The kitchen",
+            "ko": "주방에서"
+          },
+          {
+            "en": "smells",
+            "ko": "냄새가 나요"
+          },
+          {
+            "en": "of fresh soup.",
+            "ko": "갓 만든 수프의."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -814,7 +1024,21 @@
       },
       "local_topic": {
         "en": "The kitchen smells of fresh soup.",
-        "ko": "주방에서 갓 만든 수프 냄새가 나요."
+        "ko": "주방에서 갓 만든 수프 냄새가 나요.",
+        "direct_chunks": [
+          {
+            "en": "The kitchen",
+            "ko": "주방에서"
+          },
+          {
+            "en": "smells",
+            "ko": "냄새가 나요"
+          },
+          {
+            "en": "of fresh soup.",
+            "ko": "갓 만든 수프의."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -872,7 +1096,21 @@
       },
       "local_topic": {
         "en": "The kitchen smells of fresh soup.",
-        "ko": "주방에서 갓 만든 수프 냄새가 나요."
+        "ko": "주방에서 갓 만든 수프 냄새가 나요.",
+        "direct_chunks": [
+          {
+            "en": "The kitchen",
+            "ko": "주방에서"
+          },
+          {
+            "en": "smells",
+            "ko": "냄새가 나요"
+          },
+          {
+            "en": "of fresh soup.",
+            "ko": "갓 만든 수프의."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -916,7 +1154,21 @@
       },
       "local_topic": {
         "en": "The kitchen smells of fresh soup.",
-        "ko": "주방에서 갓 만든 수프 냄새가 나요."
+        "ko": "주방에서 갓 만든 수프 냄새가 나요.",
+        "direct_chunks": [
+          {
+            "en": "The kitchen",
+            "ko": "주방에서"
+          },
+          {
+            "en": "smells",
+            "ko": "냄새가 나요"
+          },
+          {
+            "en": "of fresh soup.",
+            "ko": "갓 만든 수프의."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -970,7 +1222,21 @@
       },
       "local_topic": {
         "en": "The kitchen smells of fresh soup.",
-        "ko": "주방에서 갓 만든 수프 냄새가 나요."
+        "ko": "주방에서 갓 만든 수프 냄새가 나요.",
+        "direct_chunks": [
+          {
+            "en": "The kitchen",
+            "ko": "주방에서"
+          },
+          {
+            "en": "smells",
+            "ko": "냄새가 나요"
+          },
+          {
+            "en": "of fresh soup.",
+            "ko": "갓 만든 수프의."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -1014,7 +1280,21 @@
       },
       "local_topic": {
         "en": "The kitchen smells of fresh soup.",
-        "ko": "주방에서 갓 만든 수프 냄새가 나요."
+        "ko": "주방에서 갓 만든 수프 냄새가 나요.",
+        "direct_chunks": [
+          {
+            "en": "The kitchen",
+            "ko": "주방에서"
+          },
+          {
+            "en": "smells",
+            "ko": "냄새가 나요"
+          },
+          {
+            "en": "of fresh soup.",
+            "ko": "갓 만든 수프의."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -1734,7 +2014,21 @@
       },
       "local_topic": {
         "en": "The river rises after heavy rain.",
-        "ko": "폭우 뒤에는 강물이 불어나요."
+        "ko": "폭우 뒤에는 강물이 불어나요.",
+        "direct_chunks": [
+          {
+            "en": "The river",
+            "ko": "강물이"
+          },
+          {
+            "en": "rises",
+            "ko": "불어나요"
+          },
+          {
+            "en": "after heavy rain.",
+            "ko": "폭우 뒤에는."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -1788,7 +2082,21 @@
       },
       "local_topic": {
         "en": "The river rises after heavy rain.",
-        "ko": "폭우 뒤에는 강물이 불어나요."
+        "ko": "폭우 뒤에는 강물이 불어나요.",
+        "direct_chunks": [
+          {
+            "en": "The river",
+            "ko": "강물이"
+          },
+          {
+            "en": "rises",
+            "ko": "불어나요"
+          },
+          {
+            "en": "after heavy rain.",
+            "ko": "폭우 뒤에는."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -1842,7 +2150,21 @@
       },
       "local_topic": {
         "en": "The river rises after heavy rain.",
-        "ko": "폭우 뒤에는 강물이 불어나요."
+        "ko": "폭우 뒤에는 강물이 불어나요.",
+        "direct_chunks": [
+          {
+            "en": "The river",
+            "ko": "강물이"
+          },
+          {
+            "en": "rises",
+            "ko": "불어나요"
+          },
+          {
+            "en": "after heavy rain.",
+            "ko": "폭우 뒤에는."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -1894,7 +2216,21 @@
       },
       "local_topic": {
         "en": "The river rises after heavy rain.",
-        "ko": "폭우 뒤에는 강물이 불어나요."
+        "ko": "폭우 뒤에는 강물이 불어나요.",
+        "direct_chunks": [
+          {
+            "en": "The river",
+            "ko": "강물이"
+          },
+          {
+            "en": "rises",
+            "ko": "불어나요"
+          },
+          {
+            "en": "after heavy rain.",
+            "ko": "폭우 뒤에는."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -1938,7 +2274,21 @@
       },
       "local_topic": {
         "en": "The river rises after heavy rain.",
-        "ko": "폭우 뒤에는 강물이 불어나요."
+        "ko": "폭우 뒤에는 강물이 불어나요.",
+        "direct_chunks": [
+          {
+            "en": "The river",
+            "ko": "강물이"
+          },
+          {
+            "en": "rises",
+            "ko": "불어나요"
+          },
+          {
+            "en": "after heavy rain.",
+            "ko": "폭우 뒤에는."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -1992,7 +2342,21 @@
       },
       "local_topic": {
         "en": "The river rises after heavy rain.",
-        "ko": "폭우 뒤에는 강물이 불어나요."
+        "ko": "폭우 뒤에는 강물이 불어나요.",
+        "direct_chunks": [
+          {
+            "en": "The river",
+            "ko": "강물이"
+          },
+          {
+            "en": "rises",
+            "ko": "불어나요"
+          },
+          {
+            "en": "after heavy rain.",
+            "ko": "폭우 뒤에는."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -2050,7 +2414,21 @@
       },
       "local_topic": {
         "en": "The river rises after heavy rain.",
-        "ko": "폭우 뒤에는 강물이 불어나요."
+        "ko": "폭우 뒤에는 강물이 불어나요.",
+        "direct_chunks": [
+          {
+            "en": "The river",
+            "ko": "강물이"
+          },
+          {
+            "en": "rises",
+            "ko": "불어나요"
+          },
+          {
+            "en": "after heavy rain.",
+            "ko": "폭우 뒤에는."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -2104,7 +2482,21 @@
       },
       "local_topic": {
         "en": "The river rises after heavy rain.",
-        "ko": "폭우 뒤에는 강물이 불어나요."
+        "ko": "폭우 뒤에는 강물이 불어나요.",
+        "direct_chunks": [
+          {
+            "en": "The river",
+            "ko": "강물이"
+          },
+          {
+            "en": "rises",
+            "ko": "불어나요"
+          },
+          {
+            "en": "after heavy rain.",
+            "ko": "폭우 뒤에는."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -2148,7 +2540,21 @@
       },
       "local_topic": {
         "en": "The river rises after heavy rain.",
-        "ko": "폭우 뒤에는 강물이 불어나요."
+        "ko": "폭우 뒤에는 강물이 불어나요.",
+        "direct_chunks": [
+          {
+            "en": "The river",
+            "ko": "강물이"
+          },
+          {
+            "en": "rises",
+            "ko": "불어나요"
+          },
+          {
+            "en": "after heavy rain.",
+            "ko": "폭우 뒤에는."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -2192,7 +2598,21 @@
       },
       "local_topic": {
         "en": "The river rises after heavy rain.",
-        "ko": "폭우 뒤에는 강물이 불어나요."
+        "ko": "폭우 뒤에는 강물이 불어나요.",
+        "direct_chunks": [
+          {
+            "en": "The river",
+            "ko": "강물이"
+          },
+          {
+            "en": "rises",
+            "ko": "불어나요"
+          },
+          {
+            "en": "after heavy rain.",
+            "ko": "폭우 뒤에는."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -3608,7 +4028,21 @@
       },
       "local_topic": {
         "en": "Travelers rest near the well.",
-        "ko": "여행자들은 우물 근처에서 쉬어요."
+        "ko": "여행자들은 우물 근처에서 쉬어요.",
+        "direct_chunks": [
+          {
+            "en": "Travelers",
+            "ko": "여행자들은"
+          },
+          {
+            "en": "rest",
+            "ko": "쉬어요"
+          },
+          {
+            "en": "near the well.",
+            "ko": "우물 근처에서."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -3662,7 +4096,21 @@
       },
       "local_topic": {
         "en": "Travelers rest near the well.",
-        "ko": "여행자들은 우물 근처에서 쉬어요."
+        "ko": "여행자들은 우물 근처에서 쉬어요.",
+        "direct_chunks": [
+          {
+            "en": "Travelers",
+            "ko": "여행자들은"
+          },
+          {
+            "en": "rest",
+            "ko": "쉬어요"
+          },
+          {
+            "en": "near the well.",
+            "ko": "우물 근처에서."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -3716,7 +4164,21 @@
       },
       "local_topic": {
         "en": "Travelers rest near the well.",
-        "ko": "여행자들은 우물 근처에서 쉬어요."
+        "ko": "여행자들은 우물 근처에서 쉬어요.",
+        "direct_chunks": [
+          {
+            "en": "Travelers",
+            "ko": "여행자들은"
+          },
+          {
+            "en": "rest",
+            "ko": "쉬어요"
+          },
+          {
+            "en": "near the well.",
+            "ko": "우물 근처에서."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -3764,7 +4226,21 @@
       },
       "local_topic": {
         "en": "Travelers rest near the well.",
-        "ko": "여행자들은 우물 근처에서 쉬어요."
+        "ko": "여행자들은 우물 근처에서 쉬어요.",
+        "direct_chunks": [
+          {
+            "en": "Travelers",
+            "ko": "여행자들은"
+          },
+          {
+            "en": "rest",
+            "ko": "쉬어요"
+          },
+          {
+            "en": "near the well.",
+            "ko": "우물 근처에서."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -3808,7 +4284,21 @@
       },
       "local_topic": {
         "en": "Travelers rest near the well.",
-        "ko": "여행자들은 우물 근처에서 쉬어요."
+        "ko": "여행자들은 우물 근처에서 쉬어요.",
+        "direct_chunks": [
+          {
+            "en": "Travelers",
+            "ko": "여행자들은"
+          },
+          {
+            "en": "rest",
+            "ko": "쉬어요"
+          },
+          {
+            "en": "near the well.",
+            "ko": "우물 근처에서."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -3852,7 +4342,21 @@
       },
       "local_topic": {
         "en": "Travelers rest near the well.",
-        "ko": "여행자들은 우물 근처에서 쉬어요."
+        "ko": "여행자들은 우물 근처에서 쉬어요.",
+        "direct_chunks": [
+          {
+            "en": "Travelers",
+            "ko": "여행자들은"
+          },
+          {
+            "en": "rest",
+            "ko": "쉬어요"
+          },
+          {
+            "en": "near the well.",
+            "ko": "우물 근처에서."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -3920,7 +4424,21 @@
       },
       "local_topic": {
         "en": "Travelers rest near the well.",
-        "ko": "여행자들은 우물 근처에서 쉬어요."
+        "ko": "여행자들은 우물 근처에서 쉬어요.",
+        "direct_chunks": [
+          {
+            "en": "Travelers",
+            "ko": "여행자들은"
+          },
+          {
+            "en": "rest",
+            "ko": "쉬어요"
+          },
+          {
+            "en": "near the well.",
+            "ko": "우물 근처에서."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -3964,7 +4482,21 @@
       },
       "local_topic": {
         "en": "Travelers rest near the well.",
-        "ko": "여행자들은 우물 근처에서 쉬어요."
+        "ko": "여행자들은 우물 근처에서 쉬어요.",
+        "direct_chunks": [
+          {
+            "en": "Travelers",
+            "ko": "여행자들은"
+          },
+          {
+            "en": "rest",
+            "ko": "쉬어요"
+          },
+          {
+            "en": "near the well.",
+            "ko": "우물 근처에서."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -4018,7 +4550,21 @@
       },
       "local_topic": {
         "en": "Travelers rest near the well.",
-        "ko": "여행자들은 우물 근처에서 쉬어요."
+        "ko": "여행자들은 우물 근처에서 쉬어요.",
+        "direct_chunks": [
+          {
+            "en": "Travelers",
+            "ko": "여행자들은"
+          },
+          {
+            "en": "rest",
+            "ko": "쉬어요"
+          },
+          {
+            "en": "near the well.",
+            "ko": "우물 근처에서."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -4062,7 +4608,21 @@
       },
       "local_topic": {
         "en": "Travelers rest near the well.",
-        "ko": "여행자들은 우물 근처에서 쉬어요."
+        "ko": "여행자들은 우물 근처에서 쉬어요.",
+        "direct_chunks": [
+          {
+            "en": "Travelers",
+            "ko": "여행자들은"
+          },
+          {
+            "en": "rest",
+            "ko": "쉬어요"
+          },
+          {
+            "en": "near the well.",
+            "ko": "우물 근처에서."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -4754,7 +5314,21 @@
       },
       "local_topic": {
         "en": "Old inscriptions are easy to damage.",
-        "ko": "옛 비문은 쉽게 손상돼요."
+        "ko": "옛 비문은 쉽게 손상돼요.",
+        "direct_chunks": [
+          {
+            "en": "Old inscriptions",
+            "ko": "옛 비문은"
+          },
+          {
+            "en": "are easy",
+            "ko": "쉬워요"
+          },
+          {
+            "en": "to damage.",
+            "ko": "손상되기."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -4808,7 +5382,21 @@
       },
       "local_topic": {
         "en": "Old inscriptions are easy to damage.",
-        "ko": "옛 비문은 쉽게 손상돼요."
+        "ko": "옛 비문은 쉽게 손상돼요.",
+        "direct_chunks": [
+          {
+            "en": "Old inscriptions",
+            "ko": "옛 비문은"
+          },
+          {
+            "en": "are easy",
+            "ko": "쉬워요"
+          },
+          {
+            "en": "to damage.",
+            "ko": "손상되기."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -4862,7 +5450,21 @@
       },
       "local_topic": {
         "en": "Old inscriptions are easy to damage.",
-        "ko": "옛 비문은 쉽게 손상돼요."
+        "ko": "옛 비문은 쉽게 손상돼요.",
+        "direct_chunks": [
+          {
+            "en": "Old inscriptions",
+            "ko": "옛 비문은"
+          },
+          {
+            "en": "are easy",
+            "ko": "쉬워요"
+          },
+          {
+            "en": "to damage.",
+            "ko": "손상되기."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -4910,7 +5512,21 @@
       },
       "local_topic": {
         "en": "Old inscriptions are easy to damage.",
-        "ko": "옛 비문은 쉽게 손상돼요."
+        "ko": "옛 비문은 쉽게 손상돼요.",
+        "direct_chunks": [
+          {
+            "en": "Old inscriptions",
+            "ko": "옛 비문은"
+          },
+          {
+            "en": "are easy",
+            "ko": "쉬워요"
+          },
+          {
+            "en": "to damage.",
+            "ko": "손상되기."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -4968,7 +5584,21 @@
       },
       "local_topic": {
         "en": "Old inscriptions are easy to damage.",
-        "ko": "옛 비문은 쉽게 손상돼요."
+        "ko": "옛 비문은 쉽게 손상돼요.",
+        "direct_chunks": [
+          {
+            "en": "Old inscriptions",
+            "ko": "옛 비문은"
+          },
+          {
+            "en": "are easy",
+            "ko": "쉬워요"
+          },
+          {
+            "en": "to damage.",
+            "ko": "손상되기."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -5012,7 +5642,21 @@
       },
       "local_topic": {
         "en": "Old inscriptions are easy to damage.",
-        "ko": "옛 비문은 쉽게 손상돼요."
+        "ko": "옛 비문은 쉽게 손상돼요.",
+        "direct_chunks": [
+          {
+            "en": "Old inscriptions",
+            "ko": "옛 비문은"
+          },
+          {
+            "en": "are easy",
+            "ko": "쉬워요"
+          },
+          {
+            "en": "to damage.",
+            "ko": "손상되기."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -5084,7 +5728,21 @@
       },
       "local_topic": {
         "en": "Old inscriptions are easy to damage.",
-        "ko": "옛 비문은 쉽게 손상돼요."
+        "ko": "옛 비문은 쉽게 손상돼요.",
+        "direct_chunks": [
+          {
+            "en": "Old inscriptions",
+            "ko": "옛 비문은"
+          },
+          {
+            "en": "are easy",
+            "ko": "쉬워요"
+          },
+          {
+            "en": "to damage.",
+            "ko": "손상되기."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -5142,7 +5800,21 @@
       },
       "local_topic": {
         "en": "Old inscriptions are easy to damage.",
-        "ko": "옛 비문은 쉽게 손상돼요."
+        "ko": "옛 비문은 쉽게 손상돼요.",
+        "direct_chunks": [
+          {
+            "en": "Old inscriptions",
+            "ko": "옛 비문은"
+          },
+          {
+            "en": "are easy",
+            "ko": "쉬워요"
+          },
+          {
+            "en": "to damage.",
+            "ko": "손상되기."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -5200,7 +5872,21 @@
       },
       "local_topic": {
         "en": "Old inscriptions are easy to damage.",
-        "ko": "옛 비문은 쉽게 손상돼요."
+        "ko": "옛 비문은 쉽게 손상돼요.",
+        "direct_chunks": [
+          {
+            "en": "Old inscriptions",
+            "ko": "옛 비문은"
+          },
+          {
+            "en": "are easy",
+            "ko": "쉬워요"
+          },
+          {
+            "en": "to damage.",
+            "ko": "손상되기."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -5244,7 +5930,21 @@
       },
       "local_topic": {
         "en": "Old inscriptions are easy to damage.",
-        "ko": "옛 비문은 쉽게 손상돼요."
+        "ko": "옛 비문은 쉽게 손상돼요.",
+        "direct_chunks": [
+          {
+            "en": "Old inscriptions",
+            "ko": "옛 비문은"
+          },
+          {
+            "en": "are easy",
+            "ko": "쉬워요"
+          },
+          {
+            "en": "to damage.",
+            "ko": "손상되기."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -5302,7 +6002,21 @@
       },
       "local_topic": {
         "en": "The birds are quiet before dawn.",
-        "ko": "새들은 새벽 전에 조용해요."
+        "ko": "새들은 새벽 전에 조용해요.",
+        "direct_chunks": [
+          {
+            "en": "The birds",
+            "ko": "새들은"
+          },
+          {
+            "en": "are quiet",
+            "ko": "조용해요"
+          },
+          {
+            "en": "before dawn.",
+            "ko": "새벽 전에."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -5366,7 +6080,21 @@
       },
       "local_topic": {
         "en": "The birds are quiet before dawn.",
-        "ko": "새들은 새벽 전에 조용해요."
+        "ko": "새들은 새벽 전에 조용해요.",
+        "direct_chunks": [
+          {
+            "en": "The birds",
+            "ko": "새들은"
+          },
+          {
+            "en": "are quiet",
+            "ko": "조용해요"
+          },
+          {
+            "en": "before dawn.",
+            "ko": "새벽 전에."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -5420,7 +6148,21 @@
       },
       "local_topic": {
         "en": "The birds are quiet before dawn.",
-        "ko": "새들은 새벽 전에 조용해요."
+        "ko": "새들은 새벽 전에 조용해요.",
+        "direct_chunks": [
+          {
+            "en": "The birds",
+            "ko": "새들은"
+          },
+          {
+            "en": "are quiet",
+            "ko": "조용해요"
+          },
+          {
+            "en": "before dawn.",
+            "ko": "새벽 전에."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -5478,7 +6220,21 @@
       },
       "local_topic": {
         "en": "The birds are quiet before dawn.",
-        "ko": "새들은 새벽 전에 조용해요."
+        "ko": "새들은 새벽 전에 조용해요.",
+        "direct_chunks": [
+          {
+            "en": "The birds",
+            "ko": "새들은"
+          },
+          {
+            "en": "are quiet",
+            "ko": "조용해요"
+          },
+          {
+            "en": "before dawn.",
+            "ko": "새벽 전에."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -5550,7 +6306,21 @@
       },
       "local_topic": {
         "en": "The birds are quiet before dawn.",
-        "ko": "새들은 새벽 전에 조용해요."
+        "ko": "새들은 새벽 전에 조용해요.",
+        "direct_chunks": [
+          {
+            "en": "The birds",
+            "ko": "새들은"
+          },
+          {
+            "en": "are quiet",
+            "ko": "조용해요"
+          },
+          {
+            "en": "before dawn.",
+            "ko": "새벽 전에."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -5608,7 +6378,21 @@
       },
       "local_topic": {
         "en": "The birds are quiet before dawn.",
-        "ko": "새들은 새벽 전에 조용해요."
+        "ko": "새들은 새벽 전에 조용해요.",
+        "direct_chunks": [
+          {
+            "en": "The birds",
+            "ko": "새들은"
+          },
+          {
+            "en": "are quiet",
+            "ko": "조용해요"
+          },
+          {
+            "en": "before dawn.",
+            "ko": "새벽 전에."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -5680,7 +6464,21 @@
       },
       "local_topic": {
         "en": "The birds are quiet before dawn.",
-        "ko": "새들은 새벽 전에 조용해요."
+        "ko": "새들은 새벽 전에 조용해요.",
+        "direct_chunks": [
+          {
+            "en": "The birds",
+            "ko": "새들은"
+          },
+          {
+            "en": "are quiet",
+            "ko": "조용해요"
+          },
+          {
+            "en": "before dawn.",
+            "ko": "새벽 전에."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -5724,7 +6522,21 @@
       },
       "local_topic": {
         "en": "The birds are quiet before dawn.",
-        "ko": "새들은 새벽 전에 조용해요."
+        "ko": "새들은 새벽 전에 조용해요.",
+        "direct_chunks": [
+          {
+            "en": "The birds",
+            "ko": "새들은"
+          },
+          {
+            "en": "are quiet",
+            "ko": "조용해요"
+          },
+          {
+            "en": "before dawn.",
+            "ko": "새벽 전에."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -5782,7 +6594,21 @@
       },
       "local_topic": {
         "en": "The birds are quiet before dawn.",
-        "ko": "새들은 새벽 전에 조용해요."
+        "ko": "새들은 새벽 전에 조용해요.",
+        "direct_chunks": [
+          {
+            "en": "The birds",
+            "ko": "새들은"
+          },
+          {
+            "en": "are quiet",
+            "ko": "조용해요"
+          },
+          {
+            "en": "before dawn.",
+            "ko": "새벽 전에."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -5826,7 +6652,21 @@
       },
       "local_topic": {
         "en": "The birds are quiet before dawn.",
-        "ko": "새들은 새벽 전에 조용해요."
+        "ko": "새들은 새벽 전에 조용해요.",
+        "direct_chunks": [
+          {
+            "en": "The birds",
+            "ko": "새들은"
+          },
+          {
+            "en": "are quiet",
+            "ko": "조용해요"
+          },
+          {
+            "en": "before dawn.",
+            "ko": "새벽 전에."
+          }
+        ]
       },
       "condition": "town_recovered",
       "priority": "active quest > conditional aftermath > idle",
@@ -6214,7 +7054,21 @@
       "town": "cp",
       "idle": {
         "en": "Rest is part of training too.",
-        "ko": "휴식도 훈련의 일부예요."
+        "ko": "휴식도 훈련의 일부예요.",
+        "direct_chunks": [
+          {
+            "en": "Rest",
+            "ko": "휴식도"
+          },
+          {
+            "en": "is part",
+            "ko": "일부예요"
+          },
+          {
+            "en": "of training too.",
+            "ko": "훈련의."
+          }
+        ]
       },
       "local_topic": {
         "en": "The race track is open for practice.",

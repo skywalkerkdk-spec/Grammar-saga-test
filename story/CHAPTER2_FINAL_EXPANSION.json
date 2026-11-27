@@ -27,7 +27,21 @@
             {
               "speaker": "Lexion",
               "en": "The records point to a hidden stronghold.",
-              "ko": "기록들이 숨겨진 거점을 가리키고 있네."
+              "ko": "기록들이 숨겨진 거점을 가리키고 있네.",
+              "direct_chunks": [
+                {
+                  "en": "The records",
+                  "ko": "기록들이"
+                },
+                {
+                  "en": "point to",
+                  "ko": "가리키고 있네"
+                },
+                {
+                  "en": "a hidden stronghold.",
+                  "ko": "숨겨진 거점을."
+                }
+              ]
             }
           ]
         },
@@ -37,7 +51,21 @@
             {
               "speaker": "Narrator",
               "en": "The party enters the hidden stronghold.",
-              "ko": "모험단이 숨겨진 거점에 들어간다."
+              "ko": "모험단이 숨겨진 거점에 들어간다.",
+              "direct_chunks": [
+                {
+                  "en": "The party",
+                  "ko": "모험단이"
+                },
+                {
+                  "en": "enters",
+                  "ko": "들어간다"
+                },
+                {
+                  "en": "the hidden stronghold.",
+                  "ko": "숨겨진 거점에."
+                }
+              ]
             }
           ]
         },
@@ -47,12 +75,48 @@
             {
               "speaker": "Verbella",
               "en": "The crates marked with a bird contain the stolen records.",
-              "ko": "새 문양이 있는 상자에는 도난 기록이 들어 있어요."
+              "ko": "새 문양이 있는 상자에는 도난 기록이 들어 있어요.",
+              "direct_chunks": [
+                {
+                  "en": "The crates",
+                  "ko": "상자에는"
+                },
+                {
+                  "en": "marked with a bird",
+                  "ko": "새 문양이 있는"
+                },
+                {
+                  "en": "contain",
+                  "ko": "들어 있어요"
+                },
+                {
+                  "en": "the stolen records.",
+                  "ko": "도난 기록이."
+                }
+              ]
             },
             {
               "speaker": "Ob",
               "en": "The crates marked with a tree contain seeds.",
-              "ko": "나무 문양이 있는 상자에는 씨앗이 들어 있어요."
+              "ko": "나무 문양이 있는 상자에는 씨앗이 들어 있어요.",
+              "direct_chunks": [
+                {
+                  "en": "The crates",
+                  "ko": "상자에는"
+                },
+                {
+                  "en": "marked with a tree",
+                  "ko": "나무 문양이 있는"
+                },
+                {
+                  "en": "contain",
+                  "ko": "들어 있어요"
+                },
+                {
+                  "en": "seeds.",
+                  "ko": "씨앗이."
+                }
+              ]
             }
           ],
           "question_en": "Which crates contain the records?",
@@ -69,7 +133,25 @@
             {
               "speaker": "Raven",
               "en": "You saw through our masks, but the book is already moving toward its destiny.",
-              "ko": "우리의 가면을 꿰뚫어 보았군. 하지만 책은 이미 운명을 향해 움직이고 있다."
+              "ko": "우리의 가면을 꿰뚫어 보았군. 하지만 책은 이미 운명을 향해 움직이고 있다.",
+              "direct_chunks": [
+                {
+                  "en": "You saw through our masks,",
+                  "ko": "너는 우리의 가면을 꿰뚫어 보았군"
+                },
+                {
+                  "en": "but the book",
+                  "ko": "하지만 책은"
+                },
+                {
+                  "en": "is already moving",
+                  "ko": "이미 움직이고 있다"
+                },
+                {
+                  "en": "toward its destiny.",
+                  "ko": "그 운명을 향해."
+                }
+              ]
             }
           ],
           "combat": "proposed optional encounter; no stats supplied"
@@ -80,7 +162,29 @@
             {
               "speaker": "Lexion",
               "en": "Keep this record. It may help us understand the final spell.",
-              "ko": "이 기록을 보관하게. 마지막 주문을 이해하는 데 도움이 될지도 모르네."
+              "ko": "이 기록을 보관하게. 마지막 주문을 이해하는 데 도움이 될지도 모르네.",
+              "direct_chunks": [
+                {
+                  "en": "Keep",
+                  "ko": "보관하게"
+                },
+                {
+                  "en": "this record.",
+                  "ko": "이 기록을."
+                },
+                {
+                  "en": "It may help us",
+                  "ko": "그것이 우리를 도울지도 모르네"
+                },
+                {
+                  "en": "understand",
+                  "ko": "이해하도록"
+                },
+                {
+                  "en": "the final spell.",
+                  "ko": "마지막 주문을."
+                }
+              ]
             }
           ]
         }
@@ -116,7 +220,21 @@
             {
               "speaker": "Lexion",
               "en": "The records point to a hidden stronghold.",
-              "ko": "기록들이 숨겨진 거점을 가리키고 있네."
+              "ko": "기록들이 숨겨진 거점을 가리키고 있네.",
+              "direct_chunks": [
+                {
+                  "en": "The records",
+                  "ko": "기록들이"
+                },
+                {
+                  "en": "point to",
+                  "ko": "가리키고 있네"
+                },
+                {
+                  "en": "a hidden stronghold.",
+                  "ko": "숨겨진 거점을."
+                }
+              ]
             }
           ]
         },
@@ -126,7 +244,21 @@
             {
               "speaker": "Narrator",
               "en": "The party enters the hidden stronghold.",
-              "ko": "모험단이 숨겨진 거점에 들어간다."
+              "ko": "모험단이 숨겨진 거점에 들어간다.",
+              "direct_chunks": [
+                {
+                  "en": "The party",
+                  "ko": "모험단이"
+                },
+                {
+                  "en": "enters",
+                  "ko": "들어간다"
+                },
+                {
+                  "en": "the hidden stronghold.",
+                  "ko": "숨겨진 거점에."
+                }
+              ]
             }
           ]
         },
@@ -136,12 +268,40 @@
             {
               "speaker": "Verbella",
               "en": "The original message says the library is safe.",
-              "ko": "원본 전갈에는 도서관이 안전하다고 적혀 있어요."
+              "ko": "원본 전갈에는 도서관이 안전하다고 적혀 있어요.",
+              "direct_chunks": [
+                {
+                  "en": "The original message",
+                  "ko": "원본 전갈은"
+                },
+                {
+                  "en": "says",
+                  "ko": "말해요"
+                },
+                {
+                  "en": "the library is safe.",
+                  "ko": "도서관이 안전하다고."
+                }
+              ]
             },
             {
               "speaker": "Ob",
               "en": "The echo says the library must close.",
-              "ko": "메아리는 도서관을 폐쇄해야 한다고 말해요."
+              "ko": "메아리는 도서관을 폐쇄해야 한다고 말해요.",
+              "direct_chunks": [
+                {
+                  "en": "The echo",
+                  "ko": "메아리는"
+                },
+                {
+                  "en": "says",
+                  "ko": "말해요"
+                },
+                {
+                  "en": "the library must close.",
+                  "ko": "도서관을 폐쇄해야 한다고."
+                }
+              ]
             }
           ],
           "question_en": "Which message should be trusted?",
@@ -158,7 +318,21 @@
             {
               "speaker": "Mendax",
               "en": "Without my lies, how will you know whom to fear?",
-              "ko": "내 거짓말 없이 누구를 두려워해야 할지 어떻게 알겠느냐?"
+              "ko": "내 거짓말 없이 누구를 두려워해야 할지 어떻게 알겠느냐?",
+              "direct_chunks": [
+                {
+                  "en": "Without my lies,",
+                  "ko": "내 거짓말 없이"
+                },
+                {
+                  "en": "how will you know",
+                  "ko": "너는 어떻게 알겠느냐"
+                },
+                {
+                  "en": "whom to fear?",
+                  "ko": "누구를 두려워할지?"
+                }
+              ]
             }
           ],
           "combat": "proposed optional encounter; no stats supplied"
@@ -169,7 +343,29 @@
             {
               "speaker": "Lexion",
               "en": "Keep this record. It may help us understand the final spell.",
-              "ko": "이 기록을 보관하게. 마지막 주문을 이해하는 데 도움이 될지도 모르네."
+              "ko": "이 기록을 보관하게. 마지막 주문을 이해하는 데 도움이 될지도 모르네.",
+              "direct_chunks": [
+                {
+                  "en": "Keep",
+                  "ko": "보관하게"
+                },
+                {
+                  "en": "this record.",
+                  "ko": "이 기록을."
+                },
+                {
+                  "en": "It may help us",
+                  "ko": "그것이 우리를 도울지도 모르네"
+                },
+                {
+                  "en": "understand",
+                  "ko": "이해하도록"
+                },
+                {
+                  "en": "the final spell.",
+                  "ko": "마지막 주문을."
+                }
+              ]
             }
           ]
         }
@@ -202,7 +398,21 @@
             {
               "speaker": "Lexion",
               "en": "The records point to a hidden stronghold.",
-              "ko": "기록들이 숨겨진 거점을 가리키고 있네."
+              "ko": "기록들이 숨겨진 거점을 가리키고 있네.",
+              "direct_chunks": [
+                {
+                  "en": "The records",
+                  "ko": "기록들이"
+                },
+                {
+                  "en": "point to",
+                  "ko": "가리키고 있네"
+                },
+                {
+                  "en": "a hidden stronghold.",
+                  "ko": "숨겨진 거점을."
+                }
+              ]
             }
           ]
         },
@@ -212,7 +422,21 @@
             {
               "speaker": "Narrator",
               "en": "The party enters the hidden stronghold.",
-              "ko": "모험단이 숨겨진 거점에 들어간다."
+              "ko": "모험단이 숨겨진 거점에 들어간다.",
+              "direct_chunks": [
+                {
+                  "en": "The party",
+                  "ko": "모험단이"
+                },
+                {
+                  "en": "enters",
+                  "ko": "들어간다"
+                },
+                {
+                  "en": "the hidden stronghold.",
+                  "ko": "숨겨진 거점에."
+                }
+              ]
             }
           ]
         },
@@ -222,12 +446,40 @@
             {
               "speaker": "Verbella",
               "en": "The stone record was made before the paper copy.",
-              "ko": "돌 기록은 종이 사본보다 먼저 만들어졌어요."
+              "ko": "돌 기록은 종이 사본보다 먼저 만들어졌어요.",
+              "direct_chunks": [
+                {
+                  "en": "The stone record",
+                  "ko": "돌 기록은"
+                },
+                {
+                  "en": "was made",
+                  "ko": "만들어졌어요"
+                },
+                {
+                  "en": "before the paper copy.",
+                  "ko": "종이 사본보다 먼저."
+                }
+              ]
             },
             {
               "speaker": "Ob",
               "en": "The final line appears only in the new copy.",
-              "ko": "마지막 줄은 새 사본에만 나타나요."
+              "ko": "마지막 줄은 새 사본에만 나타나요.",
+              "direct_chunks": [
+                {
+                  "en": "The final line",
+                  "ko": "마지막 줄은"
+                },
+                {
+                  "en": "appears",
+                  "ko": "나타나요"
+                },
+                {
+                  "en": "only in the new copy.",
+                  "ko": "새 사본에만."
+                }
+              ]
             }
           ],
           "question_en": "Which line needs further verification?",
@@ -244,7 +496,21 @@
             {
               "speaker": "Palim",
               "en": "You can recover the past, but you cannot change what comes next.",
-              "ko": "과거를 되찾을 수는 있어도 다음에 일어날 일을 바꿀 수는 없다."
+              "ko": "과거를 되찾을 수는 있어도 다음에 일어날 일을 바꿀 수는 없다.",
+              "direct_chunks": [
+                {
+                  "en": "You can recover the past,",
+                  "ko": "과거를 되찾을 수는 있어도"
+                },
+                {
+                  "en": "but you cannot change",
+                  "ko": "바꿀 수는 없다"
+                },
+                {
+                  "en": "what comes next.",
+                  "ko": "다음에 일어날 일을."
+                }
+              ]
             }
           ],
           "combat": "proposed optional encounter; no stats supplied"
@@ -255,7 +521,29 @@
             {
               "speaker": "Lexion",
               "en": "Keep this record. It may help us understand the final spell.",
-              "ko": "이 기록을 보관하게. 마지막 주문을 이해하는 데 도움이 될지도 모르네."
+              "ko": "이 기록을 보관하게. 마지막 주문을 이해하는 데 도움이 될지도 모르네.",
+              "direct_chunks": [
+                {
+                  "en": "Keep",
+                  "ko": "보관하게"
+                },
+                {
+                  "en": "this record.",
+                  "ko": "이 기록을."
+                },
+                {
+                  "en": "It may help us",
+                  "ko": "그것이 우리를 도울지도 모르네"
+                },
+                {
+                  "en": "understand",
+                  "ko": "이해하도록"
+                },
+                {
+                  "en": "the final spell.",
+                  "ko": "마지막 주문을."
+                }
+              ]
             }
           ]
         }
@@ -289,7 +577,21 @@
             {
               "speaker": "Lexion",
               "en": "The records point to a hidden stronghold.",
-              "ko": "기록들이 숨겨진 거점을 가리키고 있네."
+              "ko": "기록들이 숨겨진 거점을 가리키고 있네.",
+              "direct_chunks": [
+                {
+                  "en": "The records",
+                  "ko": "기록들이"
+                },
+                {
+                  "en": "point to",
+                  "ko": "가리키고 있네"
+                },
+                {
+                  "en": "a hidden stronghold.",
+                  "ko": "숨겨진 거점을."
+                }
+              ]
             }
           ]
         },
@@ -299,7 +601,21 @@
             {
               "speaker": "Narrator",
               "en": "The party enters the hidden stronghold.",
-              "ko": "모험단이 숨겨진 거점에 들어간다."
+              "ko": "모험단이 숨겨진 거점에 들어간다.",
+              "direct_chunks": [
+                {
+                  "en": "The party",
+                  "ko": "모험단이"
+                },
+                {
+                  "en": "enters",
+                  "ko": "들어간다"
+                },
+                {
+                  "en": "the hidden stronghold.",
+                  "ko": "숨겨진 거점에."
+                }
+              ]
             }
           ]
         },
@@ -309,12 +625,40 @@
             {
               "speaker": "Verbella",
               "en": "The bridge belongs to the village.",
-              "ko": "다리는 마을의 것이에요."
+              "ko": "다리는 마을의 것이에요.",
+              "direct_chunks": [
+                {
+                  "en": "The bridge",
+                  "ko": "다리는"
+                },
+                {
+                  "en": "belongs to",
+                  "ko": "속해요"
+                },
+                {
+                  "en": "the village.",
+                  "ko": "마을에."
+                }
+              ]
             },
             {
               "speaker": "Ob",
               "en": "The harbor is open under the master's order.",
-              "ko": "항구 책임자의 명령에 따라 항구는 열려 있어요."
+              "ko": "항구 책임자의 명령에 따라 항구는 열려 있어요.",
+              "direct_chunks": [
+                {
+                  "en": "The harbor",
+                  "ko": "항구는"
+                },
+                {
+                  "en": "is open",
+                  "ko": "열려 있어요"
+                },
+                {
+                  "en": "under the master's order.",
+                  "ko": "항구 책임자의 명령에 따라."
+                }
+              ]
             }
           ],
           "question_en": "Who owns the bridge?",
@@ -331,7 +675,33 @@
             {
               "speaker": "Ferron",
               "en": "My chains were stronger than your swords. Yet your friends broke them.",
-              "ko": "내 사슬은 너희 검보다 강했다. 하지만 너희 친구들이 그것을 끊었군."
+              "ko": "내 사슬은 너희 검보다 강했다. 하지만 너희 친구들이 그것을 끊었군.",
+              "direct_chunks": [
+                {
+                  "en": "My chains",
+                  "ko": "내 사슬은"
+                },
+                {
+                  "en": "were stronger",
+                  "ko": "더 강했다"
+                },
+                {
+                  "en": "than your swords.",
+                  "ko": "너희 검보다."
+                },
+                {
+                  "en": "Yet",
+                  "ko": "하지만"
+                },
+                {
+                  "en": "your friends",
+                  "ko": "너희 친구들이"
+                },
+                {
+                  "en": "broke them.",
+                  "ko": "그것을 끊었군."
+                }
+              ]
             }
           ],
           "combat": "proposed optional encounter; no stats supplied"
@@ -342,7 +712,29 @@
             {
               "speaker": "Lexion",
               "en": "Keep this record. It may help us understand the final spell.",
-              "ko": "이 기록을 보관하게. 마지막 주문을 이해하는 데 도움이 될지도 모르네."
+              "ko": "이 기록을 보관하게. 마지막 주문을 이해하는 데 도움이 될지도 모르네.",
+              "direct_chunks": [
+                {
+                  "en": "Keep",
+                  "ko": "보관하게"
+                },
+                {
+                  "en": "this record.",
+                  "ko": "이 기록을."
+                },
+                {
+                  "en": "It may help us",
+                  "ko": "그것이 우리를 도울지도 모르네"
+                },
+                {
+                  "en": "understand",
+                  "ko": "이해하도록"
+                },
+                {
+                  "en": "the final spell.",
+                  "ko": "마지막 주문을."
+                }
+              ]
             }
           ]
         }
@@ -377,7 +769,21 @@
             {
               "speaker": "Lexion",
               "en": "The records point to a hidden stronghold.",
-              "ko": "기록들이 숨겨진 거점을 가리키고 있네."
+              "ko": "기록들이 숨겨진 거점을 가리키고 있네.",
+              "direct_chunks": [
+                {
+                  "en": "The records",
+                  "ko": "기록들이"
+                },
+                {
+                  "en": "point to",
+                  "ko": "가리키고 있네"
+                },
+                {
+                  "en": "a hidden stronghold.",
+                  "ko": "숨겨진 거점을."
+                }
+              ]
             }
           ]
         },
@@ -387,7 +793,21 @@
             {
               "speaker": "Narrator",
               "en": "The party enters the hidden stronghold.",
-              "ko": "모험단이 숨겨진 거점에 들어간다."
+              "ko": "모험단이 숨겨진 거점에 들어간다.",
+              "direct_chunks": [
+                {
+                  "en": "The party",
+                  "ko": "모험단이"
+                },
+                {
+                  "en": "enters",
+                  "ko": "들어간다"
+                },
+                {
+                  "en": "the hidden stronghold.",
+                  "ko": "숨겨진 거점에."
+                }
+              ]
             }
           ]
         },
@@ -397,12 +817,44 @@
             {
               "speaker": "Verbella",
               "en": "The agreement demands obedience forever.",
-              "ko": "계약서는 영원한 복종을 요구해요."
+              "ko": "계약서는 영원한 복종을 요구해요.",
+              "direct_chunks": [
+                {
+                  "en": "The agreement",
+                  "ko": "계약서는"
+                },
+                {
+                  "en": "demands",
+                  "ko": "요구해요"
+                },
+                {
+                  "en": "obedience",
+                  "ko": "복종을"
+                },
+                {
+                  "en": "forever.",
+                  "ko": "영원히."
+                }
+              ]
             },
             {
               "speaker": "Ob",
               "en": "The council never approved that agreement.",
-              "ko": "의회는 그 계약을 승인한 적이 없어요."
+              "ko": "의회는 그 계약을 승인한 적이 없어요.",
+              "direct_chunks": [
+                {
+                  "en": "The council",
+                  "ko": "의회는"
+                },
+                {
+                  "en": "never approved",
+                  "ko": "승인한 적이 없어요"
+                },
+                {
+                  "en": "that agreement.",
+                  "ko": "그 계약을."
+                }
+              ]
             }
           ],
           "question_en": "What did the council approve?",
@@ -419,7 +871,21 @@
             {
               "speaker": "Absol",
               "en": "You call it freedom. My master calls it chaos.",
-              "ko": "너희는 자유라 부르지만 내 주인은 혼란이라 부른다."
+              "ko": "너희는 자유라 부르지만 내 주인은 혼란이라 부른다.",
+              "direct_chunks": [
+                {
+                  "en": "You call it freedom.",
+                  "ko": "너희는 그것을 자유라 부르지만"
+                },
+                {
+                  "en": "My master",
+                  "ko": "내 주인은"
+                },
+                {
+                  "en": "calls it chaos.",
+                  "ko": "그것을 혼란이라 부른다."
+                }
+              ]
             }
           ],
           "combat": "proposed optional encounter; no stats supplied"
@@ -430,7 +896,29 @@
             {
               "speaker": "Lexion",
               "en": "Keep this record. It may help us understand the final spell.",
-              "ko": "이 기록을 보관하게. 마지막 주문을 이해하는 데 도움이 될지도 모르네."
+              "ko": "이 기록을 보관하게. 마지막 주문을 이해하는 데 도움이 될지도 모르네.",
+              "direct_chunks": [
+                {
+                  "en": "Keep",
+                  "ko": "보관하게"
+                },
+                {
+                  "en": "this record.",
+                  "ko": "이 기록을."
+                },
+                {
+                  "en": "It may help us",
+                  "ko": "그것이 우리를 도울지도 모르네"
+                },
+                {
+                  "en": "understand",
+                  "ko": "이해하도록"
+                },
+                {
+                  "en": "the final spell.",
+                  "ko": "마지막 주문을."
+                }
+              ]
             }
           ]
         }
@@ -458,7 +946,25 @@
             {
               "speaker": "pf_agent",
               "en": "I sent a copy of the letters to someone inside the army.",
-              "ko": "군대 내부의 누군가에게 편지 사본을 보냈어요."
+              "ko": "군대 내부의 누군가에게 편지 사본을 보냈어요.",
+              "direct_chunks": [
+                {
+                  "en": "I sent",
+                  "ko": "저는 보냈어요"
+                },
+                {
+                  "en": "a copy of the letters",
+                  "ko": "편지 사본을"
+                },
+                {
+                  "en": "to someone",
+                  "ko": "누군가에게"
+                },
+                {
+                  "en": "inside the army.",
+                  "ko": "군대 내부의."
+                }
+              ]
             }
           ]
         },
@@ -469,7 +975,21 @@
             {
               "speaker": "rs_extra_6",
               "en": "The reply bears a lantern, not the black seal.",
-              "ko": "답장에는 검은 인장이 아니라 등불 문양이 있어요."
+              "ko": "답장에는 검은 인장이 아니라 등불 문양이 있어요.",
+              "direct_chunks": [
+                {
+                  "en": "The reply",
+                  "ko": "답장에는"
+                },
+                {
+                  "en": "bears a lantern,",
+                  "ko": "등불 문양이 있어요"
+                },
+                {
+                  "en": "not the black seal.",
+                  "ko": "검은 인장이 아니라."
+                }
+              ]
             }
           ]
         },
@@ -480,7 +1000,25 @@
             {
               "speaker": "ot_extra_7",
               "en": "I have been sending the lantern messages. My name is Beam.",
-              "ko": "제가 등불 전갈을 보내 왔어요. 제 이름은 빔이에요."
+              "ko": "제가 등불 전갈을 보내 왔어요. 제 이름은 빔이에요.",
+              "direct_chunks": [
+                {
+                  "en": "I have been sending",
+                  "ko": "제가 보내 왔어요"
+                },
+                {
+                  "en": "the lantern messages.",
+                  "ko": "등불 전갈을."
+                },
+                {
+                  "en": "My name",
+                  "ko": "제 이름은"
+                },
+                {
+                  "en": "is Beam.",
+                  "ko": "빔이에요."
+                }
+              ]
             }
           ]
         },
@@ -491,7 +1029,25 @@
             {
               "speaker": "pf_agent",
               "en": "Beam helped me return the letters without asking for anything.",
-              "ko": "빔은 아무 대가도 요구하지 않고 편지를 돌려주도록 도왔어요."
+              "ko": "빔은 아무 대가도 요구하지 않고 편지를 돌려주도록 도왔어요.",
+              "direct_chunks": [
+                {
+                  "en": "Beam",
+                  "ko": "빔은"
+                },
+                {
+                  "en": "helped me",
+                  "ko": "저를 도왔어요"
+                },
+                {
+                  "en": "return the letters",
+                  "ko": "편지를 돌려주도록"
+                },
+                {
+                  "en": "without asking for anything.",
+                  "ko": "아무것도 요구하지 않고."
+                }
+              ]
             }
           ]
         },
@@ -502,7 +1058,25 @@
             {
               "speaker": "Lexion",
               "en": "We will protect our witness and verify the records separately.",
-              "ko": "증인을 보호하고 기록은 별도로 검증하겠네."
+              "ko": "증인을 보호하고 기록은 별도로 검증하겠네.",
+              "direct_chunks": [
+                {
+                  "en": "We will protect",
+                  "ko": "우리는 보호하겠네"
+                },
+                {
+                  "en": "our witness",
+                  "ko": "우리 증인을"
+                },
+                {
+                  "en": "and verify the records",
+                  "ko": "그리고 기록을 검증하겠네"
+                },
+                {
+                  "en": "separately.",
+                  "ko": "별도로."
+                }
+              ]
             }
           ]
         }
@@ -525,7 +1099,21 @@
             {
               "speaker": "g1_extra_6",
               "en": "We can bake bread for the travelers who carry our news.",
-              "ko": "소식을 전하는 여행자들을 위해 빵을 구울 수 있어요."
+              "ko": "소식을 전하는 여행자들을 위해 빵을 구울 수 있어요.",
+              "direct_chunks": [
+                {
+                  "en": "We can bake bread",
+                  "ko": "우리는 빵을 구울 수 있어요"
+                },
+                {
+                  "en": "for the travelers",
+                  "ko": "여행자들을 위해"
+                },
+                {
+                  "en": "who carry our news.",
+                  "ko": "우리 소식을 전하는."
+                }
+              ]
             }
           ]
         },
@@ -536,7 +1124,21 @@
             {
               "speaker": "md_extra_7",
               "en": "Our bridge is open to every village.",
-              "ko": "우리 다리는 모든 마을에 열려 있어요."
+              "ko": "우리 다리는 모든 마을에 열려 있어요.",
+              "direct_chunks": [
+                {
+                  "en": "Our bridge",
+                  "ko": "우리 다리는"
+                },
+                {
+                  "en": "is open",
+                  "ko": "열려 있어요"
+                },
+                {
+                  "en": "to every village.",
+                  "ko": "모든 마을에."
+                }
+              ]
             }
           ]
         },
@@ -547,7 +1149,21 @@
             {
               "speaker": "ng_extra_6",
               "en": "Let our festival carry a message of hope.",
-              "ko": "우리 축제가 희망의 메시지를 전하게 해요."
+              "ko": "우리 축제가 희망의 메시지를 전하게 해요.",
+              "direct_chunks": [
+                {
+                  "en": "Let our festival",
+                  "ko": "우리 축제가"
+                },
+                {
+                  "en": "carry",
+                  "ko": "전하게 해요"
+                },
+                {
+                  "en": "a message of hope.",
+                  "ko": "희망의 메시지를."
+                }
+              ]
             }
           ]
         },
@@ -558,7 +1174,29 @@
             {
               "speaker": "Lexion",
               "en": "No village must obey another. Let them choose how to help.",
-              "ko": "어느 마을도 다른 마을에 복종할 필요는 없네. 어떻게 도울지 스스로 선택하게 하세."
+              "ko": "어느 마을도 다른 마을에 복종할 필요는 없네. 어떻게 도울지 스스로 선택하게 하세.",
+              "direct_chunks": [
+                {
+                  "en": "No village",
+                  "ko": "어느 마을도"
+                },
+                {
+                  "en": "must obey",
+                  "ko": "복종할 필요는 없네"
+                },
+                {
+                  "en": "another.",
+                  "ko": "다른 마을에."
+                },
+                {
+                  "en": "Let them choose",
+                  "ko": "그들이 선택하게 하세"
+                },
+                {
+                  "en": "how to help.",
+                  "ko": "어떻게 도울지."
+                }
+              ]
             }
           ]
         }
@@ -581,7 +1219,25 @@
             {
               "speaker": "g1_extra_4",
               "en": "The monsters have returned, but the villagers are already safe.",
-              "ko": "괴물들이 돌아왔지만 주민들은 이미 안전해요."
+              "ko": "괴물들이 돌아왔지만 주민들은 이미 안전해요.",
+              "direct_chunks": [
+                {
+                  "en": "The monsters",
+                  "ko": "괴물들이"
+                },
+                {
+                  "en": "have returned,",
+                  "ko": "돌아왔지만"
+                },
+                {
+                  "en": "but the villagers",
+                  "ko": "주민들은"
+                },
+                {
+                  "en": "are already safe.",
+                  "ko": "이미 안전해요."
+                }
+              ]
             }
           ]
         },
@@ -592,7 +1248,21 @@
             {
               "speaker": "md_extra_5",
               "en": "The supplies are waiting on the other side of the river.",
-              "ko": "물자가 강 건너편에서 기다리고 있어요."
+              "ko": "물자가 강 건너편에서 기다리고 있어요.",
+              "direct_chunks": [
+                {
+                  "en": "The supplies",
+                  "ko": "물자가"
+                },
+                {
+                  "en": "are waiting",
+                  "ko": "기다리고 있어요"
+                },
+                {
+                  "en": "on the other side of the river.",
+                  "ko": "강 건너편에서."
+                }
+              ]
             }
           ]
         },
@@ -603,7 +1273,21 @@
             {
               "speaker": "Comple",
               "en": "We can protect the village while the others bring the supplies.",
-              "ko": "다른 사람들이 물자를 가져오는 동안 마을을 지킬 수 있어요."
+              "ko": "다른 사람들이 물자를 가져오는 동안 마을을 지킬 수 있어요.",
+              "direct_chunks": [
+                {
+                  "en": "We can protect the village",
+                  "ko": "우리는 마을을 지킬 수 있어요"
+                },
+                {
+                  "en": "while the others",
+                  "ko": "다른 사람들이"
+                },
+                {
+                  "en": "bring the supplies.",
+                  "ko": "물자를 가져오는 동안."
+                }
+              ]
             }
           ]
         },
@@ -614,7 +1298,25 @@
             {
               "speaker": "g1_extra_1",
               "en": "This time, we faced the danger together.",
-              "ko": "이번에는 함께 위험에 맞섰어요."
+              "ko": "이번에는 함께 위험에 맞섰어요.",
+              "direct_chunks": [
+                {
+                  "en": "This time,",
+                  "ko": "이번에는"
+                },
+                {
+                  "en": "we faced",
+                  "ko": "우리가 맞섰어요"
+                },
+                {
+                  "en": "the danger",
+                  "ko": "위험에"
+                },
+                {
+                  "en": "together.",
+                  "ko": "함께."
+                }
+              ]
             }
           ]
         }
@@ -637,7 +1339,21 @@
             {
               "speaker": "Verbella",
               "en": "A student has disappeared from the open lesson.",
-              "ko": "공개 수업에서 학생 한 명이 사라졌어요."
+              "ko": "공개 수업에서 학생 한 명이 사라졌어요.",
+              "direct_chunks": [
+                {
+                  "en": "A student",
+                  "ko": "학생 한 명이"
+                },
+                {
+                  "en": "has disappeared",
+                  "ko": "사라졌어요"
+                },
+                {
+                  "en": "from the open lesson.",
+                  "ko": "공개 수업에서."
+                }
+              ]
             }
           ]
         },
@@ -648,7 +1364,25 @@
             {
               "speaker": "sx_extra_8",
               "en": "I heard someone asking for help behind the archive door.",
-              "ko": "기록실 문 뒤에서 누군가 도움을 요청하는 것을 들었어요."
+              "ko": "기록실 문 뒤에서 누군가 도움을 요청하는 것을 들었어요.",
+              "direct_chunks": [
+                {
+                  "en": "I heard",
+                  "ko": "저는 들었어요"
+                },
+                {
+                  "en": "someone",
+                  "ko": "누군가가"
+                },
+                {
+                  "en": "asking for help",
+                  "ko": "도움을 요청하는 것을"
+                },
+                {
+                  "en": "behind the archive door.",
+                  "ko": "기록실 문 뒤에서."
+                }
+              ]
             }
           ]
         },
@@ -659,7 +1393,21 @@
             {
               "speaker": "Ob",
               "en": "I will stay with the student until the door is open.",
-              "ko": "문이 열릴 때까지 학생 곁에 있을게요."
+              "ko": "문이 열릴 때까지 학생 곁에 있을게요.",
+              "direct_chunks": [
+                {
+                  "en": "I will stay",
+                  "ko": "저는 있을게요"
+                },
+                {
+                  "en": "with the student",
+                  "ko": "학생 곁에"
+                },
+                {
+                  "en": "until the door is open.",
+                  "ko": "문이 열릴 때까지."
+                }
+              ]
             }
           ]
         },
@@ -670,7 +1418,21 @@
             {
               "speaker": "Comple",
               "en": "We will bring both of you home.",
-              "ko": "두 사람 모두 집으로 데려갈게요."
+              "ko": "두 사람 모두 집으로 데려갈게요.",
+              "direct_chunks": [
+                {
+                  "en": "We will bring",
+                  "ko": "우리가 데려갈게요"
+                },
+                {
+                  "en": "both of you",
+                  "ko": "두 사람 모두"
+                },
+                {
+                  "en": "home.",
+                  "ko": "집으로."
+                }
+              ]
             }
           ]
         },
@@ -681,7 +1443,21 @@
             {
               "speaker": "Verbella",
               "en": "No one should be punished for asking a question.",
-              "ko": "질문했다는 이유로 누구도 벌을 받아서는 안 돼요."
+              "ko": "질문했다는 이유로 누구도 벌을 받아서는 안 돼요.",
+              "direct_chunks": [
+                {
+                  "en": "No one",
+                  "ko": "누구도"
+                },
+                {
+                  "en": "should be punished",
+                  "ko": "벌을 받아서는 안 돼요"
+                },
+                {
+                  "en": "for asking a question.",
+                  "ko": "질문했다는 이유로."
+                }
+              ]
             }
           ]
         }
@@ -704,7 +1480,21 @@
             {
               "speaker": "Indy",
               "en": "I have prepared what we need for the journey.",
-              "ko": "여행에 필요한 것을 준비했어."
+              "ko": "여행에 필요한 것을 준비했어.",
+              "direct_chunks": [
+                {
+                  "en": "I have prepared",
+                  "ko": "나는 준비했어"
+                },
+                {
+                  "en": "what we need",
+                  "ko": "우리가 필요한 것을"
+                },
+                {
+                  "en": "for the journey.",
+                  "ko": "여행을 위해."
+                }
+              ]
             }
           ]
         },
@@ -715,7 +1505,21 @@
             {
               "speaker": "Direct",
               "en": "A gift is worth more when someone needs it.",
-              "ko": "선물은 누군가 필요로 할 때 더 가치 있어."
+              "ko": "선물은 누군가 필요로 할 때 더 가치 있어.",
+              "direct_chunks": [
+                {
+                  "en": "A gift",
+                  "ko": "선물은"
+                },
+                {
+                  "en": "is worth more",
+                  "ko": "더 가치 있어"
+                },
+                {
+                  "en": "when someone needs it.",
+                  "ko": "누군가 그것을 필요로 할 때."
+                }
+              ]
             }
           ]
         },
@@ -726,7 +1530,21 @@
             {
               "speaker": "Modi",
               "en": "Can we come back here after the battle?",
-              "ko": "전투가 끝나면 여기로 돌아올 수 있어?"
+              "ko": "전투가 끝나면 여기로 돌아올 수 있어?",
+              "direct_chunks": [
+                {
+                  "en": "Can we come back",
+                  "ko": "우리 돌아올 수 있어"
+                },
+                {
+                  "en": "here",
+                  "ko": "여기로"
+                },
+                {
+                  "en": "after the battle?",
+                  "ko": "전투가 끝난 뒤에?"
+                }
+              ]
             }
           ]
         },
@@ -737,7 +1555,25 @@
             {
               "speaker": "Verbella",
               "en": "Of course. We have friends here.",
-              "ko": "물론이지. 여기에는 친구들이 있으니까."
+              "ko": "물론이지. 여기에는 친구들이 있으니까.",
+              "direct_chunks": [
+                {
+                  "en": "Of course.",
+                  "ko": "물론이지."
+                },
+                {
+                  "en": "We have",
+                  "ko": "우리에게는 있으니까"
+                },
+                {
+                  "en": "friends",
+                  "ko": "친구들이"
+                },
+                {
+                  "en": "here.",
+                  "ko": "여기에."
+                }
+              ]
             }
           ]
         },
@@ -748,7 +1584,21 @@
             {
               "speaker": "Lexion",
               "en": "Whatever happens, remember why you began.",
-              "ko": "무슨 일이 일어나든 왜 시작했는지 기억하게."
+              "ko": "무슨 일이 일어나든 왜 시작했는지 기억하게.",
+              "direct_chunks": [
+                {
+                  "en": "Whatever happens,",
+                  "ko": "무슨 일이 일어나든"
+                },
+                {
+                  "en": "remember",
+                  "ko": "기억하게"
+                },
+                {
+                  "en": "why you began.",
+                  "ko": "왜 시작했는지."
+                }
+              ]
             }
           ]
         }
@@ -771,7 +1621,21 @@
             {
               "speaker": "Lexion",
               "en": "The book is restored. Our work is not finished.",
-              "ko": "책은 복원되었지만 우리의 일은 끝나지 않았네."
+              "ko": "책은 복원되었지만 우리의 일은 끝나지 않았네.",
+              "direct_chunks": [
+                {
+                  "en": "The book is restored.",
+                  "ko": "책은 복원되었지만"
+                },
+                {
+                  "en": "Our work",
+                  "ko": "우리의 일은"
+                },
+                {
+                  "en": "is not finished.",
+                  "ko": "끝나지 않았네."
+                }
+              ]
             }
           ]
         },
@@ -782,7 +1646,21 @@
             {
               "speaker": "pf_extra_5",
               "en": "The letters have reached their homes.",
-              "ko": "편지들이 주인에게 도착했어요."
+              "ko": "편지들이 주인에게 도착했어요.",
+              "direct_chunks": [
+                {
+                  "en": "The letters",
+                  "ko": "편지들이"
+                },
+                {
+                  "en": "have reached",
+                  "ko": "도착했어요"
+                },
+                {
+                  "en": "their homes.",
+                  "ko": "그들의 집에."
+                }
+              ]
             }
           ]
         },
@@ -793,7 +1671,25 @@
             {
               "speaker": "ng_extra_6",
               "en": "Next year, everyone can bring a new song.",
-              "ko": "내년에는 누구나 새로운 노래를 가져올 수 있어요."
+              "ko": "내년에는 누구나 새로운 노래를 가져올 수 있어요.",
+              "direct_chunks": [
+                {
+                  "en": "Next year,",
+                  "ko": "내년에는"
+                },
+                {
+                  "en": "everyone",
+                  "ko": "누구나"
+                },
+                {
+                  "en": "can bring",
+                  "ko": "가져올 수 있어요"
+                },
+                {
+                  "en": "a new song.",
+                  "ko": "새로운 노래를."
+                }
+              ]
             }
           ]
         },
@@ -804,7 +1700,21 @@
             {
               "speaker": "sx_extra_6",
               "en": "We have opened the archive to new readers.",
-              "ko": "새로운 독자들에게 기록실을 열었어요."
+              "ko": "새로운 독자들에게 기록실을 열었어요.",
+              "direct_chunks": [
+                {
+                  "en": "We have opened",
+                  "ko": "우리는 열었어요"
+                },
+                {
+                  "en": "the archive",
+                  "ko": "기록실을"
+                },
+                {
+                  "en": "to new readers.",
+                  "ko": "새로운 독자들에게."
+                }
+              ]
             }
           ]
         },
@@ -815,7 +1725,17 @@
             {
               "speaker": "Modi",
               "en": "What does that word mean?",
-              "ko": "저 단어는 무슨 뜻이지?"
+              "ko": "저 단어는 무슨 뜻이지?",
+              "direct_chunks": [
+                {
+                  "en": "What",
+                  "ko": "무엇을"
+                },
+                {
+                  "en": "does that word mean?",
+                  "ko": "저 단어는 뜻하지?"
+                }
+              ]
             }
           ]
         },
@@ -826,7 +1746,21 @@
             {
               "speaker": "Narrator",
               "en": "Beyond the sea, an ancient rune began to glow.",
-              "ko": "바다 너머에서 고대 룬 하나가 빛나기 시작했다."
+              "ko": "바다 너머에서 고대 룬 하나가 빛나기 시작했다.",
+              "direct_chunks": [
+                {
+                  "en": "Beyond the sea,",
+                  "ko": "바다 너머에서"
+                },
+                {
+                  "en": "an ancient rune",
+                  "ko": "고대 룬 하나가"
+                },
+                {
+                  "en": "began to glow.",
+                  "ko": "빛나기 시작했다."
+                }
+              ]
             }
           ]
         }

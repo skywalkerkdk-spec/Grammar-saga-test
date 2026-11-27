@@ -19,6 +19,28 @@
                 "en": "Belle thinks Bran sold her flour to another baker.",
                 "ko": "벨은 브랜이 자신의 밀가루를 다른 제빵사에게 팔았다고 생각해요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Belle thinks",
+                "ko": "벨은 생각해요"
+              },
+              {
+                "en": "Bran",
+                "ko": "브랜이"
+              },
+              {
+                "en": "sold",
+                "ko": "팔았다고"
+              },
+              {
+                "en": "her flour",
+                "ko": "자신의 밀가루를"
+              },
+              {
+                "en": "to another baker.",
+                "ko": "다른 제빵사에게."
+              }
             ]
           },
           "requires": []
@@ -72,6 +94,24 @@
               {
                 "en": "My family received a bag yesterday.",
                 "ko": "우리 가족은 어제 한 자루를 받았어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "My family",
+                "ko": "우리 가족은"
+              },
+              {
+                "en": "received",
+                "ko": "받았어요"
+              },
+              {
+                "en": "a bag",
+                "ko": "한 자루를"
+              },
+              {
+                "en": "yesterday.",
+                "ko": "어제."
               }
             ]
           },
@@ -129,6 +169,20 @@
                 "en": "We can bake smaller loaves and share them.",
                 "ko": "작은 빵을 구워 나눌 수 있어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We can bake",
+                "ko": "우리는 구울 수 있어요"
+              },
+              {
+                "en": "smaller loaves",
+                "ko": "더 작은 빵을"
+              },
+              {
+                "en": "and share them.",
+                "ko": "그리고 나눌 수 있어요."
+              }
             ]
           },
           "requires": [
@@ -185,6 +239,20 @@
                 "en": "Next week, we will bake together.",
                 "ko": "다음 주에는 함께 빵을 구울 거예요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Next week,",
+                "ko": "다음 주에는"
+              },
+              {
+                "en": "we will bake",
+                "ko": "우리는 구울 거예요"
+              },
+              {
+                "en": "together.",
+                "ko": "함께."
+              }
             ]
           },
           "requires": [
@@ -228,6 +296,20 @@
               {
                 "en": "Daisy has stopped coming to our inn.",
                 "ko": "데이지가 우리 여관에 오지 않아요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Daisy",
+                "ko": "데이지가"
+              },
+              {
+                "en": "has stopped coming",
+                "ko": "오지 않아요"
+              },
+              {
+                "en": "to our inn.",
+                "ko": "우리 여관에."
               }
             ]
           },
@@ -283,6 +365,24 @@
                 "en": "She always leaves the fish on her plate.",
                 "ko": "그 아이는 항상 접시에 생선을 남겨요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "She",
+                "ko": "그 아이는"
+              },
+              {
+                "en": "always leaves",
+                "ko": "항상 남겨요"
+              },
+              {
+                "en": "the fish",
+                "ko": "생선을"
+              },
+              {
+                "en": "on her plate.",
+                "ko": "접시에."
+              }
             ]
           },
           "requires": [
@@ -300,6 +400,16 @@
               {
                 "en": "We should ask what she can eat.",
                 "ko": "무엇을 먹을 수 있는지 물어봐야겠어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We should ask",
+                "ko": "우리는 물어봐야겠어요"
+              },
+              {
+                "en": "what she can eat.",
+                "ko": "그 아이가 무엇을 먹을 수 있는지."
               }
             ]
           },
@@ -357,6 +467,20 @@
                 "en": "Thank you for asking me first.",
                 "ko": "먼저 물어봐 주셔서 고마워요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Thank you",
+                "ko": "고마워요"
+              },
+              {
+                "en": "for asking me",
+                "ko": "저에게 물어봐 주셔서"
+              },
+              {
+                "en": "first.",
+                "ko": "먼저."
+              }
             ]
           },
           "requires": [
@@ -374,6 +498,24 @@
               {
                 "en": "There will always be a seat for you here.",
                 "ko": "여기에는 언제나 네 자리가 있을 거야."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "There will always be",
+                "ko": "언제나 있을 거야"
+              },
+              {
+                "en": "a seat",
+                "ko": "자리가"
+              },
+              {
+                "en": "for you",
+                "ko": "너를 위한"
+              },
+              {
+                "en": "here.",
+                "ko": "여기에."
               }
             ]
           },
@@ -493,6 +635,20 @@
                 "en": "We need a working clock for the party.",
                 "ko": "파티에는 작동하는 시계가 필요해요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We need",
+                "ko": "우리는 필요해요"
+              },
+              {
+                "en": "a working clock",
+                "ko": "작동하는 시계가"
+              },
+              {
+                "en": "for the party.",
+                "ko": "파티를 위해."
+              }
             ]
           },
           "requires": [
@@ -549,6 +705,24 @@
                 "en": "Your brother sent a letter yesterday.",
                 "ko": "동생이 어제 편지를 보냈어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Your brother",
+                "ko": "동생이"
+              },
+              {
+                "en": "sent",
+                "ko": "보냈어요"
+              },
+              {
+                "en": "a letter",
+                "ko": "편지를"
+              },
+              {
+                "en": "yesterday.",
+                "ko": "어제."
+              }
             ]
           },
           "requires": [
@@ -567,6 +741,24 @@
                 "en": "He will visit us next month.",
                 "ko": "그는 다음 달 우리를 방문할 거예요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "He",
+                "ko": "그는"
+              },
+              {
+                "en": "will visit",
+                "ko": "방문할 거예요"
+              },
+              {
+                "en": "us",
+                "ko": "우리를"
+              },
+              {
+                "en": "next month.",
+                "ko": "다음 달."
+              }
             ]
           },
           "requires": [
@@ -584,6 +776,20 @@
               {
                 "en": "The clock is running again.",
                 "ko": "시계가 다시 움직이고 있어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The clock",
+                "ko": "시계가"
+              },
+              {
+                "en": "is running",
+                "ko": "움직이고 있어요"
+              },
+              {
+                "en": "again.",
+                "ko": "다시."
               }
             ]
           },
@@ -628,6 +834,20 @@
               {
                 "en": "Ferry says we do not need a new bridge.",
                 "ko": "페리는 새 다리가 필요 없다고 해요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Ferry says",
+                "ko": "페리는 말해요"
+              },
+              {
+                "en": "we do not need",
+                "ko": "우리에게 필요 없다고"
+              },
+              {
+                "en": "a new bridge.",
+                "ko": "새 다리가."
               }
             ]
           },
@@ -683,6 +903,24 @@
                 "en": "My grandmother cannot get into the boat easily.",
                 "ko": "할머니는 배에 쉽게 탈 수 없어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "My grandmother",
+                "ko": "할머니는"
+              },
+              {
+                "en": "cannot get into",
+                "ko": "탈 수 없어요"
+              },
+              {
+                "en": "the boat",
+                "ko": "배에"
+              },
+              {
+                "en": "easily.",
+                "ko": "쉽게."
+              }
             ]
           },
           "requires": [
@@ -701,6 +939,20 @@
                 "en": "Then we must build a safer landing place.",
                 "ko": "그렇다면 더 안전한 승선 장소를 만들어야 해요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Then",
+                "ko": "그렇다면"
+              },
+              {
+                "en": "we must build",
+                "ko": "우리는 만들어야 해요"
+              },
+              {
+                "en": "a safer landing place.",
+                "ko": "더 안전한 승선 장소를."
+              }
             ]
           },
           "requires": [
@@ -718,6 +970,20 @@
               {
                 "en": "We can build a ramp before the bridge is ready.",
                 "ko": "다리가 완성되기 전에 경사로를 만들 수 있어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We can build",
+                "ko": "우리는 만들 수 있어요"
+              },
+              {
+                "en": "a ramp",
+                "ko": "경사로를"
+              },
+              {
+                "en": "before the bridge is ready.",
+                "ko": "다리가 완성되기 전에."
               }
             ]
           },
@@ -774,6 +1040,20 @@
               {
                 "en": "We need both the boat and the bridge.",
                 "ko": "배와 다리 모두 필요해요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We need",
+                "ko": "우리는 필요해요"
+              },
+              {
+                "en": "both the boat",
+                "ko": "배와"
+              },
+              {
+                "en": "and the bridge.",
+                "ko": "다리 모두."
               }
             ]
           },
@@ -855,6 +1135,24 @@
                 "en": "That is the tree where birds build their nests.",
                 "ko": "그것은 새들이 둥지를 짓는 나무예요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "That is the tree",
+                "ko": "그것은 나무예요"
+              },
+              {
+                "en": "where birds",
+                "ko": "새들이"
+              },
+              {
+                "en": "build",
+                "ko": "짓는"
+              },
+              {
+                "en": "their nests.",
+                "ko": "둥지를."
+              }
             ]
           },
           "requires": [
@@ -872,6 +1170,20 @@
               {
                 "en": "It is also the tree that my father planted.",
                 "ko": "아빠가 심은 나무이기도 해요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "It is also",
+                "ko": "그것은 이기도 해요"
+              },
+              {
+                "en": "the tree",
+                "ko": "나무"
+              },
+              {
+                "en": "that my father planted.",
+                "ko": "아빠가 심은."
               }
             ]
           },
@@ -929,6 +1241,20 @@
                 "en": "There is another path that we can clear.",
                 "ko": "우리가 정리할 수 있는 다른 길이 있어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "There is",
+                "ko": "있어요"
+              },
+              {
+                "en": "another path",
+                "ko": "다른 길이"
+              },
+              {
+                "en": "that we can clear.",
+                "ko": "우리가 정리할 수 있는."
+              }
             ]
           },
           "requires": [
@@ -985,6 +1311,16 @@
                 "en": "The tree can stay.",
                 "ko": "나무를 그대로 둘 수 있겠어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The tree",
+                "ko": "나무를"
+              },
+              {
+                "en": "can stay.",
+                "ko": "그대로 둘 수 있겠어요."
+              }
             ]
           },
           "requires": [
@@ -1029,6 +1365,20 @@
                 "en": "My boat was damaged last night.",
                 "ko": "어젯밤 내 배가 손상됐어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "My boat",
+                "ko": "내 배가"
+              },
+              {
+                "en": "was damaged",
+                "ko": "손상됐어요"
+              },
+              {
+                "en": "last night.",
+                "ko": "어젯밤."
+              }
             ]
           },
           "requires": []
@@ -1044,6 +1394,20 @@
               {
                 "en": "The rope was cut by a sharp piece of wood.",
                 "ko": "밧줄은 날카로운 나무 조각에 잘렸어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The rope",
+                "ko": "밧줄은"
+              },
+              {
+                "en": "was cut",
+                "ko": "잘렸어요"
+              },
+              {
+                "en": "by a sharp piece of wood.",
+                "ko": "날카로운 나무 조각에."
               }
             ]
           },
@@ -1101,6 +1465,24 @@
                 "en": "So no one damaged it on purpose.",
                 "ko": "그렇다면 아무도 일부러 손상시키지 않았군요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "So",
+                "ko": "그렇다면"
+              },
+              {
+                "en": "no one",
+                "ko": "아무도"
+              },
+              {
+                "en": "damaged it",
+                "ko": "손상시키지 않았군요"
+              },
+              {
+                "en": "on purpose.",
+                "ko": "일부러."
+              }
             ]
           },
           "requires": [
@@ -1119,6 +1501,20 @@
                 "en": "A spare rope was left in my shed.",
                 "ko": "여분의 밧줄이 내 창고에 남겨져 있어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "A spare rope",
+                "ko": "여분의 밧줄이"
+              },
+              {
+                "en": "was left",
+                "ko": "남겨져 있어요"
+              },
+              {
+                "en": "in my shed.",
+                "ko": "내 창고에."
+              }
             ]
           },
           "requires": [
@@ -1136,6 +1532,20 @@
               {
                 "en": "The dock will be repaired this afternoon.",
                 "ko": "부두는 오늘 오후 수리될 거예요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The dock",
+                "ko": "부두는"
+              },
+              {
+                "en": "will be repaired",
+                "ko": "수리될 거예요"
+              },
+              {
+                "en": "this afternoon.",
+                "ko": "오늘 오후."
               }
             ]
           },
@@ -1255,6 +1665,20 @@
                 "en": "Her friend has not returned since the flood.",
                 "ko": "그녀의 친구는 홍수 이후 돌아오지 않았어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Her friend",
+                "ko": "그녀의 친구는"
+              },
+              {
+                "en": "has not returned",
+                "ko": "돌아오지 않았어요"
+              },
+              {
+                "en": "since the flood.",
+                "ko": "홍수 이후."
+              }
             ]
           },
           "requires": [
@@ -1311,6 +1735,20 @@
                 "en": "That flower was our secret sign.",
                 "ko": "그 꽃은 우리의 비밀 표시였어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "That flower",
+                "ko": "그 꽃은"
+              },
+              {
+                "en": "was",
+                "ko": "이었어요"
+              },
+              {
+                "en": "our secret sign.",
+                "ko": "우리의 비밀 표시."
+              }
             ]
           },
           "requires": [
@@ -1328,6 +1766,20 @@
               {
                 "en": "A traveler has just brought a reply.",
                 "ko": "여행자가 방금 답장을 가져왔어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "A traveler",
+                "ko": "여행자가"
+              },
+              {
+                "en": "has just brought",
+                "ko": "방금 가져왔어요"
+              },
+              {
+                "en": "a reply.",
+                "ko": "답장을."
               }
             ]
           },
@@ -1347,6 +1799,20 @@
                 "en": "Your friend has moved to a safer town.",
                 "ko": "친구는 더 안전한 마을로 이사했어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Your friend",
+                "ko": "친구는"
+              },
+              {
+                "en": "has moved",
+                "ko": "이사했어요"
+              },
+              {
+                "en": "to a safer town.",
+                "ko": "더 안전한 마을로."
+              }
             ]
           },
           "requires": [
@@ -1364,6 +1830,24 @@
               {
                 "en": "Now I can write to her again.",
                 "ko": "이제 다시 편지를 쓸 수 있겠어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Now",
+                "ko": "이제"
+              },
+              {
+                "en": "I can write",
+                "ko": "저는 쓸 수 있겠어요"
+              },
+              {
+                "en": "to her",
+                "ko": "그녀에게"
+              },
+              {
+                "en": "again.",
+                "ko": "다시."
               }
             ]
           },
@@ -1445,6 +1929,24 @@
                 "en": "The old map shows a place where the sound cannot reach.",
                 "ko": "옛 지도에는 소리가 닿지 않는 장소가 표시돼 있어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The old map",
+                "ko": "옛 지도에는"
+              },
+              {
+                "en": "shows",
+                "ko": "표시돼 있어요"
+              },
+              {
+                "en": "a place",
+                "ko": "장소가"
+              },
+              {
+                "en": "where the sound cannot reach.",
+                "ko": "소리가 닿지 않는."
+              }
             ]
           },
           "requires": [
@@ -1462,6 +1964,20 @@
               {
                 "en": "That is where my mother works.",
                 "ko": "그곳은 엄마가 일하는 곳이에요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "That is",
+                "ko": "그곳은"
+              },
+              {
+                "en": "where",
+                "ko": "바로 그곳"
+              },
+              {
+                "en": "my mother works.",
+                "ko": "엄마가 일하는."
               }
             ]
           },
@@ -1481,6 +1997,24 @@
                 "en": "Now I know why she misses the bell.",
                 "ko": "왜 종소리를 듣지 못하는지 알겠어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Now",
+                "ko": "이제"
+              },
+              {
+                "en": "I know",
+                "ko": "저는 알겠어요"
+              },
+              {
+                "en": "why she misses",
+                "ko": "왜 그녀가 놓치는지"
+              },
+              {
+                "en": "the bell.",
+                "ko": "종소리를."
+              }
             ]
           },
           "requires": [
@@ -1498,6 +2032,20 @@
               {
                 "en": "We can put a signal flag on the harbor wall.",
                 "ko": "항구 벽에 신호 깃발을 설치할 수 있어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We can put",
+                "ko": "우리는 설치할 수 있어요"
+              },
+              {
+                "en": "a signal flag",
+                "ko": "신호 깃발을"
+              },
+              {
+                "en": "on the harbor wall.",
+                "ko": "항구 벽에."
               }
             ]
           },
@@ -1555,6 +2103,24 @@
                 "en": "Everyone can see the signal now.",
                 "ko": "이제 모두 신호를 볼 수 있어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Everyone",
+                "ko": "모두"
+              },
+              {
+                "en": "can see",
+                "ko": "볼 수 있어요"
+              },
+              {
+                "en": "the signal",
+                "ko": "신호를"
+              },
+              {
+                "en": "now.",
+                "ko": "이제."
+              }
             ]
           },
           "requires": [
@@ -1599,6 +2165,24 @@
                 "en": "Reading the tablet, I found a name I did not know.",
                 "ko": "돌판을 읽다가 모르는 이름을 발견했어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Reading the tablet,",
+                "ko": "돌판을 읽다가"
+              },
+              {
+                "en": "I found",
+                "ko": "저는 발견했어요"
+              },
+              {
+                "en": "a name",
+                "ko": "이름을"
+              },
+              {
+                "en": "I did not know.",
+                "ko": "제가 모르는."
+              }
             ]
           },
           "requires": []
@@ -1614,6 +2198,24 @@
               {
                 "en": "Written in an old style, the name is hard to read.",
                 "ko": "옛 방식으로 쓰여 이름을 읽기 어려워요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Written in an old style,",
+                "ko": "옛 방식으로 쓰여"
+              },
+              {
+                "en": "the name",
+                "ko": "이름은"
+              },
+              {
+                "en": "is hard",
+                "ko": "어려워요"
+              },
+              {
+                "en": "to read.",
+                "ko": "읽기."
               }
             ]
           },
@@ -1633,6 +2235,20 @@
                 "en": "My grandmother has a song with that name.",
                 "ko": "할머니가 그 이름이 나오는 노래를 알아요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "My grandmother",
+                "ko": "할머니가"
+              },
+              {
+                "en": "has a song",
+                "ko": "노래를 알아요"
+              },
+              {
+                "en": "with that name.",
+                "ko": "그 이름이 나오는."
+              }
             ]
           },
           "requires": [
@@ -1650,6 +2266,20 @@
               {
                 "en": "Hearing the song, I recognized the name.",
                 "ko": "노래를 듣고 그 이름을 알아봤어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Hearing the song,",
+                "ko": "노래를 듣고"
+              },
+              {
+                "en": "I recognized",
+                "ko": "저는 알아봤어요"
+              },
+              {
+                "en": "the name.",
+                "ko": "그 이름을."
               }
             ]
           },
@@ -1669,6 +2299,20 @@
                 "en": "It was the name of a guide, not a king.",
                 "ko": "왕이 아니라 안내자의 이름이었어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "It was the name",
+                "ko": "이름이었어요"
+              },
+              {
+                "en": "of a guide,",
+                "ko": "안내자의"
+              },
+              {
+                "en": "not a king.",
+                "ko": "왕이 아니라."
+              }
             ]
           },
           "requires": [
@@ -1687,6 +2331,20 @@
                 "en": "We should record the song beside the tablet.",
                 "ko": "돌판과 함께 노래를 기록해야 해요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We should record",
+                "ko": "우리는 기록해야 해요"
+              },
+              {
+                "en": "the song",
+                "ko": "노래를"
+              },
+              {
+                "en": "beside the tablet.",
+                "ko": "돌판과 함께."
+              }
             ]
           },
           "requires": [
@@ -1704,6 +2362,24 @@
               {
                 "en": "Ordinary people belong in history too.",
                 "ko": "평범한 사람들도 역사의 일부예요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Ordinary people",
+                "ko": "평범한 사람들도"
+              },
+              {
+                "en": "belong",
+                "ko": "속해요"
+              },
+              {
+                "en": "in history",
+                "ko": "역사에"
+              },
+              {
+                "en": "too.",
+                "ko": "역시."
               }
             ]
           },
@@ -1785,6 +2461,24 @@
                 "en": "If you had a trained bird, it could carry a note.",
                 "ko": "훈련된 새가 있다면 쪽지를 나를 수 있을 거예요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "If you had",
+                "ko": "당신에게 있다면"
+              },
+              {
+                "en": "a trained bird,",
+                "ko": "훈련된 새가"
+              },
+              {
+                "en": "it could carry",
+                "ko": "그것은 나를 수 있을 거예요"
+              },
+              {
+                "en": "a note.",
+                "ko": "쪽지를."
+              }
             ]
           },
           "requires": [
@@ -1841,6 +2535,24 @@
                 "en": "If I knew what to say, I would write it myself.",
                 "ko": "무슨 말을 할지 안다면 직접 쓸 텐데요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "If I knew",
+                "ko": "제가 안다면"
+              },
+              {
+                "en": "what to say,",
+                "ko": "무슨 말을 할지"
+              },
+              {
+                "en": "I would write it",
+                "ko": "저는 쓸 텐데요"
+              },
+              {
+                "en": "myself.",
+                "ko": "직접."
+              }
             ]
           },
           "requires": [
@@ -1859,6 +2571,16 @@
                 "en": "Tell her about your day.",
                 "ko": "하루 동안 있었던 일을 이야기해 줘요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Tell her",
+                "ko": "그녀에게 이야기해 줘요"
+              },
+              {
+                "en": "about your day.",
+                "ko": "네 하루에 대해."
+              }
             ]
           },
           "requires": [
@@ -1876,6 +2598,16 @@
               {
                 "en": "Your own words are enough.",
                 "ko": "네 말이면 충분해."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Your own words",
+                "ko": "네 말이"
+              },
+              {
+                "en": "are enough.",
+                "ko": "충분해."
               }
             ]
           },
@@ -1959,6 +2691,20 @@
                 "en": "The fastest runner gets the gold medal.",
                 "ko": "가장 빠른 선수가 금메달을 받아요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The fastest runner",
+                "ko": "가장 빠른 선수가"
+              },
+              {
+                "en": "gets",
+                "ko": "받아요"
+              },
+              {
+                "en": "the gold medal.",
+                "ko": "금메달을."
+              }
             ]
           },
           "requires": []
@@ -1974,6 +2720,20 @@
               {
                 "en": "Dash was slower than the winner.",
                 "ko": "대시는 우승자보다 느렸어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Dash",
+                "ko": "대시는"
+              },
+              {
+                "en": "was slower",
+                "ko": "느렸어요"
+              },
+              {
+                "en": "than the winner.",
+                "ko": "우승자보다."
               }
             ]
           },
@@ -2031,6 +2791,20 @@
                 "en": "That was more important than a medal.",
                 "ko": "그건 메달보다 더 중요했어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "That",
+                "ko": "그건"
+              },
+              {
+                "en": "was more important",
+                "ko": "더 중요했어요"
+              },
+              {
+                "en": "than a medal.",
+                "ko": "메달보다."
+              }
             ]
           },
           "requires": [
@@ -2048,6 +2822,20 @@
               {
                 "en": "We can give a separate award for kindness.",
                 "ko": "친절에 대한 별도 상을 줄 수 있어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We can give",
+                "ko": "우리는 줄 수 있어요"
+              },
+              {
+                "en": "a separate award",
+                "ko": "별도 상을"
+              },
+              {
+                "en": "for kindness.",
+                "ko": "친절에 대한."
               }
             ]
           },
@@ -2067,6 +2855,20 @@
                 "en": "The race result will stay the same.",
                 "ko": "경주 결과는 그대로 유지될 거예요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The race result",
+                "ko": "경주 결과는"
+              },
+              {
+                "en": "will stay",
+                "ko": "유지될 거예요"
+              },
+              {
+                "en": "the same.",
+                "ko": "그대로."
+              }
             ]
           },
           "requires": [
@@ -2084,6 +2886,20 @@
               {
                 "en": "There is more than one way to be a hero.",
                 "ko": "영웅이 되는 방법은 하나만 있는 게 아니에요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "There is",
+                "ko": "있어요"
+              },
+              {
+                "en": "more than one way",
+                "ko": "한 가지 이상의 방법이"
+              },
+              {
+                "en": "to be a hero.",
+                "ko": "영웅이 되는."
               }
             ]
           },
@@ -2129,6 +2945,20 @@
                 "en": "This book is not mine, but I repaired it.",
                 "ko": "이 책은 내 것이 아니지만 수리했어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "This book",
+                "ko": "이 책은"
+              },
+              {
+                "en": "is not mine,",
+                "ko": "내 것이 아니지만"
+              },
+              {
+                "en": "but I repaired it.",
+                "ko": "제가 수리했어요."
+              }
             ]
           },
           "requires": []
@@ -2144,6 +2974,24 @@
               {
                 "en": "Its owner left a note inside.",
                 "ko": "주인이 안에 쪽지를 남겼어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Its owner",
+                "ko": "주인이"
+              },
+              {
+                "en": "left",
+                "ko": "남겼어요"
+              },
+              {
+                "en": "a note",
+                "ko": "쪽지를"
+              },
+              {
+                "en": "inside.",
+                "ko": "안에."
               }
             ]
           },
@@ -2163,6 +3011,20 @@
                 "en": "The handwriting looks like my sister's.",
                 "ko": "글씨가 우리 언니 것 같아요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The handwriting",
+                "ko": "글씨가"
+              },
+              {
+                "en": "looks like",
+                "ko": "같아요"
+              },
+              {
+                "en": "my sister's.",
+                "ko": "우리 언니 것."
+              }
             ]
           },
           "requires": [
@@ -2180,6 +3042,20 @@
               {
                 "en": "Then we should ask her before giving it away.",
                 "ko": "그렇다면 넘겨주기 전에 물어봐야 해요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Then",
+                "ko": "그렇다면"
+              },
+              {
+                "en": "we should ask her",
+                "ko": "우리는 그녀에게 물어봐야 해요"
+              },
+              {
+                "en": "before giving it away.",
+                "ko": "넘겨주기 전에."
               }
             ]
           },
@@ -2199,6 +3075,24 @@
                 "en": "The scarf in the book is hers too.",
                 "ko": "책 속 목도리도 그녀의 것이에요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The scarf",
+                "ko": "목도리도"
+              },
+              {
+                "en": "in the book",
+                "ko": "책 속의"
+              },
+              {
+                "en": "is hers",
+                "ko": "그녀의 것이에요"
+              },
+              {
+                "en": "too.",
+                "ko": "역시."
+              }
             ]
           },
           "requires": [
@@ -2216,6 +3110,24 @@
               {
                 "en": "She has confirmed that the book is hers.",
                 "ko": "그녀가 자기 책이라고 확인했어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "She",
+                "ko": "그녀가"
+              },
+              {
+                "en": "has confirmed",
+                "ko": "확인했어요"
+              },
+              {
+                "en": "that the book",
+                "ko": "그 책이"
+              },
+              {
+                "en": "is hers.",
+                "ko": "자기 것이라고."
               }
             ]
           },
@@ -2299,6 +3211,20 @@
                 "en": "The light went out at midnight.",
                 "ko": "자정에 불빛이 꺼졌어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The light",
+                "ko": "불빛이"
+              },
+              {
+                "en": "went out",
+                "ko": "꺼졌어요"
+              },
+              {
+                "en": "at midnight.",
+                "ko": "자정에."
+              }
             ]
           },
           "requires": []
@@ -2314,6 +3240,20 @@
               {
                 "en": "A ship is waiting outside the harbor.",
                 "ko": "배 한 척이 항구 밖에서 기다려요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "A ship",
+                "ko": "배 한 척이"
+              },
+              {
+                "en": "is waiting",
+                "ko": "기다려요"
+              },
+              {
+                "en": "outside the harbor.",
+                "ko": "항구 밖에서."
               }
             ]
           },
@@ -2333,6 +3273,20 @@
                 "en": "My father is on that ship.",
                 "ko": "아빠가 그 배에 타고 있어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "My father",
+                "ko": "아빠가"
+              },
+              {
+                "en": "is",
+                "ko": "있어요"
+              },
+              {
+                "en": "on that ship.",
+                "ko": "그 배에."
+              }
             ]
           },
           "requires": [
@@ -2351,6 +3305,20 @@
                 "en": "We must keep the ship away from the rocks.",
                 "ko": "배가 바위에 접근하지 않게 해야 해요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We must keep",
+                "ko": "우리는 지켜야 해요"
+              },
+              {
+                "en": "the ship",
+                "ko": "배를"
+              },
+              {
+                "en": "away from the rocks.",
+                "ko": "바위에서 멀리."
+              }
             ]
           },
           "requires": [
@@ -2368,6 +3336,20 @@
               {
                 "en": "The spare lamp is in the workshop.",
                 "ko": "예비 등불은 작업장 안에 있어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The spare lamp",
+                "ko": "예비 등불은"
+              },
+              {
+                "en": "is",
+                "ko": "있어요"
+              },
+              {
+                "en": "in the workshop.",
+                "ko": "작업장 안에."
               }
             ]
           },
@@ -2425,6 +3407,24 @@
                 "en": "The ship is safely in the harbor.",
                 "ko": "배가 안전하게 항구에 들어왔어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The ship",
+                "ko": "배가"
+              },
+              {
+                "en": "is",
+                "ko": "있어요"
+              },
+              {
+                "en": "safely",
+                "ko": "안전하게"
+              },
+              {
+                "en": "in the harbor.",
+                "ko": "항구에."
+              }
             ]
           },
           "requires": [
@@ -2469,6 +3469,24 @@
                 "en": "Dream's family wants her to become a sailor.",
                 "ko": "드림의 가족은 그녀가 선원이 되기를 바라요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Dream's family",
+                "ko": "드림의 가족은"
+              },
+              {
+                "en": "wants",
+                "ko": "바라요"
+              },
+              {
+                "en": "her",
+                "ko": "그녀가"
+              },
+              {
+                "en": "to become a sailor.",
+                "ko": "선원이 되기를."
+              }
             ]
           },
           "requires": []
@@ -2484,6 +3502,16 @@
               {
                 "en": "I enjoy making things, not sailing.",
                 "ko": "저는 항해가 아니라 물건 만들기를 즐겨요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I enjoy making things,",
+                "ko": "저는 물건 만들기를 즐겨요"
+              },
+              {
+                "en": "not sailing.",
+                "ko": "항해가 아니라."
               }
             ]
           },
@@ -2503,6 +3531,24 @@
                 "en": "She can learn to make equipment here.",
                 "ko": "여기서 장비 만드는 법을 배울 수 있어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "She",
+                "ko": "그녀는"
+              },
+              {
+                "en": "can learn",
+                "ko": "배울 수 있어요"
+              },
+              {
+                "en": "to make equipment",
+                "ko": "장비 만드는 법을"
+              },
+              {
+                "en": "here.",
+                "ko": "여기서."
+              }
             ]
           },
           "requires": [
@@ -2520,6 +3566,20 @@
               {
                 "en": "We should listen to what she wants to do.",
                 "ko": "그녀가 하고 싶은 일을 들어야 해요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We should listen",
+                "ko": "우리는 들어야 해요"
+              },
+              {
+                "en": "to what she wants",
+                "ko": "그녀가 원하는 것을"
+              },
+              {
+                "en": "to do.",
+                "ko": "하고 싶은."
               }
             ]
           },
@@ -2615,6 +3675,20 @@
                 "en": "Learning begins with a choice.",
                 "ko": "배움은 선택에서 시작돼요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Learning",
+                "ko": "배움은"
+              },
+              {
+                "en": "begins",
+                "ko": "시작돼요"
+              },
+              {
+                "en": "with a choice.",
+                "ko": "선택에서."
+              }
             ]
           },
           "requires": [
@@ -2695,6 +3769,20 @@
                 "en": "The sound reminds me of my old home.",
                 "ko": "그 소리가 옛집을 떠올리게 해요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The sound",
+                "ko": "그 소리가"
+              },
+              {
+                "en": "reminds me",
+                "ko": "떠올리게 해요"
+              },
+              {
+                "en": "of my old home.",
+                "ko": "옛집을."
+              }
             ]
           },
           "requires": [
@@ -2712,6 +3800,24 @@
               {
                 "en": "The forest sounds different at night.",
                 "ko": "숲은 밤에 다르게 들려요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The forest",
+                "ko": "숲은"
+              },
+              {
+                "en": "sounds",
+                "ko": "들려요"
+              },
+              {
+                "en": "different",
+                "ko": "다르게"
+              },
+              {
+                "en": "at night.",
+                "ko": "밤에."
               }
             ]
           },
@@ -2769,6 +3875,20 @@
                 "en": "Let Robin choose the sound.",
                 "ko": "로빈이 소리를 선택하게 해요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Let Robin",
+                "ko": "로빈이"
+              },
+              {
+                "en": "choose",
+                "ko": "선택하게 해요"
+              },
+              {
+                "en": "the sound.",
+                "ko": "소리를."
+              }
             ]
           },
           "requires": [
@@ -2787,6 +3907,20 @@
                 "en": "This one sounds like home.",
                 "ko": "이 소리는 고향 같아요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "This one",
+                "ko": "이 소리는"
+              },
+              {
+                "en": "sounds",
+                "ko": "들려요"
+              },
+              {
+                "en": "like home.",
+                "ko": "고향처럼."
+              }
             ]
           },
           "requires": [
@@ -2804,6 +3938,20 @@
               {
                 "en": "The bell belongs to the whole village.",
                 "ko": "종은 온 마을의 것이에요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The bell",
+                "ko": "종은"
+              },
+              {
+                "en": "belongs to",
+                "ko": "속해요"
+              },
+              {
+                "en": "the whole village.",
+                "ko": "온 마을에."
               }
             ]
           },
@@ -2849,6 +3997,20 @@
                 "en": "Joy wants to sing, but she is nervous.",
                 "ko": "조이는 노래하고 싶지만 긴장해요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Joy wants to sing,",
+                "ko": "조이는 노래하고 싶지만"
+              },
+              {
+                "en": "but she",
+                "ko": "그 아이는"
+              },
+              {
+                "en": "is nervous.",
+                "ko": "긴장해요."
+              }
             ]
           },
           "requires": []
@@ -2864,6 +4026,20 @@
               {
                 "en": "Please do not make me sing alone.",
                 "ko": "혼자 노래하게 하지 말아 주세요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Please do not make me",
+                "ko": "저를 시키지 말아 주세요"
+              },
+              {
+                "en": "sing",
+                "ko": "노래하게"
+              },
+              {
+                "en": "alone.",
+                "ko": "혼자."
               }
             ]
           },
@@ -2883,6 +4059,16 @@
                 "en": "Let's invite the other children.",
                 "ko": "다른 아이들을 초대합시다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Let's invite",
+                "ko": "초대합시다"
+              },
+              {
+                "en": "the other children.",
+                "ko": "다른 아이들을."
+              }
             ]
           },
           "requires": [
@@ -2900,6 +4086,16 @@
               {
                 "en": "What a good idea!",
                 "ko": "정말 좋은 생각이네요!"
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "What a good",
+                "ko": "정말 좋은"
+              },
+              {
+                "en": "idea!",
+                "ko": "생각이네요!"
               }
             ]
           },
@@ -2919,6 +4115,20 @@
                 "en": "We can make ribbons for the group.",
                 "ko": "모둠을 위한 리본을 만들 수 있어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We can make",
+                "ko": "우리는 만들 수 있어요"
+              },
+              {
+                "en": "ribbons",
+                "ko": "리본을"
+              },
+              {
+                "en": "for the group.",
+                "ko": "모둠을 위한."
+              }
             ]
           },
           "requires": [
@@ -2937,6 +4147,16 @@
                 "en": "Let's sing together.",
                 "ko": "함께 노래해요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Let's sing",
+                "ko": "노래해요"
+              },
+              {
+                "en": "together.",
+                "ko": "함께."
+              }
             ]
           },
           "requires": [
@@ -2954,6 +4174,16 @@
               {
                 "en": "What a wonderful performance!",
                 "ko": "정말 멋진 공연이네요!"
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "What a wonderful",
+                "ko": "정말 멋진"
+              },
+              {
+                "en": "performance!",
+                "ko": "공연이네요!"
               }
             ]
           },
@@ -2998,6 +4228,24 @@
               {
                 "en": "Someone told me that Note was angry.",
                 "ko": "누군가 노트가 화났다고 말했어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Someone",
+                "ko": "누군가"
+              },
+              {
+                "en": "told me",
+                "ko": "저에게 말했어요"
+              },
+              {
+                "en": "that Note",
+                "ko": "노트가"
+              },
+              {
+                "en": "was angry.",
+                "ko": "화났다고."
               }
             ]
           },
@@ -3091,6 +4339,20 @@
                 "en": "Then the message was misunderstood.",
                 "ko": "그렇다면 전갈이 잘못 이해된 거군요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Then",
+                "ko": "그렇다면"
+              },
+              {
+                "en": "the message",
+                "ko": "전갈이"
+              },
+              {
+                "en": "was misunderstood.",
+                "ko": "잘못 이해된 거군요."
+              }
             ]
           },
           "requires": [
@@ -3147,6 +4409,20 @@
                 "en": "I will correct the message myself.",
                 "ko": "제가 직접 전갈을 바로잡을게요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I will correct",
+                "ko": "제가 바로잡을게요"
+              },
+              {
+                "en": "the message",
+                "ko": "전갈을"
+              },
+              {
+                "en": "myself.",
+                "ko": "직접."
+              }
             ]
           },
           "requires": [
@@ -3164,6 +4440,20 @@
               {
                 "en": "We should check what people actually said.",
                 "ko": "사람들이 실제로 한 말을 확인해야 해요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We should check",
+                "ko": "우리는 확인해야 해요"
+              },
+              {
+                "en": "what people",
+                "ko": "사람들이"
+              },
+              {
+                "en": "actually said.",
+                "ko": "실제로 한 말을."
               }
             ]
           },
@@ -3209,6 +4499,24 @@
                 "en": "Never have I seen the hall open to children.",
                 "ko": "전당이 아이들에게 열린 것을 본 적이 없어요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Never have I seen",
+                "ko": "본 적이 없어요"
+              },
+              {
+                "en": "the hall",
+                "ko": "전당이"
+              },
+              {
+                "en": "open",
+                "ko": "열린 것을"
+              },
+              {
+                "en": "to children.",
+                "ko": "아이들에게."
+              }
             ]
           },
           "requires": []
@@ -3224,6 +4532,24 @@
               {
                 "en": "It was the old rule that kept them outside.",
                 "ko": "아이들을 밖에 머물게 한 것은 옛 규칙이었어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "It was the old rule",
+                "ko": "옛 규칙이었어요"
+              },
+              {
+                "en": "that kept",
+                "ko": "머물게 한 것은"
+              },
+              {
+                "en": "them",
+                "ko": "아이들을"
+              },
+              {
+                "en": "outside.",
+                "ko": "밖에."
               }
             ]
           },
@@ -3281,6 +4607,24 @@
                 "en": "The hall, our oldest archive, should welcome learners.",
                 "ko": "우리의 가장 오래된 기록실인 전당은 학습자를 환영해야 해요."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "The hall,",
+                "ko": "전당은"
+              },
+              {
+                "en": "our oldest archive,",
+                "ko": "우리의 가장 오래된 기록실인"
+              },
+              {
+                "en": "should welcome",
+                "ko": "환영해야 해요"
+              },
+              {
+                "en": "learners.",
+                "ko": "학습자를."
+              }
             ]
           },
           "requires": [
@@ -3298,6 +4642,16 @@
               {
                 "en": "We can make a safe reading area.",
                 "ko": "안전한 독서 공간을 만들 수 있어요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "We can make",
+                "ko": "우리는 만들 수 있어요"
+              },
+              {
+                "en": "a safe reading area.",
+                "ko": "안전한 독서 공간을."
               }
             ]
           },
@@ -3317,6 +4671,16 @@
                 "en": "Only after we check the room will we open it.",
                 "ko": "방을 확인한 뒤에야 열겠습니다."
               }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Only after we check the room",
+                "ko": "방을 확인한 뒤에야"
+              },
+              {
+                "en": "will we open it.",
+                "ko": "열겠습니다."
+              }
             ]
           },
           "requires": [
@@ -3334,6 +4698,20 @@
               {
                 "en": "Never again will knowledge belong to just a few.",
                 "ko": "다시는 지식이 소수만의 것이 되지 않을 거예요."
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "Never again",
+                "ko": "다시는"
+              },
+              {
+                "en": "will knowledge belong",
+                "ko": "지식이 속하지 않을 거예요"
+              },
+              {
+                "en": "to just a few.",
+                "ko": "소수에게만."
               }
             ]
           },
