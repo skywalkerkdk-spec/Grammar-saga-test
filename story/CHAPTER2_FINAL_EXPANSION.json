@@ -1,0 +1,850 @@
+{
+  "version": "0.1",
+  "status": "end-to-end narrative outline and dialogue draft",
+  "lairs": [
+    {
+      "id": "hideout_black_hand",
+      "faction": "Black Hand",
+      "boss": {
+        "name_en": "Raven",
+        "name_ko": "레이븐"
+      },
+      "title_en": "The Masked Depot",
+      "title_ko": "가면의 창고",
+      "unlock": {
+        "all_verified": [
+          "g1_infiltration_verified",
+          "tn_infiltration_verified",
+          "rp_infiltration_verified",
+          "pn_infiltration_verified"
+        ]
+      },
+      "optional": true,
+      "scenes": [
+        {
+          "id": "briefing",
+          "lines": [
+            {
+              "speaker": "Lexion",
+              "en": "The records point to a hidden stronghold.",
+              "ko": "기록들이 숨겨진 거점을 가리키고 있네."
+            }
+          ]
+        },
+        {
+          "id": "entry",
+          "lines": [
+            {
+              "speaker": "Narrator",
+              "en": "The party enters the hidden stronghold.",
+              "ko": "모험단이 숨겨진 거점에 들어간다."
+            }
+          ]
+        },
+        {
+          "id": "evidence",
+          "lines": [
+            {
+              "speaker": "Verbella",
+              "en": "The crates marked with a bird contain the stolen records.",
+              "ko": "새 문양이 있는 상자에는 도난 기록이 들어 있어요."
+            },
+            {
+              "speaker": "Ob",
+              "en": "The crates marked with a tree contain seeds.",
+              "ko": "나무 문양이 있는 상자에는 씨앗이 들어 있어요."
+            }
+          ],
+          "question_en": "Which crates contain the records?",
+          "options": [
+            "Bird",
+            "Tree",
+            "Both"
+          ],
+          "correct_index": 0
+        },
+        {
+          "id": "boss",
+          "lines": [
+            {
+              "speaker": "Raven",
+              "en": "You saw through our masks, but the book is already moving toward its destiny.",
+              "ko": "우리의 가면을 꿰뚫어 보았군. 하지만 책은 이미 운명을 향해 움직이고 있다."
+            }
+          ],
+          "combat": "proposed optional encounter; no stats supplied"
+        },
+        {
+          "id": "return",
+          "lines": [
+            {
+              "speaker": "Lexion",
+              "en": "Keep this record. It may help us understand the final spell.",
+              "ko": "이 기록을 보관하게. 마지막 주문을 이해하는 데 도움이 될지도 모르네."
+            }
+          ]
+        }
+      ],
+      "reward": {
+        "type": "story_flag",
+        "id": "hideout_black_hand_cleared"
+      }
+    },
+    {
+      "id": "hideout_false_tongue",
+      "faction": "False Tongue",
+      "boss": {
+        "name_en": "Mendax",
+        "name_ko": "멘닥스"
+      },
+      "title_en": "The Hall of Echoes",
+      "title_ko": "메아리의 전당",
+      "unlock": {
+        "all_verified": [
+          "g2_infiltration_verified",
+          "ps_infiltration_verified",
+          "pf_infiltration_verified",
+          "pe_infiltration_verified",
+          "rs_infiltration_verified"
+        ]
+      },
+      "optional": true,
+      "scenes": [
+        {
+          "id": "briefing",
+          "lines": [
+            {
+              "speaker": "Lexion",
+              "en": "The records point to a hidden stronghold.",
+              "ko": "기록들이 숨겨진 거점을 가리키고 있네."
+            }
+          ]
+        },
+        {
+          "id": "entry",
+          "lines": [
+            {
+              "speaker": "Narrator",
+              "en": "The party enters the hidden stronghold.",
+              "ko": "모험단이 숨겨진 거점에 들어간다."
+            }
+          ]
+        },
+        {
+          "id": "evidence",
+          "lines": [
+            {
+              "speaker": "Verbella",
+              "en": "The original message says the library is safe.",
+              "ko": "원본 전갈에는 도서관이 안전하다고 적혀 있어요."
+            },
+            {
+              "speaker": "Ob",
+              "en": "The echo says the library must close.",
+              "ko": "메아리는 도서관을 폐쇄해야 한다고 말해요."
+            }
+          ],
+          "question_en": "Which message should be trusted?",
+          "options": [
+            "The echo",
+            "The verified original",
+            "Neither"
+          ],
+          "correct_index": 1
+        },
+        {
+          "id": "boss",
+          "lines": [
+            {
+              "speaker": "Mendax",
+              "en": "Without my lies, how will you know whom to fear?",
+              "ko": "내 거짓말 없이 누구를 두려워해야 할지 어떻게 알겠느냐?"
+            }
+          ],
+          "combat": "proposed optional encounter; no stats supplied"
+        },
+        {
+          "id": "return",
+          "lines": [
+            {
+              "speaker": "Lexion",
+              "en": "Keep this record. It may help us understand the final spell.",
+              "ko": "이 기록을 보관하게. 마지막 주문을 이해하는 데 도움이 될지도 모르네."
+            }
+          ]
+        }
+      ],
+      "reward": {
+        "type": "story_flag",
+        "id": "hideout_false_tongue_cleared"
+      }
+    },
+    {
+      "id": "hideout_broken_quill",
+      "faction": "Broken Quill",
+      "boss": {
+        "name_en": "Palim",
+        "name_ko": "팔림"
+      },
+      "title_en": "The Ink Vault",
+      "title_ko": "잉크의 금고",
+      "unlock": {
+        "all_verified": [
+          "rv_infiltration_verified",
+          "pc_infiltration_verified"
+        ]
+      },
+      "optional": true,
+      "scenes": [
+        {
+          "id": "briefing",
+          "lines": [
+            {
+              "speaker": "Lexion",
+              "en": "The records point to a hidden stronghold.",
+              "ko": "기록들이 숨겨진 거점을 가리키고 있네."
+            }
+          ]
+        },
+        {
+          "id": "entry",
+          "lines": [
+            {
+              "speaker": "Narrator",
+              "en": "The party enters the hidden stronghold.",
+              "ko": "모험단이 숨겨진 거점에 들어간다."
+            }
+          ]
+        },
+        {
+          "id": "evidence",
+          "lines": [
+            {
+              "speaker": "Verbella",
+              "en": "The stone record was made before the paper copy.",
+              "ko": "돌 기록은 종이 사본보다 먼저 만들어졌어요."
+            },
+            {
+              "speaker": "Ob",
+              "en": "The final line appears only in the new copy.",
+              "ko": "마지막 줄은 새 사본에만 나타나요."
+            }
+          ],
+          "question_en": "Which line needs further verification?",
+          "options": [
+            "The first line of the stone",
+            "Every line",
+            "The final line of the new copy"
+          ],
+          "correct_index": 2
+        },
+        {
+          "id": "boss",
+          "lines": [
+            {
+              "speaker": "Palim",
+              "en": "You can recover the past, but you cannot change what comes next.",
+              "ko": "과거를 되찾을 수는 있어도 다음에 일어날 일을 바꿀 수는 없다."
+            }
+          ],
+          "combat": "proposed optional encounter; no stats supplied"
+        },
+        {
+          "id": "return",
+          "lines": [
+            {
+              "speaker": "Lexion",
+              "en": "Keep this record. It may help us understand the final spell.",
+              "ko": "이 기록을 보관하게. 마지막 주문을 이해하는 데 도움이 될지도 모르네."
+            }
+          ]
+        }
+      ],
+      "reward": {
+        "type": "story_flag",
+        "id": "hideout_broken_quill_cleared"
+      }
+    },
+    {
+      "id": "hideout_iron_chain",
+      "faction": "Iron Chain",
+      "boss": {
+        "name_en": "Ferron",
+        "name_ko": "페론"
+      },
+      "title_en": "The Chain Fortress",
+      "title_ko": "사슬의 요새",
+      "unlock": {
+        "all_verified": [
+          "md_infiltration_verified",
+          "cp_infiltration_verified",
+          "ot_infiltration_verified"
+        ]
+      },
+      "optional": true,
+      "scenes": [
+        {
+          "id": "briefing",
+          "lines": [
+            {
+              "speaker": "Lexion",
+              "en": "The records point to a hidden stronghold.",
+              "ko": "기록들이 숨겨진 거점을 가리키고 있네."
+            }
+          ]
+        },
+        {
+          "id": "entry",
+          "lines": [
+            {
+              "speaker": "Narrator",
+              "en": "The party enters the hidden stronghold.",
+              "ko": "모험단이 숨겨진 거점에 들어간다."
+            }
+          ]
+        },
+        {
+          "id": "evidence",
+          "lines": [
+            {
+              "speaker": "Verbella",
+              "en": "The bridge belongs to the village.",
+              "ko": "다리는 마을의 것이에요."
+            },
+            {
+              "speaker": "Ob",
+              "en": "The harbor is open under the master's order.",
+              "ko": "항구 책임자의 명령에 따라 항구는 열려 있어요."
+            }
+          ],
+          "question_en": "Who owns the bridge?",
+          "options": [
+            "The village",
+            "Ferron",
+            "The harbor master"
+          ],
+          "correct_index": 0
+        },
+        {
+          "id": "boss",
+          "lines": [
+            {
+              "speaker": "Ferron",
+              "en": "My chains were stronger than your swords. Yet your friends broke them.",
+              "ko": "내 사슬은 너희 검보다 강했다. 하지만 너희 친구들이 그것을 끊었군."
+            }
+          ],
+          "combat": "proposed optional encounter; no stats supplied"
+        },
+        {
+          "id": "return",
+          "lines": [
+            {
+              "speaker": "Lexion",
+              "en": "Keep this record. It may help us understand the final spell.",
+              "ko": "이 기록을 보관하게. 마지막 주문을 이해하는 데 도움이 될지도 모르네."
+            }
+          ]
+        }
+      ],
+      "reward": {
+        "type": "story_flag",
+        "id": "hideout_iron_chain_cleared"
+      }
+    },
+    {
+      "id": "hideout_silent_order",
+      "faction": "Silent Order",
+      "boss": {
+        "name_en": "Absol",
+        "name_ko": "앱솔"
+      },
+      "title_en": "The Chapel of One Voice",
+      "title_ko": "하나의 목소리 예배당",
+      "unlock": {
+        "all_verified": [
+          "sj_infiltration_verified",
+          "iv_infiltration_verified",
+          "ng_infiltration_verified",
+          "sx_infiltration_verified"
+        ]
+      },
+      "optional": true,
+      "scenes": [
+        {
+          "id": "briefing",
+          "lines": [
+            {
+              "speaker": "Lexion",
+              "en": "The records point to a hidden stronghold.",
+              "ko": "기록들이 숨겨진 거점을 가리키고 있네."
+            }
+          ]
+        },
+        {
+          "id": "entry",
+          "lines": [
+            {
+              "speaker": "Narrator",
+              "en": "The party enters the hidden stronghold.",
+              "ko": "모험단이 숨겨진 거점에 들어간다."
+            }
+          ]
+        },
+        {
+          "id": "evidence",
+          "lines": [
+            {
+              "speaker": "Verbella",
+              "en": "The agreement demands obedience forever.",
+              "ko": "계약서는 영원한 복종을 요구해요."
+            },
+            {
+              "speaker": "Ob",
+              "en": "The council never approved that agreement.",
+              "ko": "의회는 그 계약을 승인한 적이 없어요."
+            }
+          ],
+          "question_en": "What did the council approve?",
+          "options": [
+            "The agreement",
+            "No such agreement",
+            "Eternal obedience"
+          ],
+          "correct_index": 1
+        },
+        {
+          "id": "boss",
+          "lines": [
+            {
+              "speaker": "Absol",
+              "en": "You call it freedom. My master calls it chaos.",
+              "ko": "너희는 자유라 부르지만 내 주인은 혼란이라 부른다."
+            }
+          ],
+          "combat": "proposed optional encounter; no stats supplied"
+        },
+        {
+          "id": "return",
+          "lines": [
+            {
+              "speaker": "Lexion",
+              "en": "Keep this record. It may help us understand the final spell.",
+              "ko": "이 기록을 보관하게. 마지막 주문을 이해하는 데 도움이 될지도 모르네."
+            }
+          ]
+        }
+      ],
+      "reward": {
+        "type": "story_flag",
+        "id": "hideout_silent_order_cleared"
+      }
+    }
+  ],
+  "arcs": [
+    {
+      "id": "double_agent",
+      "title_en": "The Lantern in the Dark",
+      "title_ko": "어둠 속의 등불",
+      "requires": [
+        "pf_infiltration_verified",
+        "rs_infiltration_verified"
+      ],
+      "scenes": [
+        {
+          "id": "double_agent_1",
+          "town": "pf",
+          "lines": [
+            {
+              "speaker": "pf_agent",
+              "en": "I sent a copy of the letters to someone inside the army.",
+              "ko": "군대 내부의 누군가에게 편지 사본을 보냈어요."
+            }
+          ]
+        },
+        {
+          "id": "double_agent_2",
+          "town": "rs",
+          "lines": [
+            {
+              "speaker": "rs_extra_6",
+              "en": "The reply bears a lantern, not the black seal.",
+              "ko": "답장에는 검은 인장이 아니라 등불 문양이 있어요."
+            }
+          ]
+        },
+        {
+          "id": "double_agent_3",
+          "town": "ot",
+          "lines": [
+            {
+              "speaker": "ot_extra_7",
+              "en": "I have been sending the lantern messages. My name is Beam.",
+              "ko": "제가 등불 전갈을 보내 왔어요. 제 이름은 빔이에요."
+            }
+          ]
+        },
+        {
+          "id": "double_agent_4",
+          "town": "pf",
+          "lines": [
+            {
+              "speaker": "pf_agent",
+              "en": "Beam helped me return the letters without asking for anything.",
+              "ko": "빔은 아무 대가도 요구하지 않고 편지를 돌려주도록 도왔어요."
+            }
+          ]
+        },
+        {
+          "id": "double_agent_5",
+          "town": "library",
+          "lines": [
+            {
+              "speaker": "Lexion",
+              "en": "We will protect our witness and verify the records separately.",
+              "ko": "증인을 보호하고 기록은 별도로 검증하겠네."
+            }
+          ]
+        }
+      ],
+      "optional": true,
+      "completion_flag": "double_agent_complete"
+    },
+    {
+      "id": "resistance",
+      "title_en": "The Lantern League",
+      "title_ko": "등불 연합",
+      "requires": [
+        "double_agent_complete"
+      ],
+      "scenes": [
+        {
+          "id": "resistance_1",
+          "town": "g1",
+          "lines": [
+            {
+              "speaker": "g1_extra_6",
+              "en": "We can bake bread for the travelers who carry our news.",
+              "ko": "소식을 전하는 여행자들을 위해 빵을 구울 수 있어요."
+            }
+          ]
+        },
+        {
+          "id": "resistance_2",
+          "town": "md",
+          "lines": [
+            {
+              "speaker": "md_extra_7",
+              "en": "Our bridge is open to every village.",
+              "ko": "우리 다리는 모든 마을에 열려 있어요."
+            }
+          ]
+        },
+        {
+          "id": "resistance_3",
+          "town": "ng",
+          "lines": [
+            {
+              "speaker": "ng_extra_6",
+              "en": "Let our festival carry a message of hope.",
+              "ko": "우리 축제가 희망의 메시지를 전하게 해요."
+            }
+          ]
+        },
+        {
+          "id": "resistance_4",
+          "town": "library",
+          "lines": [
+            {
+              "speaker": "Lexion",
+              "en": "No village must obey another. Let them choose how to help.",
+              "ko": "어느 마을도 다른 마을에 복종할 필요는 없네. 어떻게 도울지 스스로 선택하게 하세."
+            }
+          ]
+        }
+      ],
+      "optional": true,
+      "completion_flag": "resistance_complete"
+    },
+    {
+      "id": "village_defense",
+      "title_en": "The Night the Lanterns Went Out",
+      "title_ko": "등불이 꺼진 밤",
+      "requires": [
+        "resistance_complete"
+      ],
+      "scenes": [
+        {
+          "id": "village_defense_1",
+          "town": "g1",
+          "lines": [
+            {
+              "speaker": "g1_extra_4",
+              "en": "The monsters have returned, but the villagers are already safe.",
+              "ko": "괴물들이 돌아왔지만 주민들은 이미 안전해요."
+            }
+          ]
+        },
+        {
+          "id": "village_defense_2",
+          "town": "md",
+          "lines": [
+            {
+              "speaker": "md_extra_5",
+              "en": "The supplies are waiting on the other side of the river.",
+              "ko": "물자가 강 건너편에서 기다리고 있어요."
+            }
+          ]
+        },
+        {
+          "id": "village_defense_3",
+          "town": "g1",
+          "lines": [
+            {
+              "speaker": "Comple",
+              "en": "We can protect the village while the others bring the supplies.",
+              "ko": "다른 사람들이 물자를 가져오는 동안 마을을 지킬 수 있어요."
+            }
+          ]
+        },
+        {
+          "id": "village_defense_4",
+          "town": "g1",
+          "lines": [
+            {
+              "speaker": "g1_extra_1",
+              "en": "This time, we faced the danger together.",
+              "ko": "이번에는 함께 위험에 맞섰어요."
+            }
+          ]
+        }
+      ],
+      "optional": true,
+      "completion_flag": "village_defense_complete"
+    },
+    {
+      "id": "companion_rescue",
+      "title_en": "A Voice Behind the Door",
+      "title_ko": "문 너머의 목소리",
+      "requires": [
+        "hideout_silent_order_cleared"
+      ],
+      "scenes": [
+        {
+          "id": "companion_rescue_1",
+          "town": "iv",
+          "lines": [
+            {
+              "speaker": "Verbella",
+              "en": "A student has disappeared from the open lesson.",
+              "ko": "공개 수업에서 학생 한 명이 사라졌어요."
+            }
+          ]
+        },
+        {
+          "id": "companion_rescue_2",
+          "town": "sx",
+          "lines": [
+            {
+              "speaker": "sx_extra_8",
+              "en": "I heard someone asking for help behind the archive door.",
+              "ko": "기록실 문 뒤에서 누군가 도움을 요청하는 것을 들었어요."
+            }
+          ]
+        },
+        {
+          "id": "companion_rescue_3",
+          "town": "sx",
+          "lines": [
+            {
+              "speaker": "Ob",
+              "en": "I will stay with the student until the door is open.",
+              "ko": "문이 열릴 때까지 학생 곁에 있을게요."
+            }
+          ]
+        },
+        {
+          "id": "companion_rescue_4",
+          "town": "sx",
+          "lines": [
+            {
+              "speaker": "Comple",
+              "en": "We will bring both of you home.",
+              "ko": "두 사람 모두 집으로 데려갈게요."
+            }
+          ]
+        },
+        {
+          "id": "companion_rescue_5",
+          "town": "iv",
+          "lines": [
+            {
+              "speaker": "Verbella",
+              "en": "No one should be punished for asking a question.",
+              "ko": "질문했다는 이유로 누구도 벌을 받아서는 안 돼요."
+            }
+          ]
+        }
+      ],
+      "optional": true,
+      "completion_flag": "companion_rescue_complete"
+    },
+    {
+      "id": "eve",
+      "title_en": "Before the Last Dawn",
+      "title_ko": "마지막 새벽이 오기 전",
+      "requires": [
+        "18_unique_pages_registered"
+      ],
+      "scenes": [
+        {
+          "id": "eve_1",
+          "town": "library",
+          "lines": [
+            {
+              "speaker": "Indy",
+              "en": "I have prepared what we need for the journey.",
+              "ko": "여행에 필요한 것을 준비했어."
+            }
+          ]
+        },
+        {
+          "id": "eve_2",
+          "town": "library",
+          "lines": [
+            {
+              "speaker": "Direct",
+              "en": "A gift is worth more when someone needs it.",
+              "ko": "선물은 누군가 필요로 할 때 더 가치 있어."
+            }
+          ]
+        },
+        {
+          "id": "eve_3",
+          "town": "library",
+          "lines": [
+            {
+              "speaker": "Modi",
+              "en": "Can we come back here after the battle?",
+              "ko": "전투가 끝나면 여기로 돌아올 수 있어?"
+            }
+          ]
+        },
+        {
+          "id": "eve_4",
+          "town": "library",
+          "lines": [
+            {
+              "speaker": "Verbella",
+              "en": "Of course. We have friends here.",
+              "ko": "물론이지. 여기에는 친구들이 있으니까."
+            }
+          ]
+        },
+        {
+          "id": "eve_5",
+          "town": "library",
+          "lines": [
+            {
+              "speaker": "Lexion",
+              "en": "Whatever happens, remember why you began.",
+              "ko": "무슨 일이 일어나든 왜 시작했는지 기억하게."
+            }
+          ]
+        }
+      ],
+      "optional": false,
+      "completion_flag": "eve_complete"
+    },
+    {
+      "id": "aftermath",
+      "title_en": "A World of Many Voices",
+      "title_ko": "여러 목소리의 세계",
+      "requires": [
+        "sanctuary_of_silence_cleared"
+      ],
+      "scenes": [
+        {
+          "id": "aftermath_1",
+          "town": "library",
+          "lines": [
+            {
+              "speaker": "Lexion",
+              "en": "The book is restored. Our work is not finished.",
+              "ko": "책은 복원되었지만 우리의 일은 끝나지 않았네."
+            }
+          ]
+        },
+        {
+          "id": "aftermath_2",
+          "town": "pf",
+          "lines": [
+            {
+              "speaker": "pf_extra_5",
+              "en": "The letters have reached their homes.",
+              "ko": "편지들이 주인에게 도착했어요."
+            }
+          ]
+        },
+        {
+          "id": "aftermath_3",
+          "town": "ng",
+          "lines": [
+            {
+              "speaker": "ng_extra_6",
+              "en": "Next year, everyone can bring a new song.",
+              "ko": "내년에는 누구나 새로운 노래를 가져올 수 있어요."
+            }
+          ]
+        },
+        {
+          "id": "aftermath_4",
+          "town": "sx",
+          "lines": [
+            {
+              "speaker": "sx_extra_6",
+              "en": "We have opened the archive to new readers.",
+              "ko": "새로운 독자들에게 기록실을 열었어요."
+            }
+          ]
+        },
+        {
+          "id": "aftermath_5",
+          "town": "library",
+          "lines": [
+            {
+              "speaker": "Modi",
+              "en": "What does that word mean?",
+              "ko": "저 단어는 무슨 뜻이지?"
+            }
+          ]
+        },
+        {
+          "id": "aftermath_6",
+          "town": "library",
+          "lines": [
+            {
+              "speaker": "Narrator",
+              "en": "Beyond the sea, an ancient rune began to glow.",
+              "ko": "바다 너머에서 고대 룬 하나가 빛나기 시작했다."
+            }
+          ]
+        }
+      ],
+      "optional": false,
+      "completion_flag": "aftermath_complete"
+    }
+  ],
+  "policy": {
+    "preserve_existing_finale": true,
+    "optional_hideouts": true,
+    "no_new_mandatory_gates": true,
+    "hideout_unlock": "all listed investigation flags; no order constraint",
+    "rescue": "student rescue with Ob assisting; no party removal",
+    "aftermath": "town-specific lines only when relevant optional quest completed; otherwise generic ending",
+    "eve": "skippable library scene after 18 pages",
+    "combat": "reuse existing mechanics only after verification; no stats or assets supplied",
+    "flags": "proposed identifiers; map to actual save schema",
+    "translation": "natural Korean draft; semantic chunks pending"
+  }
+}

@@ -1,0 +1,253 @@
+﻿npc_id,town,origin,name_en,name_ko,legacy_ko,profession,kind,age,gender,sprite_id,front_sheet,walk,walk_sheet,region_style,front_batch,walk_batch
+g1_o0,g1,original,Farmer Am,농부 앰,농부 팜,farmer,mobile,adult,any,npc_g1_o0,art/npc/sprites/npc_g1_o0.webp,True,art/npc/sprites/npc_g1_o0_walk.webp,"Beville 비 초원: 초원 농촌, 밀짚·소박한 린넨",F001,W001
+g1_o1,g1,original,Little Izzy,꼬마 이지,꼬마 리나,child,mobile,child,any,npc_g1_o1,art/npc/sprites/npc_g1_o1.webp,True,art/npc/sprites/npc_g1_o1_walk.webp,"Beville 비 초원: 초원 농촌, 밀짚·소박한 린넨",F001,W002
+g1_o2,g1,original,Granny Aria,할머니 아리아,할머니 로즈,granny,mobile,elder,f,npc_g1_o2,art/npc/sprites/npc_g1_o2.webp,True,art/npc/sprites/npc_g1_o2_walk.webp,"Beville 비 초원: 초원 농촌, 밀짚·소박한 린넨",F001,W002
+g1_o3,g1,original,Ben Bee,벤 비,개 주인 벤,dog_owner,mobile,adult,m,npc_g1_o3,art/npc/sprites/npc_g1_o3.webp,True,art/npc/sprites/npc_g1_o3_walk.webp,"Beville 비 초원: 초원 농촌, 밀짚·소박한 린넨",F001,W002
+g1_extra_1,g1,extra,Mayor Abel,,,mayor,fixed,adult,any,npc_g1_extra_1,art/npc/sprites/npc_g1_extra_1.webp,False,,"Beville 비 초원: 초원 농촌, 밀짚·소박한 린넨",F004,
+g1_extra_2,g1,extra,Grocer Apple,,,grocer,fixed,adult,any,npc_g1_extra_2,art/npc/sprites/npc_g1_extra_2.webp,False,,"Beville 비 초원: 초원 농촌, 밀짚·소박한 린넨",F004,
+g1_extra_3,g1,extra,Innkeeper Amber,,,innkeeper,fixed,adult,any,npc_g1_extra_3,art/npc/sprites/npc_g1_extra_3.webp,False,,"Beville 비 초원: 초원 농촌, 밀짚·소박한 린넨",F004,
+g1_extra_4,g1,extra,Guard Arden,,,guard,mobile,adult,any,npc_g1_extra_4,art/npc/sprites/npc_g1_extra_4.webp,False,,"Beville 비 초원: 초원 농촌, 밀짚·소박한 린넨",F004,
+g1_extra_5,g1,extra,Miller Bran,,,miller,fixed,adult,any,npc_g1_extra_5,art/npc/sprites/npc_g1_extra_5.webp,False,,"Beville 비 초원: 초원 농촌, 밀짚·소박한 린넨",F004,
+g1_extra_6,g1,extra,Baker Belle,,,baker,fixed,adult,any,npc_g1_extra_6,art/npc/sprites/npc_g1_extra_6.webp,False,,"Beville 비 초원: 초원 농촌, 밀짚·소박한 린넨",F004,
+g1_extra_7,g1,extra,Gardener Ivy,,,gardener,mobile,adult,any,npc_g1_extra_7,art/npc/sprites/npc_g1_extra_7.webp,False,,"Beville 비 초원: 초원 농촌, 밀짚·소박한 린넨",F004,
+g1_extra_8,g1,extra,Child Amy,,,child,mobile,child,any,npc_g1_extra_8,art/npc/sprites/npc_g1_extra_8.webp,False,,"Beville 비 초원: 초원 농촌, 밀짚·소박한 린넨",F004,
+g1_extra_9,g1,extra,Courier Ash,,,courier,mobile,adult,any,npc_g1_extra_9,art/npc/sprites/npc_g1_extra_9.webp,False,,"Beville 비 초원: 초원 농촌, 밀짚·소박한 린넨",F004,
+g1_extra_10,g1,extra,Shepherd Reed,,,shepherd,mobile,adult,any,npc_g1_extra_10,art/npc/sprites/npc_g1_extra_10.webp,False,,"Beville 비 초원: 초원 농촌, 밀짚·소박한 린넨",F004,
+g2_o0,g2,original,Herbalist Dora,약초꾼 도라,약초꾼 미라,herbalist,fixed,adult,any,npc_g2_o0,art/npc/sprites/npc_g2_o0.webp,False,,"Queston 의문·부정: 물음표 장식 소품, 호기심 어린 도시 복식",F001,
+g2_o1,g2,original,Chef Dot,요리사 도트,요리사 하루,chef,fixed,adult,any,npc_g2_o1,art/npc/sprites/npc_g2_o1.webp,False,,"Queston 의문·부정: 물음표 장식 소품, 호기심 어린 도시 복식",F001,
+g2_o2,g2,original,Donny,도니,소년 닉,boy,mobile,child,m,npc_g2_o2,art/npc/sprites/npc_g2_o2.webp,True,art/npc/sprites/npc_g2_o2_walk.webp,"Queston 의문·부정: 물음표 장식 소품, 호기심 어린 도시 복식",F001,W002
+g2_o3,g2,original,Miss Nott,미스 노트,고양이 집사 유나,cat_butler,mobile,adult,f,npc_g2_o3,art/npc/sprites/npc_g2_o3.webp,True,art/npc/sprites/npc_g2_o3_walk.webp,"Queston 의문·부정: 물음표 장식 소품, 호기심 어린 도시 복식",F001,W003
+g2_extra_1,g2,extra,Mayor Quinn,,,mayor,fixed,adult,any,npc_g2_extra_1,art/npc/sprites/npc_g2_extra_1.webp,False,,"Queston 의문·부정: 물음표 장식 소품, 호기심 어린 도시 복식",F004,
+g2_extra_2,g2,extra,Grocer Olive,,,grocer,fixed,adult,any,npc_g2_extra_2,art/npc/sprites/npc_g2_extra_2.webp,False,,"Queston 의문·부정: 물음표 장식 소품, 호기심 어린 도시 복식",F004,
+g2_extra_3,g2,extra,Innkeeper Nell,,,innkeeper,fixed,adult,any,npc_g2_extra_3,art/npc/sprites/npc_g2_extra_3.webp,False,,"Queston 의문·부정: 물음표 장식 소품, 호기심 어린 도시 복식",F004,
+g2_extra_4,g2,extra,Guard Knox,,,guard,mobile,adult,any,npc_g2_extra_4,art/npc/sprites/npc_g2_extra_4.webp,False,,"Queston 의문·부정: 물음표 장식 소품, 호기심 어린 도시 복식",F005,
+g2_extra_5,g2,extra,Waiter Basil,,,waiter,fixed,adult,any,npc_g2_extra_5,art/npc/sprites/npc_g2_extra_5.webp,False,,"Queston 의문·부정: 물음표 장식 소품, 호기심 어린 도시 복식",F005,
+g2_extra_6,g2,extra,Fisher Pike,,,fisher,mobile,adult,any,npc_g2_extra_6,art/npc/sprites/npc_g2_extra_6.webp,False,,"Queston 의문·부정: 물음표 장식 소품, 호기심 어린 도시 복식",F005,
+g2_extra_7,g2,extra,Cook Pepper,,,cook,fixed,adult,any,npc_g2_extra_7,art/npc/sprites/npc_g2_extra_7.webp,False,,"Queston 의문·부정: 물음표 장식 소품, 호기심 어린 도시 복식",F005,
+g2_extra_8,g2,extra,Child Daisy,,,child,mobile,child,any,npc_g2_extra_8,art/npc/sprites/npc_g2_extra_8.webp,False,,"Queston 의문·부정: 물음표 장식 소품, 호기심 어린 도시 복식",F005,
+g2_extra_9,g2,extra,Courier Quest,,,courier,mobile,adult,any,npc_g2_extra_9,art/npc/sprites/npc_g2_extra_9.webp,False,,"Queston 의문·부정: 물음표 장식 소품, 호기심 어린 도시 복식",F005,
+g2_extra_10,g2,extra,Farmer Bean,,,farmer,mobile,adult,any,npc_g2_extra_10,art/npc/sprites/npc_g2_extra_10.webp,False,,"Queston 의문·부정: 물음표 장식 소품, 호기심 어린 도시 복식",F004,
+tn_o0,tn,original,Baker Preston,제빵사 프레스턴,빵집 주인 보리,baker,fixed,adult,any,npc_tn_o0,art/npc/sprites/npc_tn_o0.webp,False,,"Tensefield 시제: 시계·시간 모티프, 들판 마을",F003,
+tn_o1,tn,original,Pasty,패스티,꼬마 하나,girl,mobile,child,f,npc_tn_o1,art/npc/sprites/npc_tn_o1.webp,True,art/npc/sprites/npc_tn_o1_walk.webp,"Tensefield 시제: 시계·시간 모티프, 들판 마을",F003,W013
+tn_o2,tn,original,Grandpa Tick,시계 할아버지 틱,시계 할아버지,grandpa,mobile,elder,m,npc_tn_o2,art/npc/sprites/npc_tn_o2.webp,True,art/npc/sprites/npc_tn_o2_walk.webp,"Tensefield 시제: 시계·시간 모티프, 들판 마을",F003,W013
+tn_o3,tn,original,Postman Will,우체부 윌,우체부 톰,postman,mobile,adult,any,npc_tn_o3,art/npc/sprites/npc_tn_o3.webp,True,art/npc/sprites/npc_tn_o3_walk.webp,"Tensefield 시제: 시계·시간 모티프, 들판 마을",F003,W013
+tn_extra_1,tn,extra,Mayor Tempo,,,mayor,fixed,adult,any,npc_tn_extra_1,art/npc/sprites/npc_tn_extra_1.webp,False,,"Tensefield 시제: 시계·시간 모티프, 들판 마을",F011,
+tn_extra_2,tn,extra,Grocer Plum,,,grocer,fixed,adult,any,npc_tn_extra_2,art/npc/sprites/npc_tn_extra_2.webp,False,,"Tensefield 시제: 시계·시간 모티프, 들판 마을",F011,
+tn_extra_3,tn,extra,Innkeeper Dawn,,,innkeeper,fixed,adult,any,npc_tn_extra_3,art/npc/sprites/npc_tn_extra_3.webp,False,,"Tensefield 시제: 시계·시간 모티프, 들판 마을",F011,
+tn_extra_4,tn,extra,Guard Flint,,,guard,mobile,adult,any,npc_tn_extra_4,art/npc/sprites/npc_tn_extra_4.webp,False,,"Tensefield 시제: 시계·시간 모티프, 들판 마을",F011,
+tn_extra_5,tn,extra,Clockmaker Pendle,,,clockmaker,fixed,adult,any,npc_tn_extra_5,art/npc/sprites/npc_tn_extra_5.webp,False,,"Tensefield 시제: 시계·시간 모티프, 들판 마을",F011,
+tn_extra_6,tn,extra,Tailor Stitch,,,tailor,fixed,adult,any,npc_tn_extra_6,art/npc/sprites/npc_tn_extra_6.webp,False,,"Tensefield 시제: 시계·시간 모티프, 들판 마을",F011,
+tn_extra_7,tn,extra,Party Planner June,,,party_planner,mobile,adult,any,npc_tn_extra_7,art/npc/sprites/npc_tn_extra_7.webp,False,,"Tensefield 시제: 시계·시간 모티프, 들판 마을",F011,
+tn_extra_8,tn,extra,Child Pip,,,child,mobile,child,any,npc_tn_extra_8,art/npc/sprites/npc_tn_extra_8.webp,False,,"Tensefield 시제: 시계·시간 모티프, 들판 마을",F011,
+tn_extra_9,tn,extra,Courier Hour,,,courier,mobile,adult,any,npc_tn_extra_9,art/npc/sprites/npc_tn_extra_9.webp,False,,"Tensefield 시제: 시계·시간 모티프, 들판 마을",F011,
+tn_extra_10,tn,extra,Farmer Rye,,,farmer,mobile,adult,any,npc_tn_extra_10,art/npc/sprites/npc_tn_extra_10.webp,False,,"Tensefield 시제: 시계·시간 모티프, 들판 마을",F011,
+md_o0,md,original,Granny May,약초 할머니 메이,약초 할머니,granny,mobile,elder,f,npc_md_o0,art/npc/sprites/npc_md_o0.webp,True,art/npc/sprites/npc_md_o0_walk.webp,"Modalvale 조동사: 건설·항구 작업복, 힘·가능성 모티프",F001,W004
+md_o1,md,original,Foreman Muston,공사장 반장 머스턴,공사장 반장,foreman,mobile,adult,any,npc_md_o1,art/npc/sprites/npc_md_o1.webp,True,art/npc/sprites/npc_md_o1_walk.webp,"Modalvale 조동사: 건설·항구 작업복, 힘·가능성 모티프",F001,W004
+md_o2,md,original,Runner Canby,심부름꾼 캔비,심부름꾼 민,runner,mobile,adult,any,npc_md_o2,art/npc/sprites/npc_md_o2.webp,True,art/npc/sprites/npc_md_o2_walk.webp,"Modalvale 조동사: 건설·항구 작업복, 힘·가능성 모티프",F001,W004
+md_o3,md,original,Captain Coulden,경비대장 쿠든,경비대장 로이,captain,mobile,adult,any,npc_md_o3,art/npc/sprites/npc_md_o3.webp,True,art/npc/sprites/npc_md_o3_walk.webp,"Modalvale 조동사: 건설·항구 작업복, 힘·가능성 모티프",F001,W004
+md_extra_1,md,extra,Mayor Vale,,,mayor,fixed,adult,any,npc_md_extra_1,art/npc/sprites/npc_md_extra_1.webp,False,,"Modalvale 조동사: 건설·항구 작업복, 힘·가능성 모티프",F005,
+md_extra_2,md,extra,Grocer Hazel,,,grocer,fixed,adult,any,npc_md_extra_2,art/npc/sprites/npc_md_extra_2.webp,False,,"Modalvale 조동사: 건설·항구 작업복, 힘·가능성 모티프",F005,
+md_extra_3,md,extra,Innkeeper Hope,,,innkeeper,fixed,adult,any,npc_md_extra_3,art/npc/sprites/npc_md_extra_3.webp,False,,"Modalvale 조동사: 건설·항구 작업복, 힘·가능성 모티프",F005,
+md_extra_4,md,extra,Guard Grant,,,guard,mobile,adult,any,npc_md_extra_4,art/npc/sprites/npc_md_extra_4.webp,False,,"Modalvale 조동사: 건설·항구 작업복, 힘·가능성 모티프",F005,
+md_extra_5,md,extra,Boatman Ferry,,,boatman,mobile,adult,any,npc_md_extra_5,art/npc/sprites/npc_md_extra_5.webp,False,,"Modalvale 조동사: 건설·항구 작업복, 힘·가능성 모티프",F005,
+md_extra_6,md,extra,Carpenter Oak,,,carpenter,fixed,adult,any,npc_md_extra_6,art/npc/sprites/npc_md_extra_6.webp,False,,"Modalvale 조동사: 건설·항구 작업복, 힘·가능성 모티프",F005,
+md_extra_7,md,extra,Engineer Mason,,,engineer,mobile,adult,any,npc_md_extra_7,art/npc/sprites/npc_md_extra_7.webp,False,,"Modalvale 조동사: 건설·항구 작업복, 힘·가능성 모티프",F005,
+md_extra_8,md,extra,Child Kit,,,child,mobile,child,any,npc_md_extra_8,art/npc/sprites/npc_md_extra_8.webp,False,,"Modalvale 조동사: 건설·항구 작업복, 힘·가능성 모티프",F006,
+md_extra_9,md,extra,Courier Swiftly,,,courier,mobile,adult,any,npc_md_extra_9,art/npc/sprites/npc_md_extra_9.webp,False,,"Modalvale 조동사: 건설·항구 작업복, 힘·가능성 모티프",F006,
+md_extra_10,md,extra,Healer Sage,,,healer,fixed,adult,any,npc_md_extra_10,art/npc/sprites/npc_md_extra_10.webp,False,,"Modalvale 조동사: 건설·항구 작업복, 힘·가능성 모티프",F005,
+rp_o0,rp,original,Ranger Whoa,숲지기 후아,숲지기 엘라,ranger,mobile,adult,any,npc_rp_o0,art/npc/sprites/npc_rp_o0.webp,True,art/npc/sprites/npc_rp_o0_walk.webp,"Relawood 관계대명사: 숲 갈색·초록 사냥복, 연결(끈·매듭) 소품",F003,W009
+rp_o1,rp,original,Librarian Thatton,사서 대튼,도서관 사서 노아,librarian,fixed,adult,any,npc_rp_o1,art/npc/sprites/npc_rp_o1.webp,False,,"Relawood 관계대명사: 숲 갈색·초록 사냥복, 연결(끈·매듭) 소품",F003,
+rp_o2,rp,original,Mechanic Whoseley,정비공 후즐리,정비공 잭,mechanic,fixed,adult,any,npc_rp_o2,art/npc/sprites/npc_rp_o2.webp,False,,"Relawood 관계대명사: 숲 갈색·초록 사냥복, 연결(끈·매듭) 소품",F003,
+rp_o3,rp,original,Hunter Whit,사냥꾼 휘트,사냥꾼 한,hunter,mobile,adult,any,npc_rp_o3,art/npc/sprites/npc_rp_o3.webp,True,art/npc/sprites/npc_rp_o3_walk.webp,"Relawood 관계대명사: 숲 갈색·초록 사냥복, 연결(끈·매듭) 소품",F003,W009
+rp_extra_1,rp,extra,Mayor Rowan,,,mayor,fixed,adult,any,npc_rp_extra_1,art/npc/sprites/npc_rp_extra_1.webp,False,,"Relawood 관계대명사: 숲 갈색·초록 사냥복, 연결(끈·매듭) 소품",F009,
+rp_extra_2,rp,extra,Grocer Fern,,,grocer,fixed,adult,any,npc_rp_extra_2,art/npc/sprites/npc_rp_extra_2.webp,False,,"Relawood 관계대명사: 숲 갈색·초록 사냥복, 연결(끈·매듭) 소품",F009,
+rp_extra_3,rp,extra,Innkeeper Willow,,,innkeeper,fixed,adult,any,npc_rp_extra_3,art/npc/sprites/npc_rp_extra_3.webp,False,,"Relawood 관계대명사: 숲 갈색·초록 사냥복, 연결(끈·매듭) 소품",F009,
+rp_extra_4,rp,extra,Guard Thorn,,,guard,mobile,adult,any,npc_rp_extra_4,art/npc/sprites/npc_rp_extra_4.webp,False,,"Relawood 관계대명사: 숲 갈색·초록 사냥복, 연결(끈·매듭) 소품",F009,
+rp_extra_5,rp,extra,Cart Driver Axel,,,cart_driver,mobile,adult,any,npc_rp_extra_5,art/npc/sprites/npc_rp_extra_5.webp,False,,"Relawood 관계대명사: 숲 갈색·초록 사냥복, 연결(끈·매듭) 소품",F009,
+rp_extra_6,rp,extra,Scout Wren,,,scout,mobile,adult,any,npc_rp_extra_6,art/npc/sprites/npc_rp_extra_6.webp,False,,"Relawood 관계대명사: 숲 갈색·초록 사냥복, 연결(끈·매듭) 소품",F009,
+rp_extra_7,rp,extra,Woodworker Birch,,,woodworker,fixed,adult,any,npc_rp_extra_7,art/npc/sprites/npc_rp_extra_7.webp,False,,"Relawood 관계대명사: 숲 갈색·초록 사냥복, 연결(끈·매듭) 소품",F009,
+rp_extra_8,rp,extra,Child Star,,,child,mobile,child,any,npc_rp_extra_8,art/npc/sprites/npc_rp_extra_8.webp,False,,"Relawood 관계대명사: 숲 갈색·초록 사냥복, 연결(끈·매듭) 소품",F009,
+rp_extra_9,rp,extra,Courier Leaf,,,courier,mobile,adult,any,npc_rp_extra_9,art/npc/sprites/npc_rp_extra_9.webp,False,,"Relawood 관계대명사: 숲 갈색·초록 사냥복, 연결(끈·매듭) 소품",F009,
+rp_extra_10,rp,extra,Healer Moss,,,healer,fixed,adult,any,npc_rp_extra_10,art/npc/sprites/npc_rp_extra_10.webp,False,,"Relawood 관계대명사: 숲 갈색·초록 사냥복, 연결(끈·매듭) 소품",F009,
+ps_o0,ps,original,Baker Bea,제빵사 비아,빵집 아가씨 소피,baker,fixed,adult,any,npc_ps_o0,art/npc/sprites/npc_ps_o0.webp,False,,"Passive Lake 수동태: 호수 마을 푸른 방수 외투, 물가 소품",F002,
+ps_o1,ps,original,Traveler Byn,여행가 바인,여행가 잭,traveler,mobile,adult,any,npc_ps_o1,art/npc/sprites/npc_ps_o1.webp,True,art/npc/sprites/npc_ps_o1_walk.webp,"Passive Lake 수동태: 호수 마을 푸른 방수 외투, 물가 소품",F002,W008
+ps_o2,ps,original,Guard Agent,경비병 에이전트,경비병 돈,guard,mobile,adult,any,npc_ps_o2,art/npc/sprites/npc_ps_o2.webp,True,art/npc/sprites/npc_ps_o2_walk.webp,"Passive Lake 수동태: 호수 마을 푸른 방수 외투, 물가 소품",F002,W009
+ps_o3,ps,original,Cleaner Done,청소부 던,청소부 마리,cleaner,mobile,adult,any,npc_ps_o3,art/npc/sprites/npc_ps_o3.webp,True,art/npc/sprites/npc_ps_o3_walk.webp,"Passive Lake 수동태: 호수 마을 푸른 방수 외투, 물가 소품",F002,W009
+ps_extra_1,ps,extra,Mayor Brook,,,mayor,fixed,adult,any,npc_ps_extra_1,art/npc/sprites/npc_ps_extra_1.webp,False,,"Passive Lake 수동태: 호수 마을 푸른 방수 외투, 물가 소품",F008,
+ps_extra_2,ps,extra,Grocer Pearl,,,grocer,fixed,adult,any,npc_ps_extra_2,art/npc/sprites/npc_ps_extra_2.webp,False,,"Passive Lake 수동태: 호수 마을 푸른 방수 외투, 물가 소품",F008,
+ps_extra_3,ps,extra,Innkeeper Mist,,,innkeeper,fixed,adult,any,npc_ps_extra_3,art/npc/sprites/npc_ps_extra_3.webp,False,,"Passive Lake 수동태: 호수 마을 푸른 방수 외투, 물가 소품",F008,
+ps_extra_4,ps,extra,Guard Pikeford,,,guard,mobile,adult,any,npc_ps_extra_4,art/npc/sprites/npc_ps_extra_4.webp,False,,"Passive Lake 수동태: 호수 마을 푸른 방수 외투, 물가 소품",F008,
+ps_extra_5,ps,extra,Boatman Finnick,,,boatman,mobile,adult,any,npc_ps_extra_5,art/npc/sprites/npc_ps_extra_5.webp,False,,"Passive Lake 수동태: 호수 마을 푸른 방수 외투, 물가 소품",F008,
+ps_extra_6,ps,extra,Archivist Quill,,,archivist,fixed,adult,any,npc_ps_extra_6,art/npc/sprites/npc_ps_extra_6.webp,False,,"Passive Lake 수동태: 호수 마을 푸른 방수 외투, 물가 소품",F008,
+ps_extra_7,ps,extra,Dockworker Anchor,,,dockworker,mobile,adult,any,npc_ps_extra_7,art/npc/sprites/npc_ps_extra_7.webp,False,,"Passive Lake 수동태: 호수 마을 푸른 방수 외투, 물가 소품",F008,
+ps_extra_8,ps,extra,Child Ripple,,,child,mobile,child,any,npc_ps_extra_8,art/npc/sprites/npc_ps_extra_8.webp,False,,"Passive Lake 수동태: 호수 마을 푸른 방수 외투, 물가 소품",F008,
+ps_extra_9,ps,extra,Courier Lake,,,courier,mobile,adult,any,npc_ps_extra_9,art/npc/sprites/npc_ps_extra_9.webp,False,,"Passive Lake 수동태: 호수 마을 푸른 방수 외투, 물가 소품",F008,
+ps_extra_10,ps,extra,Fisher Trout,,,fisher,mobile,adult,any,npc_ps_extra_10,art/npc/sprites/npc_ps_extra_10.webp,False,,"Passive Lake 수동태: 호수 마을 푸른 방수 외투, 물가 소품",F008,
+pf_o0,pf,original,Landlord Haven,집주인 헤이븐,집주인 맥스,landlord,mobile,adult,any,npc_pf_o0,art/npc/sprites/npc_pf_o0.webp,True,art/npc/sprites/npc_pf_o0_walk.webp,"Perfect Oasis 완료: 사막 오아시스 흰 천·터번, 모래색",F002,W007
+pf_o1,pf,original,Student Justine,학생 저스틴,학생 엠마,student,mobile,teen,any,npc_pf_o1,art/npc/sprites/npc_pf_o1.webp,True,art/npc/sprites/npc_pf_o1_walk.webp,"Perfect Oasis 완료: 사막 오아시스 흰 천·터번, 모래색",F002,W007
+pf_o2,pf,original,Clockmaker Since,시계공 신스,시계방 노인,clockmaker,fixed,adult,any,npc_pf_o2,art/npc/sprites/npc_pf_o2.webp,False,,"Perfect Oasis 완료: 사막 오아시스 흰 천·터번, 모래색",F002,
+pf_o3,pf,original,Gourmet Ever,미식가 에버,미식가 타로,gourmet,mobile,adult,any,npc_pf_o3,art/npc/sprites/npc_pf_o3.webp,True,art/npc/sprites/npc_pf_o3_walk.webp,"Perfect Oasis 완료: 사막 오아시스 흰 천·터번, 모래색",F002,W008
+pf_extra_1,pf,extra,Mayor Dune,,,mayor,fixed,adult,any,npc_pf_extra_1,art/npc/sprites/npc_pf_extra_1.webp,False,,"Perfect Oasis 완료: 사막 오아시스 흰 천·터번, 모래색",F007,
+pf_extra_2,pf,extra,Grocer Date,,,grocer,fixed,adult,any,npc_pf_extra_2,art/npc/sprites/npc_pf_extra_2.webp,False,,"Perfect Oasis 완료: 사막 오아시스 흰 천·터번, 모래색",F007,
+pf_extra_3,pf,extra,Innkeeper Palm,,,innkeeper,fixed,adult,any,npc_pf_extra_3,art/npc/sprites/npc_pf_extra_3.webp,False,,"Perfect Oasis 완료: 사막 오아시스 흰 천·터번, 모래색",F007,
+pf_extra_4,pf,extra,Guard Flintlock,,,guard,mobile,adult,any,npc_pf_extra_4,art/npc/sprites/npc_pf_extra_4.webp,False,,"Perfect Oasis 완료: 사막 오아시스 흰 천·터번, 모래색",F007,
+pf_extra_5,pf,extra,Letter Keeper Seal,,,letter_keeper,fixed,adult,any,npc_pf_extra_5,art/npc/sprites/npc_pf_extra_5.webp,False,,"Perfect Oasis 완료: 사막 오아시스 흰 천·터번, 모래색",F007,
+pf_extra_6,pf,extra,Water Seller Oasis,,,water_seller,fixed,adult,any,npc_pf_extra_6,art/npc/sprites/npc_pf_extra_6.webp,False,,"Perfect Oasis 완료: 사막 오아시스 흰 천·터번, 모래색",F008,
+pf_extra_7,pf,extra,Guide Sandor,,,guide,mobile,adult,any,npc_pf_extra_7,art/npc/sprites/npc_pf_extra_7.webp,False,,"Perfect Oasis 완료: 사막 오아시스 흰 천·터번, 모래색",F008,
+pf_extra_8,pf,extra,Child Sunny,,,child,mobile,child,any,npc_pf_extra_8,art/npc/sprites/npc_pf_extra_8.webp,False,,"Perfect Oasis 완료: 사막 오아시스 흰 천·터번, 모래색",F008,
+pf_extra_9,pf,extra,Courier Ago,,,courier,mobile,adult,any,npc_pf_extra_9,art/npc/sprites/npc_pf_extra_9.webp,False,,"Perfect Oasis 완료: 사막 오아시스 흰 천·터번, 모래색",F008,
+pf_extra_10,pf,extra,Tailor Silk,,,tailor,fixed,adult,any,npc_pf_extra_10,art/npc/sprites/npc_pf_extra_10.webp,False,,"Perfect Oasis 완료: 사막 오아시스 흰 천·터번, 모래색",F007,
+rv_o0,rv,original,Fisher Whereley,어부 웨어리,어부 노아,fisher,mobile,adult,any,npc_rv_o0,art/npc/sprites/npc_rv_o0.webp,True,art/npc/sprites/npc_rv_o0_walk.webp,"Whereport 관계부사: 항구 선원복, 지도·나침반 소품",F003,W011
+rv_o1,rv,original,Wynna,위나,소녀 제나,girl,mobile,child,f,npc_rv_o1,art/npc/sprites/npc_rv_o1.webp,True,art/npc/sprites/npc_rv_o1_walk.webp,"Whereport 관계부사: 항구 선원복, 지도·나침반 소품",F003,W011
+rv_o2,rv,original,Coach Howie,코치 하위,코치 샘,coach,mobile,adult,any,npc_rv_o2,art/npc/sprites/npc_rv_o2.webp,True,art/npc/sprites/npc_rv_o2_walk.webp,"Whereport 관계부사: 항구 선원복, 지도·나침반 소품",F003,W011
+rv_o3,rv,original,Mayor Whyatt,이장 와이엇,이장님,mayor,fixed,adult,any,npc_rv_o3,art/npc/sprites/npc_rv_o3.webp,False,,"Whereport 관계부사: 항구 선원복, 지도·나침반 소품",F003,
+rv_extra_1,rv,extra,Harbor Master Portia,,,harbor_master,fixed,adult,any,npc_rv_extra_1,art/npc/sprites/npc_rv_extra_1.webp,False,,"Whereport 관계부사: 항구 선원복, 지도·나침반 소품",F009,
+rv_extra_2,rv,extra,Grocer Coral,,,grocer,fixed,adult,any,npc_rv_extra_2,art/npc/sprites/npc_rv_extra_2.webp,False,,"Whereport 관계부사: 항구 선원복, 지도·나침반 소품",F009,
+rv_extra_3,rv,extra,Innkeeper Bay,,,innkeeper,fixed,adult,any,npc_rv_extra_3,art/npc/sprites/npc_rv_extra_3.webp,False,,"Whereport 관계부사: 항구 선원복, 지도·나침반 소품",F009,
+rv_extra_4,rv,extra,Guard Beacon,,,guard,mobile,adult,any,npc_rv_extra_4,art/npc/sprites/npc_rv_extra_4.webp,False,,"Whereport 관계부사: 항구 선원복, 지도·나침반 소품",F010,
+rv_extra_5,rv,extra,Mapmaker Atlas,,,mapmaker,fixed,adult,any,npc_rv_extra_5,art/npc/sprites/npc_rv_extra_5.webp,False,,"Whereport 관계부사: 항구 선원복, 지도·나침반 소품",F010,
+rv_extra_6,rv,extra,Bell Keeper Chime,,,bell_keeper,fixed,adult,any,npc_rv_extra_6,art/npc/sprites/npc_rv_extra_6.webp,False,,"Whereport 관계부사: 항구 선원복, 지도·나침반 소품",F010,
+rv_extra_7,rv,extra,Carpenter Keel,,,carpenter,fixed,adult,any,npc_rv_extra_7,art/npc/sprites/npc_rv_extra_7.webp,False,,"Whereport 관계부사: 항구 선원복, 지도·나침반 소품",F010,
+rv_extra_8,rv,extra,Child Shell,,,child,mobile,child,any,npc_rv_extra_8,art/npc/sprites/npc_rv_extra_8.webp,False,,"Whereport 관계부사: 항구 선원복, 지도·나침반 소품",F010,
+rv_extra_9,rv,extra,Courier Tide,,,courier,mobile,adult,any,npc_rv_extra_9,art/npc/sprites/npc_rv_extra_9.webp,False,,"Whereport 관계부사: 항구 선원복, 지도·나침반 소품",F010,
+rv_extra_10,rv,extra,Fisher Marlin,,,fisher,mobile,adult,any,npc_rv_extra_10,art/npc/sprites/npc_rv_extra_10.webp,False,,"Whereport 관계부사: 항구 선원복, 지도·나침반 소품",F009,
+pc_o0,pc,original,Walker Ingmar,산책자 잉마르,산책자 윌,walker,mobile,adult,any,npc_pc_o0,art/npc/sprites/npc_pc_o0.webp,True,art/npc/sprites/npc_pc_o0_walk.webp,"Participle Canyon 분사: 협곡 암갈색·붉은 흙, 탐험가 복장",F002,W006
+pc_o1,pc,original,Student Knowing,학생 노잉,학생 카이,student,mobile,teen,any,npc_pc_o1,art/npc/sprites/npc_pc_o1.webp,True,art/npc/sprites/npc_pc_o1_walk.webp,"Participle Canyon 분사: 협곡 암갈색·붉은 흙, 탐험가 복장",F002,W006
+pc_o2,pc,original,Librarian Edlyn,사서 에들린,사서 아델,librarian,fixed,adult,any,npc_pc_o2,art/npc/sprites/npc_pc_o2.webp,False,,"Participle Canyon 분사: 협곡 암갈색·붉은 흙, 탐험가 복장",F002,
+pc_o3,pc,original,Faye,페이,소녀 하나,girl,mobile,child,f,npc_pc_o3,art/npc/sprites/npc_pc_o3.webp,True,art/npc/sprites/npc_pc_o3_walk.webp,"Participle Canyon 분사: 협곡 암갈색·붉은 흙, 탐험가 복장",F002,W006
+pc_extra_1,pc,extra,Mayor Cliff,,,mayor,fixed,adult,any,npc_pc_extra_1,art/npc/sprites/npc_pc_extra_1.webp,False,,"Participle Canyon 분사: 협곡 암갈색·붉은 흙, 탐험가 복장",F006,
+pc_extra_2,pc,extra,Grocer Stone,,,grocer,fixed,adult,any,npc_pc_extra_2,art/npc/sprites/npc_pc_extra_2.webp,False,,"Participle Canyon 분사: 협곡 암갈색·붉은 흙, 탐험가 복장",F007,
+pc_extra_3,pc,extra,Innkeeper Echo,,,innkeeper,fixed,adult,any,npc_pc_extra_3,art/npc/sprites/npc_pc_extra_3.webp,False,,"Participle Canyon 분사: 협곡 암갈색·붉은 흙, 탐험가 복장",F007,
+pc_extra_4,pc,extra,Guard Crag,,,guard,mobile,adult,any,npc_pc_extra_4,art/npc/sprites/npc_pc_extra_4.webp,False,,"Participle Canyon 분사: 협곡 암갈색·붉은 흙, 탐험가 복장",F007,
+pc_extra_5,pc,extra,Archaeologist Slate,,,archaeologist,fixed,adult,any,npc_pc_extra_5,art/npc/sprites/npc_pc_extra_5.webp,False,,"Participle Canyon 분사: 협곡 암갈색·붉은 흙, 탐험가 복장",F007,
+pc_extra_6,pc,extra,Scribe Rune,,,scribe,fixed,adult,any,npc_pc_extra_6,art/npc/sprites/npc_pc_extra_6.webp,False,,"Participle Canyon 분사: 협곡 암갈색·붉은 흙, 탐험가 복장",F007,
+pc_extra_7,pc,extra,Guide Ridge,,,guide,mobile,adult,any,npc_pc_extra_7,art/npc/sprites/npc_pc_extra_7.webp,False,,"Participle Canyon 분사: 협곡 암갈색·붉은 흙, 탐험가 복장",F007,
+pc_extra_8,pc,extra,Child Pebble,,,child,mobile,child,any,npc_pc_extra_8,art/npc/sprites/npc_pc_extra_8.webp,False,,"Participle Canyon 분사: 협곡 암갈색·붉은 흙, 탐험가 복장",F007,
+pc_extra_9,pc,extra,Courier Dust,,,courier,mobile,adult,any,npc_pc_extra_9,art/npc/sprites/npc_pc_extra_9.webp,False,,"Participle Canyon 분사: 협곡 암갈색·붉은 흙, 탐험가 복장",F007,
+pc_extra_10,pc,extra,Healer Aloe,,,healer,fixed,adult,any,npc_pc_extra_10,art/npc/sprites/npc_pc_extra_10.webp,False,,"Participle Canyon 분사: 협곡 암갈색·붉은 흙, 탐험가 복장",F006,
+sj_o0,sj,original,Falconer Ifan,새 조련사 이판,새 조련사 핀,falconer,mobile,adult,any,npc_sj_o0,art/npc/sprites/npc_sj_o0.webp,True,art/npc/sprites/npc_sj_o0_walk.webp,"Ifhaven 가정법: 소원·별·깃털 모티프, 몽환적 보라·남색",F003,W011
+sj_o1,sj,original,Merchant Woulden,상인 우든,상인 오토,merchant,fixed,adult,any,npc_sj_o1,art/npc/sprites/npc_sj_o1.webp,False,,"Ifhaven 가정법: 소원·별·깃털 모티프, 몽환적 보라·남색",F003,
+sj_o2,sj,original,Wisha,위샤,소녀 루나,girl,mobile,child,f,npc_sj_o2,art/npc/sprites/npc_sj_o2.webp,True,art/npc/sprites/npc_sj_o2_walk.webp,"Ifhaven 가정법: 소원·별·깃털 모티프, 몽환적 보라·남색",F003,W012
+sj_o3,sj,original,Student Hadley,학생 해들리,수험생 도윤,student,mobile,teen,any,npc_sj_o3,art/npc/sprites/npc_sj_o3.webp,True,art/npc/sprites/npc_sj_o3_walk.webp,"Ifhaven 가정법: 소원·별·깃털 모티프, 몽환적 보라·남색",F003,W012
+sj_extra_1,sj,extra,Mayor Wishwell,,,mayor,fixed,adult,any,npc_sj_extra_1,art/npc/sprites/npc_sj_extra_1.webp,False,,"Ifhaven 가정법: 소원·별·깃털 모티프, 몽환적 보라·남색",F010,
+sj_extra_2,sj,extra,Grocer Fig,,,grocer,fixed,adult,any,npc_sj_extra_2,art/npc/sprites/npc_sj_extra_2.webp,False,,"Ifhaven 가정법: 소원·별·깃털 모티프, 몽환적 보라·남색",F010,
+sj_extra_3,sj,extra,Innkeeper Dreama,,,innkeeper,fixed,adult,any,npc_sj_extra_3,art/npc/sprites/npc_sj_extra_3.webp,False,,"Ifhaven 가정법: 소원·별·깃털 모티프, 몽환적 보라·남색",F010,
+sj_extra_4,sj,extra,Guard Valor,,,guard,mobile,adult,any,npc_sj_extra_4,art/npc/sprites/npc_sj_extra_4.webp,False,,"Ifhaven 가정법: 소원·별·깃털 모티프, 몽환적 보라·남색",F010,
+sj_extra_5,sj,extra,Bird Keeper Lark,,,bird_keeper,fixed,adult,any,npc_sj_extra_5,art/npc/sprites/npc_sj_extra_5.webp,False,,"Ifhaven 가정법: 소원·별·깃털 모티프, 몽환적 보라·남색",F010,
+sj_extra_6,sj,extra,Letter Writer Pen,,,letter_writer,fixed,adult,any,npc_sj_extra_6,art/npc/sprites/npc_sj_extra_6.webp,False,,"Ifhaven 가정법: 소원·별·깃털 모티프, 몽환적 보라·남색",F010,
+sj_extra_7,sj,extra,Weaver Loom,,,weaver,fixed,adult,any,npc_sj_extra_7,art/npc/sprites/npc_sj_extra_7.webp,False,,"Ifhaven 가정법: 소원·별·깃털 모티프, 몽환적 보라·남색",F010,
+sj_extra_8,sj,extra,Child Dove,,,child,mobile,child,any,npc_sj_extra_8,art/npc/sprites/npc_sj_extra_8.webp,False,,"Ifhaven 가정법: 소원·별·깃털 모티프, 몽환적 보라·남색",F010,
+sj_extra_9,sj,extra,Courier Feather,,,courier,mobile,adult,any,npc_sj_extra_9,art/npc/sprites/npc_sj_extra_9.webp,False,,"Ifhaven 가정법: 소원·별·깃털 모티프, 몽환적 보라·남색",F010,
+sj_extra_10,sj,extra,Healer Mercy,,,healer,fixed,adult,any,npc_sj_extra_10,art/npc/sprites/npc_sj_extra_10.webp,False,,"Ifhaven 가정법: 소원·별·깃털 모티프, 몽환적 보라·남색",F010,
+cp_o0,cp,original,Runner Swift,달리기 선수 스위프트,달리기 선수 아이,runner,mobile,adult,any,npc_cp_o0,art/npc/sprites/npc_cp_o0.webp,True,art/npc/sprites/npc_cp_o0_walk.webp,"Compare Hills 비교: 달리기·경기장 운동복, 메달·저울 소품",F001,W001
+cp_o1,cp,original,Merchant Morella,상인 모렐라,가방 상인 릴리,merchant,fixed,adult,any,npc_cp_o1,art/npc/sprites/npc_cp_o1.webp,False,,"Compare Hills 비교: 달리기·경기장 운동복, 메달·저울 소품",F001,
+cp_o2,cp,original,Landlord Equal,집주인 이퀄,집주인 톰,landlord,mobile,adult,any,npc_cp_o2,art/npc/sprites/npc_cp_o2.webp,True,art/npc/sprites/npc_cp_o2_walk.webp,"Compare Hills 비교: 달리기·경기장 운동복, 메달·저울 소품",F001,W001
+cp_o3,cp,original,Teacher Beston,선생님 베스턴,선생님 앤,teacher,mobile,adult,any,npc_cp_o3,art/npc/sprites/npc_cp_o3.webp,True,art/npc/sprites/npc_cp_o3_walk.webp,"Compare Hills 비교: 달리기·경기장 운동복, 메달·저울 소품",F001,W001
+cp_extra_1,cp,extra,Mayor Summit,,,mayor,fixed,adult,any,npc_cp_extra_1,art/npc/sprites/npc_cp_extra_1.webp,False,,"Compare Hills 비교: 달리기·경기장 운동복, 메달·저울 소품",F004,
+cp_extra_2,cp,extra,Grocer Berry,,,grocer,fixed,adult,any,npc_cp_extra_2,art/npc/sprites/npc_cp_extra_2.webp,False,,"Compare Hills 비교: 달리기·경기장 운동복, 메달·저울 소품",F004,
+cp_extra_3,cp,extra,Innkeeper Pace,,,innkeeper,fixed,adult,any,npc_cp_extra_3,art/npc/sprites/npc_cp_extra_3.webp,False,,"Compare Hills 비교: 달리기·경기장 운동복, 메달·저울 소품",F004,
+cp_extra_4,cp,extra,Guard Ridgeway,,,guard,mobile,adult,any,npc_cp_extra_4,art/npc/sprites/npc_cp_extra_4.webp,False,,"Compare Hills 비교: 달리기·경기장 운동복, 메달·저울 소품",F004,
+cp_extra_5,cp,extra,Race Judge Merit,,,race_judge,mobile,adult,any,npc_cp_extra_5,art/npc/sprites/npc_cp_extra_5.webp,False,,"Compare Hills 비교: 달리기·경기장 운동복, 메달·저울 소품",F004,
+cp_extra_6,cp,extra,Coach Sprint,,,coach,mobile,adult,any,npc_cp_extra_6,art/npc/sprites/npc_cp_extra_6.webp,False,,"Compare Hills 비교: 달리기·경기장 운동복, 메달·저울 소품",F004,
+cp_extra_7,cp,extra,Medal Maker Goldie,,,medal_maker,fixed,adult,any,npc_cp_extra_7,art/npc/sprites/npc_cp_extra_7.webp,False,,"Compare Hills 비교: 달리기·경기장 운동복, 메달·저울 소품",F004,
+cp_extra_8,cp,extra,Child Dash,,,child,mobile,child,any,npc_cp_extra_8,art/npc/sprites/npc_cp_extra_8.webp,False,,"Compare Hills 비교: 달리기·경기장 운동복, 메달·저울 소품",F004,
+cp_extra_9,cp,extra,Courier Fleet,,,courier,mobile,adult,any,npc_cp_extra_9,art/npc/sprites/npc_cp_extra_9.webp,False,,"Compare Hills 비교: 달리기·경기장 운동복, 메달·저울 소품",F004,
+cp_extra_10,cp,extra,Healer Rest,,,healer,fixed,adult,any,npc_cp_extra_10,art/npc/sprites/npc_cp_extra_10.webp,False,,"Compare Hills 비교: 달리기·경기장 운동복, 메달·저울 소품",F004,
+pn_o0,pn,original,Bookseller Myra,책방 주인 마이라,책방 주인 메이,bookseller,fixed,adult,any,npc_pn_o0,art/npc/sprites/npc_pn_o0.webp,False,,"Pronovia 대명사/관사: 우체·상점가, 라벨·명찰 소품",F002,
+pn_o1,pn,original,Fruit Seller Annie,과일 장수 애니,과일 장수 오리,fruit_seller,fixed,adult,any,npc_pn_o1,art/npc/sprites/npc_pn_o1.webp,False,,"Pronovia 대명사/관사: 우체·상점가, 라벨·명찰 소품",F002,
+pn_o2,pn,original,Selma,셀마,소녀 지아,girl,mobile,child,f,npc_pn_o2,art/npc/sprites/npc_pn_o2.webp,True,art/npc/sprites/npc_pn_o2_walk.webp,"Pronovia 대명사/관사: 우체·상점가, 라벨·명찰 소품",F002,W008
+pn_o3,pn,original,Theo,테오,소년 레오,boy,mobile,child,m,npc_pn_o3,art/npc/sprites/npc_pn_o3.webp,True,art/npc/sprites/npc_pn_o3_walk.webp,"Pronovia 대명사/관사: 우체·상점가, 라벨·명찰 소품",F002,W008
+pn_extra_1,pn,extra,Mayor Proper,,,mayor,fixed,adult,any,npc_pn_extra_1,art/npc/sprites/npc_pn_extra_1.webp,False,,"Pronovia 대명사/관사: 우체·상점가, 라벨·명찰 소품",F008,
+pn_extra_2,pn,extra,Grocer Clementine,,,grocer,fixed,adult,any,npc_pn_extra_2,art/npc/sprites/npc_pn_extra_2.webp,False,,"Pronovia 대명사/관사: 우체·상점가, 라벨·명찰 소품",F008,
+pn_extra_3,pn,extra,Innkeeper Possy,,,innkeeper,fixed,adult,any,npc_pn_extra_3,art/npc/sprites/npc_pn_extra_3.webp,False,,"Pronovia 대명사/관사: 우체·상점가, 라벨·명찰 소품",F008,
+pn_extra_4,pn,extra,Guard Locke,,,guard,mobile,adult,any,npc_pn_extra_4,art/npc/sprites/npc_pn_extra_4.webp,False,,"Pronovia 대명사/관사: 우체·상점가, 라벨·명찰 소품",F008,
+pn_extra_5,pn,extra,Lost Property Clerk Tag,,,lost_property_clerk,fixed,adult,any,npc_pn_extra_5,art/npc/sprites/npc_pn_extra_5.webp,False,,"Pronovia 대명사/관사: 우체·상점가, 라벨·명찰 소품",F008,
+pn_extra_6,pn,extra,Umbrella Maker Rain,,,umbrella_maker,fixed,adult,any,npc_pn_extra_6,art/npc/sprites/npc_pn_extra_6.webp,False,,"Pronovia 대명사/관사: 우체·상점가, 라벨·명찰 소품",F008,
+pn_extra_7,pn,extra,Bookbinder Spine,,,bookbinder,fixed,adult,any,npc_pn_extra_7,art/npc/sprites/npc_pn_extra_7.webp,False,,"Pronovia 대명사/관사: 우체·상점가, 라벨·명찰 소품",F008,
+pn_extra_8,pn,extra,Child Penny,,,child,mobile,child,any,npc_pn_extra_8,art/npc/sprites/npc_pn_extra_8.webp,False,,"Pronovia 대명사/관사: 우체·상점가, 라벨·명찰 소품",F008,
+pn_extra_9,pn,extra,Courier Parcel,,,courier,mobile,adult,any,npc_pn_extra_9,art/npc/sprites/npc_pn_extra_9.webp,False,,"Pronovia 대명사/관사: 우체·상점가, 라벨·명찰 소품",F008,
+pn_extra_10,pn,extra,Tailor Hem,,,tailor,fixed,adult,any,npc_pn_extra_10,art/npc/sprites/npc_pn_extra_10.webp,False,,"Pronovia 대명사/관사: 우체·상점가, 라벨·명찰 소품",F008,
+ot_o0,ot,original,Sailor Byron,선원 바이런,선원 보,sailor,mobile,adult,any,npc_ot_o0,art/npc/sprites/npc_ot_o0.webp,True,art/npc/sprites/npc_ot_o0_walk.webp,"Prep Isles 전치사: 섬 선원·등대 복식, 위치 표지 소품",F002,W005
+ot_o1,ot,original,Onna,오나,소녀 수아,girl,mobile,child,f,npc_ot_o1,art/npc/sprites/npc_ot_o1.webp,True,art/npc/sprites/npc_ot_o1_walk.webp,"Prep Isles 전치사: 섬 선원·등대 복식, 위치 표지 소품",F002,W005
+ot_o2,ot,original,Teacher Atley,선생님 애틀리,수학 선생 라이언,teacher,mobile,adult,any,npc_ot_o2,art/npc/sprites/npc_ot_o2.webp,True,art/npc/sprites/npc_ot_o2_walk.webp,"Prep Isles 전치사: 섬 선원·등대 복식, 위치 표지 소품",F002,W005
+ot_o3,ot,original,Fisher Inna,어부 이나,어부 소피아,fisher,mobile,adult,any,npc_ot_o3,art/npc/sprites/npc_ot_o3.webp,True,art/npc/sprites/npc_ot_o3_walk.webp,"Prep Isles 전치사: 섬 선원·등대 복식, 위치 표지 소품",F002,W006
+ot_extra_1,ot,extra,Harbor Master Strait,,,harbor_master,fixed,adult,any,npc_ot_extra_1,art/npc/sprites/npc_ot_extra_1.webp,False,,"Prep Isles 전치사: 섬 선원·등대 복식, 위치 표지 소품",F006,
+ot_extra_2,ot,extra,Grocer Lime,,,grocer,fixed,adult,any,npc_ot_extra_2,art/npc/sprites/npc_ot_extra_2.webp,False,,"Prep Isles 전치사: 섬 선원·등대 복식, 위치 표지 소품",F006,
+ot_extra_3,ot,extra,Innkeeper Cove,,,innkeeper,fixed,adult,any,npc_ot_extra_3,art/npc/sprites/npc_ot_extra_3.webp,False,,"Prep Isles 전치사: 섬 선원·등대 복식, 위치 표지 소품",F006,
+ot_extra_4,ot,extra,Guard Moor,,,guard,mobile,adult,any,npc_ot_extra_4,art/npc/sprites/npc_ot_extra_4.webp,False,,"Prep Isles 전치사: 섬 선원·등대 복식, 위치 표지 소품",F006,
+ot_extra_5,ot,extra,Navigator North,,,navigator,mobile,adult,any,npc_ot_extra_5,art/npc/sprites/npc_ot_extra_5.webp,False,,"Prep Isles 전치사: 섬 선원·등대 복식, 위치 표지 소품",F006,
+ot_extra_6,ot,extra,Shipwright Hull,,,shipwright,fixed,adult,any,npc_ot_extra_6,art/npc/sprites/npc_ot_extra_6.webp,False,,"Prep Isles 전치사: 섬 선원·등대 복식, 위치 표지 소품",F006,
+ot_extra_7,ot,extra,Lighthouse Keeper Beam,,,lighthouse_keeper,fixed,adult,any,npc_ot_extra_7,art/npc/sprites/npc_ot_extra_7.webp,False,,"Prep Isles 전치사: 섬 선원·등대 복식, 위치 표지 소품",F006,
+ot_extra_8,ot,extra,Child Skipper,,,child,mobile,child,any,npc_ot_extra_8,art/npc/sprites/npc_ot_extra_8.webp,False,,"Prep Isles 전치사: 섬 선원·등대 복식, 위치 표지 소품",F006,
+ot_extra_9,ot,extra,Courier Wake,,,courier,mobile,adult,any,npc_ot_extra_9,art/npc/sprites/npc_ot_extra_9.webp,False,,"Prep Isles 전치사: 섬 선원·등대 복식, 위치 표지 소품",F006,
+ot_extra_10,ot,extra,Fisher Net,,,fisher,mobile,adult,any,npc_ot_extra_10,art/npc/sprites/npc_ot_extra_10.webp,False,,"Prep Isles 전치사: 섬 선원·등대 복식, 위치 표지 소품",F006,
+iv_o0,iv,original,Swimmer Finn,수영 선수 핀,수영 선수 진,swimmer,mobile,adult,any,npc_iv_o0,art/npc/sprites/npc_iv_o0.webp,True,art/npc/sprites/npc_iv_o0_walk.webp,Verbal Heights 부정사/동명사: 산악 여행자·등산 장비,F001,W003
+iv_o1,iv,original,Traveler Togo,여행자 토고,여행자 켄,traveler,mobile,adult,any,npc_iv_o1,art/npc/sprites/npc_iv_o1.webp,True,art/npc/sprites/npc_iv_o1_walk.webp,Verbal Heights 부정사/동명사: 산악 여행자·등산 장비,F001,W003
+iv_o2,iv,original,Linguist Infina,언어학자 인피나,언어학자 노라,linguist,mobile,adult,any,npc_iv_o2,art/npc/sprites/npc_iv_o2.webp,True,art/npc/sprites/npc_iv_o2_walk.webp,Verbal Heights 부정사/동명사: 산악 여행자·등산 장비,F001,W003
+iv_o3,iv,original,Chess Master Gerund,체스 챔피언 제룬드,체스 챔피언 막스,chess_master,fixed,adult,any,npc_iv_o3,art/npc/sprites/npc_iv_o3.webp,False,,Verbal Heights 부정사/동명사: 산악 여행자·등산 장비,F001,
+iv_extra_1,iv,extra,Mayor Verba,,,mayor,fixed,adult,any,npc_iv_extra_1,art/npc/sprites/npc_iv_extra_1.webp,False,,Verbal Heights 부정사/동명사: 산악 여행자·등산 장비,F005,
+iv_extra_2,iv,extra,Grocer Mint,,,grocer,fixed,adult,any,npc_iv_extra_2,art/npc/sprites/npc_iv_extra_2.webp,False,,Verbal Heights 부정사/동명사: 산악 여행자·등산 장비,F005,
+iv_extra_3,iv,extra,Innkeeper Vista,,,innkeeper,fixed,adult,any,npc_iv_extra_3,art/npc/sprites/npc_iv_extra_3.webp,False,,Verbal Heights 부정사/동명사: 산악 여행자·등산 장비,F005,
+iv_extra_4,iv,extra,Guard Peak,,,guard,mobile,adult,any,npc_iv_extra_4,art/npc/sprites/npc_iv_extra_4.webp,False,,Verbal Heights 부정사/동명사: 산악 여행자·등산 장비,F005,
+iv_extra_5,iv,extra,Travel Agent Journey,,,travel_agent,fixed,adult,any,npc_iv_extra_5,art/npc/sprites/npc_iv_extra_5.webp,False,,Verbal Heights 부정사/동명사: 산악 여행자·등산 장비,F005,
+iv_extra_6,iv,extra,Tutor Lex,,,tutor,fixed,adult,any,npc_iv_extra_6,art/npc/sprites/npc_iv_extra_6.webp,False,,Verbal Heights 부정사/동명사: 산악 여행자·등산 장비,F005,
+iv_extra_7,iv,extra,Equipment Maker Trek,,,equipment_maker,fixed,adult,any,npc_iv_extra_7,art/npc/sprites/npc_iv_extra_7.webp,False,,Verbal Heights 부정사/동명사: 산악 여행자·등산 장비,F005,
+iv_extra_8,iv,extra,Child Dream,,,child,mobile,child,any,npc_iv_extra_8,art/npc/sprites/npc_iv_extra_8.webp,False,,Verbal Heights 부정사/동명사: 산악 여행자·등산 장비,F005,
+iv_extra_9,iv,extra,Courier Trail,,,courier,mobile,adult,any,npc_iv_extra_9,art/npc/sprites/npc_iv_extra_9.webp,False,,Verbal Heights 부정사/동명사: 산악 여행자·등산 장비,F005,
+iv_extra_10,iv,extra,Healer Fernie,,,healer,fixed,adult,any,npc_iv_extra_10,art/npc/sprites/npc_iv_extra_10.webp,False,,Verbal Heights 부정사/동명사: 산악 여행자·등산 장비,F005,
+pe_o0,pe,original,Birdwatcher Seer,새 관찰자 시어,새 관찰자 에이,birdwatcher,mobile,adult,any,npc_pe_o0,art/npc/sprites/npc_pe_o0.webp,True,art/npc/sprites/npc_pe_o0_walk.webp,"Sensewood 지각/사역: 숲 감각 모티프, 귀·눈·방울 소품",F002,W007
+pe_o1,pe,original,Mother Maka,엄마 마카,엄마 베라,mother,mobile,adult,f,npc_pe_o1,art/npc/sprites/npc_pe_o1.webp,True,art/npc/sprites/npc_pe_o1_walk.webp,"Sensewood 지각/사역: 숲 감각 모티프, 귀·눈·방울 소품",F002,W007
+pe_o2,pe,original,Chef Savory,요리사 세이버리,요리사 간,chef,fixed,adult,any,npc_pe_o2,art/npc/sprites/npc_pe_o2.webp,False,,"Sensewood 지각/사역: 숲 감각 모티프, 귀·눈·방울 소품",F002,
+pe_o3,pe,original,Mechanic Fix,수리공 픽스,수리공 팀,mechanic,fixed,adult,any,npc_pe_o3,art/npc/sprites/npc_pe_o3.webp,False,,"Sensewood 지각/사역: 숲 감각 모티프, 귀·눈·방울 소품",F002,
+pe_extra_1,pe,extra,Mayor Sable,,,mayor,fixed,adult,any,npc_pe_extra_1,art/npc/sprites/npc_pe_extra_1.webp,False,,"Sensewood 지각/사역: 숲 감각 모티프, 귀·눈·방울 소품",F007,
+pe_extra_2,pe,extra,Grocer Thyme,,,grocer,fixed,adult,any,npc_pe_extra_2,art/npc/sprites/npc_pe_extra_2.webp,False,,"Sensewood 지각/사역: 숲 감각 모티프, 귀·눈·방울 소품",F007,
+pe_extra_3,pe,extra,Innkeeper Whisper,,,innkeeper,fixed,adult,any,npc_pe_extra_3,art/npc/sprites/npc_pe_extra_3.webp,False,,"Sensewood 지각/사역: 숲 감각 모티프, 귀·눈·방울 소품",F007,
+pe_extra_4,pe,extra,Guard Watch,,,guard,mobile,adult,any,npc_pe_extra_4,art/npc/sprites/npc_pe_extra_4.webp,False,,"Sensewood 지각/사역: 숲 감각 모티프, 귀·눈·방울 소품",F007,
+pe_extra_5,pe,extra,Forester Bark,,,forester,mobile,adult,any,npc_pe_extra_5,art/npc/sprites/npc_pe_extra_5.webp,False,,"Sensewood 지각/사역: 숲 감각 모티프, 귀·눈·방울 소품",F007,
+pe_extra_6,pe,extra,Herbalist Aroma,,,herbalist,fixed,adult,any,npc_pe_extra_6,art/npc/sprites/npc_pe_extra_6.webp,False,,"Sensewood 지각/사역: 숲 감각 모티프, 귀·눈·방울 소품",F007,
+pe_extra_7,pe,extra,Bell Maker Ring,,,bell_maker,fixed,adult,any,npc_pe_extra_7,art/npc/sprites/npc_pe_extra_7.webp,False,,"Sensewood 지각/사역: 숲 감각 모티프, 귀·눈·방울 소품",F007,
+pe_extra_8,pe,extra,Child Robin,,,child,mobile,child,any,npc_pe_extra_8,art/npc/sprites/npc_pe_extra_8.webp,False,,"Sensewood 지각/사역: 숲 감각 모티프, 귀·눈·방울 소품",F007,
+pe_extra_9,pe,extra,Courier Shade,,,courier,mobile,adult,any,npc_pe_extra_9,art/npc/sprites/npc_pe_extra_9.webp,False,,"Sensewood 지각/사역: 숲 감각 모티프, 귀·눈·방울 소품",F007,
+pe_extra_10,pe,extra,Healer Balm,,,healer,fixed,adult,any,npc_pe_extra_10,art/npc/sprites/npc_pe_extra_10.webp,False,,"Sensewood 지각/사역: 숲 감각 모티프, 귀·눈·방울 소품",F007,
+ng_o0,ng,original,Florist Flora,꽃집 주인 플로라,꽃집 아가씨 로사,florist,fixed,adult,any,npc_ng_o0,art/npc/sprites/npc_ng_o0.webp,False,,"Nounville 명사/명령/감탄: 축제 의상, 리본·꽃",F001,
+ng_o1,ng,original,Librarian Hush,사서 허쉬,사서 올리,librarian,fixed,adult,any,npc_ng_o1,art/npc/sprites/npc_ng_o1.webp,False,,"Nounville 명사/명령/감탄: 축제 의상, 리본·꽃",F001,
+ng_o2,ng,original,Baker Loaf,제빵사 로프,빵 가게 피트,baker,fixed,adult,any,npc_ng_o2,art/npc/sprites/npc_ng_o2.webp,False,,"Nounville 명사/명령/감탄: 축제 의상, 리본·꽃",F001,
+ng_o3,ng,original,Keeper Letty,공원지기 레티,공원지기 헨리,park_keeper,mobile,adult,any,npc_ng_o3,art/npc/sprites/npc_ng_o3.webp,True,art/npc/sprites/npc_ng_o3_walk.webp,"Nounville 명사/명령/감탄: 축제 의상, 리본·꽃",F001,W005
+ng_extra_1,ng,extra,Mayor Cheer,,,mayor,fixed,adult,any,npc_ng_extra_1,art/npc/sprites/npc_ng_extra_1.webp,False,,"Nounville 명사/명령/감탄: 축제 의상, 리본·꽃",F006,
+ng_extra_2,ng,extra,Grocer Honey,,,grocer,fixed,adult,any,npc_ng_extra_2,art/npc/sprites/npc_ng_extra_2.webp,False,,"Nounville 명사/명령/감탄: 축제 의상, 리본·꽃",F006,
+ng_extra_3,ng,extra,Innkeeper Merry,,,innkeeper,fixed,adult,any,npc_ng_extra_3,art/npc/sprites/npc_ng_extra_3.webp,False,,"Nounville 명사/명령/감탄: 축제 의상, 리본·꽃",F006,
+ng_extra_4,ng,extra,Guard Order,,,guard,mobile,adult,any,npc_ng_extra_4,art/npc/sprites/npc_ng_extra_4.webp,False,,"Nounville 명사/명령/감탄: 축제 의상, 리본·꽃",F006,
+ng_extra_5,ng,extra,Stage Manager Cue,,,stage_manager,fixed,adult,any,npc_ng_extra_5,art/npc/sprites/npc_ng_extra_5.webp,False,,"Nounville 명사/명령/감탄: 축제 의상, 리본·꽃",F006,
+ng_extra_6,ng,extra,Musician Melody,,,musician,mobile,adult,any,npc_ng_extra_6,art/npc/sprites/npc_ng_extra_6.webp,False,,"Nounville 명사/명령/감탄: 축제 의상, 리본·꽃",F006,
+ng_extra_7,ng,extra,Decor Maker Ribbon,,,decor_maker,fixed,adult,any,npc_ng_extra_7,art/npc/sprites/npc_ng_extra_7.webp,False,,"Nounville 명사/명령/감탄: 축제 의상, 리본·꽃",F006,
+ng_extra_8,ng,extra,Child Joy,,,child,mobile,child,any,npc_ng_extra_8,art/npc/sprites/npc_ng_extra_8.webp,False,,"Nounville 명사/명령/감탄: 축제 의상, 리본·꽃",F006,
+ng_extra_9,ng,extra,Courier Fest,,,courier,mobile,adult,any,npc_ng_extra_9,art/npc/sprites/npc_ng_extra_9.webp,False,,"Nounville 명사/명령/감탄: 축제 의상, 리본·꽃",F006,
+ng_extra_10,ng,extra,Healer Clover,,,healer,fixed,adult,any,npc_ng_extra_10,art/npc/sprites/npc_ng_extra_10.webp,False,,"Nounville 명사/명령/감탄: 축제 의상, 리본·꽃",F006,
+rs_o0,rs,original,Postman Tell,우체부 텔,우체부 샘,postman,mobile,adult,any,npc_rs_o0,art/npc/sprites/npc_rs_o0.webp,True,art/npc/sprites/npc_rs_o0_walk.webp,"Speechport 화법/간접의문: 항구 우편·밀랍 인장, 말풍선 모티프",F003,W010
+rs_o1,rs,original,Detective Ask,탐정 애스크,탐정 노아,detective,mobile,adult,any,npc_rs_o1,art/npc/sprites/npc_rs_o1.webp,True,art/npc/sprites/npc_rs_o1_walk.webp,"Speechport 화법/간접의문: 항구 우편·밀랍 인장, 말풍선 모티프",F003,W010
+rs_o2,rs,original,Student Quora,학생 쿼라,학생 미나,student,mobile,teen,any,npc_rs_o2,art/npc/sprites/npc_rs_o2.webp,True,art/npc/sprites/npc_rs_o2_walk.webp,"Speechport 화법/간접의문: 항구 우편·밀랍 인장, 말풍선 모티프",F003,W010
+rs_o3,rs,original,Guide Wenda,안내원 웬다,안내원 수,guide,mobile,adult,any,npc_rs_o3,art/npc/sprites/npc_rs_o3.webp,True,art/npc/sprites/npc_rs_o3_walk.webp,"Speechport 화법/간접의문: 항구 우편·밀랍 인장, 말풍선 모티프",F003,W010
+rs_extra_1,rs,extra,Mayor Herald,,,mayor,fixed,adult,any,npc_rs_extra_1,art/npc/sprites/npc_rs_extra_1.webp,False,,"Speechport 화법/간접의문: 항구 우편·밀랍 인장, 말풍선 모티프",F009,
+rs_extra_2,rs,extra,Grocer Peach,,,grocer,fixed,adult,any,npc_rs_extra_2,art/npc/sprites/npc_rs_extra_2.webp,False,,"Speechport 화법/간접의문: 항구 우편·밀랍 인장, 말풍선 모티프",F009,
+rs_extra_3,rs,extra,Innkeeper Rumor,,,innkeeper,fixed,adult,any,npc_rs_extra_3,art/npc/sprites/npc_rs_extra_3.webp,False,,"Speechport 화법/간접의문: 항구 우편·밀랍 인장, 말풍선 모티프",F009,
+rs_extra_4,rs,extra,Guard Gate,,,guard,mobile,adult,any,npc_rs_extra_4,art/npc/sprites/npc_rs_extra_4.webp,False,,"Speechport 화법/간접의문: 항구 우편·밀랍 인장, 말풍선 모티프",F009,
+rs_extra_5,rs,extra,Seal Keeper Wax,,,seal_keeper,fixed,adult,any,npc_rs_extra_5,art/npc/sprites/npc_rs_extra_5.webp,False,,"Speechport 화법/간접의문: 항구 우편·밀랍 인장, 말풍선 모티프",F009,
+rs_extra_6,rs,extra,Messenger Reedley,,,messenger,mobile,adult,any,npc_rs_extra_6,art/npc/sprites/npc_rs_extra_6.webp,False,,"Speechport 화법/간접의문: 항구 우편·밀랍 인장, 말풍선 모티프",F009,
+rs_extra_7,rs,extra,Translator Gloss,,,translator,fixed,adult,any,npc_rs_extra_7,art/npc/sprites/npc_rs_extra_7.webp,False,,"Speechport 화법/간접의문: 항구 우편·밀랍 인장, 말풍선 모티프",F009,
+rs_extra_8,rs,extra,Child Note,,,child,mobile,child,any,npc_rs_extra_8,art/npc/sprites/npc_rs_extra_8.webp,False,,"Speechport 화법/간접의문: 항구 우편·밀랍 인장, 말풍선 모티프",F009,
+rs_extra_9,rs,extra,Courier Dispatch,,,courier,mobile,adult,any,npc_rs_extra_9,art/npc/sprites/npc_rs_extra_9.webp,False,,"Speechport 화법/간접의문: 항구 우편·밀랍 인장, 말풍선 모티프",F009,
+rs_extra_10,rs,extra,Healer Patience,,,healer,fixed,adult,any,npc_rs_extra_10,art/npc/sprites/npc_rs_extra_10.webp,False,,"Speechport 화법/간접의문: 항구 우편·밀랍 인장, 말풍선 모티프",F009,
+sx_o0,sx,original,Captain Never,선장 네버,선장 아벨,captain,mobile,adult,any,npc_sx_o0,art/npc/sprites/npc_sx_o0.webp,True,art/npc/sprites/npc_sx_o0_walk.webp,"Inversion Keep 도치/강조: 성채 문장, 대칭 무늬·강조 부호",F003,W012
+sx_o1,sx,original,Officer Emphas,경찰 엠파스,경찰 로건,officer,mobile,adult,any,npc_sx_o1,art/npc/sprites/npc_sx_o1.webp,True,art/npc/sprites/npc_sx_o1_walk.webp,"Inversion Keep 도치/강조: 성채 문장, 대칭 무늬·강조 부호",F003,W012
+sx_o2,sx,original,Artist Parallel,예술가 패럴렐,예술가 비비,artist,fixed,adult,any,npc_sx_o2,art/npc/sprites/npc_sx_o2.webp,False,,"Inversion Keep 도치/강조: 성채 문장, 대칭 무늬·강조 부호",F003,
+sx_o3,sx,original,Keeper Apposia,성지기 아포시아,성지기 클라라,park_keeper,mobile,adult,any,npc_sx_o3,art/npc/sprites/npc_sx_o3.webp,True,art/npc/sprites/npc_sx_o3_walk.webp,"Inversion Keep 도치/강조: 성채 문장, 대칭 무늬·강조 부호",F003,W013
+sx_extra_1,sx,extra,Castellan Crown,,,castellan,fixed,adult,any,npc_sx_extra_1,art/npc/sprites/npc_sx_extra_1.webp,False,,"Inversion Keep 도치/강조: 성채 문장, 대칭 무늬·강조 부호",F010,
+sx_extra_2,sx,extra,Grocer Chestnut,,,grocer,fixed,adult,any,npc_sx_extra_2,art/npc/sprites/npc_sx_extra_2.webp,False,,"Inversion Keep 도치/강조: 성채 문장, 대칭 무늬·강조 부호",F010,
+sx_extra_3,sx,extra,Innkeeper Havenly,,,innkeeper,fixed,adult,any,npc_sx_extra_3,art/npc/sprites/npc_sx_extra_3.webp,False,,"Inversion Keep 도치/강조: 성채 문장, 대칭 무늬·강조 부호",F010,
+sx_extra_4,sx,extra,Guard Bastion,,,guard,mobile,adult,any,npc_sx_extra_4,art/npc/sprites/npc_sx_extra_4.webp,False,,"Inversion Keep 도치/강조: 성채 문장, 대칭 무늬·강조 부호",F010,
+sx_extra_5,sx,extra,Locksmith Silver,,,locksmith,fixed,adult,any,npc_sx_extra_5,art/npc/sprites/npc_sx_extra_5.webp,False,,"Inversion Keep 도치/강조: 성채 문장, 대칭 무늬·강조 부호",F010,
+sx_extra_6,sx,extra,Historian Verse,,,historian,fixed,adult,any,npc_sx_extra_6,art/npc/sprites/npc_sx_extra_6.webp,False,,"Inversion Keep 도치/강조: 성채 문장, 대칭 무늬·강조 부호",F010,
+sx_extra_7,sx,extra,Stoneworker Arch,,,stoneworker,fixed,adult,any,npc_sx_extra_7,art/npc/sprites/npc_sx_extra_7.webp,False,,"Inversion Keep 도치/강조: 성채 문장, 대칭 무늬·강조 부호",F010,
+sx_extra_8,sx,extra,Child Page,,,child,mobile,child,any,npc_sx_extra_8,art/npc/sprites/npc_sx_extra_8.webp,False,,"Inversion Keep 도치/강조: 성채 문장, 대칭 무늬·강조 부호",F011,
+sx_extra_9,sx,extra,Courier Crest,,,courier,mobile,adult,any,npc_sx_extra_9,art/npc/sprites/npc_sx_extra_9.webp,False,,"Inversion Keep 도치/강조: 성채 문장, 대칭 무늬·강조 부호",F011,
+sx_extra_10,sx,extra,Healer Grace,,,healer,fixed,adult,any,npc_sx_extra_10,art/npc/sprites/npc_sx_extra_10.webp,False,,"Inversion Keep 도치/강조: 성채 문장, 대칭 무늬·강조 부호",F010,

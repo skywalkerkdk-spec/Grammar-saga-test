@@ -1,0 +1,735 @@
+{
+  "version": "0.2",
+  "room": {
+    "id": "reading_room",
+    "en": "Reading Room",
+    "ko": "열람실"
+  },
+  "books": [
+    {
+      "id": "history",
+      "title_en": "Chronicles of Grammatica",
+      "title_ko": "그래머 대륙 연대기",
+      "genre": "historical_account",
+      "volumes": [
+        {
+          "id": "history_1",
+          "number": 1,
+          "title_en": "Before the Roads",
+          "title_ko": "길이 없던 시대",
+          "en": "Long ago, the villages stood far apart. A traveler could spend days looking for a safe road. The first mapmakers met beside a lake and shared their maps. They marked wells, bridges, and places to rest. For the first time, a road belonged to more than one village.\n\nOne map ended at the lake; another began at the same shore. By laying them side by side, the mapmakers found a route neither village had known.",
+          "ko": "오래전 마을들은 멀리 떨어져 있었다. 여행자는 안전한 길을 찾느라 며칠을 보내기도 했다. 최초의 지도 제작자들은 호숫가에서 만나 지도를 공유했다. 그들은 우물과 다리, 쉼터를 표시했다. 처음으로 하나의 길이 여러 마을을 이어 주었다.\n\n한 지도는 호숫가에서 끝났고 다른 지도는 같은 물가에서 시작했다. 지도 제작자들은 두 지도를 나란히 놓고 어느 마을도 모르던 길을 찾았다.",
+          "unlock": {
+            "registered_pages": 0
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Long ago, the villages stood far apart.",
+              "ko": "오래전 마을들은 멀리 떨어져 있었다."
+            },
+            {
+              "en": "A traveler could spend days looking for a safe road.",
+              "ko": "여행자는 안전한 길을 찾느라 며칠을 보내기도 했다."
+            },
+            {
+              "en": "The first mapmakers met beside a lake and shared their maps.",
+              "ko": "최초의 지도 제작자들은 호숫가에서 만나 지도를 공유했다."
+            },
+            {
+              "en": "They marked wells, bridges, and places to rest.",
+              "ko": "그들은 우물과 다리, 쉼터를 표시했다."
+            },
+            {
+              "en": "For the first time, a road belonged to more than one village.",
+              "ko": "처음으로 하나의 길이 여러 마을을 이어 주었다."
+            },
+            {
+              "en": "One map ended at the lake; another began at the same shore.",
+              "ko": "한 지도는 호숫가에서 끝났고 다른 지도는 같은 물가에서 시작했다."
+            },
+            {
+              "en": "By laying them side by side, the mapmakers found a route neither village had known.",
+              "ko": "지도 제작자들은 두 지도를 나란히 놓고 어느 마을도 모르던 길을 찾았다."
+            }
+          ]
+        },
+        {
+          "id": "history_2",
+          "number": 2,
+          "title_en": "The Common Book",
+          "title_ko": "모두의 책",
+          "en": "Teachers from distant villages gathered in a small hall. Each brought a book of examples. They disagreed about many things, but they listened to one another. Their work became the first collection of the Grammatica. They left empty pages for future readers.\n\nA teacher crossed out a village expression, and its speaker asked her to read it aloud first. The group kept the expression and added a note explaining where it was used.",
+          "ko": "멀리 떨어진 마을의 교사들이 작은 전당에 모였다. 각자 예문을 담은 책을 가져왔다. 여러 문제에서 의견이 달랐지만 서로의 말을 들었다. 그들의 작업은 그라마티카의 첫 모음집이 되었다. 미래의 독자들을 위해 빈 페이지도 남겼다.\n\n한 교사가 어느 마을의 표현에 줄을 긋자 그 말을 쓰던 사람이 먼저 소리 내어 읽어 보라고 부탁했다. 사람들은 그 표현을 남기고 어디에서 쓰이는지 설명을 덧붙였다.",
+          "unlock": {
+            "registered_pages": 3
+          },
+          "previous_volume": "history_1",
+          "segments": [
+            {
+              "en": "Teachers from distant villages gathered in a small hall.",
+              "ko": "멀리 떨어진 마을의 교사들이 작은 전당에 모였다."
+            },
+            {
+              "en": "Each brought a book of examples.",
+              "ko": "각자 예문을 담은 책을 가져왔다."
+            },
+            {
+              "en": "They disagreed about many things, but they listened to one another.",
+              "ko": "여러 문제에서 의견이 달랐지만 서로의 말을 들었다."
+            },
+            {
+              "en": "Their work became the first collection of the Grammatica.",
+              "ko": "그들의 작업은 그라마티카의 첫 모음집이 되었다."
+            },
+            {
+              "en": "They left empty pages for future readers.",
+              "ko": "미래의 독자들을 위해 빈 페이지도 남겼다."
+            },
+            {
+              "en": "A teacher crossed out a village expression, and its speaker asked her to read it aloud first.",
+              "ko": "한 교사가 어느 마을의 표현에 줄을 긋자 그 말을 쓰던 사람이 먼저 소리 내어 읽어 보라고 부탁했다."
+            },
+            {
+              "en": "The group kept the expression and added a note explaining where it was used.",
+              "ko": "사람들은 그 표현을 남기고 어디에서 쓰이는지 설명을 덧붙였다."
+            }
+          ]
+        },
+        {
+          "id": "history_3",
+          "number": 3,
+          "title_en": "The Winter of Closed Gates",
+          "title_ko": "닫힌 성문의 겨울",
+          "en": "During a hard winter, several villages closed their gates. A false report said that travelers carried a dangerous illness. A healer visited the villages and checked the report. She found no evidence for the claim. The gates opened again, but the fear lasted much longer.\n\nAt one gate, a driver had been waiting with a load of firewood. The healer wrote down who had seen him and who had merely heard his name.",
+          "ko": "혹독한 겨울에 몇몇 마을이 성문을 닫았다. 여행자들이 위험한 병을 옮긴다는 거짓 보고가 있었다. 한 치료사가 마을들을 방문해 보고를 확인했다. 그 주장에 대한 근거는 없었다. 성문은 다시 열렸지만 두려움은 훨씬 오래 남았다.\n\n어느 성문 앞에는 장작을 싣고 기다리는 마부가 있었다. 치료사는 그를 본 사람과 그의 이름만 전해 들은 사람을 구분해 적었다.",
+          "unlock": {
+            "registered_pages": 6
+          },
+          "previous_volume": "history_2",
+          "segments": [
+            {
+              "en": "During a hard winter, several villages closed their gates.",
+              "ko": "혹독한 겨울에 몇몇 마을이 성문을 닫았다."
+            },
+            {
+              "en": "A false report said that travelers carried a dangerous illness.",
+              "ko": "여행자들이 위험한 병을 옮긴다는 거짓 보고가 있었다."
+            },
+            {
+              "en": "A healer visited the villages and checked the report.",
+              "ko": "한 치료사가 마을들을 방문해 보고를 확인했다."
+            },
+            {
+              "en": "She found no evidence for the claim.",
+              "ko": "그 주장에 대한 근거는 없었다."
+            },
+            {
+              "en": "The gates opened again, but the fear lasted much longer.",
+              "ko": "성문은 다시 열렸지만 두려움은 훨씬 오래 남았다."
+            },
+            {
+              "en": "At one gate, a driver had been waiting with a load of firewood.",
+              "ko": "어느 성문 앞에는 장작을 싣고 기다리는 마부가 있었다."
+            },
+            {
+              "en": "The healer wrote down who had seen him and who had merely heard his name.",
+              "ko": "치료사는 그를 본 사람과 그의 이름만 전해 들은 사람을 구분해 적었다."
+            }
+          ]
+        },
+        {
+          "id": "history_4",
+          "number": 4,
+          "title_en": "The Keeper's Promise",
+          "title_ko": "관리인의 약속",
+          "en": "The library keepers learned a lesson from that winter. They decided to preserve original records, even when new copies were made. A keeper could correct a mistake, but could not secretly erase an old account. Every correction needed a reason. This promise became the rule of the great library.\n\nThe first keeper demonstrated the rule with a date that had been copied incorrectly. She placed the two versions together so that readers could follow her correction.",
+          "ko": "도서관 관리인들은 그 겨울에서 교훈을 얻었다. 새 사본을 만들더라도 원본 기록을 보존하기로 했다. 관리인은 오류를 고칠 수 있었지만 옛 기록을 몰래 지울 수는 없었다. 모든 수정에는 이유가 필요했다. 이 약속은 대도서관의 규칙이 되었다.\n\n첫 사서는 잘못 옮긴 날짜를 예로 들어 그 규칙을 보여 주었다. 독자가 수정 과정을 따라갈 수 있도록 두 판본을 나란히 두었다.",
+          "unlock": {
+            "registered_pages": 12
+          },
+          "previous_volume": "history_3",
+          "segments": [
+            {
+              "en": "The library keepers learned a lesson from that winter.",
+              "ko": "도서관 관리인들은 그 겨울에서 교훈을 얻었다."
+            },
+            {
+              "en": "They decided to preserve original records, even when new copies were made.",
+              "ko": "새 사본을 만들더라도 원본 기록을 보존하기로 했다."
+            },
+            {
+              "en": "A keeper could correct a mistake, but could not secretly erase an old account.",
+              "ko": "관리인은 오류를 고칠 수 있었지만 옛 기록을 몰래 지울 수는 없었다."
+            },
+            {
+              "en": "Every correction needed a reason.",
+              "ko": "모든 수정에는 이유가 필요했다."
+            },
+            {
+              "en": "This promise became the rule of the great library.",
+              "ko": "이 약속은 대도서관의 규칙이 되었다."
+            },
+            {
+              "en": "The first keeper demonstrated the rule with a date that had been copied incorrectly.",
+              "ko": "첫 사서는 잘못 옮긴 날짜를 예로 들어 그 규칙을 보여 주었다."
+            },
+            {
+              "en": "She placed the two versions together so that readers could follow her correction.",
+              "ko": "독자가 수정 과정을 따라갈 수 있도록 두 판본을 나란히 두었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hero",
+      "title_en": "The Road of the Lantern",
+      "title_ko": "등불을 따라 걷는 길",
+      "genre": "historical_fiction",
+      "volumes": [
+        {
+          "id": "hero_1",
+          "number": 1,
+          "title_en": "A Baker's Son",
+          "title_ko": "제빵사의 아들",
+          "en": "Eren was a baker's son who wanted to see the sea. He had no sword and very little money. His mother gave him bread and a small lantern. On his first night away from home, he met a girl beside a broken cart. Her name was Mira, and she was carrying a map.\n\nEren tried to lift the cart, but its wheel sank deeper into the mud. Mira asked him to collect flat stones instead. They placed the stones under the wheel and pushed together. When the cart finally moved, Eren offered her half his bread. Mira unfolded her map and showed him a road that led toward the coast.",
+          "ko": "에렌은 바다를 보고 싶어 하는 제빵사의 아들이었다. 검도 없었고 돈도 거의 없었다. 어머니는 빵과 작은 등불을 주었다. 집을 떠난 첫날 밤, 그는 부서진 수레 옆에서 소녀를 만났다. 이름은 미라였고 지도를 가지고 있었다.\n\n에렌은 수레를 들어 올리려 했지만 바퀴가 진흙에 더 깊이 빠졌다. 미라는 대신 납작한 돌을 모아 달라고 했다. 두 사람은 바퀴 아래 돌을 놓고 함께 밀었다. 마침내 수레가 움직이자 에렌은 빵의 절반을 건넸다. 미라는 지도를 펼쳐 해안으로 이어지는 길을 보여 주었다.",
+          "unlock": {
+            "registered_pages": 0
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Eren was a baker's son who wanted to see the sea.",
+              "ko": "에렌은 바다를 보고 싶어 하는 제빵사의 아들이었다."
+            },
+            {
+              "en": "He had no sword and very little money.",
+              "ko": "검도 없었고 돈도 거의 없었다."
+            },
+            {
+              "en": "His mother gave him bread and a small lantern.",
+              "ko": "어머니는 빵과 작은 등불을 주었다."
+            },
+            {
+              "en": "On his first night away from home, he met a girl beside a broken cart.",
+              "ko": "집을 떠난 첫날 밤, 그는 부서진 수레 옆에서 소녀를 만났다."
+            },
+            {
+              "en": "Her name was Mira, and she was carrying a map.",
+              "ko": "이름은 미라였고 지도를 가지고 있었다."
+            },
+            {
+              "en": "Eren tried to lift the cart, but its wheel sank deeper into the mud.",
+              "ko": "에렌은 수레를 들어 올리려 했지만 바퀴가 진흙에 더 깊이 빠졌다."
+            },
+            {
+              "en": "Mira asked him to collect flat stones instead.",
+              "ko": "미라는 대신 납작한 돌을 모아 달라고 했다."
+            },
+            {
+              "en": "They placed the stones under the wheel and pushed together.",
+              "ko": "두 사람은 바퀴 아래 돌을 놓고 함께 밀었다."
+            },
+            {
+              "en": "When the cart finally moved, Eren offered her half his bread.",
+              "ko": "마침내 수레가 움직이자 에렌은 빵의 절반을 건넸다."
+            },
+            {
+              "en": "Mira unfolded her map and showed him a road that led toward the coast.",
+              "ko": "미라는 지도를 펼쳐 해안으로 이어지는 길을 보여 주었다."
+            }
+          ]
+        },
+        {
+          "id": "hero_2",
+          "number": 2,
+          "title_en": "The River Crossing",
+          "title_ko": "강을 건너다",
+          "en": "Mira knew a path to the river, but the bridge was gone. Eren wanted to swim across. Mira stopped him and pointed to a boat tied to a tree. They asked the boatman for help and carried his baskets in return. By sunset, they were on the other side.\n\nThe boatman was preparing to close his little ferry for the day. His baskets were full of wet clothes, and he could not move them quickly. Eren carried the baskets while Mira helped him count them. On the boat, Eren admitted that he had never crossed such a wide river. The boatman smiled and told him that asking for help was part of traveling.",
+          "ko": "미라는 강으로 가는 길을 알았지만 다리가 사라져 있었다. 에렌은 헤엄쳐 건너려 했다. 미라는 그를 말리고 나무에 묶인 배를 가리켰다. 두 사람은 뱃사공에게 도움을 청하고 보답으로 바구니를 날라 주었다. 해 질 무렵 강 건너편에 도착했다.\n\n뱃사공은 그날의 나룻배 운행을 마치려 했다. 바구니에는 젖은 옷이 가득했고 그는 빨리 옮길 수 없었다. 에렌은 바구니를 나르고 미라는 개수를 세는 일을 도왔다. 배 위에서 에렌은 이렇게 넓은 강을 건너 본 적이 없다고 인정했다. 뱃사공은 웃으며 도움을 청하는 것도 여행의 일부라고 말했다.",
+          "unlock": {
+            "registered_pages": 3
+          },
+          "previous_volume": "hero_1",
+          "segments": [
+            {
+              "en": "Mira knew a path to the river, but the bridge was gone.",
+              "ko": "미라는 강으로 가는 길을 알았지만 다리가 사라져 있었다."
+            },
+            {
+              "en": "Eren wanted to swim across.",
+              "ko": "에렌은 헤엄쳐 건너려 했다."
+            },
+            {
+              "en": "Mira stopped him and pointed to a boat tied to a tree.",
+              "ko": "미라는 그를 말리고 나무에 묶인 배를 가리켰다."
+            },
+            {
+              "en": "They asked the boatman for help and carried his baskets in return.",
+              "ko": "두 사람은 뱃사공에게 도움을 청하고 보답으로 바구니를 날라 주었다."
+            },
+            {
+              "en": "By sunset, they were on the other side.",
+              "ko": "해 질 무렵 강 건너편에 도착했다."
+            },
+            {
+              "en": "The boatman was preparing to close his little ferry for the day.",
+              "ko": "뱃사공은 그날의 나룻배 운행을 마치려 했다."
+            },
+            {
+              "en": "His baskets were full of wet clothes, and he could not move them quickly.",
+              "ko": "바구니에는 젖은 옷이 가득했고 그는 빨리 옮길 수 없었다."
+            },
+            {
+              "en": "Eren carried the baskets while Mira helped him count them.",
+              "ko": "에렌은 바구니를 나르고 미라는 개수를 세는 일을 도왔다."
+            },
+            {
+              "en": "On the boat, Eren admitted that he had never crossed such a wide river.",
+              "ko": "배 위에서 에렌은 이렇게 넓은 강을 건너 본 적이 없다고 인정했다."
+            },
+            {
+              "en": "The boatman smiled and told him that asking for help was part of traveling.",
+              "ko": "뱃사공은 웃으며 도움을 청하는 것도 여행의 일부라고 말했다."
+            }
+          ]
+        },
+        {
+          "id": "hero_3",
+          "number": 3,
+          "title_en": "The Empty Inn",
+          "title_ko": "텅 빈 여관",
+          "en": "At the next village, the inn was empty. Its owner had left to help people after a storm. Eren and Mira found a note asking travelers to leave the door open. They cleaned the rooms and lit their lantern. That evening, three tired strangers found a warm place to sleep.\n\nOne of the strangers was a woman carrying a sleeping child. Another had lost his shoes in the storm. Mira found dry blankets while Eren shared the last of his bread. In the morning, the owner returned and offered them breakfast. Before leaving, Mira marked the inn on her map so that other travelers could find it.",
+          "ko": "다음 마을의 여관은 비어 있었다. 주인은 폭풍 피해를 입은 사람들을 돕기 위해 떠났다. 에렌과 미라는 여행자들에게 문을 열어 두라는 쪽지를 발견했다. 두 사람은 방을 청소하고 등불을 켰다. 그날 저녁 지친 낯선 사람 세 명이 따뜻한 잠자리를 찾았다.\n\n낯선 사람 중 한 명은 잠든 아이를 안은 여인이었다. 다른 사람은 폭풍에 신발을 잃었다. 미라는 마른 담요를 찾았고 에렌은 남은 빵을 나누었다. 아침에 주인이 돌아와 아침 식사를 대접했다. 떠나기 전에 미라는 다른 여행자들이 찾을 수 있도록 지도에 여관을 표시했다.",
+          "unlock": {
+            "registered_pages": 6
+          },
+          "previous_volume": "hero_2",
+          "segments": [
+            {
+              "en": "At the next village, the inn was empty.",
+              "ko": "다음 마을의 여관은 비어 있었다."
+            },
+            {
+              "en": "Its owner had left to help people after a storm.",
+              "ko": "주인은 폭풍 피해를 입은 사람들을 돕기 위해 떠났다."
+            },
+            {
+              "en": "Eren and Mira found a note asking travelers to leave the door open.",
+              "ko": "에렌과 미라는 여행자들에게 문을 열어 두라는 쪽지를 발견했다."
+            },
+            {
+              "en": "They cleaned the rooms and lit their lantern.",
+              "ko": "두 사람은 방을 청소하고 등불을 켰다."
+            },
+            {
+              "en": "That evening, three tired strangers found a warm place to sleep.",
+              "ko": "그날 저녁 지친 낯선 사람 세 명이 따뜻한 잠자리를 찾았다."
+            },
+            {
+              "en": "One of the strangers was a woman carrying a sleeping child.",
+              "ko": "낯선 사람 중 한 명은 잠든 아이를 안은 여인이었다."
+            },
+            {
+              "en": "Another had lost his shoes in the storm.",
+              "ko": "다른 사람은 폭풍에 신발을 잃었다."
+            },
+            {
+              "en": "Mira found dry blankets while Eren shared the last of his bread.",
+              "ko": "미라는 마른 담요를 찾았고 에렌은 남은 빵을 나누었다."
+            },
+            {
+              "en": "In the morning, the owner returned and offered them breakfast.",
+              "ko": "아침에 주인이 돌아와 아침 식사를 대접했다."
+            },
+            {
+              "en": "Before leaving, Mira marked the inn on her map so that other travelers could find it.",
+              "ko": "떠나기 전에 미라는 다른 여행자들이 찾을 수 있도록 지도에 여관을 표시했다."
+            }
+          ]
+        },
+        {
+          "id": "hero_4",
+          "number": 4,
+          "title_en": "The False Guide",
+          "title_ko": "거짓 안내자",
+          "en": "A guide offered to take them to the sea. He said that the old road was closed, but Mira's map showed another path. They asked a woodworker about the road. He told them that the guide had never visited the coast. Eren learned that a confident voice was not always a truthful one.\n\nThe guide wanted payment before showing them the road. Eren almost handed him their remaining coins. Mira asked the woodworker to draw the next two turns on a scrap of paper. His drawing matched the old map. They thanked him and kept their money for the journey. From then on, Eren asked how people knew what they claimed to know.",
+          "ko": "한 안내자가 바다까지 데려다주겠다고 했다. 옛길이 막혔다고 했지만 미라의 지도에는 다른 길이 있었다. 두 사람은 목공에게 길을 물었다. 그는 안내자가 해안에 가 본 적이 없다고 말했다. 에렌은 자신감 있는 목소리가 언제나 진실을 말하는 것은 아님을 배웠다.\n\n안내인은 길을 보여 주기 전에 돈을 요구했다. 에렌은 남은 동전을 거의 건넬 뻔했다. 미라는 목수에게 종잇조각에 다음 두 갈림길을 그려 달라고 했다. 그림은 옛 지도와 일치했다. 두 사람은 감사 인사를 하고 여행 경비를 아꼈다. 그때부터 에렌은 사람들이 주장하는 사실을 어떻게 알게 되었는지 물었다.",
+          "unlock": {
+            "registered_pages": 9
+          },
+          "previous_volume": "hero_3",
+          "segments": [
+            {
+              "en": "A guide offered to take them to the sea.",
+              "ko": "한 안내자가 바다까지 데려다주겠다고 했다."
+            },
+            {
+              "en": "He said that the old road was closed, but Mira's map showed another path.",
+              "ko": "옛길이 막혔다고 했지만 미라의 지도에는 다른 길이 있었다."
+            },
+            {
+              "en": "They asked a woodworker about the road.",
+              "ko": "두 사람은 목공에게 길을 물었다."
+            },
+            {
+              "en": "He told them that the guide had never visited the coast.",
+              "ko": "그는 안내자가 해안에 가 본 적이 없다고 말했다."
+            },
+            {
+              "en": "Eren learned that a confident voice was not always a truthful one.",
+              "ko": "에렌은 자신감 있는 목소리가 언제나 진실을 말하는 것은 아님을 배웠다."
+            },
+            {
+              "en": "The guide wanted payment before showing them the road.",
+              "ko": "안내인은 길을 보여 주기 전에 돈을 요구했다."
+            },
+            {
+              "en": "Eren almost handed him their remaining coins.",
+              "ko": "에렌은 남은 동전을 거의 건넬 뻔했다."
+            },
+            {
+              "en": "Mira asked the woodworker to draw the next two turns on a scrap of paper.",
+              "ko": "미라는 목수에게 종잇조각에 다음 두 갈림길을 그려 달라고 했다."
+            },
+            {
+              "en": "His drawing matched the old map.",
+              "ko": "그림은 옛 지도와 일치했다."
+            },
+            {
+              "en": "They thanked him and kept their money for the journey.",
+              "ko": "두 사람은 감사 인사를 하고 여행 경비를 아꼈다."
+            },
+            {
+              "en": "From then on, Eren asked how people knew what they claimed to know.",
+              "ko": "그때부터 에렌은 사람들이 주장하는 사실을 어떻게 알게 되었는지 물었다."
+            }
+          ]
+        },
+        {
+          "id": "hero_5",
+          "number": 5,
+          "title_en": "The Last Lantern",
+          "title_ko": "마지막 등불",
+          "en": "At last they reached the harbor. A storm had put out the harbor light, and a fishing boat was still at sea. Mira found the keeper while Eren helped carry oil to the tower. Together they lit the great lamp. When the boat returned, Eren forgot all about becoming a famous hero.\n\nThe keeper's hands were shaking after the long storm. Mira held the door while Eren brought the oil inside. They watched the lamp shine across the dark water. A woman on the shore called out when she saw the returning boat. Eren understood why the keeper climbed the tower every evening, even when nobody thanked him.",
+          "ko": "마침내 항구에 도착했다. 폭풍으로 항구의 불빛이 꺼졌고 어선 한 척이 아직 바다에 있었다. 미라는 관리인을 찾고 에렌은 탑으로 기름을 나르는 일을 도왔다. 함께 큰 등불을 밝혔다. 배가 돌아오자 에렌은 유명한 영웅이 되겠다는 생각을 잊었다.\n\n긴 폭풍 뒤 등대지기의 손은 떨리고 있었다. 미라가 문을 잡고 에렌이 기름을 안으로 가져왔다. 두 사람은 등불이 어두운 바다를 비추는 것을 지켜보았다. 해안의 한 여인이 돌아오는 배를 보고 소리쳤다. 에렌은 아무도 감사하지 않을 때조차 등대지기가 매일 저녁 탑을 오르는 이유를 이해했다.",
+          "unlock": {
+            "registered_pages": 12
+          },
+          "previous_volume": "hero_4",
+          "segments": [
+            {
+              "en": "At last they reached the harbor.",
+              "ko": "마침내 항구에 도착했다."
+            },
+            {
+              "en": "A storm had put out the harbor light, and a fishing boat was still at sea.",
+              "ko": "폭풍으로 항구의 불빛이 꺼졌고 어선 한 척이 아직 바다에 있었다."
+            },
+            {
+              "en": "Mira found the keeper while Eren helped carry oil to the tower.",
+              "ko": "미라는 관리인을 찾고 에렌은 탑으로 기름을 나르는 일을 도왔다."
+            },
+            {
+              "en": "Together they lit the great lamp.",
+              "ko": "함께 큰 등불을 밝혔다."
+            },
+            {
+              "en": "When the boat returned, Eren forgot all about becoming a famous hero.",
+              "ko": "배가 돌아오자 에렌은 유명한 영웅이 되겠다는 생각을 잊었다."
+            },
+            {
+              "en": "The keeper's hands were shaking after the long storm.",
+              "ko": "긴 폭풍 뒤 등대지기의 손은 떨리고 있었다."
+            },
+            {
+              "en": "Mira held the door while Eren brought the oil inside.",
+              "ko": "미라가 문을 잡고 에렌이 기름을 안으로 가져왔다."
+            },
+            {
+              "en": "They watched the lamp shine across the dark water.",
+              "ko": "두 사람은 등불이 어두운 바다를 비추는 것을 지켜보았다."
+            },
+            {
+              "en": "A woman on the shore called out when she saw the returning boat.",
+              "ko": "해안의 한 여인이 돌아오는 배를 보고 소리쳤다."
+            },
+            {
+              "en": "Eren understood why the keeper climbed the tower every evening, even when nobody thanked him.",
+              "ko": "에렌은 아무도 감사하지 않을 때조차 등대지기가 매일 저녁 탑을 오르는 이유를 이해했다."
+            }
+          ]
+        },
+        {
+          "id": "hero_6",
+          "number": 6,
+          "title_en": "A Road for Others",
+          "title_ko": "다른 사람들을 위한 길",
+          "en": "Years later, Mira drew a new map and Eren opened a small shelter. They placed a sign beside the door: a bird above a broken circle. It meant that every traveler was welcome. Eren never became a king. Yet people remembered the road he helped to build.\n\nOne winter evening, a young traveler arrived with a torn map. Eren gave her a meal while Mira repaired the map. The traveler asked whether they had once been great adventurers. Mira laughed and pointed to the names of the people who had helped them. Before leaving, the traveler copied the shelter sign into her own notebook.",
+          "ko": "세월이 흐른 뒤 미라는 새 지도를 그렸고 에렌은 작은 쉼터를 열었다. 문 옆에 끊어진 원 위의 새 문양을 달았다. 모든 여행자를 환영한다는 뜻이었다. 에렌은 왕이 되지 않았다. 그러나 사람들은 그가 만드는 데 힘을 보탠 길을 기억했다.\n\n어느 겨울 저녁, 젊은 여행자가 찢어진 지도를 들고 찾아왔다. 에렌은 식사를 대접하고 미라는 지도를 수리했다. 여행자는 두 사람이 한때 위대한 모험가였는지 물었다. 미라는 웃으며 자신들을 도운 사람들의 이름을 가리켰다. 떠나기 전에 여행자는 쉼터 문양을 자신의 수첩에 옮겨 그렸다.",
+          "unlock": {
+            "registered_pages": 15
+          },
+          "previous_volume": "hero_5",
+          "segments": [
+            {
+              "en": "Years later, Mira drew a new map and Eren opened a small shelter.",
+              "ko": "세월이 흐른 뒤 미라는 새 지도를 그렸고 에렌은 작은 쉼터를 열었다."
+            },
+            {
+              "en": "They placed a sign beside the door: a bird above a broken circle.",
+              "ko": "문 옆에 끊어진 원 위의 새 문양을 달았다."
+            },
+            {
+              "en": "It meant that every traveler was welcome.",
+              "ko": "모든 여행자를 환영한다는 뜻이었다."
+            },
+            {
+              "en": "Eren never became a king.",
+              "ko": "에렌은 왕이 되지 않았다."
+            },
+            {
+              "en": "Yet people remembered the road he helped to build.",
+              "ko": "그러나 사람들은 그가 만드는 데 힘을 보탠 길을 기억했다."
+            },
+            {
+              "en": "One winter evening, a young traveler arrived with a torn map.",
+              "ko": "어느 겨울 저녁, 젊은 여행자가 찢어진 지도를 들고 찾아왔다."
+            },
+            {
+              "en": "Eren gave her a meal while Mira repaired the map.",
+              "ko": "에렌은 식사를 대접하고 미라는 지도를 수리했다."
+            },
+            {
+              "en": "The traveler asked whether they had once been great adventurers.",
+              "ko": "여행자는 두 사람이 한때 위대한 모험가였는지 물었다."
+            },
+            {
+              "en": "Mira laughed and pointed to the names of the people who had helped them.",
+              "ko": "미라는 웃으며 자신들을 도운 사람들의 이름을 가리켰다."
+            },
+            {
+              "en": "Before leaving, the traveler copied the shelter sign into her own notebook.",
+              "ko": "떠나기 전에 여행자는 쉼터 문양을 자신의 수첩에 옮겨 그렸다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guardians",
+      "title_en": "Songs of the Guardians",
+      "title_ko": "수호자들의 노래",
+      "genre": "folklore",
+      "volumes": [
+        {
+          "id": "guardians_1",
+          "number": 1,
+          "title_en": "The Bee and the Field",
+          "title_ko": "벌과 들판",
+          "en": "An old song tells of a great bee that watched over the meadow. Farmers left flowers beside the road so that bees could find food. In return, the guardian warned them when storms approached. No one knows how much of the song is true. The flower gardens remain.\n\nIn the song, a farmer watches the bees fly low and brings the baskets inside. The storm breaks before she can reach the far field, but the seed she saved lasts until spring.",
+          "ko": "옛 노래에는 초원을 지키던 거대한 벌 이야기가 나온다. 농부들은 벌이 먹이를 찾도록 길가에 꽃을 심었다. 수호자는 보답으로 폭풍이 다가오면 경고했다. 노래의 어느 부분까지 사실인지는 아무도 모른다. 꽃밭은 지금도 남아 있다.\n\n노래 속 농부는 벌들이 낮게 나는 것을 보고 바구니를 안으로 옮긴다. 먼 밭에 닿기도 전에 폭풍이 몰아치지만, 그녀가 건진 씨앗은 봄까지 남는다.",
+          "unlock": {
+            "registered_pages": 0
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "An old song tells of a great bee that watched over the meadow.",
+              "ko": "옛 노래에는 초원을 지키던 거대한 벌 이야기가 나온다."
+            },
+            {
+              "en": "Farmers left flowers beside the road so that bees could find food.",
+              "ko": "농부들은 벌이 먹이를 찾도록 길가에 꽃을 심었다."
+            },
+            {
+              "en": "In return, the guardian warned them when storms approached.",
+              "ko": "수호자는 보답으로 폭풍이 다가오면 경고했다."
+            },
+            {
+              "en": "No one knows how much of the song is true.",
+              "ko": "노래의 어느 부분까지 사실인지는 아무도 모른다."
+            },
+            {
+              "en": "The flower gardens remain.",
+              "ko": "꽃밭은 지금도 남아 있다."
+            },
+            {
+              "en": "In the song, a farmer watches the bees fly low and brings the baskets inside.",
+              "ko": "노래 속 농부는 벌들이 낮게 나는 것을 보고 바구니를 안으로 옮긴다."
+            },
+            {
+              "en": "The storm breaks before she can reach the far field, but the seed she saved lasts until spring.",
+              "ko": "먼 밭에 닿기도 전에 폭풍이 몰아치지만, 그녀가 건진 씨앗은 봄까지 남는다."
+            }
+          ]
+        },
+        {
+          "id": "guardians_2",
+          "number": 2,
+          "title_en": "The Clock and the Child",
+          "title_ko": "시계와 아이",
+          "en": "A tale from Tensefield describes a keeper who never slept. One day a child asked him why he counted every hour. The keeper answered that time was a gift, not a chain. The child went home and spent the evening with her family. People still tell this tale at the town clock.\n\nThe child had planned to spend the evening counting bells from her window. Instead, she asked her grandmother to teach her a song before the last bell rang.",
+          "ko": "텐스필드의 설화에는 잠들지 않는 수호자가 등장한다. 어느 날 아이가 왜 모든 시간을 세느냐고 물었다. 수호자는 시간이 사슬이 아니라 선물이라고 답했다. 아이는 집으로 돌아가 가족과 저녁을 보냈다. 사람들은 지금도 마을 시계 앞에서 이 이야기를 전한다.\n\n아이는 저녁 내내 창가에서 종소리를 셀 생각이었다. 하지만 마지막 종이 울리기 전에 할머니에게 노래 한 곡을 가르쳐 달라고 했다.",
+          "unlock": {
+            "registered_pages": 6
+          },
+          "previous_volume": "guardians_1",
+          "segments": [
+            {
+              "en": "A tale from Tensefield describes a keeper who never slept.",
+              "ko": "텐스필드의 설화에는 잠들지 않는 수호자가 등장한다."
+            },
+            {
+              "en": "One day a child asked him why he counted every hour.",
+              "ko": "어느 날 아이가 왜 모든 시간을 세느냐고 물었다."
+            },
+            {
+              "en": "The keeper answered that time was a gift, not a chain.",
+              "ko": "수호자는 시간이 사슬이 아니라 선물이라고 답했다."
+            },
+            {
+              "en": "The child went home and spent the evening with her family.",
+              "ko": "아이는 집으로 돌아가 가족과 저녁을 보냈다."
+            },
+            {
+              "en": "People still tell this tale at the town clock.",
+              "ko": "사람들은 지금도 마을 시계 앞에서 이 이야기를 전한다."
+            },
+            {
+              "en": "The child had planned to spend the evening counting bells from her window.",
+              "ko": "아이는 저녁 내내 창가에서 종소리를 셀 생각이었다."
+            },
+            {
+              "en": "Instead, she asked her grandmother to teach her a song before the last bell rang.",
+              "ko": "하지만 마지막 종이 울리기 전에 할머니에게 노래 한 곡을 가르쳐 달라고 했다."
+            }
+          ]
+        },
+        {
+          "id": "guardians_3",
+          "number": 3,
+          "title_en": "The Lake's Reflection",
+          "title_ko": "호수에 비친 모습",
+          "en": "A fisherman once blamed the lake guardian for a lost boat. His daughter found the boat caught among reeds. The fisherman apologized and promised to check the shore before making another accusation. The tale is often told to children who are quick to blame others.\n\nFrom the landing, the fisherman could see a reflection but no boat. His daughter walked around the bend, where the reeds hid the hull from view.",
+          "ko": "한 어부가 잃어버린 배 때문에 호수 수호자를 탓했다. 딸은 갈대 사이에 걸린 배를 발견했다. 어부는 사과하고 다음부터 누군가를 탓하기 전에 물가를 살피겠다고 약속했다. 이 이야기는 남을 성급히 탓하는 아이들에게 자주 전해진다.\n\n선착장에서는 물에 비친 모습만 보이고 배는 보이지 않았다. 딸이 물굽이를 돌아가 보니 갈대가 배의 몸체를 가리고 있었다.",
+          "unlock": {
+            "registered_pages": 9
+          },
+          "previous_volume": "guardians_2",
+          "segments": [
+            {
+              "en": "A fisherman once blamed the lake guardian for a lost boat.",
+              "ko": "한 어부가 잃어버린 배 때문에 호수 수호자를 탓했다."
+            },
+            {
+              "en": "His daughter found the boat caught among reeds.",
+              "ko": "딸은 갈대 사이에 걸린 배를 발견했다."
+            },
+            {
+              "en": "The fisherman apologized and promised to check the shore before making another accusation.",
+              "ko": "어부는 사과하고 다음부터 누군가를 탓하기 전에 물가를 살피겠다고 약속했다."
+            },
+            {
+              "en": "The tale is often told to children who are quick to blame others.",
+              "ko": "이 이야기는 남을 성급히 탓하는 아이들에게 자주 전해진다."
+            },
+            {
+              "en": "From the landing, the fisherman could see a reflection but no boat.",
+              "ko": "선착장에서는 물에 비친 모습만 보이고 배는 보이지 않았다."
+            },
+            {
+              "en": "His daughter walked around the bend, where the reeds hid the hull from view.",
+              "ko": "딸이 물굽이를 돌아가 보니 갈대가 배의 몸체를 가리고 있었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "letters",
+      "title_en": "Letters from the Old Road",
+      "title_ko": "옛길에서 온 편지",
+      "genre": "personal_letters_with_permission",
+      "volumes": [
+        {
+          "id": "letters_1",
+          "number": 1,
+          "title_en": "To My Friend",
+          "title_ko": "친구에게",
+          "en": "The guest room has a plain wooden table where we could sit and finish our tea. If the road is closed, please write first; I would rather wait than have you travel in a storm. Dear friend, the new inn is small, but the window looks toward the harbor. I have kept the cup you gave me. When the wind is quiet, I can hear the boats returning. I hope you will visit before winter. Your friend, Bay.",
+          "ko": "손님방에는 함께 앉아 차를 마실 수 있는 수수한 나무 탁자가 있어. 길이 막혀 있으면 먼저 편지를 보내 줘. 네가 폭풍을 뚫고 오느니 기다리는 편이 좋아. 친구에게. 새 여관은 작지만 창문이 항구를 향해 있어. 네가 준 찻잔을 간직하고 있단다. 바람이 잔잔하면 돌아오는 배 소리를 들을 수 있어. 겨울이 오기 전에 찾아오면 좋겠어. 친구 베이가.",
+          "unlock": {
+            "quest": "regional_3_complete",
+            "permission_scene": true
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "The guest room has a plain wooden table where we could sit and finish our tea.",
+              "ko": "손님방에는 함께 앉아 차를 마실 수 있는 수수한 나무 탁자가 있어."
+            },
+            {
+              "en": "If the road is closed, please write first; I would rather wait than have you travel in a storm.",
+              "ko": "길이 막혀 있으면 먼저 편지를 보내 줘. 네가 폭풍을 뚫고 오느니 기다리는 편이 좋아."
+            },
+            {
+              "en": "Dear friend, the new inn is small, but the window looks toward the harbor. I have kept the cup you gave me. When the wind is quiet, I can hear the boats returning. I hope you will visit before winter. Your friend, Bay.",
+              "ko": "친구에게. 새 여관은 작지만 창문이 항구를 향해 있어. 네가 준 찻잔을 간직하고 있단다. 바람이 잔잔하면 돌아오는 배 소리를 들을 수 있어. 겨울이 오기 전에 찾아오면 좋겠어. 친구 베이가."
+            }
+          ]
+        },
+        {
+          "id": "letters_2",
+          "number": 2,
+          "title_en": "A Reply at Last",
+          "title_ko": "마침내 도착한 답장",
+          "en": "I will ask at the ferry office before I travel and send word when I know the date. In the meantime, I have set the cup where I can see it each morning. Dear Bay, your letter reached me at last. I am sorry that so many years have passed. I still have the other cup from our old tea set. Perhaps we can use them together again. There will always be a room for you here. Your friend, Palm.",
+          "ko": "떠나기 전에 나루터 사무소에 물어보고 날짜가 정해지면 소식을 보낼게. 그동안은 아침마다 볼 수 있는 곳에 찻잔을 두려고 해. 베이에게. 네 편지가 마침내 도착했어. 이렇게 많은 세월이 흘러 미안해. 우리 옛 찻잔 세트의 나머지 잔도 아직 갖고 있어. 다시 함께 사용할 수 있으면 좋겠다. 여기에는 언제나 네가 묵을 방이 있을 거야. 친구 팜이.",
+          "unlock": {
+            "quest": "regional_3_complete",
+            "permission_scene": true
+          },
+          "previous_volume": "letters_1",
+          "segments": [
+            {
+              "en": "I will ask at the ferry office before I travel and send word when I know the date.",
+              "ko": "떠나기 전에 나루터 사무소에 물어보고 날짜가 정해지면 소식을 보낼게."
+            },
+            {
+              "en": "In the meantime, I have set the cup where I can see it each morning.",
+              "ko": "그동안은 아침마다 볼 수 있는 곳에 찻잔을 두려고 해."
+            },
+            {
+              "en": "Dear Bay, your letter reached me at last. I am sorry that so many years have passed. I still have the other cup from our old tea set. Perhaps we can use them together again. There will always be a room for you here. Your friend, Palm.",
+              "ko": "베이에게. 네 편지가 마침내 도착했어. 이렇게 많은 세월이 흘러 미안해. 우리 옛 찻잔 세트의 나머지 잔도 아직 갖고 있어. 다시 함께 사용할 수 있으면 좋겠다. 여기에는 언제나 네가 묵을 방이 있을 거야. 친구 팜이."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "policy": {
+    "optional": true,
+    "read_order": "recommend previous volume; never lock main progression",
+    "unlock": "unique registered page count or explicit quest completion; no fixed town order",
+    "privacy": "letters require fictional authors' permission scene before display",
+    "canon": "new proposed history; hero series historical fiction inspired by old travelers guild, not verified genealogy; guardian tales explicitly folklore",
+    "callbacks": [
+      {
+        "volume": "hero_6",
+        "quest": "regional_4",
+        "effect": "optional recognition of guild symbol; no quest prerequisite"
+      },
+      {
+        "volume": "letters_2",
+        "quest": "regional_3",
+        "effect": "optional follow-up conversation after permission"
+      }
+    ],
+    "renderer": "English and natural Korean; sentence/chunk alignment pending; bookmark and reread; no mandatory quiz",
+    "scope": "Chapter II only; no new assets or game code"
+  }
+}

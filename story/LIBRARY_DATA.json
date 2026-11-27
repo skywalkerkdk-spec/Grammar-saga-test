@@ -1,0 +1,1831 @@
+{
+  "version": "0.1",
+  "status": "new proposed content",
+  "name_en": "Grammar Grand Library",
+  "name_ko": "그래머 대도서관",
+  "librarian": "Lexion",
+  "existing_dungeon_id": "d16",
+  "palette": [
+    "#F5CF83",
+    "#91C9FF",
+    "#9CE0AD",
+    "#D4B5FA",
+    "#F4A9B9"
+  ],
+  "intro_ref": "STORY_DATA.json#library_intro",
+  "rooms": [
+    {
+      "id": "grammatica",
+      "en": "Grammatica Chamber",
+      "ko": "그라마티카 복원실"
+    },
+    {
+      "id": "grammar",
+      "en": "Grammar Archive",
+      "ko": "문법 자료실"
+    },
+    {
+      "id": "world",
+      "en": "World Encyclopedia",
+      "ko": "세계관 도감"
+    },
+    {
+      "id": "monsters",
+      "en": "Monster Encyclopedia",
+      "ko": "몬스터 도감"
+    },
+    {
+      "id": "journal",
+      "en": "Adventure Journal",
+      "ko": "모험 일지"
+    },
+    {
+      "id": "secret",
+      "en": "Secret Archive",
+      "ko": "비밀 기록실"
+    }
+  ],
+  "pages": [
+    {
+      "id": "grammatica_01",
+      "town_id": "g1",
+      "en": "Page of Identity",
+      "ko": "정체성의 페이지",
+      "grammar": "be동사",
+      "number": 1
+    },
+    {
+      "id": "grammatica_02",
+      "town_id": "g2",
+      "en": "Page of Questions",
+      "ko": "질문의 페이지",
+      "grammar": "의문문·부정문",
+      "number": 2
+    },
+    {
+      "id": "grammatica_03",
+      "town_id": "tn",
+      "en": "Page of Time",
+      "ko": "시간의 페이지",
+      "grammar": "시제",
+      "number": 3
+    },
+    {
+      "id": "grammatica_04",
+      "town_id": "md",
+      "en": "Page of Possibility",
+      "ko": "가능성의 페이지",
+      "grammar": "조동사",
+      "number": 4
+    },
+    {
+      "id": "grammatica_05",
+      "town_id": "rp",
+      "en": "Page of Connection",
+      "ko": "연결의 페이지",
+      "grammar": "관계대명사",
+      "number": 5
+    },
+    {
+      "id": "grammatica_06",
+      "town_id": "ps",
+      "en": "Page of Action",
+      "ko": "행동의 페이지",
+      "grammar": "수동태",
+      "number": 6
+    },
+    {
+      "id": "grammatica_07",
+      "town_id": "pf",
+      "en": "Page of Memory",
+      "ko": "기억의 페이지",
+      "grammar": "완료",
+      "number": 7
+    },
+    {
+      "id": "grammatica_08",
+      "town_id": "rv",
+      "en": "Page of Place",
+      "ko": "장소의 페이지",
+      "grammar": "관계부사",
+      "number": 8
+    },
+    {
+      "id": "grammatica_09",
+      "town_id": "pc",
+      "en": "Page of Records",
+      "ko": "기록의 페이지",
+      "grammar": "분사구문",
+      "number": 9
+    },
+    {
+      "id": "grammatica_10",
+      "town_id": "sj",
+      "en": "Page of Wishes",
+      "ko": "소망의 페이지",
+      "grammar": "가정법",
+      "number": 10
+    },
+    {
+      "id": "grammatica_11",
+      "town_id": "cp",
+      "en": "Page of Comparison",
+      "ko": "비교의 페이지",
+      "grammar": "비교급·최상급",
+      "number": 11
+    },
+    {
+      "id": "grammatica_12",
+      "town_id": "pn",
+      "en": "Page of Ownership",
+      "ko": "소유의 페이지",
+      "grammar": "대명사·관사",
+      "number": 12
+    },
+    {
+      "id": "grammatica_13",
+      "town_id": "ot",
+      "en": "Page of Direction",
+      "ko": "방향의 페이지",
+      "grammar": "전치사",
+      "number": 13
+    },
+    {
+      "id": "grammatica_14",
+      "town_id": "iv",
+      "en": "Page of Purpose",
+      "ko": "목적의 페이지",
+      "grammar": "to부정사·동명사",
+      "number": 14
+    },
+    {
+      "id": "grammatica_15",
+      "town_id": "pe",
+      "en": "Page of Senses",
+      "ko": "감각의 페이지",
+      "grammar": "지각·사역·감각동사",
+      "number": 15
+    },
+    {
+      "id": "grammatica_16",
+      "town_id": "ng",
+      "en": "Page of Exclamation",
+      "ko": "감탄의 페이지",
+      "grammar": "명사·명령문·감탄문",
+      "number": 16
+    },
+    {
+      "id": "grammatica_17",
+      "town_id": "rs",
+      "en": "Page of Messages",
+      "ko": "전달의 페이지",
+      "grammar": "화법·간접의문문",
+      "number": 17
+    },
+    {
+      "id": "grammatica_18",
+      "town_id": "sx",
+      "en": "Page of Order",
+      "ko": "질서의 페이지",
+      "grammar": "도치·강조·병렬·동격",
+      "number": 18
+    }
+  ],
+  "grammar": [
+    {
+      "town_id": "g1",
+      "title_ko": "be동사",
+      "rule_ko": "be동사는 주어의 상태·신분·위치를 나타낸다. 현재형은 I am, 3인칭 단수 is, you와 복수 are이다.",
+      "examples": [
+        {
+          "en": "I am a guardian.",
+          "ko_direct": "나는 ~이다 / 수호자.",
+          "chunks": [
+            {
+              "en": "I am",
+              "ko": "나는 ~이다"
+            },
+            {
+              "en": "a guardian.",
+              "ko": "수호자."
+            }
+          ]
+        },
+        {
+          "en": "The pages are in the book.",
+          "ko_direct": "페이지들은 있다 / 책 속에.",
+          "chunks": [
+            {
+              "en": "The pages are",
+              "ko": "페이지들은 있다"
+            },
+            {
+              "en": "in the book.",
+              "ko": "책 속에."
+            }
+          ]
+        }
+      ],
+      "review": {
+        "question_en": "She ___ a librarian.",
+        "options": [
+          "am",
+          "is",
+          "are"
+        ],
+        "correct_index": 1,
+        "feedback_ko": "She는 3인칭 단수이므로 is."
+      }
+    },
+    {
+      "town_id": "g2",
+      "title_ko": "의문문·부정문",
+      "rule_ko": "be동사는 주어 앞에 옮겨 질문하고 not을 붙여 부정한다. 일반동사의 현재형은 do/does를 사용하며 뒤에는 동사원형을 쓴다.",
+      "examples": [
+        {
+          "en": "Does he like fish?",
+          "ko_direct": "그는 ~하는가 / 생선을 좋아하다?",
+          "chunks": [
+            {
+              "en": "Does he",
+              "ko": "그는 ~하는가"
+            },
+            {
+              "en": "like fish?",
+              "ko": "생선을 좋아하다?"
+            }
+          ]
+        },
+        {
+          "en": "She does not eat meat.",
+          "ko_direct": "그녀는 ~하지 않는다 / 고기를 먹다.",
+          "chunks": [
+            {
+              "en": "She does not",
+              "ko": "그녀는 ~하지 않는다"
+            },
+            {
+              "en": "eat meat.",
+              "ko": "고기를 먹다."
+            }
+          ]
+        }
+      ],
+      "review": {
+        "question_en": "Does he ___ bread?",
+        "options": [
+          "likes",
+          "like",
+          "liked"
+        ],
+        "correct_index": 1,
+        "feedback_ko": "does 뒤에는 동사원형."
+      }
+    },
+    {
+      "town_id": "tn",
+      "title_ko": "시제",
+      "rule_ko": "현재는 습관·사실, 과거는 끝난 과거 사건, will은 미래 예측·의지 등에 사용한다. 현재진행은 be + -ing이다.",
+      "examples": [
+        {
+          "en": "I baked bread yesterday.",
+          "ko_direct": "나는 빵을 구웠다 / 어제.",
+          "chunks": [
+            {
+              "en": "I baked bread",
+              "ko": "나는 빵을 구웠다"
+            },
+            {
+              "en": "yesterday.",
+              "ko": "어제."
+            }
+          ]
+        },
+        {
+          "en": "I am reading now.",
+          "ko_direct": "나는 읽고 있다 / 지금.",
+          "chunks": [
+            {
+              "en": "I am reading",
+              "ko": "나는 읽고 있다"
+            },
+            {
+              "en": "now.",
+              "ko": "지금."
+            }
+          ]
+        }
+      ],
+      "review": {
+        "question_en": "Yesterday we ___ the gate.",
+        "options": [
+          "open",
+          "opened",
+          "will open"
+        ],
+        "correct_index": 1,
+        "feedback_ko": "Yesterday는 끝난 과거 시점."
+      }
+    },
+    {
+      "town_id": "md",
+      "title_ko": "조동사",
+      "rule_ko": "조동사 can, must, may, will 뒤에는 동사원형을 쓴다. must not은 금지, do not have to는 불필요를 뜻한다.",
+      "examples": [
+        {
+          "en": "You must wear a helmet.",
+          "ko_direct": "너는 반드시 ~해야 한다 / 안전모를 쓰다.",
+          "chunks": [
+            {
+              "en": "You must",
+              "ko": "너는 반드시 ~해야 한다"
+            },
+            {
+              "en": "wear a helmet.",
+              "ko": "안전모를 쓰다."
+            }
+          ]
+        },
+        {
+          "en": "We can cross the river.",
+          "ko_direct": "우리는 ~할 수 있다 / 강을 건너다.",
+          "chunks": [
+            {
+              "en": "We can",
+              "ko": "우리는 ~할 수 있다"
+            },
+            {
+              "en": "cross the river.",
+              "ko": "강을 건너다."
+            }
+          ]
+        }
+      ],
+      "review": {
+        "question_en": "She can ___ English.",
+        "options": [
+          "speaks",
+          "to speak",
+          "speak"
+        ],
+        "correct_index": 2,
+        "feedback_ko": "can 뒤에는 동사원형."
+      }
+    },
+    {
+      "town_id": "rp",
+      "title_ko": "관계대명사",
+      "rule_ko": "관계대명사는 선행사를 수식하는 절을 이끈다. who는 사람, which는 사물, whose는 소유를 나타낸다. that은 제한적 용법에서 사람·사물에 쓸 수 있다.",
+      "examples": [
+        {
+          "en": "The girl who wears a green coat is here.",
+          "ko_direct": "그 소녀는 / 초록 코트를 입은 / 여기 있다.",
+          "chunks": [
+            {
+              "en": "The girl",
+              "ko": "그 소녀는"
+            },
+            {
+              "en": "who wears a green coat",
+              "ko": "초록 코트를 입은"
+            },
+            {
+              "en": "is here.",
+              "ko": "여기 있다."
+            }
+          ]
+        },
+        {
+          "en": "I know a man whose cart is red.",
+          "ko_direct": "나는 남자를 안다 / 그의 수레가 빨간.",
+          "chunks": [
+            {
+              "en": "I know a man",
+              "ko": "나는 남자를 안다"
+            },
+            {
+              "en": "whose cart is red.",
+              "ko": "그의 수레가 빨간."
+            }
+          ]
+        }
+      ],
+      "review": {
+        "question_en": "This is the boy ___ found the key.",
+        "options": [
+          "which",
+          "who",
+          "whose"
+        ],
+        "correct_index": 1,
+        "feedback_ko": "사람 선행사와 주격 관계대명사."
+      }
+    },
+    {
+      "town_id": "ps",
+      "title_ko": "수동태",
+      "rule_ko": "수동태는 be + 과거분사로 행동을 받는 대상을 주어로 나타낸다. 행위자는 필요할 때 by로 표시한다.",
+      "examples": [
+        {
+          "en": "The book was taken by a stranger.",
+          "ko_direct": "책은 가져가졌다 / 낯선 사람에 의해.",
+          "chunks": [
+            {
+              "en": "The book was taken",
+              "ko": "책은 가져가졌다"
+            },
+            {
+              "en": "by a stranger.",
+              "ko": "낯선 사람에 의해."
+            }
+          ]
+        },
+        {
+          "en": "The room is cleaned every day.",
+          "ko_direct": "방은 청소된다 / 매일.",
+          "chunks": [
+            {
+              "en": "The room is cleaned",
+              "ko": "방은 청소된다"
+            },
+            {
+              "en": "every day.",
+              "ko": "매일."
+            }
+          ]
+        }
+      ],
+      "review": {
+        "question_en": "The letter was ___ yesterday.",
+        "options": [
+          "write",
+          "wrote",
+          "written"
+        ],
+        "correct_index": 2,
+        "feedback_ko": "was 뒤에 과거분사 written."
+      }
+    },
+    {
+      "town_id": "pf",
+      "title_ko": "완료",
+      "rule_ko": "현재완료는 have/has + 과거분사로 경험·계속·완료·현재 결과를 나타낸다. yesterday처럼 끝난 과거 시점과는 보통 함께 쓰지 않는다.",
+      "examples": [
+        {
+          "en": "I have lived here for ten years.",
+          "ko_direct": "나는 여기 살아 왔다 / 10년 동안.",
+          "chunks": [
+            {
+              "en": "I have lived here",
+              "ko": "나는 여기 살아 왔다"
+            },
+            {
+              "en": "for ten years.",
+              "ko": "10년 동안."
+            }
+          ]
+        },
+        {
+          "en": "She has just found a letter.",
+          "ko_direct": "그녀는 방금 찾았다 / 편지를.",
+          "chunks": [
+            {
+              "en": "She has just found",
+              "ko": "그녀는 방금 찾았다"
+            },
+            {
+              "en": "a letter.",
+              "ko": "편지를."
+            }
+          ]
+        }
+      ],
+      "review": {
+        "question_en": "He has ___ the book.",
+        "options": [
+          "read",
+          "reads",
+          "reading"
+        ],
+        "correct_index": 0,
+        "feedback_ko": "read의 과거분사 철자는 read."
+      }
+    },
+    {
+      "town_id": "rv",
+      "title_ko": "관계부사",
+      "rule_ko": "관계부사 where, when, why는 장소·시간·이유를 나타내는 선행사를 수식한다. the way와 how는 표준 학습 문법에서 함께 쓰지 않는다.",
+      "examples": [
+        {
+          "en": "This is the place where we met.",
+          "ko_direct": "이곳은 장소이다 / 우리가 만났던.",
+          "chunks": [
+            {
+              "en": "This is the place",
+              "ko": "이곳은 장소이다"
+            },
+            {
+              "en": "where we met.",
+              "ko": "우리가 만났던."
+            }
+          ]
+        },
+        {
+          "en": "I remember the day when we left.",
+          "ko_direct": "나는 그날을 기억한다 / 우리가 떠났던.",
+          "chunks": [
+            {
+              "en": "I remember the day",
+              "ko": "나는 그날을 기억한다"
+            },
+            {
+              "en": "when we left.",
+              "ko": "우리가 떠났던."
+            }
+          ]
+        }
+      ],
+      "review": {
+        "question_en": "This is the town ___ I live.",
+        "options": [
+          "when",
+          "where",
+          "why"
+        ],
+        "correct_index": 1,
+        "feedback_ko": "장소 선행사에 where."
+      }
+    },
+    {
+      "town_id": "pc",
+      "title_ko": "분사구문",
+      "rule_ko": "분사구문은 부사절을 분사 형태로 줄여 시간·이유 등을 나타낼 수 있다. 일반적으로 의미상 주어는 주절 주어와 같고 수동 의미에는 과거분사를 쓴다.",
+      "examples": [
+        {
+          "en": "Walking along the road, I found a key.",
+          "ko_direct": "길을 따라 걷다가 / 나는 열쇠를 발견했다.",
+          "chunks": [
+            {
+              "en": "Walking along the road,",
+              "ko": "길을 따라 걷다가"
+            },
+            {
+              "en": "I found a key.",
+              "ko": "나는 열쇠를 발견했다."
+            }
+          ]
+        },
+        {
+          "en": "Written in English, the book is useful.",
+          "ko_direct": "영어로 쓰인 / 그 책은 유용하다.",
+          "chunks": [
+            {
+              "en": "Written in English,",
+              "ko": "영어로 쓰인"
+            },
+            {
+              "en": "the book is useful.",
+              "ko": "그 책은 유용하다."
+            }
+          ]
+        }
+      ],
+      "review": {
+        "question_en": "___ in simple English, the letter is easy to read.",
+        "options": [
+          "Writing",
+          "Written",
+          "Write"
+        ],
+        "correct_index": 1,
+        "feedback_ko": "편지는 쓰이는 대상이므로 Written."
+      }
+    },
+    {
+      "town_id": "sj",
+      "title_ko": "가정법",
+      "rule_ko": "현재 사실과 반대되는 가정은 if + 과거형, would + 동사원형을 사용한다. 과거 사실과 반대되는 가정은 if + had p.p., would have p.p.를 사용한다.",
+      "examples": [
+        {
+          "en": "If I were a bird, I would fly.",
+          "ko_direct": "내가 새라면 / 날 텐데.",
+          "chunks": [
+            {
+              "en": "If I were a bird,",
+              "ko": "내가 새라면"
+            },
+            {
+              "en": "I would fly.",
+              "ko": "날 텐데."
+            }
+          ]
+        },
+        {
+          "en": "I wish you were here.",
+          "ko_direct": "나는 바란다 / 네가 여기 있기를.",
+          "chunks": [
+            {
+              "en": "I wish",
+              "ko": "나는 바란다"
+            },
+            {
+              "en": "you were here.",
+              "ko": "네가 여기 있기를."
+            }
+          ]
+        }
+      ],
+      "review": {
+        "question_en": "If I had wings, I ___ fly.",
+        "options": [
+          "will",
+          "would",
+          "am"
+        ],
+        "correct_index": 1,
+        "feedback_ko": "현재의 가상 상황에는 would."
+      }
+    },
+    {
+      "town_id": "cp",
+      "title_ko": "비교급·최상급",
+      "rule_ko": "비교급은 -er 또는 more, 최상급은 -est 또는 most를 사용한다. good의 비교급은 better, 최상급은 best이다. as + 원급 + as는 동등 비교이다.",
+      "examples": [
+        {
+          "en": "Finn is faster than Theo.",
+          "ko_direct": "핀은 더 빠르다 / 테오보다.",
+          "chunks": [
+            {
+              "en": "Finn is faster",
+              "ko": "핀은 더 빠르다"
+            },
+            {
+              "en": "than Theo.",
+              "ko": "테오보다."
+            }
+          ]
+        },
+        {
+          "en": "Swift is the fastest of the three.",
+          "ko_direct": "스위프트는 가장 빠르다 / 세 명 중.",
+          "chunks": [
+            {
+              "en": "Swift is the fastest",
+              "ko": "스위프트는 가장 빠르다"
+            },
+            {
+              "en": "of the three.",
+              "ko": "세 명 중."
+            }
+          ]
+        }
+      ],
+      "review": {
+        "question_en": "This book is ___ than that one.",
+        "options": [
+          "good",
+          "better",
+          "best"
+        ],
+        "correct_index": 1,
+        "feedback_ko": "than과 함께 비교급 better."
+      }
+    },
+    {
+      "town_id": "pn",
+      "title_ko": "대명사·관사",
+      "rule_ko": "소유격 my는 명사 앞, 소유대명사 mine은 명사 없이 쓴다. a/an은 뒤따르는 소리에 따라 선택하며 the는 특정 대상을 가리킨다. 재귀대명사는 주어와 같은 대상을 나타낼 수 있다.",
+      "examples": [
+        {
+          "en": "This book is mine.",
+          "ko_direct": "이 책은 / 내 것이다.",
+          "chunks": [
+            {
+              "en": "This book",
+              "ko": "이 책은"
+            },
+            {
+              "en": "is mine.",
+              "ko": "내 것이다."
+            }
+          ]
+        },
+        {
+          "en": "She hurt herself.",
+          "ko_direct": "그녀는 다치게 했다 / 자기 자신을.",
+          "chunks": [
+            {
+              "en": "She hurt",
+              "ko": "그녀는 다치게 했다"
+            },
+            {
+              "en": "herself.",
+              "ko": "자기 자신을."
+            }
+          ]
+        }
+      ],
+      "review": {
+        "question_en": "I have ___ umbrella.",
+        "options": [
+          "a",
+          "an",
+          "theirs"
+        ],
+        "correct_index": 1,
+        "feedback_ko": "umbrella는 모음 소리로 시작."
+      }
+    },
+    {
+      "town_id": "ot",
+      "title_ko": "전치사",
+      "rule_ko": "at은 특정 시각, on은 요일·날짜, in은 월·연도 등에 쓴다. 장소 전치사는 위치 관계를 나타낸다. 교통수단은 by bus처럼 표현할 수 있다.",
+      "examples": [
+        {
+          "en": "The boat leaves at seven.",
+          "ko_direct": "배는 출발한다 / 7시에.",
+          "chunks": [
+            {
+              "en": "The boat leaves",
+              "ko": "배는 출발한다"
+            },
+            {
+              "en": "at seven.",
+              "ko": "7시에."
+            }
+          ]
+        },
+        {
+          "en": "The map is under the table.",
+          "ko_direct": "지도는 있다 / 탁자 아래에.",
+          "chunks": [
+            {
+              "en": "The map is",
+              "ko": "지도는 있다"
+            },
+            {
+              "en": "under the table.",
+              "ko": "탁자 아래에."
+            }
+          ]
+        }
+      ],
+      "review": {
+        "question_en": "We meet ___ Friday.",
+        "options": [
+          "at",
+          "on",
+          "in"
+        ],
+        "correct_index": 1,
+        "feedback_ko": "요일에는 on."
+      }
+    },
+    {
+      "town_id": "iv",
+      "title_ko": "to부정사·동명사",
+      "rule_ko": "to부정사는 명사·형용사·부사 역할을 할 수 있고 동명사는 명사 역할을 한다. want/decide는 to부정사, enjoy/finish는 동명사를 목적어로 취한다. 전치사 뒤 동사는 -ing 형태를 쓴다.",
+      "examples": [
+        {
+          "en": "I want to learn English.",
+          "ko_direct": "나는 원한다 / 영어를 배우기를.",
+          "chunks": [
+            {
+              "en": "I want",
+              "ko": "나는 원한다"
+            },
+            {
+              "en": "to learn English.",
+              "ko": "영어를 배우기를."
+            }
+          ]
+        },
+        {
+          "en": "I enjoy swimming.",
+          "ko_direct": "나는 즐긴다 / 수영하는 것을.",
+          "chunks": [
+            {
+              "en": "I enjoy",
+              "ko": "나는 즐긴다"
+            },
+            {
+              "en": "swimming.",
+              "ko": "수영하는 것을."
+            }
+          ]
+        }
+      ],
+      "review": {
+        "question_en": "She enjoys ___ books.",
+        "options": [
+          "read",
+          "to read",
+          "reading"
+        ],
+        "correct_index": 2,
+        "feedback_ko": "enjoy 뒤에는 동명사."
+      }
+    },
+    {
+      "town_id": "pe",
+      "title_ko": "지각·사역·감각동사",
+      "rule_ko": "지각동사는 목적어 뒤 동사원형 또는 -ing를 취할 수 있다. make/let의 능동형은 목적어 뒤 동사원형을 취한다. 감각 연결동사 뒤에는 주어를 설명하는 형용사가 올 수 있다.",
+      "examples": [
+        {
+          "en": "I saw him cross the road.",
+          "ko_direct": "나는 그를 보았다 / 길을 건너는 것을.",
+          "chunks": [
+            {
+              "en": "I saw him",
+              "ko": "나는 그를 보았다"
+            },
+            {
+              "en": "cross the road.",
+              "ko": "길을 건너는 것을."
+            }
+          ]
+        },
+        {
+          "en": "The soup smells good.",
+          "ko_direct": "수프는 냄새가 난다 / 좋게.",
+          "chunks": [
+            {
+              "en": "The soup smells",
+              "ko": "수프는 냄새가 난다"
+            },
+            {
+              "en": "good.",
+              "ko": "좋게."
+            }
+          ]
+        }
+      ],
+      "review": {
+        "question_en": "Mom made me ___ my room.",
+        "options": [
+          "clean",
+          "to clean",
+          "cleaned"
+        ],
+        "correct_index": 0,
+        "feedback_ko": "능동 사역동사 make 뒤 목적격보어는 동사원형."
+      }
+    },
+    {
+      "town_id": "ng",
+      "title_ko": "명사·명령문·감탄문",
+      "rule_ko": "셀 수 없는 명사는 보통 복수형을 쓰지 않는다. 명령문은 동사원형으로 시작하며 부정은 Don't + 동사원형이다. 감탄문은 What + 명사구 또는 How + 형용사·부사를 활용한다.",
+      "examples": [
+        {
+          "en": "Don't run near the stage.",
+          "ko_direct": "뛰지 마라 / 무대 근처에서.",
+          "chunks": [
+            {
+              "en": "Don't run",
+              "ko": "뛰지 마라"
+            },
+            {
+              "en": "near the stage.",
+              "ko": "무대 근처에서."
+            }
+          ]
+        },
+        {
+          "en": "What a beautiful flower!",
+          "ko_direct": "정말 아름다운 꽃이구나!",
+          "chunks": [
+            {
+              "en": "What a beautiful flower!",
+              "ko": "정말 아름다운 꽃이구나!"
+            }
+          ]
+        }
+      ],
+      "review": {
+        "question_en": "We need some ___.",
+        "options": [
+          "waters",
+          "water",
+          "a water"
+        ],
+        "correct_index": 1,
+        "feedback_ko": "일반적인 물은 셀 수 없는 명사."
+      }
+    },
+    {
+      "town_id": "rs",
+      "title_ko": "화법·간접의문문",
+      "rule_ko": "간접의문문은 의문사 + 주어 + 동사 어순을 사용한다. yes/no 질문은 if/whether로 전달할 수 있다. 과거 전달동사 뒤 시제는 문맥에 따라 조정한다.",
+      "examples": [
+        {
+          "en": "I know where he is.",
+          "ko_direct": "나는 안다 / 그가 어디 있는지.",
+          "chunks": [
+            {
+              "en": "I know",
+              "ko": "나는 안다"
+            },
+            {
+              "en": "where he is.",
+              "ko": "그가 어디 있는지."
+            }
+          ]
+        },
+        {
+          "en": "She asked if I was busy.",
+          "ko_direct": "그녀는 물었다 / 내가 바쁜지.",
+          "chunks": [
+            {
+              "en": "She asked",
+              "ko": "그녀는 물었다"
+            },
+            {
+              "en": "if I was busy.",
+              "ko": "내가 바쁜지."
+            }
+          ]
+        }
+      ],
+      "review": {
+        "question_en": "Do you know where ___?",
+        "options": [
+          "is he",
+          "he is",
+          "does he"
+        ],
+        "correct_index": 1,
+        "feedback_ko": "간접의문문은 평서문 어순."
+      }
+    },
+    {
+      "town_id": "sx",
+      "title_ko": "도치·강조·병렬·동격",
+      "rule_ko": "부정어가 문두에 오면 조동사와 주어가 도치될 수 있다. It is/was ... that 강조구문, 병렬 구조의 형태 일치, 동격 명사구를 학습한다.",
+      "examples": [
+        {
+          "en": "Never have I seen such a sky.",
+          "ko_direct": "나는 결코 본 적 없다 / 그런 하늘을.",
+          "chunks": [
+            {
+              "en": "Never have I seen",
+              "ko": "나는 결코 본 적 없다"
+            },
+            {
+              "en": "such a sky.",
+              "ko": "그런 하늘을."
+            }
+          ]
+        },
+        {
+          "en": "It was the key that opened the gate.",
+          "ko_direct": "바로 열쇠였다 / 문을 연 것은.",
+          "chunks": [
+            {
+              "en": "It was the key",
+              "ko": "바로 열쇠였다"
+            },
+            {
+              "en": "that opened the gate.",
+              "ko": "문을 연 것은."
+            }
+          ]
+        }
+      ],
+      "review": {
+        "question_en": "She likes singing, dancing, and ___.",
+        "options": [
+          "paint",
+          "to paint",
+          "painting"
+        ],
+        "correct_index": 2,
+        "feedback_ko": "병렬 요소의 형태를 일치시킨다."
+      }
+    }
+  ],
+  "world": [
+    {
+      "town_id": "g1",
+      "name_en": "Beville",
+      "name_ko": "비빌",
+      "grammar": "be동사",
+      "residents": [
+        {
+          "index": 0,
+          "en": "Farmer Am",
+          "ko": "농부 앰"
+        },
+        {
+          "index": 1,
+          "en": "Little Izzy",
+          "ko": "꼬마 이지"
+        },
+        {
+          "index": 2,
+          "en": "Granny Aria",
+          "ko": "할머니 아리아"
+        },
+        {
+          "index": 3,
+          "en": "Ben Bee",
+          "ko": "벤 비"
+        }
+      ],
+      "quest_en": "Who Am I?",
+      "quest_id": "special_g1"
+    },
+    {
+      "town_id": "g2",
+      "name_en": "Queston",
+      "name_ko": "퀘스턴",
+      "grammar": "의문문·부정문",
+      "residents": [
+        {
+          "index": 0,
+          "en": "Herbalist Dora",
+          "ko": "약초꾼 도라"
+        },
+        {
+          "index": 1,
+          "en": "Chef Dot",
+          "ko": "요리사 도트"
+        },
+        {
+          "index": 2,
+          "en": "Donny",
+          "ko": "도니"
+        },
+        {
+          "index": 3,
+          "en": "Miss Nott",
+          "ko": "미스 노트"
+        }
+      ],
+      "quest_en": "The Restaurant Without Questions",
+      "quest_id": "special_g2"
+    },
+    {
+      "town_id": "tn",
+      "name_en": "Tensefield",
+      "name_ko": "텐스필드",
+      "grammar": "시제",
+      "residents": [
+        {
+          "index": 0,
+          "en": "Baker Preston",
+          "ko": "제빵사 프레스턴"
+        },
+        {
+          "index": 1,
+          "en": "Pasty",
+          "ko": "패스티"
+        },
+        {
+          "index": 2,
+          "en": "Grandpa Tick",
+          "ko": "시계 할아버지 틱"
+        },
+        {
+          "index": 3,
+          "en": "Postman Will",
+          "ko": "우체부 윌"
+        }
+      ],
+      "quest_en": "Pasty's Birthday Is Tomorrow",
+      "quest_id": "special_tn"
+    },
+    {
+      "town_id": "md",
+      "name_en": "Modalvale",
+      "name_ko": "모달베일",
+      "grammar": "조동사",
+      "residents": [
+        {
+          "index": 0,
+          "en": "Granny May",
+          "ko": "약초 할머니 메이"
+        },
+        {
+          "index": 1,
+          "en": "Foreman Muston",
+          "ko": "공사장 반장 머스턴"
+        },
+        {
+          "index": 2,
+          "en": "Runner Canby",
+          "ko": "심부름꾼 캔비"
+        },
+        {
+          "index": 3,
+          "en": "Captain Coulden",
+          "ko": "경비대장 쿠든"
+        }
+      ],
+      "quest_en": "The Bridge of Possibility",
+      "quest_id": "special_md"
+    },
+    {
+      "town_id": "rp",
+      "name_en": "Relawood",
+      "name_ko": "렐라우드",
+      "grammar": "관계대명사",
+      "residents": [
+        {
+          "index": 0,
+          "en": "Ranger Whoa",
+          "ko": "숲지기 후아"
+        },
+        {
+          "index": 1,
+          "en": "Librarian Thatton",
+          "ko": "사서 대튼"
+        },
+        {
+          "index": 2,
+          "en": "Mechanic Whoseley",
+          "ko": "정비공 후즐리"
+        },
+        {
+          "index": 3,
+          "en": "Hunter Whit",
+          "ko": "사냥꾼 휘트"
+        }
+      ],
+      "quest_en": "The Missing Child",
+      "quest_id": "special_rp"
+    },
+    {
+      "town_id": "ps",
+      "name_en": "Passive Lake",
+      "name_ko": "패시브 레이크",
+      "grammar": "수동태",
+      "residents": [
+        {
+          "index": 0,
+          "en": "Baker Bea",
+          "ko": "제빵사 비아"
+        },
+        {
+          "index": 1,
+          "en": "Traveler Byn",
+          "ko": "여행가 바인"
+        },
+        {
+          "index": 2,
+          "en": "Guard Agent",
+          "ko": "경비병 에이전트"
+        },
+        {
+          "index": 3,
+          "en": "Cleaner Done",
+          "ko": "청소부 던"
+        }
+      ],
+      "quest_en": "The Wrong Suspect",
+      "quest_id": "special_ps"
+    },
+    {
+      "town_id": "pf",
+      "name_en": "Perfect Oasis",
+      "name_ko": "퍼펙트 오아시스",
+      "grammar": "완료",
+      "residents": [
+        {
+          "index": 0,
+          "en": "Landlord Haven",
+          "ko": "집주인 헤이븐"
+        },
+        {
+          "index": 1,
+          "en": "Student Justine",
+          "ko": "학생 저스틴"
+        },
+        {
+          "index": 2,
+          "en": "Clockmaker Since",
+          "ko": "시계공 신스"
+        },
+        {
+          "index": 3,
+          "en": "Gourmet Ever",
+          "ko": "미식가 에버"
+        }
+      ],
+      "quest_en": "A Letter After Ten Years",
+      "quest_id": "special_pf"
+    },
+    {
+      "town_id": "rv",
+      "name_en": "Whereport",
+      "name_ko": "웨어포트",
+      "grammar": "관계부사",
+      "residents": [
+        {
+          "index": 0,
+          "en": "Fisher Whereley",
+          "ko": "어부 웨어리"
+        },
+        {
+          "index": 1,
+          "en": "Wynna",
+          "ko": "위나"
+        },
+        {
+          "index": 2,
+          "en": "Coach Howie",
+          "ko": "코치 하위"
+        },
+        {
+          "index": 3,
+          "en": "Mayor Whyatt",
+          "ko": "이장 와이엇"
+        }
+      ],
+      "quest_en": "The Place We Remember",
+      "quest_id": "special_rv"
+    },
+    {
+      "town_id": "pc",
+      "name_en": "Participle Canyon",
+      "name_ko": "파티서플 캐니언",
+      "grammar": "분사구문",
+      "residents": [
+        {
+          "index": 0,
+          "en": "Walker Ingmar",
+          "ko": "산책자 잉마르"
+        },
+        {
+          "index": 1,
+          "en": "Student Knowing",
+          "ko": "학생 노잉"
+        },
+        {
+          "index": 2,
+          "en": "Librarian Edlyn",
+          "ko": "사서 에들린"
+        },
+        {
+          "index": 3,
+          "en": "Faye",
+          "ko": "페이"
+        }
+      ],
+      "quest_en": "The Ancient Manuscript",
+      "quest_id": "special_pc"
+    },
+    {
+      "town_id": "sj",
+      "name_en": "Ifhaven",
+      "name_ko": "이프헤이븐",
+      "grammar": "가정법",
+      "residents": [
+        {
+          "index": 0,
+          "en": "Falconer Ifan",
+          "ko": "새 조련사 이판"
+        },
+        {
+          "index": 1,
+          "en": "Merchant Woulden",
+          "ko": "상인 우든"
+        },
+        {
+          "index": 2,
+          "en": "Wisha",
+          "ko": "위샤"
+        },
+        {
+          "index": 3,
+          "en": "Student Hadley",
+          "ko": "학생 해들리"
+        }
+      ],
+      "quest_en": "Wings of Wishes",
+      "quest_id": "special_sj"
+    },
+    {
+      "town_id": "cp",
+      "name_en": "Compare Hills",
+      "name_ko": "컴페어 힐스",
+      "grammar": "비교급·최상급",
+      "residents": [
+        {
+          "index": 0,
+          "en": "Runner Swift",
+          "ko": "달리기 선수 스위프트"
+        },
+        {
+          "index": 1,
+          "en": "Merchant Morella",
+          "ko": "상인 모렐라"
+        },
+        {
+          "index": 2,
+          "en": "Landlord Equal",
+          "ko": "집주인 이퀄"
+        },
+        {
+          "index": 3,
+          "en": "Teacher Beston",
+          "ko": "선생님 베스턴"
+        }
+      ],
+      "quest_en": "The Champion of Champions",
+      "quest_id": "special_cp"
+    },
+    {
+      "town_id": "pn",
+      "name_en": "Pronovia",
+      "name_ko": "프로노비아",
+      "grammar": "대명사·관사",
+      "residents": [
+        {
+          "index": 0,
+          "en": "Bookseller Myra",
+          "ko": "책방 주인 마이라"
+        },
+        {
+          "index": 1,
+          "en": "Fruit Seller Annie",
+          "ko": "과일 장수 애니"
+        },
+        {
+          "index": 2,
+          "en": "Selma",
+          "ko": "셀마"
+        },
+        {
+          "index": 3,
+          "en": "Theo",
+          "ko": "테오"
+        }
+      ],
+      "quest_en": "Whose Treasure Is It?",
+      "quest_id": "special_pn"
+    },
+    {
+      "town_id": "ot",
+      "name_en": "Prep Isles",
+      "name_ko": "프렙 아일스",
+      "grammar": "전치사",
+      "residents": [
+        {
+          "index": 0,
+          "en": "Sailor Byron",
+          "ko": "선원 바이런"
+        },
+        {
+          "index": 1,
+          "en": "Onna",
+          "ko": "오나"
+        },
+        {
+          "index": 2,
+          "en": "Teacher Atley",
+          "ko": "선생님 애틀리"
+        },
+        {
+          "index": 3,
+          "en": "Fisher Inna",
+          "ko": "어부 이나"
+        }
+      ],
+      "quest_en": "The Ship Without Directions",
+      "quest_id": "special_ot"
+    },
+    {
+      "town_id": "iv",
+      "name_en": "Verbal Heights",
+      "name_ko": "버벌 하이츠",
+      "grammar": "to부정사·동명사",
+      "residents": [
+        {
+          "index": 0,
+          "en": "Swimmer Finn",
+          "ko": "수영 선수 핀"
+        },
+        {
+          "index": 1,
+          "en": "Traveler Togo",
+          "ko": "여행자 토고"
+        },
+        {
+          "index": 2,
+          "en": "Linguist Infina",
+          "ko": "언어학자 인피나"
+        },
+        {
+          "index": 3,
+          "en": "Chess Master Gerund",
+          "ko": "체스 챔피언 제룬드"
+        }
+      ],
+      "quest_en": "A Journey of Dreams",
+      "quest_id": "special_iv"
+    },
+    {
+      "town_id": "pe",
+      "name_en": "Sensewood",
+      "name_ko": "센스우드",
+      "grammar": "지각·사역·감각동사",
+      "residents": [
+        {
+          "index": 0,
+          "en": "Birdwatcher Seer",
+          "ko": "새 관찰자 시어"
+        },
+        {
+          "index": 1,
+          "en": "Mother Maka",
+          "ko": "엄마 마카"
+        },
+        {
+          "index": 2,
+          "en": "Chef Savory",
+          "ko": "요리사 세이버리"
+        },
+        {
+          "index": 3,
+          "en": "Mechanic Fix",
+          "ko": "수리공 픽스"
+        }
+      ],
+      "quest_en": "Something in the Woods",
+      "quest_id": "special_pe"
+    },
+    {
+      "town_id": "ng",
+      "name_en": "Nounville",
+      "name_ko": "노운빌",
+      "grammar": "명사·명령문·감탄문",
+      "residents": [
+        {
+          "index": 0,
+          "en": "Florist Flora",
+          "ko": "꽃집 주인 플로라"
+        },
+        {
+          "index": 1,
+          "en": "Librarian Hush",
+          "ko": "사서 허쉬"
+        },
+        {
+          "index": 2,
+          "en": "Baker Loaf",
+          "ko": "제빵사 로프"
+        },
+        {
+          "index": 3,
+          "en": "Keeper Letty",
+          "ko": "공원지기 레티"
+        }
+      ],
+      "quest_en": "The Festival of Hope",
+      "quest_id": "special_ng"
+    },
+    {
+      "town_id": "rs",
+      "name_en": "Speechport",
+      "name_ko": "스피치포트",
+      "grammar": "화법·간접의문문",
+      "residents": [
+        {
+          "index": 0,
+          "en": "Postman Tell",
+          "ko": "우체부 텔"
+        },
+        {
+          "index": 1,
+          "en": "Detective Ask",
+          "ko": "탐정 애스크"
+        },
+        {
+          "index": 2,
+          "en": "Student Quora",
+          "ko": "학생 쿼라"
+        },
+        {
+          "index": 3,
+          "en": "Guide Wenda",
+          "ko": "안내원 웬다"
+        }
+      ],
+      "quest_en": "The Twisted Message",
+      "quest_id": "special_rs"
+    },
+    {
+      "town_id": "sx",
+      "name_en": "Inversion Keep",
+      "name_ko": "인버전 킵",
+      "grammar": "도치·강조·병렬·동격",
+      "residents": [
+        {
+          "index": 0,
+          "en": "Captain Never",
+          "ko": "선장 네버"
+        },
+        {
+          "index": 1,
+          "en": "Officer Emphas",
+          "ko": "경찰 엠파스"
+        },
+        {
+          "index": 2,
+          "en": "Artist Parallel",
+          "ko": "예술가 패럴렐"
+        },
+        {
+          "index": 3,
+          "en": "Keeper Apposia",
+          "ko": "성지기 아포시아"
+        }
+      ],
+      "quest_en": "The Castle of Inversion",
+      "quest_id": "special_sx"
+    }
+  ],
+  "monsters": [
+    {
+      "town_id": "g1",
+      "boss_en": "Bee, Guardian of the Meadow",
+      "boss_ko": "초원의 수호자 비이",
+      "unlock": "existing_dungeon_clear",
+      "description_status": "pending verified monster source"
+    },
+    {
+      "town_id": "g2",
+      "boss_en": "Doubt, the Cave Inquisitor",
+      "boss_ko": "동굴 심문관 다우트",
+      "unlock": "existing_dungeon_clear",
+      "description_status": "pending verified monster source"
+    },
+    {
+      "town_id": "tn",
+      "boss_en": "Chronos, Keeper of Time",
+      "boss_ko": "시간의 수문장 크로노스",
+      "unlock": "existing_dungeon_clear",
+      "description_status": "pending verified monster source"
+    },
+    {
+      "town_id": "md",
+      "boss_en": "Mustar, Guardian of Modals",
+      "boss_ko": "조동사의 수호자 머스타",
+      "unlock": "existing_dungeon_clear",
+      "description_status": "pending verified monster source"
+    },
+    {
+      "town_id": "rp",
+      "boss_en": "Relator, Lord of the Forest",
+      "boss_ko": "숲의 군주 릴레이터",
+      "unlock": "existing_dungeon_clear",
+      "description_status": "pending verified monster source"
+    },
+    {
+      "town_id": "ps",
+      "boss_en": "Passivus, Lord of the Lake",
+      "boss_ko": "호수의 군주 패시버스",
+      "unlock": "existing_dungeon_clear",
+      "description_status": "pending verified monster source"
+    },
+    {
+      "town_id": "pf",
+      "boss_en": "Perfectus, Keeper of Ages",
+      "boss_ko": "세월의 수문장 퍼펙터스",
+      "unlock": "existing_dungeon_clear",
+      "description_status": "pending verified monster source"
+    },
+    {
+      "town_id": "rv",
+      "boss_en": "Locarus, Guardian of Places",
+      "boss_ko": "장소의 수호자 로카루스",
+      "unlock": "existing_dungeon_clear",
+      "description_status": "pending verified monster source"
+    },
+    {
+      "town_id": "pc",
+      "boss_en": "Partix, the Canyon Griffin",
+      "boss_ko": "협곡의 그리핀 파틱스",
+      "unlock": "existing_dungeon_clear",
+      "description_status": "pending verified monster source"
+    },
+    {
+      "town_id": "sj",
+      "boss_en": "Wishra, Queen of Wishes",
+      "boss_ko": "소원의 여왕 위슈라",
+      "unlock": "existing_dungeon_clear",
+      "description_status": "pending verified monster source"
+    },
+    {
+      "town_id": "cp",
+      "boss_en": "Maximus, King of the Hills",
+      "boss_ko": "언덕의 왕 막시무스",
+      "unlock": "existing_dungeon_clear",
+      "description_status": "pending verified monster source"
+    },
+    {
+      "town_id": "pn",
+      "boss_en": "Pronomus, Keeper of Names",
+      "boss_ko": "이름의 수문장 프로노무스",
+      "unlock": "existing_dungeon_clear",
+      "description_status": "pending verified monster source"
+    },
+    {
+      "town_id": "ot",
+      "boss_en": "Prepos, Elder of the Isles",
+      "boss_ko": "섬의 장로 프레포스",
+      "unlock": "existing_dungeon_clear",
+      "description_status": "pending verified monster source"
+    },
+    {
+      "town_id": "iv",
+      "boss_en": "Verbalis, Sky Emperor",
+      "boss_ko": "하늘의 황제 버발리스",
+      "unlock": "existing_dungeon_clear",
+      "description_status": "pending verified monster source"
+    },
+    {
+      "town_id": "pe",
+      "boss_en": "Sensar, the Forest Watcher",
+      "boss_ko": "숲의 감시자 센사르",
+      "unlock": "existing_dungeon_clear",
+      "description_status": "pending verified monster source"
+    },
+    {
+      "town_id": "ng",
+      "boss_en": "Nomina, Guardian of Words",
+      "boss_ko": "단어의 수호자 노미나",
+      "unlock": "existing_dungeon_clear",
+      "description_status": "pending verified monster source"
+    },
+    {
+      "town_id": "rs",
+      "boss_en": "Reportus, Keeper of Messages",
+      "boss_ko": "전갈의 수문장 리포터스",
+      "unlock": "existing_dungeon_clear",
+      "description_status": "pending verified monster source"
+    },
+    {
+      "town_id": "sx",
+      "boss_en": "Invertus, Sovereign of Order",
+      "boss_ko": "질서의 군주 인버터스",
+      "unlock": "existing_dungeon_clear",
+      "description_status": "pending verified monster source"
+    }
+  ],
+  "journal": {
+    "source": "SPECIAL_QUESTS.json",
+    "show": [
+      "collected_clues",
+      "completed_tasks",
+      "quest_completion"
+    ],
+    "replay_no_rewards": true
+  },
+  "secrets": [
+    {
+      "id": "archive_3",
+      "registered_pages": 3,
+      "title_en": "The Shared Mark",
+      "title_ko": "같은 문양",
+      "record": {
+        "en": "Three recovered pages carry the same black mark. The damage may have a common source.",
+        "ko_direct": "회수한 세 페이지에는 같은 검은 문양이 있다. / 손상에는 공통된 원인이 있을지도 모른다.",
+        "chunks": [
+          {
+            "en": "Three recovered pages carry the same black mark.",
+            "ko": "회수한 세 페이지에는 같은 검은 문양이 있다."
+          },
+          {
+            "en": "The damage may have a common source.",
+            "ko": "손상에는 공통된 원인이 있을지도 모른다."
+          }
+        ]
+      },
+      "milestone_ref": "3"
+    },
+    {
+      "id": "archive_6",
+      "registered_pages": 6,
+      "title_en": "The Fallen Guardians",
+      "title_ko": "타락한 수호자들",
+      "record": {
+        "en": "The guardians were not our enemies at first. The stolen pages changed them.",
+        "ko_direct": "수호자들은 처음부터 우리의 적이 아니었다. / 도난당한 페이지들이 그들을 변화시켰다.",
+        "chunks": [
+          {
+            "en": "The guardians were not our enemies at first.",
+            "ko": "수호자들은 처음부터 우리의 적이 아니었다."
+          },
+          {
+            "en": "The stolen pages changed them.",
+            "ko": "도난당한 페이지들이 그들을 변화시켰다."
+          }
+        ]
+      },
+      "milestone_ref": "6"
+    },
+    {
+      "id": "archive_9",
+      "registered_pages": 9,
+      "title_en": "The Created Monsters",
+      "title_ko": "만들어진 괴물들",
+      "record": {
+        "en": "Someone used broken sentences to create monsters. The curse was not an accident.",
+        "ko_direct": "누군가 불완전한 문장으로 괴물들을 만들었다. / 저주는 우연이 아니었다.",
+        "chunks": [
+          {
+            "en": "Someone used broken sentences to create monsters.",
+            "ko": "누군가 불완전한 문장으로 괴물들을 만들었다."
+          },
+          {
+            "en": "The curse was not an accident.",
+            "ko": "저주는 우연이 아니었다."
+          }
+        ]
+      },
+      "milestone_ref": "9"
+    },
+    {
+      "id": "archive_12",
+      "registered_pages": 12,
+      "title_en": "The Night of the Theft",
+      "title_ko": "도난의 밤",
+      "record": {
+        "en": "The dark army attacked the library. Its agents stole eighteen pages.",
+        "ko_direct": "대마왕군이 도서관을 공격했다. / 그들의 부하들이 열여덟 페이지를 훔쳤다.",
+        "chunks": [
+          {
+            "en": "The dark army attacked the library.",
+            "ko": "대마왕군이 도서관을 공격했다."
+          },
+          {
+            "en": "Its agents stole eighteen pages.",
+            "ko": "그들의 부하들이 열여덟 페이지를 훔쳤다."
+          }
+        ]
+      },
+      "milestone_ref": "12"
+    },
+    {
+      "id": "archive_15",
+      "registered_pages": 15,
+      "title_en": "The Black Seal",
+      "title_ko": "검은 인장",
+      "record": {
+        "en": "The same seal appears in several records. We still do not know who leads the army.",
+        "ko_direct": "같은 인장이 여러 기록에 나타난다. / 우리는 아직 누가 군대를 이끄는지 모른다.",
+        "chunks": [
+          {
+            "en": "The same seal appears in several records.",
+            "ko": "같은 인장이 여러 기록에 나타난다."
+          },
+          {
+            "en": "We still do not know who leads the army.",
+            "ko": "우리는 아직 누가 군대를 이끄는지 모른다."
+          }
+        ]
+      },
+      "milestone_ref": "15"
+    },
+    {
+      "id": "archive_18",
+      "registered_pages": 18,
+      "title_en": "The Last Warning",
+      "title_ko": "마지막 경고",
+      "record": {
+        "en": "The Grammatica is whole again. But someone still wants to silence every voice.",
+        "ko_direct": "그라마티카는 다시 완전해졌다. / 하지만 누군가는 여전히 모든 목소리를 침묵시키려 한다.",
+        "chunks": [
+          {
+            "en": "The Grammatica is whole again.",
+            "ko": "그라마티카는 다시 완전해졌다."
+          },
+          {
+            "en": "But someone still wants to silence every voice.",
+            "ko": "하지만 누군가는 여전히 모든 목소리를 침묵시키려 한다."
+          }
+        ]
+      },
+      "milestone_ref": "18"
+    }
+  ],
+  "optional_nova_card": {
+    "source_dungeon": "d16",
+    "required": false,
+    "bonus_record": {
+      "en": "A library card opens a door to knowledge. It does not open every secret.",
+      "ko_direct": "도서관 카드는 지식으로 가는 문을 연다. / 모든 비밀을 여는 것은 아니다.",
+      "chunks": [
+        {
+          "en": "A library card opens a door to knowledge.",
+          "ko": "도서관 카드는 지식으로 가는 문을 연다."
+        },
+        {
+          "en": "It does not open every secret.",
+          "ko": "모든 비밀을 여는 것은 아니다."
+        }
+      ]
+    }
+  }
+}

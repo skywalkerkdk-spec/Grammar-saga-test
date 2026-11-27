@@ -1,0 +1,188 @@
+/* ===== 🏘️ 마을 2: 나머지 문법 던전의 마을들 ===== */
+(function(){
+const N=(ic,who,b,f,ko,o1,o2,th)=>({ic,who,b,f,ko,o:[o1,o2],th});
+const V=(nm,sub,bi,hi,n)=>({nm,sub,bi,hi,n});
+Object.assign(TOWN,{
+ g1:V('비이 마을','be동사 초원 · 이다/있다가 뒤죽박죽인 마을',
+  '초원의 던전 때문에 마을 사람들이 <b>be동사</b>를 아무렇게나 쓰고 있어요! 주어에 맞는 am/is/are를 찾아 주세요.',
+  '던전이 잠잠해지자 <b>am, is, are</b>가 제자리를 찾았어요! 마을 사람들이 또박또박 말해요.',[
+  N('🧑‍🌾','농부 팜','I [[is]] a student, and my brother [[am]] a baker.','I am a student, and my brother is a baker.','나는 학생이고, 내 형은 제빵사예요.','I am a student, and my brother am a baker.','I is a student, and my brother is a baker.','이제 빵 이야기도 제대로 하겠어!'),
+  N('👧','꼬마 리나','You [[is]] very kind, and they [[is]] happy.','You are very kind, and they are happy.','너는 아주 친절하고, 그들은 행복해.','You are very kind, and they is happy.','You is very kind, and they are happy.','말이 술술 나와요!'),
+  N('👵','할머니 로즈','She [[are]] my sister. We [[is]] at home.','She is my sister. We are at home.','그녀는 내 여동생이에요. 우리는 집에 있어요.','She are my sister. We are at home.','She is my sister. We is at home.','고마워요, 이제 집에서 편히 얘기하겠네.'),
+  N('🐕','개 주인 벤','It [[am]] a big dog. The dogs [[is]] hungry.','It is a big dog. The dogs are hungry.','그것은 큰 개예요. 개들은 배가 고파요.','It am a big dog. The dogs are hungry.','It is a big dog. The dogs is hungry.','멍멍! 아니, 고마워요!')]),
+ g2:V('두낫 마을','의문문·부정문 숲길 · 물음과 부정이 엉킨 마을',
+  '던전 때문에 마을 사람들이 <b>묻는 말과 아니라는 말</b>을 엉터리로 만들어요! 어색한 곳을 찾아 주세요.',
+  '던전이 잠잠해지자 <b>물음과 부정</b>이 제대로 돌아왔어요!',[
+  N('🧙‍♀️','약초꾼 미라','You [[not are]] tired. [[Does]] you hungry?','You are not tired. Are you hungry?','너는 피곤하지 않아. 너는 배고프니?','You not are tired. Are you hungry?','You are not tired. Does you hungry?','이제 물어볼 수 있겠네요!'),
+  N('🍣','요리사 하루',"She [[don't]] like fish. [[Do]] she like meat?","She doesn't like fish. Does she like meat?",'그녀는 생선을 좋아하지 않아. 고기는 좋아하니?',"She don't like fish. Does she like meat?","She doesn't like fish. Do she like meat?",'맛있는 요리를 다시 할 수 있어요.'),
+  N('⚽','소년 닉',"He [[doesn't plays]] soccer. [[Does]] he [[plays]] tennis?","He doesn't play soccer. Does he play tennis?",'그는 축구를 하지 않아. 그는 테니스는 하니?',"He doesn't plays soccer. Does he play tennis?","He doesn't play soccer. Does he plays tennis?",'does 뒤엔 동사원형! 기억할게요.'),
+  N('🐱','고양이 집사 유나',"They [[aren't]] like cats. [[Are]] they have a dog?","They don't like cats. Do they have a dog?",'그들은 고양이를 좋아하지 않아. 그들은 개를 키우니?',"They aren't like cats. Do they have a dog?","They don't like cats. Are they have a dog?",'야옹~ 고마워요!')]),
+ ps:V('수동 마을','수동태 언덕 · 하는 쪽과 당하는 쪽이 뒤바뀐 마을',
+  '던전 때문에 <b>수동태</b>가 망가졌어요! 마을 사람들이 "~되다/~받다"를 제대로 말하지 못해요.',
+  '던전이 잠잠해지자 <b>be + 과거분사</b>가 다시 제자리를 찾았어요!',[
+  N('👩‍🍳','빵집 아가씨 소피','The cake [[made]] by my mom. The windows [[was]] broken by the boy.','The cake was made by my mom. The windows were broken by the boy.','케이크는 엄마가 만드셨어요. 창문들은 그 소년이 깼어요.','The cake made by my mom. The windows were broken by the boy.','The cake was made by my mom. The windows was broken by the boy.','케이크가 다시 맛있게 구워졌어요!'),
+  N('🌍','여행가 잭','English [[speaks]] in many countries. This book [[written]] by a famous poet.','English is spoken in many countries. This book was written by a famous poet.','영어는 많은 나라에서 쓰여요. 이 책은 유명한 시인이 썼어요.','English speaks in many countries. This book was written by a famous poet.','English is spoken in many countries. This book written by a famous poet.','세계 어디서든 통하겠어요.'),
+  N('👮','경비병 돈','The thief [[caught]] by the police. The song [[is sing]] by children.','The thief was caught by the police. The song is sung by children.','도둑은 경찰에게 잡혔어요. 그 노래는 아이들이 불러요.','The thief caught by the police. The song is sung by children.','The thief was caught by the police. The song is sing by children.','도둑도 잡혔고 말도 바로잡혔어요!'),
+  N('🧹','청소부 마리','The room [[is cleaning]] every day. Two trees [[was]] planted by us.','The room is cleaned every day. Two trees were planted by us.','방은 매일 청소돼요. 나무 두 그루가 우리에 의해 심어졌어요.','The room is cleaning every day. Two trees were planted by us.','The room is cleaned every day. Two trees was planted by us.','깨끗해진 건 방만이 아니네요!')]),
+ pf:V('해브 마을','현재완료 협곡 · 과거와 현재가 엉킨 마을',
+  '던전 때문에 <b>현재완료</b>가 망가졌어요! 과거에 한 일과 지금까지 이어진 일을 구별하지 못해요.',
+  '던전이 잠잠해지자 <b>have + 과거분사</b>가 제대로 돌아왔어요!',[
+  N('🏡','집주인 맥스','I [[live]] here for ten years. She [[has went]] to Paris.','I have lived here for ten years. She has gone to Paris.','나는 여기서 10년째 살고 있어요. 그녀는 파리에 가 버렸어요.','I live here for ten years. She has gone to Paris.','I have lived here for ten years. She has went to Paris.','10년 살았는데 말은 이제야 바로잡았네요.'),
+  N('📚','학생 엠마','He [[have]] just [[finish]] his homework.','He has just finished his homework.','그는 방금 숙제를 끝냈어요.','He have just finished his homework.','He has just finish his homework.','숙제 끝! 말도 끝!'),
+  N('🕰️','시계방 노인','I [[have seen]] him yesterday. We [[have been]] friends last year.','I saw him yesterday. We were friends last year.','나는 어제 그를 봤어요. 우리는 작년에 친구였어요.','I have seen him yesterday. We were friends last year.','I saw him yesterday. We have been friends last year.','yesterday엔 과거형! 맞네요.'),
+  N('🍣','미식가 타로','Have you ever [[ate]] sushi? No, I [[haven\'t never]] eaten it.','Have you ever eaten sushi? No, I have never eaten it.','스시를 먹어 본 적 있어요? 아니요, 한 번도 안 먹어 봤어요.','Have you ever ate sushi? No, I have never eaten it.','Have you ever eaten sushi? No, I haven\'t never eaten it.','이제 먹어 볼 용기가 나요!')]),
+ rv:V('웨어 마을','관계부사 호수 · where와 when이 뒤섞인 마을',
+  '던전 때문에 <b>관계부사</b>가 뒤죽박죽이에요! 장소·시간·이유에 맞는 말을 찾아 주세요.',
+  '던전이 잠잠해지자 <b>where, when, why</b>가 제자리를 찾았어요!',[
+  N('🏠','어부 노아','This is the house [[which]] I was born. I remember the day [[where]] we met.','This is the house where I was born. I remember the day when we met.','이곳이 내가 태어난 집이에요. 우리가 만난 날이 기억나요.','This is the house which I was born. I remember the day when we met.','This is the house where I was born. I remember the day where we met.','그리운 집 이야기를 바르게 하네요.'),
+  N('😮','소녀 제나','Tell me the reason [[when]] you are late. I don\'t know [[the way how]] he did it.','Tell me the reason why you are late. I don\'t know how he did it.','늦은 이유를 말해 줘. 그가 그걸 어떻게 했는지 몰라.','Tell me the reason when you are late. I don\'t know how he did it.','Tell me the reason why you are late. I don\'t know the way how he did it.','the way와 how는 하나만 써요!'),
+  N('⚽','코치 샘','That is the park [[when]] we play soccer. Sunday is the day [[where]] we rest.','That is the park where we play soccer. Sunday is the day when we rest.','저기가 우리가 축구하는 공원이에요. 일요일은 우리가 쉬는 날이에요.','That is the park when we play soccer. Sunday is the day when we rest.','That is the park where we play soccer. Sunday is the day where we rest.','장소엔 where, 시간엔 when!'),
+  N('🏘️','이장님','I know the town [[when]] he lives. Do you know the reason [[where]] she left?','I know the town where he lives. Do you know the reason why she left?','나는 그가 사는 마을을 알아요. 그녀가 떠난 이유를 아세요?','I know the town when he lives. Do you know the reason why she left?','I know the town where he lives. Do you know the reason where she left?','마을 말이 다시 이어졌구먼.')]),
+ pc:V('이잉 마을','분사구문 절벽 · 문장 앞머리가 엉킨 마을',
+  '던전 때문에 <b>분사구문</b>이 망가졌어요! 문장 맨 앞의 -ing/-ed를 바로잡아 주세요.',
+  '던전이 잠잠해지자 <b>분사구문</b>이 매끄럽게 돌아왔어요!',[
+  N('🚶','산책자 윌','[[Walk]] along the street, I met my teacher.','Walking along the street, I met my teacher.','길을 걷다가 나는 선생님을 만났어요.','Walked along the street, I met my teacher.','Walking along the street, I meeting my teacher.','걷다 보니 말도 풀렸네요.'),
+  N('🙋','학생 카이','[[Know]] the answer, he raised his hand.','Knowing the answer, he raised his hand.','정답을 알았기에 그는 손을 들었어요.','Known the answer, he raised his hand.','Knowing the answer, he raise his hand.','정답을 알면 손부터!'),
+  N('📖','사서 아델','[[Writing]] in easy English, the book is popular.','Written in easy English, the book is popular.','쉬운 영어로 쓰여서 그 책은 인기가 많아요.','Wrote in easy English, the book is popular.','Written in easy English, the book are popular.','책은 쓰인 것이니까 Written!'),
+  N('🤒','소녀 하나','Not [[felt]] well, she stayed home.','Not feeling well, she stayed home.','몸이 좋지 않아서 그녀는 집에 있었어요.','Not feel well, she stayed home.','Not feeled well, she stayed home.','이제 몸도 말도 좋아졌어요.')]),
+ sj:V('이프 마을','가정법 설산 · 만약의 말이 엉킨 마을',
+  '던전 때문에 <b>가정법</b>이 망가졌어요! "만약 ~라면"의 동사 모양을 바로잡아 주세요.',
+  '던전이 잠잠해지자 <b>if절과 would</b>가 짝을 되찾았어요!',[
+  N('🐦','새 조련사 핀','If I [[am]] a bird, I [[will]] fly to you.','If I were a bird, I would fly to you.','내가 새라면 네게 날아갈 텐데.','If I am a bird, I would fly to you.','If I were a bird, I will fly to you.','날개 없이도 날아갈 것 같아요!'),
+  N('🚗','상인 오토','If I [[have]] money, I [[would]] buy a car.','If I had money, I would buy a car.','돈이 있다면 차를 살 텐데.','If I had money, I would bought a car.','If I had money, I will buy a car.','있다면 좋겠지만, 말은 고쳤네요.'),
+  N('✨','소녀 루나','I wish I [[can]] fly. I wish he [[is]] here.','I wish I could fly. I wish he were here.','나는 날 수 있으면 좋겠어. 그가 여기 있으면 좋겠어.','I wish I can fly. I wish he were here.','I wish I could fly. I wish he is here.','소원이 이뤄졌어요!'),
+  N('📝','수험생 도윤','If I [[studied]] harder last year, I [[would pass]] the test.','If I had studied harder last year, I would have passed the test.','작년에 더 열심히 공부했더라면 시험에 합격했을 텐데.','If I studied harder last year, I would have passed the test.','If I had studied harder last year, I would pass the test.','과거 후회는 had p.p. + would have p.p.!')]),
+ cp:V('비교 마을','비교급 고원 · 더 크고 더 작은 말이 엉킨 마을',
+  '던전 때문에 <b>비교 표현</b>이 망가졌어요! -er/-est와 more/most를 알맞게 바로잡아 주세요.',
+  '던전이 잠잠해지자 <b>비교급·최상급</b>이 제대로 돌아왔어요!',[
+  N('🏃','달리기 선수 아이','He is [[more tall]] than me. She is the [[most smart]] in class.','He is taller than me. She is the smartest in class.','그는 나보다 키가 커요. 그녀는 반에서 가장 똑똑해요.','He is more tall than me. She is the smartest in class.','He is taller than me. She is the most smart in class.','짧은 단어는 -er, -est!'),
+  N('👜','가방 상인 릴리','This bag is [[expensiver]] than that one. That is [[more good]] than this.','This bag is more expensive than that one. That is better than this.','이 가방이 저것보다 비싸요. 저게 이것보다 더 좋아요.','This bag is expensiver than that one. That is better than this.','This bag is more expensive than that one. That is more good than this.','good-better-best 기억해요!'),
+  N('🏠','집주인 톰','My room is [[as bigger as]] yours. He runs [[as faster as]] me.','My room is as big as yours. He runs as fast as me.','내 방은 네 방만큼 커요. 그는 나만큼 빨리 달려요.','My room is as bigger as yours. He runs as fast as me.','My room is as big as yours. He runs as faster as me.','as 사이엔 원급!'),
+  N('📚','선생님 앤','The [[much]] you study, the [[good]] you do.','The more you study, the better you do.','공부할수록 더 잘하게 돼요.','The more you study, the good you do.','The much you study, the better you do.','더 공부해야겠어요!')]),
+ pn:V('프로 마을','대명사·관사 정원 · 나와 내 것이 엉킨 마을',
+  '던전 때문에 <b>대명사와 관사</b>가 망가졌어요! my/mine, a/an, the를 바로잡아 주세요.',
+  '던전이 잠잠해지자 <b>대명사와 관사</b>가 제자리를 찾았어요!',[
+  N('📕','책방 주인 메이','This is [[me]] book, and that pen is [[her\'s]].','This is my book, and that pen is hers.','이것은 내 책이고, 저 펜은 그녀의 것이에요.','This is me book, and that pen is hers.','This is my book, and that pen is her\'s.','hers에는 아포스트로피가 없어요!'),
+  N('🍎','과일 장수 오리','I have [[a]] apple and [[a]] umbrella.','I have an apple and an umbrella.','나는 사과 하나와 우산 하나가 있어요.','I have a apple and an umbrella.','I have an apple and a umbrella.','모음 소리 앞엔 an!'),
+  N('🤕','소녀 지아','She hurt [[her]] when she fell. They enjoyed [[theirselves]] at the party.','She hurt herself when she fell. They enjoyed themselves at the party.','그녀는 넘어졌을 때 다쳤어요. 그들은 파티를 즐겼어요.','She hurt her when she fell. They enjoyed themselves at the party.','She hurt herself when she fell. They enjoyed theirselves at the party.','themselves, 잊지 않을게요.'),
+  N('☀️','소년 레오','I play [[the]] soccer. [[A]] sun is bright.','I play soccer. The sun is bright.','나는 축구를 해요. 해가 밝아요.','I play the soccer. The sun is bright.','I play soccer. A sun is bright.','운동 이름엔 관사 없이!')]),
+ ot:V('프렙 마을','전치사 항구 · at/in/on이 뒤섞인 마을',
+  '던전 때문에 <b>전치사</b>가 뒤죽박죽이에요! 시간·장소에 맞는 전치사를 찾아 주세요.',
+  '던전이 잠잠해지자 <b>at, in, on</b>이 제자리를 찾았어요!',[
+  N('⏰','선원 보','I get up [[in]] 7 o\'clock and go to school [[on]] bus.','I get up at 7 o\'clock and go to school by bus.','나는 7시에 일어나서 버스로 학교에 가요.','I get up in 7 o\'clock and go to school by bus.','I get up at 7 o\'clock and go to school on bus.','정시엔 at, 교통수단엔 by!'),
+  N('🎂','소녀 수아','My birthday is [[in]] May 5. We met [[at]] 2020.','My birthday is on May 5. We met in 2020.','내 생일은 5월 5일이에요. 우리는 2020년에 만났어요.','My birthday is in May 5. We met in 2020.','My birthday is on May 5. We met at 2020.','날짜엔 on, 연도엔 in!'),
+  N('➗','수학 선생 라이언','He is good [[in]] math. I\'m afraid [[at]] dogs.','He is good at math. I\'m afraid of dogs.','그는 수학을 잘해요. 나는 개가 무서워요.','He is good in math. I\'m afraid of dogs.','He is good at math. I\'m afraid at dogs.','be good at, be afraid of!'),
+  N('🐈','어부 소피아','The cat is [[in]] the table. He lives [[on]] Seoul.','The cat is under the table. He lives in Seoul.','고양이는 탁자 아래에 있어요. 그는 서울에 살아요.','The cat is in the table. He lives in Seoul.','The cat is under the table. He lives on Seoul.','고양이도 제자리를 찾았네요.')]),
+ iv:V('투 마을','준동사 계곡 · to부정사와 동명사가 엉킨 마을',
+  '던전 때문에 <b>to부정사와 동명사</b>가 바뀌었어요! want to, enjoy -ing 같은 짝을 찾아 주세요.',
+  '던전이 잠잠해지자 <b>to V와 V-ing</b>가 제짝을 되찾았어요!',[
+  N('🏊','수영 선수 진','I want [[going]] home. He enjoys [[to swim]].','I want to go home. He enjoys swimming.','나는 집에 가고 싶어요. 그는 수영을 즐겨요.','I want going home. He enjoys swimming.','I want to go home. He enjoys to swim.','want는 to, enjoy는 -ing!'),
+  N('✈️','여행자 켄','She decided [[studying]] abroad. He finished [[to read]] the book.','She decided to study abroad. He finished reading the book.','그녀는 유학하기로 결심했어요. 그는 책 읽기를 마쳤어요.','She decided studying abroad. He finished reading the book.','She decided to study abroad. He finished to read the book.','결심은 to, 끝내기는 -ing!'),
+  N('🈂️','언어학자 노라','It is hard [[learn]] a language. I have a book [[read]].','It is hard to learn a language. I have a book to read.','언어를 배우는 것은 어려워요. 나는 읽을 책이 있어요.','It is hard learn a language. I have a book to read.','It is hard to learn a language. I have a book read.','to가 있어야 문장이 완성돼요.'),
+  N('♟️','체스 챔피언 막스','He is good at [[play]] chess. Thank you for [[help]] me.','He is good at playing chess. Thank you for helping me.','그는 체스를 잘 둬요. 도와줘서 고마워요.','He is good at play chess. Thank you for helping me.','He is good at playing chess. Thank you for help me.','전치사 뒤엔 -ing!')]),
+ pe:V('센스 마을','지각·사역·감각동사 늪 · 보고 듣고 시키는 말이 엉킨 마을',
+  '던전 때문에 <b>지각동사·사역동사·감각동사</b>가 망가졌어요! 뒤에 오는 말의 모양을 바로잡아 주세요.',
+  '던전이 잠잠해지자 <b>see/make/smell</b> 뒤의 말이 제 모양을 찾았어요!',[
+  N('🐦','새 관찰자 에이','I saw him [[to cross]] the street. She heard the bird [[sang]].','I saw him cross the street. She heard the bird sing.','나는 그가 길을 건너는 것을 봤어요. 그녀는 새가 노래하는 소리를 들었어요.','I saw him to cross the street. She heard the bird sing.','I saw him cross the street. She heard the bird sang.','본 것도 들은 것도 바르게!'),
+  N('🧹','엄마 베라','Mom made me [[to clean]] my room. He let me [[to go]].','Mom made me clean my room. He let me go.','엄마는 내게 방을 청소시켰어요. 그는 나를 가게 해 줬어요.','Mom made me to clean my room. He let me go.','Mom made me clean my room. He let me to go.','make, let 뒤엔 동사원형!'),
+  N('🍲','요리사 간','This soup smells [[well]]. She looks [[happily]].','This soup smells good. She looks happy.','이 수프는 냄새가 좋아요. 그녀는 행복해 보여요.','This soup smells well. She looks happy.','This soup smells good. She looks happily.','감각동사 뒤엔 형용사!'),
+  N('🚲','수리공 팀','I had my bike [[repair]]. She felt the ground [[shaken]].','I had my bike repaired. She felt the ground shake.','나는 자전거를 수리받았어요. 그녀는 땅이 흔들리는 것을 느꼈어요.','I had my bike repair. She felt the ground shake.','I had my bike repaired. She felt the ground shaken.','자전거도 말도 고쳐졌네요!')]),
+ ng:V('엑스 마을','명사·명령문·감탄문 마당 · 외침이 엉킨 마을',
+  '던전 때문에 <b>감탄문·명령문·셀 수 없는 명사</b>가 망가졌어요! 바로잡아 주세요.',
+  '던전이 잠잠해지자 <b>What / How</b> 감탄과 명령문이 돌아왔어요!',[
+  N('🌸','꽃집 아가씨 로사','How [[a beautiful]] flower! [[What]] fast he runs!','What a beautiful flower! How fast he runs!','정말 아름다운 꽃이네요! 그는 정말 빨리 달려요!','How a beautiful flower! How fast he runs!','What a beautiful flower! What fast he runs!','What + a + 명사, How + 형용사!'),
+  N('📚','사서 올리','[[Are]] quiet in the library! [[Not]] run!','Be quiet in the library! Don\'t run!','도서관에서는 조용히 하세요! 뛰지 마세요!','Are quiet in the library! Don\'t run!','Be quiet in the library! Not run!','조용히, 조용히!'),
+  N('🍞','빵 가게 피트','I need some [[waters]] and two [[breads]].','I need some water and two pieces of bread.','나는 물과 빵 두 조각이 필요해요.','I need some waters and two pieces of bread.','I need some water and two breads.','셀 수 없는 명사는 단위로!'),
+  N('🌳','공원지기 헨리','Let\'s [[going]] to the park. [[Be not]] late!','Let\'s go to the park. Don\'t be late!','공원에 가요. 늦지 마세요!','Let\'s going to the park. Don\'t be late!','Let\'s go to the park. Be not late!','Let\'s 뒤엔 동사원형!')]),
+ rs:V('세이 마을','화법·간접의문문 우체국 · 전하는 말이 엉킨 마을',
+  '던전 때문에 <b>간접화법과 간접의문문</b>이 망가졌어요! 전하는 말의 어순과 시제를 바로잡아 주세요.',
+  '던전이 잠잠해지자 <b>전하는 말</b>이 또렷하게 돌아왔어요!',[
+  N('📮','우체부 샘','She said that she [[is]] tired yesterday. He told [[to me]] that he was busy.','She said that she was tired yesterday. He told me that he was busy.','그녀는 어제 피곤했다고 말했어요. 그는 내게 바쁘다고 말했어요.','She said that she is tired yesterday. He told me that he was busy.','She said that she was tired yesterday. He told to me that he was busy.','tell은 바로 사람!'),
+  N('🕵️','탐정 노아','I don\'t know where [[is he]]. Do you know what [[does she want]]?','I don\'t know where he is. Do you know what she wants?','나는 그가 어디 있는지 몰라요. 그녀가 뭘 원하는지 아세요?','I don\'t know where is he. Do you know what she wants?','I don\'t know where he is. Do you know what does she want?','간접의문문은 평서문 어순!'),
+  N('🙋','학생 미나','He asked me [[where did I live]]. She asked [[if was I]] busy.','He asked me where I lived. She asked if I was busy.','그는 내가 어디 사는지 물었어요. 그녀는 내가 바쁜지 물었어요.','He asked me where did I live. She asked if I was busy.','He asked me where I lived. She asked if was I busy.','물어본 말도 정리됐어요.'),
+  N('🚌','안내원 수','Tell me [[how old is she]]. I wonder [[when does the bus]] come.','Tell me how old she is. I wonder when the bus comes.','그녀가 몇 살인지 알려 줘요. 버스가 언제 오는지 궁금해요.','Tell me how old is she. I wonder when the bus comes.','Tell me how old she is. I wonder when does the bus come.','이제 버스도 제때 오겠죠?')]),
+ sx:V('톱 마을','도치·강조·병렬·동격 성채 · 문장 순서가 뒤집힌 마을',
+  '던전 때문에 <b>도치·강조·병렬·동격</b>이 망가졌어요! 어색한 곳을 바로잡아 주세요.',
+  '던전이 잠잠해지자 <b>문장의 짜임</b>이 반듯하게 돌아왔어요!',[
+  N('🐋','선장 아벨','Never [[I have]] seen such a big whale. Hardly [[he sleeps]].','Never have I seen such a big whale. Hardly does he sleep.','그렇게 큰 고래는 본 적이 없어요. 그는 거의 자지 않아요.','Never I have seen such a big whale. Hardly does he sleep.','Never have I seen such a big whale. Hardly he sleeps.','부정어가 앞에 오면 도치!'),
+  N('🪟','경찰 로건','It was Tom [[what]] broke the window. I [[do]] wanted to help.','It was Tom who broke the window. I did want to help.','창문을 깬 건 바로 톰이었어요. 나는 정말 돕고 싶었어요.','It was Tom what broke the window. I did want to help.','It was Tom who broke the window. I do wanted to help.','강조 구문 It was ~ who!'),
+  N('🎨','예술가 비비','She likes singing, dancing, and [[to paint]]. He is kind, smart, and [[humor]].','She likes singing, dancing, and painting. He is kind, smart, and humorous.','그녀는 노래, 춤, 그림을 좋아해요. 그는 친절하고 똑똑하고 유머러스해요.','She likes singing, dancing, and to paint. He is kind, smart, and humorous.','She likes singing, dancing, and painting. He is kind, smart, and humor.','나란히 놓인 말은 모양을 맞춰요!'),
+  N('🏰','성지기 클라라','Mina, [[is my best friend]], lives next door. So tired [[he was]] that he fell asleep.','Mina, my best friend, lives next door. So tired was he that he fell asleep.','내 가장 친한 친구 미나는 옆집에 살아요. 너무 피곤해서 그는 잠들었어요.','Mina, is my best friend, lives next door. So tired was he that he fell asleep.','Mina, my best friend, lives next door. So tired he was that he fell asleep.','성채의 말도 반듯해졌어요!')])
+});
+})();
+
+/* ===== 🏘️ 마을: 던전 때문에 말이 망가진 마을 → 던전을 깨면 말이 돌아온다 ===== */
+/* b: 망가진 문장 ([[ ]] 안이 틀린 부분) · f: 고친 문장 · ko: 우리말 뜻 · o: 어색한 보기 2개 · th: 고마워하는 말 */
+const TOWN={
+ tn:{nm:'크로노 마을',sub:'시제 평원 · 시간이 뒤엉킨 마을',
+  bi:'평원의 던전 때문에 마을 사람들의 말에서 <b>시간</b>이 뒤엉켜 버렸어요! 어제와 내일을 구별하지 못하고 있어요. 우리말 뜻을 보고, 어색한 곳을 찾아 보세요.',
+  hi:'던전이 잠잠해지자 마을 사람들의 말이 <b>제 시간</b>을 되찾았어요! 어제는 과거로, 내일은 미래로 정확하게 말해요.',
+  n:[
+  {ic:'👨‍🍳',who:'빵집 주인 보리',b:'Yesterday I [[bake]] bread, and tomorrow I [[baked]] a cake!',f:'Yesterday I baked bread, and tomorrow I will bake a cake!',ko:'어제는 빵을 구웠고, 내일은 케이크를 구울 거예요!',o:['Yesterday I baked bread, and tomorrow I baked a cake!','Yesterday I bake bread, and tomorrow I will bake a cake!'],th:'이제 케이크 반죽 시간을 안 헷갈려요. 고마워요!'},
+  {ic:'👧',who:'꼬마 하나',b:'My mom [[go]] to the market yesterday. She [[buyed]] apples.',f:'My mom went to the market yesterday. She bought apples.',ko:'엄마는 어제 시장에 가셨어요. 사과를 사 오셨어요.',o:['My mom went to the market yesterday. She buyed apples.','My mom goes to the market yesterday. She bought apples.'],th:'엄마가 사 온 사과가 정말 맛있어요!'},
+  {ic:'🧓',who:'시계 할아버지',b:'It [[rains]] now, but it [[is]] sunny last night.',f:'It is raining now, but it was sunny last night.',ko:'지금은 비가 오고 있지만, 어젯밤엔 맑았어요.',o:['It rains now, but it is sunny last night.','It is raining now, but it is sunny last night.'],th:'시계도 다시 제대로 가는구먼. 허허.'},
+  {ic:'📮',who:'우체부 톰',b:'I [[delivered]] letters every day. Tomorrow I [[delivered]] a big package.',f:'I deliver letters every day. Tomorrow I will deliver a big package.',ko:'나는 매일 편지를 배달해요. 내일은 큰 소포를 배달할 거예요.',o:['I delivered letters every day. Tomorrow I will deliver a big package.','I deliver letters every day. Tomorrow I delivered a big package.'],th:'배달 일정이 안 꼬여서 살았어요!'}]},
+ md:{nm:'캔윌 마을',sub:'모달 계곡 · 말끝이 뒤엉킨 마을',
+  bi:'계곡의 던전 때문에 마을 사람들의 말에서 <b>조동사</b> 규칙이 무너졌어요! can, must, will 뒤에 이상한 말이 붙어요. 우리말 뜻을 보고, 어색한 곳을 찾아 보세요.',
+  hi:'던전이 잠잠해지자 <b>조동사</b> 뒤의 말이 제자리로 돌아왔어요! 조동사 뒤에는 늘 동사원형이 와요.',
+  n:[
+  {ic:'👵',who:'약초 할머니',b:'She can [[speaks]] three languages.',f:'She can speak three languages.',ko:'그녀는 세 가지 언어를 말할 수 있어요.',o:['She can speaking three languages.','She cans speak three languages.'],th:'조동사 뒤는 동사원형이지, 암 그렇고말고.'},
+  {ic:'👷',who:'공사장 반장',b:'You must [[to wear]] a helmet here.',f:'You must wear a helmet here.',ko:'여기서는 헬멧을 써야 해요.',o:['You must wearing a helmet here.','You must wears a helmet here.'],th:'덕분에 다들 안전하게 일해요!'},
+  {ic:'🧒',who:'심부름꾼 민',b:'[[Can I to open]] the window?',f:'Can I open the window?',ko:'창문을 열어도 될까요?',o:['Can I opening the window?','Do I can open the window?'],th:'이제 마음 편히 창문을 열어요!'},
+  {ic:'💂',who:'경비대장 로이',b:'He [[will can]] help you tomorrow.',f:'He will be able to help you tomorrow.',ko:'그는 내일 당신을 도와줄 수 있을 거예요.',o:['He will can help you tomorrow.','He will be able help you tomorrow.'],th:'조동사 두 개가 겹치면 안 되는 거였군요. 고맙소!'}]},
+ rp:{nm:'이어말 숲마을',sub:'관계대명사 숲 · 말이 서로 안 이어지는 마을',
+  bi:'숲의 던전 때문에 마을 사람들의 말에서 <b>관계대명사</b>가 엉켜 버렸어요! who, which, whose를 아무렇게나 써요. 우리말 뜻을 보고, 어색한 곳을 찾아 보세요.',
+  hi:'던전이 잠잠해지자 <b>관계대명사</b>가 제자리를 찾았어요! 사람에게는 who, 사물에게는 which·that, 소유는 whose예요.',
+  n:[
+  {ic:'🧝',who:'숲지기 엘라',b:'This is the girl [[which]] lives next door.',f:'This is the girl who lives next door.',ko:'이 아이가 옆집에 사는 소녀예요.',o:['This is the girl whose lives next door.','This is the girl who she lives next door.'],th:'사람에게는 who! 이제 안 헷갈려요.'},
+  {ic:'📚',who:'도서관 사서 노아',b:'The book [[what]] I bought is great.',f:'The book that I bought is great.',ko:'내가 산 책은 아주 좋아요.',o:['The book what I bought is great.','The book that I bought it is great.'],th:'이 책, 정말 재미있다니까요!'},
+  {ic:'🚗',who:'정비공 잭',b:'He is the man [[who]] car is red.',f:'He is the man whose car is red.',ko:'그는 차가 빨간 남자예요.',o:['He is the man who car is red.','He is the man whom car is red.'],th:'whose가 "~의"였군요. 시원하네요!'},
+  {ic:'🏹',who:'사냥꾼 한',b:'I know the boy who you met [[him]] yesterday.',f:'I know the boy who you met yesterday.',ko:'나는 네가 어제 만난 소년을 알아요.',o:['I know the boy who you met him yesterday.','I know the boy whose you met yesterday.'],th:'관계대명사가 이미 목적어 역할을 하는군. 고맙네!'}]}
+};
+const twSV=id=>{SV.town=SV.town||{};return SV.town[id]||(SV.town[id]={b:0,h:0,q:{}});};
+const twHas=id=>!!TOWN[id];
+const twCleared=id=>SV.cleared.includes(id)||(SV.rcleared||[]).includes(id);
+function twGate(id,cont){if(!twHas(id))return false;const st=twCleared(id)?'h':'b',T=twSV(id);if(T[st])return false;T[st]=1;saveNow();G.tw={id,cont,back:'dsel'};G.scr='town';render();return true;}
+function twOpen(id){twSV(id)[twCleared(id)?'h':'b']=1;saveNow();G.tw={id,cont:null,back:'dsel'};G.scr='town';sfx('select');render();}
+const twPlain=s=>s.replace(/\[\[|\]\]/g,'');
+const twMark=s=>esc(s).replace(/\[\[(.*?)\]\]/g,'<mark class="twm">$1</mark>');
+function townScreen(){const W=G.tw;if(!W||!TOWN[W.id]){G.scr='dsel';return render();}
+ const id=W.id,D=TOWN[id],dg=DUNGEONS.find(d=>d.id===id)||{},h=twCleared(id),T=twSV(id),fx=G.twfx||(G.twfx={});
+ const card=(n,i)=>{const fixed=h||T.q[i];let line,cls='twb';
+  if(fixed){line=esc(n.f);cls='twf';}else line=W.hint?twMark(n.b):esc(twPlain(n.b));
+  const open=!fixed&&W.open===i;
+  return `<div class="twn ${cls}"><div class="twh"><span class="twic">${n.ic}</span><b>${esc(n.who)}</b>${T.q[i]&&!h?'<small class="hint"> · 고쳐 줬어요 ✅</small>':''}</div>
+  <div class="twsay">“${line}”</div><div class="tr">💬 뜻: ${esc(n.ko)}</div>
+  ${fixed?`<div class="twth">${esc(n.th)}</div>`:`${open?`<div class="twq"><div class="hint">어느 말이 자연스러운가요?</div>${(W.ord&&W.ord[i]||[]).map(k=>`<button class="choice" data-twp="${i}" data-k="${k}">${esc(k==='f'?n.f:n.o[+k])}</button>`).join('')}${fx[i]?`<div class="feedback bad">${esc(fx[i])}</div>`:''}</div>`:`<button class="btn-s" data-two="${i}">🛠️ 말 고쳐 주기 (💎 +2)</button>`}`}</div>`;};
+ const fixedN=h?D.n.length:D.n.filter((_,i)=>T.q[i]).length;
+ $('app').innerHTML=hud()+`<div class="card"><div class="gbanner twban ${h?'':'twgray'}" style="background-image:url(nb_${dg.bg||'d1'}.jpg)"></div>
+ <div class="speaker">🏘️ ${esc(D.nm)}</div><div class="hint" style="margin-bottom:4px">${esc(D.sub)}</div>
+ <div class="story">${h?D.hi:D.bi}</div>
+ ${h?'<div class="feedback ok">🌈 던전을 클리어해서 마을의 말이 모두 돌아왔어요!</div>':`<div class="hint" style="margin:4px 0">🗣️ 말이 돌아온 주민: <b>${fixedN} / ${D.n.length}</b> · 던전을 클리어하면 모두 돌아와요.</div><div class="dtools"><button class="btn-s" id="twhint">${W.hint?'🙈 힌트 끄기':'🔍 어디가 이상해요? (힌트)'}</button></div>`}
+ ${D.n.map(card).join('')}
+ <div class="dtools" style="margin-top:10px">${W.cont?'<button class="next" id="twgo">⚔️ 던전으로 들어가기</button>':''}<button class="${W.cont?'btn-s':'next'}" id="twbk">↩ ${W.cont?'나중에 갈래요':'돌아가기'}</button></div></div>`;
+ const hb=$('twhint');if(hb)hb.onclick=()=>{W.hint=!W.hint;sfx('select');render();};
+ document.querySelectorAll('[data-two]').forEach(b=>b.onclick=()=>{const i=+b.dataset.two;W.open=i;W.ord=W.ord||{};W.ord[i]=shuffle(['f','0','1']);fx[i]='';sfx('select');render();});
+ document.querySelectorAll('[data-twp]').forEach(b=>b.onclick=()=>{const i=+b.dataset.twp;
+  if(b.dataset.k==='f'){if(!T.q[i]){T.q[i]=1;SV.cry+=2;saveNow();}W.open=null;fx[i]='';sfx('fanfare');render();}
+  else{fx[i]='음… 아직 어색해요. 우리말 뜻을 다시 보고 골라 보세요.';sfx('wrong');render();}});
+ $('twbk').onclick=()=>{sfx('select');G.tw=null;G.twfx=null;G.scr=W.back||'dsel';render();};
+ const go=$('twgo');if(go)go.onclick=()=>{sfx('formed');const c=W.cont;G.tw=null;G.twfx=null;c();};}
+/* ----- 연결: 던전에 처음 들어갈 때(망가진 마을) · 클리어 후 처음 들어갈 때(되살아난 마을) ----- */
+(function(){const _s=rpgStart;rpgStart=function(d){if(d&&twGate(d.id,()=>rpgStart(d)))return;return _s.apply(this,arguments);};})();
+(function(){const _f=formed;formed=function(){const d=G.dg;if(d&&twGate(d.id,()=>{G.scr='formed';render();}))return;return _f.apply(this,arguments);};})();
+/* ----- 클리어 화면 · RPG 지도 팝업에서 마을 보러 가기 ----- */
+(function(){const _c=clear;clear=function(){_c.apply(this,arguments);try{const d=G.dg;if(!d||!twHas(d.id))return;const h=document.querySelector('#app .card h2');
+ if(h&&!document.getElementById('twvis'))h.insertAdjacentHTML('afterend',`<div id="twvis" style="margin:8px 0"><button class="btn-s" id="twvb">🏘️ ${esc(TOWN[d.id].nm)}의 말이 돌아왔는지 보러 가기</button></div>`);
+ const b=document.getElementById('twvb');if(b)b.onclick=()=>twOpen(d.id);}catch(e){}};})();
+(function(){const _r=rresult;rresult=function(){_r.apply(this,arguments);try{const R=G.rp,d=G.dg;if(!R||!R.win||!d||!twHas(d.id))return;const a=document.getElementById('again');
+ if(a&&!document.getElementById('twvb')){a.parentNode.insertAdjacentHTML('beforebegin',`<div style="margin:8px 0"><button class="btn-s" id="twvb">🏘️ ${esc(TOWN[d.id].nm)}의 말이 돌아왔는지 보러 가기</button></div>`);document.getElementById('twvb').onclick=()=>twOpen(d.id);}}catch(e){}};})();
+(function(){const _w=wmOpen;wmOpen=function(id){_w.apply(this,arguments);try{if(!twHas(id))return;const bx=document.querySelector('#wmpop .bpbtn');if(!bx||!document.getElementById('wmgo'))return;
+ const b=document.createElement('button');b.className='ghost';b.id='wmtw';b.textContent='🏘️ 마을 보기';b.onclick=()=>{wmClosePop();twOpen(id);};bx.insertBefore(b,document.getElementById('wmx'));}catch(e){}};})();
+
+/* ----- 언제든 찾아갈 수 있게: 던전 목록 위에 마을 바로가기 ----- */
+const twRow=()=>`<details id="twrow" class="twrow"><summary class="hint">🏘️ 마을 둘러보기 (${Object.keys(TOWN).length}곳) <small>· 던전 때문에 말이 망가진 마을</small></summary><div class="sdchips">${Object.keys(TOWN).map(id=>`<button class="sdchip" data-twv="${id}">${twCleared(id)?'🌈':'🌫️'} ${esc(TOWN[id].nm)}</button>`).join('')}</div></details>`;
+function twBindRow(){document.querySelectorAll('[data-twv]').forEach(b=>b.onclick=()=>twOpen(b.dataset.twv));}
+(function(){const _g=regionScreen;regionScreen=function(k){_g.apply(this,arguments);try{if(k!=='gram'||document.getElementById('twrow'))return;const t=document.getElementById('tomap'),host=t?t.parentNode:document.querySelector('#app .card');
+ if(t)t.insertAdjacentHTML('afterend',twRow());else if(host)host.insertAdjacentHTML('afterbegin',twRow());twBindRow();}catch(e){}};})();
+(function(){const _r=rpgDsel;rpgDsel=function(){_r.apply(this,arguments);try{const c=document.querySelector('#app .card');if(!c||document.getElementById('twrow'))return;c.insertAdjacentHTML('afterbegin',twRow());twBindRow();}catch(e){}};})();

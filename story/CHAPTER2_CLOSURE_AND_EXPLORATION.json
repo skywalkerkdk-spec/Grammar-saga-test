@@ -1,0 +1,551 @@
+{
+  "version": "0.2",
+  "vaults": [
+    {
+      "id": "hidden_room_guild",
+      "town": "sj",
+      "requires": "book_secret_lantern_complete",
+      "title_en": "The Resting Place",
+      "title_ko": "옛 쉼터",
+      "entry": {
+        "speaker": "Narrator",
+        "en": "The keeper opens a small room for visitors.",
+        "ko": "관리인이 방문객을 위해 작은 방을 열어 준다."
+      },
+      "evidence": {
+        "en": "The bird is above the circle. The tree marks the garden.",
+        "ko": "새는 원 위에 있어요. 나무는 정원을 표시해요."
+      },
+      "task": {
+        "question_en": "Which sign marks the shelter?",
+        "options": [
+          "The bird above the circle",
+          "The tree",
+          "Neither"
+        ],
+        "correct_index": 0
+      },
+      "reward": {
+        "id": "relic_guild",
+        "en": "Guild Register Copy",
+        "ko": "길드 명부 사본",
+        "type": "collection_only"
+      },
+      "exit": "return_to_town",
+      "fallback": "dialogue evidence panel if no verified map anchor"
+    },
+    {
+      "id": "hidden_room_bell",
+      "town": "md",
+      "requires": "book_secret_shield_complete",
+      "title_en": "The Bell Workshop",
+      "title_ko": "종 공방",
+      "entry": {
+        "speaker": "Narrator",
+        "en": "The keeper opens a small room for visitors.",
+        "ko": "관리인이 방문객을 위해 작은 방을 열어 준다."
+      },
+      "evidence": {
+        "en": "The drawing shows a bell. The shield is shown as its source of metal.",
+        "ko": "그림에는 종이 있어요. 방패는 금속의 출처로 표시돼요."
+      },
+      "task": {
+        "question_en": "What was made from the shield?",
+        "options": [
+          "A sword",
+          "A bell",
+          "A key"
+        ],
+        "correct_index": 1
+      },
+      "reward": {
+        "id": "relic_bell",
+        "en": "Bronze Bell Replica",
+        "ko": "청동 종 모형",
+        "type": "collection_only"
+      },
+      "exit": "return_to_town",
+      "fallback": "dialogue evidence panel if no verified map anchor"
+    },
+    {
+      "id": "hidden_room_chart",
+      "town": "ot",
+      "requires": "book_secret_star_complete",
+      "title_en": "The Chart Room",
+      "title_ko": "해도 보관실",
+      "entry": {
+        "speaker": "Narrator",
+        "en": "The keeper opens a small room for visitors.",
+        "ko": "관리인이 방문객을 위해 작은 방을 열어 준다."
+      },
+      "evidence": {
+        "en": "The chart shows stars and coastal landmarks. The other sheet lists cargo.",
+        "ko": "해도에는 별과 해안 지형이 있어요. 다른 종이에는 화물이 적혀 있어요."
+      },
+      "task": {
+        "question_en": "Which sheet helps explain navigation?",
+        "options": [
+          "The cargo list",
+          "Both sheets equally",
+          "The chart"
+        ],
+        "correct_index": 2
+      },
+      "reward": {
+        "id": "relic_chart",
+        "en": "Navigator's Seal Replica",
+        "ko": "항해사 인장 모형",
+        "type": "collection_only"
+      },
+      "exit": "return_to_town",
+      "fallback": "dialogue evidence panel if no verified map anchor"
+    },
+    {
+      "id": "hidden_room_archive",
+      "town": "pc",
+      "requires": "book_secret_archive_complete",
+      "title_en": "The Copyist's Alcove",
+      "title_ko": "필경사의 작은 방",
+      "entry": {
+        "speaker": "Narrator",
+        "en": "The keeper invites the party inside.",
+        "ko": "관리인이 모험단을 안으로 초대한다."
+      },
+      "evidence": {
+        "en": "The first copy has a date and a source. The second has neither.",
+        "ko": "첫 사본에는 날짜와 출처가 있어요. 두 번째에는 둘 다 없어요."
+      },
+      "task": {
+        "question_en": "Which copy can we trace?",
+        "options": [
+          "The first copy",
+          "The second copy",
+          "Neither"
+        ],
+        "correct_index": 0
+      },
+      "reward": {
+        "id": "relic_archive",
+        "en": "Copyist's Seal",
+        "ko": "필경사의 인장",
+        "type": "collection_only"
+      },
+      "exit": "return_to_town",
+      "fallback": "dialogue evidence panel if no verified map anchor"
+    },
+    {
+      "id": "hidden_room_stage",
+      "town": "ng",
+      "requires": "book_secret_portrait_complete",
+      "title_en": "Behind the Curtain",
+      "title_ko": "무대 뒤편",
+      "entry": {
+        "speaker": "Narrator",
+        "en": "The keeper invites the party inside.",
+        "ko": "관리인이 모험단을 안으로 초대한다."
+      },
+      "evidence": {
+        "en": "The crown is made of wood. The actors' names are inside it.",
+        "ko": "왕관은 나무로 만들어졌어요. 안에는 배우들의 이름이 있어요."
+      },
+      "task": {
+        "question_en": "What is inside the crown?",
+        "options": [
+          "A jewel",
+          "The actors' names",
+          "A map"
+        ],
+        "correct_index": 1
+      },
+      "reward": {
+        "id": "relic_stage",
+        "en": "Wooden Crown Replica",
+        "ko": "나무 왕관 모형",
+        "type": "collection_only"
+      },
+      "exit": "return_to_town",
+      "fallback": "dialogue evidence panel if no verified map anchor"
+    },
+    {
+      "id": "hidden_room_binding",
+      "town": "pn",
+      "requires": "book_secret_merchant_complete",
+      "title_en": "The Binder's Cabinet",
+      "title_ko": "제본사의 장식장",
+      "entry": {
+        "speaker": "Narrator",
+        "en": "The keeper invites the party inside.",
+        "ko": "관리인이 모험단을 안으로 초대한다."
+      },
+      "evidence": {
+        "en": "The blue cover belongs to a blank notebook. The brown cover belongs to a finished journal.",
+        "ko": "파란 표지는 빈 공책의 것이고 갈색 표지는 완성된 여행기의 것이에요."
+      },
+      "task": {
+        "question_en": "Which cover belongs to the finished journal?",
+        "options": [
+          "Blue",
+          "Both",
+          "Brown"
+        ],
+        "correct_index": 2
+      },
+      "reward": {
+        "id": "relic_binding",
+        "en": "Binder's Sample",
+        "ko": "제본 견본",
+        "type": "collection_only"
+      },
+      "exit": "return_to_town",
+      "fallback": "dialogue evidence panel if no verified map anchor"
+    }
+  ],
+  "finale": [
+    {
+      "id": "arrival",
+      "speaker": "Narrator",
+      "en": "The restored pages shine, but a dark line runs across every page.",
+      "ko": "복원된 페이지들이 빛나지만 검은 선이 모든 페이지를 가로지른다.",
+      "chunks": [
+        {
+          "en": "The restored pages shine,",
+          "ko": "복원된 페이지들이 빛나지만"
+        },
+        {
+          "en": "but a dark line runs across every page.",
+          "ko": "검은 선이 모든 페이지를 가로지른다."
+        }
+      ]
+    },
+    {
+      "id": "reveal",
+      "speaker": "Silentius",
+      "en": "I needed the book to be whole. Its power will carry my command.",
+      "ko": "책이 완전해질 필요가 있었다. 그 힘이 내 명령을 전할 것이다."
+    },
+    {
+      "id": "answer",
+      "speaker": "Lexion",
+      "en": "The book opens the sanctuary. The added spell is what we must break.",
+      "ko": "책은 성역을 연다. 우리가 깨야 할 것은 덧붙여진 주문이네.",
+      "chunks": [
+        {
+          "en": "The book opens the sanctuary.",
+          "ko": "책이 성역을 열어."
+        },
+        {
+          "en": "The added spell is what we must break.",
+          "ko": "우리가 깨야 할 것은 덧씌운 주문이야."
+        }
+      ]
+    },
+    {
+      "id": "phase1",
+      "speaker": "Subject",
+      "en": "I will not carry this burden alone.",
+      "ko": "이 짐을 혼자 지지 않겠어.",
+      "chunks": [
+        {
+          "en": "I will not carry",
+          "ko": "짊어지지 않을 거야."
+        },
+        {
+          "en": "this burden alone.",
+          "ko": "이 짐을 혼자"
+        }
+      ]
+    },
+    {
+      "id": "phase2",
+      "speaker": "Comple",
+      "en": "Protect the people, not the command.",
+      "ko": "명령이 아니라 사람들을 지켜.",
+      "chunks": [
+        {
+          "en": "Protect the people,",
+          "ko": "사람들을 지켜."
+        },
+        {
+          "en": "not the command.",
+          "ko": "명령을 지키는 게 아니라."
+        }
+      ]
+    },
+    {
+      "id": "phase3",
+      "speaker": "Ob",
+      "en": "We know which words are ours.",
+      "ko": "어떤 말이 우리의 것인지 알아.",
+      "chunks": [
+        {
+          "en": "We know",
+          "ko": "우리는 알아."
+        },
+        {
+          "en": "which words are ours.",
+          "ko": "어느 말이 우리의 것인지"
+        }
+      ]
+    },
+    {
+      "id": "phase4",
+      "speaker": "Oxy",
+      "en": "We can restore the book without destroying it.",
+      "ko": "책을 파괴하지 않고 복원할 수 있어.",
+      "chunks": [
+        {
+          "en": "We can restore the book",
+          "ko": "우리는 책을 복원할 수 있어."
+        },
+        {
+          "en": "without destroying it.",
+          "ko": "그것을 파괴하지 않고"
+        }
+      ]
+    },
+    {
+      "id": "victory",
+      "speaker": "Silentius",
+      "en": "I thought silence would end every argument.",
+      "ko": "침묵이 모든 다툼을 끝낼 거라 생각했다."
+    },
+    {
+      "id": "victory2",
+      "speaker": "Verbella",
+      "en": "Peace begins when we listen, not when everyone obeys.",
+      "ko": "평화는 모두가 복종할 때가 아니라 서로의 말을 들을 때 시작돼요.",
+      "chunks": [
+        {
+          "en": "Peace begins when we listen,",
+          "ko": "평화는 서로의 말을 들을 때 시작돼."
+        },
+        {
+          "en": "not when everyone obeys.",
+          "ko": "모두가 복종할 때가 아니라."
+        }
+      ]
+    },
+    {
+      "id": "return",
+      "speaker": "Lexion",
+      "en": "Leave room in the book for the next reader.",
+      "ko": "다음 독자를 위한 자리를 책에 남겨 두게."
+    },
+    {
+      "id": "end",
+      "speaker": "Narrator",
+      "en": "The doors of the library opened again. The travelers had a place to return to.",
+      "ko": "도서관의 문이 다시 열렸다. 여행자들에게 돌아갈 곳이 생겼다."
+    }
+  ],
+  "aftermath": [
+    {
+      "town": "g1",
+      "npc": "g1_extra_6",
+      "en": "There is fresh bread for anyone who has come a long way.",
+      "ko": "먼 길을 온 누구에게나 갓 구운 빵이 있어요.",
+      "requires": [
+        "sanctuary_of_silence_cleared",
+        "town_recovered"
+      ]
+    },
+    {
+      "town": "g2",
+      "npc": "g2_extra_7",
+      "en": "Tell me what you would like for dinner.",
+      "ko": "저녁에 무엇을 드시고 싶은지 말씀해 주세요.",
+      "requires": [
+        "sanctuary_of_silence_cleared",
+        "town_recovered"
+      ]
+    },
+    {
+      "town": "tn",
+      "npc": "tn_extra_5",
+      "en": "The clock is ready for another day.",
+      "ko": "시계가 새로운 하루를 맞을 준비를 마쳤어요.",
+      "requires": [
+        "sanctuary_of_silence_cleared",
+        "town_recovered"
+      ]
+    },
+    {
+      "town": "md",
+      "npc": "md_extra_7",
+      "en": "We will keep checking the bridge.",
+      "ko": "다리를 계속 점검할 거예요.",
+      "requires": [
+        "sanctuary_of_silence_cleared",
+        "town_recovered"
+      ]
+    },
+    {
+      "town": "rp",
+      "npc": "rp_extra_6",
+      "en": "The paths are open for careful travelers.",
+      "ko": "조심해서 여행하는 사람들에게 길이 열려 있어요.",
+      "requires": [
+        "sanctuary_of_silence_cleared",
+        "town_recovered"
+      ]
+    },
+    {
+      "town": "ps",
+      "npc": "ps_extra_6",
+      "en": "Readers are welcome at the archive.",
+      "ko": "기록실은 독자들을 환영해요.",
+      "requires": [
+        "sanctuary_of_silence_cleared",
+        "town_recovered"
+      ]
+    },
+    {
+      "town": "pf",
+      "npc": "pf_extra_5",
+      "en": "There is room for another letter in my bag.",
+      "ko": "가방에 편지 한 통을 더 넣을 자리가 있어요.",
+      "requires": [
+        "sanctuary_of_silence_cleared",
+        "town_recovered"
+      ]
+    },
+    {
+      "town": "rv",
+      "npc": "rv_extra_5",
+      "en": "There are still places to add to our map.",
+      "ko": "지도에 추가할 곳이 아직 있어요.",
+      "requires": [
+        "sanctuary_of_silence_cleared",
+        "town_recovered"
+      ]
+    },
+    {
+      "town": "pc",
+      "npc": "pc_extra_6",
+      "en": "We will keep the old records beside the new ones.",
+      "ko": "옛 기록을 새 기록 옆에 보관할 거예요.",
+      "requires": [
+        "sanctuary_of_silence_cleared",
+        "town_recovered"
+      ]
+    },
+    {
+      "town": "sj",
+      "npc": "sj_extra_5",
+      "en": "The birds are singing again.",
+      "ko": "새들이 다시 노래하고 있어요.",
+      "requires": [
+        "sanctuary_of_silence_cleared",
+        "town_recovered"
+      ]
+    },
+    {
+      "town": "cp",
+      "npc": "cp_extra_5",
+      "en": "Everyone can enter the next race under the same rules.",
+      "ko": "다음 경주에는 누구나 같은 규칙으로 참가할 수 있어요.",
+      "requires": [
+        "sanctuary_of_silence_cleared",
+        "town_recovered"
+      ]
+    },
+    {
+      "town": "pn",
+      "npc": "pn_extra_5",
+      "en": "We are ready to help people find their things.",
+      "ko": "사람들이 물건을 찾도록 도울 준비가 됐어요.",
+      "requires": [
+        "sanctuary_of_silence_cleared",
+        "town_recovered"
+      ]
+    },
+    {
+      "town": "ot",
+      "npc": "ot_extra_7",
+      "en": "The light is on for returning ships.",
+      "ko": "돌아오는 배를 위해 등불을 켰어요.",
+      "requires": [
+        "sanctuary_of_silence_cleared",
+        "town_recovered"
+      ]
+    },
+    {
+      "town": "iv",
+      "npc": "iv_extra_6",
+      "en": "Bring your questions to the next lesson.",
+      "ko": "다음 수업에 질문을 가져오세요.",
+      "requires": [
+        "sanctuary_of_silence_cleared",
+        "town_recovered"
+      ]
+    },
+    {
+      "town": "pe",
+      "npc": "pe_extra_7",
+      "en": "The bell is ready for the evening.",
+      "ko": "종이 저녁을 맞을 준비를 마쳤어요.",
+      "requires": [
+        "sanctuary_of_silence_cleared",
+        "town_recovered"
+      ]
+    },
+    {
+      "town": "ng",
+      "npc": "ng_extra_6",
+      "en": "There is always room for a new song.",
+      "ko": "새로운 노래를 위한 자리는 언제나 있어요.",
+      "requires": [
+        "sanctuary_of_silence_cleared",
+        "town_recovered"
+      ]
+    },
+    {
+      "town": "rs",
+      "npc": "rs_extra_6",
+      "en": "I will carry your message carefully.",
+      "ko": "당신의 전갈을 신중하게 전달할게요.",
+      "requires": [
+        "sanctuary_of_silence_cleared",
+        "town_recovered"
+      ]
+    },
+    {
+      "town": "sx",
+      "npc": "sx_extra_6",
+      "en": "Our records are open to readers.",
+      "ko": "기록을 독자들에게 공개하고 있어요.",
+      "requires": [
+        "sanctuary_of_silence_cleared",
+        "town_recovered"
+      ]
+    }
+  ],
+  "rescue": {
+    "id": "companion_rescue",
+    "mode": "optional replacement scene extension",
+    "lines": [
+      {
+        "speaker": "Ob",
+        "en": "The student is safe, but the door has locked behind us.",
+        "ko": "학생은 안전하지만 우리 뒤로 문이 잠겼어."
+      },
+      {
+        "speaker": "Comple",
+        "en": "Stay there. We will ask Silver to open it.",
+        "ko": "거기 있어. 실버에게 문을 열어 달라고 할게."
+      },
+      {
+        "speaker": "sx_extra_5",
+        "en": "This key opens the archive door.",
+        "ko": "이 열쇠가 기록실 문을 열어요."
+      },
+      {
+        "speaker": "Ob",
+        "en": "We are both out now. Thank you.",
+        "ko": "이제 둘 다 나왔어. 고마워."
+      }
+    ],
+    "policy": "Narrative-only temporary separation; never remove playable party member or block main progression."
+  },
+  "policy": "Merge finale with existing scenes rather than duplicate. Four phase lines attach to existing phase definitions, not new mechanics. Mandatory reveal fallback if Vesper optional arc skipped. Victory only after confirmed clear. No Chapter III teaser additions. Hidden rooms are proposed optional interaction panels; physical maps and combat not authored. No stats. Natural Korean; chunks pending."
+}

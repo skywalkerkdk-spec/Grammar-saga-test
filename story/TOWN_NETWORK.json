@@ -1,0 +1,2310 @@
+{
+  "version": "0.1",
+  "status": "design draft",
+  "towns": [
+    {
+      "town_id": "g1",
+      "town_en": "Beville",
+      "existing_residents": [
+        {
+          "index": 0,
+          "name_en": "Farmer Am"
+        },
+        {
+          "index": 1,
+          "name_en": "Little Izzy"
+        },
+        {
+          "index": 2,
+          "name_en": "Granny Aria"
+        },
+        {
+          "index": 3,
+          "name_en": "Ben Bee"
+        }
+      ],
+      "new_residents": [
+        {
+          "id": "g1_extra_1",
+          "name_en": "Mayor Abel",
+          "role": "leader",
+          "role_ko": "마을 대표",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "g1_extra_2",
+          "name_en": "Grocer Apple",
+          "role": "shop",
+          "role_ko": "상점 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "g1_extra_3",
+          "name_en": "Innkeeper Amber",
+          "role": "inn",
+          "role_ko": "여관 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "g1_extra_4",
+          "name_en": "Guard Arden",
+          "role": "guard",
+          "role_ko": "경비병",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "g1_extra_5",
+          "name_en": "Miller Bran",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "g1_extra_6",
+          "name_en": "Baker Belle",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "g1_extra_7",
+          "name_en": "Gardener Ivy",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "g1_extra_8",
+          "name_en": "Child Amy",
+          "role": "child",
+          "role_ko": "어린이",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "g1_extra_9",
+          "name_en": "Courier Ash",
+          "role": "courier",
+          "role_ko": "전령",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "g1_extra_10",
+          "name_en": "Shepherd Reed",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        }
+      ]
+    },
+    {
+      "town_id": "g2",
+      "town_en": "Queston",
+      "existing_residents": [
+        {
+          "index": 0,
+          "name_en": "Herbalist Dora"
+        },
+        {
+          "index": 1,
+          "name_en": "Chef Dot"
+        },
+        {
+          "index": 2,
+          "name_en": "Donny"
+        },
+        {
+          "index": 3,
+          "name_en": "Miss Nott"
+        }
+      ],
+      "new_residents": [
+        {
+          "id": "g2_extra_1",
+          "name_en": "Mayor Quinn",
+          "role": "leader",
+          "role_ko": "마을 대표",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "g2_extra_2",
+          "name_en": "Grocer Olive",
+          "role": "shop",
+          "role_ko": "상점 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "g2_extra_3",
+          "name_en": "Innkeeper Nell",
+          "role": "inn",
+          "role_ko": "여관 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "g2_extra_4",
+          "name_en": "Guard Knox",
+          "role": "guard",
+          "role_ko": "경비병",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "g2_extra_5",
+          "name_en": "Waiter Basil",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "g2_extra_6",
+          "name_en": "Fisher Pike",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "g2_extra_7",
+          "name_en": "Cook Pepper",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "g2_extra_8",
+          "name_en": "Child Daisy",
+          "role": "child",
+          "role_ko": "어린이",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "g2_extra_9",
+          "name_en": "Courier Quest",
+          "role": "courier",
+          "role_ko": "전령",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "g2_extra_10",
+          "name_en": "Farmer Bean",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        }
+      ]
+    },
+    {
+      "town_id": "tn",
+      "town_en": "Tensefield",
+      "existing_residents": [
+        {
+          "index": 0,
+          "name_en": "Baker Preston"
+        },
+        {
+          "index": 1,
+          "name_en": "Pasty"
+        },
+        {
+          "index": 2,
+          "name_en": "Grandpa Tick"
+        },
+        {
+          "index": 3,
+          "name_en": "Postman Will"
+        }
+      ],
+      "new_residents": [
+        {
+          "id": "tn_extra_1",
+          "name_en": "Mayor Tempo",
+          "role": "leader",
+          "role_ko": "마을 대표",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "tn_extra_2",
+          "name_en": "Grocer Plum",
+          "role": "shop",
+          "role_ko": "상점 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "tn_extra_3",
+          "name_en": "Innkeeper Dawn",
+          "role": "inn",
+          "role_ko": "여관 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "tn_extra_4",
+          "name_en": "Guard Flint",
+          "role": "guard",
+          "role_ko": "경비병",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "tn_extra_5",
+          "name_en": "Clockmaker Pendle",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "tn_extra_6",
+          "name_en": "Tailor Stitch",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "tn_extra_7",
+          "name_en": "Party Planner June",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "tn_extra_8",
+          "name_en": "Child Pip",
+          "role": "child",
+          "role_ko": "어린이",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "tn_extra_9",
+          "name_en": "Courier Hour",
+          "role": "courier",
+          "role_ko": "전령",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "tn_extra_10",
+          "name_en": "Farmer Rye",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        }
+      ]
+    },
+    {
+      "town_id": "md",
+      "town_en": "Modalvale",
+      "existing_residents": [
+        {
+          "index": 0,
+          "name_en": "Granny May"
+        },
+        {
+          "index": 1,
+          "name_en": "Foreman Muston"
+        },
+        {
+          "index": 2,
+          "name_en": "Runner Canby"
+        },
+        {
+          "index": 3,
+          "name_en": "Captain Coulden"
+        }
+      ],
+      "new_residents": [
+        {
+          "id": "md_extra_1",
+          "name_en": "Mayor Vale",
+          "role": "leader",
+          "role_ko": "마을 대표",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "md_extra_2",
+          "name_en": "Grocer Hazel",
+          "role": "shop",
+          "role_ko": "상점 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "md_extra_3",
+          "name_en": "Innkeeper Hope",
+          "role": "inn",
+          "role_ko": "여관 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "md_extra_4",
+          "name_en": "Guard Grant",
+          "role": "guard",
+          "role_ko": "경비병",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "md_extra_5",
+          "name_en": "Boatman Ferry",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "md_extra_6",
+          "name_en": "Carpenter Oak",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "md_extra_7",
+          "name_en": "Engineer Mason",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "md_extra_8",
+          "name_en": "Child Kit",
+          "role": "child",
+          "role_ko": "어린이",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "md_extra_9",
+          "name_en": "Courier Swiftly",
+          "role": "courier",
+          "role_ko": "전령",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "md_extra_10",
+          "name_en": "Healer Sage",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        }
+      ]
+    },
+    {
+      "town_id": "rp",
+      "town_en": "Relawood",
+      "existing_residents": [
+        {
+          "index": 0,
+          "name_en": "Ranger Whoa"
+        },
+        {
+          "index": 1,
+          "name_en": "Librarian Thatton"
+        },
+        {
+          "index": 2,
+          "name_en": "Mechanic Whoseley"
+        },
+        {
+          "index": 3,
+          "name_en": "Hunter Whit"
+        }
+      ],
+      "new_residents": [
+        {
+          "id": "rp_extra_1",
+          "name_en": "Mayor Rowan",
+          "role": "leader",
+          "role_ko": "마을 대표",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "rp_extra_2",
+          "name_en": "Grocer Fern",
+          "role": "shop",
+          "role_ko": "상점 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "rp_extra_3",
+          "name_en": "Innkeeper Willow",
+          "role": "inn",
+          "role_ko": "여관 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "rp_extra_4",
+          "name_en": "Guard Thorn",
+          "role": "guard",
+          "role_ko": "경비병",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "rp_extra_5",
+          "name_en": "Cart Driver Axel",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "rp_extra_6",
+          "name_en": "Scout Wren",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "rp_extra_7",
+          "name_en": "Woodworker Birch",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "rp_extra_8",
+          "name_en": "Child Star",
+          "role": "child",
+          "role_ko": "어린이",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "rp_extra_9",
+          "name_en": "Courier Leaf",
+          "role": "courier",
+          "role_ko": "전령",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "rp_extra_10",
+          "name_en": "Healer Moss",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        }
+      ]
+    },
+    {
+      "town_id": "ps",
+      "town_en": "Passive Lake",
+      "existing_residents": [
+        {
+          "index": 0,
+          "name_en": "Baker Bea"
+        },
+        {
+          "index": 1,
+          "name_en": "Traveler Byn"
+        },
+        {
+          "index": 2,
+          "name_en": "Guard Agent"
+        },
+        {
+          "index": 3,
+          "name_en": "Cleaner Done"
+        }
+      ],
+      "new_residents": [
+        {
+          "id": "ps_extra_1",
+          "name_en": "Mayor Brook",
+          "role": "leader",
+          "role_ko": "마을 대표",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "ps_extra_2",
+          "name_en": "Grocer Pearl",
+          "role": "shop",
+          "role_ko": "상점 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "ps_extra_3",
+          "name_en": "Innkeeper Mist",
+          "role": "inn",
+          "role_ko": "여관 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "ps_extra_4",
+          "name_en": "Guard Pikeford",
+          "role": "guard",
+          "role_ko": "경비병",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "ps_extra_5",
+          "name_en": "Boatman Finnick",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "ps_extra_6",
+          "name_en": "Archivist Quill",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "ps_extra_7",
+          "name_en": "Dockworker Anchor",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "ps_extra_8",
+          "name_en": "Child Ripple",
+          "role": "child",
+          "role_ko": "어린이",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "ps_extra_9",
+          "name_en": "Courier Lake",
+          "role": "courier",
+          "role_ko": "전령",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "ps_extra_10",
+          "name_en": "Fisher Trout",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        }
+      ]
+    },
+    {
+      "town_id": "pf",
+      "town_en": "Perfect Oasis",
+      "existing_residents": [
+        {
+          "index": 0,
+          "name_en": "Landlord Haven"
+        },
+        {
+          "index": 1,
+          "name_en": "Student Justine"
+        },
+        {
+          "index": 2,
+          "name_en": "Clockmaker Since"
+        },
+        {
+          "index": 3,
+          "name_en": "Gourmet Ever"
+        }
+      ],
+      "new_residents": [
+        {
+          "id": "pf_extra_1",
+          "name_en": "Mayor Dune",
+          "role": "leader",
+          "role_ko": "마을 대표",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pf_extra_2",
+          "name_en": "Grocer Date",
+          "role": "shop",
+          "role_ko": "상점 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pf_extra_3",
+          "name_en": "Innkeeper Palm",
+          "role": "inn",
+          "role_ko": "여관 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pf_extra_4",
+          "name_en": "Guard Flintlock",
+          "role": "guard",
+          "role_ko": "경비병",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pf_extra_5",
+          "name_en": "Letter Keeper Seal",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pf_extra_6",
+          "name_en": "Water Seller Oasis",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pf_extra_7",
+          "name_en": "Guide Sandor",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pf_extra_8",
+          "name_en": "Child Sunny",
+          "role": "child",
+          "role_ko": "어린이",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pf_extra_9",
+          "name_en": "Courier Ago",
+          "role": "courier",
+          "role_ko": "전령",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pf_extra_10",
+          "name_en": "Tailor Silk",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        }
+      ]
+    },
+    {
+      "town_id": "rv",
+      "town_en": "Whereport",
+      "existing_residents": [
+        {
+          "index": 0,
+          "name_en": "Fisher Whereley"
+        },
+        {
+          "index": 1,
+          "name_en": "Wynna"
+        },
+        {
+          "index": 2,
+          "name_en": "Coach Howie"
+        },
+        {
+          "index": 3,
+          "name_en": "Mayor Whyatt"
+        }
+      ],
+      "new_residents": [
+        {
+          "id": "rv_extra_1",
+          "name_en": "Harbor Master Portia",
+          "role": "leader",
+          "role_ko": "마을 대표",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "rv_extra_2",
+          "name_en": "Grocer Coral",
+          "role": "shop",
+          "role_ko": "상점 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "rv_extra_3",
+          "name_en": "Innkeeper Bay",
+          "role": "inn",
+          "role_ko": "여관 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "rv_extra_4",
+          "name_en": "Guard Beacon",
+          "role": "guard",
+          "role_ko": "경비병",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "rv_extra_5",
+          "name_en": "Mapmaker Atlas",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "rv_extra_6",
+          "name_en": "Bell Keeper Chime",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "rv_extra_7",
+          "name_en": "Carpenter Keel",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "rv_extra_8",
+          "name_en": "Child Shell",
+          "role": "child",
+          "role_ko": "어린이",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "rv_extra_9",
+          "name_en": "Courier Tide",
+          "role": "courier",
+          "role_ko": "전령",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "rv_extra_10",
+          "name_en": "Fisher Marlin",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        }
+      ]
+    },
+    {
+      "town_id": "pc",
+      "town_en": "Participle Canyon",
+      "existing_residents": [
+        {
+          "index": 0,
+          "name_en": "Walker Ingmar"
+        },
+        {
+          "index": 1,
+          "name_en": "Student Knowing"
+        },
+        {
+          "index": 2,
+          "name_en": "Librarian Edlyn"
+        },
+        {
+          "index": 3,
+          "name_en": "Faye"
+        }
+      ],
+      "new_residents": [
+        {
+          "id": "pc_extra_1",
+          "name_en": "Mayor Cliff",
+          "role": "leader",
+          "role_ko": "마을 대표",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pc_extra_2",
+          "name_en": "Grocer Stone",
+          "role": "shop",
+          "role_ko": "상점 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pc_extra_3",
+          "name_en": "Innkeeper Echo",
+          "role": "inn",
+          "role_ko": "여관 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pc_extra_4",
+          "name_en": "Guard Crag",
+          "role": "guard",
+          "role_ko": "경비병",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pc_extra_5",
+          "name_en": "Archaeologist Slate",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pc_extra_6",
+          "name_en": "Scribe Rune",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pc_extra_7",
+          "name_en": "Guide Ridge",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pc_extra_8",
+          "name_en": "Child Pebble",
+          "role": "child",
+          "role_ko": "어린이",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pc_extra_9",
+          "name_en": "Courier Dust",
+          "role": "courier",
+          "role_ko": "전령",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pc_extra_10",
+          "name_en": "Healer Aloe",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        }
+      ]
+    },
+    {
+      "town_id": "sj",
+      "town_en": "Ifhaven",
+      "existing_residents": [
+        {
+          "index": 0,
+          "name_en": "Falconer Ifan"
+        },
+        {
+          "index": 1,
+          "name_en": "Merchant Woulden"
+        },
+        {
+          "index": 2,
+          "name_en": "Wisha"
+        },
+        {
+          "index": 3,
+          "name_en": "Student Hadley"
+        }
+      ],
+      "new_residents": [
+        {
+          "id": "sj_extra_1",
+          "name_en": "Mayor Wishwell",
+          "role": "leader",
+          "role_ko": "마을 대표",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "sj_extra_2",
+          "name_en": "Grocer Fig",
+          "role": "shop",
+          "role_ko": "상점 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "sj_extra_3",
+          "name_en": "Innkeeper Dreama",
+          "role": "inn",
+          "role_ko": "여관 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "sj_extra_4",
+          "name_en": "Guard Valor",
+          "role": "guard",
+          "role_ko": "경비병",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "sj_extra_5",
+          "name_en": "Bird Keeper Lark",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "sj_extra_6",
+          "name_en": "Letter Writer Pen",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "sj_extra_7",
+          "name_en": "Weaver Loom",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "sj_extra_8",
+          "name_en": "Child Dove",
+          "role": "child",
+          "role_ko": "어린이",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "sj_extra_9",
+          "name_en": "Courier Feather",
+          "role": "courier",
+          "role_ko": "전령",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "sj_extra_10",
+          "name_en": "Healer Mercy",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        }
+      ]
+    },
+    {
+      "town_id": "cp",
+      "town_en": "Compare Hills",
+      "existing_residents": [
+        {
+          "index": 0,
+          "name_en": "Runner Swift"
+        },
+        {
+          "index": 1,
+          "name_en": "Merchant Morella"
+        },
+        {
+          "index": 2,
+          "name_en": "Landlord Equal"
+        },
+        {
+          "index": 3,
+          "name_en": "Teacher Beston"
+        }
+      ],
+      "new_residents": [
+        {
+          "id": "cp_extra_1",
+          "name_en": "Mayor Summit",
+          "role": "leader",
+          "role_ko": "마을 대표",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "cp_extra_2",
+          "name_en": "Grocer Berry",
+          "role": "shop",
+          "role_ko": "상점 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "cp_extra_3",
+          "name_en": "Innkeeper Pace",
+          "role": "inn",
+          "role_ko": "여관 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "cp_extra_4",
+          "name_en": "Guard Ridgeway",
+          "role": "guard",
+          "role_ko": "경비병",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "cp_extra_5",
+          "name_en": "Race Judge Merit",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "cp_extra_6",
+          "name_en": "Coach Sprint",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "cp_extra_7",
+          "name_en": "Medal Maker Goldie",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "cp_extra_8",
+          "name_en": "Child Dash",
+          "role": "child",
+          "role_ko": "어린이",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "cp_extra_9",
+          "name_en": "Courier Fleet",
+          "role": "courier",
+          "role_ko": "전령",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "cp_extra_10",
+          "name_en": "Healer Rest",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        }
+      ]
+    },
+    {
+      "town_id": "pn",
+      "town_en": "Pronovia",
+      "existing_residents": [
+        {
+          "index": 0,
+          "name_en": "Bookseller Myra"
+        },
+        {
+          "index": 1,
+          "name_en": "Fruit Seller Annie"
+        },
+        {
+          "index": 2,
+          "name_en": "Selma"
+        },
+        {
+          "index": 3,
+          "name_en": "Theo"
+        }
+      ],
+      "new_residents": [
+        {
+          "id": "pn_extra_1",
+          "name_en": "Mayor Proper",
+          "role": "leader",
+          "role_ko": "마을 대표",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pn_extra_2",
+          "name_en": "Grocer Clementine",
+          "role": "shop",
+          "role_ko": "상점 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pn_extra_3",
+          "name_en": "Innkeeper Possy",
+          "role": "inn",
+          "role_ko": "여관 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pn_extra_4",
+          "name_en": "Guard Locke",
+          "role": "guard",
+          "role_ko": "경비병",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pn_extra_5",
+          "name_en": "Lost Property Clerk Tag",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pn_extra_6",
+          "name_en": "Umbrella Maker Rain",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pn_extra_7",
+          "name_en": "Bookbinder Spine",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pn_extra_8",
+          "name_en": "Child Penny",
+          "role": "child",
+          "role_ko": "어린이",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pn_extra_9",
+          "name_en": "Courier Parcel",
+          "role": "courier",
+          "role_ko": "전령",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pn_extra_10",
+          "name_en": "Tailor Hem",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        }
+      ]
+    },
+    {
+      "town_id": "ot",
+      "town_en": "Prep Isles",
+      "existing_residents": [
+        {
+          "index": 0,
+          "name_en": "Sailor Byron"
+        },
+        {
+          "index": 1,
+          "name_en": "Onna"
+        },
+        {
+          "index": 2,
+          "name_en": "Teacher Atley"
+        },
+        {
+          "index": 3,
+          "name_en": "Fisher Inna"
+        }
+      ],
+      "new_residents": [
+        {
+          "id": "ot_extra_1",
+          "name_en": "Harbor Master Strait",
+          "role": "leader",
+          "role_ko": "마을 대표",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "ot_extra_2",
+          "name_en": "Grocer Lime",
+          "role": "shop",
+          "role_ko": "상점 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "ot_extra_3",
+          "name_en": "Innkeeper Cove",
+          "role": "inn",
+          "role_ko": "여관 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "ot_extra_4",
+          "name_en": "Guard Moor",
+          "role": "guard",
+          "role_ko": "경비병",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "ot_extra_5",
+          "name_en": "Navigator North",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "ot_extra_6",
+          "name_en": "Shipwright Hull",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "ot_extra_7",
+          "name_en": "Lighthouse Keeper Beam",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "ot_extra_8",
+          "name_en": "Child Skipper",
+          "role": "child",
+          "role_ko": "어린이",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "ot_extra_9",
+          "name_en": "Courier Wake",
+          "role": "courier",
+          "role_ko": "전령",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "ot_extra_10",
+          "name_en": "Fisher Net",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        }
+      ]
+    },
+    {
+      "town_id": "iv",
+      "town_en": "Verbal Heights",
+      "existing_residents": [
+        {
+          "index": 0,
+          "name_en": "Swimmer Finn"
+        },
+        {
+          "index": 1,
+          "name_en": "Traveler Togo"
+        },
+        {
+          "index": 2,
+          "name_en": "Linguist Infina"
+        },
+        {
+          "index": 3,
+          "name_en": "Chess Master Gerund"
+        }
+      ],
+      "new_residents": [
+        {
+          "id": "iv_extra_1",
+          "name_en": "Mayor Verba",
+          "role": "leader",
+          "role_ko": "마을 대표",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "iv_extra_2",
+          "name_en": "Grocer Mint",
+          "role": "shop",
+          "role_ko": "상점 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "iv_extra_3",
+          "name_en": "Innkeeper Vista",
+          "role": "inn",
+          "role_ko": "여관 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "iv_extra_4",
+          "name_en": "Guard Peak",
+          "role": "guard",
+          "role_ko": "경비병",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "iv_extra_5",
+          "name_en": "Travel Agent Journey",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "iv_extra_6",
+          "name_en": "Tutor Lex",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "iv_extra_7",
+          "name_en": "Equipment Maker Trek",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "iv_extra_8",
+          "name_en": "Child Dream",
+          "role": "child",
+          "role_ko": "어린이",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "iv_extra_9",
+          "name_en": "Courier Trail",
+          "role": "courier",
+          "role_ko": "전령",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "iv_extra_10",
+          "name_en": "Healer Fernie",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        }
+      ]
+    },
+    {
+      "town_id": "pe",
+      "town_en": "Sensewood",
+      "existing_residents": [
+        {
+          "index": 0,
+          "name_en": "Birdwatcher Seer"
+        },
+        {
+          "index": 1,
+          "name_en": "Mother Maka"
+        },
+        {
+          "index": 2,
+          "name_en": "Chef Savory"
+        },
+        {
+          "index": 3,
+          "name_en": "Mechanic Fix"
+        }
+      ],
+      "new_residents": [
+        {
+          "id": "pe_extra_1",
+          "name_en": "Mayor Sable",
+          "role": "leader",
+          "role_ko": "마을 대표",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pe_extra_2",
+          "name_en": "Grocer Thyme",
+          "role": "shop",
+          "role_ko": "상점 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pe_extra_3",
+          "name_en": "Innkeeper Whisper",
+          "role": "inn",
+          "role_ko": "여관 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pe_extra_4",
+          "name_en": "Guard Watch",
+          "role": "guard",
+          "role_ko": "경비병",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pe_extra_5",
+          "name_en": "Forester Bark",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pe_extra_6",
+          "name_en": "Herbalist Aroma",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pe_extra_7",
+          "name_en": "Bell Maker Ring",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pe_extra_8",
+          "name_en": "Child Robin",
+          "role": "child",
+          "role_ko": "어린이",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pe_extra_9",
+          "name_en": "Courier Shade",
+          "role": "courier",
+          "role_ko": "전령",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "pe_extra_10",
+          "name_en": "Healer Balm",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        }
+      ]
+    },
+    {
+      "town_id": "ng",
+      "town_en": "Nounville",
+      "existing_residents": [
+        {
+          "index": 0,
+          "name_en": "Florist Flora"
+        },
+        {
+          "index": 1,
+          "name_en": "Librarian Hush"
+        },
+        {
+          "index": 2,
+          "name_en": "Baker Loaf"
+        },
+        {
+          "index": 3,
+          "name_en": "Keeper Letty"
+        }
+      ],
+      "new_residents": [
+        {
+          "id": "ng_extra_1",
+          "name_en": "Mayor Cheer",
+          "role": "leader",
+          "role_ko": "마을 대표",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "ng_extra_2",
+          "name_en": "Grocer Honey",
+          "role": "shop",
+          "role_ko": "상점 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "ng_extra_3",
+          "name_en": "Innkeeper Merry",
+          "role": "inn",
+          "role_ko": "여관 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "ng_extra_4",
+          "name_en": "Guard Order",
+          "role": "guard",
+          "role_ko": "경비병",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "ng_extra_5",
+          "name_en": "Stage Manager Cue",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "ng_extra_6",
+          "name_en": "Musician Melody",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "ng_extra_7",
+          "name_en": "Decor Maker Ribbon",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "ng_extra_8",
+          "name_en": "Child Joy",
+          "role": "child",
+          "role_ko": "어린이",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "ng_extra_9",
+          "name_en": "Courier Fest",
+          "role": "courier",
+          "role_ko": "전령",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "ng_extra_10",
+          "name_en": "Healer Clover",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        }
+      ]
+    },
+    {
+      "town_id": "rs",
+      "town_en": "Speechport",
+      "existing_residents": [
+        {
+          "index": 0,
+          "name_en": "Postman Tell"
+        },
+        {
+          "index": 1,
+          "name_en": "Detective Ask"
+        },
+        {
+          "index": 2,
+          "name_en": "Student Quora"
+        },
+        {
+          "index": 3,
+          "name_en": "Guide Wenda"
+        }
+      ],
+      "new_residents": [
+        {
+          "id": "rs_extra_1",
+          "name_en": "Mayor Herald",
+          "role": "leader",
+          "role_ko": "마을 대표",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "rs_extra_2",
+          "name_en": "Grocer Peach",
+          "role": "shop",
+          "role_ko": "상점 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "rs_extra_3",
+          "name_en": "Innkeeper Rumor",
+          "role": "inn",
+          "role_ko": "여관 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "rs_extra_4",
+          "name_en": "Guard Gate",
+          "role": "guard",
+          "role_ko": "경비병",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "rs_extra_5",
+          "name_en": "Seal Keeper Wax",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "rs_extra_6",
+          "name_en": "Messenger Reedley",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "rs_extra_7",
+          "name_en": "Translator Gloss",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "rs_extra_8",
+          "name_en": "Child Note",
+          "role": "child",
+          "role_ko": "어린이",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "rs_extra_9",
+          "name_en": "Courier Dispatch",
+          "role": "courier",
+          "role_ko": "전령",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "rs_extra_10",
+          "name_en": "Healer Patience",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        }
+      ]
+    },
+    {
+      "town_id": "sx",
+      "town_en": "Inversion Keep",
+      "existing_residents": [
+        {
+          "index": 0,
+          "name_en": "Captain Never"
+        },
+        {
+          "index": 1,
+          "name_en": "Officer Emphas"
+        },
+        {
+          "index": 2,
+          "name_en": "Artist Parallel"
+        },
+        {
+          "index": 3,
+          "name_en": "Keeper Apposia"
+        }
+      ],
+      "new_residents": [
+        {
+          "id": "sx_extra_1",
+          "name_en": "Castellan Crown",
+          "role": "leader",
+          "role_ko": "마을 대표",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "sx_extra_2",
+          "name_en": "Grocer Chestnut",
+          "role": "shop",
+          "role_ko": "상점 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "sx_extra_3",
+          "name_en": "Innkeeper Havenly",
+          "role": "inn",
+          "role_ko": "여관 주인",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "sx_extra_4",
+          "name_en": "Guard Bastion",
+          "role": "guard",
+          "role_ko": "경비병",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "sx_extra_5",
+          "name_en": "Locksmith Silver",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "sx_extra_6",
+          "name_en": "Historian Verse",
+          "role": "specialist",
+          "role_ko": "전문가",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "sx_extra_7",
+          "name_en": "Stoneworker Arch",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "sx_extra_8",
+          "name_en": "Child Page",
+          "role": "child",
+          "role_ko": "어린이",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "sx_extra_9",
+          "name_en": "Courier Crest",
+          "role": "courier",
+          "role_ko": "전령",
+          "dialogue_status": "needs individual writing and Korean name review"
+        },
+        {
+          "id": "sx_extra_10",
+          "name_en": "Healer Grace",
+          "role": "resident",
+          "role_ko": "주민",
+          "dialogue_status": "needs individual writing and Korean name review"
+        }
+      ]
+    }
+  ],
+  "chains": [
+    {
+      "id": "regional_1",
+      "title_en": "The Missing Delivery",
+      "title_ko": "사라진 식재료",
+      "premise_ko": "농산물 상자의 배송표가 뒤바뀌어 식당과 빵집 모두 곤란해진다.",
+      "required_towns": [
+        "g1",
+        "g2",
+        "tn"
+      ],
+      "steps": [
+        {
+          "id": "accept",
+          "npc": "g1_extra_1",
+          "action": "accept"
+        },
+        {
+          "id": "local_witness",
+          "npc": "g1_extra_5",
+          "action": "talk"
+        },
+        {
+          "id": "foreign_witness",
+          "npc": "g2_extra_5",
+          "action": "collect_evidence",
+          "en": "The box is for Chef Dot.",
+          "ko": "상자는 도트 요리사에게 갈 것이다."
+        },
+        {
+          "id": "report",
+          "npc": "g1_extra_1",
+          "action": "report_evidence"
+        },
+        {
+          "id": "second_witness",
+          "npc": "tn_extra_5",
+          "action": "collect_evidence",
+          "en": "The cake order is in the other box.",
+          "ko": "케이크 주문서는 다른 상자에 있다.",
+          "direct_chunks": [
+            {
+              "en": "The cake order",
+              "ko": "케이크 주문서는"
+            },
+            {
+              "en": "is in",
+              "ko": "있다"
+            },
+            {
+              "en": "the other box.",
+              "ko": "다른 상자 안에."
+            }
+          ]
+        },
+        {
+          "id": "verify",
+          "npc": "g2_extra_1",
+          "action": "compare_evidence"
+        },
+        {
+          "id": "finish",
+          "npc": "g1_extra_1",
+          "action": "return_and_complete"
+        }
+      ],
+      "reward": "story_flag_only",
+      "optional": true,
+      "dialogue_status": "route outline; stage-specific dialogue and tasks pending"
+    },
+    {
+      "id": "regional_2",
+      "title_en": "The Red Cart",
+      "title_ko": "빨간 수레의 비밀",
+      "premise_ko": "다리 수리 물품을 운반하던 수레가 실종 아동의 이동 경로와 연결된다.",
+      "required_towns": [
+        "md",
+        "rp",
+        "ps"
+      ],
+      "steps": [
+        {
+          "id": "accept",
+          "npc": "md_extra_1",
+          "action": "accept"
+        },
+        {
+          "id": "local_witness",
+          "npc": "md_extra_5",
+          "action": "talk"
+        },
+        {
+          "id": "foreign_witness",
+          "npc": "rp_extra_5",
+          "action": "collect_evidence",
+          "en": "The cart crossed before the bridge broke.",
+          "ko": "수레는 다리가 부서지기 전에 건넜다.",
+          "direct_chunks": [
+            {
+              "en": "The cart",
+              "ko": "수레는"
+            },
+            {
+              "en": "crossed",
+              "ko": "건넜다"
+            },
+            {
+              "en": "before the bridge broke.",
+              "ko": "다리가 부서지기 전에."
+            }
+          ]
+        },
+        {
+          "id": "report",
+          "npc": "md_extra_1",
+          "action": "report_evidence"
+        },
+        {
+          "id": "second_witness",
+          "npc": "ps_extra_5",
+          "action": "collect_evidence",
+          "en": "The child is safe with the cart driver.",
+          "ko": "아이는 수레 운전사와 안전하게 있다.",
+          "direct_chunks": [
+            {
+              "en": "The child",
+              "ko": "아이는"
+            },
+            {
+              "en": "is safe",
+              "ko": "안전하다"
+            },
+            {
+              "en": "with the cart driver.",
+              "ko": "수레 운전사와 함께."
+            }
+          ]
+        },
+        {
+          "id": "verify",
+          "npc": "rp_extra_1",
+          "action": "compare_evidence"
+        },
+        {
+          "id": "finish",
+          "npc": "md_extra_1",
+          "action": "return_and_complete"
+        }
+      ],
+      "reward": "story_flag_only",
+      "optional": true,
+      "dialogue_status": "route outline; stage-specific dialogue and tasks pending"
+    },
+    {
+      "id": "regional_3",
+      "title_en": "The Letter Without an Address",
+      "title_ko": "주소 없는 편지",
+      "premise_ko": "회수한 책 속 편지의 수신인과 옛집을 찾는다.",
+      "required_towns": [
+        "ps",
+        "pf",
+        "rv"
+      ],
+      "steps": [
+        {
+          "id": "accept",
+          "npc": "ps_extra_1",
+          "action": "accept"
+        },
+        {
+          "id": "local_witness",
+          "npc": "ps_extra_5",
+          "action": "talk"
+        },
+        {
+          "id": "foreign_witness",
+          "npc": "pf_extra_5",
+          "action": "collect_evidence",
+          "en": "The letter was kept inside the book.",
+          "ko": "편지는 책 속에 보관되어 있었다.",
+          "direct_chunks": [
+            {
+              "en": "The letter",
+              "ko": "편지는"
+            },
+            {
+              "en": "was kept",
+              "ko": "보관되어 있었다"
+            },
+            {
+              "en": "inside the book.",
+              "ko": "책 속에."
+            }
+          ]
+        },
+        {
+          "id": "report",
+          "npc": "ps_extra_1",
+          "action": "report_evidence"
+        },
+        {
+          "id": "second_witness",
+          "npc": "rv_extra_5",
+          "action": "collect_evidence",
+          "en": "The old house is near the park.",
+          "ko": "옛집은 공원 근처에 있다.",
+          "direct_chunks": [
+            {
+              "en": "The old house",
+              "ko": "옛집은"
+            },
+            {
+              "en": "is near",
+              "ko": "가까이 있다"
+            },
+            {
+              "en": "the park.",
+              "ko": "공원에."
+            }
+          ]
+        },
+        {
+          "id": "verify",
+          "npc": "pf_extra_1",
+          "action": "compare_evidence"
+        },
+        {
+          "id": "finish",
+          "npc": "ps_extra_1",
+          "action": "return_and_complete"
+        }
+      ],
+      "reward": "story_flag_only",
+      "optional": true,
+      "dialogue_status": "route outline; stage-specific dialogue and tasks pending"
+    },
+    {
+      "id": "regional_4",
+      "title_en": "The Broken Tablet",
+      "title_ko": "부서진 돌판",
+      "premise_ko": "옛집의 기록을 해독하고 소원 마을의 문양과 비교한다.",
+      "required_towns": [
+        "rv",
+        "pc",
+        "sj"
+      ],
+      "steps": [
+        {
+          "id": "accept",
+          "npc": "rv_extra_1",
+          "action": "accept"
+        },
+        {
+          "id": "local_witness",
+          "npc": "rv_extra_5",
+          "action": "talk"
+        },
+        {
+          "id": "foreign_witness",
+          "npc": "pc_extra_5",
+          "action": "collect_evidence",
+          "en": "The mark is on the old tablet.",
+          "ko": "문양은 오래된 돌판에 있다.",
+          "direct_chunks": [
+            {
+              "en": "The mark",
+              "ko": "문양은"
+            },
+            {
+              "en": "is on",
+              "ko": "있다"
+            },
+            {
+              "en": "the old tablet.",
+              "ko": "오래된 돌판 위에."
+            }
+          ]
+        },
+        {
+          "id": "report",
+          "npc": "rv_extra_1",
+          "action": "report_evidence"
+        },
+        {
+          "id": "second_witness",
+          "npc": "sj_extra_5",
+          "action": "collect_evidence",
+          "en": "The same mark is on the bird cage.",
+          "ko": "같은 문양이 새장에 있다.",
+          "direct_chunks": [
+            {
+              "en": "The same mark",
+              "ko": "같은 문양이"
+            },
+            {
+              "en": "is on",
+              "ko": "있다"
+            },
+            {
+              "en": "the bird cage.",
+              "ko": "새장 위에."
+            }
+          ]
+        },
+        {
+          "id": "verify",
+          "npc": "pc_extra_1",
+          "action": "compare_evidence"
+        },
+        {
+          "id": "finish",
+          "npc": "rv_extra_1",
+          "action": "return_and_complete"
+        }
+      ],
+      "reward": "story_flag_only",
+      "optional": true,
+      "dialogue_status": "route outline; stage-specific dialogue and tasks pending"
+    },
+    {
+      "id": "regional_5",
+      "title_en": "The Lost Medal",
+      "title_ko": "사라진 메달",
+      "premise_ko": "새 경주 상품이 잘못 배송되어 분실물 보관소까지 추적한다.",
+      "required_towns": [
+        "sj",
+        "cp",
+        "pn"
+      ],
+      "steps": [
+        {
+          "id": "accept",
+          "npc": "sj_extra_1",
+          "action": "accept"
+        },
+        {
+          "id": "local_witness",
+          "npc": "sj_extra_5",
+          "action": "talk"
+        },
+        {
+          "id": "foreign_witness",
+          "npc": "cp_extra_5",
+          "action": "collect_evidence",
+          "en": "The medal belongs to the winner.",
+          "ko": "메달은 우승자의 것이다."
+        },
+        {
+          "id": "report",
+          "npc": "sj_extra_1",
+          "action": "report_evidence"
+        },
+        {
+          "id": "second_witness",
+          "npc": "pn_extra_5",
+          "action": "collect_evidence",
+          "en": "The parcel was sent to Pronovia.",
+          "ko": "소포는 프로노비아로 보내졌다."
+        },
+        {
+          "id": "verify",
+          "npc": "cp_extra_1",
+          "action": "compare_evidence"
+        },
+        {
+          "id": "finish",
+          "npc": "sj_extra_1",
+          "action": "return_and_complete"
+        }
+      ],
+      "reward": "story_flag_only",
+      "optional": true,
+      "dialogue_status": "route outline; stage-specific dialogue and tasks pending"
+    },
+    {
+      "id": "regional_6",
+      "title_en": "The Traveler's Bag",
+      "title_ko": "여행자의 가방",
+      "premise_ko": "분실물 속 항해 지도와 여행 계획을 주인에게 돌려준다.",
+      "required_towns": [
+        "pn",
+        "ot",
+        "iv"
+      ],
+      "steps": [
+        {
+          "id": "accept",
+          "npc": "pn_extra_1",
+          "action": "accept"
+        },
+        {
+          "id": "local_witness",
+          "npc": "pn_extra_5",
+          "action": "talk"
+        },
+        {
+          "id": "foreign_witness",
+          "npc": "ot_extra_5",
+          "action": "collect_evidence",
+          "en": "The map is in the blue bag.",
+          "ko": "지도는 파란 가방에 있다.",
+          "direct_chunks": [
+            {
+              "en": "The map",
+              "ko": "지도는"
+            },
+            {
+              "en": "is in",
+              "ko": "있다"
+            },
+            {
+              "en": "the blue bag.",
+              "ko": "파란 가방 안에."
+            }
+          ]
+        },
+        {
+          "id": "report",
+          "npc": "pn_extra_1",
+          "action": "report_evidence"
+        },
+        {
+          "id": "second_witness",
+          "npc": "iv_extra_5",
+          "action": "collect_evidence",
+          "en": "I need the map to reach the island.",
+          "ko": "섬에 도착하려면 지도가 필요하다.",
+          "direct_chunks": [
+            {
+              "en": "I need the map",
+              "ko": "나는 지도가 필요하다"
+            },
+            {
+              "en": "to reach",
+              "ko": "도착하기 위해"
+            },
+            {
+              "en": "the island.",
+              "ko": "섬에."
+            }
+          ]
+        },
+        {
+          "id": "verify",
+          "npc": "ot_extra_1",
+          "action": "compare_evidence"
+        },
+        {
+          "id": "finish",
+          "npc": "pn_extra_1",
+          "action": "return_and_complete"
+        }
+      ],
+      "reward": "story_flag_only",
+      "optional": true,
+      "dialogue_status": "route outline; stage-specific dialogue and tasks pending"
+    },
+    {
+      "id": "regional_7",
+      "title_en": "The Festival Warning",
+      "title_ko": "축제의 경고",
+      "premise_ko": "여행자의 보고서에서 숲의 이상 현상과 축제 안전 문제를 조사한다.",
+      "required_towns": [
+        "iv",
+        "pe",
+        "ng"
+      ],
+      "steps": [
+        {
+          "id": "accept",
+          "npc": "iv_extra_1",
+          "action": "accept"
+        },
+        {
+          "id": "local_witness",
+          "npc": "iv_extra_5",
+          "action": "talk"
+        },
+        {
+          "id": "foreign_witness",
+          "npc": "pe_extra_5",
+          "action": "collect_evidence",
+          "en": "The noise made the horses run.",
+          "ko": "소리 때문에 말들이 달렸다."
+        },
+        {
+          "id": "report",
+          "npc": "iv_extra_1",
+          "action": "report_evidence"
+        },
+        {
+          "id": "second_witness",
+          "npc": "ng_extra_5",
+          "action": "collect_evidence",
+          "en": "Do not use the forest road.",
+          "ko": "숲길을 이용하지 마라."
+        },
+        {
+          "id": "verify",
+          "npc": "pe_extra_1",
+          "action": "compare_evidence"
+        },
+        {
+          "id": "finish",
+          "npc": "iv_extra_1",
+          "action": "return_and_complete"
+        }
+      ],
+      "reward": "story_flag_only",
+      "optional": true,
+      "dialogue_status": "route outline; stage-specific dialogue and tasks pending"
+    },
+    {
+      "id": "regional_8",
+      "title_en": "The Messenger's Seal",
+      "title_ko": "전령의 인장",
+      "premise_ko": "축제에 도착한 전갈의 진위를 확인하고 성문을 열 단서를 얻는다.",
+      "required_towns": [
+        "ng",
+        "rs",
+        "sx"
+      ],
+      "steps": [
+        {
+          "id": "accept",
+          "npc": "ng_extra_1",
+          "action": "accept"
+        },
+        {
+          "id": "local_witness",
+          "npc": "ng_extra_5",
+          "action": "talk"
+        },
+        {
+          "id": "foreign_witness",
+          "npc": "rs_extra_5",
+          "action": "collect_evidence",
+          "en": "The messenger said the seal was safe.",
+          "ko": "전령은 인장이 안전하다고 말했다.",
+          "direct_chunks": [
+            {
+              "en": "The messenger",
+              "ko": "전령은"
+            },
+            {
+              "en": "said",
+              "ko": "말했다"
+            },
+            {
+              "en": "the seal was safe.",
+              "ko": "인장이 안전하다고."
+            }
+          ]
+        },
+        {
+          "id": "report",
+          "npc": "ng_extra_1",
+          "action": "report_evidence"
+        },
+        {
+          "id": "second_witness",
+          "npc": "sx_extra_5",
+          "action": "collect_evidence",
+          "en": "It was the silver key that opened the gate.",
+          "ko": "문을 연 것은 바로 은빛 열쇠였다.",
+          "direct_chunks": [
+            {
+              "en": "It was the silver key",
+              "ko": "바로 은빛 열쇠였다"
+            },
+            {
+              "en": "that opened",
+              "ko": "연 것은"
+            },
+            {
+              "en": "the gate.",
+              "ko": "문을."
+            }
+          ]
+        },
+        {
+          "id": "verify",
+          "npc": "rs_extra_1",
+          "action": "compare_evidence"
+        },
+        {
+          "id": "finish",
+          "npc": "ng_extra_1",
+          "action": "return_and_complete"
+        }
+      ],
+      "reward": "story_flag_only",
+      "optional": true,
+      "dialogue_status": "route outline; stage-specific dialogue and tasks pending"
+    }
+  ],
+  "policy": {
+    "preserve_original_72": true,
+    "extra_npc_count": 180,
+    "optional_chains": true,
+    "no_new_dungeon_gates": true,
+    "travel": "only existing accessible town routes; pause unavailable steps",
+    "state": "separate quest stage and evidence flags; no duplicate rewards",
+    "npc_dialogue_states": [
+      "idle",
+      "quest_available",
+      "waiting",
+      "evidence_received",
+      "completed"
+    ],
+    "assets": "reuse approved generic NPC sprites until individual artwork exists"
+  }
+}

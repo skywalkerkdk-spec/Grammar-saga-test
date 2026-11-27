@@ -1,0 +1,1852 @@
+{
+  "version": "0.1",
+  "status": "draft",
+  "companions": [
+    {
+      "character_key": "Subject",
+      "name_ko": "주어의 계승자",
+      "grammar": "Subject",
+      "role": "탱커",
+      "personality_ko": "책임감이 강하지만 모든 일을 혼자 해결하려 한다.",
+      "backstory_ko": "문장의 출발점이라는 상징을 책임과 연결한다.",
+      "quest": {
+        "title_en": "The First Step",
+        "town_id": "g1",
+        "trigger": "after_town_recovery_if_character_available",
+        "dialogue": [
+          {
+            "speaker_en": "Subject",
+            "en": "I can lead, but I need my friends.",
+            "ko": "나는 이끌 수 있지만 친구들이 필요해.",
+            "chunks": [
+              {
+                "en": "I can lead, but I need my friends.",
+                "ko": "나는 이끌 수 있지만 친구들이 필요해."
+              }
+            ]
+          },
+          {
+            "speaker_en": "Subject",
+            "en": "We are a team.",
+            "ko": "우리는 한 팀이야.",
+            "chunks": [
+              {
+                "en": "We are a team.",
+                "ko": "우리는 한 팀이야."
+              }
+            ]
+          }
+        ],
+        "activity": "review_existing_town_clues",
+        "reward": "cosmetic_story_flag_only"
+      }
+    },
+    {
+      "character_key": "Verbella",
+      "name_ko": "버벨라",
+      "grammar": "Verb",
+      "role": "힐러",
+      "personality_ko": "낙천적이며 행동으로 사람을 돕는다.",
+      "backstory_ko": "멈춘 마을에서 행동의 가치를 배웠다는 신규 설정.",
+      "quest": {
+        "title_en": "A Reason to Act",
+        "town_id": "g2",
+        "trigger": "after_town_recovery_if_character_available",
+        "dialogue": [
+          {
+            "speaker_en": "Verbella",
+            "en": "What can I do for you?",
+            "ko": "무엇을 도와드릴까요?",
+            "chunks": [
+              {
+                "en": "What can I do for you?",
+                "ko": "무엇을 도와드릴까요?"
+              }
+            ]
+          },
+          {
+            "speaker_en": "Verbella",
+            "en": "Small actions can change lives.",
+            "ko": "작은 행동도 삶을 바꿀 수 있어요.",
+            "chunks": [
+              {
+                "en": "Small actions can change lives.",
+                "ko": "작은 행동도 삶을 바꿀 수 있어요."
+              }
+            ]
+          }
+        ],
+        "activity": "review_existing_town_clues",
+        "reward": "cosmetic_story_flag_only"
+      }
+    },
+    {
+      "character_key": "Comple",
+      "name_ko": "컴플리",
+      "grammar": "Complement",
+      "role": "서브탱커",
+      "personality_ko": "원칙을 중시하지만 타인의 도움을 받아들이는 법을 배운다.",
+      "backstory_ko": "불완전한 문장을 완성하는 수호 기사라는 상징.",
+      "quest": {
+        "title_en": "More Than a Shield",
+        "town_id": "md",
+        "trigger": "after_town_recovery_if_character_available",
+        "dialogue": [
+          {
+            "speaker_en": "Comple",
+            "en": "A shield alone is not enough.",
+            "ko": "방패만으로는 충분하지 않아.",
+            "chunks": [
+              {
+                "en": "A shield alone is not enough.",
+                "ko": "방패만으로는 충분하지 않아."
+              }
+            ]
+          },
+          {
+            "speaker_en": "Comple",
+            "en": "We become stronger together.",
+            "ko": "우리는 함께 더 강해진다.",
+            "chunks": [
+              {
+                "en": "We become stronger together.",
+                "ko": "우리는 함께 더 강해진다."
+              }
+            ]
+          }
+        ],
+        "activity": "review_existing_town_clues",
+        "reward": "cosmetic_story_flag_only"
+      }
+    },
+    {
+      "character_key": "Ob",
+      "name_ko": "오브",
+      "grammar": "Object",
+      "role": "딜러",
+      "personality_ko": "활달하고 목표 지향적이지만 성급하다.",
+      "backstory_ko": "행동이 향하는 대상을 찾는 궁수라는 상징.",
+      "quest": {
+        "title_en": "The Right Target",
+        "town_id": "rp",
+        "trigger": "after_town_recovery_if_character_available",
+        "dialogue": [
+          {
+            "speaker_en": "Ob",
+            "en": "I must find the right person.",
+            "ko": "올바른 사람을 찾아야 해.",
+            "chunks": [
+              {
+                "en": "I must find the right person.",
+                "ko": "올바른 사람을 찾아야 해."
+              }
+            ]
+          },
+          {
+            "speaker_en": "Ob",
+            "en": "A clear goal guides my arrow.",
+            "ko": "분명한 목표가 내 화살을 이끌어.",
+            "chunks": [
+              {
+                "en": "A clear goal guides my arrow.",
+                "ko": "분명한 목표가 내 화살을 이끌어."
+              }
+            ]
+          }
+        ],
+        "activity": "review_existing_town_clues",
+        "reward": "cosmetic_story_flag_only"
+      }
+    },
+    {
+      "character_key": "Oxy",
+      "name_ko": "옥시",
+      "grammar": "Object Complement",
+      "role": "서브딜러",
+      "personality_ko": "관찰력이 뛰어나고 변화의 가능성을 믿는다.",
+      "backstory_ko": "목적어의 상태를 설명하는 문법적 역할을 변화 마법에 비유.",
+      "quest": {
+        "title_en": "The Power of Change",
+        "town_id": "pe",
+        "trigger": "after_town_recovery_if_character_available",
+        "dialogue": [
+          {
+            "speaker_en": "Oxy",
+            "en": "Magic can make things different.",
+            "ko": "마법은 사물을 변화시킬 수 있어.",
+            "chunks": [
+              {
+                "en": "Magic can make things different.",
+                "ko": "마법은 사물을 변화시킬 수 있어."
+              }
+            ]
+          },
+          {
+            "speaker_en": "Oxy",
+            "en": "Change should help, not harm.",
+            "ko": "변화는 해치지 않고 도와야 해.",
+            "chunks": [
+              {
+                "en": "Change should help, not harm.",
+                "ko": "변화는 해치지 않고 도와야 해."
+              }
+            ]
+          }
+        ],
+        "activity": "review_existing_town_clues",
+        "reward": "cosmetic_story_flag_only"
+      }
+    },
+    {
+      "character_key": "Indy",
+      "name_ko": "인디",
+      "grammar": "Indirect Object",
+      "role": "트레이더",
+      "personality_ko": "실용적이지만 나눔의 의미를 발견한다.",
+      "backstory_ko": "물건을 받는 사람에게 관심을 두는 상인.",
+      "quest": {
+        "title_en": "A Gift for Someone",
+        "town_id": "pn",
+        "trigger": "after_town_recovery_if_character_available",
+        "dialogue": [
+          {
+            "speaker_en": "Indy",
+            "en": "Who needs this gift?",
+            "ko": "누가 이 선물을 필요로 할까?",
+            "chunks": [
+              {
+                "en": "Who needs this gift?",
+                "ko": "누가 이 선물을 필요로 할까?"
+              }
+            ]
+          },
+          {
+            "speaker_en": "Indy",
+            "en": "A gift matters when it reaches someone.",
+            "ko": "선물은 누군가에게 전달될 때 의미가 있어.",
+            "chunks": [
+              {
+                "en": "A gift matters when it reaches someone.",
+                "ko": "선물은 누군가에게 전달될 때 의미가 있어."
+              }
+            ]
+          }
+        ],
+        "activity": "review_existing_town_clues",
+        "reward": "cosmetic_story_flag_only"
+      }
+    },
+    {
+      "character_key": "Direct",
+      "name_ko": "디렉",
+      "grammar": "Direct Object",
+      "role": "아이템",
+      "personality_ko": "물건을 소중히 여기며 필요한 것을 찾아준다.",
+      "backstory_ko": "전달되는 물건을 상징하는 보물상자.",
+      "quest": {
+        "title_en": "The Missing Gift",
+        "town_id": "ot",
+        "trigger": "after_town_recovery_if_character_available",
+        "dialogue": [
+          {
+            "speaker_en": "Direct",
+            "en": "I have something for you.",
+            "ko": "네게 줄 것이 있어.",
+            "chunks": [
+              {
+                "en": "I have something for you.",
+                "ko": "네게 줄 것이 있어."
+              }
+            ]
+          },
+          {
+            "speaker_en": "Direct",
+            "en": "The right gift can open a door.",
+            "ko": "알맞은 선물은 문을 열 수 있어.",
+            "chunks": [
+              {
+                "en": "The right gift can open a door.",
+                "ko": "알맞은 선물은 문을 열 수 있어."
+              }
+            ]
+          }
+        ],
+        "activity": "review_existing_town_clues",
+        "reward": "cosmetic_story_flag_only"
+      }
+    },
+    {
+      "character_key": "Modi",
+      "name_ko": "모디",
+      "grammar": "Modifier",
+      "role": "펫",
+      "personality_ko": "호기심이 많고 작은 단서를 잘 발견한다.",
+      "backstory_ko": "문장에 세부 정보를 더하는 수식어를 상징.",
+      "quest": {
+        "title_en": "One Small Detail",
+        "town_id": "rv",
+        "trigger": "after_town_recovery_if_character_available",
+        "dialogue": [
+          {
+            "speaker_en": "Modi",
+            "en": "Look under the table!",
+            "ko": "탁자 아래를 봐!",
+            "chunks": [
+              {
+                "en": "Look under the table!",
+                "ko": "탁자 아래를 봐!"
+              }
+            ]
+          },
+          {
+            "speaker_en": "Modi",
+            "en": "Small details matter.",
+            "ko": "작은 세부 사항도 중요해.",
+            "chunks": [
+              {
+                "en": "Small details matter.",
+                "ko": "작은 세부 사항도 중요해."
+              }
+            ]
+          }
+        ],
+        "activity": "review_existing_town_clues",
+        "reward": "cosmetic_story_flag_only"
+      }
+    }
+  ],
+  "cutscenes": [
+    {
+      "town_id": "g1",
+      "entry": {
+        "trigger": "first_town_visit",
+        "visual_ko": "기존 마을 배경에 어두운 문양과 주민 말풍선",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "The welcome desk is closed.",
+            "ko": "안내소가 닫혀 있다.",
+            "chunks": [
+              {
+                "en": "The welcome desk is closed.",
+                "ko": "안내소가 닫혀 있다."
+              }
+            ]
+          }
+        ]
+      },
+      "boss": {
+        "trigger": "first_boss_encounter",
+        "visual_ko": "기존 보스 스프라이트와 검은 페이지 빛",
+        "lines": [
+          {
+            "speaker_en": "Bee, Guardian of the Meadow",
+            "en": "I cannot remember my words!",
+            "ko": "내 말을 기억할 수 없어!",
+            "chunks": [
+              {
+                "en": "I cannot remember my words!",
+                "ko": "내 말을 기억할 수 없어!"
+              }
+            ]
+          }
+        ]
+      },
+      "recovery": {
+        "trigger": "first_existing_clear",
+        "visual_ko": "검은 빛이 사라지고 기존 복구 마을 배경으로 전환",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "The village knows its own voice again.",
+            "ko": "마을이 다시 자신의 목소리를 되찾았다.",
+            "chunks": [
+              {
+                "en": "The village knows its own voice again.",
+                "ko": "마을이 다시 자신의 목소리를 되찾았다."
+              }
+            ]
+          }
+        ]
+      },
+      "special_complete": {
+        "trigger": "special_quest_complete",
+        "lines": [
+          {
+            "speaker_en": "Verbella",
+            "en": "We understood the clues and helped the village.",
+            "ko": "우리는 단서를 이해하고 마을을 도왔어요.",
+            "chunks": [
+              {
+                "en": "We understood the clues and helped the village.",
+                "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ]
+          }
+        ],
+        "next_dialogue_ref": "g1"
+      }
+    },
+    {
+      "town_id": "g2",
+      "entry": {
+        "trigger": "first_town_visit",
+        "visual_ko": "기존 마을 배경에 어두운 문양과 주민 말풍선",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "The kitchen is full of wrong orders.",
+            "ko": "부엌에 잘못된 주문이 가득하다.",
+            "chunks": [
+              {
+                "en": "The kitchen is full of wrong orders.",
+                "ko": "부엌에 잘못된 주문이 가득하다."
+              }
+            ]
+          }
+        ]
+      },
+      "boss": {
+        "trigger": "first_boss_encounter",
+        "visual_ko": "기존 보스 스프라이트와 검은 페이지 빛",
+        "lines": [
+          {
+            "speaker_en": "Doubt, the Cave Inquisitor",
+            "en": "No one can ask the right question!",
+            "ko": "아무도 제대로 질문할 수 없어!",
+            "chunks": [
+              {
+                "en": "No one can ask the right question!",
+                "ko": "아무도 제대로 질문할 수 없어!"
+              }
+            ]
+          }
+        ]
+      },
+      "recovery": {
+        "trigger": "first_existing_clear",
+        "visual_ko": "검은 빛이 사라지고 기존 복구 마을 배경으로 전환",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "Dinner is ready at last.",
+            "ko": "드디어 저녁 식사가 준비됐다.",
+            "chunks": [
+              {
+                "en": "Dinner is ready at last.",
+                "ko": "드디어 저녁 식사가 준비됐다."
+              }
+            ]
+          }
+        ]
+      },
+      "special_complete": {
+        "trigger": "special_quest_complete",
+        "lines": [
+          {
+            "speaker_en": "Verbella",
+            "en": "We understood the clues and helped the village.",
+            "ko": "우리는 단서를 이해하고 마을을 도왔어요.",
+            "chunks": [
+              {
+                "en": "We understood the clues and helped the village.",
+                "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ]
+          }
+        ],
+        "next_dialogue_ref": "g2"
+      }
+    },
+    {
+      "town_id": "tn",
+      "entry": {
+        "trigger": "first_town_visit",
+        "visual_ko": "기존 마을 배경에 어두운 문양과 주민 말풍선",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "The clocks show different times.",
+            "ko": "시계들이 서로 다른 시간을 가리킨다.",
+            "chunks": [
+              {
+                "en": "The clocks show different times.",
+                "ko": "시계들이 서로 다른 시간을 가리킨다."
+              }
+            ]
+          }
+        ]
+      },
+      "boss": {
+        "trigger": "first_boss_encounter",
+        "visual_ko": "기존 보스 스프라이트와 검은 페이지 빛",
+        "lines": [
+          {
+            "speaker_en": "Chronos, Keeper of Time",
+            "en": "Yesterday and tomorrow are mixed up!",
+            "ko": "어제와 내일이 뒤섞였어!",
+            "chunks": [
+              {
+                "en": "Yesterday and tomorrow are mixed up!",
+                "ko": "어제와 내일이 뒤섞였어!"
+              }
+            ]
+          }
+        ]
+      },
+      "recovery": {
+        "trigger": "first_existing_clear",
+        "visual_ko": "검은 빛이 사라지고 기존 복구 마을 배경으로 전환",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "The birthday party can begin.",
+            "ko": "생일 파티를 시작할 수 있다.",
+            "chunks": [
+              {
+                "en": "The birthday party can begin.",
+                "ko": "생일 파티를 시작할 수 있다."
+              }
+            ]
+          }
+        ]
+      },
+      "special_complete": {
+        "trigger": "special_quest_complete",
+        "lines": [
+          {
+            "speaker_en": "Verbella",
+            "en": "We understood the clues and helped the village.",
+            "ko": "우리는 단서를 이해하고 마을을 도왔어요.",
+            "chunks": [
+              {
+                "en": "We understood the clues and helped the village.",
+                "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ]
+          }
+        ],
+        "next_dialogue_ref": "tn"
+      }
+    },
+    {
+      "town_id": "md",
+      "entry": {
+        "trigger": "first_town_visit",
+        "visual_ko": "기존 마을 배경에 어두운 문양과 주민 말풍선",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "The bridge is broken.",
+            "ko": "다리가 부서졌다.",
+            "chunks": [
+              {
+                "en": "The bridge is broken.",
+                "ko": "다리가 부서졌다."
+              }
+            ]
+          }
+        ]
+      },
+      "boss": {
+        "trigger": "first_boss_encounter",
+        "visual_ko": "기존 보스 스프라이트와 검은 페이지 빛",
+        "lines": [
+          {
+            "speaker_en": "Mustar, Guardian of Modals",
+            "en": "You cannot cross!",
+            "ko": "너희는 건널 수 없다!",
+            "chunks": [
+              {
+                "en": "You cannot cross!",
+                "ko": "너희는 건널 수 없다!"
+              }
+            ]
+          }
+        ]
+      },
+      "recovery": {
+        "trigger": "first_existing_clear",
+        "visual_ko": "검은 빛이 사라지고 기존 복구 마을 배경으로 전환",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "The rescue team can cross safely.",
+            "ko": "구조대가 안전하게 건널 수 있다.",
+            "chunks": [
+              {
+                "en": "The rescue team can cross safely.",
+                "ko": "구조대가 안전하게 건널 수 있다."
+              }
+            ]
+          }
+        ]
+      },
+      "special_complete": {
+        "trigger": "special_quest_complete",
+        "lines": [
+          {
+            "speaker_en": "Verbella",
+            "en": "We understood the clues and helped the village.",
+            "ko": "우리는 단서를 이해하고 마을을 도왔어요.",
+            "chunks": [
+              {
+                "en": "We understood the clues and helped the village.",
+                "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ]
+          }
+        ],
+        "next_dialogue_ref": "md"
+      }
+    },
+    {
+      "town_id": "rp",
+      "entry": {
+        "trigger": "first_town_visit",
+        "visual_ko": "기존 마을 배경에 어두운 문양과 주민 말풍선",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "A child is missing in the forest.",
+            "ko": "숲에서 아이가 실종됐다.",
+            "chunks": [
+              {
+                "en": "A child is missing in the forest.",
+                "ko": "숲에서 아이가 실종됐다."
+              }
+            ]
+          }
+        ]
+      },
+      "boss": {
+        "trigger": "first_boss_encounter",
+        "visual_ko": "기존 보스 스프라이트와 검은 페이지 빛",
+        "lines": [
+          {
+            "speaker_en": "Relator, Lord of the Forest",
+            "en": "Every path looks the same!",
+            "ko": "모든 길이 똑같아 보여!",
+            "chunks": [
+              {
+                "en": "Every path looks the same!",
+                "ko": "모든 길이 똑같아 보여!"
+              }
+            ]
+          }
+        ]
+      },
+      "recovery": {
+        "trigger": "first_existing_clear",
+        "visual_ko": "검은 빛이 사라지고 기존 복구 마을 배경으로 전환",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "The search team has a clear lead.",
+            "ko": "수색대가 확실한 단서를 얻었다.",
+            "chunks": [
+              {
+                "en": "The search team has a clear lead.",
+                "ko": "수색대가 확실한 단서를 얻었다."
+              }
+            ]
+          }
+        ]
+      },
+      "special_complete": {
+        "trigger": "special_quest_complete",
+        "lines": [
+          {
+            "speaker_en": "Verbella",
+            "en": "We understood the clues and helped the village.",
+            "ko": "우리는 단서를 이해하고 마을을 도왔어요.",
+            "chunks": [
+              {
+                "en": "We understood the clues and helped the village.",
+                "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ]
+          }
+        ],
+        "next_dialogue_ref": "rp"
+      }
+    },
+    {
+      "town_id": "ps",
+      "entry": {
+        "trigger": "first_town_visit",
+        "visual_ko": "기존 마을 배경에 어두운 문양과 주민 말풍선",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "A valuable book is missing.",
+            "ko": "귀중한 책이 사라졌다.",
+            "chunks": [
+              {
+                "en": "A valuable book is missing.",
+                "ko": "귀중한 책이 사라졌다."
+              }
+            ]
+          }
+        ]
+      },
+      "boss": {
+        "trigger": "first_boss_encounter",
+        "visual_ko": "기존 보스 스프라이트와 검은 페이지 빛",
+        "lines": [
+          {
+            "speaker_en": "Passivus, Lord of the Lake",
+            "en": "The truth is hidden!",
+            "ko": "진실은 숨겨져 있다!",
+            "chunks": [
+              {
+                "en": "The truth is hidden!",
+                "ko": "진실은 숨겨져 있다!"
+              }
+            ]
+          }
+        ]
+      },
+      "recovery": {
+        "trigger": "first_existing_clear",
+        "visual_ko": "검은 빛이 사라지고 기존 복구 마을 배경으로 전환",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "The villagers can investigate the theft.",
+            "ko": "주민들이 절도 사건을 조사할 수 있다.",
+            "chunks": [
+              {
+                "en": "The villagers can investigate the theft.",
+                "ko": "주민들이 절도 사건을 조사할 수 있다."
+              }
+            ]
+          }
+        ]
+      },
+      "special_complete": {
+        "trigger": "special_quest_complete",
+        "lines": [
+          {
+            "speaker_en": "Verbella",
+            "en": "We understood the clues and helped the village.",
+            "ko": "우리는 단서를 이해하고 마을을 도왔어요.",
+            "chunks": [
+              {
+                "en": "We understood the clues and helped the village.",
+                "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ]
+          }
+        ],
+        "next_dialogue_ref": "ps"
+      }
+    },
+    {
+      "town_id": "pf",
+      "entry": {
+        "trigger": "first_town_visit",
+        "visual_ko": "기존 마을 배경에 어두운 문양과 주민 말풍선",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "An old letter waits for its reader.",
+            "ko": "오래된 편지가 읽어 줄 사람을 기다린다.",
+            "chunks": [
+              {
+                "en": "An old letter waits for its reader.",
+                "ko": "오래된 편지가 읽어 줄 사람을 기다린다."
+              }
+            ]
+          }
+        ]
+      },
+      "boss": {
+        "trigger": "first_boss_encounter",
+        "visual_ko": "기존 보스 스프라이트와 검은 페이지 빛",
+        "lines": [
+          {
+            "speaker_en": "Perfectus, Keeper of Ages",
+            "en": "The past will never return!",
+            "ko": "과거는 결코 돌아오지 않아!",
+            "chunks": [
+              {
+                "en": "The past will never return!",
+                "ko": "과거는 결코 돌아오지 않아!"
+              }
+            ]
+          }
+        ]
+      },
+      "recovery": {
+        "trigger": "first_existing_clear",
+        "visual_ko": "검은 빛이 사라지고 기존 복구 마을 배경으로 전환",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "The letter can finally be read.",
+            "ko": "마침내 편지를 읽을 수 있다.",
+            "chunks": [
+              {
+                "en": "The letter can finally be read.",
+                "ko": "마침내 편지를 읽을 수 있다."
+              }
+            ]
+          }
+        ]
+      },
+      "special_complete": {
+        "trigger": "special_quest_complete",
+        "lines": [
+          {
+            "speaker_en": "Verbella",
+            "en": "We understood the clues and helped the village.",
+            "ko": "우리는 단서를 이해하고 마을을 도왔어요.",
+            "chunks": [
+              {
+                "en": "We understood the clues and helped the village.",
+                "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ]
+          }
+        ],
+        "next_dialogue_ref": "pf"
+      }
+    },
+    {
+      "town_id": "rv",
+      "entry": {
+        "trigger": "first_town_visit",
+        "visual_ko": "기존 마을 배경에 어두운 문양과 주민 말풍선",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "A map points to a forgotten home.",
+            "ko": "지도가 잊힌 고향을 가리킨다.",
+            "chunks": [
+              {
+                "en": "A map points to a forgotten home.",
+                "ko": "지도가 잊힌 고향을 가리킨다."
+              }
+            ]
+          }
+        ]
+      },
+      "boss": {
+        "trigger": "first_boss_encounter",
+        "visual_ko": "기존 보스 스프라이트와 검은 페이지 빛",
+        "lines": [
+          {
+            "speaker_en": "Locarus, Guardian of Places",
+            "en": "You will lose your way!",
+            "ko": "너희는 길을 잃을 것이다!",
+            "chunks": [
+              {
+                "en": "You will lose your way!",
+                "ko": "너희는 길을 잃을 것이다!"
+              }
+            ]
+          }
+        ]
+      },
+      "recovery": {
+        "trigger": "first_existing_clear",
+        "visual_ko": "검은 빛이 사라지고 기존 복구 마을 배경으로 전환",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "The path to the old house is clear.",
+            "ko": "옛집으로 가는 길이 분명해졌다.",
+            "chunks": [
+              {
+                "en": "The path to the old house is clear.",
+                "ko": "옛집으로 가는 길이 분명해졌다."
+              }
+            ]
+          }
+        ]
+      },
+      "special_complete": {
+        "trigger": "special_quest_complete",
+        "lines": [
+          {
+            "speaker_en": "Verbella",
+            "en": "We understood the clues and helped the village.",
+            "ko": "우리는 단서를 이해하고 마을을 도왔어요.",
+            "chunks": [
+              {
+                "en": "We understood the clues and helped the village.",
+                "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ]
+          }
+        ],
+        "next_dialogue_ref": "rv"
+      }
+    },
+    {
+      "town_id": "pc",
+      "entry": {
+        "trigger": "first_town_visit",
+        "visual_ko": "기존 마을 배경에 어두운 문양과 주민 말풍선",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "An ancient tablet lies in the canyon.",
+            "ko": "협곡에 고대 돌판이 놓여 있다.",
+            "chunks": [
+              {
+                "en": "An ancient tablet lies in the canyon.",
+                "ko": "협곡에 고대 돌판이 놓여 있다."
+              }
+            ]
+          }
+        ]
+      },
+      "boss": {
+        "trigger": "first_boss_encounter",
+        "visual_ko": "기존 보스 스프라이트와 검은 페이지 빛",
+        "lines": [
+          {
+            "speaker_en": "Partix, the Canyon Griffin",
+            "en": "The record must remain hidden!",
+            "ko": "기록은 숨겨져 있어야 한다!",
+            "chunks": [
+              {
+                "en": "The record must remain hidden!",
+                "ko": "기록은 숨겨져 있어야 한다!"
+              }
+            ]
+          }
+        ]
+      },
+      "recovery": {
+        "trigger": "first_existing_clear",
+        "visual_ko": "검은 빛이 사라지고 기존 복구 마을 배경으로 전환",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "The ancient record can be studied.",
+            "ko": "고대 기록을 연구할 수 있다.",
+            "chunks": [
+              {
+                "en": "The ancient record can be studied.",
+                "ko": "고대 기록을 연구할 수 있다."
+              }
+            ]
+          }
+        ]
+      },
+      "special_complete": {
+        "trigger": "special_quest_complete",
+        "lines": [
+          {
+            "speaker_en": "Verbella",
+            "en": "We understood the clues and helped the village.",
+            "ko": "우리는 단서를 이해하고 마을을 도왔어요.",
+            "chunks": [
+              {
+                "en": "We understood the clues and helped the village.",
+                "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ]
+          }
+        ],
+        "next_dialogue_ref": "pc"
+      }
+    },
+    {
+      "town_id": "sj",
+      "entry": {
+        "trigger": "first_town_visit",
+        "visual_ko": "기존 마을 배경에 어두운 문양과 주민 말풍선",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "A young girl waits for her brother.",
+            "ko": "한 소녀가 오빠를 기다린다.",
+            "chunks": [
+              {
+                "en": "A young girl waits for her brother.",
+                "ko": "한 소녀가 오빠를 기다린다."
+              }
+            ]
+          }
+        ]
+      },
+      "boss": {
+        "trigger": "first_boss_encounter",
+        "visual_ko": "기존 보스 스프라이트와 검은 페이지 빛",
+        "lines": [
+          {
+            "speaker_en": "Wishra, Queen of Wishes",
+            "en": "Your wishes will never come true!",
+            "ko": "너희의 소원은 결코 이루어지지 않아!",
+            "chunks": [
+              {
+                "en": "Your wishes will never come true!",
+                "ko": "너희의 소원은 결코 이루어지지 않아!"
+              }
+            ]
+          }
+        ]
+      },
+      "recovery": {
+        "trigger": "first_existing_clear",
+        "visual_ko": "검은 빛이 사라지고 기존 복구 마을 배경으로 전환",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "The villagers can hope again.",
+            "ko": "주민들이 다시 희망을 품을 수 있다.",
+            "chunks": [
+              {
+                "en": "The villagers can hope again.",
+                "ko": "주민들이 다시 희망을 품을 수 있다."
+              }
+            ]
+          }
+        ]
+      },
+      "special_complete": {
+        "trigger": "special_quest_complete",
+        "lines": [
+          {
+            "speaker_en": "Verbella",
+            "en": "We understood the clues and helped the village.",
+            "ko": "우리는 단서를 이해하고 마을을 도왔어요.",
+            "chunks": [
+              {
+                "en": "We understood the clues and helped the village.",
+                "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ]
+          }
+        ],
+        "next_dialogue_ref": "sj"
+      }
+    },
+    {
+      "town_id": "cp",
+      "entry": {
+        "trigger": "first_town_visit",
+        "visual_ko": "기존 마을 배경에 어두운 문양과 주민 말풍선",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "The race has no clear winner.",
+            "ko": "경주에 분명한 우승자가 없다.",
+            "chunks": [
+              {
+                "en": "The race has no clear winner.",
+                "ko": "경주에 분명한 우승자가 없다."
+              }
+            ]
+          }
+        ]
+      },
+      "boss": {
+        "trigger": "first_boss_encounter",
+        "visual_ko": "기존 보스 스프라이트와 검은 페이지 빛",
+        "lines": [
+          {
+            "speaker_en": "Maximus, King of the Hills",
+            "en": "No one is better than me!",
+            "ko": "아무도 나보다 낫지 않아!",
+            "chunks": [
+              {
+                "en": "No one is better than me!",
+                "ko": "아무도 나보다 낫지 않아!"
+              }
+            ]
+          }
+        ]
+      },
+      "recovery": {
+        "trigger": "first_existing_clear",
+        "visual_ko": "검은 빛이 사라지고 기존 복구 마을 배경으로 전환",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "The judges can compare the results.",
+            "ko": "심판들이 결과를 비교할 수 있다.",
+            "chunks": [
+              {
+                "en": "The judges can compare the results.",
+                "ko": "심판들이 결과를 비교할 수 있다."
+              }
+            ]
+          }
+        ]
+      },
+      "special_complete": {
+        "trigger": "special_quest_complete",
+        "lines": [
+          {
+            "speaker_en": "Verbella",
+            "en": "We understood the clues and helped the village.",
+            "ko": "우리는 단서를 이해하고 마을을 도왔어요.",
+            "chunks": [
+              {
+                "en": "We understood the clues and helped the village.",
+                "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ]
+          }
+        ],
+        "next_dialogue_ref": "cp"
+      }
+    },
+    {
+      "town_id": "pn",
+      "entry": {
+        "trigger": "first_town_visit",
+        "visual_ko": "기존 마을 배경에 어두운 문양과 주민 말풍선",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "Lost objects fill the village hall.",
+            "ko": "분실물이 마을 회관을 가득 채운다.",
+            "chunks": [
+              {
+                "en": "Lost objects fill the village hall.",
+                "ko": "분실물이 마을 회관을 가득 채운다."
+              }
+            ]
+          }
+        ]
+      },
+      "boss": {
+        "trigger": "first_boss_encounter",
+        "visual_ko": "기존 보스 스프라이트와 검은 페이지 빛",
+        "lines": [
+          {
+            "speaker_en": "Pronomus, Keeper of Names",
+            "en": "Everything is mine!",
+            "ko": "모든 것이 내 것이다!",
+            "chunks": [
+              {
+                "en": "Everything is mine!",
+                "ko": "모든 것이 내 것이다!"
+              }
+            ]
+          }
+        ]
+      },
+      "recovery": {
+        "trigger": "first_existing_clear",
+        "visual_ko": "검은 빛이 사라지고 기존 복구 마을 배경으로 전환",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "The owners can claim their belongings.",
+            "ko": "주인들이 물건을 되찾을 수 있다.",
+            "chunks": [
+              {
+                "en": "The owners can claim their belongings.",
+                "ko": "주인들이 물건을 되찾을 수 있다."
+              }
+            ]
+          }
+        ]
+      },
+      "special_complete": {
+        "trigger": "special_quest_complete",
+        "lines": [
+          {
+            "speaker_en": "Verbella",
+            "en": "We understood the clues and helped the village.",
+            "ko": "우리는 단서를 이해하고 마을을 도왔어요.",
+            "chunks": [
+              {
+                "en": "We understood the clues and helped the village.",
+                "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ]
+          }
+        ],
+        "next_dialogue_ref": "pn"
+      }
+    },
+    {
+      "town_id": "ot",
+      "entry": {
+        "trigger": "first_town_visit",
+        "visual_ko": "기존 마을 배경에 어두운 문양과 주민 말풍선",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "A ship waits beside the lighthouse.",
+            "ko": "배가 등대 옆에서 기다린다.",
+            "chunks": [
+              {
+                "en": "A ship waits beside the lighthouse.",
+                "ko": "배가 등대 옆에서 기다린다."
+              }
+            ]
+          }
+        ]
+      },
+      "boss": {
+        "trigger": "first_boss_encounter",
+        "visual_ko": "기존 보스 스프라이트와 검은 페이지 빛",
+        "lines": [
+          {
+            "speaker_en": "Prepos, Elder of the Isles",
+            "en": "You will never find the route!",
+            "ko": "너희는 결코 항로를 찾지 못할 것이다!",
+            "chunks": [
+              {
+                "en": "You will never find the route!",
+                "ko": "너희는 결코 항로를 찾지 못할 것이다!"
+              }
+            ]
+          }
+        ]
+      },
+      "recovery": {
+        "trigger": "first_existing_clear",
+        "visual_ko": "검은 빛이 사라지고 기존 복구 마을 배경으로 전환",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "The sailors can prepare to leave.",
+            "ko": "선원들이 출항을 준비할 수 있다.",
+            "chunks": [
+              {
+                "en": "The sailors can prepare to leave.",
+                "ko": "선원들이 출항을 준비할 수 있다."
+              }
+            ]
+          }
+        ]
+      },
+      "special_complete": {
+        "trigger": "special_quest_complete",
+        "lines": [
+          {
+            "speaker_en": "Verbella",
+            "en": "We understood the clues and helped the village.",
+            "ko": "우리는 단서를 이해하고 마을을 도왔어요.",
+            "chunks": [
+              {
+                "en": "We understood the clues and helped the village.",
+                "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ]
+          }
+        ],
+        "next_dialogue_ref": "ot"
+      }
+    },
+    {
+      "town_id": "iv",
+      "entry": {
+        "trigger": "first_town_visit",
+        "visual_ko": "기존 마을 배경에 어두운 문양과 주민 말풍선",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "The travelers have lost their plans.",
+            "ko": "여행자들이 계획을 잃었다.",
+            "chunks": [
+              {
+                "en": "The travelers have lost their plans.",
+                "ko": "여행자들이 계획을 잃었다."
+              }
+            ]
+          }
+        ]
+      },
+      "boss": {
+        "trigger": "first_boss_encounter",
+        "visual_ko": "기존 보스 스프라이트와 검은 페이지 빛",
+        "lines": [
+          {
+            "speaker_en": "Verbalis, Sky Emperor",
+            "en": "Give up your dreams!",
+            "ko": "꿈을 포기해라!",
+            "chunks": [
+              {
+                "en": "Give up your dreams!",
+                "ko": "꿈을 포기해라!"
+              }
+            ]
+          }
+        ]
+      },
+      "recovery": {
+        "trigger": "first_existing_clear",
+        "visual_ko": "검은 빛이 사라지고 기존 복구 마을 배경으로 전환",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "The travelers can plan their journeys.",
+            "ko": "여행자들이 여행을 계획할 수 있다.",
+            "chunks": [
+              {
+                "en": "The travelers can plan their journeys.",
+                "ko": "여행자들이 여행을 계획할 수 있다."
+              }
+            ]
+          }
+        ]
+      },
+      "special_complete": {
+        "trigger": "special_quest_complete",
+        "lines": [
+          {
+            "speaker_en": "Verbella",
+            "en": "We understood the clues and helped the village.",
+            "ko": "우리는 단서를 이해하고 마을을 도왔어요.",
+            "chunks": [
+              {
+                "en": "We understood the clues and helped the village.",
+                "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ]
+          }
+        ],
+        "next_dialogue_ref": "iv"
+      }
+    },
+    {
+      "town_id": "pe",
+      "entry": {
+        "trigger": "first_town_visit",
+        "visual_ko": "기존 마을 배경에 어두운 문양과 주민 말풍선",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "A strange sound comes from the woods.",
+            "ko": "숲에서 이상한 소리가 들려온다.",
+            "chunks": [
+              {
+                "en": "A strange sound comes from the woods.",
+                "ko": "숲에서 이상한 소리가 들려온다."
+              }
+            ]
+          }
+        ]
+      },
+      "boss": {
+        "trigger": "first_boss_encounter",
+        "visual_ko": "기존 보스 스프라이트와 검은 페이지 빛",
+        "lines": [
+          {
+            "speaker_en": "Sensar, the Forest Watcher",
+            "en": "Do not trust your senses!",
+            "ko": "너희의 감각을 믿지 마라!",
+            "chunks": [
+              {
+                "en": "Do not trust your senses!",
+                "ko": "너희의 감각을 믿지 마라!"
+              }
+            ]
+          }
+        ]
+      },
+      "recovery": {
+        "trigger": "first_existing_clear",
+        "visual_ko": "검은 빛이 사라지고 기존 복구 마을 배경으로 전환",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "The witnesses can share their stories.",
+            "ko": "목격자들이 이야기를 나눌 수 있다.",
+            "chunks": [
+              {
+                "en": "The witnesses can share their stories.",
+                "ko": "목격자들이 이야기를 나눌 수 있다."
+              }
+            ]
+          }
+        ]
+      },
+      "special_complete": {
+        "trigger": "special_quest_complete",
+        "lines": [
+          {
+            "speaker_en": "Verbella",
+            "en": "We understood the clues and helped the village.",
+            "ko": "우리는 단서를 이해하고 마을을 도왔어요.",
+            "chunks": [
+              {
+                "en": "We understood the clues and helped the village.",
+                "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ]
+          }
+        ],
+        "next_dialogue_ref": "pe"
+      }
+    },
+    {
+      "town_id": "ng",
+      "entry": {
+        "trigger": "first_town_visit",
+        "visual_ko": "기존 마을 배경에 어두운 문양과 주민 말풍선",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "The festival square is empty.",
+            "ko": "축제 광장이 텅 비어 있다.",
+            "chunks": [
+              {
+                "en": "The festival square is empty.",
+                "ko": "축제 광장이 텅 비어 있다."
+              }
+            ]
+          }
+        ]
+      },
+      "boss": {
+        "trigger": "first_boss_encounter",
+        "visual_ko": "기존 보스 스프라이트와 검은 페이지 빛",
+        "lines": [
+          {
+            "speaker_en": "Nomina, Guardian of Words",
+            "en": "Be silent!",
+            "ko": "조용히 해라!",
+            "chunks": [
+              {
+                "en": "Be silent!",
+                "ko": "조용히 해라!"
+              }
+            ]
+          }
+        ]
+      },
+      "recovery": {
+        "trigger": "first_existing_clear",
+        "visual_ko": "검은 빛이 사라지고 기존 복구 마을 배경으로 전환",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "The festival preparations can resume.",
+            "ko": "축제 준비를 다시 시작할 수 있다.",
+            "chunks": [
+              {
+                "en": "The festival preparations can resume.",
+                "ko": "축제 준비를 다시 시작할 수 있다."
+              }
+            ]
+          }
+        ]
+      },
+      "special_complete": {
+        "trigger": "special_quest_complete",
+        "lines": [
+          {
+            "speaker_en": "Verbella",
+            "en": "We understood the clues and helped the village.",
+            "ko": "우리는 단서를 이해하고 마을을 도왔어요.",
+            "chunks": [
+              {
+                "en": "We understood the clues and helped the village.",
+                "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ]
+          }
+        ],
+        "next_dialogue_ref": "ng"
+      }
+    },
+    {
+      "town_id": "rs",
+      "entry": {
+        "trigger": "first_town_visit",
+        "visual_ko": "기존 마을 배경에 어두운 문양과 주민 말풍선",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "A messenger carries a broken message.",
+            "ko": "전령이 왜곡된 전갈을 가지고 있다.",
+            "chunks": [
+              {
+                "en": "A messenger carries a broken message.",
+                "ko": "전령이 왜곡된 전갈을 가지고 있다."
+              }
+            ]
+          }
+        ]
+      },
+      "boss": {
+        "trigger": "first_boss_encounter",
+        "visual_ko": "기존 보스 스프라이트와 검은 페이지 빛",
+        "lines": [
+          {
+            "speaker_en": "Reportus, Keeper of Messages",
+            "en": "No one will hear the truth!",
+            "ko": "아무도 진실을 듣지 못할 것이다!",
+            "chunks": [
+              {
+                "en": "No one will hear the truth!",
+                "ko": "아무도 진실을 듣지 못할 것이다!"
+              }
+            ]
+          }
+        ]
+      },
+      "recovery": {
+        "trigger": "first_existing_clear",
+        "visual_ko": "검은 빛이 사라지고 기존 복구 마을 배경으로 전환",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "The message can be restored.",
+            "ko": "전갈을 복원할 수 있다.",
+            "chunks": [
+              {
+                "en": "The message can be restored.",
+                "ko": "전갈을 복원할 수 있다."
+              }
+            ]
+          }
+        ]
+      },
+      "special_complete": {
+        "trigger": "special_quest_complete",
+        "lines": [
+          {
+            "speaker_en": "Verbella",
+            "en": "We understood the clues and helped the village.",
+            "ko": "우리는 단서를 이해하고 마을을 도왔어요.",
+            "chunks": [
+              {
+                "en": "We understood the clues and helped the village.",
+                "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ]
+          }
+        ],
+        "next_dialogue_ref": "rs"
+      }
+    },
+    {
+      "town_id": "sx",
+      "entry": {
+        "trigger": "first_town_visit",
+        "visual_ko": "기존 마을 배경에 어두운 문양과 주민 말풍선",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "The castle gate stands in darkness.",
+            "ko": "성문이 어둠 속에 서 있다.",
+            "chunks": [
+              {
+                "en": "The castle gate stands in darkness.",
+                "ko": "성문이 어둠 속에 서 있다."
+              }
+            ]
+          }
+        ]
+      },
+      "boss": {
+        "trigger": "first_boss_encounter",
+        "visual_ko": "기존 보스 스프라이트와 검은 페이지 빛",
+        "lines": [
+          {
+            "speaker_en": "Invertus, Sovereign of Order",
+            "en": "Never will you restore the book!",
+            "ko": "너희는 결코 책을 복원하지 못할 것이다!",
+            "chunks": [
+              {
+                "en": "Never will you restore the book!",
+                "ko": "너희는 결코 책을 복원하지 못할 것이다!"
+              }
+            ]
+          }
+        ]
+      },
+      "recovery": {
+        "trigger": "first_existing_clear",
+        "visual_ko": "검은 빛이 사라지고 기존 복구 마을 배경으로 전환",
+        "lines": [
+          {
+            "speaker_en": "Narrator",
+            "en": "The last page is within reach.",
+            "ko": "마지막 페이지가 손에 닿을 곳에 있다.",
+            "chunks": [
+              {
+                "en": "The last page is within reach.",
+                "ko": "마지막 페이지가 손에 닿을 곳에 있다."
+              }
+            ]
+          }
+        ]
+      },
+      "special_complete": {
+        "trigger": "special_quest_complete",
+        "lines": [
+          {
+            "speaker_en": "Verbella",
+            "en": "We understood the clues and helped the village.",
+            "ko": "우리는 단서를 이해하고 마을을 도왔어요.",
+            "chunks": [
+              {
+                "en": "We understood the clues and helped the village.",
+                "ko": "우리는 단서를 이해하고 마을을 도왔어요."
+              }
+            ]
+          }
+        ],
+        "next_dialogue_ref": "sx"
+      }
+    }
+  ],
+  "finale": {
+    "id": "sanctuary_of_silence",
+    "status": "proposed_new_dungeon",
+    "unlock": {
+      "registered_unique_pages": 18
+    },
+    "villain": {
+      "name_en": "Silentius",
+      "name_ko": "사일렌티우스",
+      "title_en": "Lord of Silence",
+      "backstory_ko": "언어의 오해로 갈등이 생기는 모습을 보고 모든 사람에게 하나의 목소리만 허용하려 한 전직 기록 연구자라는 신규 제안. 과거의 상처가 타인의 자유를 빼앗는 행동을 정당화하지 않는다.",
+      "cookie_identity": "proposed Chapter I hidden speaker"
+    },
+    "opening": [
+      {
+        "speaker_en": "Lexion",
+        "en": "The book is whole, but its final warning is clear.",
+        "ko": "책은 완전해졌지만 마지막 경고는 분명하네.",
+        "chunks": [
+          {
+            "en": "The book is whole, but its final warning is clear.",
+            "ko": "책은 완전해졌지만 마지막 경고는 분명하네."
+          }
+        ]
+      },
+      {
+        "speaker_en": "Silentius",
+        "en": "One voice. One rule. No more arguments.",
+        "ko": "하나의 목소리. 하나의 규칙. 더 이상의 논쟁은 없다.",
+        "chunks": [
+          {
+            "en": "One voice. One rule. No more arguments.",
+            "ko": "하나의 목소리. 하나의 규칙. 더 이상의 논쟁은 없다."
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "id": "identity",
+        "title_en": "Voices of Identity",
+        "town_ids": [
+          "g1",
+          "g2",
+          "tn",
+          "md"
+        ],
+        "question_source": "existing verified banks"
+      },
+      {
+        "id": "connection",
+        "title_en": "Chains of Connection",
+        "town_ids": [
+          "rp",
+          "ps",
+          "pf",
+          "rv",
+          "pc"
+        ],
+        "question_source": "existing verified banks"
+      },
+      {
+        "id": "choice",
+        "title_en": "Freedom of Choice",
+        "town_ids": [
+          "sj",
+          "cp",
+          "pn",
+          "ot",
+          "iv"
+        ],
+        "question_source": "existing verified banks"
+      },
+      {
+        "id": "expression",
+        "title_en": "The Final Voice",
+        "town_ids": [
+          "pe",
+          "ng",
+          "rs",
+          "sx"
+        ],
+        "question_source": "existing verified banks"
+      }
+    ],
+    "confrontation": [
+      {
+        "speaker": "사일렌티우스",
+        "en": "If everyone spoke only my words, the world would be perfect.",
+        "ko": "모두가 오직 내 말만 한다면 세상은 완벽할 것이다.",
+        "chunks": [
+          {
+            "en": "If everyone spoke",
+            "ko": "모두가 말한다면"
+          },
+          {
+            "en": "only my words,",
+            "ko": "오직 내 말만,"
+          },
+          {
+            "en": "the world would be perfect.",
+            "ko": "세상은 완벽할 것이다."
+          }
+        ],
+        "speaker_en": "Silentius"
+      },
+      {
+        "speaker": "버벨라",
+        "en": "That is not peace.",
+        "ko": "그건 평화가 아니에요.",
+        "chunks": [
+          {
+            "en": "That is not peace.",
+            "ko": "그건 평화가 아니에요."
+          }
+        ],
+        "speaker_en": "Verbella"
+      },
+      {
+        "speaker": "컴플리",
+        "en": "Everyone has the right to speak for themselves.",
+        "ko": "모든 사람은 자신의 생각을 말할 권리가 있다.",
+        "chunks": [
+          {
+            "en": "Everyone has the right",
+            "ko": "모든 사람은 권리가 있다"
+          },
+          {
+            "en": "to speak for themselves.",
+            "ko": "자신의 생각을 말할."
+          }
+        ],
+        "speaker_en": "Comple"
+      },
+      {
+        "speaker": "옥시",
+        "en": "Language is not a tool to control others.",
+        "ko": "언어는 다른 사람을 지배하는 도구가 아니야.",
+        "chunks": [
+          {
+            "en": "Language is not a tool",
+            "ko": "언어는 도구가 아니야"
+          },
+          {
+            "en": "to control others.",
+            "ko": "다른 사람을 지배하는."
+          }
+        ],
+        "speaker_en": "Oxy"
+      },
+      {
+        "speaker": "버벨라",
+        "en": "It is a bridge that connects us.",
+        "ko": "언어는 우리를 이어 주는 다리예요.",
+        "chunks": [
+          {
+            "en": "It is a bridge",
+            "ko": "그것은 다리예요"
+          },
+          {
+            "en": "that connects us.",
+            "ko": "우리를 이어 주는."
+          }
+        ],
+        "speaker_en": "Verbella"
+      }
+    ],
+    "ending": [
+      {
+        "speaker_en": "Silentius",
+        "en": "I cannot decide what everyone should say.",
+        "ko": "모든 사람이 무엇을 말해야 할지 내가 결정할 수는 없다.",
+        "chunks": [
+          {
+            "en": "I cannot decide what everyone should say.",
+            "ko": "모든 사람이 무엇을 말해야 할지 내가 결정할 수는 없다."
+          }
+        ]
+      },
+      {
+        "speaker_en": "Verbella",
+        "en": "We can listen, even when we disagree.",
+        "ko": "의견이 달라도 우리는 서로의 말을 들을 수 있어요.",
+        "chunks": [
+          {
+            "en": "We can listen, even when we disagree.",
+            "ko": "의견이 달라도 우리는 서로의 말을 들을 수 있어요."
+          }
+        ]
+      },
+      {
+        "speaker_en": "Lexion",
+        "en": "The Grammatica belongs to everyone.",
+        "ko": "그라마티카는 모두의 것이네.",
+        "chunks": [
+          {
+            "en": "The Grammatica belongs to everyone.",
+            "ko": "그라마티카는 모두의 것이네."
+          }
+        ]
+      },
+      {
+        "speaker_en": "Narrator",
+        "en": "The voices of the continent returned.",
+        "ko": "대륙의 목소리들이 돌아왔다.",
+        "chunks": [
+          {
+            "en": "The voices of the continent returned.",
+            "ko": "대륙의 목소리들이 돌아왔다."
+          }
+        ]
+      }
+    ],
+    "reward": {
+      "title_en": "Guardian of Language",
+      "title_ko": "언어의 수호자",
+      "type": "cosmetic_title"
+    },
+    "epilogue": [
+      {
+        "speaker_en": "Narrator",
+        "en": "Beyond the sea, an ancient rune began to glow.",
+        "ko": "바다 너머에서 고대 룬 하나가 빛나기 시작했다.",
+        "chunks": [
+          {
+            "en": "Beyond the sea, an ancient rune began to glow.",
+            "ko": "바다 너머에서 고대 룬 하나가 빛나기 시작했다."
+          }
+        ]
+      },
+      {
+        "speaker_en": "Modi",
+        "en": "What does that word mean?",
+        "ko": "저 단어는 무슨 뜻이지?",
+        "chunks": [
+          {
+            "en": "What does that word mean?",
+            "ko": "저 단어는 무슨 뜻이지?"
+          }
+        ]
+      }
+    ],
+    "next_chapter": {
+      "status": "teaser_only",
+      "title_en": "The Forgotten Words",
+      "theme": "vocabulary"
+    }
+  },
+  "dialogue_policy": {
+    "english_first": true,
+    "chunk_status": "new lines use single aligned unit; editorial segmentation pending",
+    "speaker_fallback": "Narrator when companion unavailable",
+    "no_new_stats": true
+  }
+}

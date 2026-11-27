@@ -1,0 +1,1467 @@
+{
+  "version": "0.1",
+  "books": [
+    {
+      "id": "knight",
+      "title_en": "The Knight Who Laid Down His Sword",
+      "title_ko": "검을 버린 기사",
+      "genre": "fiction",
+      "volumes": [
+        {
+          "id": "knight_1",
+          "number": 1,
+          "title_en": "The Broken Shield",
+          "title_ko": "부서진 방패",
+          "en": "Sir Alden returned from a battle with a broken shield. He expected a welcome, but the village square was empty. The people were repairing their homes. He put his sword beside the well and asked where he could help.\n\nAlden found the well rope dragging in the mud and tied it to a post. A child pointed him toward a house whose door would no longer close.",
+          "ko": "기사 올든은 부서진 방패를 들고 전투에서 돌아왔다. 환영을 기대했지만 마을 광장은 비어 있었다. 주민들은 집을 수리하고 있었다. 그는 우물 옆에 검을 내려놓고 어디를 도우면 되는지 물었다.\n\n올든은 우물 밧줄이 진흙에 끌리는 것을 보고 기둥에 묶었다. 한 아이가 문이 닫히지 않는 집을 가리켰다.",
+          "unlock": {
+            "registered_pages": 0
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Sir Alden returned from a battle with a broken shield.",
+              "ko": "기사 올든은 부서진 방패를 들고 전투에서 돌아왔다."
+            },
+            {
+              "en": "He expected a welcome, but the village square was empty.",
+              "ko": "환영을 기대했지만 마을 광장은 비어 있었다."
+            },
+            {
+              "en": "The people were repairing their homes.",
+              "ko": "주민들은 집을 수리하고 있었다."
+            },
+            {
+              "en": "He put his sword beside the well and asked where he could help.",
+              "ko": "그는 우물 옆에 검을 내려놓고 어디를 도우면 되는지 물었다."
+            },
+            {
+              "en": "Alden found the well rope dragging in the mud and tied it to a post.",
+              "ko": "올든은 우물 밧줄이 진흙에 끌리는 것을 보고 기둥에 묶었다."
+            },
+            {
+              "en": "A child pointed him toward a house whose door would no longer close.",
+              "ko": "한 아이가 문이 닫히지 않는 집을 가리켰다."
+            }
+          ]
+        },
+        {
+          "id": "knight_2",
+          "number": 2,
+          "title_en": "The Carpenter",
+          "title_ko": "목수",
+          "en": "A carpenter named Nella gave Alden a hammer. He was strong, but he knew little about building houses. His first shelf fell to the floor. Nella showed him how to measure the wood, and he tried again.\n\nThey used the fallen shelf as a workbench rather than throwing it away. Alden handed Nella the ruler before he picked up the hammer again.",
+          "ko": "넬라라는 목수가 올든에게 망치를 주었다. 그는 힘이 셌지만 집을 짓는 일은 잘 몰랐다. 처음 만든 선반은 바닥으로 떨어졌다. 넬라는 나무를 재는 법을 알려 주었고 그는 다시 시도했다.\n\n두 사람은 무너진 선반을 버리는 대신 작업대로 썼다. 올든은 다시 망치를 들기 전에 넬라에게 자를 건넸다.",
+          "unlock": {
+            "registered_pages": 2
+          },
+          "previous_volume": "knight_1",
+          "segments": [
+            {
+              "en": "A carpenter named Nella gave Alden a hammer.",
+              "ko": "넬라라는 목수가 올든에게 망치를 주었다."
+            },
+            {
+              "en": "He was strong, but he knew little about building houses.",
+              "ko": "그는 힘이 셌지만 집을 짓는 일은 잘 몰랐다."
+            },
+            {
+              "en": "His first shelf fell to the floor.",
+              "ko": "처음 만든 선반은 바닥으로 떨어졌다."
+            },
+            {
+              "en": "Nella showed him how to measure the wood, and he tried again.",
+              "ko": "넬라는 나무를 재는 법을 알려 주었고 그는 다시 시도했다."
+            },
+            {
+              "en": "They used the fallen shelf as a workbench rather than throwing it away.",
+              "ko": "두 사람은 무너진 선반을 버리는 대신 작업대로 썼다."
+            },
+            {
+              "en": "Alden handed Nella the ruler before he picked up the hammer again.",
+              "ko": "올든은 다시 망치를 들기 전에 넬라에게 자를 건넸다."
+            }
+          ]
+        },
+        {
+          "id": "knight_3",
+          "number": 3,
+          "title_en": "The Visitor",
+          "title_ko": "방문객",
+          "en": "A stranger arrived with the badge of a former enemy. Alden reached for his sword, but the stranger asked for water. Nella brought two cups. The men discovered that both had lost their homes in the war.\n\nThe stranger set his badge on the table where everyone could see it. Alden brought a chair and let him finish his story before asking how he had found the village.",
+          "ko": "옛 적군의 표식을 단 낯선 사람이 찾아왔다. 올든은 검에 손을 뻗었지만 낯선 사람은 물을 청했다. 넬라는 잔 두 개를 가져왔다. 두 사람은 모두 전쟁에서 집을 잃었다는 사실을 알게 되었다.\n\n낯선 이는 누구나 볼 수 있게 탁자 위에 휘장을 놓았다. 올든은 의자를 가져다주고 마을을 어떻게 찾아왔는지 묻기 전에 이야기를 끝까지 들었다.",
+          "unlock": {
+            "registered_pages": 4
+          },
+          "previous_volume": "knight_2",
+          "segments": [
+            {
+              "en": "A stranger arrived with the badge of a former enemy.",
+              "ko": "옛 적군의 표식을 단 낯선 사람이 찾아왔다."
+            },
+            {
+              "en": "Alden reached for his sword, but the stranger asked for water.",
+              "ko": "올든은 검에 손을 뻗었지만 낯선 사람은 물을 청했다."
+            },
+            {
+              "en": "Nella brought two cups.",
+              "ko": "넬라는 잔 두 개를 가져왔다."
+            },
+            {
+              "en": "The men discovered that both had lost their homes in the war.",
+              "ko": "두 사람은 모두 전쟁에서 집을 잃었다는 사실을 알게 되었다."
+            },
+            {
+              "en": "The stranger set his badge on the table where everyone could see it.",
+              "ko": "낯선 이는 누구나 볼 수 있게 탁자 위에 휘장을 놓았다."
+            },
+            {
+              "en": "Alden brought a chair and let him finish his story before asking how he had found the village.",
+              "ko": "올든은 의자를 가져다주고 마을을 어떻게 찾아왔는지 묻기 전에 이야기를 끝까지 들었다."
+            }
+          ]
+        },
+        {
+          "id": "knight_4",
+          "number": 4,
+          "title_en": "The Empty Granary",
+          "title_ko": "빈 곡물 창고",
+          "en": "The village had little grain left. Some people wanted to send the stranger away. Alden suggested sharing the remaining food while they asked nearby farms for help. The stranger offered to repair their mill.\n\nThe villagers counted the sacks before anyone made a promise. They put one bowl by the mill for the worker who would take the late shift.",
+          "ko": "마을에는 곡식이 거의 남지 않았다. 몇몇 주민은 낯선 사람을 내쫓으려 했다. 올든은 인근 농장에 도움을 청하는 동안 남은 음식을 나누자고 제안했다. 낯선 사람은 방앗간을 수리하겠다고 했다.\n\n주민들은 어떤 약속도 먼저 하지 않고 자루부터 세었다. 늦은 시간에 일할 사람을 위해 방앗간에 그릇 하나를 남겨 두었다.",
+          "unlock": {
+            "registered_pages": 6
+          },
+          "previous_volume": "knight_3",
+          "segments": [
+            {
+              "en": "The village had little grain left.",
+              "ko": "마을에는 곡식이 거의 남지 않았다."
+            },
+            {
+              "en": "Some people wanted to send the stranger away.",
+              "ko": "몇몇 주민은 낯선 사람을 내쫓으려 했다."
+            },
+            {
+              "en": "Alden suggested sharing the remaining food while they asked nearby farms for help.",
+              "ko": "올든은 인근 농장에 도움을 청하는 동안 남은 음식을 나누자고 제안했다."
+            },
+            {
+              "en": "The stranger offered to repair their mill.",
+              "ko": "낯선 사람은 방앗간을 수리하겠다고 했다."
+            },
+            {
+              "en": "The villagers counted the sacks before anyone made a promise.",
+              "ko": "주민들은 어떤 약속도 먼저 하지 않고 자루부터 세었다."
+            },
+            {
+              "en": "They put one bowl by the mill for the worker who would take the late shift.",
+              "ko": "늦은 시간에 일할 사람을 위해 방앗간에 그릇 하나를 남겨 두었다."
+            }
+          ]
+        },
+        {
+          "id": "knight_5",
+          "number": 5,
+          "title_en": "The Flood",
+          "title_ko": "홍수",
+          "en": "Heavy rain flooded the lower road. Alden wanted to carry everyone across himself, but Nella organized a team. They used ropes and a boat to move the villagers to higher ground. No single person could have done it alone.\n\nNella assigned one person to watch the rope and another to count the people on the bank. Alden took the last trip only after the watcher gave the signal.",
+          "ko": "폭우로 낮은 곳의 길이 물에 잠겼다. 올든은 혼자서 모두를 건네주려 했지만 넬라는 사람들을 모아 팀을 꾸렸다. 밧줄과 배를 이용해 주민들을 높은 곳으로 옮겼다. 혼자서는 해낼 수 없는 일이었다.\n\n넬라는 한 사람에게 밧줄을 살피게 하고 다른 사람에게 강둑의 인원을 세게 했다. 올든은 감시자가 신호를 보낸 뒤에야 마지막 배를 탔다.",
+          "unlock": {
+            "registered_pages": 8
+          },
+          "previous_volume": "knight_4",
+          "segments": [
+            {
+              "en": "Heavy rain flooded the lower road.",
+              "ko": "폭우로 낮은 곳의 길이 물에 잠겼다."
+            },
+            {
+              "en": "Alden wanted to carry everyone across himself, but Nella organized a team.",
+              "ko": "올든은 혼자서 모두를 건네주려 했지만 넬라는 사람들을 모아 팀을 꾸렸다."
+            },
+            {
+              "en": "They used ropes and a boat to move the villagers to higher ground.",
+              "ko": "밧줄과 배를 이용해 주민들을 높은 곳으로 옮겼다."
+            },
+            {
+              "en": "No single person could have done it alone.",
+              "ko": "혼자서는 해낼 수 없는 일이었다."
+            },
+            {
+              "en": "Nella assigned one person to watch the rope and another to count the people on the bank.",
+              "ko": "넬라는 한 사람에게 밧줄을 살피게 하고 다른 사람에게 강둑의 인원을 세게 했다."
+            },
+            {
+              "en": "Alden took the last trip only after the watcher gave the signal.",
+              "ko": "올든은 감시자가 신호를 보낸 뒤에야 마지막 배를 탔다."
+            }
+          ]
+        },
+        {
+          "id": "knight_6",
+          "number": 6,
+          "title_en": "The Old Commander",
+          "title_ko": "옛 지휘관",
+          "en": "Alden's old commander came to recruit him. He promised a new shield and a place of honor. Alden looked at the unfinished houses. He asked the commander to leave the village workers in peace.\n\nThe commander asked whether a repaired roof was worth giving up a medal. Alden pointed through the doorway to the family eating supper beneath it.",
+          "ko": "올든의 옛 지휘관이 그를 다시 데려가려고 찾아왔다. 새 방패와 명예로운 자리를 약속했다. 올든은 아직 완성되지 않은 집들을 바라보았다. 그는 지휘관에게 마을 일꾼들을 내버려 두라고 부탁했다.\n\n지휘관은 훈장을 포기할 만큼 지붕 수리가 값진지 물었다. 올든은 문 너머로 그 지붕 아래에서 저녁을 먹는 가족을 가리켰다.",
+          "unlock": {
+            "registered_pages": 10
+          },
+          "previous_volume": "knight_5",
+          "segments": [
+            {
+              "en": "Alden's old commander came to recruit him.",
+              "ko": "올든의 옛 지휘관이 그를 다시 데려가려고 찾아왔다."
+            },
+            {
+              "en": "He promised a new shield and a place of honor.",
+              "ko": "새 방패와 명예로운 자리를 약속했다."
+            },
+            {
+              "en": "Alden looked at the unfinished houses.",
+              "ko": "올든은 아직 완성되지 않은 집들을 바라보았다."
+            },
+            {
+              "en": "He asked the commander to leave the village workers in peace.",
+              "ko": "그는 지휘관에게 마을 일꾼들을 내버려 두라고 부탁했다."
+            },
+            {
+              "en": "The commander asked whether a repaired roof was worth giving up a medal.",
+              "ko": "지휘관은 훈장을 포기할 만큼 지붕 수리가 값진지 물었다."
+            },
+            {
+              "en": "Alden pointed through the doorway to the family eating supper beneath it.",
+              "ko": "올든은 문 너머로 그 지붕 아래에서 저녁을 먹는 가족을 가리켰다."
+            }
+          ]
+        },
+        {
+          "id": "knight_7",
+          "number": 7,
+          "title_en": "The Bell",
+          "title_ko": "종",
+          "en": "The villagers built a bell tower to warn people of floods. Alden donated the metal from his broken shield. When the bell rang for the first time, he heard children laughing in the square. He felt proud of something he had helped build.\n\nBefore the first storm, children practiced walking from the square to higher ground. Their parents wrote down how long the route took while the road was still dry.",
+          "ko": "주민들은 홍수를 경고할 종탑을 세웠다. 올든은 부서진 방패의 금속을 기증했다. 처음 종이 울렸을 때 광장에서 아이들이 웃는 소리가 들렸다. 그는 자신이 만드는 데 기여한 것이 자랑스러웠다.\n\n첫 폭풍이 오기 전에 아이들은 광장에서 높은 지대로 걸어가는 연습을 했다. 부모들은 길이 마른 동안 걸리는 시간을 적어 두었다.",
+          "unlock": {
+            "registered_pages": 12
+          },
+          "previous_volume": "knight_6",
+          "segments": [
+            {
+              "en": "The villagers built a bell tower to warn people of floods.",
+              "ko": "주민들은 홍수를 경고할 종탑을 세웠다."
+            },
+            {
+              "en": "Alden donated the metal from his broken shield.",
+              "ko": "올든은 부서진 방패의 금속을 기증했다."
+            },
+            {
+              "en": "When the bell rang for the first time, he heard children laughing in the square.",
+              "ko": "처음 종이 울렸을 때 광장에서 아이들이 웃는 소리가 들렸다."
+            },
+            {
+              "en": "He felt proud of something he had helped build.",
+              "ko": "그는 자신이 만드는 데 기여한 것이 자랑스러웠다."
+            },
+            {
+              "en": "Before the first storm, children practiced walking from the square to higher ground.",
+              "ko": "첫 폭풍이 오기 전에 아이들은 광장에서 높은 지대로 걸어가는 연습을 했다."
+            },
+            {
+              "en": "Their parents wrote down how long the route took while the road was still dry.",
+              "ko": "부모들은 길이 마른 동안 걸리는 시간을 적어 두었다."
+            }
+          ]
+        },
+        {
+          "id": "knight_8",
+          "number": 8,
+          "title_en": "A Different Honor",
+          "title_ko": "또 다른 명예",
+          "en": "Many years later, a young knight asked Alden about his greatest victory. Alden pointed to the bridge, the mill, and the houses. The young knight wrote down their names instead of the names of battles. That was how the village remembered Alden.\n\nThe visitor found Nella’s mark on the doorframe and added her name beside Alden’s. By dusk, the list also held the names of the rope keepers and the people who had baked bread.",
+          "ko": "오랜 세월이 흐른 뒤 젊은 기사가 올든에게 가장 위대한 승리를 물었다. 올든은 다리와 방앗간, 집들을 가리켰다. 젊은 기사는 전투 이름 대신 그것들의 이름을 기록했다. 그렇게 마을은 올든을 기억했다.\n\n방문자는 문틀에서 넬라의 표식을 발견하고 올든 옆에 그녀의 이름을 적었다. 해 질 무렵에는 밧줄을 지킨 사람들과 빵을 구운 사람들의 이름도 목록에 올랐다.",
+          "unlock": {
+            "registered_pages": 15
+          },
+          "previous_volume": "knight_7",
+          "segments": [
+            {
+              "en": "Many years later, a young knight asked Alden about his greatest victory.",
+              "ko": "오랜 세월이 흐른 뒤 젊은 기사가 올든에게 가장 위대한 승리를 물었다."
+            },
+            {
+              "en": "Alden pointed to the bridge, the mill, and the houses.",
+              "ko": "올든은 다리와 방앗간, 집들을 가리켰다."
+            },
+            {
+              "en": "The young knight wrote down their names instead of the names of battles.",
+              "ko": "젊은 기사는 전투 이름 대신 그것들의 이름을 기록했다."
+            },
+            {
+              "en": "That was how the village remembered Alden.",
+              "ko": "그렇게 마을은 올든을 기억했다."
+            },
+            {
+              "en": "The visitor found Nella’s mark on the doorframe and added her name beside Alden’s.",
+              "ko": "방문자는 문틀에서 넬라의 표식을 발견하고 올든 옆에 그녀의 이름을 적었다."
+            },
+            {
+              "en": "By dusk, the list also held the names of the rope keepers and the people who had baked bread.",
+              "ko": "해 질 무렵에는 밧줄을 지킨 사람들과 빵을 구운 사람들의 이름도 목록에 올랐다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stars",
+      "title_en": "The Girl Who Followed the Stars",
+      "title_ko": "별을 쫓는 소녀",
+      "genre": "fiction",
+      "volumes": [
+        {
+          "id": "stars_1",
+          "number": 1,
+          "title_en": "The Rooftop",
+          "title_ko": "지붕 위에서",
+          "en": "Lina watched the stars from her father's roof. She drew their positions in a notebook every evening. Her brother laughed at the little dots, but she noticed that some stars appeared in the same places each season.\n\nLina began marking not just the stars but the hour when she saw them. When her brother borrowed the notebook, he found that he could reproduce one of her drawings.",
+          "ko": "리나는 아버지 집 지붕에서 별을 관찰했다. 매일 저녁 공책에 별의 위치를 그렸다. 오빠는 작은 점들을 보고 웃었지만 리나는 어떤 별들이 계절마다 같은 위치에 나타난다는 것을 알아차렸다.\n\n리나는 별뿐 아니라 그것을 본 시각도 기록하기 시작했다. 오빠가 수첩을 빌려 보니 그림 하나를 그대로 따라 그릴 수 있었다.",
+          "unlock": {
+            "registered_pages": 0
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Lina watched the stars from her father's roof.",
+              "ko": "리나는 아버지 집 지붕에서 별을 관찰했다."
+            },
+            {
+              "en": "She drew their positions in a notebook every evening.",
+              "ko": "매일 저녁 공책에 별의 위치를 그렸다."
+            },
+            {
+              "en": "Her brother laughed at the little dots, but she noticed that some stars appeared in the same places each season.",
+              "ko": "오빠는 작은 점들을 보고 웃었지만 리나는 어떤 별들이 계절마다 같은 위치에 나타난다는 것을 알아차렸다."
+            },
+            {
+              "en": "Lina began marking not just the stars but the hour when she saw them.",
+              "ko": "리나는 별뿐 아니라 그것을 본 시각도 기록하기 시작했다."
+            },
+            {
+              "en": "When her brother borrowed the notebook, he found that he could reproduce one of her drawings.",
+              "ko": "오빠가 수첩을 빌려 보니 그림 하나를 그대로 따라 그릴 수 있었다."
+            }
+          ]
+        },
+        {
+          "id": "stars_2",
+          "number": 2,
+          "title_en": "The Missing Boat",
+          "title_ko": "돌아오지 않는 배",
+          "en": "A fishing boat failed to return before dark. Lina asked the harbor keeper how sailors found their way at night. He showed her an old chart. She began to compare the chart with her notebook.\n\nThe chart showed a light at the mouth of the harbor, but its ink had almost worn away. Lina asked the keeper to mark where the light could be seen from the water.",
+          "ko": "어선 한 척이 어두워지기 전에 돌아오지 않았다. 리나는 항구 관리인에게 선원들이 밤에 길을 찾는 방법을 물었다. 그는 오래된 해도를 보여 주었다. 리나는 해도와 공책을 비교하기 시작했다.\n\n해도에는 항구 입구의 등불이 표시되어 있었지만 잉크가 거의 지워져 있었다. 리나는 물 위 어느 지점에서 등불이 보이는지 표시해 달라고 했다.",
+          "unlock": {
+            "registered_pages": 3
+          },
+          "previous_volume": "stars_1",
+          "segments": [
+            {
+              "en": "A fishing boat failed to return before dark.",
+              "ko": "어선 한 척이 어두워지기 전에 돌아오지 않았다."
+            },
+            {
+              "en": "Lina asked the harbor keeper how sailors found their way at night.",
+              "ko": "리나는 항구 관리인에게 선원들이 밤에 길을 찾는 방법을 물었다."
+            },
+            {
+              "en": "He showed her an old chart.",
+              "ko": "그는 오래된 해도를 보여 주었다."
+            },
+            {
+              "en": "She began to compare the chart with her notebook.",
+              "ko": "리나는 해도와 공책을 비교하기 시작했다."
+            },
+            {
+              "en": "The chart showed a light at the mouth of the harbor, but its ink had almost worn away.",
+              "ko": "해도에는 항구 입구의 등불이 표시되어 있었지만 잉크가 거의 지워져 있었다."
+            },
+            {
+              "en": "Lina asked the keeper to mark where the light could be seen from the water.",
+              "ko": "리나는 물 위 어느 지점에서 등불이 보이는지 표시해 달라고 했다."
+            }
+          ]
+        },
+        {
+          "id": "stars_3",
+          "number": 3,
+          "title_en": "A Cloudy Night",
+          "title_ko": "구름 낀 밤",
+          "en": "Lina offered to guide a short practice voyage. Clouds covered the sky, and she could not see her stars. The captain returned to the harbor using familiar coastal landmarks. Lina added a warning to her notebook: never depend on one kind of sign.\n\nThey wrote down the time when each headland disappeared in the mist. Back on shore, Lina added those observations beside her clear-weather drawings.",
+          "ko": "리나는 짧은 연습 항해에서 길을 안내하겠다고 했다. 구름이 하늘을 덮어 별이 보이지 않았다. 선장은 익숙한 해안 지형을 이용해 항구로 돌아왔다. 리나는 공책에 한 종류의 표지에만 의존하지 말라는 경고를 적었다.\n\n일행은 곶이 하나씩 안개 속으로 사라진 시각을 적었다. 뭍에 돌아온 리나는 맑은 날에 그린 그림 옆에 그 기록을 덧붙였다.",
+          "unlock": {
+            "registered_pages": 6
+          },
+          "previous_volume": "stars_2",
+          "segments": [
+            {
+              "en": "Lina offered to guide a short practice voyage.",
+              "ko": "리나는 짧은 연습 항해에서 길을 안내하겠다고 했다."
+            },
+            {
+              "en": "Clouds covered the sky, and she could not see her stars.",
+              "ko": "구름이 하늘을 덮어 별이 보이지 않았다."
+            },
+            {
+              "en": "The captain returned to the harbor using familiar coastal landmarks.",
+              "ko": "선장은 익숙한 해안 지형을 이용해 항구로 돌아왔다."
+            },
+            {
+              "en": "Lina added a warning to her notebook: never depend on one kind of sign.",
+              "ko": "리나는 공책에 한 종류의 표지에만 의존하지 말라는 경고를 적었다."
+            },
+            {
+              "en": "They wrote down the time when each headland disappeared in the mist.",
+              "ko": "일행은 곶이 하나씩 안개 속으로 사라진 시각을 적었다."
+            },
+            {
+              "en": "Back on shore, Lina added those observations beside her clear-weather drawings.",
+              "ko": "뭍에 돌아온 리나는 맑은 날에 그린 그림 옆에 그 기록을 덧붙였다."
+            }
+          ]
+        },
+        {
+          "id": "stars_4",
+          "number": 4,
+          "title_en": "The Shared Chart",
+          "title_ko": "함께 만든 해도",
+          "en": "A mapmaker helped Lina draw the coast more accurately. A fisherman added notes about currents. Lina included her observations of the night sky. The chart became more useful because several people contributed to it.\n\nThe group wrote each contributor’s name and date beside the new markings. A sailor who found an error could then tell which observation to check.",
+          "ko": "지도 제작자가 리나가 해안을 더 정확하게 그리도록 도왔다. 어부는 해류에 관한 기록을 추가했다. 리나는 밤하늘 관찰 내용을 넣었다. 여러 사람이 기여하여 해도가 더욱 유용해졌다.\n\n일행은 새 표식 옆에 기여자의 이름과 날짜를 적었다. 오류를 찾은 선원은 어느 관측 기록을 확인해야 할지 알 수 있었다.",
+          "unlock": {
+            "registered_pages": 9
+          },
+          "previous_volume": "stars_3",
+          "segments": [
+            {
+              "en": "A mapmaker helped Lina draw the coast more accurately.",
+              "ko": "지도 제작자가 리나가 해안을 더 정확하게 그리도록 도왔다."
+            },
+            {
+              "en": "A fisherman added notes about currents.",
+              "ko": "어부는 해류에 관한 기록을 추가했다."
+            },
+            {
+              "en": "Lina included her observations of the night sky.",
+              "ko": "리나는 밤하늘 관찰 내용을 넣었다."
+            },
+            {
+              "en": "The chart became more useful because several people contributed to it.",
+              "ko": "여러 사람이 기여하여 해도가 더욱 유용해졌다."
+            },
+            {
+              "en": "The group wrote each contributor’s name and date beside the new markings.",
+              "ko": "일행은 새 표식 옆에 기여자의 이름과 날짜를 적었다."
+            },
+            {
+              "en": "A sailor who found an error could then tell which observation to check.",
+              "ko": "오류를 찾은 선원은 어느 관측 기록을 확인해야 할지 알 수 있었다."
+            }
+          ]
+        },
+        {
+          "id": "stars_5",
+          "number": 5,
+          "title_en": "The Harbor School",
+          "title_ko": "항구의 학교",
+          "en": "Lina began teaching children how to read simple charts. One student asked why the moon changed shape. She did not know the answer, so they observed it together for a month. Their new drawings filled an entire wall.\n\nThey left the wall blank on nights when clouds hid the moon. A student suggested using a different mark for something observed and something predicted.",
+          "ko": "리나는 아이들에게 간단한 해도를 읽는 법을 가르치기 시작했다. 한 학생이 달의 모양이 변하는 이유를 물었다. 리나는 답을 몰라 함께 한 달 동안 관찰했다. 새 그림들이 벽 하나를 가득 채웠다.\n\n구름이 달을 가린 밤에는 벽의 칸을 비워 두었다. 한 학생은 직접 본 것과 예측한 것을 다른 표시로 구분하자고 했다.",
+          "unlock": {
+            "registered_pages": 12
+          },
+          "previous_volume": "stars_4",
+          "segments": [
+            {
+              "en": "Lina began teaching children how to read simple charts.",
+              "ko": "리나는 아이들에게 간단한 해도를 읽는 법을 가르치기 시작했다."
+            },
+            {
+              "en": "One student asked why the moon changed shape.",
+              "ko": "한 학생이 달의 모양이 변하는 이유를 물었다."
+            },
+            {
+              "en": "She did not know the answer, so they observed it together for a month.",
+              "ko": "리나는 답을 몰라 함께 한 달 동안 관찰했다."
+            },
+            {
+              "en": "Their new drawings filled an entire wall.",
+              "ko": "새 그림들이 벽 하나를 가득 채웠다."
+            },
+            {
+              "en": "They left the wall blank on nights when clouds hid the moon.",
+              "ko": "구름이 달을 가린 밤에는 벽의 칸을 비워 두었다."
+            },
+            {
+              "en": "A student suggested using a different mark for something observed and something predicted.",
+              "ko": "한 학생은 직접 본 것과 예측한 것을 다른 표시로 구분하자고 했다."
+            }
+          ]
+        },
+        {
+          "id": "stars_6",
+          "number": 6,
+          "title_en": "Beyond the Horizon",
+          "title_ko": "수평선 너머",
+          "en": "When Lina grew old, her students carried copies of the chart to other ports. She kept the first notebook in a wooden box. On its last page she wrote that a good map should help its readers ask better questions.\n\nThe first copy that came back from another port had a new note about a sandbar. Lina smiled to see that the chart was still changing after it left her hands.",
+          "ko": "리나가 나이가 들자 제자들은 해도의 사본을 다른 항구로 가져갔다. 리나는 첫 공책을 나무 상자에 보관했다. 마지막 페이지에는 좋은 지도가 독자들이 더 나은 질문을 하도록 도와야 한다고 적었다.\n\n다른 항구에서 처음 돌아온 사본에는 모래톱에 관한 새 메모가 붙어 있었다. 리나는 해도가 자기 손을 떠난 뒤에도 달라지고 있다는 사실에 미소를 지었다.",
+          "unlock": {
+            "registered_pages": 15
+          },
+          "previous_volume": "stars_5",
+          "segments": [
+            {
+              "en": "When Lina grew old, her students carried copies of the chart to other ports.",
+              "ko": "리나가 나이가 들자 제자들은 해도의 사본을 다른 항구로 가져갔다."
+            },
+            {
+              "en": "She kept the first notebook in a wooden box.",
+              "ko": "리나는 첫 공책을 나무 상자에 보관했다."
+            },
+            {
+              "en": "On its last page she wrote that a good map should help its readers ask better questions.",
+              "ko": "마지막 페이지에는 좋은 지도가 독자들이 더 나은 질문을 하도록 도와야 한다고 적었다."
+            },
+            {
+              "en": "The first copy that came back from another port had a new note about a sandbar.",
+              "ko": "다른 항구에서 처음 돌아온 사본에는 모래톱에 관한 새 메모가 붙어 있었다."
+            },
+            {
+              "en": "Lina smiled to see that the chart was still changing after it left her hands.",
+              "ko": "리나는 해도가 자기 손을 떠난 뒤에도 달라지고 있다는 사실에 미소를 지었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "king",
+      "title_en": "The King Without a Name",
+      "title_ko": "이름 없는 왕",
+      "genre": "fiction",
+      "volumes": [
+        {
+          "id": "king_1",
+          "number": 1,
+          "title_en": "The Blank Portrait",
+          "title_ko": "빈 초상화",
+          "en": "A young archivist named Tavin found a portrait with no name beneath it. The crown was clear, but the face had faded. He asked the keeper whether the king had been forgotten. The keeper handed him a box of records.\n\nTavin copied the markings on the frame before he opened the box. That gave him a record of what he had actually seen.",
+          "ko": "젊은 기록관 태빈은 아래에 이름이 없는 초상화를 발견했다. 왕관은 선명했지만 얼굴은 흐려져 있었다. 그는 관리인에게 왕이 잊힌 것인지 물었다. 관리인은 기록 상자를 건넸다.\n\n태빈은 상자를 열기 전에 액자의 표시를 옮겨 적었다. 그래서 자신이 실제로 본 것을 기록으로 남길 수 있었다.",
+          "unlock": {
+            "registered_pages": 0
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "A young archivist named Tavin found a portrait with no name beneath it.",
+              "ko": "젊은 기록관 태빈은 아래에 이름이 없는 초상화를 발견했다."
+            },
+            {
+              "en": "The crown was clear, but the face had faded.",
+              "ko": "왕관은 선명했지만 얼굴은 흐려져 있었다."
+            },
+            {
+              "en": "He asked the keeper whether the king had been forgotten.",
+              "ko": "그는 관리인에게 왕이 잊힌 것인지 물었다."
+            },
+            {
+              "en": "The keeper handed him a box of records.",
+              "ko": "관리인은 기록 상자를 건넸다."
+            },
+            {
+              "en": "Tavin copied the markings on the frame before he opened the box.",
+              "ko": "태빈은 상자를 열기 전에 액자의 표시를 옮겨 적었다."
+            },
+            {
+              "en": "That gave him a record of what he had actually seen.",
+              "ko": "그래서 자신이 실제로 본 것을 기록으로 남길 수 있었다."
+            }
+          ]
+        },
+        {
+          "id": "king_2",
+          "number": 2,
+          "title_en": "Two Lists",
+          "title_ko": "두 목록",
+          "en": "One list named the rulers of the castle. Another named the people who paid for its repairs. The portrait appeared in neither list. Tavin realized that he had assumed the painting showed a real king.\n\nOne repair account mentioned cloth and gold paint. It did not connect either purchase to the portrait.",
+          "ko": "한 목록에는 성의 통치자들이 적혀 있었다. 다른 목록에는 수리 비용을 낸 사람들이 적혀 있었다. 초상화는 어느 목록에도 나오지 않았다. 태빈은 그림이 실제 왕을 그렸다고 지레짐작했음을 깨달았다.\n\n수리 장부 한 권에는 천과 금색 물감이 나왔다. 그러나 그 물건을 초상화와 연결할 근거는 없었다.",
+          "unlock": {
+            "registered_pages": 1
+          },
+          "previous_volume": "king_1",
+          "segments": [
+            {
+              "en": "One list named the rulers of the castle.",
+              "ko": "한 목록에는 성의 통치자들이 적혀 있었다."
+            },
+            {
+              "en": "Another named the people who paid for its repairs.",
+              "ko": "다른 목록에는 수리 비용을 낸 사람들이 적혀 있었다."
+            },
+            {
+              "en": "The portrait appeared in neither list.",
+              "ko": "초상화는 어느 목록에도 나오지 않았다."
+            },
+            {
+              "en": "Tavin realized that he had assumed the painting showed a real king.",
+              "ko": "태빈은 그림이 실제 왕을 그렸다고 지레짐작했음을 깨달았다."
+            },
+            {
+              "en": "One repair account mentioned cloth and gold paint.",
+              "ko": "수리 장부 한 권에는 천과 금색 물감이 나왔다."
+            },
+            {
+              "en": "It did not connect either purchase to the portrait.",
+              "ko": "그러나 그 물건을 초상화와 연결할 근거는 없었다."
+            }
+          ]
+        },
+        {
+          "id": "king_3",
+          "number": 3,
+          "title_en": "The Painter's Note",
+          "title_ko": "화가의 쪽지",
+          "en": "Behind the frame lay a note from a painter. It described a festival play about a king who listened to ordinary people. The painter had made several pictures for the stage. Tavin began looking for the old play.\n\nTavin drew the position of the note before removing it. Its place behind the frame was as important as the words it contained.",
+          "ko": "액자 뒤에는 화가의 쪽지가 있었다. 평범한 사람들의 말을 듣는 왕에 관한 축제 연극을 설명하고 있었다. 화가는 무대를 위해 그림 여러 장을 그렸다. 태빈은 옛 연극을 찾기 시작했다.\n\n태빈은 메모를 떼기 전에 붙어 있던 자리를 그렸다. 액자 뒤라는 위치는 메모에 적힌 말만큼 중요했다.",
+          "unlock": {
+            "registered_pages": 3
+          },
+          "previous_volume": "king_2",
+          "segments": [
+            {
+              "en": "Behind the frame lay a note from a painter.",
+              "ko": "액자 뒤에는 화가의 쪽지가 있었다."
+            },
+            {
+              "en": "It described a festival play about a king who listened to ordinary people.",
+              "ko": "평범한 사람들의 말을 듣는 왕에 관한 축제 연극을 설명하고 있었다."
+            },
+            {
+              "en": "The painter had made several pictures for the stage.",
+              "ko": "화가는 무대를 위해 그림 여러 장을 그렸다."
+            },
+            {
+              "en": "Tavin began looking for the old play.",
+              "ko": "태빈은 옛 연극을 찾기 시작했다."
+            },
+            {
+              "en": "Tavin drew the position of the note before removing it.",
+              "ko": "태빈은 메모를 떼기 전에 붙어 있던 자리를 그렸다."
+            },
+            {
+              "en": "Its place behind the frame was as important as the words it contained.",
+              "ko": "액자 뒤라는 위치는 메모에 적힌 말만큼 중요했다."
+            }
+          ]
+        },
+        {
+          "id": "king_4",
+          "number": 4,
+          "title_en": "The Missing Scene",
+          "title_ko": "사라진 장면",
+          "en": "The script in the archive ended before the final scene. A musician remembered a song from the play, but not its words. Tavin copied the melody and visited a retired performer.\n\nHe hummed the melody at the performer’s door. She recognized the entrance music before he told her what he was looking for.",
+          "ko": "기록실의 대본은 마지막 장면 전에 끝났다. 음악가는 연극의 노래를 기억했지만 가사는 기억하지 못했다. 태빈은 선율을 기록하고 은퇴한 공연자를 찾아갔다.\n\n그는 배우의 문 앞에서 가락을 흥얼거렸다. 무엇을 찾는지 말하기도 전에 그녀는 등장 음악을 알아보았다.",
+          "unlock": {
+            "registered_pages": 5
+          },
+          "previous_volume": "king_3",
+          "segments": [
+            {
+              "en": "The script in the archive ended before the final scene.",
+              "ko": "기록실의 대본은 마지막 장면 전에 끝났다."
+            },
+            {
+              "en": "A musician remembered a song from the play, but not its words.",
+              "ko": "음악가는 연극의 노래를 기억했지만 가사는 기억하지 못했다."
+            },
+            {
+              "en": "Tavin copied the melody and visited a retired performer.",
+              "ko": "태빈은 선율을 기록하고 은퇴한 공연자를 찾아갔다."
+            },
+            {
+              "en": "He hummed the melody at the performer’s door.",
+              "ko": "그는 배우의 문 앞에서 가락을 흥얼거렸다."
+            },
+            {
+              "en": "She recognized the entrance music before he told her what he was looking for.",
+              "ko": "무엇을 찾는지 말하기도 전에 그녀는 등장 음악을 알아보았다."
+            }
+          ]
+        },
+        {
+          "id": "king_5",
+          "number": 5,
+          "title_en": "The Performer",
+          "title_ko": "공연자",
+          "en": "The performer remembered playing a farmer who challenged the king. She warned Tavin that actors sometimes changed their lines. He recorded her memory separately from the surviving script.\n\nTavin asked whether her part had always ended the same way. She remembered two endings, but could not say which one was older.",
+          "ko": "공연자는 왕에게 이의를 제기하는 농부 역할을 맡았던 것을 기억했다. 배우들이 때때로 대사를 바꾸었다고 태빈에게 알려 주었다. 그는 남아 있는 대본과 그녀의 기억을 구분해 기록했다.\n\n태빈은 그 배역이 늘 같은 방식으로 끝났는지 물었다. 그녀는 결말 두 가지를 기억했지만 어느 쪽이 오래됐는지는 몰랐다.",
+          "unlock": {
+            "registered_pages": 6
+          },
+          "previous_volume": "king_4",
+          "segments": [
+            {
+              "en": "The performer remembered playing a farmer who challenged the king.",
+              "ko": "공연자는 왕에게 이의를 제기하는 농부 역할을 맡았던 것을 기억했다."
+            },
+            {
+              "en": "She warned Tavin that actors sometimes changed their lines.",
+              "ko": "배우들이 때때로 대사를 바꾸었다고 태빈에게 알려 주었다."
+            },
+            {
+              "en": "He recorded her memory separately from the surviving script.",
+              "ko": "그는 남아 있는 대본과 그녀의 기억을 구분해 기록했다."
+            },
+            {
+              "en": "Tavin asked whether her part had always ended the same way.",
+              "ko": "태빈은 그 배역이 늘 같은 방식으로 끝났는지 물었다."
+            },
+            {
+              "en": "She remembered two endings, but could not say which one was older.",
+              "ko": "그녀는 결말 두 가지를 기억했지만 어느 쪽이 오래됐는지는 몰랐다."
+            }
+          ]
+        },
+        {
+          "id": "king_6",
+          "number": 6,
+          "title_en": "The Crown in the Box",
+          "title_ko": "상자 속 왕관",
+          "en": "A stage worker showed Tavin a wooden crown painted gold. Inside it were the initials of three actors. The same role had been played by different people over the years. The nameless portrait could have represented any of them.\n\nThe crown was light enough to hold in one hand. Tavin added a sketch of the three initials beside his notes on the portrait.",
+          "ko": "무대 일꾼은 태빈에게 금색으로 칠한 나무 왕관을 보여 주었다. 안쪽에는 배우 세 명의 머리글자가 있었다. 여러 해 동안 서로 다른 사람들이 같은 역할을 맡았다. 이름 없는 초상화는 그중 누구를 나타냈을 수도 있었다.\n\n왕관은 한 손으로 들 수 있을 만큼 가벼웠다. 태빈은 초상화에 대한 메모 옆에 이니셜 세 개를 그렸다.",
+          "unlock": {
+            "registered_pages": 8
+          },
+          "previous_volume": "king_5",
+          "segments": [
+            {
+              "en": "A stage worker showed Tavin a wooden crown painted gold.",
+              "ko": "무대 일꾼은 태빈에게 금색으로 칠한 나무 왕관을 보여 주었다."
+            },
+            {
+              "en": "Inside it were the initials of three actors.",
+              "ko": "안쪽에는 배우 세 명의 머리글자가 있었다."
+            },
+            {
+              "en": "The same role had been played by different people over the years.",
+              "ko": "여러 해 동안 서로 다른 사람들이 같은 역할을 맡았다."
+            },
+            {
+              "en": "The nameless portrait could have represented any of them.",
+              "ko": "이름 없는 초상화는 그중 누구를 나타냈을 수도 있었다."
+            },
+            {
+              "en": "The crown was light enough to hold in one hand.",
+              "ko": "왕관은 한 손으로 들 수 있을 만큼 가벼웠다."
+            },
+            {
+              "en": "Tavin added a sketch of the three initials beside his notes on the portrait.",
+              "ko": "태빈은 초상화에 대한 메모 옆에 이니셜 세 개를 그렸다."
+            }
+          ]
+        },
+        {
+          "id": "king_7",
+          "number": 7,
+          "title_en": "The Rival Theory",
+          "title_ko": "다른 가설",
+          "en": "A collector insisted that the portrait showed a secret ruler. He offered Tavin money for a dramatic account. Tavin refused to write a claim without evidence. He invited the collector to examine the records with him.\n\nThe collector stayed long enough to read the repair accounts. He left with a copy of the painter’s note and a question of his own.",
+          "ko": "한 수집가는 초상화가 비밀 통치자를 그린 것이라고 주장했다. 극적인 이야기를 써 주면 돈을 주겠다고 했다. 태빈은 근거 없는 주장을 기록하기를 거부했다. 수집가에게 함께 기록을 살펴보자고 했다.\n\n수집가는 수리 장부를 읽을 만큼은 자리에 남았다. 그는 화가의 메모 사본과 스스로 떠올린 질문 하나를 가지고 떠났다.",
+          "unlock": {
+            "registered_pages": 10
+          },
+          "previous_volume": "king_6",
+          "segments": [
+            {
+              "en": "A collector insisted that the portrait showed a secret ruler.",
+              "ko": "한 수집가는 초상화가 비밀 통치자를 그린 것이라고 주장했다."
+            },
+            {
+              "en": "He offered Tavin money for a dramatic account.",
+              "ko": "극적인 이야기를 써 주면 돈을 주겠다고 했다."
+            },
+            {
+              "en": "Tavin refused to write a claim without evidence.",
+              "ko": "태빈은 근거 없는 주장을 기록하기를 거부했다."
+            },
+            {
+              "en": "He invited the collector to examine the records with him.",
+              "ko": "수집가에게 함께 기록을 살펴보자고 했다."
+            },
+            {
+              "en": "The collector stayed long enough to read the repair accounts.",
+              "ko": "수집가는 수리 장부를 읽을 만큼은 자리에 남았다."
+            },
+            {
+              "en": "He left with a copy of the painter’s note and a question of his own.",
+              "ko": "그는 화가의 메모 사본과 스스로 떠올린 질문 하나를 가지고 떠났다."
+            }
+          ]
+        },
+        {
+          "id": "king_8",
+          "number": 8,
+          "title_en": "The Final Page",
+          "title_ko": "마지막 페이지",
+          "en": "A copy of the final scene was found in a village school. In it, the king removed his crown and asked the farmer to finish the speech. The play ended with the whole cast standing together. There was no secret ruler in the story.\n\nThe school’s copy had a teacher’s date on its back. Tavin recorded the date without claiming that it marked the play’s first performance.",
+          "ko": "마지막 장면의 사본이 마을 학교에서 발견되었다. 왕은 왕관을 벗고 농부에게 연설을 마무리해 달라고 했다. 연극은 모든 배우가 함께 서는 장면으로 끝났다. 이야기에는 비밀 통치자가 없었다.\n\n학교 사본 뒷면에는 교사가 적은 날짜가 있었다. 태빈은 그날이 초연일이라고 단정하지 않고 날짜만 기록했다.",
+          "unlock": {
+            "registered_pages": 11
+          },
+          "previous_volume": "king_7",
+          "segments": [
+            {
+              "en": "A copy of the final scene was found in a village school.",
+              "ko": "마지막 장면의 사본이 마을 학교에서 발견되었다."
+            },
+            {
+              "en": "In it, the king removed his crown and asked the farmer to finish the speech.",
+              "ko": "왕은 왕관을 벗고 농부에게 연설을 마무리해 달라고 했다."
+            },
+            {
+              "en": "The play ended with the whole cast standing together.",
+              "ko": "연극은 모든 배우가 함께 서는 장면으로 끝났다."
+            },
+            {
+              "en": "There was no secret ruler in the story.",
+              "ko": "이야기에는 비밀 통치자가 없었다."
+            },
+            {
+              "en": "The school’s copy had a teacher’s date on its back.",
+              "ko": "학교 사본 뒷면에는 교사가 적은 날짜가 있었다."
+            },
+            {
+              "en": "Tavin recorded the date without claiming that it marked the play’s first performance.",
+              "ko": "태빈은 그날이 초연일이라고 단정하지 않고 날짜만 기록했다."
+            }
+          ]
+        },
+        {
+          "id": "king_9",
+          "number": 9,
+          "title_en": "The New Label",
+          "title_ko": "새로운 설명문",
+          "en": "Tavin wrote a new label for the portrait. It explained what the records supported and what remained unknown. The keeper praised him for leaving room for uncertainty. Visitors could now understand why the portrait had no name.\n\nThe old label remained in a drawer with a note about the change. Anyone who wanted to see how the story had been revised could ask for it.",
+          "ko": "태빈은 초상화에 새 설명문을 작성했다. 기록으로 뒷받침되는 사실과 여전히 알 수 없는 점을 설명했다. 관리인은 불확실성을 남겨 둔 태빈을 칭찬했다. 방문객들은 이제 초상화에 이름이 없는 이유를 이해할 수 있었다.\n\n옛 표찰은 변경 이유를 적은 메모와 함께 서랍에 남았다. 설명이 어떻게 바뀌었는지 알고 싶은 사람은 누구나 열람을 부탁할 수 있었다.",
+          "unlock": {
+            "registered_pages": 13
+          },
+          "previous_volume": "king_8",
+          "segments": [
+            {
+              "en": "Tavin wrote a new label for the portrait.",
+              "ko": "태빈은 초상화에 새 설명문을 작성했다."
+            },
+            {
+              "en": "It explained what the records supported and what remained unknown.",
+              "ko": "기록으로 뒷받침되는 사실과 여전히 알 수 없는 점을 설명했다."
+            },
+            {
+              "en": "The keeper praised him for leaving room for uncertainty.",
+              "ko": "관리인은 불확실성을 남겨 둔 태빈을 칭찬했다."
+            },
+            {
+              "en": "Visitors could now understand why the portrait had no name.",
+              "ko": "방문객들은 이제 초상화에 이름이 없는 이유를 이해할 수 있었다."
+            },
+            {
+              "en": "The old label remained in a drawer with a note about the change.",
+              "ko": "옛 표찰은 변경 이유를 적은 메모와 함께 서랍에 남았다."
+            },
+            {
+              "en": "Anyone who wanted to see how the story had been revised could ask for it.",
+              "ko": "설명이 어떻게 바뀌었는지 알고 싶은 사람은 누구나 열람을 부탁할 수 있었다."
+            }
+          ]
+        },
+        {
+          "id": "king_10",
+          "number": 10,
+          "title_en": "The Play Returns",
+          "title_ko": "돌아온 연극",
+          "en": "The festival performers staged the old play again. They announced which lines came from the surviving script and which were new. A child played the farmer and received the loudest applause. Tavin returned the portrait to its place.\n\nAfter the show, the performers put the prop crown back into its box. A separate card listed the names of those who had spoken onstage that evening.",
+          "ko": "축제 공연자들은 옛 연극을 다시 무대에 올렸다. 남은 대본에서 가져온 대사와 새로 만든 대사를 밝혔다. 한 아이가 농부 역할을 맡아 가장 큰 박수를 받았다. 태빈은 초상화를 제자리에 돌려놓았다.\n\n공연 뒤 배우들은 소품 왕관을 상자에 돌려놓았다. 그날 저녁 무대에서 대사를 한 사람들의 이름은 별도 카드에 적었다.",
+          "unlock": {
+            "registered_pages": 15
+          },
+          "previous_volume": "king_9",
+          "segments": [
+            {
+              "en": "The festival performers staged the old play again.",
+              "ko": "축제 공연자들은 옛 연극을 다시 무대에 올렸다."
+            },
+            {
+              "en": "They announced which lines came from the surviving script and which were new.",
+              "ko": "남은 대본에서 가져온 대사와 새로 만든 대사를 밝혔다."
+            },
+            {
+              "en": "A child played the farmer and received the loudest applause.",
+              "ko": "한 아이가 농부 역할을 맡아 가장 큰 박수를 받았다."
+            },
+            {
+              "en": "Tavin returned the portrait to its place.",
+              "ko": "태빈은 초상화를 제자리에 돌려놓았다."
+            },
+            {
+              "en": "After the show, the performers put the prop crown back into its box.",
+              "ko": "공연 뒤 배우들은 소품 왕관을 상자에 돌려놓았다."
+            },
+            {
+              "en": "A separate card listed the names of those who had spoken onstage that evening.",
+              "ko": "그날 저녁 무대에서 대사를 한 사람들의 이름은 별도 카드에 적었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "army",
+      "title_en": "The Origins of the Dark Army",
+      "title_ko": "대마왕군의 기원",
+      "genre": "restricted_historical_fragments",
+      "volumes": [
+        {
+          "id": "army_1",
+          "number": 1,
+          "title_en": "The Disagreement",
+          "title_ko": "의견의 충돌",
+          "en": "An unsigned record describes a meeting of teachers. Some wanted one rule for every village, while others defended local customs. The writer feared that disagreements would lead to violence. The record does not name the people who attended.\n\nThe recorder described the seating but left the names blank. The present catalog treats the meeting as a point of contention rather than the army’s proven founding.",
+          "ko": "서명 없는 기록은 교사들의 회의를 묘사한다. 일부는 모든 마을에 하나의 규칙을 원했고 다른 이들은 지역 관습을 지키려 했다. 작성자는 의견 충돌이 폭력으로 이어질까 두려워했다. 참석자 이름은 기록에 없다.\n\n기록자는 좌석 배치를 묘사했지만 이름 칸은 비워 두었다. 현재 목록은 이 회의를 대마왕군 창설이 입증된 사건이 아니라 의견이 갈린 지점으로 본다.",
+          "unlock": {
+            "registered_pages": 6
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "An unsigned record describes a meeting of teachers.",
+              "ko": "서명 없는 기록은 교사들의 회의를 묘사한다."
+            },
+            {
+              "en": "Some wanted one rule for every village, while others defended local customs.",
+              "ko": "일부는 모든 마을에 하나의 규칙을 원했고 다른 이들은 지역 관습을 지키려 했다."
+            },
+            {
+              "en": "The writer feared that disagreements would lead to violence.",
+              "ko": "작성자는 의견 충돌이 폭력으로 이어질까 두려워했다."
+            },
+            {
+              "en": "The record does not name the people who attended.",
+              "ko": "참석자 이름은 기록에 없다."
+            },
+            {
+              "en": "The recorder described the seating but left the names blank.",
+              "ko": "기록자는 좌석 배치를 묘사했지만 이름 칸은 비워 두었다."
+            },
+            {
+              "en": "The present catalog treats the meeting as a point of contention rather than the army’s proven founding.",
+              "ko": "현재 목록은 이 회의를 대마왕군 창설이 입증된 사건이 아니라 의견이 갈린 지점으로 본다."
+            }
+          ]
+        },
+        {
+          "id": "army_2",
+          "number": 2,
+          "title_en": "The Closed Meeting",
+          "title_ko": "비공개 회의",
+          "en": "A later letter mentions a group that met without the other teachers. Its members promised to end disputes by removing conflicting instructions. A damaged line suggests that some members objected. The rest of the letter is missing.\n\nA copyist marked a tear where the next paragraph ought to begin. There is no surviving account of whether the objections changed the decision.",
+          "ko": "후대의 편지에는 다른 교사들 없이 모인 집단이 언급된다. 구성원들은 서로 충돌하는 지시를 없애 분쟁을 끝내겠다고 약속했다. 손상된 한 줄은 일부 구성원이 반대했음을 시사한다. 편지의 나머지는 사라졌다.\n\n필사자는 다음 문단이 시작되어야 할 곳에 종이가 찢어졌다고 표시했다. 이의 제기로 결정이 바뀌었는지를 알려 주는 기록은 남아 있지 않다.",
+          "unlock": {
+            "registered_pages": 9
+          },
+          "previous_volume": "army_1",
+          "segments": [
+            {
+              "en": "A later letter mentions a group that met without the other teachers.",
+              "ko": "후대의 편지에는 다른 교사들 없이 모인 집단이 언급된다."
+            },
+            {
+              "en": "Its members promised to end disputes by removing conflicting instructions.",
+              "ko": "구성원들은 서로 충돌하는 지시를 없애 분쟁을 끝내겠다고 약속했다."
+            },
+            {
+              "en": "A damaged line suggests that some members objected.",
+              "ko": "손상된 한 줄은 일부 구성원이 반대했음을 시사한다."
+            },
+            {
+              "en": "The rest of the letter is missing.",
+              "ko": "편지의 나머지는 사라졌다."
+            },
+            {
+              "en": "A copyist marked a tear where the next paragraph ought to begin.",
+              "ko": "필사자는 다음 문단이 시작되어야 할 곳에 종이가 찢어졌다고 표시했다."
+            },
+            {
+              "en": "There is no surviving account of whether the objections changed the decision.",
+              "ko": "이의 제기로 결정이 바뀌었는지를 알려 주는 기록은 남아 있지 않다."
+            }
+          ]
+        },
+        {
+          "id": "army_3",
+          "number": 3,
+          "title_en": "The First Alteration",
+          "title_ko": "최초의 변조",
+          "en": "Two copies of an old rule survive. One says that travelers may enter a shelter. The other says that only approved travelers may enter. The second copy has no recorded explanation for the change.\n\nIn the later version, a guard could demand a name before offering shelter. The archive records the practical effect of the change without assigning an author.",
+          "ko": "옛 규칙의 사본 두 개가 남아 있다. 하나에는 여행자가 쉼터에 들어갈 수 있다고 적혀 있다. 다른 하나에는 허가받은 여행자만 들어갈 수 있다고 적혀 있다. 두 번째 사본에는 변경 이유가 기록되어 있지 않다.\n\n나중 판본에 따르면 경비가 쉼터를 내주기 전에 이름을 요구할 수 있었다. 기록실은 변경으로 생긴 실제 효과를 적어 두되 작성자를 단정하지 않는다.",
+          "unlock": {
+            "registered_pages": 12
+          },
+          "previous_volume": "army_2",
+          "segments": [
+            {
+              "en": "Two copies of an old rule survive.",
+              "ko": "옛 규칙의 사본 두 개가 남아 있다."
+            },
+            {
+              "en": "One says that travelers may enter a shelter.",
+              "ko": "하나에는 여행자가 쉼터에 들어갈 수 있다고 적혀 있다."
+            },
+            {
+              "en": "The other says that only approved travelers may enter.",
+              "ko": "다른 하나에는 허가받은 여행자만 들어갈 수 있다고 적혀 있다."
+            },
+            {
+              "en": "The second copy has no recorded explanation for the change.",
+              "ko": "두 번째 사본에는 변경 이유가 기록되어 있지 않다."
+            },
+            {
+              "en": "In the later version, a guard could demand a name before offering shelter.",
+              "ko": "나중 판본에 따르면 경비가 쉼터를 내주기 전에 이름을 요구할 수 있었다."
+            },
+            {
+              "en": "The archive records the practical effect of the change without assigning an author.",
+              "ko": "기록실은 변경으로 생긴 실제 효과를 적어 두되 작성자를 단정하지 않는다."
+            }
+          ]
+        },
+        {
+          "id": "army_4",
+          "number": 4,
+          "title_en": "The Five Signs",
+          "title_ko": "다섯 표식",
+          "en": "Several recent reports describe groups using different signs. Their activities include false messages, altered records, and unfair demands. The reports suggest cooperation, but a shared sign alone cannot prove that a person belongs to a group.\n\nTwo witnesses drew the same sign, but only one had seen the message being delivered. Their reports have separate entries so that readers can see where the evidence ends.",
+          "ko": "최근 보고서 몇 편은 서로 다른 표식을 사용하는 집단들을 묘사한다. 거짓 전갈, 기록 변조, 부당한 요구 등이 그 활동에 포함된다. 보고서는 협력을 시사하지만 같은 표식만으로 개인의 소속을 입증할 수는 없다.\n\n증인 두 명은 같은 문양을 그렸지만 전갈이 전달되는 모습을 본 사람은 한 명뿐이었다. 독자가 증거의 범위를 알 수 있도록 두 진술에는 별도 항목이 배정됐다.",
+          "unlock": {
+            "registered_pages": 15
+          },
+          "previous_volume": "army_3",
+          "segments": [
+            {
+              "en": "Several recent reports describe groups using different signs.",
+              "ko": "최근 보고서 몇 편은 서로 다른 표식을 사용하는 집단들을 묘사한다."
+            },
+            {
+              "en": "Their activities include false messages, altered records, and unfair demands.",
+              "ko": "거짓 전갈, 기록 변조, 부당한 요구 등이 그 활동에 포함된다."
+            },
+            {
+              "en": "The reports suggest cooperation, but a shared sign alone cannot prove that a person belongs to a group.",
+              "ko": "보고서는 협력을 시사하지만 같은 표식만으로 개인의 소속을 입증할 수는 없다."
+            },
+            {
+              "en": "Two witnesses drew the same sign, but only one had seen the message being delivered.",
+              "ko": "증인 두 명은 같은 문양을 그렸지만 전갈이 전달되는 모습을 본 사람은 한 명뿐이었다."
+            },
+            {
+              "en": "Their reports have separate entries so that readers can see where the evidence ends.",
+              "ko": "독자가 증거의 범위를 알 수 있도록 두 진술에는 별도 항목이 배정됐다."
+            }
+          ]
+        },
+        {
+          "id": "army_5",
+          "number": 5,
+          "title_en": "The Stolen Pages",
+          "title_ko": "도난당한 페이지",
+          "en": "The library's recovery records confirm that eighteen pages were taken. Several guardians changed after the theft. The keepers have not established every step of the process. They advise readers to distinguish confirmed events from possible explanations.\n\nEach returned page was checked against a surviving reference before it entered the catalog. A gap in that record means the keepers still have a question, not that they know who took the page.",
+          "ko": "도서관의 복원 기록은 열여덟 페이지가 도난당했음을 확인한다. 도난 이후 여러 수호자가 변했다. 관리인들은 모든 과정이 어떻게 일어났는지 밝혀내지 못했다. 확인된 사건과 가능한 설명을 구분하라고 독자들에게 권한다.\n\n돌아온 페이지는 목록에 올리기 전에 남은 참고 자료와 대조했다. 기록에 빈칸이 있다는 것은 사서에게 풀지 못한 질문이 있다는 뜻이지, 누가 그 페이지를 가져갔는지 안다는 뜻이 아니다.",
+          "unlock": {
+            "registered_pages": 18
+          },
+          "previous_volume": "army_4",
+          "segments": [
+            {
+              "en": "The library's recovery records confirm that eighteen pages were taken.",
+              "ko": "도서관의 복원 기록은 열여덟 페이지가 도난당했음을 확인한다."
+            },
+            {
+              "en": "Several guardians changed after the theft.",
+              "ko": "도난 이후 여러 수호자가 변했다."
+            },
+            {
+              "en": "The keepers have not established every step of the process.",
+              "ko": "관리인들은 모든 과정이 어떻게 일어났는지 밝혀내지 못했다."
+            },
+            {
+              "en": "They advise readers to distinguish confirmed events from possible explanations.",
+              "ko": "확인된 사건과 가능한 설명을 구분하라고 독자들에게 권한다."
+            },
+            {
+              "en": "Each returned page was checked against a surviving reference before it entered the catalog.",
+              "ko": "돌아온 페이지는 목록에 올리기 전에 남은 참고 자료와 대조했다."
+            },
+            {
+              "en": "A gap in that record means the keepers still have a question, not that they know who took the page.",
+              "ko": "기록에 빈칸이 있다는 것은 사서에게 풀지 못한 질문이 있다는 뜻이지, 누가 그 페이지를 가져갔는지 안다는 뜻이 아니다."
+            }
+          ]
+        },
+        {
+          "id": "army_6",
+          "number": 6,
+          "title_en": "An Unfinished Account",
+          "title_ko": "미완성 기록",
+          "en": "The final report describes the spell that threatened the Grammatica. It records the danger of forcing everyone to speak with one voice. The library will preserve the report beside the recovered pages. Further claims about the army's leaders remain unverified.\n\nThe keepers separated the record of the broken spell from testimony gathered in the villages. A future reader can therefore follow the battle without assuming that every investigation reached the same conclusion.",
+          "ko": "마지막 보고서는 그라마티카를 위협한 주문을 설명한다. 모두가 하나의 목소리로 말하도록 강요하는 위험을 기록한다. 도서관은 회수한 페이지 옆에 보고서를 보존할 것이다. 군대 지도자들에 관한 추가 주장은 아직 검증되지 않았다.\n\n사서들은 주문이 깨진 기록을 마을에서 모은 증언과 나누어 보관했다. 훗날 독자는 모든 조사가 같은 결론에 이르렀다고 가정하지 않고도 결전의 경과를 따라갈 수 있다.",
+          "unlock": {
+            "registered_pages": 18,
+            "quest": "sanctuary_of_silence_cleared"
+          },
+          "previous_volume": "army_5",
+          "segments": [
+            {
+              "en": "The final report describes the spell that threatened the Grammatica.",
+              "ko": "마지막 보고서는 그라마티카를 위협한 주문을 설명한다."
+            },
+            {
+              "en": "It records the danger of forcing everyone to speak with one voice.",
+              "ko": "모두가 하나의 목소리로 말하도록 강요하는 위험을 기록한다."
+            },
+            {
+              "en": "The library will preserve the report beside the recovered pages.",
+              "ko": "도서관은 회수한 페이지 옆에 보고서를 보존할 것이다."
+            },
+            {
+              "en": "Further claims about the army's leaders remain unverified.",
+              "ko": "군대 지도자들에 관한 추가 주장은 아직 검증되지 않았다."
+            },
+            {
+              "en": "The keepers separated the record of the broken spell from testimony gathered in the villages.",
+              "ko": "사서들은 주문이 깨진 기록을 마을에서 모은 증언과 나누어 보관했다."
+            },
+            {
+              "en": "A future reader can therefore follow the battle without assuming that every investigation reached the same conclusion.",
+              "ko": "훗날 독자는 모든 조사가 같은 결론에 이르렀다고 가정하지 않고도 결전의 경과를 따라갈 수 있다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "librarian",
+      "title_en": "The Last Librarian",
+      "title_ko": "대도서관의 마지막 사서",
+      "genre": "fiction",
+      "volumes": [
+        {
+          "id": "librarian_1",
+          "number": 1,
+          "title_en": "The Night Shift",
+          "title_ko": "야간 근무",
+          "en": "Sera was the youngest librarian on the night shift. She checked the windows and counted the returned books. A visitor asked why she kept old copies of corrected texts. She showed him the notes explaining each change.\n\nOne copy had a date in ink and another date in pencil. Sera showed the visitor the entry that explained which belonged to the original.",
+          "ko": "세라는 야간 근무를 하는 가장 어린 사서였다. 창문을 확인하고 반납된 책을 셌다. 방문객이 수정된 글의 옛 사본을 왜 보관하는지 물었다. 세라는 각 변경 이유를 설명하는 기록을 보여 주었다.\n\n한 사본에는 잉크로 쓴 날짜와 연필로 쓴 날짜가 있었다. 세라는 어느 것이 원본의 날짜인지 설명하는 항목을 보여 주었다.",
+          "unlock": {
+            "registered_pages": 0
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Sera was the youngest librarian on the night shift.",
+              "ko": "세라는 야간 근무를 하는 가장 어린 사서였다."
+            },
+            {
+              "en": "She checked the windows and counted the returned books.",
+              "ko": "창문을 확인하고 반납된 책을 셌다."
+            },
+            {
+              "en": "A visitor asked why she kept old copies of corrected texts.",
+              "ko": "방문객이 수정된 글의 옛 사본을 왜 보관하는지 물었다."
+            },
+            {
+              "en": "She showed him the notes explaining each change.",
+              "ko": "세라는 각 변경 이유를 설명하는 기록을 보여 주었다."
+            },
+            {
+              "en": "One copy had a date in ink and another date in pencil.",
+              "ko": "한 사본에는 잉크로 쓴 날짜와 연필로 쓴 날짜가 있었다."
+            },
+            {
+              "en": "Sera showed the visitor the entry that explained which belonged to the original.",
+              "ko": "세라는 어느 것이 원본의 날짜인지 설명하는 항목을 보여 주었다."
+            }
+          ]
+        },
+        {
+          "id": "librarian_2",
+          "number": 2,
+          "title_en": "The Leaking Roof",
+          "title_ko": "새는 지붕",
+          "en": "Rain began to fall through the roof above the history shelves. Sera called the other workers instead of trying to move every book alone. They formed a line and carried the books to a dry room. The youngest helper saved the shelf labels.\n\nThe workers counted the stacks as they crossed the corridor. When the rain stopped, they knew which shelves still needed attention.",
+          "ko": "역사 서가 위 지붕에서 빗물이 떨어지기 시작했다. 세라는 혼자 모든 책을 옮기려 하지 않고 다른 일꾼들을 불렀다. 줄을 만들어 책을 마른 방으로 옮겼다. 가장 어린 조수가 서가의 이름표를 구했다.\n\n일꾼들은 복도를 건널 때마다 책 더미의 수를 셌다. 비가 그쳤을 때는 어느 책장을 더 살펴야 하는지 알고 있었다.",
+          "unlock": {
+            "registered_pages": 2
+          },
+          "previous_volume": "librarian_1",
+          "segments": [
+            {
+              "en": "Rain began to fall through the roof above the history shelves.",
+              "ko": "역사 서가 위 지붕에서 빗물이 떨어지기 시작했다."
+            },
+            {
+              "en": "Sera called the other workers instead of trying to move every book alone.",
+              "ko": "세라는 혼자 모든 책을 옮기려 하지 않고 다른 일꾼들을 불렀다."
+            },
+            {
+              "en": "They formed a line and carried the books to a dry room.",
+              "ko": "줄을 만들어 책을 마른 방으로 옮겼다."
+            },
+            {
+              "en": "The youngest helper saved the shelf labels.",
+              "ko": "가장 어린 조수가 서가의 이름표를 구했다."
+            },
+            {
+              "en": "The workers counted the stacks as they crossed the corridor.",
+              "ko": "일꾼들은 복도를 건널 때마다 책 더미의 수를 셌다."
+            },
+            {
+              "en": "When the rain stopped, they knew which shelves still needed attention.",
+              "ko": "비가 그쳤을 때는 어느 책장을 더 살펴야 하는지 알고 있었다."
+            }
+          ]
+        },
+        {
+          "id": "librarian_3",
+          "number": 3,
+          "title_en": "The Unmarked Copy",
+          "title_ko": "표시 없는 사본",
+          "en": "While drying the books, Sera found a copy with no source note. It looked older than the others, but its paper was new. She placed it in a separate folder and asked a specialist to examine it.\n\nThe folder included a note stating what Sera had seen and what she had only guessed. The specialist returned it with a description of the paper fibers.",
+          "ko": "책을 말리던 세라는 출처 기록이 없는 사본을 발견했다. 다른 것보다 오래되어 보였지만 종이는 새것이었다. 별도 폴더에 넣고 전문가에게 조사해 달라고 부탁했다.\n\n서류철에는 세라가 직접 본 것과 추측한 것을 구분한 메모가 있었다. 전문가는 종이 섬유에 관한 설명을 보태 돌려주었다.",
+          "unlock": {
+            "registered_pages": 4
+          },
+          "previous_volume": "librarian_2",
+          "segments": [
+            {
+              "en": "While drying the books, Sera found a copy with no source note.",
+              "ko": "책을 말리던 세라는 출처 기록이 없는 사본을 발견했다."
+            },
+            {
+              "en": "It looked older than the others, but its paper was new.",
+              "ko": "다른 것보다 오래되어 보였지만 종이는 새것이었다."
+            },
+            {
+              "en": "She placed it in a separate folder and asked a specialist to examine it.",
+              "ko": "별도 폴더에 넣고 전문가에게 조사해 달라고 부탁했다."
+            },
+            {
+              "en": "The folder included a note stating what Sera had seen and what she had only guessed.",
+              "ko": "서류철에는 세라가 직접 본 것과 추측한 것을 구분한 메모가 있었다."
+            },
+            {
+              "en": "The specialist returned it with a description of the paper fibers.",
+              "ko": "전문가는 종이 섬유에 관한 설명을 보태 돌려주었다."
+            }
+          ]
+        },
+        {
+          "id": "librarian_4",
+          "number": 4,
+          "title_en": "The Visitor's Request",
+          "title_ko": "방문객의 부탁",
+          "en": "A visitor wanted the library to destroy a letter that embarrassed his family. Sera listened to him and offered to restrict access to private details. She explained that a public historical record could not simply disappear. They agreed to review the letter together.\n\nThey marked which details concerned living members of the family. The public description still listed the date and purpose of the letter.",
+          "ko": "방문객은 가족을 난처하게 하는 편지를 도서관에서 없애 달라고 했다. 세라는 이야기를 듣고 사적인 내용의 열람을 제한하자고 제안했다. 공개 역사 기록을 그냥 없앨 수는 없다고 설명했다. 두 사람은 편지를 함께 검토하기로 했다.\n\n두 사람은 살아 있는 가족과 관련된 대목을 표시했다. 공개 설명에는 여전히 편지의 날짜와 목적이 실렸다.",
+          "unlock": {
+            "registered_pages": 6
+          },
+          "previous_volume": "librarian_3",
+          "segments": [
+            {
+              "en": "A visitor wanted the library to destroy a letter that embarrassed his family.",
+              "ko": "방문객은 가족을 난처하게 하는 편지를 도서관에서 없애 달라고 했다."
+            },
+            {
+              "en": "Sera listened to him and offered to restrict access to private details.",
+              "ko": "세라는 이야기를 듣고 사적인 내용의 열람을 제한하자고 제안했다."
+            },
+            {
+              "en": "She explained that a public historical record could not simply disappear.",
+              "ko": "공개 역사 기록을 그냥 없앨 수는 없다고 설명했다."
+            },
+            {
+              "en": "They agreed to review the letter together.",
+              "ko": "두 사람은 편지를 함께 검토하기로 했다."
+            },
+            {
+              "en": "They marked which details concerned living members of the family.",
+              "ko": "두 사람은 살아 있는 가족과 관련된 대목을 표시했다."
+            },
+            {
+              "en": "The public description still listed the date and purpose of the letter.",
+              "ko": "공개 설명에는 여전히 편지의 날짜와 목적이 실렸다."
+            }
+          ]
+        },
+        {
+          "id": "librarian_5",
+          "number": 5,
+          "title_en": "The Empty Desks",
+          "title_ko": "빈 책상들",
+          "en": "A storm damaged the road, and most workers could not reach the library. Sera opened only the safe reading room. She asked visitors to return the books themselves and kept a list of every loan. The library remained useful even with fewer services.\n\nA visitor made an extra return slip for someone who could not write easily. Sera placed the slip beside the list instead of asking the visitor to stand aside.",
+          "ko": "폭풍으로 길이 손상되어 대부분의 직원이 도서관에 오지 못했다. 세라는 안전한 열람실만 열었다. 방문객들에게 직접 책을 반납해 달라고 하고 모든 대출 목록을 관리했다. 서비스가 줄어도 도서관은 여전히 유용했다.\n\n한 방문객은 글쓰기가 어려운 사람을 위해 반납표를 한 장 더 만들었다. 세라는 그 방문객을 물러서게 하는 대신 표를 목록 옆에 놓았다.",
+          "unlock": {
+            "registered_pages": 8
+          },
+          "previous_volume": "librarian_4",
+          "segments": [
+            {
+              "en": "A storm damaged the road, and most workers could not reach the library.",
+              "ko": "폭풍으로 길이 손상되어 대부분의 직원이 도서관에 오지 못했다."
+            },
+            {
+              "en": "Sera opened only the safe reading room.",
+              "ko": "세라는 안전한 열람실만 열었다."
+            },
+            {
+              "en": "She asked visitors to return the books themselves and kept a list of every loan.",
+              "ko": "방문객들에게 직접 책을 반납해 달라고 하고 모든 대출 목록을 관리했다."
+            },
+            {
+              "en": "The library remained useful even with fewer services.",
+              "ko": "서비스가 줄어도 도서관은 여전히 유용했다."
+            },
+            {
+              "en": "A visitor made an extra return slip for someone who could not write easily.",
+              "ko": "한 방문객은 글쓰기가 어려운 사람을 위해 반납표를 한 장 더 만들었다."
+            },
+            {
+              "en": "Sera placed the slip beside the list instead of asking the visitor to stand aside.",
+              "ko": "세라는 그 방문객을 물러서게 하는 대신 표를 목록 옆에 놓았다."
+            }
+          ]
+        },
+        {
+          "id": "librarian_6",
+          "number": 6,
+          "title_en": "The Traveling Copies",
+          "title_ko": "여행하는 사본",
+          "en": "Sera sent copies of useful books to villages beyond the damaged road. Each copy included its source and date. A village teacher returned a page of corrections with reasons for each one. Sera added the notes without destroying the earlier version.\n\nThe next edition printed the reasons in the margin. A reader could still find the page number in the older copy.",
+          "ko": "세라는 손상된 길 너머 마을에 유용한 책의 사본을 보냈다. 사본마다 출처와 날짜를 넣었다. 마을 교사는 수정 이유를 적은 페이지를 돌려보냈다. 세라는 이전 판본을 없애지 않고 기록을 추가했다.\n\n다음 판본에는 수정 이유를 여백에 실었다. 독자는 구판에서도 해당 쪽 번호를 찾을 수 있었다.",
+          "unlock": {
+            "registered_pages": 10
+          },
+          "previous_volume": "librarian_5",
+          "segments": [
+            {
+              "en": "Sera sent copies of useful books to villages beyond the damaged road.",
+              "ko": "세라는 손상된 길 너머 마을에 유용한 책의 사본을 보냈다."
+            },
+            {
+              "en": "Each copy included its source and date.",
+              "ko": "사본마다 출처와 날짜를 넣었다."
+            },
+            {
+              "en": "A village teacher returned a page of corrections with reasons for each one.",
+              "ko": "마을 교사는 수정 이유를 적은 페이지를 돌려보냈다."
+            },
+            {
+              "en": "Sera added the notes without destroying the earlier version.",
+              "ko": "세라는 이전 판본을 없애지 않고 기록을 추가했다."
+            },
+            {
+              "en": "The next edition printed the reasons in the margin.",
+              "ko": "다음 판본에는 수정 이유를 여백에 실었다."
+            },
+            {
+              "en": "A reader could still find the page number in the older copy.",
+              "ko": "독자는 구판에서도 해당 쪽 번호를 찾을 수 있었다."
+            }
+          ]
+        },
+        {
+          "id": "librarian_7",
+          "number": 7,
+          "title_en": "The Last Lamp",
+          "title_ko": "마지막 등불",
+          "en": "On her final night before retirement, Sera found a child reading beside the last lamp. The child asked who would protect the books after she left. Sera pointed to the other readers and the new librarians. She said the library had never belonged to one keeper.\n\nThe child left a bookmark where the next reader could find the page. Sera entered the loan before she turned off the last lamp.",
+          "ko": "은퇴 전 마지막 밤, 세라는 마지막 등불 옆에서 책을 읽는 아이를 발견했다. 아이는 세라가 떠나면 누가 책을 지킬지 물었다. 세라는 다른 독자들과 새 사서들을 가리켰다. 도서관은 한 관리인의 것이었던 적이 없다고 말했다.\n\n아이는 다음 독자가 그 쪽을 찾을 수 있도록 책갈피를 끼웠다. 세라는 마지막 등불을 끄기 전에 대출을 기록했다.",
+          "unlock": {
+            "registered_pages": 12
+          },
+          "previous_volume": "librarian_6",
+          "segments": [
+            {
+              "en": "On her final night before retirement, Sera found a child reading beside the last lamp.",
+              "ko": "은퇴 전 마지막 밤, 세라는 마지막 등불 옆에서 책을 읽는 아이를 발견했다."
+            },
+            {
+              "en": "The child asked who would protect the books after she left.",
+              "ko": "아이는 세라가 떠나면 누가 책을 지킬지 물었다."
+            },
+            {
+              "en": "Sera pointed to the other readers and the new librarians.",
+              "ko": "세라는 다른 독자들과 새 사서들을 가리켰다."
+            },
+            {
+              "en": "She said the library had never belonged to one keeper.",
+              "ko": "도서관은 한 관리인의 것이었던 적이 없다고 말했다."
+            },
+            {
+              "en": "The child left a bookmark where the next reader could find the page.",
+              "ko": "아이는 다음 독자가 그 쪽을 찾을 수 있도록 책갈피를 끼웠다."
+            },
+            {
+              "en": "Sera entered the loan before she turned off the last lamp.",
+              "ko": "세라는 마지막 등불을 끄기 전에 대출을 기록했다."
+            }
+          ]
+        },
+        {
+          "id": "librarian_8",
+          "number": 8,
+          "title_en": "The Open Door",
+          "title_ko": "열린 문",
+          "en": "The next morning, the new librarian unlocked the door. Sera entered as an ordinary reader and borrowed a book about the sea. Her name was no longer on the duty list, but her notes remained in the catalog. The work continued.\n\nThe new librarian asked Sera to sign the loan card just like anyone else. Sera took the book to the window and began reading.",
+          "ko": "다음 날 아침 새 사서가 문을 열었다. 세라는 평범한 독자로 들어와 바다에 관한 책을 빌렸다. 근무 명단에는 더 이상 그녀의 이름이 없었지만 목록에는 그녀의 기록이 남아 있었다. 일은 계속되었다.\n\n새 사서는 다른 사람에게 하듯 세라에게도 대출 카드에 서명해 달라고 했다. 세라는 책을 창가로 가져가 읽기 시작했다.",
+          "unlock": {
+            "registered_pages": 15
+          },
+          "previous_volume": "librarian_7",
+          "segments": [
+            {
+              "en": "The next morning, the new librarian unlocked the door.",
+              "ko": "다음 날 아침 새 사서가 문을 열었다."
+            },
+            {
+              "en": "Sera entered as an ordinary reader and borrowed a book about the sea.",
+              "ko": "세라는 평범한 독자로 들어와 바다에 관한 책을 빌렸다."
+            },
+            {
+              "en": "Her name was no longer on the duty list, but her notes remained in the catalog.",
+              "ko": "근무 명단에는 더 이상 그녀의 이름이 없었지만 목록에는 그녀의 기록이 남아 있었다."
+            },
+            {
+              "en": "The work continued.",
+              "ko": "일은 계속되었다."
+            },
+            {
+              "en": "The new librarian asked Sera to sign the loan card just like anyone else.",
+              "ko": "새 사서는 다른 사람에게 하듯 세라에게도 대출 카드에 서명해 달라고 했다."
+            },
+            {
+              "en": "Sera took the book to the window and began reading.",
+              "ko": "세라는 책을 창가로 가져가 읽기 시작했다."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "policy": "Append to existing reading_room, not replace. Fictional characters are book-only, no new NPC assets. Army fragments are proposed records with uncertain provenance; no final boss spoilers before clearance. Natural Korean translations; sentence/chunk alignment pending. All optional."
+}

@@ -1,0 +1,1102 @@
+{
+  "version": "0.1",
+  "books": [
+    {
+      "id": "merchant",
+      "title_en": "A Merchant's Travel Journal",
+      "title_ko": "어느 상인의 여행기",
+      "genre": "fictional_travelogue",
+      "volumes": [
+        {
+          "id": "merchant_1",
+          "number": 1,
+          "title_en": "Beville",
+          "title_ko": "비빌",
+          "en": "Belle shares yesterday's bread with travelers who cannot pay. I bought fresh bread and left a little extra for the next guest.\n\nBelle wrapped an extra loaf in plain paper so the next guest could take it quietly. I put the price in my ledger as bread, with no guest’s name beside it.",
+          "ko": "벨은 돈을 낼 수 없는 여행자에게 어제 구운 빵을 나누어 준다. 나는 새 빵을 사고 다음 손님을 위해 돈을 조금 더 남겼다.\n\n벨은 다음 손님이 조용히 가져갈 수 있도록 빵 한 덩이를 수수한 종이로 쌌다. 나는 손님의 이름 없이 장부에 빵값만 적었다.",
+          "unlock": {
+            "town_recovered": "g1"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Belle shares yesterday's bread with travelers who cannot pay.",
+              "ko": "벨은 돈을 낼 수 없는 여행자에게 어제 구운 빵을 나누어 준다."
+            },
+            {
+              "en": "I bought fresh bread and left a little extra for the next guest.",
+              "ko": "나는 새 빵을 사고 다음 손님을 위해 돈을 조금 더 남겼다."
+            },
+            {
+              "en": "Belle wrapped an extra loaf in plain paper so the next guest could take it quietly.",
+              "ko": "벨은 다음 손님이 조용히 가져갈 수 있도록 빵 한 덩이를 수수한 종이로 쌌다."
+            },
+            {
+              "en": "I put the price in my ledger as bread, with no guest’s name beside it.",
+              "ko": "나는 손님의 이름 없이 장부에 빵값만 적었다."
+            }
+          ]
+        },
+        {
+          "id": "merchant_2",
+          "number": 2,
+          "title_en": "Queston",
+          "title_ko": "퀘스턴",
+          "en": "Pepper asked every guest about food they could not eat. I learned that a good meal begins with a good question.\n\nPepper put a fresh spoon beside each pot. When a guest asked about nuts, he could show exactly what had gone into the soup.",
+          "ko": "페퍼는 손님마다 먹을 수 없는 음식이 있는지 물었다. 좋은 식사는 좋은 질문에서 시작한다는 것을 배웠다.\n\n페퍼는 냄비마다 깨끗한 숟가락을 놓았다. 한 손님이 견과류를 묻자 수프에 들어간 재료를 정확히 알려 줄 수 있었다.",
+          "unlock": {
+            "town_recovered": "g2"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Pepper asked every guest about food they could not eat.",
+              "ko": "페퍼는 손님마다 먹을 수 없는 음식이 있는지 물었다."
+            },
+            {
+              "en": "I learned that a good meal begins with a good question.",
+              "ko": "좋은 식사는 좋은 질문에서 시작한다는 것을 배웠다."
+            },
+            {
+              "en": "Pepper put a fresh spoon beside each pot.",
+              "ko": "페퍼는 냄비마다 깨끗한 숟가락을 놓았다."
+            },
+            {
+              "en": "When a guest asked about nuts, he could show exactly what had gone into the soup.",
+              "ko": "한 손님이 견과류를 묻자 수프에 들어간 재료를 정확히 알려 줄 수 있었다."
+            }
+          ]
+        },
+        {
+          "id": "merchant_3",
+          "number": 3,
+          "title_en": "Tensefield",
+          "title_ko": "텐스필드",
+          "en": "Pendle showed me a clock that needed repair. He lent me a smaller clock while he worked, so I could keep my appointments.\n\nThe clock Pendle lent me had a loud tick. I reached the market early and returned it before his shop closed.",
+          "ko": "펜들은 수리가 필요한 시계를 보여 주었다. 작업하는 동안 약속을 지킬 수 있도록 작은 시계를 빌려 주었다.\n\n펜들이 빌려준 시계는 똑딱 소리가 컸다. 나는 시장에 일찍 도착했고 가게가 문을 닫기 전에 돌려주었다.",
+          "unlock": {
+            "town_recovered": "tn"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Pendle showed me a clock that needed repair.",
+              "ko": "펜들은 수리가 필요한 시계를 보여 주었다."
+            },
+            {
+              "en": "He lent me a smaller clock while he worked, so I could keep my appointments.",
+              "ko": "작업하는 동안 약속을 지킬 수 있도록 작은 시계를 빌려 주었다."
+            },
+            {
+              "en": "The clock Pendle lent me had a loud tick.",
+              "ko": "펜들이 빌려준 시계는 똑딱 소리가 컸다."
+            },
+            {
+              "en": "I reached the market early and returned it before his shop closed.",
+              "ko": "나는 시장에 일찍 도착했고 가게가 문을 닫기 전에 돌려주었다."
+            }
+          ]
+        },
+        {
+          "id": "merchant_4",
+          "number": 4,
+          "title_en": "Modalvale",
+          "title_ko": "모달베일",
+          "en": "Mason checks the bridge before heavy rain. Ferry told me that a boat is useful when the road is closed, but only when the crossing is safe.\n\nMason drew a line on the bridge post to show where the water had reached. I wrote the ferry hours in my ledger and waited for his signal.",
+          "ko": "메이슨은 폭우 전에 다리를 점검한다. 페리는 길이 막히면 배가 유용하지만 안전하게 건널 수 있을 때만 그렇다고 말했다.\n\n메이슨은 물이 어디까지 찼는지 다리 기둥에 선을 그었다. 나는 나룻배 시간을 장부에 적고 그의 신호를 기다렸다.",
+          "unlock": {
+            "town_recovered": "md"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Mason checks the bridge before heavy rain.",
+              "ko": "메이슨은 폭우 전에 다리를 점검한다."
+            },
+            {
+              "en": "Ferry told me that a boat is useful when the road is closed, but only when the crossing is safe.",
+              "ko": "페리는 길이 막히면 배가 유용하지만 안전하게 건널 수 있을 때만 그렇다고 말했다."
+            },
+            {
+              "en": "Mason drew a line on the bridge post to show where the water had reached.",
+              "ko": "메이슨은 물이 어디까지 찼는지 다리 기둥에 선을 그었다."
+            },
+            {
+              "en": "I wrote the ferry hours in my ledger and waited for his signal.",
+              "ko": "나는 나룻배 시간을 장부에 적고 그의 신호를 기다렸다."
+            }
+          ]
+        },
+        {
+          "id": "merchant_5",
+          "number": 5,
+          "title_en": "Relawood",
+          "title_ko": "렐라우드",
+          "en": "Wren showed me the trail signs, and Birch repaired my wooden box. I promised not to leave the marked path.\n\nWren asked me to turn an arrow that the wind had loosened. Birch’s new latch held while I carried the box through the forest.",
+          "ko": "렌은 길 표지판을 보여 주었고 버치는 내 나무 상자를 고쳐 주었다. 나는 표시된 길을 벗어나지 않겠다고 약속했다.\n\n렌은 바람에 헐거워진 화살표를 돌려 달라고 했다. 내가 상자를 들고 숲을 지나는 동안 버치가 단 새 걸쇠는 버텼다.",
+          "unlock": {
+            "town_recovered": "rp"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Wren showed me the trail signs, and Birch repaired my wooden box.",
+              "ko": "렌은 길 표지판을 보여 주었고 버치는 내 나무 상자를 고쳐 주었다."
+            },
+            {
+              "en": "I promised not to leave the marked path.",
+              "ko": "나는 표시된 길을 벗어나지 않겠다고 약속했다."
+            },
+            {
+              "en": "Wren asked me to turn an arrow that the wind had loosened.",
+              "ko": "렌은 바람에 헐거워진 화살표를 돌려 달라고 했다."
+            },
+            {
+              "en": "Birch’s new latch held while I carried the box through the forest.",
+              "ko": "내가 상자를 들고 숲을 지나는 동안 버치가 단 새 걸쇠는 버텼다."
+            }
+          ]
+        },
+        {
+          "id": "merchant_6",
+          "number": 6,
+          "title_en": "Passive Lake",
+          "title_ko": "패시브 레이크",
+          "en": "Quill keeps records of donated books. I left a small collection of travel notes and asked him to record where they came from.\n\nQuill asked me which notes were my own and which I had copied. We put the names of the other writers at the front.",
+          "ko": "퀼은 기증 도서의 기록을 관리한다. 나는 여행 기록 모음집을 남기고 출처를 기록해 달라고 부탁했다.\n\n퀼은 어느 기록을 직접 썼고 어느 것을 옮겼는지 물었다. 우리는 다른 글쓴이들의 이름을 맨 앞에 넣었다.",
+          "unlock": {
+            "town_recovered": "ps"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Quill keeps records of donated books.",
+              "ko": "퀼은 기증 도서의 기록을 관리한다."
+            },
+            {
+              "en": "I left a small collection of travel notes and asked him to record where they came from.",
+              "ko": "나는 여행 기록 모음집을 남기고 출처를 기록해 달라고 부탁했다."
+            },
+            {
+              "en": "Quill asked me which notes were my own and which I had copied.",
+              "ko": "퀼은 어느 기록을 직접 썼고 어느 것을 옮겼는지 물었다."
+            },
+            {
+              "en": "We put the names of the other writers at the front.",
+              "ko": "우리는 다른 글쓴이들의 이름을 맨 앞에 넣었다."
+            }
+          ]
+        },
+        {
+          "id": "merchant_7",
+          "number": 7,
+          "title_en": "Perfect Oasis",
+          "title_ko": "퍼펙트 오아시스",
+          "en": "Palm offered me tea after a long journey. Seal explained how letters are sorted before couriers carry them away.\n\nPalm set a second cup on the tray for a courier who was still out. At the sorting table, Seal showed me the difference between an address and a return address.",
+          "ko": "팜은 긴 여행 끝에 차를 내주었다. 실은 전령이 편지를 가져가기 전에 어떻게 분류하는지 설명했다.\n\n팜은 아직 밖에 있는 배달부를 위해 쟁반에 잔을 하나 더 놓았다. 분류대에서 실은 받는 주소와 보내는 주소의 차이를 보여 주었다.",
+          "unlock": {
+            "town_recovered": "pf"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Palm offered me tea after a long journey.",
+              "ko": "팜은 긴 여행 끝에 차를 내주었다."
+            },
+            {
+              "en": "Seal explained how letters are sorted before couriers carry them away.",
+              "ko": "실은 전령이 편지를 가져가기 전에 어떻게 분류하는지 설명했다."
+            },
+            {
+              "en": "Palm set a second cup on the tray for a courier who was still out.",
+              "ko": "팜은 아직 밖에 있는 배달부를 위해 쟁반에 잔을 하나 더 놓았다."
+            },
+            {
+              "en": "At the sorting table, Seal showed me the difference between an address and a return address.",
+              "ko": "분류대에서 실은 받는 주소와 보내는 주소의 차이를 보여 주었다."
+            }
+          ]
+        },
+        {
+          "id": "merchant_8",
+          "number": 8,
+          "title_en": "Whereport",
+          "title_ko": "웨어포트",
+          "en": "Atlas drew a map of the harbor for me. Chime explained that the bell helps people recognize the evening return of the boats.\n\nAtlas marked the steps that remain dry at high tide. At sunset I waited there and heard the bell before I saw the boats.",
+          "ko": "아틀라스는 내게 항구 지도를 그려 주었다. 차임은 종이 저녁에 배가 돌아오는 것을 알아차리도록 돕는다고 설명했다.\n\n아틀라스는 만조에도 물에 잠기지 않는 계단에 표시했다. 해 질 무렵 그곳에서 기다리니 배가 보이기 전에 종이 들렸다.",
+          "unlock": {
+            "town_recovered": "rv"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Atlas drew a map of the harbor for me.",
+              "ko": "아틀라스는 내게 항구 지도를 그려 주었다."
+            },
+            {
+              "en": "Chime explained that the bell helps people recognize the evening return of the boats.",
+              "ko": "차임은 종이 저녁에 배가 돌아오는 것을 알아차리도록 돕는다고 설명했다."
+            },
+            {
+              "en": "Atlas marked the steps that remain dry at high tide.",
+              "ko": "아틀라스는 만조에도 물에 잠기지 않는 계단에 표시했다."
+            },
+            {
+              "en": "At sunset I waited there and heard the bell before I saw the boats.",
+              "ko": "해 질 무렵 그곳에서 기다리니 배가 보이기 전에 종이 들렸다."
+            }
+          ]
+        },
+        {
+          "id": "merchant_9",
+          "number": 9,
+          "title_en": "Participle Canyon",
+          "title_ko": "파티서플 캐니언",
+          "en": "Rune showed me how to copy an inscription without changing its letters. Slate asked me to mark any part I could not read.\n\nI copied the clear letters and left a space where the stone had cracked. Slate thanked me for leaving the gap rather than filling it from memory.",
+          "ko": "룬은 글자를 바꾸지 않고 비문을 옮겨 적는 법을 보여 주었다. 슬레이트는 읽을 수 없는 부분을 표시하라고 했다.\n\n나는 선명한 글자를 옮겨 적고 돌이 갈라진 곳은 비워 두었다. 슬레이트는 기억에 의지해 채우지 않고 빈칸으로 남겨 줘 고맙다고 했다.",
+          "unlock": {
+            "town_recovered": "pc"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Rune showed me how to copy an inscription without changing its letters.",
+              "ko": "룬은 글자를 바꾸지 않고 비문을 옮겨 적는 법을 보여 주었다."
+            },
+            {
+              "en": "Slate asked me to mark any part I could not read.",
+              "ko": "슬레이트는 읽을 수 없는 부분을 표시하라고 했다."
+            },
+            {
+              "en": "I copied the clear letters and left a space where the stone had cracked.",
+              "ko": "나는 선명한 글자를 옮겨 적고 돌이 갈라진 곳은 비워 두었다."
+            },
+            {
+              "en": "Slate thanked me for leaving the gap rather than filling it from memory.",
+              "ko": "슬레이트는 기억에 의지해 채우지 않고 빈칸으로 남겨 줘 고맙다고 했다."
+            }
+          ]
+        },
+        {
+          "id": "merchant_10",
+          "number": 10,
+          "title_en": "Ifhaven",
+          "title_ko": "이프헤이븐",
+          "en": "Lark cares for birds, and Pen writes letters for people who need help. I bought a ribbon from Loom before leaving.\n\nPen read a letter back to its sender before folding it. Lark tied my ribbon to the carry cage so I could find it among the others.",
+          "ko": "라크는 새를 돌보고 펜은 도움이 필요한 사람들을 위해 편지를 쓴다. 떠나기 전에 룸에게 리본을 샀다.\n\n펜은 편지를 접기 전에 보낸 사람에게 다시 읽어 주었다. 라크는 여러 새장 중 내 운반용 새장을 알아볼 수 있게 리본을 묶었다.",
+          "unlock": {
+            "town_recovered": "sj"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Lark cares for birds, and Pen writes letters for people who need help.",
+              "ko": "라크는 새를 돌보고 펜은 도움이 필요한 사람들을 위해 편지를 쓴다."
+            },
+            {
+              "en": "I bought a ribbon from Loom before leaving.",
+              "ko": "떠나기 전에 룸에게 리본을 샀다."
+            },
+            {
+              "en": "Pen read a letter back to its sender before folding it.",
+              "ko": "펜은 편지를 접기 전에 보낸 사람에게 다시 읽어 주었다."
+            },
+            {
+              "en": "Lark tied my ribbon to the carry cage so I could find it among the others.",
+              "ko": "라크는 여러 새장 중 내 운반용 새장을 알아볼 수 있게 리본을 묶었다."
+            }
+          ]
+        },
+        {
+          "id": "merchant_11",
+          "number": 11,
+          "title_en": "Compare Hills",
+          "title_ko": "컴페어 힐스",
+          "en": "Merit explained the rules of a race before it began. Goldie showed me how medals are made, but she would not tell me who might win.\n\nMerit walked the route with the youngest runners before the start. I saw Goldie leave the name space on each medal blank until the results were known.",
+          "ko": "메릿은 경주가 시작되기 전에 규칙을 설명했다. 골디는 메달 제작법을 보여 주었지만 누가 이길지는 말해 주지 않았다.\n\n메리트는 출발 전에 어린 선수들과 코스를 함께 걸었다. 골디는 결과가 나올 때까지 메달의 이름 칸을 비워 두었다.",
+          "unlock": {
+            "town_recovered": "cp"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Merit explained the rules of a race before it began.",
+              "ko": "메릿은 경주가 시작되기 전에 규칙을 설명했다."
+            },
+            {
+              "en": "Goldie showed me how medals are made, but she would not tell me who might win.",
+              "ko": "골디는 메달 제작법을 보여 주었지만 누가 이길지는 말해 주지 않았다."
+            },
+            {
+              "en": "Merit walked the route with the youngest runners before the start.",
+              "ko": "메리트는 출발 전에 어린 선수들과 코스를 함께 걸었다."
+            },
+            {
+              "en": "I saw Goldie leave the name space on each medal blank until the results were known.",
+              "ko": "골디는 결과가 나올 때까지 메달의 이름 칸을 비워 두었다."
+            }
+          ]
+        },
+        {
+          "id": "merchant_12",
+          "number": 12,
+          "title_en": "Pronovia",
+          "title_ko": "프로노비아",
+          "en": "Tag keeps a careful list of lost objects. Spine repaired my notebook and advised me to write my name inside it.\n\nA customer described a lost umbrella without seeing the list. Tag checked the description against the item while Spine finished the last stitch on my notebook.",
+          "ko": "태그는 분실물 목록을 꼼꼼하게 관리한다. 스파인은 내 공책을 수리하고 안에 이름을 적으라고 권했다.\n\n한 손님은 목록을 보지 않고 잃어버린 우산을 설명했다. 스파인이 내 공책의 마지막 바느질을 하는 동안 태그가 물건과 설명을 대조했다.",
+          "unlock": {
+            "town_recovered": "pn"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Tag keeps a careful list of lost objects.",
+              "ko": "태그는 분실물 목록을 꼼꼼하게 관리한다."
+            },
+            {
+              "en": "Spine repaired my notebook and advised me to write my name inside it.",
+              "ko": "스파인은 내 공책을 수리하고 안에 이름을 적으라고 권했다."
+            },
+            {
+              "en": "A customer described a lost umbrella without seeing the list.",
+              "ko": "한 손님은 목록을 보지 않고 잃어버린 우산을 설명했다."
+            },
+            {
+              "en": "Tag checked the description against the item while Spine finished the last stitch on my notebook.",
+              "ko": "스파인이 내 공책의 마지막 바느질을 하는 동안 태그가 물건과 설명을 대조했다."
+            }
+          ]
+        },
+        {
+          "id": "merchant_13",
+          "number": 13,
+          "title_en": "Prep Isles",
+          "title_ko": "프렙 아일스",
+          "en": "North helped me read a harbor map, and Beam showed me the lighthouse from the shore. I waited for the next safe ferry.\n\nBeam showed me where the shore light would disappear behind a headland. I copied the spot onto North’s map before the ferry arrived.",
+          "ko": "노스는 항구 지도를 읽도록 도왔고 빔은 물가에서 등대를 보여 주었다. 나는 다음 안전한 배를 기다렸다.\n\n빔은 어느 지점에서 육지의 불빛이 곶 뒤로 사라지는지 보여 주었다. 배가 오기 전에 노스의 지도에 그 지점을 옮겨 적었다.",
+          "unlock": {
+            "town_recovered": "ot"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "North helped me read a harbor map, and Beam showed me the lighthouse from the shore.",
+              "ko": "노스는 항구 지도를 읽도록 도왔고 빔은 물가에서 등대를 보여 주었다."
+            },
+            {
+              "en": "I waited for the next safe ferry.",
+              "ko": "나는 다음 안전한 배를 기다렸다."
+            },
+            {
+              "en": "Beam showed me where the shore light would disappear behind a headland.",
+              "ko": "빔은 어느 지점에서 육지의 불빛이 곶 뒤로 사라지는지 보여 주었다."
+            },
+            {
+              "en": "I copied the spot onto North’s map before the ferry arrived.",
+              "ko": "배가 오기 전에 노스의 지도에 그 지점을 옮겨 적었다."
+            }
+          ]
+        },
+        {
+          "id": "merchant_14",
+          "number": 14,
+          "title_en": "Verbal Heights",
+          "title_ko": "버벌 하이츠",
+          "en": "Journey asked what I hoped to do on my trip. Trek helped me choose a bag that was light enough to carry uphill.\n\nTrek asked me to walk up the inn steps with the bag before I bought it. I left two spare cups behind and carried only what I could use.",
+          "ko": "저니는 여행에서 무엇을 하고 싶은지 물었다. 트렉은 언덕을 오르기에 충분히 가벼운 가방을 고르도록 도왔다.\n\n트렉은 가방을 사기 전에 메고 여관 계단을 올라가 보라고 했다. 나는 여분의 잔 두 개를 두고 실제로 쓸 물건만 챙겼다.",
+          "unlock": {
+            "town_recovered": "iv"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Journey asked what I hoped to do on my trip.",
+              "ko": "저니는 여행에서 무엇을 하고 싶은지 물었다."
+            },
+            {
+              "en": "Trek helped me choose a bag that was light enough to carry uphill.",
+              "ko": "트렉은 언덕을 오르기에 충분히 가벼운 가방을 고르도록 도왔다."
+            },
+            {
+              "en": "Trek asked me to walk up the inn steps with the bag before I bought it.",
+              "ko": "트렉은 가방을 사기 전에 메고 여관 계단을 올라가 보라고 했다."
+            },
+            {
+              "en": "I left two spare cups behind and carried only what I could use.",
+              "ko": "나는 여분의 잔 두 개를 두고 실제로 쓸 물건만 챙겼다."
+            }
+          ]
+        },
+        {
+          "id": "merchant_15",
+          "number": 15,
+          "title_en": "Sensewood",
+          "title_ko": "센스우드",
+          "en": "Aroma let me smell several herbs before buying tea. Ring explained why different bells produce different sounds.\n\nAroma kept the strongest leaves in a separate tin. Ring rang two bells in turn so I could hear the difference without looking.",
+          "ko": "아로마는 차를 사기 전에 여러 허브의 향을 맡게 해 주었다. 링은 종마다 다른 소리가 나는 이유를 설명했다.\n\n아로마는 향이 가장 강한 잎을 따로 통에 보관했다. 링은 보지 않고도 차이를 들을 수 있게 종 두 개를 번갈아 울렸다.",
+          "unlock": {
+            "town_recovered": "pe"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Aroma let me smell several herbs before buying tea.",
+              "ko": "아로마는 차를 사기 전에 여러 허브의 향을 맡게 해 주었다."
+            },
+            {
+              "en": "Ring explained why different bells produce different sounds.",
+              "ko": "링은 종마다 다른 소리가 나는 이유를 설명했다."
+            },
+            {
+              "en": "Aroma kept the strongest leaves in a separate tin.",
+              "ko": "아로마는 향이 가장 강한 잎을 따로 통에 보관했다."
+            },
+            {
+              "en": "Ring rang two bells in turn so I could hear the difference without looking.",
+              "ko": "링은 보지 않고도 차이를 들을 수 있게 종 두 개를 번갈아 울렸다."
+            }
+          ]
+        },
+        {
+          "id": "merchant_16",
+          "number": 16,
+          "title_en": "Nounville",
+          "title_ko": "노운빌",
+          "en": "Melody was practicing a song, and Ribbon was making decorations. Cue asked me to keep the space beside the stage clear.\n\nRibbon tied the decorations above head height, and I moved my crate away from the steps. During the rehearsal I could hear Melody even from the back row.",
+          "ko": "멜로디는 노래를 연습하고 리본은 장식품을 만들고 있었다. 큐는 무대 옆 공간을 비워 달라고 부탁했다.\n\n리본은 머리보다 높은 곳에 장식을 달았고 나는 계단에서 상자를 치웠다. 연습 때 맨 뒷줄에서도 멜로디의 노래가 들렸다.",
+          "unlock": {
+            "town_recovered": "ng"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Melody was practicing a song, and Ribbon was making decorations.",
+              "ko": "멜로디는 노래를 연습하고 리본은 장식품을 만들고 있었다."
+            },
+            {
+              "en": "Cue asked me to keep the space beside the stage clear.",
+              "ko": "큐는 무대 옆 공간을 비워 달라고 부탁했다."
+            },
+            {
+              "en": "Ribbon tied the decorations above head height, and I moved my crate away from the steps.",
+              "ko": "리본은 머리보다 높은 곳에 장식을 달았고 나는 계단에서 상자를 치웠다."
+            },
+            {
+              "en": "During the rehearsal I could hear Melody even from the back row.",
+              "ko": "연습 때 맨 뒷줄에서도 멜로디의 노래가 들렸다."
+            }
+          ]
+        },
+        {
+          "id": "merchant_17",
+          "number": 17,
+          "title_en": "Speechport",
+          "title_ko": "스피치포트",
+          "en": "Reedley repeated my message to check that he had understood it. Gloss helped me choose clearer words before the message was sent.\n\nReedley repeated the delivery time after I changed my wording. I signed the final copy only after Gloss read it back to me.",
+          "ko": "리들리는 내 전갈을 이해했는지 확인하려고 되풀이했다. 글로스는 전갈을 보내기 전에 더 명확한 말을 고르도록 도왔다.\n\n내가 표현을 고치자 리들리는 배달 시각을 다시 말해 주었다. 글로스가 내게 다시 읽어 준 뒤에야 마지막 사본에 서명했다.",
+          "unlock": {
+            "town_recovered": "rs"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Reedley repeated my message to check that he had understood it.",
+              "ko": "리들리는 내 전갈을 이해했는지 확인하려고 되풀이했다."
+            },
+            {
+              "en": "Gloss helped me choose clearer words before the message was sent.",
+              "ko": "글로스는 전갈을 보내기 전에 더 명확한 말을 고르도록 도왔다."
+            },
+            {
+              "en": "Reedley repeated the delivery time after I changed my wording.",
+              "ko": "내가 표현을 고치자 리들리는 배달 시각을 다시 말해 주었다."
+            },
+            {
+              "en": "I signed the final copy only after Gloss read it back to me.",
+              "ko": "글로스가 내게 다시 읽어 준 뒤에야 마지막 사본에 서명했다."
+            }
+          ]
+        },
+        {
+          "id": "merchant_18",
+          "number": 18,
+          "title_en": "Inversion Keep",
+          "title_ko": "인버전 킵",
+          "en": "Silver showed me the difference between a key and a decorative copy. Verse explained why the archive keeps a record of every official change.\n\nSilver stamped the souvenir copy on the back so that nobody could use it as proof of entry. Verse showed me where to record its purchase without adding it to the official key list.",
+          "ko": "실버는 열쇠와 장식용 모조품의 차이를 보여 주었다. 버스는 기록실이 공식 변경 사항을 모두 기록하는 이유를 설명했다.\n\n실버는 기념품을 출입 증표로 쓸 수 없게 뒷면에 도장을 찍었다. 버스는 공식 열쇠 목록과 별도로 구입을 기록할 곳을 알려 주었다.",
+          "unlock": {
+            "town_recovered": "sx"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Silver showed me the difference between a key and a decorative copy.",
+              "ko": "실버는 열쇠와 장식용 모조품의 차이를 보여 주었다."
+            },
+            {
+              "en": "Verse explained why the archive keeps a record of every official change.",
+              "ko": "버스는 기록실이 공식 변경 사항을 모두 기록하는 이유를 설명했다."
+            },
+            {
+              "en": "Silver stamped the souvenir copy on the back so that nobody could use it as proof of entry.",
+              "ko": "실버는 기념품을 출입 증표로 쓸 수 없게 뒷면에 도장을 찍었다."
+            },
+            {
+              "en": "Verse showed me where to record its purchase without adding it to the official key list.",
+              "ko": "버스는 공식 열쇠 목록과 별도로 구입을 기록할 곳을 알려 주었다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beasts",
+      "title_en": "Creatures of the Ancient Lands",
+      "title_ko": "고대의 괴물들",
+      "genre": "folklore",
+      "volumes": [
+        {
+          "id": "beasts_1",
+          "number": 1,
+          "title_en": "Legends of Beville",
+          "title_ko": "비빌의 전설",
+          "en": "An old song describes the bee guardian warning farmers of storms. The song is a legend, not a weather record.\n\nA singer from Beville puts the flowers beside a mill rather than beside the road. Both tellings end with the farmers storing seed before a storm.",
+          "ko": "옛 노래에는 벌 수호자가 농부들에게 폭풍을 경고하는 이야기가 나온다. 이 노래는 전설이지 기상 기록은 아니다.\n\n비빌의 어느 가수는 꽃이 길가가 아니라 방앗간 옆에 있었다고 한다. 두 이야기 모두 농부들이 폭풍 전에 씨앗을 보관하는 것으로 끝난다.",
+          "unlock": {
+            "town_recovered": "g1"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "An old song describes the bee guardian warning farmers of storms.",
+              "ko": "옛 노래에는 벌 수호자가 농부들에게 폭풍을 경고하는 이야기가 나온다."
+            },
+            {
+              "en": "The song is a legend, not a weather record.",
+              "ko": "이 노래는 전설이지 기상 기록은 아니다."
+            },
+            {
+              "en": "A singer from Beville puts the flowers beside a mill rather than beside the road.",
+              "ko": "비빌의 어느 가수는 꽃이 길가가 아니라 방앗간 옆에 있었다고 한다."
+            },
+            {
+              "en": "Both tellings end with the farmers storing seed before a storm.",
+              "ko": "두 이야기 모두 농부들이 폭풍 전에 씨앗을 보관하는 것으로 끝난다."
+            }
+          ]
+        },
+        {
+          "id": "beasts_2",
+          "number": 2,
+          "title_en": "Legends of Queston",
+          "title_ko": "퀘스턴의 전설",
+          "en": "A cave tale describes a guardian who answered questions with more questions. Some travelers found this annoying, while others learned to examine their own assumptions.\n\nOne traveler asked why a passage was dark, and the guardian asked whether he had brought a lamp. The teller says the traveler went back for one before entering.",
+          "ko": "동굴 설화에는 질문에 또 다른 질문으로 답하는 수호자가 나온다. 어떤 여행자는 귀찮아했고 다른 이들은 자신의 생각을 점검하는 법을 배웠다.\n\n한 여행자가 통로가 왜 어두운지 묻자 수호자는 등불을 가져왔는지 되물었다. 이야기꾼은 여행자가 들어가기 전에 등불을 가지러 돌아갔다고 한다.",
+          "unlock": {
+            "town_recovered": "g2"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "A cave tale describes a guardian who answered questions with more questions.",
+              "ko": "동굴 설화에는 질문에 또 다른 질문으로 답하는 수호자가 나온다."
+            },
+            {
+              "en": "Some travelers found this annoying, while others learned to examine their own assumptions.",
+              "ko": "어떤 여행자는 귀찮아했고 다른 이들은 자신의 생각을 점검하는 법을 배웠다."
+            },
+            {
+              "en": "One traveler asked why a passage was dark, and the guardian asked whether he had brought a lamp.",
+              "ko": "한 여행자가 통로가 왜 어두운지 묻자 수호자는 등불을 가져왔는지 되물었다."
+            },
+            {
+              "en": "The teller says the traveler went back for one before entering.",
+              "ko": "이야기꾼은 여행자가 들어가기 전에 등불을 가지러 돌아갔다고 한다."
+            }
+          ]
+        },
+        {
+          "id": "beasts_3",
+          "number": 3,
+          "title_en": "Legends of Tensefield",
+          "title_ko": "텐스필드의 전설",
+          "en": "The keeper of time appears in stories about patience. In one tale, he waits for a child who has stopped to help an injured bird.\n\nThe child puts the bird in an empty basket and sets it in the shade. The keeper waits until she has found someone who can care for it.",
+          "ko": "시간 수호자는 인내에 관한 이야기에 등장한다. 한 설화에서는 다친 새를 돕느라 멈춘 아이를 기다린다.\n\n아이는 새를 빈 바구니에 넣어 그늘에 둔다. 시간지기는 아이가 새를 돌볼 사람을 찾을 때까지 기다린다.",
+          "unlock": {
+            "town_recovered": "tn"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "The keeper of time appears in stories about patience.",
+              "ko": "시간 수호자는 인내에 관한 이야기에 등장한다."
+            },
+            {
+              "en": "In one tale, he waits for a child who has stopped to help an injured bird.",
+              "ko": "한 설화에서는 다친 새를 돕느라 멈춘 아이를 기다린다."
+            },
+            {
+              "en": "The child puts the bird in an empty basket and sets it in the shade.",
+              "ko": "아이는 새를 빈 바구니에 넣어 그늘에 둔다."
+            },
+            {
+              "en": "The keeper waits until she has found someone who can care for it.",
+              "ko": "시간지기는 아이가 새를 돌볼 사람을 찾을 때까지 기다린다."
+            }
+          ]
+        },
+        {
+          "id": "beasts_4",
+          "number": 4,
+          "title_en": "Legends of Modalvale",
+          "title_ko": "모달베일의 전설",
+          "en": "A story about Mustar says that he taught travelers the difference between a warning and a command. The oldest surviving version is incomplete.\n\nIn a later telling, a warning tells the travelers that the bridge may be unsafe. A command tells them to step back while a loose beam is being examined.",
+          "ko": "머스타에 관한 이야기는 그가 여행자들에게 경고와 명령의 차이를 가르쳤다고 전한다. 남아 있는 가장 오래된 판본은 불완전하다.\n\n후대 판본에서 경고는 다리가 위험할 수 있다는 사실을 여행자들에게 알린다. 명령은 헐거운 들보를 살피는 동안 물러서라고 한다.",
+          "unlock": {
+            "town_recovered": "md"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "A story about Mustar says that he taught travelers the difference between a warning and a command.",
+              "ko": "머스타에 관한 이야기는 그가 여행자들에게 경고와 명령의 차이를 가르쳤다고 전한다."
+            },
+            {
+              "en": "The oldest surviving version is incomplete.",
+              "ko": "남아 있는 가장 오래된 판본은 불완전하다."
+            },
+            {
+              "en": "In a later telling, a warning tells the travelers that the bridge may be unsafe.",
+              "ko": "후대 판본에서 경고는 다리가 위험할 수 있다는 사실을 여행자들에게 알린다."
+            },
+            {
+              "en": "A command tells them to step back while a loose beam is being examined.",
+              "ko": "명령은 헐거운 들보를 살피는 동안 물러서라고 한다."
+            }
+          ]
+        },
+        {
+          "id": "beasts_5",
+          "number": 5,
+          "title_en": "Legends of Relawood",
+          "title_ko": "렐라우드의 전설",
+          "en": "Relator is described as a guardian of paths through the forest. In one tale, a lost traveler finds the way home by asking several people for help.\n\nA woodcutter points to a stream, and a child explains where the footbridge crosses it. The traveler needs both parts of the directions.",
+          "ko": "렐레이터는 숲길의 수호자로 묘사된다. 한 설화에서는 길 잃은 여행자가 여러 사람에게 도움을 청해 집으로 돌아간다.\n\n나무꾼이 시내를 가리키고 아이가 어디에 징검다리가 있는지 설명한다. 여행자에게는 두 가지 안내가 모두 필요하다.",
+          "unlock": {
+            "town_recovered": "rp"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Relator is described as a guardian of paths through the forest.",
+              "ko": "렐레이터는 숲길의 수호자로 묘사된다."
+            },
+            {
+              "en": "In one tale, a lost traveler finds the way home by asking several people for help.",
+              "ko": "한 설화에서는 길 잃은 여행자가 여러 사람에게 도움을 청해 집으로 돌아간다."
+            },
+            {
+              "en": "A woodcutter points to a stream, and a child explains where the footbridge crosses it.",
+              "ko": "나무꾼이 시내를 가리키고 아이가 어디에 징검다리가 있는지 설명한다."
+            },
+            {
+              "en": "The traveler needs both parts of the directions.",
+              "ko": "여행자에게는 두 가지 안내가 모두 필요하다."
+            }
+          ]
+        },
+        {
+          "id": "beasts_6",
+          "number": 6,
+          "title_en": "Legends of Passive Lake",
+          "title_ko": "패시브 레이크의 전설",
+          "en": "Passivus appears in a song about a boat returned by the lake. The song does not establish whether the guardian actually moved the boat.\n\nIn one verse a current carries the boat into the reeds. A second verse credits the guardian, but its writer is unknown.",
+          "ko": "파시부스는 호수가 돌려준 배에 관한 노래에 등장한다. 수호자가 실제로 배를 옮겼는지는 노래만으로 알 수 없다.\n\n한 구절에서는 물살이 배를 갈대밭으로 떠밀었다. 다른 구절은 수호자가 한 일이라고 적지만 글쓴이는 알려져 있지 않다.",
+          "unlock": {
+            "town_recovered": "ps"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Passivus appears in a song about a boat returned by the lake.",
+              "ko": "파시부스는 호수가 돌려준 배에 관한 노래에 등장한다."
+            },
+            {
+              "en": "The song does not establish whether the guardian actually moved the boat.",
+              "ko": "수호자가 실제로 배를 옮겼는지는 노래만으로 알 수 없다."
+            },
+            {
+              "en": "In one verse a current carries the boat into the reeds.",
+              "ko": "한 구절에서는 물살이 배를 갈대밭으로 떠밀었다."
+            },
+            {
+              "en": "A second verse credits the guardian, but its writer is unknown.",
+              "ko": "다른 구절은 수호자가 한 일이라고 적지만 글쓴이는 알려져 있지 않다."
+            }
+          ]
+        },
+        {
+          "id": "beasts_7",
+          "number": 7,
+          "title_en": "Legends of Perfect Oasis",
+          "title_ko": "퍼펙트 오아시스의 전설",
+          "en": "Perfectus is remembered in tales about promises kept over many years. A popular version describes two friends meeting again at a well.\n\nEach friend brings a cup, although neither knows whether the other will come. They fill both cups at the well before telling their stories.",
+          "ko": "퍼펙투스는 오랜 세월 지킨 약속에 관한 설화에서 기억된다. 유명한 판본은 우물에서 다시 만난 두 친구를 묘사한다.\n\n두 친구는 상대가 올지 모르면서도 잔을 하나씩 가져왔다. 서로의 이야기를 하기 전에 우물에서 두 잔을 채웠다.",
+          "unlock": {
+            "town_recovered": "pf"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Perfectus is remembered in tales about promises kept over many years.",
+              "ko": "퍼펙투스는 오랜 세월 지킨 약속에 관한 설화에서 기억된다."
+            },
+            {
+              "en": "A popular version describes two friends meeting again at a well.",
+              "ko": "유명한 판본은 우물에서 다시 만난 두 친구를 묘사한다."
+            },
+            {
+              "en": "Each friend brings a cup, although neither knows whether the other will come.",
+              "ko": "두 친구는 상대가 올지 모르면서도 잔을 하나씩 가져왔다."
+            },
+            {
+              "en": "They fill both cups at the well before telling their stories.",
+              "ko": "서로의 이야기를 하기 전에 우물에서 두 잔을 채웠다."
+            }
+          ]
+        },
+        {
+          "id": "beasts_8",
+          "number": 8,
+          "title_en": "Legends of Whereport",
+          "title_ko": "웨어포트의 전설",
+          "en": "Locarus appears in stories about finding one's way home. One map bears his name, but its maker is unknown.\n\nThe map marks a bend where the traveler can see the harbor at low tide. There is no note explaining whether Locarus drew the mark or merely appears in the title.",
+          "ko": "로카루스는 집으로 가는 길을 찾는 이야기에 등장한다. 지도 하나에 그의 이름이 있지만 제작자는 알려지지 않았다.\n\n지도에는 썰물 때 항구를 볼 수 있는 물굽이가 표시되어 있다. 로카루스가 그 표식을 그렸는지 제목에만 나오는지는 적혀 있지 않다.",
+          "unlock": {
+            "town_recovered": "rv"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Locarus appears in stories about finding one's way home.",
+              "ko": "로카루스는 집으로 가는 길을 찾는 이야기에 등장한다."
+            },
+            {
+              "en": "One map bears his name, but its maker is unknown.",
+              "ko": "지도 하나에 그의 이름이 있지만 제작자는 알려지지 않았다."
+            },
+            {
+              "en": "The map marks a bend where the traveler can see the harbor at low tide.",
+              "ko": "지도에는 썰물 때 항구를 볼 수 있는 물굽이가 표시되어 있다."
+            },
+            {
+              "en": "There is no note explaining whether Locarus drew the mark or merely appears in the title.",
+              "ko": "로카루스가 그 표식을 그렸는지 제목에만 나오는지는 적혀 있지 않다."
+            }
+          ]
+        },
+        {
+          "id": "beasts_9",
+          "number": 9,
+          "title_en": "Legends of Participle Canyon",
+          "title_ko": "파티서플 캐니언의 전설",
+          "en": "Partix is pictured above a canyon in several old drawings. The pictures disagree about the shape of his wings, so they cannot serve as exact descriptions.\n\nOne drawing places Partix near a cliff, while another puts him above a path. The archive keeps both drawings under the names of their separate collections.",
+          "ko": "파틱스는 여러 옛 그림에서 협곡 위에 그려져 있다. 날개의 모양이 서로 달라 정확한 묘사로 삼을 수 없다.\n\n한 그림은 파틱스를 절벽 가까이, 다른 그림은 길 위에 배치한다. 기록실은 두 그림을 각각의 소장처 이름으로 보관한다.",
+          "unlock": {
+            "town_recovered": "pc"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Partix is pictured above a canyon in several old drawings.",
+              "ko": "파틱스는 여러 옛 그림에서 협곡 위에 그려져 있다."
+            },
+            {
+              "en": "The pictures disagree about the shape of his wings, so they cannot serve as exact descriptions.",
+              "ko": "날개의 모양이 서로 달라 정확한 묘사로 삼을 수 없다."
+            },
+            {
+              "en": "One drawing places Partix near a cliff, while another puts him above a path.",
+              "ko": "한 그림은 파틱스를 절벽 가까이, 다른 그림은 길 위에 배치한다."
+            },
+            {
+              "en": "The archive keeps both drawings under the names of their separate collections.",
+              "ko": "기록실은 두 그림을 각각의 소장처 이름으로 보관한다."
+            }
+          ]
+        },
+        {
+          "id": "beasts_10",
+          "number": 10,
+          "title_en": "Legends of Ifhaven",
+          "title_ko": "이프헤이븐의 전설",
+          "en": "Wishra is the subject of a tale about a wish that changed after a girl listened to her friend. The ending differs between villages.\n\nIn Ifhaven, the girl wishes that her friend can visit instead of asking for a faster bird. Another version has the two friends write to each other first.",
+          "ko": "위시라는 소녀가 친구의 말을 들은 뒤 소원이 바뀌는 설화의 주인공이다. 결말은 마을마다 다르다.\n\n이프헤이븐 판본에서 소녀는 더 빠른 새를 구하는 대신 친구가 찾아올 수 있기를 빈다. 다른 판본에서는 두 친구가 먼저 서로 편지를 쓴다.",
+          "unlock": {
+            "town_recovered": "sj"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Wishra is the subject of a tale about a wish that changed after a girl listened to her friend.",
+              "ko": "위시라는 소녀가 친구의 말을 들은 뒤 소원이 바뀌는 설화의 주인공이다."
+            },
+            {
+              "en": "The ending differs between villages.",
+              "ko": "결말은 마을마다 다르다."
+            },
+            {
+              "en": "In Ifhaven, the girl wishes that her friend can visit instead of asking for a faster bird.",
+              "ko": "이프헤이븐 판본에서 소녀는 더 빠른 새를 구하는 대신 친구가 찾아올 수 있기를 빈다."
+            },
+            {
+              "en": "Another version has the two friends write to each other first.",
+              "ko": "다른 판본에서는 두 친구가 먼저 서로 편지를 쓴다."
+            }
+          ]
+        },
+        {
+          "id": "beasts_11",
+          "number": 11,
+          "title_en": "Legends of Compare Hills",
+          "title_ko": "컴페어 힐스의 전설",
+          "en": "A tale about Maximus compares two runners who choose different goals. One seeks a record, while the other helps a friend finish the race.\n\nThe first runner finishes before anyone else, but the crowd waits for the last pair. The storyteller gives the time for the winner and names the friend who helped.",
+          "ko": "맥시머스에 관한 설화는 서로 다른 목표를 택한 두 달리기 선수를 비교한다. 한 명은 기록을 추구하고 다른 한 명은 친구의 완주를 돕는다.\n\n첫 번째 주자가 가장 먼저 들어오지만 관중은 마지막 두 사람을 기다린다. 이야기꾼은 우승자의 기록과 친구를 도운 사람의 이름을 함께 전한다.",
+          "unlock": {
+            "town_recovered": "cp"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "A tale about Maximus compares two runners who choose different goals.",
+              "ko": "맥시머스에 관한 설화는 서로 다른 목표를 택한 두 달리기 선수를 비교한다."
+            },
+            {
+              "en": "One seeks a record, while the other helps a friend finish the race.",
+              "ko": "한 명은 기록을 추구하고 다른 한 명은 친구의 완주를 돕는다."
+            },
+            {
+              "en": "The first runner finishes before anyone else, but the crowd waits for the last pair.",
+              "ko": "첫 번째 주자가 가장 먼저 들어오지만 관중은 마지막 두 사람을 기다린다."
+            },
+            {
+              "en": "The storyteller gives the time for the winner and names the friend who helped.",
+              "ko": "이야기꾼은 우승자의 기록과 친구를 도운 사람의 이름을 함께 전한다."
+            }
+          ]
+        },
+        {
+          "id": "beasts_12",
+          "number": 12,
+          "title_en": "Legends of Pronovia",
+          "title_ko": "프로노비아의 전설",
+          "en": "Pronomus appears in a story about two identical bags. Their owners recover them by describing the contents rather than guessing from their appearance.\n\nOne owner remembers a folded map in the inner pocket. The other describes a button wrapped in cloth, and both bags are returned.",
+          "ko": "프로노무스는 똑같은 가방 두 개에 관한 이야기에서 등장한다. 주인들은 겉모습으로 추측하지 않고 내용물을 설명해 가방을 되찾는다.\n\n한 사람은 안주머니에 접은 지도가 있다고 기억한다. 다른 사람은 천에 싼 단추를 설명하고 두 가방은 각각 주인에게 돌아간다.",
+          "unlock": {
+            "town_recovered": "pn"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Pronomus appears in a story about two identical bags.",
+              "ko": "프로노무스는 똑같은 가방 두 개에 관한 이야기에서 등장한다."
+            },
+            {
+              "en": "Their owners recover them by describing the contents rather than guessing from their appearance.",
+              "ko": "주인들은 겉모습으로 추측하지 않고 내용물을 설명해 가방을 되찾는다."
+            },
+            {
+              "en": "One owner remembers a folded map in the inner pocket.",
+              "ko": "한 사람은 안주머니에 접은 지도가 있다고 기억한다."
+            },
+            {
+              "en": "The other describes a button wrapped in cloth, and both bags are returned.",
+              "ko": "다른 사람은 천에 싼 단추를 설명하고 두 가방은 각각 주인에게 돌아간다."
+            }
+          ]
+        },
+        {
+          "id": "beasts_13",
+          "number": 13,
+          "title_en": "Legends of Prep Isles",
+          "title_ko": "프렙 아일스의 전설",
+          "en": "Prepos is said to have taught sailors to describe the positions of islands. Surviving verses are too short to reconstruct an actual route.\n\nOne fragment places a reef between two islands, but none of the remaining lines names the islands. A keeper copied the words into the catalog and left the route blank.",
+          "ko": "프레포스는 선원들에게 섬의 위치를 설명하는 법을 가르쳤다고 전해진다. 남은 시구가 너무 짧아 실제 항로를 복원할 수는 없다.\n\n한 단편에는 두 섬 사이에 암초가 나온다. 남은 구절 어디에도 섬 이름은 없다. 사서는 말을 목록에 옮기고 항로 칸은 비워 두었다.",
+          "unlock": {
+            "town_recovered": "ot"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Prepos is said to have taught sailors to describe the positions of islands.",
+              "ko": "프레포스는 선원들에게 섬의 위치를 설명하는 법을 가르쳤다고 전해진다."
+            },
+            {
+              "en": "Surviving verses are too short to reconstruct an actual route.",
+              "ko": "남은 시구가 너무 짧아 실제 항로를 복원할 수는 없다."
+            },
+            {
+              "en": "One fragment places a reef between two islands, but none of the remaining lines names the islands.",
+              "ko": "한 단편에는 두 섬 사이에 암초가 나온다. 남은 구절 어디에도 섬 이름은 없다."
+            },
+            {
+              "en": "A keeper copied the words into the catalog and left the route blank.",
+              "ko": "사서는 말을 목록에 옮기고 항로 칸은 비워 두었다."
+            }
+          ]
+        },
+        {
+          "id": "beasts_14",
+          "number": 14,
+          "title_en": "Legends of Verbal Heights",
+          "title_ko": "버벌 하이츠의 전설",
+          "en": "Verbalis appears in a tale about a traveler who changes her plan after discovering a new skill. The tale celebrates learning rather than reaching a particular destination.\n\nThe traveler learns how to mend a torn strap at a roadside workshop. She visits a mountain hamlet to show its children what she has learned.",
+          "ko": "버발리스는 새로운 재능을 발견한 뒤 계획을 바꾸는 여행자의 설화에 등장한다. 이 이야기는 특정 목적지 도착보다 배움을 기린다.\n\n여행자는 길가 작업장에서 찢어진 끈을 고치는 법을 배운다. 배운 것을 아이들에게 보여 주기 위해 산골 마을에 들른다.",
+          "unlock": {
+            "town_recovered": "iv"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Verbalis appears in a tale about a traveler who changes her plan after discovering a new skill.",
+              "ko": "버발리스는 새로운 재능을 발견한 뒤 계획을 바꾸는 여행자의 설화에 등장한다."
+            },
+            {
+              "en": "The tale celebrates learning rather than reaching a particular destination.",
+              "ko": "이 이야기는 특정 목적지 도착보다 배움을 기린다."
+            },
+            {
+              "en": "The traveler learns how to mend a torn strap at a roadside workshop.",
+              "ko": "여행자는 길가 작업장에서 찢어진 끈을 고치는 법을 배운다."
+            },
+            {
+              "en": "She visits a mountain hamlet to show its children what she has learned.",
+              "ko": "배운 것을 아이들에게 보여 주기 위해 산골 마을에 들른다."
+            }
+          ]
+        },
+        {
+          "id": "beasts_15",
+          "number": 15,
+          "title_en": "Legends of Sensewood",
+          "title_ko": "센스우드의 전설",
+          "en": "Sensar is associated with stories about listening carefully. A common tale warns that a frightening sound need not come from a dangerous creature.\n\nIn the story, dry branches scrape a hollow log when the wind changes. The child listens again from beside the path before going home.",
+          "ko": "센사르는 주의 깊게 듣는 이야기와 관련된다. 흔한 설화는 무서운 소리가 반드시 위험한 생물에게서 나오는 것은 아니라고 경고한다.\n\n이야기에서는 바람 방향이 바뀌면 마른 가지가 속이 빈 통나무를 긁는다. 아이는 집에 가기 전에 길가에 서서 다시 한번 귀를 기울인다.",
+          "unlock": {
+            "town_recovered": "pe"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Sensar is associated with stories about listening carefully.",
+              "ko": "센사르는 주의 깊게 듣는 이야기와 관련된다."
+            },
+            {
+              "en": "A common tale warns that a frightening sound need not come from a dangerous creature.",
+              "ko": "흔한 설화는 무서운 소리가 반드시 위험한 생물에게서 나오는 것은 아니라고 경고한다."
+            },
+            {
+              "en": "In the story, dry branches scrape a hollow log when the wind changes.",
+              "ko": "이야기에서는 바람 방향이 바뀌면 마른 가지가 속이 빈 통나무를 긁는다."
+            },
+            {
+              "en": "The child listens again from beside the path before going home.",
+              "ko": "아이는 집에 가기 전에 길가에 서서 다시 한번 귀를 기울인다."
+            }
+          ]
+        },
+        {
+          "id": "beasts_16",
+          "number": 16,
+          "title_en": "Legends of Nounville",
+          "title_ko": "노운빌의 전설",
+          "en": "Nomina appears in a festival tale in which children name objects for a play. The story ends when the actors agree on what each object represents.\n\nA wooden spoon becomes a key after the performers explain its part in the play. The children give it back to the cook when the curtain falls.",
+          "ko": "노미나는 아이들이 연극 소품의 이름을 붙이는 축제 설화에 등장한다. 배우들이 각 물건이 무엇을 나타내는지 합의하면서 이야기가 끝난다.\n\n배우들이 연극에서의 쓰임을 설명하자 나무 숟가락은 열쇠가 된다. 막이 내리자 아이들은 숟가락을 요리사에게 돌려준다.",
+          "unlock": {
+            "town_recovered": "ng"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Nomina appears in a festival tale in which children name objects for a play.",
+              "ko": "노미나는 아이들이 연극 소품의 이름을 붙이는 축제 설화에 등장한다."
+            },
+            {
+              "en": "The story ends when the actors agree on what each object represents.",
+              "ko": "배우들이 각 물건이 무엇을 나타내는지 합의하면서 이야기가 끝난다."
+            },
+            {
+              "en": "A wooden spoon becomes a key after the performers explain its part in the play.",
+              "ko": "배우들이 연극에서의 쓰임을 설명하자 나무 숟가락은 열쇠가 된다."
+            },
+            {
+              "en": "The children give it back to the cook when the curtain falls.",
+              "ko": "막이 내리자 아이들은 숟가락을 요리사에게 돌려준다."
+            }
+          ]
+        },
+        {
+          "id": "beasts_17",
+          "number": 17,
+          "title_en": "Legends of Speechport",
+          "title_ko": "스피치포트의 전설",
+          "en": "Reportus is remembered in a tale about a messenger who checks a doubtful report. The messenger returns with the original letter instead of spreading a rumor.\n\nThe messenger reads the date aloud to the person waiting at the gate. The gatekeeper then crosses out the rumor in his notes and leaves the letter beside it.",
+          "ko": "리포터스는 의심스러운 보고를 확인하는 전령의 설화에서 기억된다. 전령은 소문을 퍼뜨리는 대신 원래 편지를 가지고 돌아온다.\n\n전령은 성문에서 기다리는 사람에게 날짜를 소리 내어 읽어 준다. 문지기는 메모의 소문에 줄을 긋고 그 옆에 편지를 둔다.",
+          "unlock": {
+            "town_recovered": "rs"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Reportus is remembered in a tale about a messenger who checks a doubtful report.",
+              "ko": "리포터스는 의심스러운 보고를 확인하는 전령의 설화에서 기억된다."
+            },
+            {
+              "en": "The messenger returns with the original letter instead of spreading a rumor.",
+              "ko": "전령은 소문을 퍼뜨리는 대신 원래 편지를 가지고 돌아온다."
+            },
+            {
+              "en": "The messenger reads the date aloud to the person waiting at the gate.",
+              "ko": "전령은 성문에서 기다리는 사람에게 날짜를 소리 내어 읽어 준다."
+            },
+            {
+              "en": "The gatekeeper then crosses out the rumor in his notes and leaves the letter beside it.",
+              "ko": "문지기는 메모의 소문에 줄을 긋고 그 옆에 편지를 둔다."
+            }
+          ]
+        },
+        {
+          "id": "beasts_18",
+          "number": 18,
+          "title_en": "Legends of Inversion Keep",
+          "title_ko": "인버전 킵의 전설",
+          "en": "Invertus appears in a legend about a keeper who opens a hall to public discussion. The surviving text does not identify the hall or the date.\n\nThe listeners each ask one question before any answer is written down. In the surviving ending, the hall stays open long enough for everyone to hear the reply.",
+          "ko": "인버터스는 전당을 공개 토론에 개방하는 관리인의 전설에 등장한다. 남아 있는 글은 전당이나 날짜를 밝히지 않는다.\n\n청중은 대답을 기록하기 전에 한 사람씩 질문한다. 전해지는 결말에서 회관은 모두가 답변을 들을 때까지 문을 연다.",
+          "unlock": {
+            "town_recovered": "sx"
+          },
+          "previous_volume": null,
+          "segments": [
+            {
+              "en": "Invertus appears in a legend about a keeper who opens a hall to public discussion.",
+              "ko": "인버터스는 전당을 공개 토론에 개방하는 관리인의 전설에 등장한다."
+            },
+            {
+              "en": "The surviving text does not identify the hall or the date.",
+              "ko": "남아 있는 글은 전당이나 날짜를 밝히지 않는다."
+            },
+            {
+              "en": "The listeners each ask one question before any answer is written down.",
+              "ko": "청중은 대답을 기록하기 전에 한 사람씩 질문한다."
+            },
+            {
+              "en": "In the surviving ending, the hall stays open long enough for everyone to hear the reply.",
+              "ko": "전해지는 결말에서 회관은 모두가 답변을 들을 때까지 문을 연다."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "policy": "18 independent entries per collection. Append to reading room. Recovery means existing learning OR RPG dungeon clear; use actual save mapping. Travelogue is fictional and not proof of completed optional quests. Folklore is not a monster stat guide. Existing Songs of the Guardians remains separate; review overlap before release. Natural Korean; chunks pending."
+}

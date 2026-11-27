@@ -1,0 +1,441 @@
+{
+  "version": "0.1",
+  "status": "supplemental draft",
+  "questions": [
+    {
+      "id": "silence_review_1",
+      "town_id": "g1",
+      "question_en": "I ___ ready to help.",
+      "options": [
+        "am",
+        "is",
+        "are"
+      ],
+      "correct_index": 0,
+      "feedback_ko": "I에는 am."
+    },
+    {
+      "id": "silence_review_2",
+      "town_id": "g2",
+      "question_en": "___ she like music?",
+      "options": [
+        "Do",
+        "Does",
+        "Is"
+      ],
+      "correct_index": 1,
+      "feedback_ko": "일반동사 3인칭 단수 의문문."
+    },
+    {
+      "id": "silence_review_3",
+      "town_id": "tn",
+      "question_en": "We ___ the letter yesterday.",
+      "options": [
+        "find",
+        "found",
+        "will find"
+      ],
+      "correct_index": 1,
+      "feedback_ko": "끝난 과거 시점."
+    },
+    {
+      "id": "silence_review_4",
+      "town_id": "md",
+      "question_en": "You must ___ the gate.",
+      "options": [
+        "open",
+        "opens",
+        "to open"
+      ],
+      "correct_index": 0,
+      "feedback_ko": "조동사 뒤 동사원형."
+    },
+    {
+      "id": "silence_review_5",
+      "town_id": "rp",
+      "question_en": "The woman ___ found the key is here.",
+      "options": [
+        "which",
+        "whose",
+        "who"
+      ],
+      "correct_index": 2,
+      "feedback_ko": "사람 주격 관계대명사."
+    },
+    {
+      "id": "silence_review_6",
+      "town_id": "ps",
+      "question_en": "The gate was ___ by the guard.",
+      "options": [
+        "open",
+        "opened",
+        "opening"
+      ],
+      "correct_index": 1,
+      "feedback_ko": "수동태 과거분사."
+    },
+    {
+      "id": "silence_review_7",
+      "town_id": "pf",
+      "question_en": "She has ___ her work.",
+      "options": [
+        "finish",
+        "finishing",
+        "finished"
+      ],
+      "correct_index": 2,
+      "feedback_ko": "현재완료 과거분사."
+    },
+    {
+      "id": "silence_review_8",
+      "town_id": "rv",
+      "question_en": "This is the room ___ we met.",
+      "options": [
+        "where",
+        "when",
+        "why"
+      ],
+      "correct_index": 0,
+      "feedback_ko": "장소 관계부사."
+    },
+    {
+      "id": "silence_review_9",
+      "town_id": "pc",
+      "question_en": "___ in English, the letter was easy to read.",
+      "options": [
+        "Writing",
+        "Written",
+        "Write"
+      ],
+      "correct_index": 1,
+      "feedback_ko": "편지는 쓰이는 대상."
+    },
+    {
+      "id": "silence_review_10",
+      "town_id": "sj",
+      "question_en": "If I were you, I ___ help him.",
+      "options": [
+        "will",
+        "would",
+        "am"
+      ],
+      "correct_index": 1,
+      "feedback_ko": "현재 반대 가정."
+    },
+    {
+      "id": "silence_review_11",
+      "town_id": "cp",
+      "question_en": "This road is ___ than that one.",
+      "options": [
+        "short",
+        "shorter",
+        "shortest"
+      ],
+      "correct_index": 1,
+      "feedback_ko": "비교급."
+    },
+    {
+      "id": "silence_review_12",
+      "town_id": "pn",
+      "question_en": "This bag is ___.",
+      "options": [
+        "my",
+        "me",
+        "mine"
+      ],
+      "correct_index": 2,
+      "feedback_ko": "소유대명사."
+    },
+    {
+      "id": "silence_review_13",
+      "town_id": "ot",
+      "question_en": "The ship leaves ___ noon.",
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "correct_index": 0,
+      "feedback_ko": "특정 시각."
+    },
+    {
+      "id": "silence_review_14",
+      "town_id": "iv",
+      "question_en": "He enjoys ___ stories.",
+      "options": [
+        "read",
+        "reading",
+        "to read"
+      ],
+      "correct_index": 1,
+      "feedback_ko": "enjoy 뒤 동명사."
+    },
+    {
+      "id": "silence_review_15",
+      "town_id": "pe",
+      "question_en": "She made me ___ the door.",
+      "options": [
+        "open",
+        "to open",
+        "opened"
+      ],
+      "correct_index": 0,
+      "feedback_ko": "능동 make 목적격보어."
+    },
+    {
+      "id": "silence_review_16",
+      "town_id": "ng",
+      "question_en": "We need some ___.",
+      "options": [
+        "water",
+        "waters",
+        "a water"
+      ],
+      "correct_index": 0,
+      "feedback_ko": "일반적인 물은 불가산."
+    },
+    {
+      "id": "silence_review_17",
+      "town_id": "rs",
+      "question_en": "I know where ___.",
+      "options": [
+        "is he",
+        "he is",
+        "does he"
+      ],
+      "correct_index": 1,
+      "feedback_ko": "간접의문문 어순."
+    },
+    {
+      "id": "silence_review_18",
+      "town_id": "sx",
+      "question_en": "Never ___ I seen such a light.",
+      "options": [
+        "have",
+        "has",
+        "am"
+      ],
+      "correct_index": 0,
+      "feedback_ko": "부정어 문두 도치."
+    }
+  ],
+  "companion_quests": [
+    {
+      "character_key": "Subject",
+      "town_id": "g1",
+      "title_en": "The First Step",
+      "clues": [
+        {
+          "en": "I can carry the box alone.",
+          "ko": "나는 상자를 혼자 나를 수 있어."
+        },
+        {
+          "en": "The box is too heavy for one person.",
+          "ko": "상자는 한 사람이 들기에는 너무 무겁다."
+        }
+      ],
+      "task": {
+        "question_en": "What should we do?",
+        "options": [
+          "Ask a friend for help.",
+          "Leave everyone behind.",
+          "Break the box."
+        ],
+        "correct_index": 0,
+        "feedback_ko": "도움을 요청하는 것이 책임 있는 행동이다."
+      },
+      "completion_flag": "companion_arc_Subject",
+      "reward_type": "story_flag_only"
+    },
+    {
+      "character_key": "Verbella",
+      "town_id": "g2",
+      "title_en": "A Reason to Act",
+      "clues": [
+        {
+          "en": "The guest is hungry.",
+          "ko": "손님은 배가 고프다."
+        },
+        {
+          "en": "He likes rice, but he does not like fish.",
+          "ko": "그는 밥을 좋아하지만 생선은 좋아하지 않는다."
+        }
+      ],
+      "task": {
+        "question_en": "What should we do?",
+        "options": [
+          "Serve fish.",
+          "Serve rice.",
+          "Close the kitchen."
+        ],
+        "correct_index": 1,
+        "feedback_ko": "손님의 기호를 이해하고 행동한다."
+      },
+      "completion_flag": "companion_arc_Verbella",
+      "reward_type": "story_flag_only"
+    },
+    {
+      "character_key": "Comple",
+      "town_id": "md",
+      "title_en": "More Than a Shield",
+      "clues": [
+        {
+          "en": "The old bridge is unsafe.",
+          "ko": "낡은 다리는 안전하지 않다."
+        },
+        {
+          "en": "We can use a boat together.",
+          "ko": "우리는 함께 배를 이용할 수 있다."
+        }
+      ],
+      "task": {
+        "question_en": "What should we do?",
+        "options": [
+          "Cross the old bridge.",
+          "Swim alone.",
+          "Use the boat together."
+        ],
+        "correct_index": 2,
+        "feedback_ko": "안전한 협력 방법을 선택한다."
+      },
+      "completion_flag": "companion_arc_Comple",
+      "reward_type": "story_flag_only"
+    },
+    {
+      "character_key": "Ob",
+      "town_id": "rp",
+      "title_en": "The Right Target",
+      "clues": [
+        {
+          "en": "We are looking for a girl.",
+          "ko": "우리는 소녀를 찾고 있다."
+        },
+        {
+          "en": "She is the girl who has a star on her bag.",
+          "ko": "그녀는 가방에 별이 있는 소녀다."
+        }
+      ],
+      "task": {
+        "question_en": "What should we do?",
+        "options": [
+          "Find the girl with a star bag.",
+          "Find the boy with a red hat.",
+          "Follow any stranger."
+        ],
+        "correct_index": 0,
+        "feedback_ko": "정확한 특징으로 목표를 찾는다."
+      },
+      "completion_flag": "companion_arc_Ob",
+      "reward_type": "story_flag_only"
+    },
+    {
+      "character_key": "Oxy",
+      "town_id": "pe",
+      "title_en": "The Power of Change",
+      "clues": [
+        {
+          "en": "The smoke made the villagers cough.",
+          "ko": "연기 때문에 주민들이 기침했다."
+        },
+        {
+          "en": "Clean air will make them feel better.",
+          "ko": "깨끗한 공기는 주민들의 기분을 나아지게 할 것이다."
+        }
+      ],
+      "task": {
+        "question_en": "What should we do?",
+        "options": [
+          "Make more smoke.",
+          "Help clear the smoke.",
+          "Ignore the villagers."
+        ],
+        "correct_index": 1,
+        "feedback_ko": "변화의 힘은 타인을 돕는 데 쓴다."
+      },
+      "completion_flag": "companion_arc_Oxy",
+      "reward_type": "story_flag_only"
+    },
+    {
+      "character_key": "Indy",
+      "town_id": "pn",
+      "title_en": "A Gift for Someone",
+      "clues": [
+        {
+          "en": "This book is not mine.",
+          "ko": "이 책은 내 것이 아니다."
+        },
+        {
+          "en": "It belongs to Myra.",
+          "ko": "그것은 마이라의 것이다."
+        }
+      ],
+      "task": {
+        "question_en": "What should we do?",
+        "options": [
+          "Keep the book.",
+          "Sell the book.",
+          "Return it to Myra."
+        ],
+        "correct_index": 2,
+        "feedback_ko": "물건을 올바른 사람에게 전달한다."
+      },
+      "completion_flag": "companion_arc_Indy",
+      "reward_type": "story_flag_only"
+    },
+    {
+      "character_key": "Direct",
+      "town_id": "ot",
+      "title_en": "The Missing Gift",
+      "clues": [
+        {
+          "en": "The sailor needs a map.",
+          "ko": "선원은 지도가 필요하다."
+        },
+        {
+          "en": "The map is under the table.",
+          "ko": "지도는 탁자 아래에 있다."
+        }
+      ],
+      "task": {
+        "question_en": "What should we do?",
+        "options": [
+          "Give the sailor the map.",
+          "Give the sailor a cake.",
+          "Hide the map."
+        ],
+        "correct_index": 0,
+        "feedback_ko": "필요한 물건을 찾아 전달한다."
+      },
+      "completion_flag": "companion_arc_Direct",
+      "reward_type": "story_flag_only"
+    },
+    {
+      "character_key": "Modi",
+      "town_id": "rv",
+      "title_en": "One Small Detail",
+      "clues": [
+        {
+          "en": "The house is near the park.",
+          "ko": "집은 공원 근처에 있다."
+        },
+        {
+          "en": "It has a small blue door.",
+          "ko": "그 집에는 작은 파란 문이 있다."
+        }
+      ],
+      "task": {
+        "question_en": "What should we do?",
+        "options": [
+          "Look for a large red door.",
+          "Look for a small blue door.",
+          "Look for a ship."
+        ],
+        "correct_index": 1,
+        "feedback_ko": "작은 수식 정보가 정확한 탐색을 돕는다."
+      },
+      "completion_flag": "companion_arc_Modi",
+      "reward_type": "story_flag_only"
+    }
+  ],
+  "policy": "Optional supplemental content. Verify against current game question banks; no replacement of existing questions. Companion activities optional, no duplicate rewards. English/Korean full sentences supplied; direct chunks and distractor translations pending."
+}

@@ -1,0 +1,5497 @@
+{
+  "version": "1.1",
+  "status": "신규 제안",
+  "palette": [
+    "#F5CF83",
+    "#91C9FF",
+    "#9CE0AD",
+    "#D4B5FA",
+    "#F4A9B9"
+  ],
+  "intro": [
+    {
+      "speaker": "내레이션",
+      "en": "Peace returned to the Syntax Kingdom.",
+      "ko": "신택스 왕국에 평화가 돌아왔다.",
+      "chunks": [
+        {
+          "en": "Peace returned",
+          "ko": "평화가 돌아왔다"
+        },
+        {
+          "en": "to the Syntax Kingdom.",
+          "ko": "신택스 왕국에."
+        }
+      ],
+      "speaker_en": "Narrator"
+    },
+    {
+      "speaker": "그래머 할아버지",
+      "en": "This letter is from the Grammar Continent.",
+      "ko": "그래머 대륙에서 온 편지란다.",
+      "chunks": [
+        {
+          "en": "This letter is",
+          "ko": "이 편지는 왔단다"
+        },
+        {
+          "en": "from the Grammar Continent.",
+          "ko": "그래머 대륙에서."
+        }
+      ],
+      "speaker_en": "Grandpa Grammar"
+    },
+    {
+      "speaker": "버벨라",
+      "en": "The sentences are all wrong!",
+      "ko": "문장들이 모두 잘못됐어요!",
+      "chunks": [
+        {
+          "en": "The sentences",
+          "ko": "문장들이"
+        },
+        {
+          "en": "are all wrong!",
+          "ko": "모두 잘못됐어요!"
+        }
+      ],
+      "speaker_en": "Verbella"
+    },
+    {
+      "speaker": "그래머 할아버지",
+      "en": "Something is wrong with the Grammatica.",
+      "ko": "그라마티카에 무언가 문제가 생겼구나.",
+      "chunks": [
+        {
+          "en": "Something is wrong",
+          "ko": "무언가 문제가 생겼구나"
+        },
+        {
+          "en": "with the Grammatica.",
+          "ko": "그라마티카에."
+        }
+      ],
+      "speaker_en": "Grandpa Grammar"
+    },
+    {
+      "speaker": "컴플리",
+      "en": "Our adventure is not over yet.",
+      "ko": "우리의 모험은 아직 끝나지 않았군.",
+      "chunks": [
+        {
+          "en": "Our adventure",
+          "ko": "우리의 모험은"
+        },
+        {
+          "en": "is not over yet.",
+          "ko": "아직 끝나지 않았군."
+        }
+      ],
+      "speaker_en": "Comple"
+    },
+    {
+      "speaker": "오브",
+      "en": "Let's go to the Grammar Continent!",
+      "ko": "그래머 대륙으로 가자!",
+      "chunks": [
+        {
+          "en": "Let's go",
+          "ko": "가자"
+        },
+        {
+          "en": "to the Grammar Continent!",
+          "ko": "그래머 대륙으로!"
+        }
+      ],
+      "speaker_en": "Ob"
+    }
+  ],
+  "library_intro": [
+    {
+      "speaker": "렉시온",
+      "en": "Welcome, adventurers!",
+      "ko": "어서 오게, 모험가들이여!",
+      "chunks": [
+        {
+          "en": "Welcome, adventurers!",
+          "ko": "어서 오게, 모험가들이여!"
+        }
+      ],
+      "speaker_en": "Lexion"
+    },
+    {
+      "speaker": "렉시온",
+      "en": "In this land, we speak two languages.",
+      "ko": "이 대륙에서는 두 가지 언어를 사용한다네.",
+      "chunks": [
+        {
+          "en": "In this land,",
+          "ko": "이 대륙에서는"
+        },
+        {
+          "en": "we speak two languages.",
+          "ko": "우리는 두 가지 언어를 사용한다네."
+        }
+      ],
+      "speaker_en": "Lexion"
+    },
+    {
+      "speaker": "렉시온",
+      "en": "English is the language of magic.",
+      "ko": "영어는 마법의 언어라네.",
+      "chunks": [
+        {
+          "en": "English is",
+          "ko": "영어는 ~이라네"
+        },
+        {
+          "en": "the language of magic.",
+          "ko": "마법의 언어."
+        }
+      ],
+      "speaker_en": "Lexion"
+    },
+    {
+      "speaker": "렉시온",
+      "en": "The Common Tongue helps us understand each other.",
+      "ko": "대륙 일상어는 우리가 서로 이해하도록 도와주지.",
+      "chunks": [
+        {
+          "en": "The Common Tongue",
+          "ko": "대륙 일상어는"
+        },
+        {
+          "en": "helps us understand each other.",
+          "ko": "우리가 서로 이해하도록 도와주지."
+        }
+      ],
+      "speaker_en": "Lexion"
+    },
+    {
+      "speaker": "렉시온",
+      "en": "Someone stole eighteen pages from the Grammatica.",
+      "ko": "누군가 그라마티카에서 열여덟 장의 페이지를 훔쳐 갔네.",
+      "chunks": [
+        {
+          "en": "Someone stole",
+          "ko": "누군가 훔쳐 갔네"
+        },
+        {
+          "en": "eighteen pages",
+          "ko": "열여덟 장의 페이지를"
+        },
+        {
+          "en": "from the Grammatica.",
+          "ko": "그라마티카에서."
+        }
+      ],
+      "speaker_en": "Lexion"
+    },
+    {
+      "speaker": "렉시온",
+      "en": "Help the villagers and find the missing pages.",
+      "ko": "주민들을 돕고 사라진 페이지들을 찾게나.",
+      "chunks": [
+        {
+          "en": "Help the villagers",
+          "ko": "주민들을 돕게나"
+        },
+        {
+          "en": "and find the missing pages.",
+          "ko": "그리고 사라진 페이지들을 찾게나."
+        }
+      ],
+      "speaker_en": "Lexion"
+    }
+  ],
+  "episodes": [
+    {
+      "id": "g1",
+      "episode": 1,
+      "town": "비빌",
+      "grammar": "be동사",
+      "boss": "초원의 수호자 비이",
+      "title": "누가 누구인지 모르겠어요",
+      "page_id": "grammatica_01",
+      "page_name": "정체성의 페이지",
+      "reward": "벤 비의 수제 간식",
+      "reward_type": "souvenir",
+      "next_id": "g2",
+      "residents": [
+        {
+          "index": 0,
+          "name": "농부 앰",
+          "before_problem": {
+            "speaker": "농부 앰",
+            "en": "My English is all mixed up.",
+            "ko": "제 영어가 완전히 뒤죽박죽이에요.",
+            "chunks": [
+              {
+                "en": "My English",
+                "ko": "제 영어가"
+              },
+              {
+                "en": "is all mixed up.",
+                "ko": "완전히 뒤죽박죽이에요."
+              }
+            ],
+            "speaker_legacy": "농부 팜",
+            "speaker_en": "Farmer Am"
+          },
+          "after_recovery": {
+            "speaker": "농부 앰",
+            "en": "I saw a golden page in the meadow.",
+            "ko": "초원에서 황금빛 페이지를 봤어요.",
+            "chunks": [
+              {
+                "en": "I saw a golden page",
+                "ko": "저는 황금빛 페이지를 봤어요"
+              },
+              {
+                "en": "in the meadow.",
+                "ko": "초원에서."
+              }
+            ],
+            "speaker_legacy": "농부 팜",
+            "speaker_en": "Farmer Am"
+          },
+          "original_problem_ref": "TOWN.g1.n[0]",
+          "name_legacy": "농부 팜",
+          "name_en": "Farmer Am"
+        },
+        {
+          "index": 1,
+          "name": "꼬마 이지",
+          "before_problem": {
+            "speaker": "꼬마 이지",
+            "en": "I want to be a good guide.",
+            "ko": "훌륭한 안내원이 되고 싶어요.",
+            "chunks": [
+              {
+                "en": "I want to be",
+                "ko": "저는 되고 싶어요"
+              },
+              {
+                "en": "a good guide.",
+                "ko": "훌륭한 안내원이."
+              }
+            ],
+            "speaker_legacy": "꼬마 리나",
+            "speaker_en": "Little Izzy"
+          },
+          "after_recovery": {
+            "speaker": "꼬마 이지",
+            "en": "A big tree monster took the page.",
+            "ko": "커다란 나무 괴물이 페이지를 가져갔어요.",
+            "chunks": [
+              {
+                "en": "A big tree monster",
+                "ko": "커다란 나무 괴물이"
+              },
+              {
+                "en": "took the page.",
+                "ko": "페이지를 가져갔어요."
+              }
+            ],
+            "speaker_legacy": "꼬마 리나",
+            "speaker_en": "Little Izzy"
+          },
+          "original_problem_ref": "TOWN.g1.n[1]",
+          "name_legacy": "꼬마 리나",
+          "name_en": "Little Izzy"
+        },
+        {
+          "index": 2,
+          "name": "할머니 아리아",
+          "before_problem": {
+            "speaker": "할머니 아리아",
+            "en": "My sister is here.",
+            "ko": "내 여동생이 여기 있단다.",
+            "chunks": [
+              {
+                "en": "My sister is here.",
+                "ko": "내 여동생이 여기 있단다."
+              }
+            ],
+            "speaker_legacy": "할머니 로즈",
+            "speaker_en": "Granny Aria"
+          },
+          "after_recovery": {
+            "speaker": "할머니 아리아",
+            "en": "The guardian was kind to us.",
+            "ko": "수호자는 우리에게 친절했단다.",
+            "chunks": [
+              {
+                "en": "The guardian",
+                "ko": "수호자는"
+              },
+              {
+                "en": "was kind to us.",
+                "ko": "우리에게 친절했단다."
+              }
+            ],
+            "speaker_legacy": "할머니 로즈",
+            "speaker_en": "Granny Aria"
+          },
+          "original_problem_ref": "TOWN.g1.n[2]",
+          "name_legacy": "할머니 로즈",
+          "name_en": "Granny Aria"
+        },
+        {
+          "index": 3,
+          "name": "벤 비",
+          "before_problem": {
+            "speaker": "벤 비",
+            "en": "My dogs are hungry.",
+            "ko": "제 개들은 배가 고파요.",
+            "chunks": [
+              {
+                "en": "My dogs",
+                "ko": "제 개들은"
+              },
+              {
+                "en": "are hungry.",
+                "ko": "배가 고파요."
+              }
+            ],
+            "speaker_legacy": "개 주인 벤",
+            "speaker_en": "Ben Bee"
+          },
+          "after_recovery": {
+            "speaker": "벤 비",
+            "en": "Dark magic is near the meadow.",
+            "ko": "초원 근처에 어둠의 마력이 있어요.",
+            "chunks": [
+              {
+                "en": "Dark magic",
+                "ko": "어둠의 마력이"
+              },
+              {
+                "en": "is near the meadow.",
+                "ko": "초원 근처에 있어요."
+              }
+            ],
+            "speaker_legacy": "개 주인 벤",
+            "speaker_en": "Ben Bee"
+          },
+          "original_problem_ref": "TOWN.g1.n[3]",
+          "name_legacy": "개 주인 벤",
+          "name_en": "Ben Bee"
+        }
+      ],
+      "completion": {
+        "speaker": "농부 앰",
+        "en": "We can speak again!",
+        "ko": "우리는 다시 말할 수 있어요!",
+        "chunks": [
+          {
+            "en": "We can speak again!",
+            "ko": "우리는 다시 말할 수 있어요!"
+          }
+        ],
+        "speaker_legacy": "농부 팜",
+        "speaker_en": "Farmer Am"
+      },
+      "next_dialogue": {
+        "speaker": "농부 앰",
+        "en": "Please take these vegetables to Dot in Queston.",
+        "ko": "이 채소들을 퀘스턴의 도트에게 가져다주세요.",
+        "chunks": [
+          {
+            "en": "Please take these vegetables",
+            "ko": "이 채소들을 가져다주세요"
+          },
+          {
+            "en": "to Dot in Queston.",
+            "ko": "퀘스턴의 도트에게."
+          }
+        ],
+        "speaker_legacy": "농부 팜",
+        "speaker_en": "Farmer Am"
+      },
+      "boss_intro": [
+        {
+          "speaker": "옥시",
+          "en": "The page is giving off dark magic.",
+          "ko": "페이지가 어둠의 마력을 내뿜고 있어.",
+          "chunks": [
+            {
+              "en": "The page",
+              "ko": "페이지가"
+            },
+            {
+              "en": "is giving off dark magic.",
+              "ko": "어둠의 마력을 내뿜고 있어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        },
+        {
+          "speaker": "컴플리",
+          "en": "Let us break the curse.",
+          "ko": "저주를 풀자.",
+          "chunks": [
+            {
+              "en": "Let us break the curse.",
+              "ko": "저주를 풀자."
+            }
+          ],
+          "speaker_legacy": "컴플리",
+          "speaker_en": "Comple"
+        }
+      ],
+      "boss_clear": [
+        {
+          "speaker": "버벨라",
+          "en": "The dark magic is gone!",
+          "ko": "어둠의 마력이 사라졌어요!",
+          "chunks": [
+            {
+              "en": "The dark magic",
+              "ko": "어둠의 마력이"
+            },
+            {
+              "en": "is gone!",
+              "ko": "사라졌어요!"
+            }
+          ],
+          "speaker_legacy": "버벨라",
+          "speaker_en": "Verbella"
+        },
+        {
+          "speaker": "옥시",
+          "en": "We found another page.",
+          "ko": "또 한 장의 페이지를 찾았어.",
+          "chunks": [
+            {
+              "en": "We found another page.",
+              "ko": "또 한 장의 페이지를 찾았어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        }
+      ],
+      "town_legacy": "비이 마을",
+      "town_en": "Beville",
+      "boss_legacy": "초원의 수호자 비이",
+      "boss_en": "Bee, Guardian of the Meadow",
+      "title_en": "Who Am I?",
+      "page_name_en": "Page of Identity",
+      "reward_en": "Ben Bee's Homemade Treats"
+    },
+    {
+      "id": "g2",
+      "episode": 2,
+      "town": "퀘스턴",
+      "grammar": "의문문·부정문",
+      "boss": "동굴 심문관 다우트",
+      "title": "아무도 물어볼 수 없는 식당",
+      "page_id": "grammatica_02",
+      "page_name": "질문의 페이지",
+      "reward": "도트의 특제 도시락",
+      "reward_type": "souvenir",
+      "next_id": "tn",
+      "residents": [
+        {
+          "index": 0,
+          "name": "약초꾼 도라",
+          "before_problem": {
+            "speaker": "약초꾼 도라",
+            "en": "Are you tired? I cannot ask my patients.",
+            "ko": "피곤하세요? 환자들에게 물어볼 수 없어요.",
+            "chunks": [
+              {
+                "en": "Are you tired?",
+                "ko": "피곤하세요?"
+              },
+              {
+                "en": "I cannot ask my patients.",
+                "ko": "환자들에게 물어볼 수 없어요."
+              }
+            ],
+            "speaker_legacy": "약초꾼 미라",
+            "speaker_en": "Herbalist Dora"
+          },
+          "after_recovery": {
+            "speaker": "약초꾼 도라",
+            "en": "The cave is full of strange echoes.",
+            "ko": "동굴은 이상한 메아리로 가득해요.",
+            "chunks": [
+              {
+                "en": "The cave",
+                "ko": "동굴은"
+              },
+              {
+                "en": "is full of strange echoes.",
+                "ko": "이상한 메아리로 가득해요."
+              }
+            ],
+            "speaker_legacy": "약초꾼 미라",
+            "speaker_en": "Herbalist Dora"
+          },
+          "original_problem_ref": "TOWN.g2.n[0]",
+          "name_legacy": "약초꾼 미라",
+          "name_en": "Herbalist Dora"
+        },
+        {
+          "index": 1,
+          "name": "요리사 도트",
+          "before_problem": {
+            "speaker": "요리사 도트",
+            "en": "My customers get the wrong meals.",
+            "ko": "손님들이 잘못된 음식을 받아요.",
+            "chunks": [
+              {
+                "en": "My customers",
+                "ko": "제 손님들은"
+              },
+              {
+                "en": "get the wrong meals.",
+                "ko": "잘못된 음식을 받아요."
+              }
+            ],
+            "speaker_legacy": "요리사 하루",
+            "speaker_en": "Chef Dot"
+          },
+          "after_recovery": {
+            "speaker": "요리사 도트",
+            "en": "I need to ask what they like.",
+            "ko": "손님들이 무엇을 좋아하는지 물어봐야 해요.",
+            "chunks": [
+              {
+                "en": "I need to ask",
+                "ko": "저는 물어봐야 해요"
+              },
+              {
+                "en": "what they like.",
+                "ko": "그들이 무엇을 좋아하는지."
+              }
+            ],
+            "speaker_legacy": "요리사 하루",
+            "speaker_en": "Chef Dot"
+          },
+          "original_problem_ref": "TOWN.g2.n[1]",
+          "name_legacy": "요리사 하루",
+          "name_en": "Chef Dot"
+        },
+        {
+          "index": 2,
+          "name": "도니",
+          "before_problem": {
+            "speaker": "도니",
+            "en": "I need a partner for tennis.",
+            "ko": "테니스를 함께 칠 짝이 필요해요.",
+            "chunks": [
+              {
+                "en": "I need a partner",
+                "ko": "저는 짝이 필요해요"
+              },
+              {
+                "en": "for tennis.",
+                "ko": "테니스를 칠."
+              }
+            ],
+            "speaker_legacy": "소년 닉",
+            "speaker_en": "Donny"
+          },
+          "after_recovery": {
+            "speaker": "도니",
+            "en": "Does the guard know about the cave?",
+            "ko": "경비병은 동굴에 대해 알고 있나요?",
+            "chunks": [
+              {
+                "en": "Does the guard",
+                "ko": "경비병은 알고 있나요"
+              },
+              {
+                "en": "know about the cave?",
+                "ko": "동굴에 대해?"
+              }
+            ],
+            "speaker_legacy": "소년 닉",
+            "speaker_en": "Donny"
+          },
+          "original_problem_ref": "TOWN.g2.n[2]",
+          "name_legacy": "소년 닉",
+          "name_en": "Donny"
+        },
+        {
+          "index": 3,
+          "name": "미스 노트",
+          "before_problem": {
+            "speaker": "미스 노트",
+            "en": "Can you help me find a pet sitter?",
+            "ko": "반려동물을 돌봐 줄 사람을 찾게 도와주실래요?",
+            "chunks": [
+              {
+                "en": "Can you help me",
+                "ko": "저를 도와주실래요"
+              },
+              {
+                "en": "find a pet sitter?",
+                "ko": "반려동물을 돌봐 줄 사람을 찾도록?"
+              }
+            ],
+            "speaker_legacy": "고양이 집사 유나",
+            "speaker_en": "Miss Nott"
+          },
+          "after_recovery": {
+            "speaker": "미스 노트",
+            "en": "My cat heard a strange voice.",
+            "ko": "제 고양이가 이상한 목소리를 들었어요.",
+            "chunks": [
+              {
+                "en": "My cat",
+                "ko": "제 고양이가"
+              },
+              {
+                "en": "heard a strange voice.",
+                "ko": "이상한 목소리를 들었어요."
+              }
+            ],
+            "speaker_legacy": "고양이 집사 유나",
+            "speaker_en": "Miss Nott"
+          },
+          "original_problem_ref": "TOWN.g2.n[3]",
+          "name_legacy": "고양이 집사 유나",
+          "name_en": "Miss Nott"
+        }
+      ],
+      "completion": {
+        "speaker": "약초꾼 도라",
+        "en": "Now I can ask my customers what they want.",
+        "ko": "이제 손님들에게 무엇을 원하는지 물어볼 수 있어요.",
+        "chunks": [
+          {
+            "en": "Now I can ask my customers",
+            "ko": "이제 손님들에게 물어볼 수 있어요"
+          },
+          {
+            "en": "what they want.",
+            "ko": "무엇을 원하는지."
+          }
+        ],
+        "speaker_legacy": "약초꾼 미라",
+        "speaker_en": "Herbalist Dora"
+      },
+      "next_dialogue": {
+        "speaker": "약초꾼 도라",
+        "en": "Our cake order is late. Please visit Tensefield.",
+        "ko": "주문한 케이크가 늦어지고 있어요. 텐스필드에 가 주세요.",
+        "chunks": [
+          {
+            "en": "Our cake order",
+            "ko": "우리 케이크 주문이"
+          },
+          {
+            "en": "is late.",
+            "ko": "늦어지고 있어요."
+          },
+          {
+            "en": "Please visit Tensefield.",
+            "ko": "텐스필드에 가 주세요."
+          }
+        ],
+        "speaker_legacy": "약초꾼 미라",
+        "speaker_en": "Herbalist Dora"
+      },
+      "boss_intro": [
+        {
+          "speaker": "옥시",
+          "en": "The page is giving off dark magic.",
+          "ko": "페이지가 어둠의 마력을 내뿜고 있어.",
+          "chunks": [
+            {
+              "en": "The page",
+              "ko": "페이지가"
+            },
+            {
+              "en": "is giving off dark magic.",
+              "ko": "어둠의 마력을 내뿜고 있어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        },
+        {
+          "speaker": "컴플리",
+          "en": "Let us break the curse.",
+          "ko": "저주를 풀자.",
+          "chunks": [
+            {
+              "en": "Let us break the curse.",
+              "ko": "저주를 풀자."
+            }
+          ],
+          "speaker_legacy": "컴플리",
+          "speaker_en": "Comple"
+        }
+      ],
+      "boss_clear": [
+        {
+          "speaker": "버벨라",
+          "en": "The dark magic is gone!",
+          "ko": "어둠의 마력이 사라졌어요!",
+          "chunks": [
+            {
+              "en": "The dark magic",
+              "ko": "어둠의 마력이"
+            },
+            {
+              "en": "is gone!",
+              "ko": "사라졌어요!"
+            }
+          ],
+          "speaker_legacy": "버벨라",
+          "speaker_en": "Verbella"
+        },
+        {
+          "speaker": "옥시",
+          "en": "We found another page.",
+          "ko": "또 한 장의 페이지를 찾았어.",
+          "chunks": [
+            {
+              "en": "We found another page.",
+              "ko": "또 한 장의 페이지를 찾았어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        }
+      ],
+      "town_legacy": "두낫 마을",
+      "town_en": "Queston",
+      "boss_legacy": "동굴 심문관 두웃",
+      "boss_en": "Doubt, the Cave Inquisitor",
+      "title_en": "The Restaurant Without Questions",
+      "page_name_en": "Page of Questions",
+      "reward_en": "Dot's Special Lunchbox"
+    },
+    {
+      "id": "tn",
+      "episode": 3,
+      "town": "텐스필드",
+      "grammar": "시제",
+      "boss": "시간의 수문장 크로노스",
+      "title": "내일은 패스티의 생일",
+      "page_id": "grammatica_03",
+      "page_name": "시간의 페이지",
+      "reward": "생일 케이크",
+      "reward_type": "souvenir",
+      "next_id": "md",
+      "residents": [
+        {
+          "index": 0,
+          "name": "제빵사 프레스턴",
+          "before_problem": {
+            "speaker": "제빵사 프레스턴",
+            "en": "I have a cake order, but the date is unclear.",
+            "ko": "케이크 주문이 있는데 날짜가 불분명해요.",
+            "chunks": [
+              {
+                "en": "I have a cake order,",
+                "ko": "케이크 주문이 있어요,"
+              },
+              {
+                "en": "but the date is unclear.",
+                "ko": "하지만 날짜가 불분명해요."
+              }
+            ],
+            "speaker_legacy": "빵집 주인 보리",
+            "speaker_en": "Baker Preston"
+          },
+          "after_recovery": {
+            "speaker": "제빵사 프레스턴",
+            "en": "The clock stopped when the light appeared.",
+            "ko": "빛이 나타났을 때 시계가 멈췄어요.",
+            "chunks": [
+              {
+                "en": "The clock stopped",
+                "ko": "시계가 멈췄어요"
+              },
+              {
+                "en": "when the light appeared.",
+                "ko": "빛이 나타났을 때."
+              }
+            ],
+            "speaker_legacy": "빵집 주인 보리",
+            "speaker_en": "Baker Preston"
+          },
+          "original_problem_ref": "TOWN.tn.n[0]",
+          "name_legacy": "빵집 주인 보리",
+          "name_en": "Baker Preston"
+        },
+        {
+          "index": 1,
+          "name": "패스티",
+          "before_problem": {
+            "speaker": "패스티",
+            "en": "Tomorrow is my birthday.",
+            "ko": "내일은 제 생일이에요.",
+            "chunks": [
+              {
+                "en": "Tomorrow",
+                "ko": "내일은"
+              },
+              {
+                "en": "is my birthday.",
+                "ko": "제 생일이에요."
+              }
+            ],
+            "speaker_legacy": "꼬마 하나",
+            "speaker_en": "Pasty"
+          },
+          "after_recovery": {
+            "speaker": "패스티",
+            "en": "My mother bought apples yesterday.",
+            "ko": "엄마가 어제 사과를 샀어요.",
+            "chunks": [
+              {
+                "en": "My mother bought apples",
+                "ko": "엄마가 사과를 샀어요"
+              },
+              {
+                "en": "yesterday.",
+                "ko": "어제."
+              }
+            ],
+            "speaker_legacy": "꼬마 하나",
+            "speaker_en": "Pasty"
+          },
+          "original_problem_ref": "TOWN.tn.n[1]",
+          "name_legacy": "꼬마 하나",
+          "name_en": "Pasty"
+        },
+        {
+          "index": 2,
+          "name": "시계 할아버지 틱",
+          "before_problem": {
+            "speaker": "시계 할아버지 틱",
+            "en": "My clock shows the wrong time.",
+            "ko": "내 시계가 잘못된 시간을 보여 주는구나.",
+            "chunks": [
+              {
+                "en": "My clock",
+                "ko": "내 시계가"
+              },
+              {
+                "en": "shows the wrong time.",
+                "ko": "잘못된 시간을 보여 주는구나."
+              }
+            ],
+            "speaker_legacy": "시계 할아버지",
+            "speaker_en": "Grandpa Tick"
+          },
+          "after_recovery": {
+            "speaker": "시계 할아버지 틱",
+            "en": "The light came from the plain.",
+            "ko": "빛은 평원에서 왔단다.",
+            "chunks": [
+              {
+                "en": "The light came",
+                "ko": "빛은 왔단다"
+              },
+              {
+                "en": "from the plain.",
+                "ko": "평원에서."
+              }
+            ],
+            "speaker_legacy": "시계 할아버지",
+            "speaker_en": "Grandpa Tick"
+          },
+          "original_problem_ref": "TOWN.tn.n[2]",
+          "name_legacy": "시계 할아버지",
+          "name_en": "Grandpa Tick"
+        },
+        {
+          "index": 3,
+          "name": "우체부 윌",
+          "before_problem": {
+            "speaker": "우체부 윌",
+            "en": "My delivery schedule is a mess.",
+            "ko": "제 배달 일정이 엉망이에요.",
+            "chunks": [
+              {
+                "en": "My delivery schedule",
+                "ko": "제 배달 일정이"
+              },
+              {
+                "en": "is a mess.",
+                "ko": "엉망이에요."
+              }
+            ],
+            "speaker_legacy": "우체부 톰",
+            "speaker_en": "Postman Will"
+          },
+          "after_recovery": {
+            "speaker": "우체부 윌",
+            "en": "A package for Canwill is still here.",
+            "ko": "캔윌로 갈 소포가 아직 여기 있어요.",
+            "chunks": [
+              {
+                "en": "A package for Canwill",
+                "ko": "캔윌로 갈 소포가"
+              },
+              {
+                "en": "is still here.",
+                "ko": "아직 여기 있어요."
+              }
+            ],
+            "speaker_legacy": "우체부 톰",
+            "speaker_en": "Postman Will"
+          },
+          "original_problem_ref": "TOWN.tn.n[3]",
+          "name_legacy": "우체부 톰",
+          "name_en": "Postman Will"
+        }
+      ],
+      "completion": {
+        "speaker": "제빵사 프레스턴",
+        "en": "The cake is ready, and the party can begin!",
+        "ko": "케이크가 준비됐으니 파티를 시작할 수 있어요!",
+        "chunks": [
+          {
+            "en": "The cake is ready,",
+            "ko": "케이크가 준비됐어요,"
+          },
+          {
+            "en": "and the party can begin!",
+            "ko": "그리고 파티를 시작할 수 있어요!"
+          }
+        ],
+        "speaker_legacy": "빵집 주인 보리",
+        "speaker_en": "Baker Preston"
+      },
+      "next_dialogue": {
+        "speaker": "제빵사 프레스턴",
+        "en": "Please deliver this package to Modalvale.",
+        "ko": "이 소포를 모달베일로 배달해 주세요.",
+        "chunks": [
+          {
+            "en": "Please deliver this package",
+            "ko": "이 소포를 배달해 주세요"
+          },
+          {
+            "en": "to Modalvale.",
+            "ko": "모달베일로."
+          }
+        ],
+        "speaker_legacy": "빵집 주인 보리",
+        "speaker_en": "Baker Preston"
+      },
+      "boss_intro": [
+        {
+          "speaker": "옥시",
+          "en": "The page is giving off dark magic.",
+          "ko": "페이지가 어둠의 마력을 내뿜고 있어.",
+          "chunks": [
+            {
+              "en": "The page",
+              "ko": "페이지가"
+            },
+            {
+              "en": "is giving off dark magic.",
+              "ko": "어둠의 마력을 내뿜고 있어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        },
+        {
+          "speaker": "컴플리",
+          "en": "Let us break the curse.",
+          "ko": "저주를 풀자.",
+          "chunks": [
+            {
+              "en": "Let us break the curse.",
+              "ko": "저주를 풀자."
+            }
+          ],
+          "speaker_legacy": "컴플리",
+          "speaker_en": "Comple"
+        }
+      ],
+      "boss_clear": [
+        {
+          "speaker": "버벨라",
+          "en": "The dark magic is gone!",
+          "ko": "어둠의 마력이 사라졌어요!",
+          "chunks": [
+            {
+              "en": "The dark magic",
+              "ko": "어둠의 마력이"
+            },
+            {
+              "en": "is gone!",
+              "ko": "사라졌어요!"
+            }
+          ],
+          "speaker_legacy": "버벨라",
+          "speaker_en": "Verbella"
+        },
+        {
+          "speaker": "옥시",
+          "en": "We found another page.",
+          "ko": "또 한 장의 페이지를 찾았어.",
+          "chunks": [
+            {
+              "en": "We found another page.",
+              "ko": "또 한 장의 페이지를 찾았어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        }
+      ],
+      "town_legacy": "크로노 마을",
+      "town_en": "Tensefield",
+      "boss_legacy": "시제의 수문장",
+      "boss_en": "Chronos, Keeper of Time",
+      "title_en": "Pasty's Birthday Is Tomorrow",
+      "page_name_en": "Page of Time",
+      "reward_en": "Birthday Cake"
+    },
+    {
+      "id": "md",
+      "episode": 4,
+      "town": "모달베일",
+      "grammar": "조동사",
+      "boss": "조동사의 수호자 머스타",
+      "title": "건너갈 수 없는 다리",
+      "page_id": "grammatica_04",
+      "page_name": "가능성의 페이지",
+      "reward": "안전모 기념품",
+      "reward_type": "souvenir",
+      "next_id": "rp",
+      "residents": [
+        {
+          "index": 0,
+          "name": "약초 할머니 메이",
+          "before_problem": {
+            "speaker": "약초 할머니 메이",
+            "en": "The bridge is not safe.",
+            "ko": "다리가 안전하지 않단다.",
+            "chunks": [
+              {
+                "en": "The bridge",
+                "ko": "다리가"
+              },
+              {
+                "en": "is not safe.",
+                "ko": "안전하지 않단다."
+              }
+            ],
+            "speaker_legacy": "약초 할머니",
+            "speaker_en": "Granny May"
+          },
+          "after_recovery": {
+            "speaker": "약초 할머니 메이",
+            "en": "We must repair it before the rain.",
+            "ko": "비가 오기 전에 다리를 수리해야 해.",
+            "chunks": [
+              {
+                "en": "We must repair it",
+                "ko": "우리는 그것을 수리해야 해"
+              },
+              {
+                "en": "before the rain.",
+                "ko": "비가 오기 전에."
+              }
+            ],
+            "speaker_legacy": "약초 할머니",
+            "speaker_en": "Granny May"
+          },
+          "original_problem_ref": "TOWN.md.n[0]",
+          "name_legacy": "약초 할머니",
+          "name_en": "Granny May"
+        },
+        {
+          "index": 1,
+          "name": "공사장 반장 머스턴",
+          "before_problem": {
+            "speaker": "공사장 반장 머스턴",
+            "en": "My workers need clear instructions.",
+            "ko": "우리 일꾼들에게 명확한 지시가 필요해요.",
+            "chunks": [
+              {
+                "en": "My workers",
+                "ko": "우리 일꾼들은"
+              },
+              {
+                "en": "need clear instructions.",
+                "ko": "명확한 지시가 필요해요."
+              }
+            ],
+            "speaker_legacy": "공사장 반장",
+            "speaker_en": "Foreman Muston"
+          },
+          "after_recovery": {
+            "speaker": "공사장 반장 머스턴",
+            "en": "You must wear a helmet near the bridge.",
+            "ko": "다리 근처에서는 안전모를 써야 해요.",
+            "chunks": [
+              {
+                "en": "You must wear a helmet",
+                "ko": "안전모를 써야 해요"
+              },
+              {
+                "en": "near the bridge.",
+                "ko": "다리 근처에서는."
+              }
+            ],
+            "speaker_legacy": "공사장 반장",
+            "speaker_en": "Foreman Muston"
+          },
+          "original_problem_ref": "TOWN.md.n[1]",
+          "name_legacy": "공사장 반장",
+          "name_en": "Foreman Muston"
+        },
+        {
+          "index": 2,
+          "name": "심부름꾼 캔비",
+          "before_problem": {
+            "speaker": "심부름꾼 캔비",
+            "en": "I cannot ask for permission.",
+            "ko": "저는 허락을 구할 수 없어요.",
+            "chunks": [
+              {
+                "en": "I cannot ask",
+                "ko": "저는 요청할 수 없어요"
+              },
+              {
+                "en": "for permission.",
+                "ko": "허락을."
+              }
+            ],
+            "speaker_legacy": "심부름꾼 민",
+            "speaker_en": "Runner Canby"
+          },
+          "after_recovery": {
+            "speaker": "심부름꾼 캔비",
+            "en": "The valley gate is open now.",
+            "ko": "계곡의 문이 지금 열려 있어요.",
+            "chunks": [
+              {
+                "en": "The valley gate",
+                "ko": "계곡의 문이"
+              },
+              {
+                "en": "is open now.",
+                "ko": "지금 열려 있어요."
+              }
+            ],
+            "speaker_legacy": "심부름꾼 민",
+            "speaker_en": "Runner Canby"
+          },
+          "original_problem_ref": "TOWN.md.n[2]",
+          "name_legacy": "심부름꾼 민",
+          "name_en": "Runner Canby"
+        },
+        {
+          "index": 3,
+          "name": "경비대장 쿠든",
+          "before_problem": {
+            "speaker": "경비대장 쿠든",
+            "en": "We need help from the other side.",
+            "ko": "반대편의 도움이 필요하오.",
+            "chunks": [
+              {
+                "en": "We need help",
+                "ko": "우리는 도움이 필요하오"
+              },
+              {
+                "en": "from the other side.",
+                "ko": "반대편에서 오는."
+              }
+            ],
+            "speaker_legacy": "경비대장 로이",
+            "speaker_en": "Captain Coulden"
+          },
+          "after_recovery": {
+            "speaker": "경비대장 쿠든",
+            "en": "The guardian blocks the road.",
+            "ko": "수문장이 길을 막고 있소.",
+            "chunks": [
+              {
+                "en": "The guardian",
+                "ko": "수문장이"
+              },
+              {
+                "en": "blocks the road.",
+                "ko": "길을 막고 있소."
+              }
+            ],
+            "speaker_legacy": "경비대장 로이",
+            "speaker_en": "Captain Coulden"
+          },
+          "original_problem_ref": "TOWN.md.n[3]",
+          "name_legacy": "경비대장 로이",
+          "name_en": "Captain Coulden"
+        }
+      ],
+      "completion": {
+        "speaker": "약초 할머니 메이",
+        "en": "We can finish the bridge safely now.",
+        "ko": "이제 안전하게 다리를 완성할 수 있어요.",
+        "chunks": [
+          {
+            "en": "We can finish the bridge",
+            "ko": "우리는 다리를 완성할 수 있어요"
+          },
+          {
+            "en": "safely now.",
+            "ko": "이제 안전하게."
+          }
+        ],
+        "speaker_legacy": "약초 할머니",
+        "speaker_en": "Granny May"
+      },
+      "next_dialogue": {
+        "speaker": "약초 할머니 메이",
+        "en": "A child is missing in Relawood.",
+        "ko": "렐라우드에서 아이가 실종됐어요.",
+        "chunks": [
+          {
+            "en": "A child is missing",
+            "ko": "아이가 실종됐어요"
+          },
+          {
+            "en": "in Relawood.",
+            "ko": "렐라우드에서."
+          }
+        ],
+        "speaker_legacy": "약초 할머니",
+        "speaker_en": "Granny May"
+      },
+      "boss_intro": [
+        {
+          "speaker": "옥시",
+          "en": "The page is giving off dark magic.",
+          "ko": "페이지가 어둠의 마력을 내뿜고 있어.",
+          "chunks": [
+            {
+              "en": "The page",
+              "ko": "페이지가"
+            },
+            {
+              "en": "is giving off dark magic.",
+              "ko": "어둠의 마력을 내뿜고 있어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        },
+        {
+          "speaker": "컴플리",
+          "en": "Let us break the curse.",
+          "ko": "저주를 풀자.",
+          "chunks": [
+            {
+              "en": "Let us break the curse.",
+              "ko": "저주를 풀자."
+            }
+          ],
+          "speaker_legacy": "컴플리",
+          "speaker_en": "Comple"
+        }
+      ],
+      "boss_clear": [
+        {
+          "speaker": "버벨라",
+          "en": "The dark magic is gone!",
+          "ko": "어둠의 마력이 사라졌어요!",
+          "chunks": [
+            {
+              "en": "The dark magic",
+              "ko": "어둠의 마력이"
+            },
+            {
+              "en": "is gone!",
+              "ko": "사라졌어요!"
+            }
+          ],
+          "speaker_legacy": "버벨라",
+          "speaker_en": "Verbella"
+        },
+        {
+          "speaker": "옥시",
+          "en": "We found another page.",
+          "ko": "또 한 장의 페이지를 찾았어.",
+          "chunks": [
+            {
+              "en": "We found another page.",
+              "ko": "또 한 장의 페이지를 찾았어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        }
+      ],
+      "town_legacy": "캔윌 마을",
+      "town_en": "Modalvale",
+      "boss_legacy": "조동사의 수문장",
+      "boss_en": "Mustar, Guardian of Modals",
+      "title_en": "The Bridge of Possibility",
+      "page_name_en": "Page of Possibility",
+      "reward_en": "Safety Helmet"
+    },
+    {
+      "id": "rp",
+      "episode": 5,
+      "town": "렐라우드",
+      "grammar": "관계대명사",
+      "boss": "숲의 군주 릴레이터",
+      "title": "숲속에서 사라진 아이",
+      "page_id": "grammatica_05",
+      "page_name": "연결의 페이지",
+      "reward": "숲지기의 부적",
+      "reward_type": "souvenir",
+      "next_id": "ps",
+      "residents": [
+        {
+          "index": 0,
+          "name": "숲지기 후아",
+          "before_problem": {
+            "speaker": "숲지기 후아",
+            "en": "We are looking for a girl who is missing.",
+            "ko": "실종된 소녀를 찾고 있어요.",
+            "chunks": [
+              {
+                "en": "We are looking for a girl",
+                "ko": "우리는 소녀를 찾고 있어요"
+              },
+              {
+                "en": "who is missing.",
+                "ko": "실종된."
+              }
+            ],
+            "speaker_legacy": "숲지기 엘라",
+            "speaker_en": "Ranger Whoa"
+          },
+          "after_recovery": {
+            "speaker": "숲지기 후아",
+            "en": "She lives next door.",
+            "ko": "그 아이는 옆집에 살아요.",
+            "chunks": [
+              {
+                "en": "She lives",
+                "ko": "그 아이는 살아요"
+              },
+              {
+                "en": "next door.",
+                "ko": "옆집에."
+              }
+            ],
+            "speaker_legacy": "숲지기 엘라",
+            "speaker_en": "Ranger Whoa"
+          },
+          "original_problem_ref": "TOWN.rp.n[0]",
+          "name_legacy": "숲지기 엘라",
+          "name_en": "Ranger Whoa"
+        },
+        {
+          "index": 1,
+          "name": "사서 대튼",
+          "before_problem": {
+            "speaker": "사서 대튼",
+            "en": "I found a book about the forest.",
+            "ko": "숲에 관한 책을 찾았어요.",
+            "chunks": [
+              {
+                "en": "I found a book",
+                "ko": "책을 찾았어요"
+              },
+              {
+                "en": "about the forest.",
+                "ko": "숲에 관한."
+              }
+            ],
+            "speaker_legacy": "도서관 사서 노아",
+            "speaker_en": "Librarian Thatton"
+          },
+          "after_recovery": {
+            "speaker": "사서 대튼",
+            "en": "Its map shows an old shelter.",
+            "ko": "그 책의 지도에는 오래된 대피소가 나와요.",
+            "chunks": [
+              {
+                "en": "Its map",
+                "ko": "그 책의 지도는"
+              },
+              {
+                "en": "shows an old shelter.",
+                "ko": "오래된 대피소를 보여 줘요."
+              }
+            ],
+            "speaker_legacy": "도서관 사서 노아",
+            "speaker_en": "Librarian Thatton"
+          },
+          "original_problem_ref": "TOWN.rp.n[1]",
+          "name_legacy": "도서관 사서 노아",
+          "name_en": "Librarian Thatton"
+        },
+        {
+          "index": 2,
+          "name": "정비공 후즐리",
+          "before_problem": {
+            "speaker": "정비공 후즐리",
+            "en": "A man with a red car saw the girl.",
+            "ko": "빨간 차를 가진 남자가 소녀를 봤어요.",
+            "chunks": [
+              {
+                "en": "A man with a red car",
+                "ko": "빨간 차를 가진 남자가"
+              },
+              {
+                "en": "saw the girl.",
+                "ko": "그 소녀를 봤어요."
+              }
+            ],
+            "speaker_legacy": "정비공 잭",
+            "speaker_en": "Mechanic Whoseley"
+          },
+          "after_recovery": {
+            "speaker": "정비공 후즐리",
+            "en": "He is waiting near the forest.",
+            "ko": "그는 숲 근처에서 기다리고 있어요.",
+            "chunks": [
+              {
+                "en": "He is waiting",
+                "ko": "그는 기다리고 있어요"
+              },
+              {
+                "en": "near the forest.",
+                "ko": "숲 근처에서."
+              }
+            ],
+            "speaker_legacy": "정비공 잭",
+            "speaker_en": "Mechanic Whoseley"
+          },
+          "original_problem_ref": "TOWN.rp.n[2]",
+          "name_legacy": "정비공 잭",
+          "name_en": "Mechanic Whoseley"
+        },
+        {
+          "index": 3,
+          "name": "사냥꾼 휘트",
+          "before_problem": {
+            "speaker": "사냥꾼 휘트",
+            "en": "I know the boy who saw her last.",
+            "ko": "그녀를 마지막으로 본 소년을 알고 있네.",
+            "chunks": [
+              {
+                "en": "I know the boy",
+                "ko": "나는 소년을 알고 있네"
+              },
+              {
+                "en": "who saw her last.",
+                "ko": "그녀를 마지막으로 본."
+              }
+            ],
+            "speaker_legacy": "사냥꾼 한",
+            "speaker_en": "Hunter Whit"
+          },
+          "after_recovery": {
+            "speaker": "사냥꾼 휘트",
+            "en": "The girl went toward the shelter.",
+            "ko": "소녀는 대피소 쪽으로 갔네.",
+            "chunks": [
+              {
+                "en": "The girl went",
+                "ko": "그 소녀는 갔네"
+              },
+              {
+                "en": "toward the shelter.",
+                "ko": "대피소 쪽으로."
+              }
+            ],
+            "speaker_legacy": "사냥꾼 한",
+            "speaker_en": "Hunter Whit"
+          },
+          "original_problem_ref": "TOWN.rp.n[3]",
+          "name_legacy": "사냥꾼 한",
+          "name_en": "Hunter Whit"
+        }
+      ],
+      "completion": {
+        "speaker": "숲지기 후아",
+        "en": "The girl is safe in the shelter.",
+        "ko": "소녀는 대피소에서 안전하게 지내고 있어요.",
+        "chunks": [
+          {
+            "en": "The girl is safe",
+            "ko": "소녀는 안전해요"
+          },
+          {
+            "en": "in the shelter.",
+            "ko": "대피소에서."
+          }
+        ],
+        "speaker_legacy": "숲지기 엘라",
+        "speaker_en": "Ranger Whoa"
+      },
+      "next_dialogue": {
+        "speaker": "숲지기 후아",
+        "en": "A book is missing from Passive Lake.",
+        "ko": "패시브 레이크에서 책 한 권이 사라졌어요.",
+        "chunks": [
+          {
+            "en": "A book is missing",
+            "ko": "책 한 권이 사라졌어요"
+          },
+          {
+            "en": "from Passive Lake.",
+            "ko": "패시브 레이크에서."
+          }
+        ],
+        "speaker_legacy": "숲지기 엘라",
+        "speaker_en": "Ranger Whoa"
+      },
+      "boss_intro": [
+        {
+          "speaker": "옥시",
+          "en": "The page is giving off dark magic.",
+          "ko": "페이지가 어둠의 마력을 내뿜고 있어.",
+          "chunks": [
+            {
+              "en": "The page",
+              "ko": "페이지가"
+            },
+            {
+              "en": "is giving off dark magic.",
+              "ko": "어둠의 마력을 내뿜고 있어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        },
+        {
+          "speaker": "컴플리",
+          "en": "Let us break the curse.",
+          "ko": "저주를 풀자.",
+          "chunks": [
+            {
+              "en": "Let us break the curse.",
+              "ko": "저주를 풀자."
+            }
+          ],
+          "speaker_legacy": "컴플리",
+          "speaker_en": "Comple"
+        }
+      ],
+      "boss_clear": [
+        {
+          "speaker": "버벨라",
+          "en": "The dark magic is gone!",
+          "ko": "어둠의 마력이 사라졌어요!",
+          "chunks": [
+            {
+              "en": "The dark magic",
+              "ko": "어둠의 마력이"
+            },
+            {
+              "en": "is gone!",
+              "ko": "사라졌어요!"
+            }
+          ],
+          "speaker_legacy": "버벨라",
+          "speaker_en": "Verbella"
+        },
+        {
+          "speaker": "옥시",
+          "en": "We found another page.",
+          "ko": "또 한 장의 페이지를 찾았어.",
+          "chunks": [
+            {
+              "en": "We found another page.",
+              "ko": "또 한 장의 페이지를 찾았어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        }
+      ],
+      "town_legacy": "이어말 숲 마을",
+      "town_en": "Relawood",
+      "boss_legacy": "관계대명사의 수문장",
+      "boss_en": "Relator, Lord of the Forest",
+      "title_en": "The Missing Child",
+      "page_name_en": "Page of Connection",
+      "reward_en": "Ranger's Charm"
+    },
+    {
+      "id": "ps",
+      "episode": 6,
+      "town": "패시브 레이크",
+      "grammar": "수동태",
+      "boss": "호수의 군주 패시버스",
+      "title": "도둑은 누구인가",
+      "page_id": "grammatica_06",
+      "page_name": "행동의 페이지",
+      "reward": "경비병의 훈장",
+      "reward_type": "souvenir",
+      "next_id": "pf",
+      "residents": [
+        {
+          "index": 0,
+          "name": "제빵사 비아",
+          "before_problem": {
+            "speaker": "제빵사 비아",
+            "en": "The window was broken last night.",
+            "ko": "창문이 어젯밤 깨졌어요.",
+            "chunks": [
+              {
+                "en": "The window",
+                "ko": "창문이"
+              },
+              {
+                "en": "was broken last night.",
+                "ko": "어젯밤 깨졌어요."
+              }
+            ],
+            "speaker_legacy": "빵집 아가씨 소피",
+            "speaker_en": "Baker Bea"
+          },
+          "after_recovery": {
+            "speaker": "제빵사 비아",
+            "en": "A boy broke it by accident.",
+            "ko": "한 소년이 실수로 창문을 깼어요.",
+            "chunks": [
+              {
+                "en": "A boy broke it",
+                "ko": "한 소년이 그것을 깼어요"
+              },
+              {
+                "en": "by accident.",
+                "ko": "실수로."
+              }
+            ],
+            "speaker_legacy": "빵집 아가씨 소피",
+            "speaker_en": "Baker Bea"
+          },
+          "original_problem_ref": "TOWN.ps.n[0]",
+          "name_legacy": "빵집 아가씨 소피",
+          "name_en": "Baker Bea"
+        },
+        {
+          "index": 1,
+          "name": "여행가 바인",
+          "before_problem": {
+            "speaker": "여행가 바인",
+            "en": "A rare book is missing.",
+            "ko": "희귀한 책 한 권이 사라졌어요.",
+            "chunks": [
+              {
+                "en": "A rare book",
+                "ko": "희귀한 책 한 권이"
+              },
+              {
+                "en": "is missing.",
+                "ko": "사라졌어요."
+              }
+            ],
+            "speaker_legacy": "여행가 잭",
+            "speaker_en": "Traveler Byn"
+          },
+          "after_recovery": {
+            "speaker": "여행가 바인",
+            "en": "The book was written by a famous poet.",
+            "ko": "그 책은 유명한 시인이 썼어요.",
+            "chunks": [
+              {
+                "en": "The book was written",
+                "ko": "그 책은 쓰였어요"
+              },
+              {
+                "en": "by a famous poet.",
+                "ko": "유명한 시인에 의해."
+              }
+            ],
+            "speaker_legacy": "여행가 잭",
+            "speaker_en": "Traveler Byn"
+          },
+          "original_problem_ref": "TOWN.ps.n[1]",
+          "name_legacy": "여행가 잭",
+          "name_en": "Traveler Byn"
+        },
+        {
+          "index": 2,
+          "name": "경비병 에이전트",
+          "before_problem": {
+            "speaker": "경비병 에이전트",
+            "en": "The reports are confusing.",
+            "ko": "보고서들이 혼란스러워요.",
+            "chunks": [
+              {
+                "en": "The reports",
+                "ko": "보고서들이"
+              },
+              {
+                "en": "are confusing.",
+                "ko": "혼란스러워요."
+              }
+            ],
+            "speaker_legacy": "경비병 돈",
+            "speaker_en": "Guard Agent"
+          },
+          "after_recovery": {
+            "speaker": "경비병 에이전트",
+            "en": "The thief was caught, but the book is missing.",
+            "ko": "도둑은 잡혔지만 책은 아직 사라진 상태예요.",
+            "chunks": [
+              {
+                "en": "The thief was caught,",
+                "ko": "도둑은 잡혔지만,"
+              },
+              {
+                "en": "but the book is missing.",
+                "ko": "책은 사라진 상태예요."
+              }
+            ],
+            "speaker_legacy": "경비병 돈",
+            "speaker_en": "Guard Agent"
+          },
+          "original_problem_ref": "TOWN.ps.n[2]",
+          "name_legacy": "경비병 돈",
+          "name_en": "Guard Agent"
+        },
+        {
+          "index": 3,
+          "name": "청소부 던",
+          "before_problem": {
+            "speaker": "청소부 던",
+            "en": "I clean the room every day.",
+            "ko": "저는 매일 방을 청소해요.",
+            "chunks": [
+              {
+                "en": "I clean the room",
+                "ko": "저는 방을 청소해요"
+              },
+              {
+                "en": "every day.",
+                "ko": "매일."
+              }
+            ],
+            "speaker_legacy": "청소부 마리",
+            "speaker_en": "Cleaner Done"
+          },
+          "after_recovery": {
+            "speaker": "청소부 던",
+            "en": "The book was hidden near the lake.",
+            "ko": "책은 호수 근처에 숨겨져 있었어요.",
+            "chunks": [
+              {
+                "en": "The book was hidden",
+                "ko": "책은 숨겨져 있었어요"
+              },
+              {
+                "en": "near the lake.",
+                "ko": "호수 근처에."
+              }
+            ],
+            "speaker_legacy": "청소부 마리",
+            "speaker_en": "Cleaner Done"
+          },
+          "original_problem_ref": "TOWN.ps.n[3]",
+          "name_legacy": "청소부 마리",
+          "name_en": "Cleaner Done"
+        }
+      ],
+      "completion": {
+        "speaker": "제빵사 비아",
+        "en": "The book was found, and the boy is innocent.",
+        "ko": "책을 찾았고 소년의 누명도 벗겨졌어요.",
+        "chunks": [
+          {
+            "en": "The book was found,",
+            "ko": "책을 찾았고,"
+          },
+          {
+            "en": "and the boy is innocent.",
+            "ko": "소년은 무죄예요."
+          }
+        ],
+        "speaker_legacy": "빵집 아가씨 소피",
+        "speaker_en": "Baker Bea"
+      },
+      "next_dialogue": {
+        "speaker": "제빵사 비아",
+        "en": "An old letter was found inside the book.",
+        "ko": "책 안에서 오래된 편지가 발견됐어요.",
+        "chunks": [
+          {
+            "en": "An old letter was found",
+            "ko": "오래된 편지가 발견됐어요"
+          },
+          {
+            "en": "inside the book.",
+            "ko": "책 안에서."
+          }
+        ],
+        "speaker_legacy": "빵집 아가씨 소피",
+        "speaker_en": "Baker Bea"
+      },
+      "boss_intro": [
+        {
+          "speaker": "옥시",
+          "en": "The page is giving off dark magic.",
+          "ko": "페이지가 어둠의 마력을 내뿜고 있어.",
+          "chunks": [
+            {
+              "en": "The page",
+              "ko": "페이지가"
+            },
+            {
+              "en": "is giving off dark magic.",
+              "ko": "어둠의 마력을 내뿜고 있어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        },
+        {
+          "speaker": "컴플리",
+          "en": "Let us break the curse.",
+          "ko": "저주를 풀자.",
+          "chunks": [
+            {
+              "en": "Let us break the curse.",
+              "ko": "저주를 풀자."
+            }
+          ],
+          "speaker_legacy": "컴플리",
+          "speaker_en": "Comple"
+        }
+      ],
+      "boss_clear": [
+        {
+          "speaker": "버벨라",
+          "en": "The dark magic is gone!",
+          "ko": "어둠의 마력이 사라졌어요!",
+          "chunks": [
+            {
+              "en": "The dark magic",
+              "ko": "어둠의 마력이"
+            },
+            {
+              "en": "is gone!",
+              "ko": "사라졌어요!"
+            }
+          ],
+          "speaker_legacy": "버벨라",
+          "speaker_en": "Verbella"
+        },
+        {
+          "speaker": "옥시",
+          "en": "We found another page.",
+          "ko": "또 한 장의 페이지를 찾았어.",
+          "chunks": [
+            {
+              "en": "We found another page.",
+              "ko": "또 한 장의 페이지를 찾았어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        }
+      ],
+      "town_legacy": "수동 마을",
+      "town_en": "Passive Lake",
+      "boss_legacy": "수동태의 수문장",
+      "boss_en": "Passivus, Lord of the Lake",
+      "title_en": "The Wrong Suspect",
+      "page_name_en": "Page of Action",
+      "reward_en": "Guard's Medal"
+    },
+    {
+      "id": "pf",
+      "episode": 7,
+      "town": "퍼펙트 오아시스",
+      "grammar": "완료",
+      "boss": "세월의 수문장 퍼펙터스",
+      "title": "10년 만에 도착한 편지",
+      "page_id": "grammatica_07",
+      "page_name": "기억의 페이지",
+      "reward": "추억의 회중시계",
+      "reward_type": "souvenir",
+      "next_id": "rv",
+      "residents": [
+        {
+          "index": 0,
+          "name": "집주인 헤이븐",
+          "before_problem": {
+            "speaker": "집주인 헤이븐",
+            "en": "I have lived here for ten years.",
+            "ko": "저는 10년 동안 여기 살아 왔어요.",
+            "chunks": [
+              {
+                "en": "I have lived here",
+                "ko": "저는 여기 살아 왔어요"
+              },
+              {
+                "en": "for ten years.",
+                "ko": "10년 동안."
+              }
+            ],
+            "speaker_legacy": "집주인 맥스",
+            "speaker_en": "Landlord Haven"
+          },
+          "after_recovery": {
+            "speaker": "집주인 헤이븐",
+            "en": "I have waited for a letter from my family.",
+            "ko": "가족의 편지를 기다려 왔어요.",
+            "chunks": [
+              {
+                "en": "I have waited",
+                "ko": "저는 기다려 왔어요"
+              },
+              {
+                "en": "for a letter from my family.",
+                "ko": "가족의 편지를."
+              }
+            ],
+            "speaker_legacy": "집주인 맥스",
+            "speaker_en": "Landlord Haven"
+          },
+          "original_problem_ref": "TOWN.pf.n[0]",
+          "name_legacy": "집주인 맥스",
+          "name_en": "Landlord Haven"
+        },
+        {
+          "index": 1,
+          "name": "학생 저스틴",
+          "before_problem": {
+            "speaker": "학생 저스틴",
+            "en": "I have just finished my homework.",
+            "ko": "저는 막 숙제를 끝냈어요.",
+            "chunks": [
+              {
+                "en": "I have just finished",
+                "ko": "저는 막 끝냈어요"
+              },
+              {
+                "en": "my homework.",
+                "ko": "숙제를."
+              }
+            ],
+            "speaker_legacy": "학생 엠마",
+            "speaker_en": "Student Justine"
+          },
+          "after_recovery": {
+            "speaker": "학생 저스틴",
+            "en": "I can help you read the old letter.",
+            "ko": "오래된 편지를 읽는 것을 도와드릴 수 있어요.",
+            "chunks": [
+              {
+                "en": "I can help you",
+                "ko": "도와드릴 수 있어요"
+              },
+              {
+                "en": "read the old letter.",
+                "ko": "오래된 편지를 읽도록."
+              }
+            ],
+            "speaker_legacy": "학생 엠마",
+            "speaker_en": "Student Justine"
+          },
+          "original_problem_ref": "TOWN.pf.n[1]",
+          "name_legacy": "학생 엠마",
+          "name_en": "Student Justine"
+        },
+        {
+          "index": 2,
+          "name": "시계공 신스",
+          "before_problem": {
+            "speaker": "시계공 신스",
+            "en": "I remember an old friend.",
+            "ko": "나는 옛 친구를 기억한다네.",
+            "chunks": [
+              {
+                "en": "I remember",
+                "ko": "나는 기억한다네"
+              },
+              {
+                "en": "an old friend.",
+                "ko": "옛 친구를."
+              }
+            ],
+            "speaker_legacy": "시계방 노인",
+            "speaker_en": "Clockmaker Since"
+          },
+          "after_recovery": {
+            "speaker": "시계공 신스",
+            "en": "I saw him last year.",
+            "ko": "나는 작년에 그를 봤네.",
+            "chunks": [
+              {
+                "en": "I saw him",
+                "ko": "나는 그를 봤네"
+              },
+              {
+                "en": "last year.",
+                "ko": "작년에."
+              }
+            ],
+            "speaker_legacy": "시계방 노인",
+            "speaker_en": "Clockmaker Since"
+          },
+          "original_problem_ref": "TOWN.pf.n[2]",
+          "name_legacy": "시계방 노인",
+          "name_en": "Clockmaker Since"
+        },
+        {
+          "index": 3,
+          "name": "미식가 에버",
+          "before_problem": {
+            "speaker": "미식가 에버",
+            "en": "I have never eaten that dish.",
+            "ko": "저는 그 음식을 먹어 본 적 없어요.",
+            "chunks": [
+              {
+                "en": "I have never eaten",
+                "ko": "저는 먹어 본 적 없어요"
+              },
+              {
+                "en": "that dish.",
+                "ko": "그 음식을."
+              }
+            ],
+            "speaker_legacy": "미식가 타로",
+            "speaker_en": "Gourmet Ever"
+          },
+          "after_recovery": {
+            "speaker": "미식가 에버",
+            "en": "A traveler left a message at my table.",
+            "ko": "여행자가 제 식탁에 메시지를 남겼어요.",
+            "chunks": [
+              {
+                "en": "A traveler left a message",
+                "ko": "여행자가 메시지를 남겼어요"
+              },
+              {
+                "en": "at my table.",
+                "ko": "제 식탁에."
+              }
+            ],
+            "speaker_legacy": "미식가 타로",
+            "speaker_en": "Gourmet Ever"
+          },
+          "original_problem_ref": "TOWN.pf.n[3]",
+          "name_legacy": "미식가 타로",
+          "name_en": "Gourmet Ever"
+        }
+      ],
+      "completion": {
+        "speaker": "집주인 헤이븐",
+        "en": "My family has not forgotten me.",
+        "ko": "제 가족은 저를 잊지 않았어요.",
+        "chunks": [
+          {
+            "en": "My family",
+            "ko": "제 가족은"
+          },
+          {
+            "en": "has not forgotten me.",
+            "ko": "저를 잊지 않았어요."
+          }
+        ],
+        "speaker_legacy": "집주인 맥스",
+        "speaker_en": "Landlord Haven"
+      },
+      "next_dialogue": {
+        "speaker": "집주인 헤이븐",
+        "en": "The letter mentions a house in Whereport.",
+        "ko": "편지에는 웨어포트의 집 한 채가 언급돼요.",
+        "chunks": [
+          {
+            "en": "The letter mentions a house",
+            "ko": "편지는 집 한 채를 언급해요"
+          },
+          {
+            "en": "in Whereport.",
+            "ko": "웨어포트에 있는."
+          }
+        ],
+        "speaker_legacy": "집주인 맥스",
+        "speaker_en": "Landlord Haven"
+      },
+      "boss_intro": [
+        {
+          "speaker": "옥시",
+          "en": "The page is giving off dark magic.",
+          "ko": "페이지가 어둠의 마력을 내뿜고 있어.",
+          "chunks": [
+            {
+              "en": "The page",
+              "ko": "페이지가"
+            },
+            {
+              "en": "is giving off dark magic.",
+              "ko": "어둠의 마력을 내뿜고 있어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        },
+        {
+          "speaker": "컴플리",
+          "en": "Let us break the curse.",
+          "ko": "저주를 풀자.",
+          "chunks": [
+            {
+              "en": "Let us break the curse.",
+              "ko": "저주를 풀자."
+            }
+          ],
+          "speaker_legacy": "컴플리",
+          "speaker_en": "Comple"
+        }
+      ],
+      "boss_clear": [
+        {
+          "speaker": "버벨라",
+          "en": "The dark magic is gone!",
+          "ko": "어둠의 마력이 사라졌어요!",
+          "chunks": [
+            {
+              "en": "The dark magic",
+              "ko": "어둠의 마력이"
+            },
+            {
+              "en": "is gone!",
+              "ko": "사라졌어요!"
+            }
+          ],
+          "speaker_legacy": "버벨라",
+          "speaker_en": "Verbella"
+        },
+        {
+          "speaker": "옥시",
+          "en": "We found another page.",
+          "ko": "또 한 장의 페이지를 찾았어.",
+          "chunks": [
+            {
+              "en": "We found another page.",
+              "ko": "또 한 장의 페이지를 찾았어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        }
+      ],
+      "town_legacy": "해브 마을",
+      "town_en": "Perfect Oasis",
+      "boss_legacy": "완료의 수문장",
+      "boss_en": "Perfectus, Keeper of Ages",
+      "title_en": "A Letter After Ten Years",
+      "page_name_en": "Page of Memory",
+      "reward_en": "Memory Pocket Watch"
+    },
+    {
+      "id": "rv",
+      "episode": 8,
+      "town": "웨어포트",
+      "grammar": "관계부사",
+      "boss": "장소의 수호자 로카루스",
+      "title": "기억 속의 고향",
+      "page_id": "grammatica_08",
+      "page_name": "장소의 페이지",
+      "reward": "항구의 나침반",
+      "reward_type": "souvenir",
+      "next_id": "pc",
+      "residents": [
+        {
+          "index": 0,
+          "name": "어부 웨어리",
+          "before_problem": {
+            "speaker": "어부 웨어리",
+            "en": "I want to find the house where I was born.",
+            "ko": "제가 태어난 집을 찾고 싶어요.",
+            "chunks": [
+              {
+                "en": "I want to find the house",
+                "ko": "저는 집을 찾고 싶어요"
+              },
+              {
+                "en": "where I was born.",
+                "ko": "제가 태어난."
+              }
+            ],
+            "speaker_legacy": "어부 노아",
+            "speaker_en": "Fisher Whereley"
+          },
+          "after_recovery": {
+            "speaker": "어부 웨어리",
+            "en": "The old harbor is near that house.",
+            "ko": "옛 항구는 그 집 근처에 있어요.",
+            "chunks": [
+              {
+                "en": "The old harbor",
+                "ko": "옛 항구는"
+              },
+              {
+                "en": "is near that house.",
+                "ko": "그 집 근처에 있어요."
+              }
+            ],
+            "speaker_legacy": "어부 노아",
+            "speaker_en": "Fisher Whereley"
+          },
+          "original_problem_ref": "TOWN.rv.n[0]",
+          "name_legacy": "어부 노아",
+          "name_en": "Fisher Whereley"
+        },
+        {
+          "index": 1,
+          "name": "위나",
+          "before_problem": {
+            "speaker": "위나",
+            "en": "I want to know the reason why my family left.",
+            "ko": "가족이 떠난 이유를 알고 싶어요.",
+            "chunks": [
+              {
+                "en": "I want to know the reason",
+                "ko": "저는 이유를 알고 싶어요"
+              },
+              {
+                "en": "why my family left.",
+                "ko": "가족이 떠난."
+              }
+            ],
+            "speaker_legacy": "소녀 제나",
+            "speaker_en": "Wynna"
+          },
+          "after_recovery": {
+            "speaker": "위나",
+            "en": "They left to protect an old record.",
+            "ko": "그들은 오래된 기록을 지키기 위해 떠났어요.",
+            "chunks": [
+              {
+                "en": "They left",
+                "ko": "그들은 떠났어요"
+              },
+              {
+                "en": "to protect an old record.",
+                "ko": "오래된 기록을 지키기 위해."
+              }
+            ],
+            "speaker_legacy": "소녀 제나",
+            "speaker_en": "Wynna"
+          },
+          "original_problem_ref": "TOWN.rv.n[1]",
+          "name_legacy": "소녀 제나",
+          "name_en": "Wynna"
+        },
+        {
+          "index": 2,
+          "name": "코치 하위",
+          "before_problem": {
+            "speaker": "코치 하위",
+            "en": "I remember the park where we met.",
+            "ko": "우리가 만났던 공원을 기억해요.",
+            "chunks": [
+              {
+                "en": "I remember the park",
+                "ko": "저는 공원을 기억해요"
+              },
+              {
+                "en": "where we met.",
+                "ko": "우리가 만났던."
+              }
+            ],
+            "speaker_legacy": "코치 샘",
+            "speaker_en": "Coach Howie"
+          },
+          "after_recovery": {
+            "speaker": "코치 하위",
+            "en": "The old house is behind the park.",
+            "ko": "오래된 집은 공원 뒤에 있어요.",
+            "chunks": [
+              {
+                "en": "The old house",
+                "ko": "오래된 집은"
+              },
+              {
+                "en": "is behind the park.",
+                "ko": "공원 뒤에 있어요."
+              }
+            ],
+            "speaker_legacy": "코치 샘",
+            "speaker_en": "Coach Howie"
+          },
+          "original_problem_ref": "TOWN.rv.n[2]",
+          "name_legacy": "코치 샘",
+          "name_en": "Coach Howie"
+        },
+        {
+          "index": 3,
+          "name": "이장 와이엇",
+          "before_problem": {
+            "speaker": "이장 와이엇",
+            "en": "I keep records of our village.",
+            "ko": "나는 우리 마을의 기록을 보관한다네.",
+            "chunks": [
+              {
+                "en": "I keep records",
+                "ko": "나는 기록을 보관한다네"
+              },
+              {
+                "en": "of our village.",
+                "ko": "우리 마을의."
+              }
+            ],
+            "speaker_legacy": "이장님",
+            "speaker_en": "Mayor Whyatt"
+          },
+          "after_recovery": {
+            "speaker": "이장 와이엇",
+            "en": "The record points to the canyon.",
+            "ko": "기록은 협곡을 가리킨다네.",
+            "chunks": [
+              {
+                "en": "The record points",
+                "ko": "기록은 가리킨다네"
+              },
+              {
+                "en": "to the canyon.",
+                "ko": "협곡을."
+              }
+            ],
+            "speaker_legacy": "이장님",
+            "speaker_en": "Mayor Whyatt"
+          },
+          "original_problem_ref": "TOWN.rv.n[3]",
+          "name_legacy": "이장님",
+          "name_en": "Mayor Whyatt"
+        }
+      ],
+      "completion": {
+        "speaker": "어부 웨어리",
+        "en": "We found the house where our story began.",
+        "ko": "우리 이야기가 시작된 집을 찾았어요.",
+        "chunks": [
+          {
+            "en": "We found the house",
+            "ko": "우리는 집을 찾았어요"
+          },
+          {
+            "en": "where our story began.",
+            "ko": "우리 이야기가 시작된."
+          }
+        ],
+        "speaker_legacy": "어부 노아",
+        "speaker_en": "Fisher Whereley"
+      },
+      "next_dialogue": {
+        "speaker": "어부 웨어리",
+        "en": "Take this record to Edlyn in Participle Canyon.",
+        "ko": "이 기록을 파티서플 캐니언의 에들린에게 가져가게.",
+        "chunks": [
+          {
+            "en": "Take this record",
+            "ko": "이 기록을 가져가게"
+          },
+          {
+            "en": "to Edlyn in Participle Canyon.",
+            "ko": "파티서플 캐니언의 에들린에게."
+          }
+        ],
+        "speaker_legacy": "어부 노아",
+        "speaker_en": "Fisher Whereley"
+      },
+      "boss_intro": [
+        {
+          "speaker": "옥시",
+          "en": "The page is giving off dark magic.",
+          "ko": "페이지가 어둠의 마력을 내뿜고 있어.",
+          "chunks": [
+            {
+              "en": "The page",
+              "ko": "페이지가"
+            },
+            {
+              "en": "is giving off dark magic.",
+              "ko": "어둠의 마력을 내뿜고 있어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        },
+        {
+          "speaker": "컴플리",
+          "en": "Let us break the curse.",
+          "ko": "저주를 풀자.",
+          "chunks": [
+            {
+              "en": "Let us break the curse.",
+              "ko": "저주를 풀자."
+            }
+          ],
+          "speaker_legacy": "컴플리",
+          "speaker_en": "Comple"
+        }
+      ],
+      "boss_clear": [
+        {
+          "speaker": "버벨라",
+          "en": "The dark magic is gone!",
+          "ko": "어둠의 마력이 사라졌어요!",
+          "chunks": [
+            {
+              "en": "The dark magic",
+              "ko": "어둠의 마력이"
+            },
+            {
+              "en": "is gone!",
+              "ko": "사라졌어요!"
+            }
+          ],
+          "speaker_legacy": "버벨라",
+          "speaker_en": "Verbella"
+        },
+        {
+          "speaker": "옥시",
+          "en": "We found another page.",
+          "ko": "또 한 장의 페이지를 찾았어.",
+          "chunks": [
+            {
+              "en": "We found another page.",
+              "ko": "또 한 장의 페이지를 찾았어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        }
+      ],
+      "town_legacy": "웨어 마을",
+      "town_en": "Whereport",
+      "boss_legacy": "관계부사의 수문장",
+      "boss_en": "Locarus, Guardian of Places",
+      "title_en": "The Place We Remember",
+      "page_name_en": "Page of Place",
+      "reward_en": "Harbor Compass"
+    },
+    {
+      "id": "pc",
+      "episode": 9,
+      "town": "파티서플 캐니언",
+      "grammar": "분사구문",
+      "boss": "협곡의 그리핀 파틱스",
+      "title": "절벽에 남겨진 기록",
+      "page_id": "grammatica_09",
+      "page_name": "기록의 페이지",
+      "reward": "고대 문서 조각",
+      "reward_type": "souvenir",
+      "next_id": "sj",
+      "residents": [
+        {
+          "index": 0,
+          "name": "산책자 잉마르",
+          "before_problem": {
+            "speaker": "산책자 잉마르",
+            "en": "Walking near the canyon, I found a stone tablet.",
+            "ko": "협곡 근처를 걷다가 돌판을 발견했어요.",
+            "chunks": [
+              {
+                "en": "Walking near the canyon,",
+                "ko": "협곡 근처를 걷다가,"
+              },
+              {
+                "en": "I found a stone tablet.",
+                "ko": "돌판을 발견했어요."
+              }
+            ],
+            "speaker_legacy": "산책자 윌",
+            "speaker_en": "Walker Ingmar"
+          },
+          "after_recovery": {
+            "speaker": "산책자 잉마르",
+            "en": "It has marks like those on the page.",
+            "ko": "돌판에는 페이지와 같은 문양이 있어요.",
+            "chunks": [
+              {
+                "en": "It has marks",
+                "ko": "그것에는 문양이 있어요"
+              },
+              {
+                "en": "like those on the page.",
+                "ko": "페이지에 있는 것과 같은."
+              }
+            ],
+            "speaker_legacy": "산책자 윌",
+            "speaker_en": "Walker Ingmar"
+          },
+          "original_problem_ref": "TOWN.pc.n[0]",
+          "name_legacy": "산책자 윌",
+          "name_en": "Walker Ingmar"
+        },
+        {
+          "index": 1,
+          "name": "학생 노잉",
+          "before_problem": {
+            "speaker": "학생 노잉",
+            "en": "Knowing a few old words, I read the first line.",
+            "ko": "옛 단어 몇 개를 알아서 첫 줄을 읽었어요.",
+            "chunks": [
+              {
+                "en": "Knowing a few old words,",
+                "ko": "옛 단어 몇 개를 알아서,"
+              },
+              {
+                "en": "I read the first line.",
+                "ko": "첫 줄을 읽었어요."
+              }
+            ],
+            "speaker_legacy": "학생 카이",
+            "speaker_en": "Student Knowing"
+          },
+          "after_recovery": {
+            "speaker": "학생 노잉",
+            "en": "The monsters were created by magic.",
+            "ko": "괴물들은 마법으로 만들어졌어요.",
+            "chunks": [
+              {
+                "en": "The monsters",
+                "ko": "괴물들은"
+              },
+              {
+                "en": "were created by magic.",
+                "ko": "마법으로 만들어졌어요."
+              }
+            ],
+            "speaker_legacy": "학생 카이",
+            "speaker_en": "Student Knowing"
+          },
+          "original_problem_ref": "TOWN.pc.n[1]",
+          "name_legacy": "학생 카이",
+          "name_en": "Student Knowing"
+        },
+        {
+          "index": 2,
+          "name": "사서 에들린",
+          "before_problem": {
+            "speaker": "사서 에들린",
+            "en": "Written in an old language, the record is hard to read.",
+            "ko": "옛 언어로 쓰인 기록은 읽기 어려워요.",
+            "chunks": [
+              {
+                "en": "Written in an old language,",
+                "ko": "옛 언어로 쓰여서,"
+              },
+              {
+                "en": "the record is hard to read.",
+                "ko": "기록은 읽기 어려워요."
+              }
+            ],
+            "speaker_legacy": "사서 아델",
+            "speaker_en": "Librarian Edlyn"
+          },
+          "after_recovery": {
+            "speaker": "사서 에들린",
+            "en": "The same mark appears in the library records.",
+            "ko": "도서관 기록에도 같은 문양이 나타나요.",
+            "chunks": [
+              {
+                "en": "The same mark",
+                "ko": "같은 문양이"
+              },
+              {
+                "en": "appears in the library records.",
+                "ko": "도서관 기록에 나타나요."
+              }
+            ],
+            "speaker_legacy": "사서 아델",
+            "speaker_en": "Librarian Edlyn"
+          },
+          "original_problem_ref": "TOWN.pc.n[2]",
+          "name_legacy": "사서 아델",
+          "name_en": "Librarian Edlyn"
+        },
+        {
+          "index": 3,
+          "name": "페이",
+          "before_problem": {
+            "speaker": "페이",
+            "en": "Not feeling well, I stayed home.",
+            "ko": "몸이 좋지 않아서 집에 있었어요.",
+            "chunks": [
+              {
+                "en": "Not feeling well,",
+                "ko": "몸이 좋지 않아서,"
+              },
+              {
+                "en": "I stayed home.",
+                "ko": "집에 있었어요."
+              }
+            ],
+            "speaker_legacy": "소녀 하나",
+            "speaker_en": "Faye"
+          },
+          "after_recovery": {
+            "speaker": "페이",
+            "en": "I saw a dark light from my window.",
+            "ko": "창문에서 어두운 빛을 봤어요.",
+            "chunks": [
+              {
+                "en": "I saw a dark light",
+                "ko": "어두운 빛을 봤어요"
+              },
+              {
+                "en": "from my window.",
+                "ko": "창문에서."
+              }
+            ],
+            "speaker_legacy": "소녀 하나",
+            "speaker_en": "Faye"
+          },
+          "original_problem_ref": "TOWN.pc.n[3]",
+          "name_legacy": "소녀 하나",
+          "name_en": "Faye"
+        }
+      ],
+      "completion": {
+        "speaker": "산책자 잉마르",
+        "en": "The record is clear now. Someone created the curse.",
+        "ko": "기록이 이제 명확해요. 누군가 저주를 만들었어요.",
+        "chunks": [
+          {
+            "en": "The record is clear now.",
+            "ko": "기록이 이제 명확해요."
+          },
+          {
+            "en": "Someone created the curse.",
+            "ko": "누군가 저주를 만들었어요."
+          }
+        ],
+        "speaker_legacy": "산책자 윌",
+        "speaker_en": "Walker Ingmar"
+      },
+      "next_dialogue": {
+        "speaker": "산책자 잉마르",
+        "en": "A similar mark was found in Ifhaven.",
+        "ko": "이프헤이븐에서 비슷한 문양이 발견됐어요.",
+        "chunks": [
+          {
+            "en": "A similar mark",
+            "ko": "비슷한 문양이"
+          },
+          {
+            "en": "was found in Ifhaven.",
+            "ko": "이프헤이븐에서 발견됐어요."
+          }
+        ],
+        "speaker_legacy": "산책자 윌",
+        "speaker_en": "Walker Ingmar"
+      },
+      "boss_intro": [
+        {
+          "speaker": "옥시",
+          "en": "The page is giving off dark magic.",
+          "ko": "페이지가 어둠의 마력을 내뿜고 있어.",
+          "chunks": [
+            {
+              "en": "The page",
+              "ko": "페이지가"
+            },
+            {
+              "en": "is giving off dark magic.",
+              "ko": "어둠의 마력을 내뿜고 있어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        },
+        {
+          "speaker": "컴플리",
+          "en": "Let us break the curse.",
+          "ko": "저주를 풀자.",
+          "chunks": [
+            {
+              "en": "Let us break the curse.",
+              "ko": "저주를 풀자."
+            }
+          ],
+          "speaker_legacy": "컴플리",
+          "speaker_en": "Comple"
+        }
+      ],
+      "boss_clear": [
+        {
+          "speaker": "버벨라",
+          "en": "The dark magic is gone!",
+          "ko": "어둠의 마력이 사라졌어요!",
+          "chunks": [
+            {
+              "en": "The dark magic",
+              "ko": "어둠의 마력이"
+            },
+            {
+              "en": "is gone!",
+              "ko": "사라졌어요!"
+            }
+          ],
+          "speaker_legacy": "버벨라",
+          "speaker_en": "Verbella"
+        },
+        {
+          "speaker": "옥시",
+          "en": "We found another page.",
+          "ko": "또 한 장의 페이지를 찾았어.",
+          "chunks": [
+            {
+              "en": "We found another page.",
+              "ko": "또 한 장의 페이지를 찾았어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        }
+      ],
+      "town_legacy": "이잉 마을",
+      "town_en": "Participle Canyon",
+      "boss_legacy": "분사구문의 수문장",
+      "boss_en": "Partix, the Canyon Griffin",
+      "title_en": "The Ancient Manuscript",
+      "page_name_en": "Page of Records",
+      "reward_en": "Ancient Manuscript Fragment"
+    },
+    {
+      "id": "sj",
+      "episode": 10,
+      "town": "이프헤이븐",
+      "grammar": "가정법",
+      "boss": "소원의 여왕 위슈라",
+      "title": "날개 없는 소원",
+      "page_id": "grammatica_10",
+      "page_name": "소망의 페이지",
+      "reward": "소원의 깃털",
+      "reward_type": "souvenir",
+      "next_id": "cp",
+      "residents": [
+        {
+          "index": 0,
+          "name": "새 조련사 이판",
+          "before_problem": {
+            "speaker": "새 조련사 이판",
+            "en": "If I were a bird, I would fly far away.",
+            "ko": "내가 새라면 멀리 날아갈 텐데요.",
+            "chunks": [
+              {
+                "en": "If I were a bird,",
+                "ko": "내가 새라면,"
+              },
+              {
+                "en": "I would fly far away.",
+                "ko": "멀리 날아갈 텐데요."
+              }
+            ],
+            "speaker_legacy": "새 조련사 핀",
+            "speaker_en": "Falconer Ifan"
+          },
+          "after_recovery": {
+            "speaker": "새 조련사 이판",
+            "en": "My birds can carry letters.",
+            "ko": "제 새들은 편지를 나를 수 있어요.",
+            "chunks": [
+              {
+                "en": "My birds",
+                "ko": "제 새들은"
+              },
+              {
+                "en": "can carry letters.",
+                "ko": "편지를 나를 수 있어요."
+              }
+            ],
+            "speaker_legacy": "새 조련사 핀",
+            "speaker_en": "Falconer Ifan"
+          },
+          "original_problem_ref": "TOWN.sj.n[0]",
+          "name_legacy": "새 조련사 핀",
+          "name_en": "Falconer Ifan"
+        },
+        {
+          "index": 1,
+          "name": "상인 우든",
+          "before_problem": {
+            "speaker": "상인 우든",
+            "en": "If I had more money, I would help the village.",
+            "ko": "돈이 더 있다면 마을을 도울 텐데요.",
+            "chunks": [
+              {
+                "en": "If I had more money,",
+                "ko": "돈이 더 있다면,"
+              },
+              {
+                "en": "I would help the village.",
+                "ko": "마을을 도울 텐데요."
+              }
+            ],
+            "speaker_legacy": "상인 오토",
+            "speaker_en": "Merchant Woulden"
+          },
+          "after_recovery": {
+            "speaker": "상인 우든",
+            "en": "I can offer a small prize for the bird race.",
+            "ko": "새 경주에 작은 상품을 제공할 수 있어요.",
+            "chunks": [
+              {
+                "en": "I can offer a small prize",
+                "ko": "작은 상품을 제공할 수 있어요"
+              },
+              {
+                "en": "for the bird race.",
+                "ko": "새 경주를 위해."
+              }
+            ],
+            "speaker_legacy": "상인 오토",
+            "speaker_en": "Merchant Woulden"
+          },
+          "original_problem_ref": "TOWN.sj.n[1]",
+          "name_legacy": "상인 오토",
+          "name_en": "Merchant Woulden"
+        },
+        {
+          "index": 2,
+          "name": "위샤",
+          "before_problem": {
+            "speaker": "위샤",
+            "en": "I wish he were here.",
+            "ko": "그가 여기 있으면 좋겠어요.",
+            "chunks": [
+              {
+                "en": "I wish",
+                "ko": "바라요"
+              },
+              {
+                "en": "he were here.",
+                "ko": "그가 여기 있기를."
+              }
+            ],
+            "speaker_legacy": "소녀 루나",
+            "speaker_en": "Wisha"
+          },
+          "after_recovery": {
+            "speaker": "위샤",
+            "en": "I wrote a letter for him.",
+            "ko": "그에게 줄 편지를 썼어요.",
+            "chunks": [
+              {
+                "en": "I wrote a letter",
+                "ko": "편지를 썼어요"
+              },
+              {
+                "en": "for him.",
+                "ko": "그에게 줄."
+              }
+            ],
+            "speaker_legacy": "소녀 루나",
+            "speaker_en": "Wisha"
+          },
+          "original_problem_ref": "TOWN.sj.n[2]",
+          "name_legacy": "소녀 루나",
+          "name_en": "Wisha"
+        },
+        {
+          "index": 3,
+          "name": "학생 해들리",
+          "before_problem": {
+            "speaker": "학생 해들리",
+            "en": "If I had studied harder, I would have passed.",
+            "ko": "더 열심히 공부했더라면 합격했을 텐데요.",
+            "chunks": [
+              {
+                "en": "If I had studied harder,",
+                "ko": "더 열심히 공부했더라면,"
+              },
+              {
+                "en": "I would have passed.",
+                "ko": "합격했을 텐데요."
+              }
+            ],
+            "speaker_legacy": "수험생 도윤",
+            "speaker_en": "Student Hadley"
+          },
+          "after_recovery": {
+            "speaker": "학생 해들리",
+            "en": "I can try again next year.",
+            "ko": "내년에 다시 도전할 수 있어요.",
+            "chunks": [
+              {
+                "en": "I can try again",
+                "ko": "다시 도전할 수 있어요"
+              },
+              {
+                "en": "next year.",
+                "ko": "내년에."
+              }
+            ],
+            "speaker_legacy": "수험생 도윤",
+            "speaker_en": "Student Hadley"
+          },
+          "original_problem_ref": "TOWN.sj.n[3]",
+          "name_legacy": "수험생 도윤",
+          "name_en": "Student Hadley"
+        }
+      ],
+      "completion": {
+        "speaker": "새 조련사 이판",
+        "en": "My wish has a chance to come true.",
+        "ko": "제 소원이 이루어질 기회가 생겼어요.",
+        "chunks": [
+          {
+            "en": "My wish has a chance",
+            "ko": "제 소원에 기회가 생겼어요"
+          },
+          {
+            "en": "to come true.",
+            "ko": "이루어질."
+          }
+        ],
+        "speaker_legacy": "새 조련사 핀",
+        "speaker_en": "Falconer Ifan"
+      },
+      "next_dialogue": {
+        "speaker": "새 조련사 이판",
+        "en": "The bird race will be held in Compare Hills.",
+        "ko": "새 경주는 컴페어 힐스에서 열릴 거예요.",
+        "chunks": [
+          {
+            "en": "The bird race",
+            "ko": "새 경주는"
+          },
+          {
+            "en": "will be held in Compare Hills.",
+            "ko": "컴페어 힐스에서 열릴 거예요."
+          }
+        ],
+        "speaker_legacy": "새 조련사 핀",
+        "speaker_en": "Falconer Ifan"
+      },
+      "boss_intro": [
+        {
+          "speaker": "옥시",
+          "en": "The page is giving off dark magic.",
+          "ko": "페이지가 어둠의 마력을 내뿜고 있어.",
+          "chunks": [
+            {
+              "en": "The page",
+              "ko": "페이지가"
+            },
+            {
+              "en": "is giving off dark magic.",
+              "ko": "어둠의 마력을 내뿜고 있어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        },
+        {
+          "speaker": "컴플리",
+          "en": "Let us break the curse.",
+          "ko": "저주를 풀자.",
+          "chunks": [
+            {
+              "en": "Let us break the curse.",
+              "ko": "저주를 풀자."
+            }
+          ],
+          "speaker_legacy": "컴플리",
+          "speaker_en": "Comple"
+        }
+      ],
+      "boss_clear": [
+        {
+          "speaker": "버벨라",
+          "en": "The dark magic is gone!",
+          "ko": "어둠의 마력이 사라졌어요!",
+          "chunks": [
+            {
+              "en": "The dark magic",
+              "ko": "어둠의 마력이"
+            },
+            {
+              "en": "is gone!",
+              "ko": "사라졌어요!"
+            }
+          ],
+          "speaker_legacy": "버벨라",
+          "speaker_en": "Verbella"
+        },
+        {
+          "speaker": "옥시",
+          "en": "We found another page.",
+          "ko": "또 한 장의 페이지를 찾았어.",
+          "chunks": [
+            {
+              "en": "We found another page.",
+              "ko": "또 한 장의 페이지를 찾았어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        }
+      ],
+      "town_legacy": "이프 마을",
+      "town_en": "Ifhaven",
+      "boss_legacy": "가정법의 수문장",
+      "boss_en": "Wishra, Queen of Wishes",
+      "title_en": "Wings of Wishes",
+      "page_name_en": "Page of Wishes",
+      "reward_en": "Wish Feather"
+    },
+    {
+      "id": "cp",
+      "episode": 11,
+      "town": "컴페어 힐스",
+      "grammar": "비교급·최상급",
+      "boss": "언덕의 왕 막시무스",
+      "title": "우승자가 없는 대회",
+      "page_id": "grammatica_11",
+      "page_name": "비교의 페이지",
+      "reward": "챔피언 메달",
+      "reward_type": "souvenir",
+      "next_id": "pn",
+      "residents": [
+        {
+          "index": 0,
+          "name": "달리기 선수 스위프트",
+          "before_problem": {
+            "speaker": "달리기 선수 스위프트",
+            "en": "Who is faster? I cannot read the results.",
+            "ko": "누가 더 빠르죠? 결과를 읽을 수 없어요.",
+            "chunks": [
+              {
+                "en": "Who is faster?",
+                "ko": "누가 더 빠르죠?"
+              },
+              {
+                "en": "I cannot read the results.",
+                "ko": "결과를 읽을 수 없어요."
+              }
+            ],
+            "speaker_legacy": "달리기 선수 아이",
+            "speaker_en": "Runner Swift"
+          },
+          "after_recovery": {
+            "speaker": "달리기 선수 스위프트",
+            "en": "The birds need a fair race too.",
+            "ko": "새들에게도 공정한 경주가 필요해요.",
+            "chunks": [
+              {
+                "en": "The birds need",
+                "ko": "새들에게도 필요해요"
+              },
+              {
+                "en": "a fair race too.",
+                "ko": "공정한 경주가."
+              }
+            ],
+            "speaker_legacy": "달리기 선수 아이",
+            "speaker_en": "Runner Swift"
+          },
+          "original_problem_ref": "TOWN.cp.n[0]",
+          "name_legacy": "달리기 선수 아이",
+          "name_en": "Runner Swift"
+        },
+        {
+          "index": 1,
+          "name": "상인 모렐라",
+          "before_problem": {
+            "speaker": "상인 모렐라",
+            "en": "This bag is lighter than that one.",
+            "ko": "이 가방은 저것보다 가벼워요.",
+            "chunks": [
+              {
+                "en": "This bag is lighter",
+                "ko": "이 가방은 더 가벼워요"
+              },
+              {
+                "en": "than that one.",
+                "ko": "저것보다."
+              }
+            ],
+            "speaker_legacy": "가방 상인 릴리",
+            "speaker_en": "Merchant Morella"
+          },
+          "after_recovery": {
+            "speaker": "상인 모렐라",
+            "en": "The winning bird needs a light bag.",
+            "ko": "우승한 새에게는 가벼운 가방이 필요해요.",
+            "chunks": [
+              {
+                "en": "The winning bird",
+                "ko": "우승한 새에게는"
+              },
+              {
+                "en": "needs a light bag.",
+                "ko": "가벼운 가방이 필요해요."
+              }
+            ],
+            "speaker_legacy": "가방 상인 릴리",
+            "speaker_en": "Merchant Morella"
+          },
+          "original_problem_ref": "TOWN.cp.n[1]",
+          "name_legacy": "가방 상인 릴리",
+          "name_en": "Merchant Morella"
+        },
+        {
+          "index": 2,
+          "name": "집주인 이퀄",
+          "before_problem": {
+            "speaker": "집주인 이퀄",
+            "en": "My room is as big as yours.",
+            "ko": "제 방은 당신 방과 크기가 같아요.",
+            "chunks": [
+              {
+                "en": "My room is as big",
+                "ko": "제 방은 크기가 같아요"
+              },
+              {
+                "en": "as yours.",
+                "ko": "당신 방과."
+              }
+            ],
+            "speaker_legacy": "집주인 톰",
+            "speaker_en": "Landlord Equal"
+          },
+          "after_recovery": {
+            "speaker": "집주인 이퀄",
+            "en": "The guests can stay here.",
+            "ko": "손님들은 여기 머물 수 있어요.",
+            "chunks": [
+              {
+                "en": "The guests",
+                "ko": "손님들은"
+              },
+              {
+                "en": "can stay here.",
+                "ko": "여기 머물 수 있어요."
+              }
+            ],
+            "speaker_legacy": "집주인 톰",
+            "speaker_en": "Landlord Equal"
+          },
+          "original_problem_ref": "TOWN.cp.n[2]",
+          "name_legacy": "집주인 톰",
+          "name_en": "Landlord Equal"
+        },
+        {
+          "index": 3,
+          "name": "선생님 베스턴",
+          "before_problem": {
+            "speaker": "선생님 베스턴",
+            "en": "The fairer the rules, the better the race.",
+            "ko": "규칙이 공정할수록 더 좋은 경주가 돼요.",
+            "chunks": [
+              {
+                "en": "The fairer the rules,",
+                "ko": "규칙이 더 공정할수록,"
+              },
+              {
+                "en": "the better the race.",
+                "ko": "경주는 더 좋아져요."
+              }
+            ],
+            "speaker_legacy": "선생님 앤",
+            "speaker_en": "Teacher Beston"
+          },
+          "after_recovery": {
+            "speaker": "선생님 베스턴",
+            "en": "The results are ready for review.",
+            "ko": "결과를 검토할 준비가 됐어요.",
+            "chunks": [
+              {
+                "en": "The results are ready",
+                "ko": "결과가 준비됐어요"
+              },
+              {
+                "en": "for review.",
+                "ko": "검토할 수 있도록."
+              }
+            ],
+            "speaker_legacy": "선생님 앤",
+            "speaker_en": "Teacher Beston"
+          },
+          "original_problem_ref": "TOWN.cp.n[3]",
+          "name_legacy": "선생님 앤",
+          "name_en": "Teacher Beston"
+        }
+      ],
+      "completion": {
+        "speaker": "달리기 선수 스위프트",
+        "en": "We have a winner at last!",
+        "ko": "마침내 우승자가 나왔어요!",
+        "chunks": [
+          {
+            "en": "We have a winner",
+            "ko": "우승자가 나왔어요"
+          },
+          {
+            "en": "at last!",
+            "ko": "마침내!"
+          }
+        ],
+        "speaker_legacy": "달리기 선수 아이",
+        "speaker_en": "Runner Swift"
+      },
+      "next_dialogue": {
+        "speaker": "달리기 선수 스위프트",
+        "en": "Some prizes were sent to Pronovia by mistake.",
+        "ko": "일부 상품이 실수로 프로노비아에 보내졌어요.",
+        "chunks": [
+          {
+            "en": "Some prizes were sent",
+            "ko": "일부 상품이 보내졌어요"
+          },
+          {
+            "en": "to Pronovia by mistake.",
+            "ko": "실수로 프로노비아에."
+          }
+        ],
+        "speaker_legacy": "달리기 선수 아이",
+        "speaker_en": "Runner Swift"
+      },
+      "boss_intro": [
+        {
+          "speaker": "옥시",
+          "en": "The page is giving off dark magic.",
+          "ko": "페이지가 어둠의 마력을 내뿜고 있어.",
+          "chunks": [
+            {
+              "en": "The page",
+              "ko": "페이지가"
+            },
+            {
+              "en": "is giving off dark magic.",
+              "ko": "어둠의 마력을 내뿜고 있어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        },
+        {
+          "speaker": "컴플리",
+          "en": "Let us break the curse.",
+          "ko": "저주를 풀자.",
+          "chunks": [
+            {
+              "en": "Let us break the curse.",
+              "ko": "저주를 풀자."
+            }
+          ],
+          "speaker_legacy": "컴플리",
+          "speaker_en": "Comple"
+        }
+      ],
+      "boss_clear": [
+        {
+          "speaker": "버벨라",
+          "en": "The dark magic is gone!",
+          "ko": "어둠의 마력이 사라졌어요!",
+          "chunks": [
+            {
+              "en": "The dark magic",
+              "ko": "어둠의 마력이"
+            },
+            {
+              "en": "is gone!",
+              "ko": "사라졌어요!"
+            }
+          ],
+          "speaker_legacy": "버벨라",
+          "speaker_en": "Verbella"
+        },
+        {
+          "speaker": "옥시",
+          "en": "We found another page.",
+          "ko": "또 한 장의 페이지를 찾았어.",
+          "chunks": [
+            {
+              "en": "We found another page.",
+              "ko": "또 한 장의 페이지를 찾았어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        }
+      ],
+      "town_legacy": "비교 마을",
+      "town_en": "Compare Hills",
+      "boss_legacy": "비교급·최상급의 수문장",
+      "boss_en": "Maximus, King of the Hills",
+      "title_en": "The Champion of Champions",
+      "page_name_en": "Page of Comparison",
+      "reward_en": "Champion Medal"
+    },
+    {
+      "id": "pn",
+      "episode": 12,
+      "town": "프로노비아",
+      "grammar": "대명사·관사",
+      "boss": "이름의 수문장 프로노무스",
+      "title": "주인을 잃어버린 물건들",
+      "page_id": "grammatica_12",
+      "page_name": "소유의 페이지",
+      "reward": "행운의 주머니",
+      "reward_type": "souvenir",
+      "next_id": "ot",
+      "residents": [
+        {
+          "index": 0,
+          "name": "책방 주인 마이라",
+          "before_problem": {
+            "speaker": "책방 주인 마이라",
+            "en": "This book is mine, but the pen is hers.",
+            "ko": "이 책은 제 것이지만 펜은 그녀 것이에요.",
+            "chunks": [
+              {
+                "en": "This book is mine,",
+                "ko": "이 책은 제 것이지만,"
+              },
+              {
+                "en": "but the pen is hers.",
+                "ko": "펜은 그녀 것이에요."
+              }
+            ],
+            "speaker_legacy": "책방 주인 메이",
+            "speaker_en": "Bookseller Myra"
+          },
+          "after_recovery": {
+            "speaker": "책방 주인 마이라",
+            "en": "An old book has a strange seal.",
+            "ko": "오래된 책에 이상한 인장이 있어요.",
+            "chunks": [
+              {
+                "en": "An old book",
+                "ko": "오래된 책에"
+              },
+              {
+                "en": "has a strange seal.",
+                "ko": "이상한 인장이 있어요."
+              }
+            ],
+            "speaker_legacy": "책방 주인 메이",
+            "speaker_en": "Bookseller Myra"
+          },
+          "original_problem_ref": "TOWN.pn.n[0]",
+          "name_legacy": "책방 주인 메이",
+          "name_en": "Bookseller Myra"
+        },
+        {
+          "index": 1,
+          "name": "과일 장수 애니",
+          "before_problem": {
+            "speaker": "과일 장수 애니",
+            "en": "I found an umbrella and an apple.",
+            "ko": "우산과 사과를 찾았어요.",
+            "chunks": [
+              {
+                "en": "I found an umbrella",
+                "ko": "우산을 찾았어요"
+              },
+              {
+                "en": "and an apple.",
+                "ko": "그리고 사과도."
+              }
+            ],
+            "speaker_legacy": "과일 장수 오리",
+            "speaker_en": "Fruit Seller Annie"
+          },
+          "after_recovery": {
+            "speaker": "과일 장수 애니",
+            "en": "They are not mine.",
+            "ko": "그것들은 제 것이 아니에요.",
+            "chunks": [
+              {
+                "en": "They are not mine.",
+                "ko": "그것들은 제 것이 아니에요."
+              }
+            ],
+            "speaker_legacy": "과일 장수 오리",
+            "speaker_en": "Fruit Seller Annie"
+          },
+          "original_problem_ref": "TOWN.pn.n[1]",
+          "name_legacy": "과일 장수 오리",
+          "name_en": "Fruit Seller Annie"
+        },
+        {
+          "index": 2,
+          "name": "셀마",
+          "before_problem": {
+            "speaker": "셀마",
+            "en": "She hurt herself at the race.",
+            "ko": "그녀는 경주에서 다쳤어요.",
+            "chunks": [
+              {
+                "en": "She hurt herself",
+                "ko": "그녀는 자신을 다치게 했어요"
+              },
+              {
+                "en": "at the race.",
+                "ko": "경주에서."
+              }
+            ],
+            "speaker_legacy": "소녀 지아",
+            "speaker_en": "Selma"
+          },
+          "after_recovery": {
+            "speaker": "셀마",
+            "en": "Her bag is at the lost property desk.",
+            "ko": "그녀의 가방은 분실물 보관소에 있어요.",
+            "chunks": [
+              {
+                "en": "Her bag",
+                "ko": "그녀의 가방은"
+              },
+              {
+                "en": "is at the lost property desk.",
+                "ko": "분실물 보관소에 있어요."
+              }
+            ],
+            "speaker_legacy": "소녀 지아",
+            "speaker_en": "Selma"
+          },
+          "original_problem_ref": "TOWN.pn.n[2]",
+          "name_legacy": "소녀 지아",
+          "name_en": "Selma"
+        },
+        {
+          "index": 3,
+          "name": "테오",
+          "before_problem": {
+            "speaker": "테오",
+            "en": "I play soccer with my friends.",
+            "ko": "저는 친구들과 축구를 해요.",
+            "chunks": [
+              {
+                "en": "I play soccer",
+                "ko": "저는 축구를 해요"
+              },
+              {
+                "en": "with my friends.",
+                "ko": "친구들과."
+              }
+            ],
+            "speaker_legacy": "소년 레오",
+            "speaker_en": "Theo"
+          },
+          "after_recovery": {
+            "speaker": "테오",
+            "en": "This medal is not ours.",
+            "ko": "이 메달은 우리 것이 아니에요.",
+            "chunks": [
+              {
+                "en": "This medal",
+                "ko": "이 메달은"
+              },
+              {
+                "en": "is not ours.",
+                "ko": "우리 것이 아니에요."
+              }
+            ],
+            "speaker_legacy": "소년 레오",
+            "speaker_en": "Theo"
+          },
+          "original_problem_ref": "TOWN.pn.n[3]",
+          "name_legacy": "소년 레오",
+          "name_en": "Theo"
+        }
+      ],
+      "completion": {
+        "speaker": "책방 주인 마이라",
+        "en": "Everything is back with its owner.",
+        "ko": "모든 물건이 주인에게 돌아갔어요.",
+        "chunks": [
+          {
+            "en": "Everything is back",
+            "ko": "모든 것이 돌아갔어요"
+          },
+          {
+            "en": "with its owner.",
+            "ko": "주인에게."
+          }
+        ],
+        "speaker_legacy": "책방 주인 메이",
+        "speaker_en": "Bookseller Myra"
+      },
+      "next_dialogue": {
+        "speaker": "책방 주인 마이라",
+        "en": "The old book records an attack on the library.",
+        "ko": "오래된 책에는 도서관 습격이 기록돼 있어요.",
+        "chunks": [
+          {
+            "en": "The old book records an attack",
+            "ko": "오래된 책은 공격을 기록해요"
+          },
+          {
+            "en": "on the library.",
+            "ko": "도서관에 대한."
+          }
+        ],
+        "speaker_legacy": "책방 주인 메이",
+        "speaker_en": "Bookseller Myra"
+      },
+      "boss_intro": [
+        {
+          "speaker": "옥시",
+          "en": "The page is giving off dark magic.",
+          "ko": "페이지가 어둠의 마력을 내뿜고 있어.",
+          "chunks": [
+            {
+              "en": "The page",
+              "ko": "페이지가"
+            },
+            {
+              "en": "is giving off dark magic.",
+              "ko": "어둠의 마력을 내뿜고 있어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        },
+        {
+          "speaker": "컴플리",
+          "en": "Let us break the curse.",
+          "ko": "저주를 풀자.",
+          "chunks": [
+            {
+              "en": "Let us break the curse.",
+              "ko": "저주를 풀자."
+            }
+          ],
+          "speaker_legacy": "컴플리",
+          "speaker_en": "Comple"
+        }
+      ],
+      "boss_clear": [
+        {
+          "speaker": "버벨라",
+          "en": "The dark magic is gone!",
+          "ko": "어둠의 마력이 사라졌어요!",
+          "chunks": [
+            {
+              "en": "The dark magic",
+              "ko": "어둠의 마력이"
+            },
+            {
+              "en": "is gone!",
+              "ko": "사라졌어요!"
+            }
+          ],
+          "speaker_legacy": "버벨라",
+          "speaker_en": "Verbella"
+        },
+        {
+          "speaker": "옥시",
+          "en": "We found another page.",
+          "ko": "또 한 장의 페이지를 찾았어.",
+          "chunks": [
+            {
+              "en": "We found another page.",
+              "ko": "또 한 장의 페이지를 찾았어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        }
+      ],
+      "town_legacy": "프로 마을",
+      "town_en": "Pronovia",
+      "boss_legacy": "대명사·관사의 수문장",
+      "boss_en": "Pronomus, Keeper of Names",
+      "title_en": "Whose Treasure Is It?",
+      "page_name_en": "Page of Ownership",
+      "reward_en": "Lucky Pouch"
+    },
+    {
+      "id": "ot",
+      "episode": 13,
+      "town": "프렙 아일스",
+      "grammar": "전치사",
+      "boss": "섬의 장로 프레포스",
+      "title": "출항하지 못하는 배",
+      "page_id": "grammatica_13",
+      "page_name": "방향의 페이지",
+      "reward": "항해자의 지도",
+      "reward_type": "souvenir",
+      "next_id": "iv",
+      "residents": [
+        {
+          "index": 0,
+          "name": "선원 바이런",
+          "before_problem": {
+            "speaker": "선원 바이런",
+            "en": "We leave at seven.",
+            "ko": "우리는 일곱 시에 출발해요.",
+            "chunks": [
+              {
+                "en": "We leave",
+                "ko": "우리는 출발해요"
+              },
+              {
+                "en": "at seven.",
+                "ko": "일곱 시에."
+              }
+            ],
+            "speaker_legacy": "선원 보",
+            "speaker_en": "Sailor Byron"
+          },
+          "after_recovery": {
+            "speaker": "선원 바이런",
+            "en": "The cargo is on the wrong ship.",
+            "ko": "화물이 잘못된 배에 있어요.",
+            "chunks": [
+              {
+                "en": "The cargo",
+                "ko": "화물이"
+              },
+              {
+                "en": "is on the wrong ship.",
+                "ko": "잘못된 배에 있어요."
+              }
+            ],
+            "speaker_legacy": "선원 보",
+            "speaker_en": "Sailor Byron"
+          },
+          "original_problem_ref": "TOWN.ot.n[0]",
+          "name_legacy": "선원 보",
+          "name_en": "Sailor Byron"
+        },
+        {
+          "index": 1,
+          "name": "오나",
+          "before_problem": {
+            "speaker": "오나",
+            "en": "The trip is on May fifth.",
+            "ko": "여행은 5월 5일이에요.",
+            "chunks": [
+              {
+                "en": "The trip is",
+                "ko": "여행은 있어요"
+              },
+              {
+                "en": "on May fifth.",
+                "ko": "5월 5일에."
+              }
+            ],
+            "speaker_legacy": "소녀 수아",
+            "speaker_en": "Onna"
+          },
+          "after_recovery": {
+            "speaker": "오나",
+            "en": "The ticket is in my bag.",
+            "ko": "표는 제 가방 안에 있어요.",
+            "chunks": [
+              {
+                "en": "The ticket",
+                "ko": "표는"
+              },
+              {
+                "en": "is in my bag.",
+                "ko": "제 가방 안에 있어요."
+              }
+            ],
+            "speaker_legacy": "소녀 수아",
+            "speaker_en": "Onna"
+          },
+          "original_problem_ref": "TOWN.ot.n[1]",
+          "name_legacy": "소녀 수아",
+          "name_en": "Onna"
+        },
+        {
+          "index": 2,
+          "name": "선생님 애틀리",
+          "before_problem": {
+            "speaker": "선생님 애틀리",
+            "en": "I am good at math, but I am afraid of the sea.",
+            "ko": "저는 수학을 잘하지만 바다가 무서워요.",
+            "chunks": [
+              {
+                "en": "I am good at math,",
+                "ko": "저는 수학을 잘하지만,"
+              },
+              {
+                "en": "but I am afraid of the sea.",
+                "ko": "바다가 무서워요."
+              }
+            ],
+            "speaker_legacy": "수학 선생 라이언",
+            "speaker_en": "Teacher Atley"
+          },
+          "after_recovery": {
+            "speaker": "선생님 애틀리",
+            "en": "I can check the cargo list.",
+            "ko": "화물 목록을 확인할 수 있어요.",
+            "chunks": [
+              {
+                "en": "I can check",
+                "ko": "확인할 수 있어요"
+              },
+              {
+                "en": "the cargo list.",
+                "ko": "화물 목록을."
+              }
+            ],
+            "speaker_legacy": "수학 선생 라이언",
+            "speaker_en": "Teacher Atley"
+          },
+          "original_problem_ref": "TOWN.ot.n[2]",
+          "name_legacy": "수학 선생 라이언",
+          "name_en": "Teacher Atley"
+        },
+        {
+          "index": 3,
+          "name": "어부 이나",
+          "before_problem": {
+            "speaker": "어부 이나",
+            "en": "The cat is under the table.",
+            "ko": "고양이는 탁자 아래에 있어요.",
+            "chunks": [
+              {
+                "en": "The cat is",
+                "ko": "고양이는 있어요"
+              },
+              {
+                "en": "under the table.",
+                "ko": "탁자 아래에."
+              }
+            ],
+            "speaker_legacy": "어부 소피아",
+            "speaker_en": "Fisher Inna"
+          },
+          "after_recovery": {
+            "speaker": "어부 이나",
+            "en": "The map is in the cabin.",
+            "ko": "지도는 선실 안에 있어요.",
+            "chunks": [
+              {
+                "en": "The map is",
+                "ko": "지도는 있어요"
+              },
+              {
+                "en": "in the cabin.",
+                "ko": "선실 안에."
+              }
+            ],
+            "speaker_legacy": "어부 소피아",
+            "speaker_en": "Fisher Inna"
+          },
+          "original_problem_ref": "TOWN.ot.n[3]",
+          "name_legacy": "어부 소피아",
+          "name_en": "Fisher Inna"
+        }
+      ],
+      "completion": {
+        "speaker": "선원 바이런",
+        "en": "The ship is ready to leave.",
+        "ko": "배가 출항할 준비를 마쳤어요.",
+        "chunks": [
+          {
+            "en": "The ship is ready",
+            "ko": "배가 준비됐어요"
+          },
+          {
+            "en": "to leave.",
+            "ko": "출항할."
+          }
+        ],
+        "speaker_legacy": "선원 보",
+        "speaker_en": "Sailor Byron"
+      },
+      "next_dialogue": {
+        "speaker": "선원 바이런",
+        "en": "Our next stop is Verbal Heights.",
+        "ko": "우리의 다음 목적지는 버벌 하이츠이에요.",
+        "chunks": [
+          {
+            "en": "Our next stop",
+            "ko": "우리의 다음 목적지는"
+          },
+          {
+            "en": "is Verbal Heights.",
+            "ko": "버벌 하이츠이에요."
+          }
+        ],
+        "speaker_legacy": "선원 보",
+        "speaker_en": "Sailor Byron"
+      },
+      "boss_intro": [
+        {
+          "speaker": "옥시",
+          "en": "The page is giving off dark magic.",
+          "ko": "페이지가 어둠의 마력을 내뿜고 있어.",
+          "chunks": [
+            {
+              "en": "The page",
+              "ko": "페이지가"
+            },
+            {
+              "en": "is giving off dark magic.",
+              "ko": "어둠의 마력을 내뿜고 있어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        },
+        {
+          "speaker": "컴플리",
+          "en": "Let us break the curse.",
+          "ko": "저주를 풀자.",
+          "chunks": [
+            {
+              "en": "Let us break the curse.",
+              "ko": "저주를 풀자."
+            }
+          ],
+          "speaker_legacy": "컴플리",
+          "speaker_en": "Comple"
+        }
+      ],
+      "boss_clear": [
+        {
+          "speaker": "버벨라",
+          "en": "The dark magic is gone!",
+          "ko": "어둠의 마력이 사라졌어요!",
+          "chunks": [
+            {
+              "en": "The dark magic",
+              "ko": "어둠의 마력이"
+            },
+            {
+              "en": "is gone!",
+              "ko": "사라졌어요!"
+            }
+          ],
+          "speaker_legacy": "버벨라",
+          "speaker_en": "Verbella"
+        },
+        {
+          "speaker": "옥시",
+          "en": "We found another page.",
+          "ko": "또 한 장의 페이지를 찾았어.",
+          "chunks": [
+            {
+              "en": "We found another page.",
+              "ko": "또 한 장의 페이지를 찾았어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        }
+      ],
+      "town_legacy": "프렙 마을",
+      "town_en": "Prep Isles",
+      "boss_legacy": "전치사·기타의 수문장",
+      "boss_en": "Prepos, Elder of the Isles",
+      "title_en": "The Ship Without Directions",
+      "page_name_en": "Page of Direction",
+      "reward_en": "Navigator's Map"
+    },
+    {
+      "id": "iv",
+      "episode": 14,
+      "town": "버벌 하이츠",
+      "grammar": "to부정사·동명사",
+      "boss": "하늘의 황제 버발리스",
+      "title": "꿈을 향한 첫걸음",
+      "page_id": "grammatica_14",
+      "page_name": "목적의 페이지",
+      "reward": "여행자의 장화",
+      "reward_type": "souvenir",
+      "next_id": "pe",
+      "residents": [
+        {
+          "index": 0,
+          "name": "수영 선수 핀",
+          "before_problem": {
+            "speaker": "수영 선수 핀",
+            "en": "I want to swim in the sea.",
+            "ko": "저는 바다에서 수영하고 싶어요.",
+            "chunks": [
+              {
+                "en": "I want to swim",
+                "ko": "저는 수영하고 싶어요"
+              },
+              {
+                "en": "in the sea.",
+                "ko": "바다에서."
+              }
+            ],
+            "speaker_legacy": "수영 선수 진",
+            "speaker_en": "Swimmer Finn"
+          },
+          "after_recovery": {
+            "speaker": "수영 선수 핀",
+            "en": "I enjoy practicing every morning.",
+            "ko": "저는 매일 아침 연습하는 것을 즐겨요.",
+            "chunks": [
+              {
+                "en": "I enjoy practicing",
+                "ko": "저는 연습하는 것을 즐겨요"
+              },
+              {
+                "en": "every morning.",
+                "ko": "매일 아침."
+              }
+            ],
+            "speaker_legacy": "수영 선수 진",
+            "speaker_en": "Swimmer Finn"
+          },
+          "original_problem_ref": "TOWN.iv.n[0]",
+          "name_legacy": "수영 선수 진",
+          "name_en": "Swimmer Finn"
+        },
+        {
+          "index": 1,
+          "name": "여행자 토고",
+          "before_problem": {
+            "speaker": "여행자 토고",
+            "en": "I decided to travel again.",
+            "ko": "저는 다시 여행하기로 결심했어요.",
+            "chunks": [
+              {
+                "en": "I decided",
+                "ko": "저는 결심했어요"
+              },
+              {
+                "en": "to travel again.",
+                "ko": "다시 여행하기로."
+              }
+            ],
+            "speaker_legacy": "여행자 켄",
+            "speaker_en": "Traveler Togo"
+          },
+          "after_recovery": {
+            "speaker": "여행자 토고",
+            "en": "I finished reading the travel guide.",
+            "ko": "저는 여행 안내서를 다 읽었어요.",
+            "chunks": [
+              {
+                "en": "I finished reading",
+                "ko": "저는 읽기를 끝냈어요"
+              },
+              {
+                "en": "the travel guide.",
+                "ko": "여행 안내서를."
+              }
+            ],
+            "speaker_legacy": "여행자 켄",
+            "speaker_en": "Traveler Togo"
+          },
+          "original_problem_ref": "TOWN.iv.n[1]",
+          "name_legacy": "여행자 켄",
+          "name_en": "Traveler Togo"
+        },
+        {
+          "index": 2,
+          "name": "언어학자 인피나",
+          "before_problem": {
+            "speaker": "언어학자 인피나",
+            "en": "It is hard to read this report.",
+            "ko": "이 보고서를 읽기가 어려워요.",
+            "chunks": [
+              {
+                "en": "It is hard",
+                "ko": "어려워요"
+              },
+              {
+                "en": "to read this report.",
+                "ko": "이 보고서를 읽기가."
+              }
+            ],
+            "speaker_legacy": "언어학자 노라",
+            "speaker_en": "Linguist Infina"
+          },
+          "after_recovery": {
+            "speaker": "언어학자 인피나",
+            "en": "I found a clue about Sensewood.",
+            "ko": "센스우드에 관한 단서를 발견했어요.",
+            "chunks": [
+              {
+                "en": "I found a clue",
+                "ko": "단서를 발견했어요"
+              },
+              {
+                "en": "about Sensewood.",
+                "ko": "센스우드에 관한."
+              }
+            ],
+            "speaker_legacy": "언어학자 노라",
+            "speaker_en": "Linguist Infina"
+          },
+          "original_problem_ref": "TOWN.iv.n[2]",
+          "name_legacy": "언어학자 노라",
+          "name_en": "Linguist Infina"
+        },
+        {
+          "index": 3,
+          "name": "체스 챔피언 제룬드",
+          "before_problem": {
+            "speaker": "체스 챔피언 제룬드",
+            "en": "I am good at playing chess.",
+            "ko": "저는 체스를 잘 둬요.",
+            "chunks": [
+              {
+                "en": "I am good at",
+                "ko": "저는 잘해요"
+              },
+              {
+                "en": "playing chess.",
+                "ko": "체스를 두는 것을."
+              }
+            ],
+            "speaker_legacy": "체스 챔피언 막스",
+            "speaker_en": "Chess Master Gerund"
+          },
+          "after_recovery": {
+            "speaker": "체스 챔피언 제룬드",
+            "en": "Thank you for helping us.",
+            "ko": "우리를 도와주셔서 고마워요.",
+            "chunks": [
+              {
+                "en": "Thank you",
+                "ko": "고마워요"
+              },
+              {
+                "en": "for helping us.",
+                "ko": "우리를 도와주셔서."
+              }
+            ],
+            "speaker_legacy": "체스 챔피언 막스",
+            "speaker_en": "Chess Master Gerund"
+          },
+          "original_problem_ref": "TOWN.iv.n[3]",
+          "name_legacy": "체스 챔피언 막스",
+          "name_en": "Chess Master Gerund"
+        }
+      ],
+      "completion": {
+        "speaker": "수영 선수 핀",
+        "en": "We are ready to follow our dreams.",
+        "ko": "우리는 꿈을 향해 나아갈 준비가 됐어요.",
+        "chunks": [
+          {
+            "en": "We are ready",
+            "ko": "우리는 준비됐어요"
+          },
+          {
+            "en": "to follow our dreams.",
+            "ko": "꿈을 따라갈."
+          }
+        ],
+        "speaker_legacy": "수영 선수 진",
+        "speaker_en": "Swimmer Finn"
+      },
+      "next_dialogue": {
+        "speaker": "수영 선수 핀",
+        "en": "Please take this report to Sensewood.",
+        "ko": "이 보고서를 센스우드로 가져가 주세요.",
+        "chunks": [
+          {
+            "en": "Please take this report",
+            "ko": "이 보고서를 가져가 주세요"
+          },
+          {
+            "en": "to Sensewood.",
+            "ko": "센스우드로."
+          }
+        ],
+        "speaker_legacy": "수영 선수 진",
+        "speaker_en": "Swimmer Finn"
+      },
+      "boss_intro": [
+        {
+          "speaker": "옥시",
+          "en": "The page is giving off dark magic.",
+          "ko": "페이지가 어둠의 마력을 내뿜고 있어.",
+          "chunks": [
+            {
+              "en": "The page",
+              "ko": "페이지가"
+            },
+            {
+              "en": "is giving off dark magic.",
+              "ko": "어둠의 마력을 내뿜고 있어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        },
+        {
+          "speaker": "컴플리",
+          "en": "Let us break the curse.",
+          "ko": "저주를 풀자.",
+          "chunks": [
+            {
+              "en": "Let us break the curse.",
+              "ko": "저주를 풀자."
+            }
+          ],
+          "speaker_legacy": "컴플리",
+          "speaker_en": "Comple"
+        }
+      ],
+      "boss_clear": [
+        {
+          "speaker": "버벨라",
+          "en": "The dark magic is gone!",
+          "ko": "어둠의 마력이 사라졌어요!",
+          "chunks": [
+            {
+              "en": "The dark magic",
+              "ko": "어둠의 마력이"
+            },
+            {
+              "en": "is gone!",
+              "ko": "사라졌어요!"
+            }
+          ],
+          "speaker_legacy": "버벨라",
+          "speaker_en": "Verbella"
+        },
+        {
+          "speaker": "옥시",
+          "en": "We found another page.",
+          "ko": "또 한 장의 페이지를 찾았어.",
+          "chunks": [
+            {
+              "en": "We found another page.",
+              "ko": "또 한 장의 페이지를 찾았어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        }
+      ],
+      "town_legacy": "투 마을",
+      "town_en": "Verbal Heights",
+      "boss_legacy": "to부정사·동명사의 수문장",
+      "boss_en": "Verbalis, Sky Emperor",
+      "title_en": "A Journey of Dreams",
+      "page_name_en": "Page of Purpose",
+      "reward_en": "Traveler's Boots"
+    },
+    {
+      "id": "pe",
+      "episode": 15,
+      "town": "센스우드",
+      "grammar": "지각·사역·감각동사",
+      "boss": "숲의 감시자 센사르",
+      "title": "숲에서 들려온 이상한 소리",
+      "page_id": "grammatica_15",
+      "page_name": "감각의 페이지",
+      "reward": "감시자의 부적",
+      "reward_type": "souvenir",
+      "next_id": "ng",
+      "residents": [
+        {
+          "index": 0,
+          "name": "새 관찰자 시어",
+          "before_problem": {
+            "speaker": "새 관찰자 시어",
+            "en": "I saw someone cross the road.",
+            "ko": "누군가 길을 건너는 것을 봤어요.",
+            "chunks": [
+              {
+                "en": "I saw someone",
+                "ko": "저는 누군가를 봤어요"
+              },
+              {
+                "en": "cross the road.",
+                "ko": "길을 건너는 것을."
+              }
+            ],
+            "speaker_legacy": "새 관찰자 에이",
+            "speaker_en": "Birdwatcher Seer"
+          },
+          "after_recovery": {
+            "speaker": "새 관찰자 시어",
+            "en": "He wore a dark cloak.",
+            "ko": "그는 검은 망토를 입고 있었어요.",
+            "chunks": [
+              {
+                "en": "He wore",
+                "ko": "그는 입고 있었어요"
+              },
+              {
+                "en": "a dark cloak.",
+                "ko": "검은 망토를."
+              }
+            ],
+            "speaker_legacy": "새 관찰자 에이",
+            "speaker_en": "Birdwatcher Seer"
+          },
+          "original_problem_ref": "TOWN.pe.n[0]",
+          "name_legacy": "새 관찰자 에이",
+          "name_en": "Birdwatcher Seer"
+        },
+        {
+          "index": 1,
+          "name": "엄마 마카",
+          "before_problem": {
+            "speaker": "엄마 마카",
+            "en": "I let the children stay inside.",
+            "ko": "아이들이 집 안에 있게 했어요.",
+            "chunks": [
+              {
+                "en": "I let the children",
+                "ko": "아이들이 있게 했어요"
+              },
+              {
+                "en": "stay inside.",
+                "ko": "집 안에."
+              }
+            ],
+            "speaker_legacy": "엄마 베라",
+            "speaker_en": "Mother Maka"
+          },
+          "after_recovery": {
+            "speaker": "엄마 마카",
+            "en": "They heard a noise outside.",
+            "ko": "아이들은 밖에서 소리를 들었어요.",
+            "chunks": [
+              {
+                "en": "They heard a noise",
+                "ko": "아이들은 소리를 들었어요"
+              },
+              {
+                "en": "outside.",
+                "ko": "밖에서."
+              }
+            ],
+            "speaker_legacy": "엄마 베라",
+            "speaker_en": "Mother Maka"
+          },
+          "original_problem_ref": "TOWN.pe.n[1]",
+          "name_legacy": "엄마 베라",
+          "name_en": "Mother Maka"
+        },
+        {
+          "index": 2,
+          "name": "요리사 세이버리",
+          "before_problem": {
+            "speaker": "요리사 세이버리",
+            "en": "The air smells strange near the forest.",
+            "ko": "숲 근처에서는 공기에서 이상한 냄새가 나요.",
+            "chunks": [
+              {
+                "en": "The air smells strange",
+                "ko": "공기에서 이상한 냄새가 나요"
+              },
+              {
+                "en": "near the forest.",
+                "ko": "숲 근처에서."
+              }
+            ],
+            "speaker_legacy": "요리사 간",
+            "speaker_en": "Chef Savory"
+          },
+          "after_recovery": {
+            "speaker": "요리사 세이버리",
+            "en": "The smell came from the road.",
+            "ko": "그 냄새는 길에서 왔어요.",
+            "chunks": [
+              {
+                "en": "The smell",
+                "ko": "그 냄새는"
+              },
+              {
+                "en": "came from the road.",
+                "ko": "길에서 왔어요."
+              }
+            ],
+            "speaker_legacy": "요리사 간",
+            "speaker_en": "Chef Savory"
+          },
+          "original_problem_ref": "TOWN.pe.n[2]",
+          "name_legacy": "요리사 간",
+          "name_en": "Chef Savory"
+        },
+        {
+          "index": 3,
+          "name": "수리공 픽스",
+          "before_problem": {
+            "speaker": "수리공 픽스",
+            "en": "I felt the ground shake.",
+            "ko": "땅이 흔들리는 것을 느꼈어요.",
+            "chunks": [
+              {
+                "en": "I felt the ground",
+                "ko": "저는 땅을 느꼈어요"
+              },
+              {
+                "en": "shake.",
+                "ko": "흔들리는 것을."
+              }
+            ],
+            "speaker_legacy": "수리공 팀",
+            "speaker_en": "Mechanic Fix"
+          },
+          "after_recovery": {
+            "speaker": "수리공 픽스",
+            "en": "I found a black seal on the road.",
+            "ko": "길에서 검은 인장을 발견했어요.",
+            "chunks": [
+              {
+                "en": "I found a black seal",
+                "ko": "검은 인장을 발견했어요"
+              },
+              {
+                "en": "on the road.",
+                "ko": "길에서."
+              }
+            ],
+            "speaker_legacy": "수리공 팀",
+            "speaker_en": "Mechanic Fix"
+          },
+          "original_problem_ref": "TOWN.pe.n[3]",
+          "name_legacy": "수리공 팀",
+          "name_en": "Mechanic Fix"
+        }
+      ],
+      "completion": {
+        "speaker": "새 관찰자 시어",
+        "en": "Our reports tell the same story.",
+        "ko": "우리의 보고는 모두 같은 이야기를 전해요.",
+        "chunks": [
+          {
+            "en": "Our reports",
+            "ko": "우리의 보고는"
+          },
+          {
+            "en": "tell the same story.",
+            "ko": "같은 이야기를 전해요."
+          }
+        ],
+        "speaker_legacy": "새 관찰자 에이",
+        "speaker_en": "Birdwatcher Seer"
+      },
+      "next_dialogue": {
+        "speaker": "새 관찰자 시어",
+        "en": "Warn the people at the festival in Nounville.",
+        "ko": "노운빌 축제에 있는 사람들에게 경고해 주세요.",
+        "chunks": [
+          {
+            "en": "Warn the people",
+            "ko": "사람들에게 경고해 주세요"
+          },
+          {
+            "en": "at the festival in Nounville.",
+            "ko": "노운빌 축제에 있는."
+          }
+        ],
+        "speaker_legacy": "새 관찰자 에이",
+        "speaker_en": "Birdwatcher Seer"
+      },
+      "boss_intro": [
+        {
+          "speaker": "옥시",
+          "en": "The page is giving off dark magic.",
+          "ko": "페이지가 어둠의 마력을 내뿜고 있어.",
+          "chunks": [
+            {
+              "en": "The page",
+              "ko": "페이지가"
+            },
+            {
+              "en": "is giving off dark magic.",
+              "ko": "어둠의 마력을 내뿜고 있어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        },
+        {
+          "speaker": "컴플리",
+          "en": "Let us break the curse.",
+          "ko": "저주를 풀자.",
+          "chunks": [
+            {
+              "en": "Let us break the curse.",
+              "ko": "저주를 풀자."
+            }
+          ],
+          "speaker_legacy": "컴플리",
+          "speaker_en": "Comple"
+        }
+      ],
+      "boss_clear": [
+        {
+          "speaker": "버벨라",
+          "en": "The dark magic is gone!",
+          "ko": "어둠의 마력이 사라졌어요!",
+          "chunks": [
+            {
+              "en": "The dark magic",
+              "ko": "어둠의 마력이"
+            },
+            {
+              "en": "is gone!",
+              "ko": "사라졌어요!"
+            }
+          ],
+          "speaker_legacy": "버벨라",
+          "speaker_en": "Verbella"
+        },
+        {
+          "speaker": "옥시",
+          "en": "We found another page.",
+          "ko": "또 한 장의 페이지를 찾았어.",
+          "chunks": [
+            {
+              "en": "We found another page.",
+              "ko": "또 한 장의 페이지를 찾았어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        }
+      ],
+      "town_legacy": "센스 마을",
+      "town_en": "Sensewood",
+      "boss_legacy": "지각·사역·감각동사의 수문장",
+      "boss_en": "Sensar, the Forest Watcher",
+      "title_en": "Something in the Woods",
+      "page_name_en": "Page of Senses",
+      "reward_en": "Watcher's Charm"
+    },
+    {
+      "id": "ng",
+      "episode": 16,
+      "town": "노운빌",
+      "grammar": "명사·명령문·감탄문",
+      "boss": "단어의 수호자 노미나",
+      "title": "마지막 축제",
+      "page_id": "grammatica_16",
+      "page_name": "감탄의 페이지",
+      "reward": "희망의 꽃왕관",
+      "reward_type": "souvenir",
+      "next_id": "rs",
+      "residents": [
+        {
+          "index": 0,
+          "name": "꽃집 주인 플로라",
+          "before_problem": {
+            "speaker": "꽃집 주인 플로라",
+            "en": "What a beautiful flower!",
+            "ko": "정말 아름다운 꽃이네요!",
+            "chunks": [
+              {
+                "en": "What a beautiful flower!",
+                "ko": "정말 아름다운 꽃이네요!"
+              }
+            ],
+            "speaker_legacy": "꽃집 아가씨 로사",
+            "speaker_en": "Florist Flora"
+          },
+          "after_recovery": {
+            "speaker": "꽃집 주인 플로라",
+            "en": "The festival needs flowers.",
+            "ko": "축제에는 꽃이 필요해요.",
+            "chunks": [
+              {
+                "en": "The festival",
+                "ko": "축제에는"
+              },
+              {
+                "en": "needs flowers.",
+                "ko": "꽃이 필요해요."
+              }
+            ],
+            "speaker_legacy": "꽃집 아가씨 로사",
+            "speaker_en": "Florist Flora"
+          },
+          "original_problem_ref": "TOWN.ng.n[0]",
+          "name_legacy": "꽃집 아가씨 로사",
+          "name_en": "Florist Flora"
+        },
+        {
+          "index": 1,
+          "name": "사서 허쉬",
+          "before_problem": {
+            "speaker": "사서 허쉬",
+            "en": "Please read the signs. Do not run.",
+            "ko": "안내문을 읽어 주세요. 뛰지 마세요.",
+            "chunks": [
+              {
+                "en": "Please read the signs.",
+                "ko": "안내문을 읽어 주세요."
+              },
+              {
+                "en": "Do not run.",
+                "ko": "뛰지 마세요."
+              }
+            ],
+            "speaker_legacy": "사서 올리",
+            "speaker_en": "Librarian Hush"
+          },
+          "after_recovery": {
+            "speaker": "사서 허쉬",
+            "en": "I will post a warning at the library.",
+            "ko": "도서관에 경고문을 붙일게요.",
+            "chunks": [
+              {
+                "en": "I will post a warning",
+                "ko": "경고문을 붙일게요"
+              },
+              {
+                "en": "at the library.",
+                "ko": "도서관에."
+              }
+            ],
+            "speaker_legacy": "사서 올리",
+            "speaker_en": "Librarian Hush"
+          },
+          "original_problem_ref": "TOWN.ng.n[1]",
+          "name_legacy": "사서 올리",
+          "name_en": "Librarian Hush"
+        },
+        {
+          "index": 2,
+          "name": "제빵사 로프",
+          "before_problem": {
+            "speaker": "제빵사 로프",
+            "en": "We need some water and bread.",
+            "ko": "물과 빵이 필요해요.",
+            "chunks": [
+              {
+                "en": "We need some water",
+                "ko": "우리는 물이 필요해요"
+              },
+              {
+                "en": "and bread.",
+                "ko": "그리고 빵도."
+              }
+            ],
+            "speaker_legacy": "빵 가게 피트",
+            "speaker_en": "Baker Loaf"
+          },
+          "after_recovery": {
+            "speaker": "제빵사 로프",
+            "en": "There is enough food for everyone.",
+            "ko": "모두가 먹을 음식이 충분해요.",
+            "chunks": [
+              {
+                "en": "There is enough food",
+                "ko": "음식이 충분해요"
+              },
+              {
+                "en": "for everyone.",
+                "ko": "모두를 위한."
+              }
+            ],
+            "speaker_legacy": "빵 가게 피트",
+            "speaker_en": "Baker Loaf"
+          },
+          "original_problem_ref": "TOWN.ng.n[2]",
+          "name_legacy": "빵 가게 피트",
+          "name_en": "Baker Loaf"
+        },
+        {
+          "index": 3,
+          "name": "공원지기 레티",
+          "before_problem": {
+            "speaker": "공원지기 레티",
+            "en": "Let's go to the park.",
+            "ko": "공원으로 갑시다.",
+            "chunks": [
+              {
+                "en": "Let's go",
+                "ko": "갑시다"
+              },
+              {
+                "en": "to the park.",
+                "ko": "공원으로."
+              }
+            ],
+            "speaker_legacy": "공원지기 헨리",
+            "speaker_en": "Keeper Letty"
+          },
+          "after_recovery": {
+            "speaker": "공원지기 레티",
+            "en": "Keep the path clear for the visitors.",
+            "ko": "방문객들을 위해 길을 비워 두세요.",
+            "chunks": [
+              {
+                "en": "Keep the path clear",
+                "ko": "길을 비워 두세요"
+              },
+              {
+                "en": "for the visitors.",
+                "ko": "방문객들을 위해."
+              }
+            ],
+            "speaker_legacy": "공원지기 헨리",
+            "speaker_en": "Keeper Letty"
+          },
+          "original_problem_ref": "TOWN.ng.n[3]",
+          "name_legacy": "공원지기 헨리",
+          "name_en": "Keeper Letty"
+        }
+      ],
+      "completion": {
+        "speaker": "꽃집 주인 플로라",
+        "en": "What a wonderful festival!",
+        "ko": "정말 멋진 축제네요!",
+        "chunks": [
+          {
+            "en": "What a wonderful festival!",
+            "ko": "정말 멋진 축제네요!"
+          }
+        ],
+        "speaker_legacy": "꽃집 아가씨 로사",
+        "speaker_en": "Florist Flora"
+      },
+      "next_dialogue": {
+        "speaker": "꽃집 주인 플로라",
+        "en": "An urgent message has arrived from Speechport.",
+        "ko": "스피치포트에서 긴급 전갈이 도착했어요.",
+        "chunks": [
+          {
+            "en": "An urgent message",
+            "ko": "긴급 전갈이"
+          },
+          {
+            "en": "has arrived from Speechport.",
+            "ko": "스피치포트에서 도착했어요."
+          }
+        ],
+        "speaker_legacy": "꽃집 아가씨 로사",
+        "speaker_en": "Florist Flora"
+      },
+      "boss_intro": [
+        {
+          "speaker": "옥시",
+          "en": "The page is giving off dark magic.",
+          "ko": "페이지가 어둠의 마력을 내뿜고 있어.",
+          "chunks": [
+            {
+              "en": "The page",
+              "ko": "페이지가"
+            },
+            {
+              "en": "is giving off dark magic.",
+              "ko": "어둠의 마력을 내뿜고 있어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        },
+        {
+          "speaker": "컴플리",
+          "en": "Let us break the curse.",
+          "ko": "저주를 풀자.",
+          "chunks": [
+            {
+              "en": "Let us break the curse.",
+              "ko": "저주를 풀자."
+            }
+          ],
+          "speaker_legacy": "컴플리",
+          "speaker_en": "Comple"
+        }
+      ],
+      "boss_clear": [
+        {
+          "speaker": "버벨라",
+          "en": "The dark magic is gone!",
+          "ko": "어둠의 마력이 사라졌어요!",
+          "chunks": [
+            {
+              "en": "The dark magic",
+              "ko": "어둠의 마력이"
+            },
+            {
+              "en": "is gone!",
+              "ko": "사라졌어요!"
+            }
+          ],
+          "speaker_legacy": "버벨라",
+          "speaker_en": "Verbella"
+        },
+        {
+          "speaker": "옥시",
+          "en": "We found another page.",
+          "ko": "또 한 장의 페이지를 찾았어.",
+          "chunks": [
+            {
+              "en": "We found another page.",
+              "ko": "또 한 장의 페이지를 찾았어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        }
+      ],
+      "town_legacy": "엑스 마을",
+      "town_en": "Nounville",
+      "boss_legacy": "명사·명령문·감탄문의 수문장",
+      "boss_en": "Nomina, Guardian of Words",
+      "title_en": "The Festival of Hope",
+      "page_name_en": "Page of Exclamation",
+      "reward_en": "Crown of Hope"
+    },
+    {
+      "id": "rs",
+      "episode": 17,
+      "town": "스피치포트",
+      "grammar": "화법·간접의문문",
+      "boss": "전갈의 수문장 리포터스",
+      "title": "왜곡된 마지막 전갈",
+      "page_id": "grammatica_17",
+      "page_name": "전달의 페이지",
+      "reward": "전령의 인장",
+      "reward_type": "souvenir",
+      "next_id": "sx",
+      "residents": [
+        {
+          "index": 0,
+          "name": "우체부 텔",
+          "before_problem": {
+            "speaker": "우체부 텔",
+            "en": "He told me that the message was urgent.",
+            "ko": "그는 전갈이 긴급하다고 제게 말했어요.",
+            "chunks": [
+              {
+                "en": "He told me",
+                "ko": "그는 제게 말했어요"
+              },
+              {
+                "en": "that the message was urgent.",
+                "ko": "전갈이 긴급하다고."
+              }
+            ],
+            "speaker_legacy": "우체부 샘",
+            "speaker_en": "Postman Tell"
+          },
+          "after_recovery": {
+            "speaker": "우체부 텔",
+            "en": "The sender used a black seal.",
+            "ko": "발신자는 검은 인장을 사용했어요.",
+            "chunks": [
+              {
+                "en": "The sender",
+                "ko": "발신자는"
+              },
+              {
+                "en": "used a black seal.",
+                "ko": "검은 인장을 사용했어요."
+              }
+            ],
+            "speaker_legacy": "우체부 샘",
+            "speaker_en": "Postman Tell"
+          },
+          "original_problem_ref": "TOWN.rs.n[0]",
+          "name_legacy": "우체부 샘",
+          "name_en": "Postman Tell"
+        },
+        {
+          "index": 1,
+          "name": "탐정 애스크",
+          "before_problem": {
+            "speaker": "탐정 애스크",
+            "en": "Do you know where the sender is?",
+            "ko": "발신자가 어디 있는지 알고 있나요?",
+            "chunks": [
+              {
+                "en": "Do you know",
+                "ko": "알고 있나요"
+              },
+              {
+                "en": "where the sender is?",
+                "ko": "발신자가 어디 있는지?"
+              }
+            ],
+            "speaker_legacy": "탐정 노아",
+            "speaker_en": "Detective Ask"
+          },
+          "after_recovery": {
+            "speaker": "탐정 애스크",
+            "en": "The seal matches the one from Sensewood.",
+            "ko": "센스우드에서 온 인장과 일치해요.",
+            "chunks": [
+              {
+                "en": "The seal matches",
+                "ko": "인장이 일치해요"
+              },
+              {
+                "en": "the one from Sensewood.",
+                "ko": "센스우드에서 온 것과."
+              }
+            ],
+            "speaker_legacy": "탐정 노아",
+            "speaker_en": "Detective Ask"
+          },
+          "original_problem_ref": "TOWN.rs.n[1]",
+          "name_legacy": "탐정 노아",
+          "name_en": "Detective Ask"
+        },
+        {
+          "index": 2,
+          "name": "학생 쿼라",
+          "before_problem": {
+            "speaker": "학생 쿼라",
+            "en": "He asked me where the castle was.",
+            "ko": "그는 성이 어디 있는지 제게 물었어요.",
+            "chunks": [
+              {
+                "en": "He asked me",
+                "ko": "그는 제게 물었어요"
+              },
+              {
+                "en": "where the castle was.",
+                "ko": "성이 어디 있는지."
+              }
+            ],
+            "speaker_legacy": "학생 미나",
+            "speaker_en": "Student Quora"
+          },
+          "after_recovery": {
+            "speaker": "학생 쿼라",
+            "en": "I remember his exact words.",
+            "ko": "저는 그의 말을 정확히 기억해요.",
+            "chunks": [
+              {
+                "en": "I remember",
+                "ko": "저는 기억해요"
+              },
+              {
+                "en": "his exact words.",
+                "ko": "그의 정확한 말을."
+              }
+            ],
+            "speaker_legacy": "학생 미나",
+            "speaker_en": "Student Quora"
+          },
+          "original_problem_ref": "TOWN.rs.n[2]",
+          "name_legacy": "학생 미나",
+          "name_en": "Student Quora"
+        },
+        {
+          "index": 3,
+          "name": "안내원 웬다",
+          "before_problem": {
+            "speaker": "안내원 웬다",
+            "en": "I know when the next ship leaves.",
+            "ko": "다음 배가 언제 출발하는지 알아요.",
+            "chunks": [
+              {
+                "en": "I know",
+                "ko": "저는 알아요"
+              },
+              {
+                "en": "when the next ship leaves.",
+                "ko": "다음 배가 언제 출발하는지."
+              }
+            ],
+            "speaker_legacy": "안내원 수",
+            "speaker_en": "Guide Wenda"
+          },
+          "after_recovery": {
+            "speaker": "안내원 웬다",
+            "en": "It goes toward Inversion Castle.",
+            "ko": "그 배는 인버전 성 쪽으로 가요.",
+            "chunks": [
+              {
+                "en": "It goes",
+                "ko": "그 배는 가요"
+              },
+              {
+                "en": "toward Inversion Castle.",
+                "ko": "인버전 성 쪽으로."
+              }
+            ],
+            "speaker_legacy": "안내원 수",
+            "speaker_en": "Guide Wenda"
+          },
+          "original_problem_ref": "TOWN.rs.n[3]",
+          "name_legacy": "안내원 수",
+          "name_en": "Guide Wenda"
+        }
+      ],
+      "completion": {
+        "speaker": "우체부 텔",
+        "en": "The message is clear. The last page is in the castle.",
+        "ko": "전갈이 명확해요. 마지막 페이지는 성에 있어요.",
+        "chunks": [
+          {
+            "en": "The message is clear.",
+            "ko": "전갈이 명확해요."
+          },
+          {
+            "en": "The last page is in the castle.",
+            "ko": "마지막 페이지는 성에 있어요."
+          }
+        ],
+        "speaker_legacy": "우체부 샘",
+        "speaker_en": "Postman Tell"
+      },
+      "next_dialogue": {
+        "speaker": "우체부 텔",
+        "en": "Go to Inversion Keep and show them the seal.",
+        "ko": "인버전 킵로 가서 인장을 보여 주세요.",
+        "chunks": [
+          {
+            "en": "Go to Inversion Keep",
+            "ko": "인버전 킵로 가세요"
+          },
+          {
+            "en": "and show them the seal.",
+            "ko": "그리고 인장을 보여 주세요."
+          }
+        ],
+        "speaker_legacy": "우체부 샘",
+        "speaker_en": "Postman Tell"
+      },
+      "boss_intro": [
+        {
+          "speaker": "옥시",
+          "en": "The page is giving off dark magic.",
+          "ko": "페이지가 어둠의 마력을 내뿜고 있어.",
+          "chunks": [
+            {
+              "en": "The page",
+              "ko": "페이지가"
+            },
+            {
+              "en": "is giving off dark magic.",
+              "ko": "어둠의 마력을 내뿜고 있어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        },
+        {
+          "speaker": "컴플리",
+          "en": "Let us break the curse.",
+          "ko": "저주를 풀자.",
+          "chunks": [
+            {
+              "en": "Let us break the curse.",
+              "ko": "저주를 풀자."
+            }
+          ],
+          "speaker_legacy": "컴플리",
+          "speaker_en": "Comple"
+        }
+      ],
+      "boss_clear": [
+        {
+          "speaker": "버벨라",
+          "en": "The dark magic is gone!",
+          "ko": "어둠의 마력이 사라졌어요!",
+          "chunks": [
+            {
+              "en": "The dark magic",
+              "ko": "어둠의 마력이"
+            },
+            {
+              "en": "is gone!",
+              "ko": "사라졌어요!"
+            }
+          ],
+          "speaker_legacy": "버벨라",
+          "speaker_en": "Verbella"
+        },
+        {
+          "speaker": "옥시",
+          "en": "We found another page.",
+          "ko": "또 한 장의 페이지를 찾았어.",
+          "chunks": [
+            {
+              "en": "We found another page.",
+              "ko": "또 한 장의 페이지를 찾았어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        }
+      ],
+      "town_legacy": "세이 마을",
+      "town_en": "Speechport",
+      "boss_legacy": "화법·간접의문문의 수문장",
+      "boss_en": "Reportus, Keeper of Messages",
+      "title_en": "The Twisted Message",
+      "page_name_en": "Page of Messages",
+      "reward_en": "Messenger's Seal"
+    },
+    {
+      "id": "sx",
+      "episode": 18,
+      "town": "인버전 킵",
+      "grammar": "도치·강조·병렬·동격",
+      "boss": "질서의 군주 인버터스",
+      "title": "뒤집힌 세계의 성",
+      "page_id": "grammatica_18",
+      "page_name": "질서의 페이지",
+      "reward": "인버전 성의 인장",
+      "reward_type": "souvenir",
+      "next_id": null,
+      "residents": [
+        {
+          "index": 0,
+          "name": "선장 네버",
+          "before_problem": {
+            "speaker": "선장 네버",
+            "en": "Never have I seen such a dark sky.",
+            "ko": "그렇게 어두운 하늘은 본 적 없소.",
+            "chunks": [
+              {
+                "en": "Never have I seen",
+                "ko": "결코 본 적 없소"
+              },
+              {
+                "en": "such a dark sky.",
+                "ko": "그렇게 어두운 하늘을."
+              }
+            ],
+            "speaker_legacy": "선장 아벨",
+            "speaker_en": "Captain Never"
+          },
+          "after_recovery": {
+            "speaker": "선장 네버",
+            "en": "The storm began above the castle.",
+            "ko": "폭풍은 성 위에서 시작됐소.",
+            "chunks": [
+              {
+                "en": "The storm began",
+                "ko": "폭풍은 시작됐소"
+              },
+              {
+                "en": "above the castle.",
+                "ko": "성 위에서."
+              }
+            ],
+            "speaker_legacy": "선장 아벨",
+            "speaker_en": "Captain Never"
+          },
+          "original_problem_ref": "TOWN.sx.n[0]",
+          "name_legacy": "선장 아벨",
+          "name_en": "Captain Never"
+        },
+        {
+          "index": 1,
+          "name": "경찰 엠파스",
+          "before_problem": {
+            "speaker": "경찰 엠파스",
+            "en": "It was a stranger who opened the gate.",
+            "ko": "문을 연 것은 낯선 사람이었소.",
+            "chunks": [
+              {
+                "en": "It was a stranger",
+                "ko": "낯선 사람이었소"
+              },
+              {
+                "en": "who opened the gate.",
+                "ko": "문을 연 것은."
+              }
+            ],
+            "speaker_legacy": "경찰 로건",
+            "speaker_en": "Officer Emphas"
+          },
+          "after_recovery": {
+            "speaker": "경찰 엠파스",
+            "en": "He carried the black seal.",
+            "ko": "그는 검은 인장을 가지고 있었소.",
+            "chunks": [
+              {
+                "en": "He carried",
+                "ko": "그는 가지고 있었소"
+              },
+              {
+                "en": "the black seal.",
+                "ko": "검은 인장을."
+              }
+            ],
+            "speaker_legacy": "경찰 로건",
+            "speaker_en": "Officer Emphas"
+          },
+          "original_problem_ref": "TOWN.sx.n[1]",
+          "name_legacy": "경찰 로건",
+          "name_en": "Officer Emphas"
+        },
+        {
+          "index": 2,
+          "name": "예술가 패럴렐",
+          "before_problem": {
+            "speaker": "예술가 패럴렐",
+            "en": "The wall shows reading, writing, and speaking.",
+            "ko": "벽에는 읽기, 쓰기, 말하기가 나타나 있어요.",
+            "chunks": [
+              {
+                "en": "The wall shows",
+                "ko": "벽은 보여 줘요"
+              },
+              {
+                "en": "reading, writing, and speaking.",
+                "ko": "읽기, 쓰기, 말하기를."
+              }
+            ],
+            "speaker_legacy": "예술가 비비",
+            "speaker_en": "Artist Parallel"
+          },
+          "after_recovery": {
+            "speaker": "예술가 패럴렐",
+            "en": "The patterns must match.",
+            "ko": "문양들은 일치해야 해요.",
+            "chunks": [
+              {
+                "en": "The patterns",
+                "ko": "문양들은"
+              },
+              {
+                "en": "must match.",
+                "ko": "일치해야 해요."
+              }
+            ],
+            "speaker_legacy": "예술가 비비",
+            "speaker_en": "Artist Parallel"
+          },
+          "original_problem_ref": "TOWN.sx.n[2]",
+          "name_legacy": "예술가 비비",
+          "name_en": "Artist Parallel"
+        },
+        {
+          "index": 3,
+          "name": "성지기 아포시아",
+          "before_problem": {
+            "speaker": "성지기 아포시아",
+            "en": "So strong was the curse that the gate closed.",
+            "ko": "저주가 너무 강해서 문이 닫혔어요.",
+            "chunks": [
+              {
+                "en": "So strong was the curse",
+                "ko": "저주가 너무 강해서"
+              },
+              {
+                "en": "that the gate closed.",
+                "ko": "문이 닫혔어요."
+              }
+            ],
+            "speaker_legacy": "성지기 클라라",
+            "speaker_en": "Keeper Apposia"
+          },
+          "after_recovery": {
+            "speaker": "성지기 아포시아",
+            "en": "The page is behind the final gate.",
+            "ko": "페이지는 마지막 문 뒤에 있어요.",
+            "chunks": [
+              {
+                "en": "The page",
+                "ko": "페이지는"
+              },
+              {
+                "en": "is behind the final gate.",
+                "ko": "마지막 문 뒤에 있어요."
+              }
+            ],
+            "speaker_legacy": "성지기 클라라",
+            "speaker_en": "Keeper Apposia"
+          },
+          "original_problem_ref": "TOWN.sx.n[3]",
+          "name_legacy": "성지기 클라라",
+          "name_en": "Keeper Apposia"
+        }
+      ],
+      "completion": {
+        "speaker": "선장 네버",
+        "en": "The castle is free from the curse.",
+        "ko": "성은 저주에서 벗어났어요.",
+        "chunks": [
+          {
+            "en": "The castle is free",
+            "ko": "성은 자유로워졌어요"
+          },
+          {
+            "en": "from the curse.",
+            "ko": "저주에서."
+          }
+        ],
+        "speaker_legacy": "선장 아벨",
+        "speaker_en": "Captain Never"
+      },
+      "next_dialogue": {
+        "speaker": "선장 네버",
+        "en": "Return to the library with all the pages.",
+        "ko": "모든 페이지를 가지고 도서관으로 돌아가세요.",
+        "chunks": [
+          {
+            "en": "Return to the library",
+            "ko": "도서관으로 돌아가세요"
+          },
+          {
+            "en": "with all the pages.",
+            "ko": "모든 페이지를 가지고."
+          }
+        ],
+        "speaker_legacy": "선장 아벨",
+        "speaker_en": "Captain Never"
+      },
+      "boss_intro": [
+        {
+          "speaker": "옥시",
+          "en": "The page is giving off dark magic.",
+          "ko": "페이지가 어둠의 마력을 내뿜고 있어.",
+          "chunks": [
+            {
+              "en": "The page",
+              "ko": "페이지가"
+            },
+            {
+              "en": "is giving off dark magic.",
+              "ko": "어둠의 마력을 내뿜고 있어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        },
+        {
+          "speaker": "컴플리",
+          "en": "Let us break the curse.",
+          "ko": "저주를 풀자.",
+          "chunks": [
+            {
+              "en": "Let us break the curse.",
+              "ko": "저주를 풀자."
+            }
+          ],
+          "speaker_legacy": "컴플리",
+          "speaker_en": "Comple"
+        }
+      ],
+      "boss_clear": [
+        {
+          "speaker": "버벨라",
+          "en": "The dark magic is gone!",
+          "ko": "어둠의 마력이 사라졌어요!",
+          "chunks": [
+            {
+              "en": "The dark magic",
+              "ko": "어둠의 마력이"
+            },
+            {
+              "en": "is gone!",
+              "ko": "사라졌어요!"
+            }
+          ],
+          "speaker_legacy": "버벨라",
+          "speaker_en": "Verbella"
+        },
+        {
+          "speaker": "옥시",
+          "en": "We found another page.",
+          "ko": "또 한 장의 페이지를 찾았어.",
+          "chunks": [
+            {
+              "en": "We found another page.",
+              "ko": "또 한 장의 페이지를 찾았어."
+            }
+          ],
+          "speaker_legacy": "옥시",
+          "speaker_en": "Oxy"
+        }
+      ],
+      "town_legacy": "톱 마을",
+      "town_en": "Inversion Keep",
+      "boss_legacy": "도치·강조·병렬·동격의 수문장",
+      "boss_en": "Invertus, Sovereign of Order",
+      "title_en": "The Castle of Inversion",
+      "page_name_en": "Page of Order",
+      "reward_en": "Inversion Seal"
+    }
+  ],
+  "milestones": {
+    "3": [
+      {
+        "speaker": "렉시온",
+        "en": "The pages share the same mark.",
+        "ko": "페이지들은 같은 문양을 지니고 있네.",
+        "chunks": [
+          {
+            "en": "The pages",
+            "ko": "페이지들은"
+          },
+          {
+            "en": "share the same mark.",
+            "ko": "같은 문양을 지니고 있네."
+          }
+        ],
+        "speaker_en": "Lexion"
+      }
+    ],
+    "6": [
+      {
+        "speaker": "렉시온",
+        "en": "The guardians were victims too.",
+        "ko": "수문장들도 피해자였네.",
+        "chunks": [
+          {
+            "en": "The guardians",
+            "ko": "수문장들도"
+          },
+          {
+            "en": "were victims too.",
+            "ko": "피해자였네."
+          }
+        ],
+        "speaker_en": "Lexion"
+      }
+    ],
+    "9": [
+      {
+        "speaker": "렉시온",
+        "en": "Someone created these grammar monsters.",
+        "ko": "누군가 이 문법 괴물들을 만들었네.",
+        "chunks": [
+          {
+            "en": "Someone created",
+            "ko": "누군가 만들었네"
+          },
+          {
+            "en": "these grammar monsters.",
+            "ko": "이 문법 괴물들을."
+          }
+        ],
+        "speaker_en": "Lexion"
+      }
+    ],
+    "12": [
+      {
+        "speaker": "렉시온",
+        "en": "The dark army attacked our library.",
+        "ko": "대마왕군이 우리 도서관을 공격했네.",
+        "chunks": [
+          {
+            "en": "The dark army",
+            "ko": "대마왕군이"
+          },
+          {
+            "en": "attacked our library.",
+            "ko": "우리 도서관을 공격했네."
+          }
+        ],
+        "speaker_en": "Lexion"
+      }
+    ],
+    "15": [
+      {
+        "speaker": "렉시온",
+        "en": "The black seal links the attacks.",
+        "ko": "검은 인장이 공격들의 연관성을 보여 주네.",
+        "chunks": [
+          {
+            "en": "The black seal",
+            "ko": "검은 인장이"
+          },
+          {
+            "en": "links the attacks.",
+            "ko": "공격들을 연결해 주네."
+          }
+        ],
+        "speaker_en": "Lexion"
+      }
+    ],
+    "18": [
+      {
+        "speaker": "렉시온",
+        "en": "The book is complete, but the danger remains.",
+        "ko": "책은 완성됐지만 위험은 남아 있네.",
+        "chunks": [
+          {
+            "en": "The book is complete,",
+            "ko": "책은 완성됐지만,"
+          },
+          {
+            "en": "but the danger remains.",
+            "ko": "위험은 남아 있네."
+          }
+        ],
+        "speaker_en": "Lexion"
+      }
+    ]
+  },
+  "finale": [
+    {
+      "speaker": "사일렌티우스",
+      "en": "If everyone spoke only my words, the world would be perfect.",
+      "ko": "모두가 오직 내 말만 한다면 세상은 완벽할 것이다.",
+      "chunks": [
+        {
+          "en": "If everyone spoke",
+          "ko": "모두가 말한다면"
+        },
+        {
+          "en": "only my words,",
+          "ko": "오직 내 말만,"
+        },
+        {
+          "en": "the world would be perfect.",
+          "ko": "세상은 완벽할 것이다."
+        }
+      ],
+      "speaker_en": "Silentius"
+    },
+    {
+      "speaker": "버벨라",
+      "en": "That is not peace.",
+      "ko": "그건 평화가 아니에요.",
+      "chunks": [
+        {
+          "en": "That is not peace.",
+          "ko": "그건 평화가 아니에요."
+        }
+      ],
+      "speaker_en": "Verbella"
+    },
+    {
+      "speaker": "컴플리",
+      "en": "Everyone has the right to speak for themselves.",
+      "ko": "모든 사람은 자신의 생각을 말할 권리가 있다.",
+      "chunks": [
+        {
+          "en": "Everyone has the right",
+          "ko": "모든 사람은 권리가 있다"
+        },
+        {
+          "en": "to speak for themselves.",
+          "ko": "자신의 생각을 말할."
+        }
+      ],
+      "speaker_en": "Comple"
+    },
+    {
+      "speaker": "옥시",
+      "en": "Language is not a tool to control others.",
+      "ko": "언어는 다른 사람을 지배하는 도구가 아니야.",
+      "chunks": [
+        {
+          "en": "Language is not a tool",
+          "ko": "언어는 도구가 아니야"
+        },
+        {
+          "en": "to control others.",
+          "ko": "다른 사람을 지배하는."
+        }
+      ],
+      "speaker_en": "Oxy"
+    },
+    {
+      "speaker": "버벨라",
+      "en": "It is a bridge that connects us.",
+      "ko": "언어는 우리를 이어 주는 다리예요.",
+      "chunks": [
+        {
+          "en": "It is a bridge",
+          "ko": "그것은 다리예요"
+        },
+        {
+          "en": "that connects us.",
+          "ko": "우리를 이어 주는."
+        }
+      ],
+      "speaker_en": "Verbella"
+    }
+  ]
+}

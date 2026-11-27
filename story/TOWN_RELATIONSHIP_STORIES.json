@@ -1,0 +1,3366 @@
+{
+  "version": "0.1",
+  "events": [
+    {
+      "id": "g1_relationship_story",
+      "town_id": "g1",
+      "title_en": "The Bread We Share",
+      "title_ko": "함께 나누는 빵",
+      "steps": [
+        {
+          "id": "step_1",
+          "npc_id": "g1_extra_6",
+          "action": "accept",
+          "dialogue": {
+            "en": "Belle thinks Bran sold her flour to another baker.",
+            "ko": "벨은 브랜이 자신의 밀가루를 다른 제빵사에게 팔았다고 생각해요.",
+            "chunks": [
+              {
+                "en": "Belle thinks Bran sold her flour to another baker.",
+                "ko": "벨은 브랜이 자신의 밀가루를 다른 제빵사에게 팔았다고 생각해요."
+              }
+            ]
+          },
+          "requires": []
+        },
+        {
+          "id": "step_2",
+          "npc_id": "g1_extra_5",
+          "action": "talk",
+          "dialogue": {
+            "en": "I kept half the flour for families who had no food.",
+            "ko": "먹을 것이 없는 가족들을 위해 밀가루 절반을 남겨 두었어요.",
+            "chunks": [
+              {
+                "en": "I kept half the flour for families who had no food.",
+                "ko": "먹을 것이 없는 가족들을 위해 밀가루 절반을 남겨 두었어요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "kept half the flour for families who had no food.",
+                    "ko": "먹을 것이 없는 가족들을 위해 밀가루 절반을 남겨 두었어요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "kept half the flour for families who had no food.",
+                "ko": "먹을 것이 없는 가족들을 위해 밀가루 절반을 남겨 두었어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_1"
+          ]
+        },
+        {
+          "id": "step_3",
+          "npc_id": "g1_extra_8",
+          "action": "talk",
+          "dialogue": {
+            "en": "My family received a bag yesterday.",
+            "ko": "우리 가족은 어제 한 자루를 받았어요.",
+            "chunks": [
+              {
+                "en": "My family received a bag yesterday.",
+                "ko": "우리 가족은 어제 한 자루를 받았어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_2"
+          ]
+        },
+        {
+          "id": "step_4",
+          "npc_id": "g1_extra_6",
+          "action": "return_with_context",
+          "dialogue": {
+            "en": "I did not know why you kept it.",
+            "ko": "왜 남겨 두었는지 몰랐어요.",
+            "chunks": [
+              {
+                "en": "I did not know why you kept it.",
+                "ko": "왜 남겨 두었는지 몰랐어요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "did not know why you kept it.",
+                    "ko": "왜 남겨 두었는지 몰랐어요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "did not know why you kept it.",
+                "ko": "왜 남겨 두었는지 몰랐어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_3"
+          ]
+        },
+        {
+          "id": "step_5",
+          "npc_id": "g1_extra_3",
+          "action": "talk",
+          "dialogue": {
+            "en": "We can bake smaller loaves and share them.",
+            "ko": "작은 빵을 구워 나눌 수 있어요.",
+            "chunks": [
+              {
+                "en": "We can bake smaller loaves and share them.",
+                "ko": "작은 빵을 구워 나눌 수 있어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_4"
+          ]
+        },
+        {
+          "id": "step_6",
+          "npc_id": "g1_extra_5",
+          "action": "talk",
+          "dialogue": {
+            "en": "I should have explained my plan first.",
+            "ko": "먼저 내 계획을 설명했어야 했어요.",
+            "chunks": [
+              {
+                "en": "I should have explained my plan first.",
+                "ko": "먼저 내 계획을 설명했어야 했어요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "should have explained my plan first.",
+                    "ko": "먼저 내 계획을 설명했어야 했어요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "should have explained my plan first.",
+                "ko": "먼저 내 계획을 설명했어야 했어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_5"
+          ]
+        },
+        {
+          "id": "step_7",
+          "npc_id": "g1_extra_6",
+          "action": "aftermath",
+          "dialogue": {
+            "en": "Next week, we will bake together.",
+            "ko": "다음 주에는 함께 빵을 구울 거예요.",
+            "chunks": [
+              {
+                "en": "Next week, we will bake together.",
+                "ko": "다음 주에는 함께 빵을 구울 거예요."
+              }
+            ]
+          },
+          "requires": [
+            "step_6"
+          ]
+        }
+      ],
+      "relationships": [
+        {
+          "npc_ids": [
+            "g1_extra_6",
+            "g1_extra_5"
+          ],
+          "type": "story_specific_conflict_or_connection"
+        },
+        {
+          "npc_ids": [
+            "g1_extra_6",
+            "g1_extra_8"
+          ],
+          "type": "story_specific_connection"
+        }
+      ],
+      "reward": "story_flag_only",
+      "optional": true
+    },
+    {
+      "id": "g2_relationship_story",
+      "town_id": "g2",
+      "title_en": "A Seat at the Table",
+      "title_ko": "식탁의 빈자리",
+      "steps": [
+        {
+          "id": "step_1",
+          "npc_id": "g2_extra_3",
+          "action": "accept",
+          "dialogue": {
+            "en": "Daisy has stopped coming to our inn.",
+            "ko": "데이지가 우리 여관에 오지 않아요.",
+            "chunks": [
+              {
+                "en": "Daisy has stopped coming to our inn.",
+                "ko": "데이지가 우리 여관에 오지 않아요."
+              }
+            ]
+          },
+          "requires": []
+        },
+        {
+          "id": "step_2",
+          "npc_id": "g2_extra_8",
+          "action": "talk",
+          "dialogue": {
+            "en": "I cannot eat fish, but I do not want to upset the cook.",
+            "ko": "생선을 먹을 수 없지만 요리사를 속상하게 하고 싶지 않아요.",
+            "chunks": [
+              {
+                "en": "I cannot eat fish, but I do not want to upset the cook.",
+                "ko": "생선을 먹을 수 없지만 요리사를 속상하게 하고 싶지 않아요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "cannot eat fish, but I do not want to upset the cook.",
+                    "ko": "생선을 먹을 수 없지만 요리사를 속상하게 하고 싶지 않아요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "cannot eat fish, but I do not want to upset the cook.",
+                "ko": "생선을 먹을 수 없지만 요리사를 속상하게 하고 싶지 않아요."
+              }
+            ]
+          },
+          "requires": [
+            "step_1"
+          ]
+        },
+        {
+          "id": "step_3",
+          "npc_id": "g2_extra_5",
+          "action": "talk",
+          "dialogue": {
+            "en": "She always leaves the fish on her plate.",
+            "ko": "그 아이는 항상 접시에 생선을 남겨요.",
+            "chunks": [
+              {
+                "en": "She always leaves the fish on her plate.",
+                "ko": "그 아이는 항상 접시에 생선을 남겨요."
+              }
+            ]
+          },
+          "requires": [
+            "step_2"
+          ]
+        },
+        {
+          "id": "step_4",
+          "npc_id": "g2_extra_3",
+          "action": "return_with_context",
+          "dialogue": {
+            "en": "We should ask what she can eat.",
+            "ko": "무엇을 먹을 수 있는지 물어봐야겠어요.",
+            "chunks": [
+              {
+                "en": "We should ask what she can eat.",
+                "ko": "무엇을 먹을 수 있는지 물어봐야겠어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_3"
+          ]
+        },
+        {
+          "id": "step_5",
+          "npc_id": "g2_extra_7",
+          "action": "talk",
+          "dialogue": {
+            "en": "I can make vegetable soup in a separate pot.",
+            "ko": "별도의 냄비에 채소 수프를 만들 수 있어요.",
+            "chunks": [
+              {
+                "en": "I can make vegetable soup in a separate pot.",
+                "ko": "별도의 냄비에 채소 수프를 만들 수 있어요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "can make vegetable soup in a separate pot.",
+                    "ko": "별도의 냄비에 채소 수프를 만들 수 있어요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "can make vegetable soup in a separate pot.",
+                "ko": "별도의 냄비에 채소 수프를 만들 수 있어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_4"
+          ]
+        },
+        {
+          "id": "step_6",
+          "npc_id": "g2_extra_8",
+          "action": "talk",
+          "dialogue": {
+            "en": "Thank you for asking me first.",
+            "ko": "먼저 물어봐 주셔서 고마워요.",
+            "chunks": [
+              {
+                "en": "Thank you for asking me first.",
+                "ko": "먼저 물어봐 주셔서 고마워요."
+              }
+            ]
+          },
+          "requires": [
+            "step_5"
+          ]
+        },
+        {
+          "id": "step_7",
+          "npc_id": "g2_extra_3",
+          "action": "aftermath",
+          "dialogue": {
+            "en": "There will always be a seat for you here.",
+            "ko": "여기에는 언제나 네 자리가 있을 거야.",
+            "chunks": [
+              {
+                "en": "There will always be a seat for you here.",
+                "ko": "여기에는 언제나 네 자리가 있을 거야."
+              }
+            ]
+          },
+          "requires": [
+            "step_6"
+          ]
+        }
+      ],
+      "relationships": [
+        {
+          "npc_ids": [
+            "g2_extra_3",
+            "g2_extra_8"
+          ],
+          "type": "story_specific_conflict_or_connection"
+        },
+        {
+          "npc_ids": [
+            "g2_extra_3",
+            "g2_extra_5"
+          ],
+          "type": "story_specific_connection"
+        }
+      ],
+      "reward": "story_flag_only",
+      "optional": true
+    },
+    {
+      "id": "tn_relationship_story",
+      "town_id": "tn",
+      "title_en": "The Clock That Waited",
+      "title_ko": "기다리는 시계",
+      "steps": [
+        {
+          "id": "step_1",
+          "npc_id": "tn_extra_5",
+          "action": "accept",
+          "dialogue": {
+            "en": "I stopped this clock on the day my brother left.",
+            "ko": "동생이 떠난 날 이 시계를 멈췄어요.",
+            "chunks": [
+              {
+                "en": "I stopped this clock on the day my brother left.",
+                "ko": "동생이 떠난 날 이 시계를 멈췄어요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "stopped this clock on the day my brother left.",
+                    "ko": "동생이 떠난 날 이 시계를 멈췄어요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "stopped this clock on the day my brother left.",
+                "ko": "동생이 떠난 날 이 시계를 멈췄어요."
+              }
+            ]
+          },
+          "requires": []
+        },
+        {
+          "id": "step_2",
+          "npc_id": "tn_extra_8",
+          "action": "talk",
+          "dialogue": {
+            "en": "I thought the clock was broken.",
+            "ko": "시계가 고장 난 줄 알았어요.",
+            "chunks": [
+              {
+                "en": "I thought the clock was broken.",
+                "ko": "시계가 고장 난 줄 알았어요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "thought the clock was broken.",
+                    "ko": "시계가 고장 난 줄 알았어요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "thought the clock was broken.",
+                "ko": "시계가 고장 난 줄 알았어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_1"
+          ]
+        },
+        {
+          "id": "step_3",
+          "npc_id": "tn_extra_7",
+          "action": "talk",
+          "dialogue": {
+            "en": "We need a working clock for the party.",
+            "ko": "파티에는 작동하는 시계가 필요해요.",
+            "chunks": [
+              {
+                "en": "We need a working clock for the party.",
+                "ko": "파티에는 작동하는 시계가 필요해요."
+              }
+            ]
+          },
+          "requires": [
+            "step_2"
+          ]
+        },
+        {
+          "id": "step_4",
+          "npc_id": "tn_extra_5",
+          "action": "return_with_context",
+          "dialogue": {
+            "en": "I was afraid to start it again.",
+            "ko": "다시 작동시키기가 두려웠어요.",
+            "chunks": [
+              {
+                "en": "I was afraid to start it again.",
+                "ko": "다시 작동시키기가 두려웠어요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "was afraid to start it again.",
+                    "ko": "다시 작동시키기가 두려웠어요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "was afraid to start it again.",
+                "ko": "다시 작동시키기가 두려웠어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_3"
+          ]
+        },
+        {
+          "id": "step_5",
+          "npc_id": "tn_extra_9",
+          "action": "talk",
+          "dialogue": {
+            "en": "Your brother sent a letter yesterday.",
+            "ko": "동생이 어제 편지를 보냈어요.",
+            "chunks": [
+              {
+                "en": "Your brother sent a letter yesterday.",
+                "ko": "동생이 어제 편지를 보냈어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_4"
+          ]
+        },
+        {
+          "id": "step_6",
+          "npc_id": "tn_extra_7",
+          "action": "talk",
+          "dialogue": {
+            "en": "He will visit us next month.",
+            "ko": "그는 다음 달 우리를 방문할 거예요.",
+            "chunks": [
+              {
+                "en": "He will visit us next month.",
+                "ko": "그는 다음 달 우리를 방문할 거예요."
+              }
+            ]
+          },
+          "requires": [
+            "step_5"
+          ]
+        },
+        {
+          "id": "step_7",
+          "npc_id": "tn_extra_5",
+          "action": "aftermath",
+          "dialogue": {
+            "en": "The clock is running again.",
+            "ko": "시계가 다시 움직이고 있어요.",
+            "chunks": [
+              {
+                "en": "The clock is running again.",
+                "ko": "시계가 다시 움직이고 있어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_6"
+          ]
+        }
+      ],
+      "relationships": [
+        {
+          "npc_ids": [
+            "tn_extra_5",
+            "tn_extra_8"
+          ],
+          "type": "story_specific_conflict_or_connection"
+        },
+        {
+          "npc_ids": [
+            "tn_extra_5",
+            "tn_extra_7"
+          ],
+          "type": "story_specific_connection"
+        }
+      ],
+      "reward": "story_flag_only",
+      "optional": true
+    },
+    {
+      "id": "md_relationship_story",
+      "town_id": "md",
+      "title_en": "Two Ways Across",
+      "title_ko": "강을 건너는 두 방법",
+      "steps": [
+        {
+          "id": "step_1",
+          "npc_id": "md_extra_6",
+          "action": "accept",
+          "dialogue": {
+            "en": "Ferry says we do not need a new bridge.",
+            "ko": "페리는 새 다리가 필요 없다고 해요.",
+            "chunks": [
+              {
+                "en": "Ferry says we do not need a new bridge.",
+                "ko": "페리는 새 다리가 필요 없다고 해요."
+              }
+            ]
+          },
+          "requires": []
+        },
+        {
+          "id": "step_2",
+          "npc_id": "md_extra_5",
+          "action": "talk",
+          "dialogue": {
+            "en": "I can carry people while the bridge is being repaired.",
+            "ko": "다리를 수리하는 동안 사람들을 태워 줄 수 있어요.",
+            "chunks": [
+              {
+                "en": "I can carry people while the bridge is being repaired.",
+                "ko": "다리를 수리하는 동안 사람들을 태워 줄 수 있어요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "can carry people while the bridge is being repaired.",
+                    "ko": "다리를 수리하는 동안 사람들을 태워 줄 수 있어요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "can carry people while the bridge is being repaired.",
+                "ko": "다리를 수리하는 동안 사람들을 태워 줄 수 있어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_1"
+          ]
+        },
+        {
+          "id": "step_3",
+          "npc_id": "md_extra_8",
+          "action": "talk",
+          "dialogue": {
+            "en": "My grandmother cannot get into the boat easily.",
+            "ko": "할머니는 배에 쉽게 탈 수 없어요.",
+            "chunks": [
+              {
+                "en": "My grandmother cannot get into the boat easily.",
+                "ko": "할머니는 배에 쉽게 탈 수 없어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_2"
+          ]
+        },
+        {
+          "id": "step_4",
+          "npc_id": "md_extra_6",
+          "action": "return_with_context",
+          "dialogue": {
+            "en": "Then we must build a safer landing place.",
+            "ko": "그렇다면 더 안전한 승선 장소를 만들어야 해요.",
+            "chunks": [
+              {
+                "en": "Then we must build a safer landing place.",
+                "ko": "그렇다면 더 안전한 승선 장소를 만들어야 해요."
+              }
+            ]
+          },
+          "requires": [
+            "step_3"
+          ]
+        },
+        {
+          "id": "step_5",
+          "npc_id": "md_extra_7",
+          "action": "talk",
+          "dialogue": {
+            "en": "We can build a ramp before the bridge is ready.",
+            "ko": "다리가 완성되기 전에 경사로를 만들 수 있어요.",
+            "chunks": [
+              {
+                "en": "We can build a ramp before the bridge is ready.",
+                "ko": "다리가 완성되기 전에 경사로를 만들 수 있어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_4"
+          ]
+        },
+        {
+          "id": "step_6",
+          "npc_id": "md_extra_5",
+          "action": "talk",
+          "dialogue": {
+            "en": "I will help Oak build it.",
+            "ko": "오크가 만드는 것을 도울게요.",
+            "chunks": [
+              {
+                "en": "I will help Oak build it.",
+                "ko": "오크가 만드는 것을 도울게요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "will help Oak build it.",
+                    "ko": "오크가 만드는 것을 도울게요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "will help Oak build it.",
+                "ko": "오크가 만드는 것을 도울게요."
+              }
+            ]
+          },
+          "requires": [
+            "step_5"
+          ]
+        },
+        {
+          "id": "step_7",
+          "npc_id": "md_extra_6",
+          "action": "aftermath",
+          "dialogue": {
+            "en": "We need both the boat and the bridge.",
+            "ko": "배와 다리 모두 필요해요.",
+            "chunks": [
+              {
+                "en": "We need both the boat and the bridge.",
+                "ko": "배와 다리 모두 필요해요."
+              }
+            ]
+          },
+          "requires": [
+            "step_6"
+          ]
+        }
+      ],
+      "relationships": [
+        {
+          "npc_ids": [
+            "md_extra_6",
+            "md_extra_5"
+          ],
+          "type": "story_specific_conflict_or_connection"
+        },
+        {
+          "npc_ids": [
+            "md_extra_6",
+            "md_extra_8"
+          ],
+          "type": "story_specific_connection"
+        }
+      ],
+      "reward": "story_flag_only",
+      "optional": true
+    },
+    {
+      "id": "rp_relationship_story",
+      "town_id": "rp",
+      "title_en": "The Tree with Two Names",
+      "title_ko": "두 이름을 가진 나무",
+      "steps": [
+        {
+          "id": "step_1",
+          "npc_id": "rp_extra_7",
+          "action": "accept",
+          "dialogue": {
+            "en": "I want to cut down the tree that blocks my path.",
+            "ko": "길을 막는 나무를 베고 싶어요.",
+            "chunks": [
+              {
+                "en": "I want to cut down the tree that blocks my path.",
+                "ko": "길을 막는 나무를 베고 싶어요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "want to cut down the tree that blocks my path.",
+                    "ko": "길을 막는 나무를 베고 싶어요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "want to cut down the tree that blocks my path.",
+                "ko": "길을 막는 나무를 베고 싶어요."
+              }
+            ]
+          },
+          "requires": []
+        },
+        {
+          "id": "step_2",
+          "npc_id": "rp_extra_6",
+          "action": "talk",
+          "dialogue": {
+            "en": "That is the tree where birds build their nests.",
+            "ko": "그것은 새들이 둥지를 짓는 나무예요.",
+            "chunks": [
+              {
+                "en": "That is the tree where birds build their nests.",
+                "ko": "그것은 새들이 둥지를 짓는 나무예요."
+              }
+            ]
+          },
+          "requires": [
+            "step_1"
+          ]
+        },
+        {
+          "id": "step_3",
+          "npc_id": "rp_extra_8",
+          "action": "talk",
+          "dialogue": {
+            "en": "It is also the tree that my father planted.",
+            "ko": "아빠가 심은 나무이기도 해요.",
+            "chunks": [
+              {
+                "en": "It is also the tree that my father planted.",
+                "ko": "아빠가 심은 나무이기도 해요."
+              }
+            ]
+          },
+          "requires": [
+            "step_2"
+          ]
+        },
+        {
+          "id": "step_4",
+          "npc_id": "rp_extra_7",
+          "action": "return_with_context",
+          "dialogue": {
+            "en": "I did not know it meant so much to you.",
+            "ko": "그 나무가 그렇게 소중한 줄 몰랐어요.",
+            "chunks": [
+              {
+                "en": "I did not know it meant so much to you.",
+                "ko": "그 나무가 그렇게 소중한 줄 몰랐어요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "did not know it meant so much to you.",
+                    "ko": "그 나무가 그렇게 소중한 줄 몰랐어요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "did not know it meant so much to you.",
+                "ko": "그 나무가 그렇게 소중한 줄 몰랐어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_3"
+          ]
+        },
+        {
+          "id": "step_5",
+          "npc_id": "rp_extra_1",
+          "action": "talk",
+          "dialogue": {
+            "en": "There is another path that we can clear.",
+            "ko": "우리가 정리할 수 있는 다른 길이 있어요.",
+            "chunks": [
+              {
+                "en": "There is another path that we can clear.",
+                "ko": "우리가 정리할 수 있는 다른 길이 있어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_4"
+          ]
+        },
+        {
+          "id": "step_6",
+          "npc_id": "rp_extra_6",
+          "action": "talk",
+          "dialogue": {
+            "en": "I will show you the path tomorrow.",
+            "ko": "내일 그 길을 보여 줄게요.",
+            "chunks": [
+              {
+                "en": "I will show you the path tomorrow.",
+                "ko": "내일 그 길을 보여 줄게요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "will show you the path tomorrow.",
+                    "ko": "내일 그 길을 보여 줄게요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "will show you the path tomorrow.",
+                "ko": "내일 그 길을 보여 줄게요."
+              }
+            ]
+          },
+          "requires": [
+            "step_5"
+          ]
+        },
+        {
+          "id": "step_7",
+          "npc_id": "rp_extra_7",
+          "action": "aftermath",
+          "dialogue": {
+            "en": "The tree can stay.",
+            "ko": "나무를 그대로 둘 수 있겠어요.",
+            "chunks": [
+              {
+                "en": "The tree can stay.",
+                "ko": "나무를 그대로 둘 수 있겠어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_6"
+          ]
+        }
+      ],
+      "relationships": [
+        {
+          "npc_ids": [
+            "rp_extra_7",
+            "rp_extra_6"
+          ],
+          "type": "story_specific_conflict_or_connection"
+        },
+        {
+          "npc_ids": [
+            "rp_extra_7",
+            "rp_extra_8"
+          ],
+          "type": "story_specific_connection"
+        }
+      ],
+      "reward": "story_flag_only",
+      "optional": true
+    },
+    {
+      "id": "ps_relationship_story",
+      "town_id": "ps",
+      "title_en": "The Boatman's Promise",
+      "title_ko": "뱃사공의 약속",
+      "steps": [
+        {
+          "id": "step_1",
+          "npc_id": "ps_extra_5",
+          "action": "accept",
+          "dialogue": {
+            "en": "My boat was damaged last night.",
+            "ko": "어젯밤 내 배가 손상됐어요.",
+            "chunks": [
+              {
+                "en": "My boat was damaged last night.",
+                "ko": "어젯밤 내 배가 손상됐어요."
+              }
+            ]
+          },
+          "requires": []
+        },
+        {
+          "id": "step_2",
+          "npc_id": "ps_extra_7",
+          "action": "talk",
+          "dialogue": {
+            "en": "The rope was cut by a sharp piece of wood.",
+            "ko": "밧줄은 날카로운 나무 조각에 잘렸어요.",
+            "chunks": [
+              {
+                "en": "The rope was cut by a sharp piece of wood.",
+                "ko": "밧줄은 날카로운 나무 조각에 잘렸어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_1"
+          ]
+        },
+        {
+          "id": "step_3",
+          "npc_id": "ps_extra_8",
+          "action": "talk",
+          "dialogue": {
+            "en": "I saw the boat hit the dock in the wind.",
+            "ko": "바람에 배가 부두에 부딪치는 것을 봤어요.",
+            "chunks": [
+              {
+                "en": "I saw the boat hit the dock in the wind.",
+                "ko": "바람에 배가 부두에 부딪치는 것을 봤어요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "saw the boat hit the dock in the wind.",
+                    "ko": "바람에 배가 부두에 부딪치는 것을 봤어요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "saw the boat hit the dock in the wind.",
+                "ko": "바람에 배가 부두에 부딪치는 것을 봤어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_2"
+          ]
+        },
+        {
+          "id": "step_4",
+          "npc_id": "ps_extra_5",
+          "action": "return_with_context",
+          "dialogue": {
+            "en": "So no one damaged it on purpose.",
+            "ko": "그렇다면 아무도 일부러 손상시키지 않았군요.",
+            "chunks": [
+              {
+                "en": "So no one damaged it on purpose.",
+                "ko": "그렇다면 아무도 일부러 손상시키지 않았군요."
+              }
+            ]
+          },
+          "requires": [
+            "step_3"
+          ]
+        },
+        {
+          "id": "step_5",
+          "npc_id": "ps_extra_10",
+          "action": "talk",
+          "dialogue": {
+            "en": "A spare rope was left in my shed.",
+            "ko": "여분의 밧줄이 내 창고에 남겨져 있어요.",
+            "chunks": [
+              {
+                "en": "A spare rope was left in my shed.",
+                "ko": "여분의 밧줄이 내 창고에 남겨져 있어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_4"
+          ]
+        },
+        {
+          "id": "step_6",
+          "npc_id": "ps_extra_7",
+          "action": "talk",
+          "dialogue": {
+            "en": "The dock will be repaired this afternoon.",
+            "ko": "부두는 오늘 오후 수리될 거예요.",
+            "chunks": [
+              {
+                "en": "The dock will be repaired this afternoon.",
+                "ko": "부두는 오늘 오후 수리될 거예요."
+              }
+            ]
+          },
+          "requires": [
+            "step_5"
+          ]
+        },
+        {
+          "id": "step_7",
+          "npc_id": "ps_extra_5",
+          "action": "aftermath",
+          "dialogue": {
+            "en": "I will keep my promise to take Ripple fishing.",
+            "ko": "리플을 낚시하러 데려가겠다는 약속을 지킬게요.",
+            "chunks": [
+              {
+                "en": "I will keep my promise to take Ripple fishing.",
+                "ko": "리플을 낚시하러 데려가겠다는 약속을 지킬게요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "will keep my promise to take Ripple fishing.",
+                    "ko": "리플을 낚시하러 데려가겠다는 약속을 지킬게요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "will keep my promise to take Ripple fishing.",
+                "ko": "리플을 낚시하러 데려가겠다는 약속을 지킬게요."
+              }
+            ]
+          },
+          "requires": [
+            "step_6"
+          ]
+        }
+      ],
+      "relationships": [
+        {
+          "npc_ids": [
+            "ps_extra_5",
+            "ps_extra_7"
+          ],
+          "type": "story_specific_conflict_or_connection"
+        },
+        {
+          "npc_ids": [
+            "ps_extra_5",
+            "ps_extra_8"
+          ],
+          "type": "story_specific_connection"
+        }
+      ],
+      "reward": "story_flag_only",
+      "optional": true
+    },
+    {
+      "id": "pf_relationship_story",
+      "town_id": "pf",
+      "title_en": "Ten Years of Tea",
+      "title_ko": "십 년 동안의 차",
+      "steps": [
+        {
+          "id": "step_1",
+          "npc_id": "pf_extra_3",
+          "action": "accept",
+          "dialogue": {
+            "en": "I have kept this cup for ten years.",
+            "ko": "이 잔을 십 년 동안 간직했어요.",
+            "chunks": [
+              {
+                "en": "I have kept this cup for ten years.",
+                "ko": "이 잔을 십 년 동안 간직했어요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "have kept this cup for ten years.",
+                    "ko": "이 잔을 십 년 동안 간직했어요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "have kept this cup for ten years.",
+                "ko": "이 잔을 십 년 동안 간직했어요."
+              }
+            ]
+          },
+          "requires": []
+        },
+        {
+          "id": "step_2",
+          "npc_id": "pf_extra_5",
+          "action": "talk",
+          "dialogue": {
+            "en": "Her friend has not returned since the flood.",
+            "ko": "그녀의 친구는 홍수 이후 돌아오지 않았어요.",
+            "chunks": [
+              {
+                "en": "Her friend has not returned since the flood.",
+                "ko": "그녀의 친구는 홍수 이후 돌아오지 않았어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_1"
+          ]
+        },
+        {
+          "id": "step_3",
+          "npc_id": "pf_extra_8",
+          "action": "talk",
+          "dialogue": {
+            "en": "I have seen the same flower on a letter.",
+            "ko": "편지에서 같은 꽃을 본 적이 있어요.",
+            "chunks": [
+              {
+                "en": "I have seen the same flower on a letter.",
+                "ko": "편지에서 같은 꽃을 본 적이 있어요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "have seen the same flower on a letter.",
+                    "ko": "편지에서 같은 꽃을 본 적이 있어요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "have seen the same flower on a letter.",
+                "ko": "편지에서 같은 꽃을 본 적이 있어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_2"
+          ]
+        },
+        {
+          "id": "step_4",
+          "npc_id": "pf_extra_3",
+          "action": "return_with_context",
+          "dialogue": {
+            "en": "That flower was our secret sign.",
+            "ko": "그 꽃은 우리의 비밀 표시였어요.",
+            "chunks": [
+              {
+                "en": "That flower was our secret sign.",
+                "ko": "그 꽃은 우리의 비밀 표시였어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_3"
+          ]
+        },
+        {
+          "id": "step_5",
+          "npc_id": "pf_extra_9",
+          "action": "talk",
+          "dialogue": {
+            "en": "A traveler has just brought a reply.",
+            "ko": "여행자가 방금 답장을 가져왔어요.",
+            "chunks": [
+              {
+                "en": "A traveler has just brought a reply.",
+                "ko": "여행자가 방금 답장을 가져왔어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_4"
+          ]
+        },
+        {
+          "id": "step_6",
+          "npc_id": "pf_extra_5",
+          "action": "talk",
+          "dialogue": {
+            "en": "Your friend has moved to a safer town.",
+            "ko": "친구는 더 안전한 마을로 이사했어요.",
+            "chunks": [
+              {
+                "en": "Your friend has moved to a safer town.",
+                "ko": "친구는 더 안전한 마을로 이사했어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_5"
+          ]
+        },
+        {
+          "id": "step_7",
+          "npc_id": "pf_extra_3",
+          "action": "aftermath",
+          "dialogue": {
+            "en": "Now I can write to her again.",
+            "ko": "이제 다시 편지를 쓸 수 있겠어요.",
+            "chunks": [
+              {
+                "en": "Now I can write to her again.",
+                "ko": "이제 다시 편지를 쓸 수 있겠어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_6"
+          ]
+        }
+      ],
+      "relationships": [
+        {
+          "npc_ids": [
+            "pf_extra_3",
+            "pf_extra_5"
+          ],
+          "type": "story_specific_conflict_or_connection"
+        },
+        {
+          "npc_ids": [
+            "pf_extra_3",
+            "pf_extra_8"
+          ],
+          "type": "story_specific_connection"
+        }
+      ],
+      "reward": "story_flag_only",
+      "optional": true
+    },
+    {
+      "id": "rv_relationship_story",
+      "town_id": "rv",
+      "title_en": "The Bell at Sunset",
+      "title_ko": "해 질 녘의 종",
+      "steps": [
+        {
+          "id": "step_1",
+          "npc_id": "rv_extra_6",
+          "action": "accept",
+          "dialogue": {
+            "en": "I ring the bell at the time when the boats return.",
+            "ko": "배가 돌아오는 시간에 종을 울려요.",
+            "chunks": [
+              {
+                "en": "I ring the bell at the time when the boats return.",
+                "ko": "배가 돌아오는 시간에 종을 울려요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "ring the bell at the time when the boats return.",
+                    "ko": "배가 돌아오는 시간에 종을 울려요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "ring the bell at the time when the boats return.",
+                "ko": "배가 돌아오는 시간에 종을 울려요."
+              }
+            ]
+          },
+          "requires": []
+        },
+        {
+          "id": "step_2",
+          "npc_id": "rv_extra_5",
+          "action": "talk",
+          "dialogue": {
+            "en": "The old map shows a place where the sound cannot reach.",
+            "ko": "옛 지도에는 소리가 닿지 않는 장소가 표시돼 있어요.",
+            "chunks": [
+              {
+                "en": "The old map shows a place where the sound cannot reach.",
+                "ko": "옛 지도에는 소리가 닿지 않는 장소가 표시돼 있어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_1"
+          ]
+        },
+        {
+          "id": "step_3",
+          "npc_id": "rv_extra_8",
+          "action": "talk",
+          "dialogue": {
+            "en": "That is where my mother works.",
+            "ko": "그곳은 엄마가 일하는 곳이에요.",
+            "chunks": [
+              {
+                "en": "That is where my mother works.",
+                "ko": "그곳은 엄마가 일하는 곳이에요."
+              }
+            ]
+          },
+          "requires": [
+            "step_2"
+          ]
+        },
+        {
+          "id": "step_4",
+          "npc_id": "rv_extra_6",
+          "action": "return_with_context",
+          "dialogue": {
+            "en": "Now I know why she misses the bell.",
+            "ko": "왜 종소리를 듣지 못하는지 알겠어요.",
+            "chunks": [
+              {
+                "en": "Now I know why she misses the bell.",
+                "ko": "왜 종소리를 듣지 못하는지 알겠어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_3"
+          ]
+        },
+        {
+          "id": "step_5",
+          "npc_id": "rv_extra_1",
+          "action": "talk",
+          "dialogue": {
+            "en": "We can put a signal flag on the harbor wall.",
+            "ko": "항구 벽에 신호 깃발을 설치할 수 있어요.",
+            "chunks": [
+              {
+                "en": "We can put a signal flag on the harbor wall.",
+                "ko": "항구 벽에 신호 깃발을 설치할 수 있어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_4"
+          ]
+        },
+        {
+          "id": "step_6",
+          "npc_id": "rv_extra_7",
+          "action": "talk",
+          "dialogue": {
+            "en": "I can make a pole for the flag.",
+            "ko": "깃발용 기둥을 만들 수 있어요.",
+            "chunks": [
+              {
+                "en": "I can make a pole for the flag.",
+                "ko": "깃발용 기둥을 만들 수 있어요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "can make a pole for the flag.",
+                    "ko": "깃발용 기둥을 만들 수 있어요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "can make a pole for the flag.",
+                "ko": "깃발용 기둥을 만들 수 있어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_5"
+          ]
+        },
+        {
+          "id": "step_7",
+          "npc_id": "rv_extra_6",
+          "action": "aftermath",
+          "dialogue": {
+            "en": "Everyone can see the signal now.",
+            "ko": "이제 모두 신호를 볼 수 있어요.",
+            "chunks": [
+              {
+                "en": "Everyone can see the signal now.",
+                "ko": "이제 모두 신호를 볼 수 있어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_6"
+          ]
+        }
+      ],
+      "relationships": [
+        {
+          "npc_ids": [
+            "rv_extra_6",
+            "rv_extra_5"
+          ],
+          "type": "story_specific_conflict_or_connection"
+        },
+        {
+          "npc_ids": [
+            "rv_extra_6",
+            "rv_extra_8"
+          ],
+          "type": "story_specific_connection"
+        }
+      ],
+      "reward": "story_flag_only",
+      "optional": true
+    },
+    {
+      "id": "pc_relationship_story",
+      "town_id": "pc",
+      "title_en": "The Name on the Stone",
+      "title_ko": "돌에 새겨진 이름",
+      "steps": [
+        {
+          "id": "step_1",
+          "npc_id": "pc_extra_5",
+          "action": "accept",
+          "dialogue": {
+            "en": "Reading the tablet, I found a name I did not know.",
+            "ko": "돌판을 읽다가 모르는 이름을 발견했어요.",
+            "chunks": [
+              {
+                "en": "Reading the tablet, I found a name I did not know.",
+                "ko": "돌판을 읽다가 모르는 이름을 발견했어요."
+              }
+            ]
+          },
+          "requires": []
+        },
+        {
+          "id": "step_2",
+          "npc_id": "pc_extra_6",
+          "action": "talk",
+          "dialogue": {
+            "en": "Written in an old style, the name is hard to read.",
+            "ko": "옛 방식으로 쓰여 이름을 읽기 어려워요.",
+            "chunks": [
+              {
+                "en": "Written in an old style, the name is hard to read.",
+                "ko": "옛 방식으로 쓰여 이름을 읽기 어려워요."
+              }
+            ]
+          },
+          "requires": [
+            "step_1"
+          ]
+        },
+        {
+          "id": "step_3",
+          "npc_id": "pc_extra_8",
+          "action": "talk",
+          "dialogue": {
+            "en": "My grandmother has a song with that name.",
+            "ko": "할머니가 그 이름이 나오는 노래를 알아요.",
+            "chunks": [
+              {
+                "en": "My grandmother has a song with that name.",
+                "ko": "할머니가 그 이름이 나오는 노래를 알아요."
+              }
+            ]
+          },
+          "requires": [
+            "step_2"
+          ]
+        },
+        {
+          "id": "step_4",
+          "npc_id": "pc_extra_5",
+          "action": "return_with_context",
+          "dialogue": {
+            "en": "Hearing the song, I recognized the name.",
+            "ko": "노래를 듣고 그 이름을 알아봤어요.",
+            "chunks": [
+              {
+                "en": "Hearing the song, I recognized the name.",
+                "ko": "노래를 듣고 그 이름을 알아봤어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_3"
+          ]
+        },
+        {
+          "id": "step_5",
+          "npc_id": "pc_extra_7",
+          "action": "talk",
+          "dialogue": {
+            "en": "It was the name of a guide, not a king.",
+            "ko": "왕이 아니라 안내자의 이름이었어요.",
+            "chunks": [
+              {
+                "en": "It was the name of a guide, not a king.",
+                "ko": "왕이 아니라 안내자의 이름이었어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_4"
+          ]
+        },
+        {
+          "id": "step_6",
+          "npc_id": "pc_extra_6",
+          "action": "talk",
+          "dialogue": {
+            "en": "We should record the song beside the tablet.",
+            "ko": "돌판과 함께 노래를 기록해야 해요.",
+            "chunks": [
+              {
+                "en": "We should record the song beside the tablet.",
+                "ko": "돌판과 함께 노래를 기록해야 해요."
+              }
+            ]
+          },
+          "requires": [
+            "step_5"
+          ]
+        },
+        {
+          "id": "step_7",
+          "npc_id": "pc_extra_5",
+          "action": "aftermath",
+          "dialogue": {
+            "en": "Ordinary people belong in history too.",
+            "ko": "평범한 사람들도 역사의 일부예요.",
+            "chunks": [
+              {
+                "en": "Ordinary people belong in history too.",
+                "ko": "평범한 사람들도 역사의 일부예요."
+              }
+            ]
+          },
+          "requires": [
+            "step_6"
+          ]
+        }
+      ],
+      "relationships": [
+        {
+          "npc_ids": [
+            "pc_extra_5",
+            "pc_extra_6"
+          ],
+          "type": "story_specific_conflict_or_connection"
+        },
+        {
+          "npc_ids": [
+            "pc_extra_5",
+            "pc_extra_8"
+          ],
+          "type": "story_specific_connection"
+        }
+      ],
+      "reward": "story_flag_only",
+      "optional": true
+    },
+    {
+      "id": "sj_relationship_story",
+      "town_id": "sj",
+      "title_en": "A Letter Instead of Wings",
+      "title_ko": "날개 대신 편지",
+      "steps": [
+        {
+          "id": "step_1",
+          "npc_id": "sj_extra_8",
+          "action": "accept",
+          "dialogue": {
+            "en": "I wish I could fly to my friend.",
+            "ko": "친구에게 날아갈 수 있으면 좋겠어요.",
+            "chunks": [
+              {
+                "en": "I wish I could fly to my friend.",
+                "ko": "친구에게 날아갈 수 있으면 좋겠어요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "wish I could fly to my friend.",
+                    "ko": "친구에게 날아갈 수 있으면 좋겠어요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "wish I could fly to my friend.",
+                "ko": "친구에게 날아갈 수 있으면 좋겠어요."
+              }
+            ]
+          },
+          "requires": []
+        },
+        {
+          "id": "step_2",
+          "npc_id": "sj_extra_5",
+          "action": "talk",
+          "dialogue": {
+            "en": "If you had a trained bird, it could carry a note.",
+            "ko": "훈련된 새가 있다면 쪽지를 나를 수 있을 거예요.",
+            "chunks": [
+              {
+                "en": "If you had a trained bird, it could carry a note.",
+                "ko": "훈련된 새가 있다면 쪽지를 나를 수 있을 거예요."
+              }
+            ]
+          },
+          "requires": [
+            "step_1"
+          ]
+        },
+        {
+          "id": "step_3",
+          "npc_id": "sj_extra_6",
+          "action": "talk",
+          "dialogue": {
+            "en": "I can help you write a letter.",
+            "ko": "편지 쓰는 것을 도울 수 있어요.",
+            "chunks": [
+              {
+                "en": "I can help you write a letter.",
+                "ko": "편지 쓰는 것을 도울 수 있어요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "can help you write a letter.",
+                    "ko": "편지 쓰는 것을 도울 수 있어요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "can help you write a letter.",
+                "ko": "편지 쓰는 것을 도울 수 있어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_2"
+          ]
+        },
+        {
+          "id": "step_4",
+          "npc_id": "sj_extra_8",
+          "action": "return_with_context",
+          "dialogue": {
+            "en": "If I knew what to say, I would write it myself.",
+            "ko": "무슨 말을 할지 안다면 직접 쓸 텐데요.",
+            "chunks": [
+              {
+                "en": "If I knew what to say, I would write it myself.",
+                "ko": "무슨 말을 할지 안다면 직접 쓸 텐데요."
+              }
+            ]
+          },
+          "requires": [
+            "step_3"
+          ]
+        },
+        {
+          "id": "step_5",
+          "npc_id": "sj_extra_7",
+          "action": "talk",
+          "dialogue": {
+            "en": "Tell her about your day.",
+            "ko": "하루 동안 있었던 일을 이야기해 줘요.",
+            "chunks": [
+              {
+                "en": "Tell her about your day.",
+                "ko": "하루 동안 있었던 일을 이야기해 줘요."
+              }
+            ]
+          },
+          "requires": [
+            "step_4"
+          ]
+        },
+        {
+          "id": "step_6",
+          "npc_id": "sj_extra_6",
+          "action": "talk",
+          "dialogue": {
+            "en": "Your own words are enough.",
+            "ko": "네 말이면 충분해.",
+            "chunks": [
+              {
+                "en": "Your own words are enough.",
+                "ko": "네 말이면 충분해."
+              }
+            ]
+          },
+          "requires": [
+            "step_5"
+          ]
+        },
+        {
+          "id": "step_7",
+          "npc_id": "sj_extra_8",
+          "action": "aftermath",
+          "dialogue": {
+            "en": "I hope she writes back.",
+            "ko": "답장이 오면 좋겠어요.",
+            "chunks": [
+              {
+                "en": "I hope she writes back.",
+                "ko": "답장이 오면 좋겠어요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "hope she writes back.",
+                    "ko": "답장이 오면 좋겠어요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "hope she writes back.",
+                "ko": "답장이 오면 좋겠어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_6"
+          ]
+        }
+      ],
+      "relationships": [
+        {
+          "npc_ids": [
+            "sj_extra_8",
+            "sj_extra_5"
+          ],
+          "type": "story_specific_conflict_or_connection"
+        },
+        {
+          "npc_ids": [
+            "sj_extra_8",
+            "sj_extra_6"
+          ],
+          "type": "story_specific_connection"
+        }
+      ],
+      "reward": "story_flag_only",
+      "optional": true
+    },
+    {
+      "id": "cp_relationship_story",
+      "town_id": "cp",
+      "title_en": "The Second Medal",
+      "title_ko": "두 번째 메달",
+      "steps": [
+        {
+          "id": "step_1",
+          "npc_id": "cp_extra_7",
+          "action": "accept",
+          "dialogue": {
+            "en": "The fastest runner gets the gold medal.",
+            "ko": "가장 빠른 선수가 금메달을 받아요.",
+            "chunks": [
+              {
+                "en": "The fastest runner gets the gold medal.",
+                "ko": "가장 빠른 선수가 금메달을 받아요."
+              }
+            ]
+          },
+          "requires": []
+        },
+        {
+          "id": "step_2",
+          "npc_id": "cp_extra_5",
+          "action": "talk",
+          "dialogue": {
+            "en": "Dash was slower than the winner.",
+            "ko": "대시는 우승자보다 느렸어요.",
+            "chunks": [
+              {
+                "en": "Dash was slower than the winner.",
+                "ko": "대시는 우승자보다 느렸어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_1"
+          ]
+        },
+        {
+          "id": "step_3",
+          "npc_id": "cp_extra_8",
+          "action": "talk",
+          "dialogue": {
+            "en": "I stopped to help a runner who fell.",
+            "ko": "넘어진 선수를 돕기 위해 멈췄어요.",
+            "chunks": [
+              {
+                "en": "I stopped to help a runner who fell.",
+                "ko": "넘어진 선수를 돕기 위해 멈췄어요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "stopped to help a runner who fell.",
+                    "ko": "넘어진 선수를 돕기 위해 멈췄어요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "stopped to help a runner who fell.",
+                "ko": "넘어진 선수를 돕기 위해 멈췄어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_2"
+          ]
+        },
+        {
+          "id": "step_4",
+          "npc_id": "cp_extra_7",
+          "action": "return_with_context",
+          "dialogue": {
+            "en": "That was more important than a medal.",
+            "ko": "그건 메달보다 더 중요했어요.",
+            "chunks": [
+              {
+                "en": "That was more important than a medal.",
+                "ko": "그건 메달보다 더 중요했어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_3"
+          ]
+        },
+        {
+          "id": "step_5",
+          "npc_id": "cp_extra_6",
+          "action": "talk",
+          "dialogue": {
+            "en": "We can give a separate award for kindness.",
+            "ko": "친절에 대한 별도 상을 줄 수 있어요.",
+            "chunks": [
+              {
+                "en": "We can give a separate award for kindness.",
+                "ko": "친절에 대한 별도 상을 줄 수 있어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_4"
+          ]
+        },
+        {
+          "id": "step_6",
+          "npc_id": "cp_extra_5",
+          "action": "talk",
+          "dialogue": {
+            "en": "The race result will stay the same.",
+            "ko": "경주 결과는 그대로 유지될 거예요.",
+            "chunks": [
+              {
+                "en": "The race result will stay the same.",
+                "ko": "경주 결과는 그대로 유지될 거예요."
+              }
+            ]
+          },
+          "requires": [
+            "step_5"
+          ]
+        },
+        {
+          "id": "step_7",
+          "npc_id": "cp_extra_7",
+          "action": "aftermath",
+          "dialogue": {
+            "en": "There is more than one way to be a hero.",
+            "ko": "영웅이 되는 방법은 하나만 있는 게 아니에요.",
+            "chunks": [
+              {
+                "en": "There is more than one way to be a hero.",
+                "ko": "영웅이 되는 방법은 하나만 있는 게 아니에요."
+              }
+            ]
+          },
+          "requires": [
+            "step_6"
+          ]
+        }
+      ],
+      "relationships": [
+        {
+          "npc_ids": [
+            "cp_extra_7",
+            "cp_extra_5"
+          ],
+          "type": "story_specific_conflict_or_connection"
+        },
+        {
+          "npc_ids": [
+            "cp_extra_7",
+            "cp_extra_8"
+          ],
+          "type": "story_specific_connection"
+        }
+      ],
+      "reward": "story_flag_only",
+      "optional": true
+    },
+    {
+      "id": "pn_relationship_story",
+      "town_id": "pn",
+      "title_en": "The Book That Wasn't Mine",
+      "title_ko": "내 것이 아니었던 책",
+      "steps": [
+        {
+          "id": "step_1",
+          "npc_id": "pn_extra_7",
+          "action": "accept",
+          "dialogue": {
+            "en": "This book is not mine, but I repaired it.",
+            "ko": "이 책은 내 것이 아니지만 수리했어요.",
+            "chunks": [
+              {
+                "en": "This book is not mine, but I repaired it.",
+                "ko": "이 책은 내 것이 아니지만 수리했어요."
+              }
+            ]
+          },
+          "requires": []
+        },
+        {
+          "id": "step_2",
+          "npc_id": "pn_extra_5",
+          "action": "talk",
+          "dialogue": {
+            "en": "Its owner left a note inside.",
+            "ko": "주인이 안에 쪽지를 남겼어요.",
+            "chunks": [
+              {
+                "en": "Its owner left a note inside.",
+                "ko": "주인이 안에 쪽지를 남겼어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_1"
+          ]
+        },
+        {
+          "id": "step_3",
+          "npc_id": "pn_extra_8",
+          "action": "talk",
+          "dialogue": {
+            "en": "The handwriting looks like my sister's.",
+            "ko": "글씨가 우리 언니 것 같아요.",
+            "chunks": [
+              {
+                "en": "The handwriting looks like my sister's.",
+                "ko": "글씨가 우리 언니 것 같아요."
+              }
+            ]
+          },
+          "requires": [
+            "step_2"
+          ]
+        },
+        {
+          "id": "step_4",
+          "npc_id": "pn_extra_7",
+          "action": "return_with_context",
+          "dialogue": {
+            "en": "Then we should ask her before giving it away.",
+            "ko": "그렇다면 넘겨주기 전에 물어봐야 해요.",
+            "chunks": [
+              {
+                "en": "Then we should ask her before giving it away.",
+                "ko": "그렇다면 넘겨주기 전에 물어봐야 해요."
+              }
+            ]
+          },
+          "requires": [
+            "step_3"
+          ]
+        },
+        {
+          "id": "step_5",
+          "npc_id": "pn_extra_6",
+          "action": "talk",
+          "dialogue": {
+            "en": "The scarf in the book is hers too.",
+            "ko": "책 속 목도리도 그녀의 것이에요.",
+            "chunks": [
+              {
+                "en": "The scarf in the book is hers too.",
+                "ko": "책 속 목도리도 그녀의 것이에요."
+              }
+            ]
+          },
+          "requires": [
+            "step_4"
+          ]
+        },
+        {
+          "id": "step_6",
+          "npc_id": "pn_extra_5",
+          "action": "talk",
+          "dialogue": {
+            "en": "She has confirmed that the book is hers.",
+            "ko": "그녀가 자기 책이라고 확인했어요.",
+            "chunks": [
+              {
+                "en": "She has confirmed that the book is hers.",
+                "ko": "그녀가 자기 책이라고 확인했어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_5"
+          ]
+        },
+        {
+          "id": "step_7",
+          "npc_id": "pn_extra_7",
+          "action": "aftermath",
+          "dialogue": {
+            "en": "I am glad it has found its owner.",
+            "ko": "주인을 찾아서 기뻐요.",
+            "chunks": [
+              {
+                "en": "I am glad it has found its owner.",
+                "ko": "주인을 찾아서 기뻐요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "am glad it has found its owner.",
+                    "ko": "주인을 찾아서 기뻐요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "am glad it has found its owner.",
+                "ko": "주인을 찾아서 기뻐요."
+              }
+            ]
+          },
+          "requires": [
+            "step_6"
+          ]
+        }
+      ],
+      "relationships": [
+        {
+          "npc_ids": [
+            "pn_extra_7",
+            "pn_extra_5"
+          ],
+          "type": "story_specific_conflict_or_connection"
+        },
+        {
+          "npc_ids": [
+            "pn_extra_7",
+            "pn_extra_8"
+          ],
+          "type": "story_specific_connection"
+        }
+      ],
+      "reward": "story_flag_only",
+      "optional": true
+    },
+    {
+      "id": "ot_relationship_story",
+      "town_id": "ot",
+      "title_en": "A Light for the Late Ship",
+      "title_ko": "늦은 배를 위한 불빛",
+      "steps": [
+        {
+          "id": "step_1",
+          "npc_id": "ot_extra_7",
+          "action": "accept",
+          "dialogue": {
+            "en": "The light went out at midnight.",
+            "ko": "자정에 불빛이 꺼졌어요.",
+            "chunks": [
+              {
+                "en": "The light went out at midnight.",
+                "ko": "자정에 불빛이 꺼졌어요."
+              }
+            ]
+          },
+          "requires": []
+        },
+        {
+          "id": "step_2",
+          "npc_id": "ot_extra_5",
+          "action": "talk",
+          "dialogue": {
+            "en": "A ship is waiting outside the harbor.",
+            "ko": "배 한 척이 항구 밖에서 기다려요.",
+            "chunks": [
+              {
+                "en": "A ship is waiting outside the harbor.",
+                "ko": "배 한 척이 항구 밖에서 기다려요."
+              }
+            ]
+          },
+          "requires": [
+            "step_1"
+          ]
+        },
+        {
+          "id": "step_3",
+          "npc_id": "ot_extra_8",
+          "action": "talk",
+          "dialogue": {
+            "en": "My father is on that ship.",
+            "ko": "아빠가 그 배에 타고 있어요.",
+            "chunks": [
+              {
+                "en": "My father is on that ship.",
+                "ko": "아빠가 그 배에 타고 있어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_2"
+          ]
+        },
+        {
+          "id": "step_4",
+          "npc_id": "ot_extra_7",
+          "action": "return_with_context",
+          "dialogue": {
+            "en": "We must keep the ship away from the rocks.",
+            "ko": "배가 바위에 접근하지 않게 해야 해요.",
+            "chunks": [
+              {
+                "en": "We must keep the ship away from the rocks.",
+                "ko": "배가 바위에 접근하지 않게 해야 해요."
+              }
+            ]
+          },
+          "requires": [
+            "step_3"
+          ]
+        },
+        {
+          "id": "step_5",
+          "npc_id": "ot_extra_6",
+          "action": "talk",
+          "dialogue": {
+            "en": "The spare lamp is in the workshop.",
+            "ko": "예비 등불은 작업장 안에 있어요.",
+            "chunks": [
+              {
+                "en": "The spare lamp is in the workshop.",
+                "ko": "예비 등불은 작업장 안에 있어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_4"
+          ]
+        },
+        {
+          "id": "step_6",
+          "npc_id": "ot_extra_4",
+          "action": "talk",
+          "dialogue": {
+            "en": "I will signal the ship from the shore.",
+            "ko": "해안에서 배에 신호를 보낼게요.",
+            "chunks": [
+              {
+                "en": "I will signal the ship from the shore.",
+                "ko": "해안에서 배에 신호를 보낼게요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "will signal the ship from the shore.",
+                    "ko": "해안에서 배에 신호를 보낼게요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "will signal the ship from the shore.",
+                "ko": "해안에서 배에 신호를 보낼게요."
+              }
+            ]
+          },
+          "requires": [
+            "step_5"
+          ]
+        },
+        {
+          "id": "step_7",
+          "npc_id": "ot_extra_7",
+          "action": "aftermath",
+          "dialogue": {
+            "en": "The ship is safely in the harbor.",
+            "ko": "배가 안전하게 항구에 들어왔어요.",
+            "chunks": [
+              {
+                "en": "The ship is safely in the harbor.",
+                "ko": "배가 안전하게 항구에 들어왔어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_6"
+          ]
+        }
+      ],
+      "relationships": [
+        {
+          "npc_ids": [
+            "ot_extra_7",
+            "ot_extra_5"
+          ],
+          "type": "story_specific_conflict_or_connection"
+        },
+        {
+          "npc_ids": [
+            "ot_extra_7",
+            "ot_extra_8"
+          ],
+          "type": "story_specific_connection"
+        }
+      ],
+      "reward": "story_flag_only",
+      "optional": true
+    },
+    {
+      "id": "iv_relationship_story",
+      "town_id": "iv",
+      "title_en": "A Different Dream",
+      "title_ko": "서로 다른 꿈",
+      "steps": [
+        {
+          "id": "step_1",
+          "npc_id": "iv_extra_6",
+          "action": "accept",
+          "dialogue": {
+            "en": "Dream's family wants her to become a sailor.",
+            "ko": "드림의 가족은 그녀가 선원이 되기를 바라요.",
+            "chunks": [
+              {
+                "en": "Dream's family wants her to become a sailor.",
+                "ko": "드림의 가족은 그녀가 선원이 되기를 바라요."
+              }
+            ]
+          },
+          "requires": []
+        },
+        {
+          "id": "step_2",
+          "npc_id": "iv_extra_8",
+          "action": "talk",
+          "dialogue": {
+            "en": "I enjoy making things, not sailing.",
+            "ko": "저는 항해가 아니라 물건 만들기를 즐겨요.",
+            "chunks": [
+              {
+                "en": "I enjoy making things, not sailing.",
+                "ko": "저는 항해가 아니라 물건 만들기를 즐겨요."
+              }
+            ]
+          },
+          "requires": [
+            "step_1"
+          ]
+        },
+        {
+          "id": "step_3",
+          "npc_id": "iv_extra_5",
+          "action": "talk",
+          "dialogue": {
+            "en": "She can learn to make equipment here.",
+            "ko": "여기서 장비 만드는 법을 배울 수 있어요.",
+            "chunks": [
+              {
+                "en": "She can learn to make equipment here.",
+                "ko": "여기서 장비 만드는 법을 배울 수 있어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_2"
+          ]
+        },
+        {
+          "id": "step_4",
+          "npc_id": "iv_extra_6",
+          "action": "return_with_context",
+          "dialogue": {
+            "en": "We should listen to what she wants to do.",
+            "ko": "그녀가 하고 싶은 일을 들어야 해요.",
+            "chunks": [
+              {
+                "en": "We should listen to what she wants to do.",
+                "ko": "그녀가 하고 싶은 일을 들어야 해요."
+              }
+            ]
+          },
+          "requires": [
+            "step_3"
+          ]
+        },
+        {
+          "id": "step_5",
+          "npc_id": "iv_extra_7",
+          "action": "talk",
+          "dialogue": {
+            "en": "I can offer her a trial lesson.",
+            "ko": "체험 수업을 제공할 수 있어요.",
+            "chunks": [
+              {
+                "en": "I can offer her a trial lesson.",
+                "ko": "체험 수업을 제공할 수 있어요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "can offer her a trial lesson.",
+                    "ko": "체험 수업을 제공할 수 있어요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "can offer her a trial lesson.",
+                "ko": "체험 수업을 제공할 수 있어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_4"
+          ]
+        },
+        {
+          "id": "step_6",
+          "npc_id": "iv_extra_8",
+          "action": "talk",
+          "dialogue": {
+            "en": "I want to try it before I decide.",
+            "ko": "결정하기 전에 해 보고 싶어요.",
+            "chunks": [
+              {
+                "en": "I want to try it before I decide.",
+                "ko": "결정하기 전에 해 보고 싶어요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "want to try it before I decide.",
+                    "ko": "결정하기 전에 해 보고 싶어요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "want to try it before I decide.",
+                "ko": "결정하기 전에 해 보고 싶어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_5"
+          ]
+        },
+        {
+          "id": "step_7",
+          "npc_id": "iv_extra_6",
+          "action": "aftermath",
+          "dialogue": {
+            "en": "Learning begins with a choice.",
+            "ko": "배움은 선택에서 시작돼요.",
+            "chunks": [
+              {
+                "en": "Learning begins with a choice.",
+                "ko": "배움은 선택에서 시작돼요."
+              }
+            ]
+          },
+          "requires": [
+            "step_6"
+          ]
+        }
+      ],
+      "relationships": [
+        {
+          "npc_ids": [
+            "iv_extra_6",
+            "iv_extra_8"
+          ],
+          "type": "story_specific_conflict_or_connection"
+        },
+        {
+          "npc_ids": [
+            "iv_extra_6",
+            "iv_extra_5"
+          ],
+          "type": "story_specific_connection"
+        }
+      ],
+      "reward": "story_flag_only",
+      "optional": true
+    },
+    {
+      "id": "pe_relationship_story",
+      "town_id": "pe",
+      "title_en": "The Sound of Home",
+      "title_ko": "고향의 소리",
+      "steps": [
+        {
+          "id": "step_1",
+          "npc_id": "pe_extra_7",
+          "action": "accept",
+          "dialogue": {
+            "en": "I heard Robin crying near the bell.",
+            "ko": "종 근처에서 로빈이 우는 것을 들었어요.",
+            "chunks": [
+              {
+                "en": "I heard Robin crying near the bell.",
+                "ko": "종 근처에서 로빈이 우는 것을 들었어요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "heard Robin crying near the bell.",
+                    "ko": "종 근처에서 로빈이 우는 것을 들었어요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "heard Robin crying near the bell.",
+                "ko": "종 근처에서 로빈이 우는 것을 들었어요."
+              }
+            ]
+          },
+          "requires": []
+        },
+        {
+          "id": "step_2",
+          "npc_id": "pe_extra_8",
+          "action": "talk",
+          "dialogue": {
+            "en": "The sound reminds me of my old home.",
+            "ko": "그 소리가 옛집을 떠올리게 해요.",
+            "chunks": [
+              {
+                "en": "The sound reminds me of my old home.",
+                "ko": "그 소리가 옛집을 떠올리게 해요."
+              }
+            ]
+          },
+          "requires": [
+            "step_1"
+          ]
+        },
+        {
+          "id": "step_3",
+          "npc_id": "pe_extra_5",
+          "action": "talk",
+          "dialogue": {
+            "en": "The forest sounds different at night.",
+            "ko": "숲은 밤에 다르게 들려요.",
+            "chunks": [
+              {
+                "en": "The forest sounds different at night.",
+                "ko": "숲은 밤에 다르게 들려요."
+              }
+            ]
+          },
+          "requires": [
+            "step_2"
+          ]
+        },
+        {
+          "id": "step_4",
+          "npc_id": "pe_extra_7",
+          "action": "return_with_context",
+          "dialogue": {
+            "en": "I can make the bell sound softer.",
+            "ko": "종소리를 더 부드럽게 만들 수 있어요.",
+            "chunks": [
+              {
+                "en": "I can make the bell sound softer.",
+                "ko": "종소리를 더 부드럽게 만들 수 있어요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "can make the bell sound softer.",
+                    "ko": "종소리를 더 부드럽게 만들 수 있어요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "can make the bell sound softer.",
+                "ko": "종소리를 더 부드럽게 만들 수 있어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_3"
+          ]
+        },
+        {
+          "id": "step_5",
+          "npc_id": "pe_extra_6",
+          "action": "talk",
+          "dialogue": {
+            "en": "Let Robin choose the sound.",
+            "ko": "로빈이 소리를 선택하게 해요.",
+            "chunks": [
+              {
+                "en": "Let Robin choose the sound.",
+                "ko": "로빈이 소리를 선택하게 해요."
+              }
+            ]
+          },
+          "requires": [
+            "step_4"
+          ]
+        },
+        {
+          "id": "step_6",
+          "npc_id": "pe_extra_8",
+          "action": "talk",
+          "dialogue": {
+            "en": "This one sounds like home.",
+            "ko": "이 소리는 고향 같아요.",
+            "chunks": [
+              {
+                "en": "This one sounds like home.",
+                "ko": "이 소리는 고향 같아요."
+              }
+            ]
+          },
+          "requires": [
+            "step_5"
+          ]
+        },
+        {
+          "id": "step_7",
+          "npc_id": "pe_extra_7",
+          "action": "aftermath",
+          "dialogue": {
+            "en": "The bell belongs to the whole village.",
+            "ko": "종은 온 마을의 것이에요.",
+            "chunks": [
+              {
+                "en": "The bell belongs to the whole village.",
+                "ko": "종은 온 마을의 것이에요."
+              }
+            ]
+          },
+          "requires": [
+            "step_6"
+          ]
+        }
+      ],
+      "relationships": [
+        {
+          "npc_ids": [
+            "pe_extra_7",
+            "pe_extra_8"
+          ],
+          "type": "story_specific_conflict_or_connection"
+        },
+        {
+          "npc_ids": [
+            "pe_extra_7",
+            "pe_extra_5"
+          ],
+          "type": "story_specific_connection"
+        }
+      ],
+      "reward": "story_flag_only",
+      "optional": true
+    },
+    {
+      "id": "ng_relationship_story",
+      "town_id": "ng",
+      "title_en": "The Quiet Performer",
+      "title_ko": "조용한 공연자",
+      "steps": [
+        {
+          "id": "step_1",
+          "npc_id": "ng_extra_6",
+          "action": "accept",
+          "dialogue": {
+            "en": "Joy wants to sing, but she is nervous.",
+            "ko": "조이는 노래하고 싶지만 긴장해요.",
+            "chunks": [
+              {
+                "en": "Joy wants to sing, but she is nervous.",
+                "ko": "조이는 노래하고 싶지만 긴장해요."
+              }
+            ]
+          },
+          "requires": []
+        },
+        {
+          "id": "step_2",
+          "npc_id": "ng_extra_8",
+          "action": "talk",
+          "dialogue": {
+            "en": "Please do not make me sing alone.",
+            "ko": "혼자 노래하게 하지 말아 주세요.",
+            "chunks": [
+              {
+                "en": "Please do not make me sing alone.",
+                "ko": "혼자 노래하게 하지 말아 주세요."
+              }
+            ]
+          },
+          "requires": [
+            "step_1"
+          ]
+        },
+        {
+          "id": "step_3",
+          "npc_id": "ng_extra_5",
+          "action": "talk",
+          "dialogue": {
+            "en": "Let's invite the other children.",
+            "ko": "다른 아이들을 초대합시다.",
+            "chunks": [
+              {
+                "en": "Let's invite the other children.",
+                "ko": "다른 아이들을 초대합시다."
+              }
+            ]
+          },
+          "requires": [
+            "step_2"
+          ]
+        },
+        {
+          "id": "step_4",
+          "npc_id": "ng_extra_6",
+          "action": "return_with_context",
+          "dialogue": {
+            "en": "What a good idea!",
+            "ko": "정말 좋은 생각이네요!",
+            "chunks": [
+              {
+                "en": "What a good idea!",
+                "ko": "정말 좋은 생각이네요!"
+              }
+            ]
+          },
+          "requires": [
+            "step_3"
+          ]
+        },
+        {
+          "id": "step_5",
+          "npc_id": "ng_extra_7",
+          "action": "talk",
+          "dialogue": {
+            "en": "We can make ribbons for the group.",
+            "ko": "모둠을 위한 리본을 만들 수 있어요.",
+            "chunks": [
+              {
+                "en": "We can make ribbons for the group.",
+                "ko": "모둠을 위한 리본을 만들 수 있어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_4"
+          ]
+        },
+        {
+          "id": "step_6",
+          "npc_id": "ng_extra_8",
+          "action": "talk",
+          "dialogue": {
+            "en": "Let's sing together.",
+            "ko": "함께 노래해요.",
+            "chunks": [
+              {
+                "en": "Let's sing together.",
+                "ko": "함께 노래해요."
+              }
+            ]
+          },
+          "requires": [
+            "step_5"
+          ]
+        },
+        {
+          "id": "step_7",
+          "npc_id": "ng_extra_6",
+          "action": "aftermath",
+          "dialogue": {
+            "en": "What a wonderful performance!",
+            "ko": "정말 멋진 공연이네요!",
+            "chunks": [
+              {
+                "en": "What a wonderful performance!",
+                "ko": "정말 멋진 공연이네요!"
+              }
+            ]
+          },
+          "requires": [
+            "step_6"
+          ]
+        }
+      ],
+      "relationships": [
+        {
+          "npc_ids": [
+            "ng_extra_6",
+            "ng_extra_8"
+          ],
+          "type": "story_specific_conflict_or_connection"
+        },
+        {
+          "npc_ids": [
+            "ng_extra_6",
+            "ng_extra_5"
+          ],
+          "type": "story_specific_connection"
+        }
+      ],
+      "reward": "story_flag_only",
+      "optional": true
+    },
+    {
+      "id": "rs_relationship_story",
+      "town_id": "rs",
+      "title_en": "The Words She Never Said",
+      "title_ko": "그녀가 하지 않은 말",
+      "steps": [
+        {
+          "id": "step_1",
+          "npc_id": "rs_extra_7",
+          "action": "accept",
+          "dialogue": {
+            "en": "Someone told me that Note was angry.",
+            "ko": "누군가 노트가 화났다고 말했어요.",
+            "chunks": [
+              {
+                "en": "Someone told me that Note was angry.",
+                "ko": "누군가 노트가 화났다고 말했어요."
+              }
+            ]
+          },
+          "requires": []
+        },
+        {
+          "id": "step_2",
+          "npc_id": "rs_extra_6",
+          "action": "talk",
+          "dialogue": {
+            "en": "I said that she was worried, not angry.",
+            "ko": "화난 것이 아니라 걱정한다고 말했어요.",
+            "chunks": [
+              {
+                "en": "I said that she was worried, not angry.",
+                "ko": "화난 것이 아니라 걱정한다고 말했어요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "said that she was worried, not angry.",
+                    "ko": "화난 것이 아니라 걱정한다고 말했어요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "said that she was worried, not angry.",
+                "ko": "화난 것이 아니라 걱정한다고 말했어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_1"
+          ]
+        },
+        {
+          "id": "step_3",
+          "npc_id": "rs_extra_8",
+          "action": "talk",
+          "dialogue": {
+            "en": "I asked when my mother would return.",
+            "ko": "엄마가 언제 돌아올지 물었어요.",
+            "chunks": [
+              {
+                "en": "I asked when my mother would return.",
+                "ko": "엄마가 언제 돌아올지 물었어요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "asked when my mother would return.",
+                    "ko": "엄마가 언제 돌아올지 물었어요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "asked when my mother would return.",
+                "ko": "엄마가 언제 돌아올지 물었어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_2"
+          ]
+        },
+        {
+          "id": "step_4",
+          "npc_id": "rs_extra_7",
+          "action": "return_with_context",
+          "dialogue": {
+            "en": "Then the message was misunderstood.",
+            "ko": "그렇다면 전갈이 잘못 이해된 거군요.",
+            "chunks": [
+              {
+                "en": "Then the message was misunderstood.",
+                "ko": "그렇다면 전갈이 잘못 이해된 거군요."
+              }
+            ]
+          },
+          "requires": [
+            "step_3"
+          ]
+        },
+        {
+          "id": "step_5",
+          "npc_id": "rs_extra_4",
+          "action": "talk",
+          "dialogue": {
+            "en": "I know where her mother is waiting.",
+            "ko": "엄마가 어디에서 기다리는지 알아요.",
+            "chunks": [
+              {
+                "en": "I know where her mother is waiting.",
+                "ko": "엄마가 어디에서 기다리는지 알아요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "know where her mother is waiting.",
+                    "ko": "엄마가 어디에서 기다리는지 알아요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "know where her mother is waiting.",
+                "ko": "엄마가 어디에서 기다리는지 알아요."
+              }
+            ]
+          },
+          "requires": [
+            "step_4"
+          ]
+        },
+        {
+          "id": "step_6",
+          "npc_id": "rs_extra_6",
+          "action": "talk",
+          "dialogue": {
+            "en": "I will correct the message myself.",
+            "ko": "제가 직접 전갈을 바로잡을게요.",
+            "chunks": [
+              {
+                "en": "I will correct the message myself.",
+                "ko": "제가 직접 전갈을 바로잡을게요."
+              }
+            ]
+          },
+          "requires": [
+            "step_5"
+          ]
+        },
+        {
+          "id": "step_7",
+          "npc_id": "rs_extra_7",
+          "action": "aftermath",
+          "dialogue": {
+            "en": "We should check what people actually said.",
+            "ko": "사람들이 실제로 한 말을 확인해야 해요.",
+            "chunks": [
+              {
+                "en": "We should check what people actually said.",
+                "ko": "사람들이 실제로 한 말을 확인해야 해요."
+              }
+            ]
+          },
+          "requires": [
+            "step_6"
+          ]
+        }
+      ],
+      "relationships": [
+        {
+          "npc_ids": [
+            "rs_extra_7",
+            "rs_extra_6"
+          ],
+          "type": "story_specific_conflict_or_connection"
+        },
+        {
+          "npc_ids": [
+            "rs_extra_7",
+            "rs_extra_8"
+          ],
+          "type": "story_specific_connection"
+        }
+      ],
+      "reward": "story_flag_only",
+      "optional": true
+    },
+    {
+      "id": "sx_relationship_story",
+      "town_id": "sx",
+      "title_en": "The Keeper's Choice",
+      "title_ko": "수호자의 선택",
+      "steps": [
+        {
+          "id": "step_1",
+          "npc_id": "sx_extra_6",
+          "action": "accept",
+          "dialogue": {
+            "en": "Never have I seen the hall open to children.",
+            "ko": "전당이 아이들에게 열린 것을 본 적이 없어요.",
+            "chunks": [
+              {
+                "en": "Never have I seen the hall open to children.",
+                "ko": "전당이 아이들에게 열린 것을 본 적이 없어요."
+              }
+            ]
+          },
+          "requires": []
+        },
+        {
+          "id": "step_2",
+          "npc_id": "sx_extra_5",
+          "action": "talk",
+          "dialogue": {
+            "en": "It was the old rule that kept them outside.",
+            "ko": "아이들을 밖에 머물게 한 것은 옛 규칙이었어요.",
+            "chunks": [
+              {
+                "en": "It was the old rule that kept them outside.",
+                "ko": "아이들을 밖에 머물게 한 것은 옛 규칙이었어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_1"
+          ]
+        },
+        {
+          "id": "step_3",
+          "npc_id": "sx_extra_8",
+          "action": "talk",
+          "dialogue": {
+            "en": "I want to read, learn, and ask questions.",
+            "ko": "읽고 배우고 질문하고 싶어요.",
+            "chunks": [
+              {
+                "en": "I want to read, learn, and ask questions.",
+                "ko": "읽고 배우고 질문하고 싶어요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "want to read, learn, and ask questions.",
+                    "ko": "읽고 배우고 질문하고 싶어요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "want to read, learn, and ask questions.",
+                "ko": "읽고 배우고 질문하고 싶어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_2"
+          ]
+        },
+        {
+          "id": "step_4",
+          "npc_id": "sx_extra_6",
+          "action": "return_with_context",
+          "dialogue": {
+            "en": "The hall, our oldest archive, should welcome learners.",
+            "ko": "우리의 가장 오래된 기록실인 전당은 학습자를 환영해야 해요.",
+            "chunks": [
+              {
+                "en": "The hall, our oldest archive, should welcome learners.",
+                "ko": "우리의 가장 오래된 기록실인 전당은 학습자를 환영해야 해요."
+              }
+            ]
+          },
+          "requires": [
+            "step_3"
+          ]
+        },
+        {
+          "id": "step_5",
+          "npc_id": "sx_extra_7",
+          "action": "talk",
+          "dialogue": {
+            "en": "We can make a safe reading area.",
+            "ko": "안전한 독서 공간을 만들 수 있어요.",
+            "chunks": [
+              {
+                "en": "We can make a safe reading area.",
+                "ko": "안전한 독서 공간을 만들 수 있어요."
+              }
+            ]
+          },
+          "requires": [
+            "step_4"
+          ]
+        },
+        {
+          "id": "step_6",
+          "npc_id": "sx_extra_1",
+          "action": "talk",
+          "dialogue": {
+            "en": "Only after we check the room will we open it.",
+            "ko": "방을 확인한 뒤에야 열겠습니다.",
+            "chunks": [
+              {
+                "en": "Only after we check the room will we open it.",
+                "ko": "방을 확인한 뒤에야 열겠습니다."
+              }
+            ]
+          },
+          "requires": [
+            "step_5"
+          ]
+        },
+        {
+          "id": "step_7",
+          "npc_id": "sx_extra_6",
+          "action": "aftermath",
+          "dialogue": {
+            "en": "Never again will knowledge belong to just a few.",
+            "ko": "다시는 지식이 소수만의 것이 되지 않을 거예요.",
+            "chunks": [
+              {
+                "en": "Never again will knowledge belong to just a few.",
+                "ko": "다시는 지식이 소수만의 것이 되지 않을 거예요."
+              }
+            ]
+          },
+          "requires": [
+            "step_6"
+          ]
+        }
+      ],
+      "relationships": [
+        {
+          "npc_ids": [
+            "sx_extra_6",
+            "sx_extra_5"
+          ],
+          "type": "story_specific_conflict_or_connection"
+        },
+        {
+          "npc_ids": [
+            "sx_extra_6",
+            "sx_extra_8"
+          ],
+          "type": "story_specific_connection"
+        }
+      ],
+      "reward": "story_flag_only",
+      "optional": true
+    }
+  ],
+  "policy": "Seven sequential visits per story. Dialogue is authored per town; no mandatory grammar quiz. Stage flags, no actual map or inventory mutations. Single-chunk translations pending editorial segmentation. Verify character relationships before making permanent canon."
+}

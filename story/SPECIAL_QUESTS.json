@@ -1,0 +1,2298 @@
+{
+  "version": "0.1",
+  "status": "prototype",
+  "palette": [
+    "#F5CF83",
+    "#91C9FF",
+    "#9CE0AD",
+    "#D4B5FA",
+    "#F4A9B9"
+  ],
+  "quests": [
+    {
+      "id": "special_g1",
+      "town_id": "g1",
+      "town_en": "Beville",
+      "title_en": "Who Am I?",
+      "title_ko": "누가 누구인지 모르겠어요",
+      "premise_ko": "주민 안내소의 이름표가 뒤섞였다. 네 사람의 역할을 확인해 안내소를 다시 열자.",
+      "interaction_type": "identity_match",
+      "clues": [
+        {
+          "speaker": "Farmer Am",
+          "en": "I am the farmer.",
+          "ko": "나는 ~이다 농부.",
+          "chunks": [
+            {
+              "en": "I am",
+              "ko": "나는 ~이다"
+            },
+            {
+              "en": "the farmer.",
+              "ko": "농부."
+            }
+          ]
+        },
+        {
+          "speaker": "Little Izzy",
+          "en": "My sister is the baker.",
+          "ko": "내 여동생은 ~이다 제빵사.",
+          "chunks": [
+            {
+              "en": "My sister is",
+              "ko": "내 여동생은 ~이다"
+            },
+            {
+              "en": "the baker.",
+              "ko": "제빵사."
+            }
+          ]
+        },
+        {
+          "speaker": "Granny Aria",
+          "en": "My sister and I are at the welcome desk.",
+          "ko": "내 여동생과 나는 안내소에 있다.",
+          "chunks": [
+            {
+              "en": "My sister and I are",
+              "ko": "내 여동생과 나는 있다"
+            },
+            {
+              "en": "at the welcome desk.",
+              "ko": "안내소에."
+            }
+          ]
+        },
+        {
+          "speaker": "Ben Bee",
+          "en": "My dogs are hungry.",
+          "ko": "내 개들은 ~하다 배가 고프다.",
+          "chunks": [
+            {
+              "en": "My dogs are",
+              "ko": "내 개들은 ~하다"
+            },
+            {
+              "en": "hungry.",
+              "ko": "배가 고프다."
+            }
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "g1_task_1",
+          "question_en": "Who is the farmer?",
+          "question_ko": "누가 농부인가?",
+          "options": [
+            "Farmer Am",
+            "Granny Aria",
+            "Ben Bee"
+          ],
+          "correct_index": 0,
+          "evidence_indices": [
+            0
+          ],
+          "retry_ko": "다시 확인할 증언: Farmer Am."
+        },
+        {
+          "id": "g1_task_2",
+          "question_en": "Where are the sisters?",
+          "question_ko": "자매는 어디에 있는가?",
+          "options": [
+            "At the bakery",
+            "At the welcome desk",
+            "At the lake"
+          ],
+          "correct_index": 1,
+          "evidence_indices": [
+            2
+          ],
+          "retry_ko": "다시 확인할 증언: Granny Aria."
+        }
+      ],
+      "reward": {
+        "type": "completion_flag",
+        "id": "special_g1_complete",
+        "existing_souvenir_ref": "Ben Bee's Homemade Treats"
+      },
+      "next_dialogue": {
+        "speaker": "농부 앰",
+        "en": "Please take these vegetables to Dot in Queston.",
+        "ko": "이 채소들을 퀘스턴의 도트에게 가져다주세요.",
+        "chunks": [
+          {
+            "en": "Please take these vegetables",
+            "ko": "이 채소들을 가져다주세요"
+          },
+          {
+            "en": "to Dot in Queston.",
+            "ko": "퀘스턴의 도트에게."
+          }
+        ],
+        "speaker_legacy": "농부 팜",
+        "speaker_en": "Farmer Am"
+      },
+      "next_id": "g2"
+    },
+    {
+      "id": "special_g2",
+      "town_id": "g2",
+      "town_en": "Queston",
+      "title_en": "The Restaurant Without Questions",
+      "title_ko": "아무도 물어볼 수 없는 식당",
+      "premise_ko": "식당 주문표가 섞였다. 손님의 기호를 확인해 올바른 식사를 준비하자.",
+      "interaction_type": "order_builder",
+      "clues": [
+        {
+          "speaker": "Herbalist Dora",
+          "en": "I am not tired.",
+          "ko": "나는 ~하지 않다 피곤하다.",
+          "chunks": [
+            {
+              "en": "I am not",
+              "ko": "나는 ~하지 않다"
+            },
+            {
+              "en": "tired.",
+              "ko": "피곤하다."
+            }
+          ]
+        },
+        {
+          "speaker": "Chef Dot",
+          "en": "Does the guest like fish?",
+          "ko": "손님은 ~하는가 생선을 좋아하다?",
+          "chunks": [
+            {
+              "en": "Does the guest",
+              "ko": "손님은 ~하는가"
+            },
+            {
+              "en": "like fish?",
+              "ko": "생선을 좋아하다?"
+            }
+          ]
+        },
+        {
+          "speaker": "Donny",
+          "en": "The guest doesn't like fish.",
+          "ko": "손님은 생선을 좋아하지 않는다.",
+          "chunks": [
+            {
+              "en": "The guest doesn't like",
+              "ko": "손님은 좋아하지 않는다"
+            },
+            {
+              "en": "fish.",
+              "ko": "생선을."
+            }
+          ]
+        },
+        {
+          "speaker": "Miss Nott",
+          "en": "The guest likes meat and rice.",
+          "ko": "손님은 고기와 밥을 좋아한다.",
+          "chunks": [
+            {
+              "en": "The guest likes",
+              "ko": "손님은 좋아한다"
+            },
+            {
+              "en": "meat and rice.",
+              "ko": "고기와 밥을."
+            }
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "g2_task_1",
+          "question_en": "What should Dot serve?",
+          "question_ko": "도트는 무엇을 제공해야 하는가?",
+          "options": [
+            "Fish",
+            "Meat and rice",
+            "Only fish and rice"
+          ],
+          "correct_index": 1,
+          "evidence_indices": [
+            2,
+            3
+          ],
+          "retry_ko": "다시 확인할 증언: Donny, Miss Nott."
+        },
+        {
+          "id": "g2_task_2",
+          "question_en": "Which question checks his preference for meat?",
+          "question_ko": "고기 선호를 확인하는 질문은?",
+          "options": [
+            "Is he meat?",
+            "Does he like meat?",
+            "Does he likes meat?"
+          ],
+          "correct_index": 1,
+          "evidence_indices": [
+            1,
+            3
+          ],
+          "retry_ko": "다시 확인할 증언: Chef Dot, Miss Nott."
+        }
+      ],
+      "reward": {
+        "type": "completion_flag",
+        "id": "special_g2_complete",
+        "existing_souvenir_ref": "Dot's Special Lunchbox"
+      },
+      "next_dialogue": {
+        "speaker": "약초꾼 도라",
+        "en": "Our cake order is late. Please visit Tensefield.",
+        "ko": "주문한 케이크가 늦어지고 있어요. 텐스필드에 가 주세요.",
+        "chunks": [
+          {
+            "en": "Our cake order",
+            "ko": "우리 케이크 주문이"
+          },
+          {
+            "en": "is late.",
+            "ko": "늦어지고 있어요."
+          },
+          {
+            "en": "Please visit Tensefield.",
+            "ko": "텐스필드에 가 주세요."
+          }
+        ],
+        "speaker_legacy": "약초꾼 미라",
+        "speaker_en": "Herbalist Dora"
+      },
+      "next_id": "tn"
+    },
+    {
+      "id": "special_tn",
+      "town_id": "tn",
+      "town_en": "Tensefield",
+      "title_en": "Pasty's Birthday Is Tomorrow",
+      "title_ko": "내일은 패스티의 생일",
+      "premise_ko": "생일 케이크의 제작 및 배달 일정이 섞였다. 시간표를 복원하자.",
+      "interaction_type": "timeline",
+      "clues": [
+        {
+          "speaker": "Baker Preston",
+          "en": "I baked the bread yesterday.",
+          "ko": "나는 빵을 구웠다 어제.",
+          "chunks": [
+            {
+              "en": "I baked the bread",
+              "ko": "나는 빵을 구웠다"
+            },
+            {
+              "en": "yesterday.",
+              "ko": "어제."
+            }
+          ]
+        },
+        {
+          "speaker": "Pasty",
+          "en": "I am buying apples now.",
+          "ko": "나는 사과를 사고 있다 지금.",
+          "chunks": [
+            {
+              "en": "I am buying apples",
+              "ko": "나는 사과를 사고 있다"
+            },
+            {
+              "en": "now.",
+              "ko": "지금."
+            }
+          ]
+        },
+        {
+          "speaker": "Grandpa Tick",
+          "en": "The party starts tomorrow afternoon.",
+          "ko": "파티는 시작한다 내일 오후에.",
+          "chunks": [
+            {
+              "en": "The party starts",
+              "ko": "파티는 시작한다"
+            },
+            {
+              "en": "tomorrow afternoon.",
+              "ko": "내일 오후에."
+            }
+          ]
+        },
+        {
+          "speaker": "Postman Will",
+          "en": "I will deliver the cake tomorrow morning.",
+          "ko": "나는 케이크를 배달할 것이다 내일 아침에.",
+          "chunks": [
+            {
+              "en": "I will deliver the cake",
+              "ko": "나는 케이크를 배달할 것이다"
+            },
+            {
+              "en": "tomorrow morning.",
+              "ko": "내일 아침에."
+            }
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "tn_task_1",
+          "question_en": "Which happened first?",
+          "question_ko": "가장 먼저 일어난 일은?",
+          "options": [
+            "Buying apples",
+            "Baking bread",
+            "Delivering the cake"
+          ],
+          "correct_index": 1,
+          "evidence_indices": [
+            0,
+            1,
+            3
+          ],
+          "retry_ko": "다시 확인할 증언: Baker Preston, Pasty, Postman Will."
+        },
+        {
+          "id": "tn_task_2",
+          "question_en": "When must the cake arrive?",
+          "question_ko": "케이크는 언제 도착해야 하는가?",
+          "options": [
+            "Tomorrow morning",
+            "Yesterday",
+            "After the party"
+          ],
+          "correct_index": 0,
+          "evidence_indices": [
+            2,
+            3
+          ],
+          "retry_ko": "다시 확인할 증언: Grandpa Tick, Postman Will."
+        }
+      ],
+      "reward": {
+        "type": "completion_flag",
+        "id": "special_tn_complete",
+        "existing_souvenir_ref": "Birthday Cake"
+      },
+      "next_dialogue": {
+        "speaker": "제빵사 프레스턴",
+        "en": "Please deliver this package to Modalvale.",
+        "ko": "이 소포를 모달베일로 배달해 주세요.",
+        "chunks": [
+          {
+            "en": "Please deliver this package",
+            "ko": "이 소포를 배달해 주세요"
+          },
+          {
+            "en": "to Modalvale.",
+            "ko": "모달베일로."
+          }
+        ],
+        "speaker_legacy": "빵집 주인 보리",
+        "speaker_en": "Baker Preston"
+      },
+      "next_id": "md"
+    },
+    {
+      "id": "special_md",
+      "town_id": "md",
+      "town_en": "Modalvale",
+      "title_en": "The Bridge of Possibility",
+      "title_ko": "건너갈 수 없는 다리",
+      "premise_ko": "다리가 파손됐다. 구조대의 안전 규칙과 통행 허가를 복원하자.",
+      "interaction_type": "safety_plan",
+      "clues": [
+        {
+          "speaker": "Granny May",
+          "en": "You must wear a helmet.",
+          "ko": "너는 반드시 착용해야 한다 안전모를.",
+          "chunks": [
+            {
+              "en": "You must wear",
+              "ko": "너는 반드시 착용해야 한다"
+            },
+            {
+              "en": "a helmet.",
+              "ko": "안전모를."
+            }
+          ]
+        },
+        {
+          "speaker": "Foreman Muston",
+          "en": "You must not cross the old bridge.",
+          "ko": "너는 건너면 안 된다 낡은 다리를.",
+          "chunks": [
+            {
+              "en": "You must not cross",
+              "ko": "너는 건너면 안 된다"
+            },
+            {
+              "en": "the old bridge.",
+              "ko": "낡은 다리를."
+            }
+          ]
+        },
+        {
+          "speaker": "Runner Canby",
+          "en": "We can use the wooden boat.",
+          "ko": "우리는 사용할 수 있다 나무 보트를.",
+          "chunks": [
+            {
+              "en": "We can use",
+              "ko": "우리는 사용할 수 있다"
+            },
+            {
+              "en": "the wooden boat.",
+              "ko": "나무 보트를."
+            }
+          ]
+        },
+        {
+          "speaker": "Captain Coulden",
+          "en": "We will be able to cross tomorrow.",
+          "ko": "우리는 건널 수 있을 것이다 내일.",
+          "chunks": [
+            {
+              "en": "We will be able to cross",
+              "ko": "우리는 건널 수 있을 것이다"
+            },
+            {
+              "en": "tomorrow.",
+              "ko": "내일."
+            }
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "md_task_1",
+          "question_en": "How can we cross today?",
+          "question_ko": "오늘 어떻게 건널 수 있는가?",
+          "options": [
+            "Use the old bridge",
+            "Use the wooden boat",
+            "Wait on the bridge"
+          ],
+          "correct_index": 1,
+          "evidence_indices": [
+            1,
+            2,
+            3
+          ],
+          "retry_ko": "다시 확인할 증언: Foreman Muston, Runner Canby, Captain Coulden."
+        },
+        {
+          "id": "md_task_2",
+          "question_en": "What is required for workers?",
+          "question_ko": "작업자에게 필수인 것은?",
+          "options": [
+            "A helmet",
+            "A cake",
+            "A compass"
+          ],
+          "correct_index": 0,
+          "evidence_indices": [
+            0
+          ],
+          "retry_ko": "다시 확인할 증언: Granny May."
+        }
+      ],
+      "reward": {
+        "type": "completion_flag",
+        "id": "special_md_complete",
+        "existing_souvenir_ref": "Safety Helmet"
+      },
+      "next_dialogue": {
+        "speaker": "약초 할머니 메이",
+        "en": "A child is missing in Relawood.",
+        "ko": "렐라우드에서 아이가 실종됐어요.",
+        "chunks": [
+          {
+            "en": "A child is missing",
+            "ko": "아이가 실종됐어요"
+          },
+          {
+            "en": "in Relawood.",
+            "ko": "렐라우드에서."
+          }
+        ],
+        "speaker_legacy": "약초 할머니",
+        "speaker_en": "Granny May"
+      },
+      "next_id": "rp"
+    },
+    {
+      "id": "special_rp",
+      "town_id": "rp",
+      "town_en": "Relawood",
+      "title_en": "The Missing Child",
+      "title_ko": "숲속에서 사라진 아이",
+      "premise_ko": "실종된 아이를 찾기 위해 목격자의 설명을 조합하자.",
+      "interaction_type": "suspect_match",
+      "clues": [
+        {
+          "speaker": "Ranger Whoa",
+          "en": "Find the girl who wears a green coat.",
+          "ko": "소녀를 찾아라 초록 코트를 입은.",
+          "chunks": [
+            {
+              "en": "Find the girl",
+              "ko": "소녀를 찾아라"
+            },
+            {
+              "en": "who wears a green coat.",
+              "ko": "초록 코트를 입은."
+            }
+          ]
+        },
+        {
+          "speaker": "Librarian Thatton",
+          "en": "She has a bag that has a star on it.",
+          "ko": "그녀는 가방을 가지고 있다 별이 그려진.",
+          "chunks": [
+            {
+              "en": "She has a bag",
+              "ko": "그녀는 가방을 가지고 있다"
+            },
+            {
+              "en": "that has a star on it.",
+              "ko": "별이 그려진."
+            }
+          ]
+        },
+        {
+          "speaker": "Mechanic Whoseley",
+          "en": "I saw a man whose cart was red.",
+          "ko": "나는 남자를 보았다 그의 수레가 빨간.",
+          "chunks": [
+            {
+              "en": "I saw a man",
+              "ko": "나는 남자를 보았다"
+            },
+            {
+              "en": "whose cart was red.",
+              "ko": "그의 수레가 빨간."
+            }
+          ]
+        },
+        {
+          "speaker": "Hunter Whit",
+          "en": "He helped the girl whom we are looking for.",
+          "ko": "그는 소녀를 도왔다 우리가 찾고 있는.",
+          "chunks": [
+            {
+              "en": "He helped the girl",
+              "ko": "그는 소녀를 도왔다"
+            },
+            {
+              "en": "whom we are looking for.",
+              "ko": "우리가 찾고 있는."
+            }
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "rp_task_1",
+          "question_en": "Which child should we look for?",
+          "question_ko": "어떤 아이를 찾아야 하는가?",
+          "options": [
+            "Green coat and star bag",
+            "Red coat and moon bag",
+            "Green coat and moon bag"
+          ],
+          "correct_index": 0,
+          "evidence_indices": [
+            0,
+            1
+          ],
+          "retry_ko": "다시 확인할 증언: Ranger Whoa, Librarian Thatton."
+        },
+        {
+          "id": "rp_task_2",
+          "question_en": "Which cart is a useful clue?",
+          "question_ko": "어떤 수레가 단서인가?",
+          "options": [
+            "Blue cart",
+            "Green cart",
+            "Red cart"
+          ],
+          "correct_index": 2,
+          "evidence_indices": [
+            2
+          ],
+          "retry_ko": "다시 확인할 증언: Mechanic Whoseley."
+        }
+      ],
+      "reward": {
+        "type": "completion_flag",
+        "id": "special_rp_complete",
+        "existing_souvenir_ref": "Ranger's Charm"
+      },
+      "next_dialogue": {
+        "speaker": "숲지기 후아",
+        "en": "A book is missing from Passive Lake.",
+        "ko": "패시브 레이크에서 책 한 권이 사라졌어요.",
+        "chunks": [
+          {
+            "en": "A book is missing",
+            "ko": "책 한 권이 사라졌어요"
+          },
+          {
+            "en": "from Passive Lake.",
+            "ko": "패시브 레이크에서."
+          }
+        ],
+        "speaker_legacy": "숲지기 엘라",
+        "speaker_en": "Ranger Whoa"
+      },
+      "next_id": "ps"
+    },
+    {
+      "id": "special_ps",
+      "town_id": "ps",
+      "town_en": "Passive Lake",
+      "title_en": "The Wrong Suspect",
+      "title_ko": "도둑은 누구인가",
+      "premise_ko": "책이 도난당했다. 창문 파손과 절도 사건을 구별하자.",
+      "interaction_type": "detective",
+      "clues": [
+        {
+          "speaker": "Baker Bea",
+          "en": "The window was broken by a falling branch.",
+          "ko": "창문은 깨졌다 떨어지는 나뭇가지에 의해.",
+          "chunks": [
+            {
+              "en": "The window was broken",
+              "ko": "창문은 깨졌다"
+            },
+            {
+              "en": "by a falling branch.",
+              "ko": "떨어지는 나뭇가지에 의해."
+            }
+          ]
+        },
+        {
+          "speaker": "Traveler Byn",
+          "en": "The book was taken by a man in black.",
+          "ko": "책은 가져가졌다 검은 옷의 남자에 의해.",
+          "chunks": [
+            {
+              "en": "The book was taken",
+              "ko": "책은 가져가졌다"
+            },
+            {
+              "en": "by a man in black.",
+              "ko": "검은 옷의 남자에 의해."
+            }
+          ]
+        },
+        {
+          "speaker": "Guard Agent",
+          "en": "The man was seen near the lake.",
+          "ko": "그 남자는 목격되었다 호수 근처에서.",
+          "chunks": [
+            {
+              "en": "The man was seen",
+              "ko": "그 남자는 목격되었다"
+            },
+            {
+              "en": "near the lake.",
+              "ko": "호수 근처에서."
+            }
+          ]
+        },
+        {
+          "speaker": "Cleaner Done",
+          "en": "The book was found under a boat.",
+          "ko": "책은 발견되었다 배 아래에서.",
+          "chunks": [
+            {
+              "en": "The book was found",
+              "ko": "책은 발견되었다"
+            },
+            {
+              "en": "under a boat.",
+              "ko": "배 아래에서."
+            }
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "ps_task_1",
+          "question_en": "Who took the book?",
+          "question_ko": "누가 책을 가져갔는가?",
+          "options": [
+            "The baker",
+            "A man in black",
+            "The cleaner"
+          ],
+          "correct_index": 1,
+          "evidence_indices": [
+            1
+          ],
+          "retry_ko": "다시 확인할 증언: Traveler Byn."
+        },
+        {
+          "id": "ps_task_2",
+          "question_en": "Where should we recover the book?",
+          "question_ko": "어디에서 책을 회수해야 하는가?",
+          "options": [
+            "Under a boat",
+            "Inside the bakery",
+            "On the bridge"
+          ],
+          "correct_index": 0,
+          "evidence_indices": [
+            3
+          ],
+          "retry_ko": "다시 확인할 증언: Cleaner Done."
+        }
+      ],
+      "reward": {
+        "type": "completion_flag",
+        "id": "special_ps_complete",
+        "existing_souvenir_ref": "Guard's Medal"
+      },
+      "next_dialogue": {
+        "speaker": "제빵사 비아",
+        "en": "An old letter was found inside the book.",
+        "ko": "책 안에서 오래된 편지가 발견됐어요.",
+        "chunks": [
+          {
+            "en": "An old letter was found",
+            "ko": "오래된 편지가 발견됐어요"
+          },
+          {
+            "en": "inside the book.",
+            "ko": "책 안에서."
+          }
+        ],
+        "speaker_legacy": "빵집 아가씨 소피",
+        "speaker_en": "Baker Bea"
+      },
+      "next_id": "pf"
+    },
+    {
+      "id": "special_pf",
+      "town_id": "pf",
+      "town_en": "Perfect Oasis",
+      "title_en": "A Letter After Ten Years",
+      "title_ko": "10년 만에 도착한 편지",
+      "premise_ko": "오래된 편지의 수신인과 가족의 기다림을 확인하자.",
+      "interaction_type": "memory_archive",
+      "clues": [
+        {
+          "speaker": "Landlord Haven",
+          "en": "I have lived here for ten years.",
+          "ko": "나는 여기 살아 왔다 10년 동안.",
+          "chunks": [
+            {
+              "en": "I have lived here",
+              "ko": "나는 여기 살아 왔다"
+            },
+            {
+              "en": "for ten years.",
+              "ko": "10년 동안."
+            }
+          ]
+        },
+        {
+          "speaker": "Student Justine",
+          "en": "I have just found an old letter.",
+          "ko": "나는 방금 찾았다 오래된 편지를.",
+          "chunks": [
+            {
+              "en": "I have just found",
+              "ko": "나는 방금 찾았다"
+            },
+            {
+              "en": "an old letter.",
+              "ko": "오래된 편지를."
+            }
+          ]
+        },
+        {
+          "speaker": "Clockmaker Since",
+          "en": "I saw its sender ten years ago.",
+          "ko": "나는 발신인을 보았다 10년 전에.",
+          "chunks": [
+            {
+              "en": "I saw its sender",
+              "ko": "나는 발신인을 보았다"
+            },
+            {
+              "en": "ten years ago.",
+              "ko": "10년 전에."
+            }
+          ]
+        },
+        {
+          "speaker": "Gourmet Ever",
+          "en": "I have never visited Whereport.",
+          "ko": "나는 방문한 적이 없다 웨어포트를.",
+          "chunks": [
+            {
+              "en": "I have never visited",
+              "ko": "나는 방문한 적이 없다"
+            },
+            {
+              "en": "Whereport.",
+              "ko": "웨어포트를."
+            }
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "pf_task_1",
+          "question_en": "Who has lived here for ten years?",
+          "question_ko": "누가 10년 동안 여기 살았는가?",
+          "options": [
+            "Landlord Haven",
+            "Student Justine",
+            "Gourmet Ever"
+          ],
+          "correct_index": 0,
+          "evidence_indices": [
+            0
+          ],
+          "retry_ko": "다시 확인할 증언: Landlord Haven."
+        },
+        {
+          "id": "pf_task_2",
+          "question_en": "Which event happened ten years ago?",
+          "question_ko": "10년 전에 일어난 사건은?",
+          "options": [
+            "Finding the letter",
+            "Seeing its sender",
+            "Visiting Whereport"
+          ],
+          "correct_index": 1,
+          "evidence_indices": [
+            2
+          ],
+          "retry_ko": "다시 확인할 증언: Clockmaker Since."
+        }
+      ],
+      "reward": {
+        "type": "completion_flag",
+        "id": "special_pf_complete",
+        "existing_souvenir_ref": "Memory Pocket Watch"
+      },
+      "next_dialogue": {
+        "speaker": "집주인 헤이븐",
+        "en": "The letter mentions a house in Whereport.",
+        "ko": "편지에는 웨어포트의 집 한 채가 언급돼요.",
+        "chunks": [
+          {
+            "en": "The letter mentions a house",
+            "ko": "편지는 집 한 채를 언급해요"
+          },
+          {
+            "en": "in Whereport.",
+            "ko": "웨어포트에 있는."
+          }
+        ],
+        "speaker_legacy": "집주인 맥스",
+        "speaker_en": "Landlord Haven"
+      },
+      "next_id": "rv"
+    },
+    {
+      "id": "special_rv",
+      "town_id": "rv",
+      "town_en": "Whereport",
+      "title_en": "The Place We Remember",
+      "title_ko": "기억 속의 고향",
+      "premise_ko": "편지 속 고향의 집을 찾아 오래된 기록을 회수하자.",
+      "interaction_type": "map_search",
+      "clues": [
+        {
+          "speaker": "Fisher Whereley",
+          "en": "This is the harbor where I was born.",
+          "ko": "이곳은 항구이다 내가 태어난.",
+          "chunks": [
+            {
+              "en": "This is the harbor",
+              "ko": "이곳은 항구이다"
+            },
+            {
+              "en": "where I was born.",
+              "ko": "내가 태어난."
+            }
+          ]
+        },
+        {
+          "speaker": "Wynna",
+          "en": "I remember the day when the bell rang.",
+          "ko": "나는 그날을 기억한다 종이 울렸던.",
+          "chunks": [
+            {
+              "en": "I remember the day",
+              "ko": "나는 그날을 기억한다"
+            },
+            {
+              "en": "when the bell rang.",
+              "ko": "종이 울렸던."
+            }
+          ]
+        },
+        {
+          "speaker": "Coach Howie",
+          "en": "The house is near the park where we play soccer.",
+          "ko": "집은 공원 근처에 있다 우리가 축구하는.",
+          "chunks": [
+            {
+              "en": "The house is near the park",
+              "ko": "집은 공원 근처에 있다"
+            },
+            {
+              "en": "where we play soccer.",
+              "ko": "우리가 축구하는."
+            }
+          ]
+        },
+        {
+          "speaker": "Mayor Whyatt",
+          "en": "That is the reason why we kept the map.",
+          "ko": "그것이 이유이다 우리가 지도를 보관한.",
+          "chunks": [
+            {
+              "en": "That is the reason",
+              "ko": "그것이 이유이다"
+            },
+            {
+              "en": "why we kept the map.",
+              "ko": "우리가 지도를 보관한."
+            }
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "rv_task_1",
+          "question_en": "Where is the house?",
+          "question_ko": "집은 어디에 있는가?",
+          "options": [
+            "Near the soccer park",
+            "Inside the bell tower",
+            "Across the desert"
+          ],
+          "correct_index": 0,
+          "evidence_indices": [
+            2
+          ],
+          "retry_ko": "다시 확인할 증언: Coach Howie."
+        },
+        {
+          "id": "rv_task_2",
+          "question_en": "What happened on the remembered day?",
+          "question_ko": "기억 속 그날 무슨 일이 있었는가?",
+          "options": [
+            "A ship sank",
+            "The bell rang",
+            "A race ended"
+          ],
+          "correct_index": 1,
+          "evidence_indices": [
+            1
+          ],
+          "retry_ko": "다시 확인할 증언: Wynna."
+        }
+      ],
+      "reward": {
+        "type": "completion_flag",
+        "id": "special_rv_complete",
+        "existing_souvenir_ref": "Harbor Compass"
+      },
+      "next_dialogue": {
+        "speaker": "어부 웨어리",
+        "en": "Take this record to Edlyn in Participle Canyon.",
+        "ko": "이 기록을 파티서플 캐니언의 에들린에게 가져가게.",
+        "chunks": [
+          {
+            "en": "Take this record",
+            "ko": "이 기록을 가져가게"
+          },
+          {
+            "en": "to Edlyn in Participle Canyon.",
+            "ko": "파티서플 캐니언의 에들린에게."
+          }
+        ],
+        "speaker_legacy": "어부 노아",
+        "speaker_en": "Fisher Whereley"
+      },
+      "next_id": "pc"
+    },
+    {
+      "id": "special_pc",
+      "town_id": "pc",
+      "town_en": "Participle Canyon",
+      "title_en": "The Ancient Manuscript",
+      "title_ko": "절벽에 남겨진 기록",
+      "premise_ko": "협곡의 고대 문서를 해독해 저주의 기원을 찾자.",
+      "interaction_type": "manuscript_decode",
+      "clues": [
+        {
+          "speaker": "Walker Ingmar",
+          "en": "Walking along the canyon, I found a tablet.",
+          "ko": "협곡을 따라 걷다가 나는 돌판을 발견했다.",
+          "chunks": [
+            {
+              "en": "Walking along the canyon,",
+              "ko": "협곡을 따라 걷다가"
+            },
+            {
+              "en": "I found a tablet.",
+              "ko": "나는 돌판을 발견했다."
+            }
+          ]
+        },
+        {
+          "speaker": "Student Knowing",
+          "en": "Knowing the old symbols, I read the first line.",
+          "ko": "옛 기호를 알고 있어서 나는 첫 줄을 읽었다.",
+          "chunks": [
+            {
+              "en": "Knowing the old symbols,",
+              "ko": "옛 기호를 알고 있어서"
+            },
+            {
+              "en": "I read the first line.",
+              "ko": "나는 첫 줄을 읽었다."
+            }
+          ]
+        },
+        {
+          "speaker": "Librarian Edlyn",
+          "en": "Written in ancient English, the tablet describes a curse.",
+          "ko": "고대 영어로 쓰인 돌판은 저주를 설명한다.",
+          "chunks": [
+            {
+              "en": "Written in ancient English,",
+              "ko": "고대 영어로 쓰인"
+            },
+            {
+              "en": "the tablet describes a curse.",
+              "ko": "돌판은 저주를 설명한다."
+            }
+          ]
+        },
+        {
+          "speaker": "Faye",
+          "en": "Not feeling well, I stayed at the camp.",
+          "ko": "몸이 좋지 않아 나는 야영지에 머물렀다.",
+          "chunks": [
+            {
+              "en": "Not feeling well,",
+              "ko": "몸이 좋지 않아"
+            },
+            {
+              "en": "I stayed at the camp.",
+              "ko": "나는 야영지에 머물렀다."
+            }
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "pc_task_1",
+          "question_en": "Who found the tablet?",
+          "question_ko": "누가 돌판을 발견했는가?",
+          "options": [
+            "Faye",
+            "Walker Ingmar",
+            "Librarian Edlyn"
+          ],
+          "correct_index": 1,
+          "evidence_indices": [
+            0
+          ],
+          "retry_ko": "다시 확인할 증언: Walker Ingmar."
+        },
+        {
+          "id": "pc_task_2",
+          "question_en": "What does the tablet describe?",
+          "question_ko": "돌판은 무엇을 설명하는가?",
+          "options": [
+            "A recipe",
+            "A race",
+            "A curse"
+          ],
+          "correct_index": 2,
+          "evidence_indices": [
+            2
+          ],
+          "retry_ko": "다시 확인할 증언: Librarian Edlyn."
+        }
+      ],
+      "reward": {
+        "type": "completion_flag",
+        "id": "special_pc_complete",
+        "existing_souvenir_ref": "Ancient Manuscript Fragment"
+      },
+      "next_dialogue": {
+        "speaker": "산책자 잉마르",
+        "en": "A similar mark was found in Ifhaven.",
+        "ko": "이프헤이븐에서 비슷한 문양이 발견됐어요.",
+        "chunks": [
+          {
+            "en": "A similar mark",
+            "ko": "비슷한 문양이"
+          },
+          {
+            "en": "was found in Ifhaven.",
+            "ko": "이프헤이븐에서 발견됐어요."
+          }
+        ],
+        "speaker_legacy": "산책자 윌",
+        "speaker_en": "Walker Ingmar"
+      },
+      "next_id": "sj"
+    },
+    {
+      "id": "special_sj",
+      "town_id": "sj",
+      "town_en": "Ifhaven",
+      "title_en": "Wings of Wishes",
+      "title_ko": "날개 없는 소원",
+      "premise_ko": "위샤의 소원을 이해하고 현실적인 도움을 찾아 주자.",
+      "interaction_type": "wish_solution",
+      "clues": [
+        {
+          "speaker": "Falconer Ifan",
+          "en": "If I were a bird, I would fly over the hills.",
+          "ko": "내가 새라면 언덕 위를 날 텐데.",
+          "chunks": [
+            {
+              "en": "If I were a bird,",
+              "ko": "내가 새라면"
+            },
+            {
+              "en": "I would fly over the hills.",
+              "ko": "언덕 위를 날 텐데."
+            }
+          ]
+        },
+        {
+          "speaker": "Merchant Woulden",
+          "en": "If I had a strong bird, I would send a letter.",
+          "ko": "내게 힘센 새가 있다면 편지를 보낼 텐데.",
+          "chunks": [
+            {
+              "en": "If I had a strong bird,",
+              "ko": "내게 힘센 새가 있다면"
+            },
+            {
+              "en": "I would send a letter.",
+              "ko": "편지를 보낼 텐데."
+            }
+          ]
+        },
+        {
+          "speaker": "Wisha",
+          "en": "I wish my brother were here.",
+          "ko": "나는 바란다 오빠가 여기 있기를.",
+          "chunks": [
+            {
+              "en": "I wish",
+              "ko": "나는 바란다"
+            },
+            {
+              "en": "my brother were here.",
+              "ko": "오빠가 여기 있기를."
+            }
+          ]
+        },
+        {
+          "speaker": "Student Hadley",
+          "en": "If I had left earlier, I would have caught the ship.",
+          "ko": "더 일찍 떠났더라면 배를 탔을 텐데.",
+          "chunks": [
+            {
+              "en": "If I had left earlier,",
+              "ko": "더 일찍 떠났더라면"
+            },
+            {
+              "en": "I would have caught the ship.",
+              "ko": "배를 탔을 텐데."
+            }
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "sj_task_1",
+          "question_en": "What does Wisha wish for?",
+          "question_ko": "위샤의 소원은?",
+          "options": [
+            "Her brother to be here",
+            "A new shop",
+            "A new ship"
+          ],
+          "correct_index": 0,
+          "evidence_indices": [
+            2
+          ],
+          "retry_ko": "다시 확인할 증언: Wisha."
+        },
+        {
+          "id": "sj_task_2",
+          "question_en": "How could a bird help?",
+          "question_ko": "새는 어떻게 도울 수 있는가?",
+          "options": [
+            "Build a bridge",
+            "Carry a letter",
+            "Bake bread"
+          ],
+          "correct_index": 1,
+          "evidence_indices": [
+            1
+          ],
+          "retry_ko": "다시 확인할 증언: Merchant Woulden."
+        }
+      ],
+      "reward": {
+        "type": "completion_flag",
+        "id": "special_sj_complete",
+        "existing_souvenir_ref": "Wish Feather"
+      },
+      "next_dialogue": {
+        "speaker": "새 조련사 이판",
+        "en": "The bird race will be held in Compare Hills.",
+        "ko": "새 경주는 컴페어 힐스에서 열릴 거예요.",
+        "chunks": [
+          {
+            "en": "The bird race",
+            "ko": "새 경주는"
+          },
+          {
+            "en": "will be held in Compare Hills.",
+            "ko": "컴페어 힐스에서 열릴 거예요."
+          }
+        ],
+        "speaker_legacy": "새 조련사 핀",
+        "speaker_en": "Falconer Ifan"
+      },
+      "next_id": "cp"
+    },
+    {
+      "id": "special_cp",
+      "town_id": "cp",
+      "town_en": "Compare Hills",
+      "title_en": "The Champion of Champions",
+      "title_ko": "우승자가 없는 대회",
+      "premise_ko": "경주 기록을 비교해 공정한 우승자를 결정하자.",
+      "interaction_type": "ranking",
+      "clues": [
+        {
+          "speaker": "Runner Swift",
+          "en": "I ran faster than Finn.",
+          "ko": "나는 더 빨리 달렸다 핀보다.",
+          "chunks": [
+            {
+              "en": "I ran faster",
+              "ko": "나는 더 빨리 달렸다"
+            },
+            {
+              "en": "than Finn.",
+              "ko": "핀보다."
+            }
+          ]
+        },
+        {
+          "speaker": "Merchant Morella",
+          "en": "Finn ran faster than Theo.",
+          "ko": "핀은 더 빨리 달렸다 테오보다.",
+          "chunks": [
+            {
+              "en": "Finn ran faster",
+              "ko": "핀은 더 빨리 달렸다"
+            },
+            {
+              "en": "than Theo.",
+              "ko": "테오보다."
+            }
+          ]
+        },
+        {
+          "speaker": "Landlord Equal",
+          "en": "The three runners ran the same distance.",
+          "ko": "세 선수는 달렸다 같은 거리를.",
+          "chunks": [
+            {
+              "en": "The three runners ran",
+              "ko": "세 선수는 달렸다"
+            },
+            {
+              "en": "the same distance.",
+              "ko": "같은 거리를."
+            }
+          ]
+        },
+        {
+          "speaker": "Teacher Beston",
+          "en": "The fastest runner wins the medal.",
+          "ko": "가장 빠른 선수가 메달을 받는다.",
+          "chunks": [
+            {
+              "en": "The fastest runner",
+              "ko": "가장 빠른 선수가"
+            },
+            {
+              "en": "wins the medal.",
+              "ko": "메달을 받는다."
+            }
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "cp_task_1",
+          "question_en": "Who wins?",
+          "question_ko": "우승자는?",
+          "options": [
+            "Finn",
+            "Theo",
+            "Swift"
+          ],
+          "correct_index": 2,
+          "evidence_indices": [
+            0,
+            1,
+            3
+          ],
+          "retry_ko": "다시 확인할 증언: Runner Swift, Merchant Morella, Teacher Beston."
+        },
+        {
+          "id": "cp_task_2",
+          "question_en": "Who finished second?",
+          "question_ko": "2위는?",
+          "options": [
+            "Finn",
+            "Swift",
+            "Theo"
+          ],
+          "correct_index": 0,
+          "evidence_indices": [
+            0,
+            1
+          ],
+          "retry_ko": "다시 확인할 증언: Runner Swift, Merchant Morella."
+        }
+      ],
+      "reward": {
+        "type": "completion_flag",
+        "id": "special_cp_complete",
+        "existing_souvenir_ref": "Champion Medal"
+      },
+      "next_dialogue": {
+        "speaker": "달리기 선수 스위프트",
+        "en": "Some prizes were sent to Pronovia by mistake.",
+        "ko": "일부 상품이 실수로 프로노비아에 보내졌어요.",
+        "chunks": [
+          {
+            "en": "Some prizes were sent",
+            "ko": "일부 상품이 보내졌어요"
+          },
+          {
+            "en": "to Pronovia by mistake.",
+            "ko": "실수로 프로노비아에."
+          }
+        ],
+        "speaker_legacy": "달리기 선수 아이",
+        "speaker_en": "Runner Swift"
+      },
+      "next_id": "pn"
+    },
+    {
+      "id": "special_pn",
+      "town_id": "pn",
+      "town_en": "Pronovia",
+      "title_en": "Whose Treasure Is It?",
+      "title_ko": "주인을 잃어버린 물건들",
+      "premise_ko": "분실물 보관소의 물건을 주인에게 돌려주자.",
+      "interaction_type": "lost_found",
+      "clues": [
+        {
+          "speaker": "Bookseller Myra",
+          "en": "This blue book is mine.",
+          "ko": "이 파란 책은 내 것이다.",
+          "chunks": [
+            {
+              "en": "This blue book",
+              "ko": "이 파란 책은"
+            },
+            {
+              "en": "is mine.",
+              "ko": "내 것이다."
+            }
+          ]
+        },
+        {
+          "speaker": "Fruit Seller Annie",
+          "en": "That umbrella is Selma's.",
+          "ko": "저 우산은 셀마의 것이다.",
+          "chunks": [
+            {
+              "en": "That umbrella",
+              "ko": "저 우산은"
+            },
+            {
+              "en": "is Selma's.",
+              "ko": "셀마의 것이다."
+            }
+          ]
+        },
+        {
+          "speaker": "Selma",
+          "en": "I lost my umbrella at the market.",
+          "ko": "나는 내 우산을 잃어버렸다 시장에서.",
+          "chunks": [
+            {
+              "en": "I lost my umbrella",
+              "ko": "나는 내 우산을 잃어버렸다"
+            },
+            {
+              "en": "at the market.",
+              "ko": "시장에서."
+            }
+          ]
+        },
+        {
+          "speaker": "Theo",
+          "en": "This ball is not mine.",
+          "ko": "이 공은 내 것이 아니다.",
+          "chunks": [
+            {
+              "en": "This ball",
+              "ko": "이 공은"
+            },
+            {
+              "en": "is not mine.",
+              "ko": "내 것이 아니다."
+            }
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "pn_task_1",
+          "question_en": "Who owns the blue book?",
+          "question_ko": "파란 책의 주인은?",
+          "options": [
+            "Theo",
+            "Bookseller Myra",
+            "Selma"
+          ],
+          "correct_index": 1,
+          "evidence_indices": [
+            0
+          ],
+          "retry_ko": "다시 확인할 증언: Bookseller Myra."
+        },
+        {
+          "id": "pn_task_2",
+          "question_en": "Who owns the umbrella?",
+          "question_ko": "우산의 주인은?",
+          "options": [
+            "Selma",
+            "Theo",
+            "Myra"
+          ],
+          "correct_index": 0,
+          "evidence_indices": [
+            1,
+            2
+          ],
+          "retry_ko": "다시 확인할 증언: Fruit Seller Annie, Selma."
+        }
+      ],
+      "reward": {
+        "type": "completion_flag",
+        "id": "special_pn_complete",
+        "existing_souvenir_ref": "Lucky Pouch"
+      },
+      "next_dialogue": {
+        "speaker": "책방 주인 마이라",
+        "en": "The old book records an attack on the library.",
+        "ko": "오래된 책에는 도서관 습격이 기록돼 있어요.",
+        "chunks": [
+          {
+            "en": "The old book records an attack",
+            "ko": "오래된 책은 공격을 기록해요"
+          },
+          {
+            "en": "on the library.",
+            "ko": "도서관에 대한."
+          }
+        ],
+        "speaker_legacy": "책방 주인 메이",
+        "speaker_en": "Bookseller Myra"
+      },
+      "next_id": "ot"
+    },
+    {
+      "id": "special_ot",
+      "town_id": "ot",
+      "town_en": "Prep Isles",
+      "title_en": "The Ship Without Directions",
+      "title_ko": "출항하지 못하는 배",
+      "premise_ko": "출항 시각과 지도상의 위치를 확인해 배를 출발시키자.",
+      "interaction_type": "navigation",
+      "clues": [
+        {
+          "speaker": "Sailor Byron",
+          "en": "The boat leaves at seven.",
+          "ko": "배는 출발한다 7시에.",
+          "chunks": [
+            {
+              "en": "The boat leaves",
+              "ko": "배는 출발한다"
+            },
+            {
+              "en": "at seven.",
+              "ko": "7시에."
+            }
+          ]
+        },
+        {
+          "speaker": "Onna",
+          "en": "We sail on Friday.",
+          "ko": "우리는 항해한다 금요일에.",
+          "chunks": [
+            {
+              "en": "We sail",
+              "ko": "우리는 항해한다"
+            },
+            {
+              "en": "on Friday.",
+              "ko": "금요일에."
+            }
+          ]
+        },
+        {
+          "speaker": "Teacher Atley",
+          "en": "The map is under the table.",
+          "ko": "지도는 있다 탁자 아래에.",
+          "chunks": [
+            {
+              "en": "The map is",
+              "ko": "지도는 있다"
+            },
+            {
+              "en": "under the table.",
+              "ko": "탁자 아래에."
+            }
+          ]
+        },
+        {
+          "speaker": "Fisher Inna",
+          "en": "The boat is beside the lighthouse.",
+          "ko": "배는 있다 등대 옆에.",
+          "chunks": [
+            {
+              "en": "The boat is",
+              "ko": "배는 있다"
+            },
+            {
+              "en": "beside the lighthouse.",
+              "ko": "등대 옆에."
+            }
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "ot_task_1",
+          "question_en": "Where is the map?",
+          "question_ko": "지도는 어디에 있는가?",
+          "options": [
+            "On the boat",
+            "Under the table",
+            "In the lighthouse"
+          ],
+          "correct_index": 1,
+          "evidence_indices": [
+            2
+          ],
+          "retry_ko": "다시 확인할 증언: Teacher Atley."
+        },
+        {
+          "id": "ot_task_2",
+          "question_en": "When does the boat leave?",
+          "question_ko": "배는 언제 출발하는가?",
+          "options": [
+            "Friday at seven",
+            "Saturday at seven",
+            "Friday at noon"
+          ],
+          "correct_index": 0,
+          "evidence_indices": [
+            0,
+            1
+          ],
+          "retry_ko": "다시 확인할 증언: Sailor Byron, Onna."
+        }
+      ],
+      "reward": {
+        "type": "completion_flag",
+        "id": "special_ot_complete",
+        "existing_souvenir_ref": "Navigator's Map"
+      },
+      "next_dialogue": {
+        "speaker": "선원 바이런",
+        "en": "Our next stop is Verbal Heights.",
+        "ko": "우리의 다음 목적지는 버벌 하이츠이에요.",
+        "chunks": [
+          {
+            "en": "Our next stop",
+            "ko": "우리의 다음 목적지는"
+          },
+          {
+            "en": "is Verbal Heights.",
+            "ko": "버벌 하이츠이에요."
+          }
+        ],
+        "speaker_legacy": "선원 보",
+        "speaker_en": "Sailor Byron"
+      },
+      "next_id": "iv"
+    },
+    {
+      "id": "special_iv",
+      "town_id": "iv",
+      "town_en": "Verbal Heights",
+      "title_en": "A Journey of Dreams",
+      "title_ko": "꿈을 향한 첫걸음",
+      "premise_ko": "주민들의 목표와 활동을 연결해 여행 준비를 돕자.",
+      "interaction_type": "goal_match",
+      "clues": [
+        {
+          "speaker": "Swimmer Finn",
+          "en": "I enjoy swimming.",
+          "ko": "나는 즐긴다 수영하는 것을.",
+          "chunks": [
+            {
+              "en": "I enjoy",
+              "ko": "나는 즐긴다"
+            },
+            {
+              "en": "swimming.",
+              "ko": "수영하는 것을."
+            }
+          ]
+        },
+        {
+          "speaker": "Traveler Togo",
+          "en": "I decided to study abroad.",
+          "ko": "나는 결정했다 해외에서 공부하기로.",
+          "chunks": [
+            {
+              "en": "I decided",
+              "ko": "나는 결정했다"
+            },
+            {
+              "en": "to study abroad.",
+              "ko": "해외에서 공부하기로."
+            }
+          ]
+        },
+        {
+          "speaker": "Linguist Infina",
+          "en": "I want to learn ancient English.",
+          "ko": "나는 원한다 고대 영어를 배우기를.",
+          "chunks": [
+            {
+              "en": "I want",
+              "ko": "나는 원한다"
+            },
+            {
+              "en": "to learn ancient English.",
+              "ko": "고대 영어를 배우기를."
+            }
+          ]
+        },
+        {
+          "speaker": "Chess Master Gerund",
+          "en": "I am good at playing chess.",
+          "ko": "나는 잘한다 체스를 두는 것을.",
+          "chunks": [
+            {
+              "en": "I am good at",
+              "ko": "나는 잘한다"
+            },
+            {
+              "en": "playing chess.",
+              "ko": "체스를 두는 것을."
+            }
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "iv_task_1",
+          "question_en": "Who plans to study abroad?",
+          "question_ko": "누가 유학을 계획하는가?",
+          "options": [
+            "Finn",
+            "Gerund",
+            "Togo"
+          ],
+          "correct_index": 2,
+          "evidence_indices": [
+            1
+          ],
+          "retry_ko": "다시 확인할 증언: Traveler Togo."
+        },
+        {
+          "id": "iv_task_2",
+          "question_en": "Which activity does Finn enjoy?",
+          "question_ko": "핀이 즐기는 활동은?",
+          "options": [
+            "Swimming",
+            "Chess",
+            "Reading"
+          ],
+          "correct_index": 0,
+          "evidence_indices": [
+            0
+          ],
+          "retry_ko": "다시 확인할 증언: Swimmer Finn."
+        }
+      ],
+      "reward": {
+        "type": "completion_flag",
+        "id": "special_iv_complete",
+        "existing_souvenir_ref": "Traveler's Boots"
+      },
+      "next_dialogue": {
+        "speaker": "수영 선수 핀",
+        "en": "Please take this report to Sensewood.",
+        "ko": "이 보고서를 센스우드로 가져가 주세요.",
+        "chunks": [
+          {
+            "en": "Please take this report",
+            "ko": "이 보고서를 가져가 주세요"
+          },
+          {
+            "en": "to Sensewood.",
+            "ko": "센스우드로."
+          }
+        ],
+        "speaker_legacy": "수영 선수 진",
+        "speaker_en": "Swimmer Finn"
+      },
+      "next_id": "pe"
+    },
+    {
+      "id": "special_pe",
+      "town_id": "pe",
+      "town_en": "Sensewood",
+      "title_en": "Something in the Woods",
+      "title_ko": "숲에서 들려온 이상한 소리",
+      "premise_ko": "숲에서 발생한 이상 현상의 목격담을 조사하자.",
+      "interaction_type": "witness_board",
+      "clues": [
+        {
+          "speaker": "Birdwatcher Seer",
+          "en": "I saw a shadow cross the road.",
+          "ko": "나는 그림자를 보았다 길을 건너는 것을.",
+          "chunks": [
+            {
+              "en": "I saw a shadow",
+              "ko": "나는 그림자를 보았다"
+            },
+            {
+              "en": "cross the road.",
+              "ko": "길을 건너는 것을."
+            }
+          ]
+        },
+        {
+          "speaker": "Mother Maka",
+          "en": "The noise made me close the door.",
+          "ko": "그 소리는 나를 ~하게 했다 문을 닫게.",
+          "chunks": [
+            {
+              "en": "The noise made me",
+              "ko": "그 소리는 나를 ~하게 했다"
+            },
+            {
+              "en": "close the door.",
+              "ko": "문을 닫게."
+            }
+          ]
+        },
+        {
+          "speaker": "Chef Savory",
+          "en": "The air smells strange.",
+          "ko": "공기는 냄새가 난다 이상하게.",
+          "chunks": [
+            {
+              "en": "The air smells",
+              "ko": "공기는 냄새가 난다"
+            },
+            {
+              "en": "strange.",
+              "ko": "이상하게."
+            }
+          ]
+        },
+        {
+          "speaker": "Mechanic Fix",
+          "en": "I felt the ground shake.",
+          "ko": "나는 땅을 느꼈다 흔들리는 것을.",
+          "chunks": [
+            {
+              "en": "I felt the ground",
+              "ko": "나는 땅을 느꼈다"
+            },
+            {
+              "en": "shake.",
+              "ko": "흔들리는 것을."
+            }
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "pe_task_1",
+          "question_en": "What did Seer see?",
+          "question_ko": "시어는 무엇을 보았는가?",
+          "options": [
+            "A shadow crossing the road",
+            "A broken door",
+            "A bird singing"
+          ],
+          "correct_index": 0,
+          "evidence_indices": [
+            0
+          ],
+          "retry_ko": "다시 확인할 증언: Birdwatcher Seer."
+        },
+        {
+          "id": "pe_task_2",
+          "question_en": "What did Fix feel?",
+          "question_ko": "픽스는 무엇을 느꼈는가?",
+          "options": [
+            "Cold air",
+            "The ground shaking",
+            "A door opening"
+          ],
+          "correct_index": 1,
+          "evidence_indices": [
+            3
+          ],
+          "retry_ko": "다시 확인할 증언: Mechanic Fix."
+        }
+      ],
+      "reward": {
+        "type": "completion_flag",
+        "id": "special_pe_complete",
+        "existing_souvenir_ref": "Watcher's Charm"
+      },
+      "next_dialogue": {
+        "speaker": "새 관찰자 시어",
+        "en": "Warn the people at the festival in Nounville.",
+        "ko": "노운빌 축제에 있는 사람들에게 경고해 주세요.",
+        "chunks": [
+          {
+            "en": "Warn the people",
+            "ko": "사람들에게 경고해 주세요"
+          },
+          {
+            "en": "at the festival in Nounville.",
+            "ko": "노운빌 축제에 있는."
+          }
+        ],
+        "speaker_legacy": "새 관찰자 에이",
+        "speaker_en": "Birdwatcher Seer"
+      },
+      "next_id": "ng"
+    },
+    {
+      "id": "special_ng",
+      "town_id": "ng",
+      "town_en": "Nounville",
+      "title_en": "The Festival of Hope",
+      "title_ko": "마지막 축제",
+      "premise_ko": "축제를 위한 물품과 안전 안내문을 준비하자.",
+      "interaction_type": "festival_setup",
+      "clues": [
+        {
+          "speaker": "Florist Flora",
+          "en": "What beautiful flowers these are!",
+          "ko": "정말 아름다운 꽃들이구나 이것들은!",
+          "chunks": [
+            {
+              "en": "What beautiful flowers",
+              "ko": "정말 아름다운 꽃들이구나"
+            },
+            {
+              "en": "these are!",
+              "ko": "이것들은!"
+            }
+          ]
+        },
+        {
+          "speaker": "Librarian Hush",
+          "en": "Don't run near the stage.",
+          "ko": "뛰지 마라 무대 근처에서.",
+          "chunks": [
+            {
+              "en": "Don't run",
+              "ko": "뛰지 마라"
+            },
+            {
+              "en": "near the stage.",
+              "ko": "무대 근처에서."
+            }
+          ]
+        },
+        {
+          "speaker": "Baker Loaf",
+          "en": "We need two loaves of bread and some water.",
+          "ko": "우리는 빵 두 덩이와 약간의 물이 필요하다.",
+          "chunks": [
+            {
+              "en": "We need two loaves of bread",
+              "ko": "우리는 빵 두 덩이와"
+            },
+            {
+              "en": "and some water.",
+              "ko": "약간의 물이 필요하다."
+            }
+          ]
+        },
+        {
+          "speaker": "Keeper Letty",
+          "en": "Let's meet at the park.",
+          "ko": "만나자 공원에서.",
+          "chunks": [
+            {
+              "en": "Let's meet",
+              "ko": "만나자"
+            },
+            {
+              "en": "at the park.",
+              "ko": "공원에서."
+            }
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "ng_task_1",
+          "question_en": "Which supplies are needed?",
+          "question_ko": "필요한 물품은?",
+          "options": [
+            "Two breads and waters",
+            "Two loaves of bread and some water",
+            "Only flowers"
+          ],
+          "correct_index": 1,
+          "evidence_indices": [
+            2
+          ],
+          "retry_ko": "다시 확인할 증언: Baker Loaf."
+        },
+        {
+          "id": "ng_task_2",
+          "question_en": "Which sign keeps visitors safe?",
+          "question_ko": "방문객의 안전을 위한 안내문은?",
+          "options": [
+            "Run near the stage.",
+            "Don't run near the stage.",
+            "Let's run near the stage."
+          ],
+          "correct_index": 1,
+          "evidence_indices": [
+            1
+          ],
+          "retry_ko": "다시 확인할 증언: Librarian Hush."
+        }
+      ],
+      "reward": {
+        "type": "completion_flag",
+        "id": "special_ng_complete",
+        "existing_souvenir_ref": "Crown of Hope"
+      },
+      "next_dialogue": {
+        "speaker": "꽃집 주인 플로라",
+        "en": "An urgent message has arrived from Speechport.",
+        "ko": "스피치포트에서 긴급 전갈이 도착했어요.",
+        "chunks": [
+          {
+            "en": "An urgent message",
+            "ko": "긴급 전갈이"
+          },
+          {
+            "en": "has arrived from Speechport.",
+            "ko": "스피치포트에서 도착했어요."
+          }
+        ],
+        "speaker_legacy": "꽃집 아가씨 로사",
+        "speaker_en": "Florist Flora"
+      },
+      "next_id": "rs"
+    },
+    {
+      "id": "special_rs",
+      "town_id": "rs",
+      "town_en": "Speechport",
+      "title_en": "The Twisted Message",
+      "title_ko": "왜곡된 마지막 전갈",
+      "premise_ko": "왜곡된 전갈을 복원하여 인장을 전달할 장소를 알아내자.",
+      "interaction_type": "message_restore",
+      "clues": [
+        {
+          "speaker": "Postman Tell",
+          "en": "She said that the seal was safe.",
+          "ko": "그녀는 말했다 인장이 안전하다고.",
+          "chunks": [
+            {
+              "en": "She said",
+              "ko": "그녀는 말했다"
+            },
+            {
+              "en": "that the seal was safe.",
+              "ko": "인장이 안전하다고."
+            }
+          ]
+        },
+        {
+          "speaker": "Detective Ask",
+          "en": "I know where the messenger is.",
+          "ko": "나는 안다 전령이 어디 있는지.",
+          "chunks": [
+            {
+              "en": "I know",
+              "ko": "나는 안다"
+            },
+            {
+              "en": "where the messenger is.",
+              "ko": "전령이 어디 있는지."
+            }
+          ]
+        },
+        {
+          "speaker": "Student Quora",
+          "en": "He asked me where I lived.",
+          "ko": "그는 내게 물었다 내가 어디에 사는지.",
+          "chunks": [
+            {
+              "en": "He asked me",
+              "ko": "그는 내게 물었다"
+            },
+            {
+              "en": "where I lived.",
+              "ko": "내가 어디에 사는지."
+            }
+          ]
+        },
+        {
+          "speaker": "Guide Wenda",
+          "en": "The messenger told me that he was at the east gate.",
+          "ko": "전령은 내게 말했다 그가 동쪽 문에 있다고.",
+          "chunks": [
+            {
+              "en": "The messenger told me",
+              "ko": "전령은 내게 말했다"
+            },
+            {
+              "en": "that he was at the east gate.",
+              "ko": "그가 동쪽 문에 있다고."
+            }
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "rs_task_1",
+          "question_en": "Where is the messenger?",
+          "question_ko": "전령은 어디에 있는가?",
+          "options": [
+            "West gate",
+            "Library",
+            "East gate"
+          ],
+          "correct_index": 2,
+          "evidence_indices": [
+            3
+          ],
+          "retry_ko": "다시 확인할 증언: Guide Wenda."
+        },
+        {
+          "id": "rs_task_2",
+          "question_en": "What did she say about the seal?",
+          "question_ko": "그녀는 인장에 관해 무엇이라고 했는가?",
+          "options": [
+            "It was safe.",
+            "It was broken.",
+            "It was lost."
+          ],
+          "correct_index": 0,
+          "evidence_indices": [
+            0
+          ],
+          "retry_ko": "다시 확인할 증언: Postman Tell."
+        }
+      ],
+      "reward": {
+        "type": "completion_flag",
+        "id": "special_rs_complete",
+        "existing_souvenir_ref": "Messenger's Seal"
+      },
+      "next_dialogue": {
+        "speaker": "우체부 텔",
+        "en": "Go to Inversion Keep and show them the seal.",
+        "ko": "인버전 킵로 가서 인장을 보여 주세요.",
+        "chunks": [
+          {
+            "en": "Go to Inversion Keep",
+            "ko": "인버전 킵로 가세요"
+          },
+          {
+            "en": "and show them the seal.",
+            "ko": "그리고 인장을 보여 주세요."
+          }
+        ],
+        "speaker_legacy": "우체부 샘",
+        "speaker_en": "Postman Tell"
+      },
+      "next_id": "sx"
+    },
+    {
+      "id": "special_sx",
+      "town_id": "sx",
+      "town_en": "Inversion Keep",
+      "title_en": "The Castle of Inversion",
+      "title_ko": "뒤집힌 세계의 성",
+      "premise_ko": "성의 마지막 봉인을 해제할 문장 단서를 조합하자.",
+      "interaction_type": "seal_puzzle",
+      "clues": [
+        {
+          "speaker": "Captain Never",
+          "en": "Never have I seen such a dark sky.",
+          "ko": "나는 결코 본 적 없다 그렇게 어두운 하늘을.",
+          "chunks": [
+            {
+              "en": "Never have I seen",
+              "ko": "나는 결코 본 적 없다"
+            },
+            {
+              "en": "such a dark sky.",
+              "ko": "그렇게 어두운 하늘을."
+            }
+          ]
+        },
+        {
+          "speaker": "Officer Emphas",
+          "en": "It was the silver key that opened the gate.",
+          "ko": "바로 은빛 열쇠였다 문을 연 것은.",
+          "chunks": [
+            {
+              "en": "It was the silver key",
+              "ko": "바로 은빛 열쇠였다"
+            },
+            {
+              "en": "that opened the gate.",
+              "ko": "문을 연 것은."
+            }
+          ]
+        },
+        {
+          "speaker": "Artist Parallel",
+          "en": "We need courage, wisdom, and patience.",
+          "ko": "우리는 용기와 지혜가 필요하다 그리고 인내가.",
+          "chunks": [
+            {
+              "en": "We need courage, wisdom,",
+              "ko": "우리는 용기와 지혜가 필요하다"
+            },
+            {
+              "en": "and patience.",
+              "ko": "그리고 인내가."
+            }
+          ]
+        },
+        {
+          "speaker": "Keeper Apposia",
+          "en": "The Grammatica, our ancient book, holds the final page.",
+          "ko": "그라마티카, 우리의 고대 책은 마지막 페이지를 품고 있다.",
+          "chunks": [
+            {
+              "en": "The Grammatica, our ancient book,",
+              "ko": "그라마티카, 우리의 고대 책은"
+            },
+            {
+              "en": "holds the final page.",
+              "ko": "마지막 페이지를 품고 있다."
+            }
+          ]
+        }
+      ],
+      "tasks": [
+        {
+          "id": "sx_task_1",
+          "question_en": "Which key opened the gate?",
+          "question_ko": "어떤 열쇠가 문을 열었는가?",
+          "options": [
+            "Golden key",
+            "Silver key",
+            "Wooden key"
+          ],
+          "correct_index": 1,
+          "evidence_indices": [
+            1
+          ],
+          "retry_ko": "다시 확인할 증언: Officer Emphas."
+        },
+        {
+          "id": "sx_task_2",
+          "question_en": "Which three qualities are needed?",
+          "question_ko": "필요한 세 가지 자질은?",
+          "options": [
+            "Courage, wisdom, and patience",
+            "Gold, power, and speed",
+            "Silence, fear, and anger"
+          ],
+          "correct_index": 0,
+          "evidence_indices": [
+            2
+          ],
+          "retry_ko": "다시 확인할 증언: Artist Parallel."
+        }
+      ],
+      "reward": {
+        "type": "completion_flag",
+        "id": "special_sx_complete",
+        "existing_souvenir_ref": "Inversion Seal"
+      },
+      "next_dialogue": {
+        "speaker": "선장 네버",
+        "en": "Return to the library with all the pages.",
+        "ko": "모든 페이지를 가지고 도서관으로 돌아가세요.",
+        "chunks": [
+          {
+            "en": "Return to the library",
+            "ko": "도서관으로 돌아가세요"
+          },
+          {
+            "en": "with all the pages.",
+            "ko": "모든 페이지를 가지고."
+          }
+        ],
+        "speaker_legacy": "선장 아벨",
+        "speaker_en": "Captain Never"
+      },
+      "next_id": null
+    }
+  ]
+}

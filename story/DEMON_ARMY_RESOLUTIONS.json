@@ -1,0 +1,1686 @@
+{
+  "version": "0.1",
+  "cases": [
+    {
+      "id": "g1_infiltration_resolution",
+      "parent": "g1_infiltration",
+      "requires": "parent investigation opening complete",
+      "steps": [
+        {
+          "npc": "g1_extra_9",
+          "action": "witness",
+          "line": {
+            "en": "I delivered a letter from Vesper to the man who took the pages.",
+            "ko": "베스퍼가 페이지를 가져간 사람에게 보낸 편지를 전달했어요.",
+            "chunks": [
+              {
+                "en": "I delivered a letter from Vesper to the man who took the pages.",
+                "ko": "베스퍼가 페이지를 가져간 사람에게 보낸 편지를 전달했어요."
+              }
+            ]
+          },
+          "evidence": "g1_witness"
+        },
+        {
+          "npc": "g1_extra_4",
+          "action": "record_check",
+          "line": {
+            "en": "The letter bears Vesper's own seal.",
+            "ko": "편지에는 베스퍼 자신의 인장이 찍혀 있어요.",
+            "chunks": [
+              {
+                "en": "The letter bears Vesper's own seal.",
+                "ko": "편지에는 베스퍼 자신의 인장이 찍혀 있어요."
+              }
+            ]
+          },
+          "evidence": "g1_record"
+        },
+        {
+          "action": "compare",
+          "question_en": "Who sent the letter?",
+          "options": [
+            "Vesper",
+            "The farmer",
+            "The guard"
+          ],
+          "correct_index": 0,
+          "requires": [
+            "g1_witness",
+            "g1_record"
+          ],
+          "retry_ko": "두 증거를 다시 읽어 보세요."
+        },
+        {
+          "npc": "g1_agent",
+          "action": "confront",
+          "line": {
+            "en": "I have business elsewhere. We will meet again.",
+            "ko": "다른 곳에 볼일이 있군요. 다시 만나지요.",
+            "chunks": [
+              {
+                "en": "I have business elsewhere. We will meet again.",
+                "ko": "다른 곳에 볼일이 있군요. 다시 만나지요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "g1_extra_1",
+          "action": "report",
+          "line": {
+            "en": "The seeds were harmless, but we will keep the letter.",
+            "ko": "씨앗은 무해했지만 편지는 보관하겠어요.",
+            "chunks": [
+              {
+                "en": "The seeds were harmless, but we will keep the letter.",
+                "ko": "씨앗은 무해했지만 편지는 보관하겠어요."
+              }
+            ]
+          },
+          "grant_flag": "g1_infiltration_verified"
+        }
+      ],
+      "outcome": "flight",
+      "aftermath": {
+        "en": "The seeds were harmless, but we will keep the letter.",
+        "ko": "씨앗은 무해했지만 편지는 보관하겠어요.",
+        "chunks": [
+          {
+            "en": "The seeds were harmless, but we will keep the letter.",
+            "ko": "씨앗은 무해했지만 편지는 보관하겠어요."
+          }
+        ]
+      },
+      "reward": "story_flag_only"
+    },
+    {
+      "id": "g2_infiltration_resolution",
+      "parent": "g2_infiltration",
+      "requires": "parent investigation opening complete",
+      "steps": [
+        {
+          "npc": "g2_extra_5",
+          "action": "witness",
+          "line": {
+            "en": "I saw Morrow replace the order on the counter.",
+            "ko": "모로가 계산대의 주문서를 바꾸는 것을 봤어요.",
+            "chunks": [
+              {
+                "en": "I saw Morrow replace the order on the counter.",
+                "ko": "모로가 계산대의 주문서를 바꾸는 것을 봤어요."
+              }
+            ]
+          },
+          "evidence": "g2_witness"
+        },
+        {
+          "npc": "g2_extra_4",
+          "action": "record_check",
+          "line": {
+            "en": "Dot kept a copy of the original order.",
+            "ko": "도트는 원래 주문서의 사본을 보관했어요.",
+            "chunks": [
+              {
+                "en": "Dot kept a copy of the original order.",
+                "ko": "도트는 원래 주문서의 사본을 보관했어요."
+              }
+            ]
+          },
+          "evidence": "g2_record"
+        },
+        {
+          "action": "compare",
+          "question_en": "Who replaced the order?",
+          "options": [
+            "Dot",
+            "Morrow",
+            "Basil"
+          ],
+          "correct_index": 1,
+          "requires": [
+            "g2_witness",
+            "g2_record"
+          ],
+          "retry_ko": "두 증거를 다시 읽어 보세요."
+        },
+        {
+          "npc": "g2_agent",
+          "action": "confront",
+          "line": {
+            "en": "I wanted the customers to blame the cook.",
+            "ko": "손님들이 요리사를 탓하기를 바랐어요.",
+            "chunks": [
+              {
+                "en": "I wanted the customers to blame the cook.",
+                "ko": "손님들이 요리사를 탓하기를 바랐어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "g2_extra_1",
+          "action": "report",
+          "line": {
+            "en": "We will ask customers directly about their orders.",
+            "ko": "손님들에게 주문 내용을 직접 확인하겠어요.",
+            "chunks": [
+              {
+                "en": "We will ask customers directly about their orders.",
+                "ko": "손님들에게 주문 내용을 직접 확인하겠어요."
+              }
+            ]
+          },
+          "grant_flag": "g2_infiltration_verified"
+        }
+      ],
+      "outcome": "confession",
+      "aftermath": {
+        "en": "We will ask customers directly about their orders.",
+        "ko": "손님들에게 주문 내용을 직접 확인하겠어요.",
+        "chunks": [
+          {
+            "en": "We will ask customers directly about their orders.",
+            "ko": "손님들에게 주문 내용을 직접 확인하겠어요."
+          }
+        ]
+      },
+      "reward": "story_flag_only"
+    },
+    {
+      "id": "tn_infiltration_resolution",
+      "parent": "tn_infiltration",
+      "requires": "parent investigation opening complete",
+      "steps": [
+        {
+          "npc": "tn_extra_5",
+          "action": "witness",
+          "line": {
+            "en": "Nox asked me to change the clock after the delivery.",
+            "ko": "녹스가 배달 후 시계를 바꿔 달라고 했어요.",
+            "chunks": [
+              {
+                "en": "Nox asked me to change the clock after the delivery.",
+                "ko": "녹스가 배달 후 시계를 바꿔 달라고 했어요."
+              }
+            ]
+          },
+          "evidence": "tn_witness"
+        },
+        {
+          "npc": "tn_extra_4",
+          "action": "record_check",
+          "line": {
+            "en": "The courier recorded the delivery at twelve.",
+            "ko": "전령은 배달 시간을 열두 시로 기록했어요.",
+            "chunks": [
+              {
+                "en": "The courier recorded the delivery at twelve.",
+                "ko": "전령은 배달 시간을 열두 시로 기록했어요."
+              }
+            ]
+          },
+          "evidence": "tn_record"
+        },
+        {
+          "action": "compare",
+          "question_en": "When did the delivery arrive?",
+          "options": [
+            "At one",
+            "At two",
+            "At twelve"
+          ],
+          "correct_index": 2,
+          "requires": [
+            "tn_witness",
+            "tn_record"
+          ],
+          "retry_ko": "두 증거를 다시 읽어 보세요."
+        },
+        {
+          "npc": "tn_agent",
+          "action": "confront",
+          "line": {
+            "en": "I cannot explain away both records.",
+            "ko": "두 기록을 모두 변명할 수는 없겠군요.",
+            "chunks": [
+              {
+                "en": "I cannot explain away both records.",
+                "ko": "두 기록을 모두 변명할 수는 없겠군요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "tn_extra_1",
+          "action": "report",
+          "line": {
+            "en": "The delivery record has been corrected.",
+            "ko": "배달 기록을 바로잡았어요.",
+            "chunks": [
+              {
+                "en": "The delivery record has been corrected.",
+                "ko": "배달 기록을 바로잡았어요."
+              }
+            ]
+          },
+          "grant_flag": "tn_infiltration_verified"
+        }
+      ],
+      "outcome": "exposed",
+      "aftermath": {
+        "en": "The delivery record has been corrected.",
+        "ko": "배달 기록을 바로잡았어요.",
+        "chunks": [
+          {
+            "en": "The delivery record has been corrected.",
+            "ko": "배달 기록을 바로잡았어요."
+          }
+        ]
+      },
+      "reward": "story_flag_only"
+    },
+    {
+      "id": "md_infiltration_resolution",
+      "parent": "md_infiltration",
+      "requires": "parent investigation opening complete",
+      "steps": [
+        {
+          "npc": "md_extra_7",
+          "action": "witness",
+          "line": {
+            "en": "Ferrum signed the agreement as if he owned the bridge.",
+            "ko": "페룸은 다리를 소유한 것처럼 계약서에 서명했어요.",
+            "chunks": [
+              {
+                "en": "Ferrum signed the agreement as if he owned the bridge.",
+                "ko": "페룸은 다리를 소유한 것처럼 계약서에 서명했어요."
+              }
+            ]
+          },
+          "evidence": "md_witness"
+        },
+        {
+          "npc": "md_extra_4",
+          "action": "record_check",
+          "line": {
+            "en": "The village deed names the village as the owner.",
+            "ko": "마을 소유권 문서에는 마을이 주인이라고 적혀 있어요.",
+            "chunks": [
+              {
+                "en": "The village deed names the village as the owner.",
+                "ko": "마을 소유권 문서에는 마을이 주인이라고 적혀 있어요."
+              }
+            ]
+          },
+          "evidence": "md_record"
+        },
+        {
+          "action": "compare",
+          "question_en": "Who owns the bridge?",
+          "options": [
+            "The village",
+            "Ferrum",
+            "The courier"
+          ],
+          "correct_index": 0,
+          "requires": [
+            "md_witness",
+            "md_record"
+          ],
+          "retry_ko": "두 증거를 다시 읽어 보세요."
+        },
+        {
+          "npc": "md_agent",
+          "action": "confront",
+          "line": {
+            "en": "The Iron Chain will hear about this.",
+            "ko": "철의 사슬이 이 일을 알게 될 것이다.",
+            "chunks": [
+              {
+                "en": "The Iron Chain will hear about this.",
+                "ko": "철의 사슬이 이 일을 알게 될 것이다."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "md_extra_1",
+          "action": "report",
+          "line": {
+            "en": "No one will pay Ferrum to cross our bridge.",
+            "ko": "아무도 우리 다리를 건너려고 페룸에게 돈을 내지 않을 거예요.",
+            "chunks": [
+              {
+                "en": "No one will pay Ferrum to cross our bridge.",
+                "ko": "아무도 우리 다리를 건너려고 페룸에게 돈을 내지 않을 거예요."
+              }
+            ]
+          },
+          "grant_flag": "md_infiltration_verified"
+        }
+      ],
+      "outcome": "flight",
+      "aftermath": {
+        "en": "No one will pay Ferrum to cross our bridge.",
+        "ko": "아무도 우리 다리를 건너려고 페룸에게 돈을 내지 않을 거예요.",
+        "chunks": [
+          {
+            "en": "No one will pay Ferrum to cross our bridge.",
+            "ko": "아무도 우리 다리를 건너려고 페룸에게 돈을 내지 않을 거예요."
+          }
+        ]
+      },
+      "reward": "story_flag_only"
+    },
+    {
+      "id": "rp_infiltration_resolution",
+      "parent": "rp_infiltration",
+      "requires": "parent investigation opening complete",
+      "steps": [
+        {
+          "npc": "rp_extra_6",
+          "action": "witness",
+          "line": {
+            "en": "I saw Briar turn the white sign toward the swamp.",
+            "ko": "브라이어가 흰 표지판을 늪 쪽으로 돌리는 것을 봤어요.",
+            "chunks": [
+              {
+                "en": "I saw Briar turn the white sign toward the swamp.",
+                "ko": "브라이어가 흰 표지판을 늪 쪽으로 돌리는 것을 봤어요."
+              }
+            ]
+          },
+          "evidence": "rp_witness"
+        },
+        {
+          "npc": "rp_extra_4",
+          "action": "record_check",
+          "line": {
+            "en": "The ranger's map shows the safe path.",
+            "ko": "숲지기의 지도에는 안전한 길이 표시되어 있어요.",
+            "chunks": [
+              {
+                "en": "The ranger's map shows the safe path.",
+                "ko": "숲지기의 지도에는 안전한 길이 표시되어 있어요."
+              }
+            ]
+          },
+          "evidence": "rp_record"
+        },
+        {
+          "action": "compare",
+          "question_en": "Who moved the sign?",
+          "options": [
+            "The ranger",
+            "Briar",
+            "The child"
+          ],
+          "correct_index": 1,
+          "requires": [
+            "rp_witness",
+            "rp_record"
+          ],
+          "retry_ko": "두 증거를 다시 읽어 보세요."
+        },
+        {
+          "npc": "rp_agent",
+          "action": "confront",
+          "line": {
+            "en": "You found the real path. I must leave.",
+            "ko": "진짜 길을 찾았군. 떠나야겠어.",
+            "chunks": [
+              {
+                "en": "You found the real path. I must leave.",
+                "ko": "진짜 길을 찾았군. 떠나야겠어."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "rp_extra_1",
+          "action": "report",
+          "line": {
+            "en": "The search party is back on the safe path.",
+            "ko": "수색대가 안전한 길로 돌아왔어요.",
+            "chunks": [
+              {
+                "en": "The search party is back on the safe path.",
+                "ko": "수색대가 안전한 길로 돌아왔어요."
+              }
+            ]
+          },
+          "grant_flag": "rp_infiltration_verified"
+        }
+      ],
+      "outcome": "flight",
+      "aftermath": {
+        "en": "The search party is back on the safe path.",
+        "ko": "수색대가 안전한 길로 돌아왔어요.",
+        "chunks": [
+          {
+            "en": "The search party is back on the safe path.",
+            "ko": "수색대가 안전한 길로 돌아왔어요."
+          }
+        ]
+      },
+      "reward": "story_flag_only"
+    },
+    {
+      "id": "ps_infiltration_resolution",
+      "parent": "ps_infiltration",
+      "requires": "parent investigation opening complete",
+      "steps": [
+        {
+          "npc": "ps_extra_6",
+          "action": "witness",
+          "line": {
+            "en": "Sable gave me the accusation a day before the theft.",
+            "ko": "세이블은 절도 하루 전에 고발장을 주었어요.",
+            "chunks": [
+              {
+                "en": "Sable gave me the accusation a day before the theft.",
+                "ko": "세이블은 절도 하루 전에 고발장을 주었어요."
+              }
+            ]
+          },
+          "evidence": "ps_witness"
+        },
+        {
+          "npc": "ps_extra_4",
+          "action": "record_check",
+          "line": {
+            "en": "The archive records the date of both documents.",
+            "ko": "기록실에는 두 문서의 날짜가 기록돼 있어요.",
+            "chunks": [
+              {
+                "en": "The archive records the date of both documents.",
+                "ko": "기록실에는 두 문서의 날짜가 기록돼 있어요."
+              }
+            ]
+          },
+          "evidence": "ps_record"
+        },
+        {
+          "action": "compare",
+          "question_en": "Which came first?",
+          "options": [
+            "The theft",
+            "The recovery",
+            "The accusation"
+          ],
+          "correct_index": 2,
+          "requires": [
+            "ps_witness",
+            "ps_record"
+          ],
+          "retry_ko": "두 증거를 다시 읽어 보세요."
+        },
+        {
+          "npc": "ps_agent",
+          "action": "confront",
+          "line": {
+            "en": "I wrote it before anything happened.",
+            "ko": "아무 일도 일어나기 전에 썼어요.",
+            "chunks": [
+              {
+                "en": "I wrote it before anything happened.",
+                "ko": "아무 일도 일어나기 전에 썼어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "ps_extra_1",
+          "action": "report",
+          "line": {
+            "en": "The traveler has been cleared of the accusation.",
+            "ko": "여행자는 누명을 벗었어요.",
+            "chunks": [
+              {
+                "en": "The traveler has been cleared of the accusation.",
+                "ko": "여행자는 누명을 벗었어요."
+              }
+            ]
+          },
+          "grant_flag": "ps_infiltration_verified"
+        }
+      ],
+      "outcome": "confession",
+      "aftermath": {
+        "en": "The traveler has been cleared of the accusation.",
+        "ko": "여행자는 누명을 벗었어요.",
+        "chunks": [
+          {
+            "en": "The traveler has been cleared of the accusation.",
+            "ko": "여행자는 누명을 벗었어요."
+          }
+        ]
+      },
+      "reward": "story_flag_only"
+    },
+    {
+      "id": "pf_infiltration_resolution",
+      "parent": "pf_infiltration",
+      "requires": "parent investigation opening complete",
+      "steps": [
+        {
+          "npc": "pf_extra_5",
+          "action": "witness",
+          "line": {
+            "en": "Cinder gave me the key and asked me to open the box.",
+            "ko": "신더가 열쇠를 주고 상자를 열어 달라고 했어요.",
+            "chunks": [
+              {
+                "en": "Cinder gave me the key and asked me to open the box.",
+                "ko": "신더가 열쇠를 주고 상자를 열어 달라고 했어요."
+              }
+            ]
+          },
+          "evidence": "pf_witness"
+        },
+        {
+          "npc": "pf_extra_4",
+          "action": "record_check",
+          "line": {
+            "en": "The letters inside still bear their original addresses.",
+            "ko": "안의 편지에는 원래 주소가 그대로 적혀 있어요.",
+            "chunks": [
+              {
+                "en": "The letters inside still bear their original addresses.",
+                "ko": "안의 편지에는 원래 주소가 그대로 적혀 있어요."
+              }
+            ]
+          },
+          "evidence": "pf_record"
+        },
+        {
+          "action": "compare",
+          "question_en": "What was in the box?",
+          "options": [
+            "Undelivered letters",
+            "Coins",
+            "Maps"
+          ],
+          "correct_index": 0,
+          "requires": [
+            "pf_witness",
+            "pf_record"
+          ],
+          "retry_ko": "두 증거를 다시 읽어 보세요."
+        },
+        {
+          "npc": "pf_agent",
+          "action": "confront",
+          "line": {
+            "en": "I was afraid. I want to return every letter.",
+            "ko": "두려웠어요. 모든 편지를 돌려주고 싶어요.",
+            "chunks": [
+              {
+                "en": "I was afraid. I want to return every letter.",
+                "ko": "두려웠어요. 모든 편지를 돌려주고 싶어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "pf_extra_1",
+          "action": "report",
+          "line": {
+            "en": "We will deliver the letters with Cinder's help.",
+            "ko": "신더의 도움으로 편지들을 전달할 거예요.",
+            "chunks": [
+              {
+                "en": "We will deliver the letters with Cinder's help.",
+                "ko": "신더의 도움으로 편지들을 전달할 거예요."
+              }
+            ]
+          },
+          "grant_flag": "pf_infiltration_verified"
+        }
+      ],
+      "outcome": "defection",
+      "aftermath": {
+        "en": "We will deliver the letters with Cinder's help.",
+        "ko": "신더의 도움으로 편지들을 전달할 거예요.",
+        "chunks": [
+          {
+            "en": "We will deliver the letters with Cinder's help.",
+            "ko": "신더의 도움으로 편지들을 전달할 거예요."
+          }
+        ]
+      },
+      "reward": "story_flag_only"
+    },
+    {
+      "id": "rv_infiltration_resolution",
+      "parent": "rv_infiltration",
+      "requires": "parent investigation opening complete",
+      "steps": [
+        {
+          "npc": "rv_extra_5",
+          "action": "witness",
+          "line": {
+            "en": "Veil asked me to erase the old road from the map.",
+            "ko": "베일이 지도에서 옛길을 지워 달라고 했어요.",
+            "chunks": [
+              {
+                "en": "Veil asked me to erase the old road from the map.",
+                "ko": "베일이 지도에서 옛길을 지워 달라고 했어요."
+              }
+            ]
+          },
+          "evidence": "rv_witness"
+        },
+        {
+          "npc": "rv_extra_4",
+          "action": "record_check",
+          "line": {
+            "en": "The harbor record confirms that the new road does not exist.",
+            "ko": "항구 기록은 새 길이 존재하지 않음을 확인해 줘요.",
+            "chunks": [
+              {
+                "en": "The harbor record confirms that the new road does not exist.",
+                "ko": "항구 기록은 새 길이 존재하지 않음을 확인해 줘요."
+              }
+            ]
+          },
+          "evidence": "rv_record"
+        },
+        {
+          "action": "compare",
+          "question_en": "Which map should we use?",
+          "options": [
+            "Veil's new map",
+            "The verified original map",
+            "Neither map"
+          ],
+          "correct_index": 1,
+          "requires": [
+            "rv_witness",
+            "rv_record"
+          ],
+          "retry_ko": "두 증거를 다시 읽어 보세요."
+        },
+        {
+          "npc": "rv_agent",
+          "action": "confront",
+          "line": {
+            "en": "I was paid to hide the old house.",
+            "ko": "옛집을 숨기는 대가로 돈을 받았어요.",
+            "chunks": [
+              {
+                "en": "I was paid to hide the old house.",
+                "ko": "옛집을 숨기는 대가로 돈을 받았어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "rv_extra_1",
+          "action": "report",
+          "line": {
+            "en": "The original map is available again.",
+            "ko": "원본 지도를 다시 이용할 수 있어요.",
+            "chunks": [
+              {
+                "en": "The original map is available again.",
+                "ko": "원본 지도를 다시 이용할 수 있어요."
+              }
+            ]
+          },
+          "grant_flag": "rv_infiltration_verified"
+        }
+      ],
+      "outcome": "confession",
+      "aftermath": {
+        "en": "The original map is available again.",
+        "ko": "원본 지도를 다시 이용할 수 있어요.",
+        "chunks": [
+          {
+            "en": "The original map is available again.",
+            "ko": "원본 지도를 다시 이용할 수 있어요."
+          }
+        ]
+      },
+      "reward": "story_flag_only"
+    },
+    {
+      "id": "pc_infiltration_resolution",
+      "parent": "pc_infiltration",
+      "requires": "parent investigation opening complete",
+      "steps": [
+        {
+          "npc": "pc_extra_6",
+          "action": "witness",
+          "line": {
+            "en": "Vellum asked me to add a line to the paper copy.",
+            "ko": "벨럼이 종이 사본에 한 줄을 추가해 달라고 했어요.",
+            "chunks": [
+              {
+                "en": "Vellum asked me to add a line to the paper copy.",
+                "ko": "벨럼이 종이 사본에 한 줄을 추가해 달라고 했어요."
+              }
+            ]
+          },
+          "evidence": "pc_witness"
+        },
+        {
+          "npc": "pc_extra_4",
+          "action": "record_check",
+          "line": {
+            "en": "The stone record and the older copy agree. Only the new paper copy contains the extra line.",
+            "ko": "돌에 새긴 기록과 오래된 사본은 일치해요. 새 종이 사본에만 추가 문장이 있어요.",
+            "chunks": [
+              {
+                "en": "The stone record and the older copy agree.",
+                "ko": "돌에 새긴 기록과 오래된 사본은 일치해요."
+              },
+              {
+                "en": "Only the new paper copy contains the extra line.",
+                "ko": "새 종이 사본에만 추가 문장이 있어요."
+              }
+            ]
+          },
+          "evidence": "pc_record"
+        },
+        {
+          "action": "compare",
+          "question_en": "Which record was altered?",
+          "options": [
+            "The stone",
+            "The older copy",
+            "The new paper copy"
+          ],
+          "correct_index": 2,
+          "requires": [
+            "pc_witness",
+            "pc_record"
+          ],
+          "retry_ko": "두 증거를 다시 읽어 보세요."
+        },
+        {
+          "npc": "pc_agent",
+          "action": "confront",
+          "line": {
+            "en": "You cannot stop the book from opening.",
+            "ko": "책이 열리는 것을 막을 수는 없을 것이다.",
+            "chunks": [
+              {
+                "en": "You cannot stop the book from opening.",
+                "ko": "책이 열리는 것을 막을 수는 없을 것이다."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "pc_extra_1",
+          "action": "report",
+          "line": {
+            "en": "Lexion will receive the two original records.",
+            "ko": "렉시온에게 두 원본 기록을 전달할 거예요.",
+            "chunks": [
+              {
+                "en": "Lexion will receive the two original records.",
+                "ko": "렉시온에게 두 원본 기록을 전달할 거예요."
+              }
+            ]
+          },
+          "grant_flag": "pc_infiltration_verified"
+        }
+      ],
+      "outcome": "flight",
+      "aftermath": {
+        "en": "Lexion will receive the two original records.",
+        "ko": "렉시온에게 두 원본 기록을 전달할 거예요.",
+        "chunks": [
+          {
+            "en": "Lexion will receive the two original records.",
+            "ko": "렉시온에게 두 원본 기록을 전달할 거예요."
+          }
+        ]
+      },
+      "reward": "story_flag_only"
+    },
+    {
+      "id": "sj_infiltration_resolution",
+      "parent": "sj_infiltration",
+      "requires": "parent investigation opening complete",
+      "steps": [
+        {
+          "npc": "sj_extra_6",
+          "action": "witness",
+          "line": {
+            "en": "Mirage told me not to read the last line aloud.",
+            "ko": "미라주가 마지막 줄을 소리 내 읽지 말라고 했어요.",
+            "chunks": [
+              {
+                "en": "Mirage told me not to read the last line aloud.",
+                "ko": "미라주가 마지막 줄을 소리 내 읽지 말라고 했어요."
+              }
+            ]
+          },
+          "evidence": "sj_witness"
+        },
+        {
+          "npc": "sj_extra_4",
+          "action": "record_check",
+          "line": {
+            "en": "The signed copy demands obedience forever.",
+            "ko": "서명된 사본은 영원한 복종을 요구해요.",
+            "chunks": [
+              {
+                "en": "The signed copy demands obedience forever.",
+                "ko": "서명된 사본은 영원한 복종을 요구해요."
+              }
+            ]
+          },
+          "evidence": "sj_record"
+        },
+        {
+          "action": "compare",
+          "question_en": "What does the agreement demand?",
+          "options": [
+            "Obedience",
+            "A friendly visit",
+            "A song"
+          ],
+          "correct_index": 0,
+          "requires": [
+            "sj_witness",
+            "sj_record"
+          ],
+          "retry_ko": "두 증거를 다시 읽어 보세요."
+        },
+        {
+          "npc": "sj_agent",
+          "action": "confront",
+          "line": {
+            "en": "I cannot make them sign if they refuse.",
+            "ko": "그들이 거부하면 서명하게 할 수 없겠군.",
+            "chunks": [
+              {
+                "en": "I cannot make them sign if they refuse.",
+                "ko": "그들이 거부하면 서명하게 할 수 없겠군."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "sj_extra_1",
+          "action": "report",
+          "line": {
+            "en": "The villagers have refused the agreement.",
+            "ko": "주민들이 계약을 거부했어요.",
+            "chunks": [
+              {
+                "en": "The villagers have refused the agreement.",
+                "ko": "주민들이 계약을 거부했어요."
+              }
+            ]
+          },
+          "grant_flag": "sj_infiltration_verified"
+        }
+      ],
+      "outcome": "exposed",
+      "aftermath": {
+        "en": "The villagers have refused the agreement.",
+        "ko": "주민들이 계약을 거부했어요.",
+        "chunks": [
+          {
+            "en": "The villagers have refused the agreement.",
+            "ko": "주민들이 계약을 거부했어요."
+          }
+        ]
+      },
+      "reward": "story_flag_only"
+    },
+    {
+      "id": "cp_infiltration_resolution",
+      "parent": "cp_infiltration",
+      "requires": "parent investigation opening complete",
+      "steps": [
+        {
+          "npc": "cp_extra_5",
+          "action": "witness",
+          "line": {
+            "en": "Gilt offered me money to change the result.",
+            "ko": "길트가 결과를 바꾸라고 돈을 제안했어요.",
+            "chunks": [
+              {
+                "en": "Gilt offered me money to change the result.",
+                "ko": "길트가 결과를 바꾸라고 돈을 제안했어요."
+              }
+            ]
+          },
+          "evidence": "cp_witness"
+        },
+        {
+          "npc": "cp_extra_4",
+          "action": "record_check",
+          "line": {
+            "en": "My original record shows the true winner.",
+            "ko": "제 원래 기록에는 진짜 우승자가 표시돼 있어요.",
+            "chunks": [
+              {
+                "en": "My original record shows the true winner.",
+                "ko": "제 원래 기록에는 진짜 우승자가 표시돼 있어요."
+              }
+            ]
+          },
+          "evidence": "cp_record"
+        },
+        {
+          "action": "compare",
+          "question_en": "What did Gilt try to change?",
+          "options": [
+            "The weather",
+            "The race result",
+            "The course"
+          ],
+          "correct_index": 1,
+          "requires": [
+            "cp_witness",
+            "cp_record"
+          ],
+          "retry_ko": "두 증거를 다시 읽어 보세요."
+        },
+        {
+          "npc": "cp_agent",
+          "action": "confront",
+          "line": {
+            "en": "I thought money could buy any victory.",
+            "ko": "돈으로 어떤 승리든 살 수 있다고 생각했어요.",
+            "chunks": [
+              {
+                "en": "I thought money could buy any victory.",
+                "ko": "돈으로 어떤 승리든 살 수 있다고 생각했어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "cp_extra_1",
+          "action": "report",
+          "line": {
+            "en": "The true winner has received the medal.",
+            "ko": "진짜 우승자가 메달을 받았어요.",
+            "chunks": [
+              {
+                "en": "The true winner has received the medal.",
+                "ko": "진짜 우승자가 메달을 받았어요."
+              }
+            ]
+          },
+          "grant_flag": "cp_infiltration_verified"
+        }
+      ],
+      "outcome": "confession",
+      "aftermath": {
+        "en": "The true winner has received the medal.",
+        "ko": "진짜 우승자가 메달을 받았어요.",
+        "chunks": [
+          {
+            "en": "The true winner has received the medal.",
+            "ko": "진짜 우승자가 메달을 받았어요."
+          }
+        ]
+      },
+      "reward": "story_flag_only"
+    },
+    {
+      "id": "pn_infiltration_resolution",
+      "parent": "pn_infiltration",
+      "requires": "parent investigation opening complete",
+      "steps": [
+        {
+          "npc": "pn_extra_5",
+          "action": "witness",
+          "line": {
+            "en": "Alias brought me a seal with a name that was not his.",
+            "ko": "에일리어스가 자기 이름이 아닌 인장을 가져왔어요.",
+            "chunks": [
+              {
+                "en": "Alias brought me a seal with a name that was not his.",
+                "ko": "에일리어스가 자기 이름이 아닌 인장을 가져왔어요."
+              }
+            ]
+          },
+          "evidence": "pn_witness"
+        },
+        {
+          "npc": "pn_extra_4",
+          "action": "record_check",
+          "line": {
+            "en": "The owner confirmed that she never signed the document.",
+            "ko": "주인은 문서에 서명한 적이 없다고 확인했어요.",
+            "chunks": [
+              {
+                "en": "The owner confirmed that she never signed the document.",
+                "ko": "주인은 문서에 서명한 적이 없다고 확인했어요."
+              }
+            ]
+          },
+          "evidence": "pn_record"
+        },
+        {
+          "action": "compare",
+          "question_en": "Who confirmed that she had never signed the document?",
+          "options": [
+            "The broker",
+            "The guard",
+            "The seal's owner"
+          ],
+          "correct_index": 2,
+          "requires": [
+            "pn_witness",
+            "pn_record"
+          ],
+          "retry_ko": "두 증거를 다시 읽어 보세요.",
+          "question_ko": "자신이 문서에 서명한 적이 없다고 확인해 준 사람은 누구인가요?"
+        },
+        {
+          "npc": "pn_agent",
+          "action": "confront",
+          "line": {
+            "en": "I will return the other seals too.",
+            "ko": "다른 인장들도 돌려주겠어요.",
+            "chunks": [
+              {
+                "en": "I will return the other seals too.",
+                "ko": "다른 인장들도 돌려주겠어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "pn_extra_1",
+          "action": "report",
+          "line": {
+            "en": "The owners can collect their seals here.",
+            "ko": "주인들은 여기서 인장을 찾아갈 수 있어요.",
+            "chunks": [
+              {
+                "en": "The owners can collect their seals here.",
+                "ko": "주인들은 여기서 인장을 찾아갈 수 있어요."
+              }
+            ]
+          },
+          "grant_flag": "pn_infiltration_verified"
+        }
+      ],
+      "outcome": "cooperation",
+      "aftermath": {
+        "en": "The owners can collect their seals here.",
+        "ko": "주인들은 여기서 인장을 찾아갈 수 있어요.",
+        "chunks": [
+          {
+            "en": "The owners can collect their seals here.",
+            "ko": "주인들은 여기서 인장을 찾아갈 수 있어요."
+          }
+        ]
+      },
+      "reward": "story_flag_only"
+    },
+    {
+      "id": "ot_infiltration_resolution",
+      "parent": "ot_infiltration",
+      "requires": "parent investigation opening complete",
+      "steps": [
+        {
+          "npc": "ot_extra_5",
+          "action": "witness",
+          "line": {
+            "en": "Lock asked me to stop ships without a harbor order.",
+            "ko": "로크가 항구 명령 없이 배들을 막으라고 했어요.",
+            "chunks": [
+              {
+                "en": "Lock asked me to stop ships without a harbor order.",
+                "ko": "로크가 항구 명령 없이 배들을 막으라고 했어요."
+              }
+            ]
+          },
+          "evidence": "ot_witness"
+        },
+        {
+          "npc": "ot_extra_4",
+          "action": "record_check",
+          "line": {
+            "en": "The harbor master confirms that the notice is false.",
+            "ko": "항구 책임자가 안내문이 거짓임을 확인했어요.",
+            "chunks": [
+              {
+                "en": "The harbor master confirms that the notice is false.",
+                "ko": "항구 책임자가 안내문이 거짓임을 확인했어요."
+              }
+            ]
+          },
+          "evidence": "ot_record"
+        },
+        {
+          "action": "compare",
+          "question_en": "Which official confirmed that the closure notice was false?",
+          "options": [
+            "The harbor master",
+            "Lock",
+            "The courier"
+          ],
+          "correct_index": 0,
+          "requires": [
+            "ot_witness",
+            "ot_record"
+          ],
+          "retry_ko": "두 증거를 다시 읽어 보세요.",
+          "question_ko": "통항 금지 공지가 거짓이라고 확인해 준 관리는 누구인가요?"
+        },
+        {
+          "npc": "ot_agent",
+          "action": "confront",
+          "line": {
+            "en": "The Iron Chain has lost this harbor.",
+            "ko": "철의 사슬은 이 항구를 잃었군.",
+            "chunks": [
+              {
+                "en": "The Iron Chain has lost this harbor.",
+                "ko": "철의 사슬은 이 항구를 잃었군."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "ot_extra_1",
+          "action": "report",
+          "line": {
+            "en": "The ships may return when the harbor is safe.",
+            "ko": "항구가 안전해지면 배들이 돌아올 수 있어요.",
+            "chunks": [
+              {
+                "en": "The ships may return when the harbor is safe.",
+                "ko": "항구가 안전해지면 배들이 돌아올 수 있어요."
+              }
+            ]
+          },
+          "grant_flag": "ot_infiltration_verified"
+        }
+      ],
+      "outcome": "flight",
+      "aftermath": {
+        "en": "The ships may return when the harbor is safe.",
+        "ko": "항구가 안전해지면 배들이 돌아올 수 있어요.",
+        "chunks": [
+          {
+            "en": "The ships may return when the harbor is safe.",
+            "ko": "항구가 안전해지면 배들이 돌아올 수 있어요."
+          }
+        ]
+      },
+      "reward": "story_flag_only"
+    },
+    {
+      "id": "iv_infiltration_resolution",
+      "parent": "iv_infiltration",
+      "requires": "parent investigation opening complete",
+      "steps": [
+        {
+          "npc": "iv_extra_6",
+          "action": "witness",
+          "line": {
+            "en": "Creed told me to remove every question from the lesson.",
+            "ko": "크리드가 수업에서 모든 질문을 없애라고 했어요.",
+            "chunks": [
+              {
+                "en": "Creed told me to remove every question from the lesson.",
+                "ko": "크리드가 수업에서 모든 질문을 없애라고 했어요."
+              }
+            ]
+          },
+          "evidence": "iv_witness"
+        },
+        {
+          "npc": "iv_extra_4",
+          "action": "record_check",
+          "line": {
+            "en": "The students' notebooks contain only copied answers.",
+            "ko": "학생들의 공책에는 베껴 쓴 답만 있어요.",
+            "chunks": [
+              {
+                "en": "The students' notebooks contain only copied answers.",
+                "ko": "학생들의 공책에는 베껴 쓴 답만 있어요."
+              }
+            ]
+          },
+          "evidence": "iv_record"
+        },
+        {
+          "action": "compare",
+          "question_en": "What was forbidden in the lesson?",
+          "options": [
+            "Writing",
+            "Asking questions",
+            "Reading"
+          ],
+          "correct_index": 1,
+          "requires": [
+            "iv_witness",
+            "iv_record"
+          ],
+          "retry_ko": "두 증거를 다시 읽어 보세요."
+        },
+        {
+          "npc": "iv_agent",
+          "action": "confront",
+          "line": {
+            "en": "I believed silence meant order. I was wrong.",
+            "ko": "침묵이 질서라고 믿었어요. 제가 틀렸어요.",
+            "chunks": [
+              {
+                "en": "I believed silence meant order. I was wrong.",
+                "ko": "침묵이 질서라고 믿었어요. 제가 틀렸어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "iv_extra_1",
+          "action": "report",
+          "line": {
+            "en": "Students can ask their own questions again.",
+            "ko": "학생들이 다시 자신의 질문을 할 수 있어요.",
+            "chunks": [
+              {
+                "en": "Students can ask their own questions again.",
+                "ko": "학생들이 다시 자신의 질문을 할 수 있어요."
+              }
+            ]
+          },
+          "grant_flag": "iv_infiltration_verified"
+        }
+      ],
+      "outcome": "defection",
+      "aftermath": {
+        "en": "Students can ask their own questions again.",
+        "ko": "학생들이 다시 자신의 질문을 할 수 있어요.",
+        "chunks": [
+          {
+            "en": "Students can ask their own questions again.",
+            "ko": "학생들이 다시 자신의 질문을 할 수 있어요."
+          }
+        ]
+      },
+      "reward": "story_flag_only"
+    },
+    {
+      "id": "pe_infiltration_resolution",
+      "parent": "pe_infiltration",
+      "requires": "parent investigation opening complete",
+      "steps": [
+        {
+          "npc": "pe_extra_5",
+          "action": "witness",
+          "line": {
+            "en": "I saw Hushwood pull the bell rope.",
+            "ko": "허쉬우드가 종 밧줄을 당기는 것을 봤어요.",
+            "chunks": [
+              {
+                "en": "I saw Hushwood pull the bell rope.",
+                "ko": "허쉬우드가 종 밧줄을 당기는 것을 봤어요."
+              }
+            ]
+          },
+          "evidence": "pe_witness"
+        },
+        {
+          "npc": "pe_extra_4",
+          "action": "record_check",
+          "line": {
+            "en": "The bell keeper confirms that no monster touched the bell.",
+            "ko": "종 관리인은 괴물이 종을 건드리지 않았다고 확인해요.",
+            "chunks": [
+              {
+                "en": "The bell keeper confirms that no monster touched the bell.",
+                "ko": "종 관리인은 괴물이 종을 건드리지 않았다고 확인해요."
+              }
+            ]
+          },
+          "evidence": "pe_record"
+        },
+        {
+          "action": "compare",
+          "question_en": "Who rang the bell?",
+          "options": [
+            "A monster",
+            "The healer",
+            "Hushwood"
+          ],
+          "correct_index": 2,
+          "requires": [
+            "pe_witness",
+            "pe_record"
+          ],
+          "retry_ko": "두 증거를 다시 읽어 보세요."
+        },
+        {
+          "npc": "pe_agent",
+          "action": "confront",
+          "line": {
+            "en": "I wanted everyone to fear the forest.",
+            "ko": "모두가 숲을 두려워하기를 바랐어요.",
+            "chunks": [
+              {
+                "en": "I wanted everyone to fear the forest.",
+                "ko": "모두가 숲을 두려워하기를 바랐어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "pe_extra_1",
+          "action": "report",
+          "line": {
+            "en": "The villagers know the truth about the sound.",
+            "ko": "주민들이 소리의 진실을 알게 되었어요.",
+            "chunks": [
+              {
+                "en": "The villagers know the truth about the sound.",
+                "ko": "주민들이 소리의 진실을 알게 되었어요."
+              }
+            ]
+          },
+          "grant_flag": "pe_infiltration_verified"
+        }
+      ],
+      "outcome": "confession",
+      "aftermath": {
+        "en": "The villagers know the truth about the sound.",
+        "ko": "주민들이 소리의 진실을 알게 되었어요.",
+        "chunks": [
+          {
+            "en": "The villagers know the truth about the sound.",
+            "ko": "주민들이 소리의 진실을 알게 되었어요."
+          }
+        ]
+      },
+      "reward": "story_flag_only"
+    },
+    {
+      "id": "ng_infiltration_resolution",
+      "parent": "ng_infiltration",
+      "requires": "parent investigation opening complete",
+      "steps": [
+        {
+          "npc": "ng_extra_5",
+          "action": "witness",
+          "line": {
+            "en": "Mute added the rule after the committee meeting.",
+            "ko": "뮤트가 위원회 회의 후 규칙을 추가했어요.",
+            "chunks": [
+              {
+                "en": "Mute added the rule after the committee meeting.",
+                "ko": "뮤트가 위원회 회의 후 규칙을 추가했어요."
+              }
+            ]
+          },
+          "evidence": "ng_witness"
+        },
+        {
+          "npc": "ng_extra_4",
+          "action": "record_check",
+          "line": {
+            "en": "The original program welcomes every singer.",
+            "ko": "원래 프로그램은 모든 가수를 환영해요.",
+            "chunks": [
+              {
+                "en": "The original program welcomes every singer.",
+                "ko": "원래 프로그램은 모든 가수를 환영해요."
+              }
+            ]
+          },
+          "evidence": "ng_record"
+        },
+        {
+          "action": "compare",
+          "question_en": "Who may sing under the original program?",
+          "options": [
+            "Every singer",
+            "Only Mute",
+            "No one"
+          ],
+          "correct_index": 0,
+          "requires": [
+            "ng_witness",
+            "ng_record"
+          ],
+          "retry_ko": "두 증거를 다시 읽어 보세요."
+        },
+        {
+          "npc": "ng_agent",
+          "action": "confront",
+          "line": {
+            "en": "You will not silence me in return, will you?",
+            "ko": "당신들도 나를 침묵시키지는 않겠지요?",
+            "chunks": [
+              {
+                "en": "You will not silence me in return, will you?",
+                "ko": "당신들도 나를 침묵시키지는 않겠지요?"
+              }
+            ]
+          }
+        },
+        {
+          "npc": "ng_extra_1",
+          "action": "report",
+          "line": {
+            "en": "You may speak, but you may not silence others.",
+            "ko": "말할 수는 있지만 다른 사람을 침묵시켜서는 안 돼요.",
+            "chunks": [
+              {
+                "en": "You may speak, but you may not silence others.",
+                "ko": "말할 수는 있지만 다른 사람을 침묵시켜서는 안 돼요."
+              }
+            ]
+          },
+          "grant_flag": "ng_infiltration_verified"
+        }
+      ],
+      "outcome": "exposed",
+      "aftermath": {
+        "en": "You may speak, but you may not silence others.",
+        "ko": "말할 수는 있지만 다른 사람을 침묵시켜서는 안 돼요.",
+        "chunks": [
+          {
+            "en": "You may speak, but you may not silence others.",
+            "ko": "말할 수는 있지만 다른 사람을 침묵시켜서는 안 돼요."
+          }
+        ]
+      },
+      "reward": "story_flag_only"
+    },
+    {
+      "id": "rs_infiltration_resolution",
+      "parent": "rs_infiltration",
+      "requires": "parent investigation opening complete",
+      "steps": [
+        {
+          "npc": "rs_extra_6",
+          "action": "witness",
+          "line": {
+            "en": "Echo asked me to deliver a different message from the original.",
+            "ko": "에코가 원본과 다른 전갈을 전달하라고 했어요.",
+            "chunks": [
+              {
+                "en": "Echo asked me to deliver a different message from the original.",
+                "ko": "에코가 원본과 다른 전갈을 전달하라고 했어요."
+              }
+            ]
+          },
+          "evidence": "rs_witness"
+        },
+        {
+          "npc": "rs_extra_4",
+          "action": "record_check",
+          "line": {
+            "en": "Lexion's original message says the library is safe.",
+            "ko": "렉시온의 원본 전갈에는 도서관이 안전하다고 적혀 있어요.",
+            "chunks": [
+              {
+                "en": "Lexion's original message says the library is safe.",
+                "ko": "렉시온의 원본 전갈에는 도서관이 안전하다고 적혀 있어요."
+              }
+            ]
+          },
+          "evidence": "rs_record"
+        },
+        {
+          "action": "compare",
+          "question_en": "What does the original say?",
+          "options": [
+            "Close the library.",
+            "The library is safe.",
+            "Destroy the books."
+          ],
+          "correct_index": 1,
+          "requires": [
+            "rs_witness",
+            "rs_record"
+          ],
+          "retry_ko": "두 증거를 다시 읽어 보세요."
+        },
+        {
+          "npc": "rs_agent",
+          "action": "confront",
+          "line": {
+            "en": "The counselor will finish what I started.",
+            "ko": "고문이 내가 시작한 일을 끝낼 것이다.",
+            "chunks": [
+              {
+                "en": "The counselor will finish what I started.",
+                "ko": "고문이 내가 시작한 일을 끝낼 것이다."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "rs_extra_1",
+          "action": "report",
+          "line": {
+            "en": "We will send the verified message to every town.",
+            "ko": "검증된 전갈을 모든 마을에 보낼 거예요.",
+            "chunks": [
+              {
+                "en": "We will send the verified message to every town.",
+                "ko": "검증된 전갈을 모든 마을에 보낼 거예요."
+              }
+            ]
+          },
+          "grant_flag": "rs_infiltration_verified"
+        }
+      ],
+      "outcome": "flight",
+      "aftermath": {
+        "en": "We will send the verified message to every town.",
+        "ko": "검증된 전갈을 모든 마을에 보낼 거예요.",
+        "chunks": [
+          {
+            "en": "We will send the verified message to every town.",
+            "ko": "검증된 전갈을 모든 마을에 보낼 거예요."
+          }
+        ]
+      },
+      "reward": "story_flag_only"
+    },
+    {
+      "id": "sx_infiltration_resolution",
+      "parent": "sx_infiltration",
+      "requires": "parent investigation opening complete",
+      "steps": [
+        {
+          "npc": "sx_extra_6",
+          "action": "witness",
+          "line": {
+            "en": "Null ordered me to add a new law to the council record.",
+            "ko": "널이 의회 기록에 새 법을 추가하라고 명령했어요.",
+            "chunks": [
+              {
+                "en": "Null ordered me to add a new law to the council record.",
+                "ko": "널이 의회 기록에 새 법을 추가하라고 명령했어요."
+              }
+            ]
+          },
+          "evidence": "sx_witness"
+        },
+        {
+          "npc": "sx_extra_4",
+          "action": "record_check",
+          "line": {
+            "en": "The signed council record contains no order to silence the towns.",
+            "ko": "서명된 의회 기록에는 마을을 침묵시키라는 명령이 없어요.",
+            "chunks": [
+              {
+                "en": "The signed council record contains no order to silence the towns.",
+                "ko": "서명된 의회 기록에는 마을을 침묵시키라는 명령이 없어요."
+              }
+            ]
+          },
+          "evidence": "sx_record"
+        },
+        {
+          "action": "compare",
+          "question_en": "Who ordered the false addition?",
+          "options": [
+            "The castellan",
+            "The historian",
+            "Null"
+          ],
+          "correct_index": 2,
+          "requires": [
+            "sx_witness",
+            "sx_record"
+          ],
+          "retry_ko": "두 증거를 다시 읽어 보세요."
+        },
+        {
+          "npc": "sx_agent",
+          "action": "confront",
+          "line": {
+            "en": "Silentius will speak for you all!",
+            "ko": "사일렌티우스가 너희 모두를 대신해 말할 것이다!",
+            "chunks": [
+              {
+                "en": "Silentius will speak for you all!",
+                "ko": "사일렌티우스가 너희 모두를 대신해 말할 것이다!"
+              }
+            ]
+          }
+        },
+        {
+          "npc": "sx_extra_1",
+          "action": "report",
+          "line": {
+            "en": "The council rejects the false law.",
+            "ko": "의회는 거짓 법을 거부합니다.",
+            "chunks": [
+              {
+                "en": "The council rejects the false law.",
+                "ko": "의회는 거짓 법을 거부합니다."
+              }
+            ]
+          },
+          "grant_flag": "sx_infiltration_verified"
+        }
+      ],
+      "outcome": "confrontation",
+      "aftermath": {
+        "en": "The council rejects the false law.",
+        "ko": "의회는 거짓 법을 거부합니다.",
+        "chunks": [
+          {
+            "en": "The council rejects the false law.",
+            "ko": "의회는 거짓 법을 거부합니다."
+          }
+        ]
+      },
+      "reward": "story_flag_only"
+    }
+  ],
+  "policy": "Optional continuation of existing investigation openings. No real combat or NPC removal; flight is narrative only until placement logic exists. Evidence questions require both records. Vesper's final identity scene remains separate; g1 evidence reveals correspondence, not full plot. Cinder confession connects to main arc. Review witness role and chronology, translations and chunks before release."
+}

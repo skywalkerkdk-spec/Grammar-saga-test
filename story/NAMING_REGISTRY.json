@@ -1,0 +1,955 @@
+{
+  "version": "1.1",
+  "episodes": {
+    "g1": {
+      "town": {
+        "en": "Beville",
+        "ko": "비빌",
+        "legacy": "비이 마을"
+      },
+      "boss": {
+        "en": "Bee, Guardian of the Meadow",
+        "ko": "초원의 수호자 비이",
+        "legacy": "초원의 수호자 비이"
+      },
+      "residents": [
+        {
+          "en": "Farmer Am",
+          "ko": "농부 앰",
+          "index": 0,
+          "legacy": "농부 팜"
+        },
+        {
+          "en": "Little Izzy",
+          "ko": "꼬마 이지",
+          "index": 1,
+          "legacy": "꼬마 리나"
+        },
+        {
+          "en": "Granny Aria",
+          "ko": "할머니 아리아",
+          "index": 2,
+          "legacy": "할머니 로즈"
+        },
+        {
+          "en": "Ben Bee",
+          "ko": "벤 비",
+          "index": 3,
+          "legacy": "개 주인 벤"
+        }
+      ],
+      "quest": {
+        "en": "Who Am I?",
+        "ko": "누가 누구인지 모르겠어요"
+      },
+      "page": {
+        "en": "Page of Identity",
+        "ko": "정체성의 페이지"
+      },
+      "reward": {
+        "en": "Ben Bee's Homemade Treats",
+        "ko": "벤 비의 수제 간식"
+      }
+    },
+    "g2": {
+      "town": {
+        "en": "Queston",
+        "ko": "퀘스턴",
+        "legacy": "두낫 마을"
+      },
+      "boss": {
+        "en": "Doubt, the Cave Inquisitor",
+        "ko": "동굴 심문관 다우트",
+        "legacy": "동굴 심문관 두웃"
+      },
+      "residents": [
+        {
+          "en": "Herbalist Dora",
+          "ko": "약초꾼 도라",
+          "index": 0,
+          "legacy": "약초꾼 미라"
+        },
+        {
+          "en": "Chef Dot",
+          "ko": "요리사 도트",
+          "index": 1,
+          "legacy": "요리사 하루"
+        },
+        {
+          "en": "Donny",
+          "ko": "도니",
+          "index": 2,
+          "legacy": "소년 닉"
+        },
+        {
+          "en": "Miss Nott",
+          "ko": "미스 노트",
+          "index": 3,
+          "legacy": "고양이 집사 유나"
+        }
+      ],
+      "quest": {
+        "en": "The Restaurant Without Questions",
+        "ko": "아무도 물어볼 수 없는 식당"
+      },
+      "page": {
+        "en": "Page of Questions",
+        "ko": "질문의 페이지"
+      },
+      "reward": {
+        "en": "Dot's Special Lunchbox",
+        "ko": "도트의 특제 도시락"
+      }
+    },
+    "tn": {
+      "town": {
+        "en": "Tensefield",
+        "ko": "텐스필드",
+        "legacy": "크로노 마을"
+      },
+      "boss": {
+        "en": "Chronos, Keeper of Time",
+        "ko": "시간의 수문장 크로노스",
+        "legacy": "시제의 수문장"
+      },
+      "residents": [
+        {
+          "en": "Baker Preston",
+          "ko": "제빵사 프레스턴",
+          "index": 0,
+          "legacy": "빵집 주인 보리"
+        },
+        {
+          "en": "Pasty",
+          "ko": "패스티",
+          "index": 1,
+          "legacy": "꼬마 하나"
+        },
+        {
+          "en": "Grandpa Tick",
+          "ko": "시계 할아버지 틱",
+          "index": 2,
+          "legacy": "시계 할아버지"
+        },
+        {
+          "en": "Postman Will",
+          "ko": "우체부 윌",
+          "index": 3,
+          "legacy": "우체부 톰"
+        }
+      ],
+      "quest": {
+        "en": "Pasty's Birthday Is Tomorrow",
+        "ko": "내일은 패스티의 생일"
+      },
+      "page": {
+        "en": "Page of Time",
+        "ko": "시간의 페이지"
+      },
+      "reward": {
+        "en": "Birthday Cake",
+        "ko": "생일 케이크"
+      }
+    },
+    "md": {
+      "town": {
+        "en": "Modalvale",
+        "ko": "모달베일",
+        "legacy": "캔윌 마을"
+      },
+      "boss": {
+        "en": "Mustar, Guardian of Modals",
+        "ko": "조동사의 수호자 머스타",
+        "legacy": "조동사의 수문장"
+      },
+      "residents": [
+        {
+          "en": "Granny May",
+          "ko": "약초 할머니 메이",
+          "index": 0,
+          "legacy": "약초 할머니"
+        },
+        {
+          "en": "Foreman Muston",
+          "ko": "공사장 반장 머스턴",
+          "index": 1,
+          "legacy": "공사장 반장"
+        },
+        {
+          "en": "Runner Canby",
+          "ko": "심부름꾼 캔비",
+          "index": 2,
+          "legacy": "심부름꾼 민"
+        },
+        {
+          "en": "Captain Coulden",
+          "ko": "경비대장 쿠든",
+          "index": 3,
+          "legacy": "경비대장 로이"
+        }
+      ],
+      "quest": {
+        "en": "The Bridge of Possibility",
+        "ko": "건너갈 수 없는 다리"
+      },
+      "page": {
+        "en": "Page of Possibility",
+        "ko": "가능성의 페이지"
+      },
+      "reward": {
+        "en": "Safety Helmet",
+        "ko": "안전모 기념품"
+      }
+    },
+    "rp": {
+      "town": {
+        "en": "Relawood",
+        "ko": "렐라우드",
+        "legacy": "이어말 숲 마을"
+      },
+      "boss": {
+        "en": "Relator, Lord of the Forest",
+        "ko": "숲의 군주 릴레이터",
+        "legacy": "관계대명사의 수문장"
+      },
+      "residents": [
+        {
+          "en": "Ranger Whoa",
+          "ko": "숲지기 후아",
+          "index": 0,
+          "legacy": "숲지기 엘라"
+        },
+        {
+          "en": "Librarian Thatton",
+          "ko": "사서 대튼",
+          "index": 1,
+          "legacy": "도서관 사서 노아"
+        },
+        {
+          "en": "Mechanic Whoseley",
+          "ko": "정비공 후즐리",
+          "index": 2,
+          "legacy": "정비공 잭"
+        },
+        {
+          "en": "Hunter Whit",
+          "ko": "사냥꾼 휘트",
+          "index": 3,
+          "legacy": "사냥꾼 한"
+        }
+      ],
+      "quest": {
+        "en": "The Missing Child",
+        "ko": "숲속에서 사라진 아이"
+      },
+      "page": {
+        "en": "Page of Connection",
+        "ko": "연결의 페이지"
+      },
+      "reward": {
+        "en": "Ranger's Charm",
+        "ko": "숲지기의 부적"
+      }
+    },
+    "ps": {
+      "town": {
+        "en": "Passive Lake",
+        "ko": "패시브 레이크",
+        "legacy": "수동 마을"
+      },
+      "boss": {
+        "en": "Passivus, Lord of the Lake",
+        "ko": "호수의 군주 패시버스",
+        "legacy": "수동태의 수문장"
+      },
+      "residents": [
+        {
+          "en": "Baker Bea",
+          "ko": "제빵사 비아",
+          "index": 0,
+          "legacy": "빵집 아가씨 소피"
+        },
+        {
+          "en": "Traveler Byn",
+          "ko": "여행가 바인",
+          "index": 1,
+          "legacy": "여행가 잭"
+        },
+        {
+          "en": "Guard Agent",
+          "ko": "경비병 에이전트",
+          "index": 2,
+          "legacy": "경비병 돈"
+        },
+        {
+          "en": "Cleaner Done",
+          "ko": "청소부 던",
+          "index": 3,
+          "legacy": "청소부 마리"
+        }
+      ],
+      "quest": {
+        "en": "The Wrong Suspect",
+        "ko": "도둑은 누구인가"
+      },
+      "page": {
+        "en": "Page of Action",
+        "ko": "행동의 페이지"
+      },
+      "reward": {
+        "en": "Guard's Medal",
+        "ko": "경비병의 훈장"
+      }
+    },
+    "pf": {
+      "town": {
+        "en": "Perfect Oasis",
+        "ko": "퍼펙트 오아시스",
+        "legacy": "해브 마을"
+      },
+      "boss": {
+        "en": "Perfectus, Keeper of Ages",
+        "ko": "세월의 수문장 퍼펙터스",
+        "legacy": "완료의 수문장"
+      },
+      "residents": [
+        {
+          "en": "Landlord Haven",
+          "ko": "집주인 헤이븐",
+          "index": 0,
+          "legacy": "집주인 맥스"
+        },
+        {
+          "en": "Student Justine",
+          "ko": "학생 저스틴",
+          "index": 1,
+          "legacy": "학생 엠마"
+        },
+        {
+          "en": "Clockmaker Since",
+          "ko": "시계공 신스",
+          "index": 2,
+          "legacy": "시계방 노인"
+        },
+        {
+          "en": "Gourmet Ever",
+          "ko": "미식가 에버",
+          "index": 3,
+          "legacy": "미식가 타로"
+        }
+      ],
+      "quest": {
+        "en": "A Letter After Ten Years",
+        "ko": "10년 만에 도착한 편지"
+      },
+      "page": {
+        "en": "Page of Memory",
+        "ko": "기억의 페이지"
+      },
+      "reward": {
+        "en": "Memory Pocket Watch",
+        "ko": "추억의 회중시계"
+      }
+    },
+    "rv": {
+      "town": {
+        "en": "Whereport",
+        "ko": "웨어포트",
+        "legacy": "웨어 마을"
+      },
+      "boss": {
+        "en": "Locarus, Guardian of Places",
+        "ko": "장소의 수호자 로카루스",
+        "legacy": "관계부사의 수문장"
+      },
+      "residents": [
+        {
+          "en": "Fisher Whereley",
+          "ko": "어부 웨어리",
+          "index": 0,
+          "legacy": "어부 노아"
+        },
+        {
+          "en": "Wynna",
+          "ko": "위나",
+          "index": 1,
+          "legacy": "소녀 제나"
+        },
+        {
+          "en": "Coach Howie",
+          "ko": "코치 하위",
+          "index": 2,
+          "legacy": "코치 샘"
+        },
+        {
+          "en": "Mayor Whyatt",
+          "ko": "이장 와이엇",
+          "index": 3,
+          "legacy": "이장님"
+        }
+      ],
+      "quest": {
+        "en": "The Place We Remember",
+        "ko": "기억 속의 고향"
+      },
+      "page": {
+        "en": "Page of Place",
+        "ko": "장소의 페이지"
+      },
+      "reward": {
+        "en": "Harbor Compass",
+        "ko": "항구의 나침반"
+      }
+    },
+    "pc": {
+      "town": {
+        "en": "Participle Canyon",
+        "ko": "파티서플 캐니언",
+        "legacy": "이잉 마을"
+      },
+      "boss": {
+        "en": "Partix, the Canyon Griffin",
+        "ko": "협곡의 그리핀 파틱스",
+        "legacy": "분사구문의 수문장"
+      },
+      "residents": [
+        {
+          "en": "Walker Ingmar",
+          "ko": "산책자 잉마르",
+          "index": 0,
+          "legacy": "산책자 윌"
+        },
+        {
+          "en": "Student Knowing",
+          "ko": "학생 노잉",
+          "index": 1,
+          "legacy": "학생 카이"
+        },
+        {
+          "en": "Librarian Edlyn",
+          "ko": "사서 에들린",
+          "index": 2,
+          "legacy": "사서 아델"
+        },
+        {
+          "en": "Faye",
+          "ko": "페이",
+          "index": 3,
+          "legacy": "소녀 하나"
+        }
+      ],
+      "quest": {
+        "en": "The Ancient Manuscript",
+        "ko": "절벽에 남겨진 기록"
+      },
+      "page": {
+        "en": "Page of Records",
+        "ko": "기록의 페이지"
+      },
+      "reward": {
+        "en": "Ancient Manuscript Fragment",
+        "ko": "고대 문서 조각"
+      }
+    },
+    "sj": {
+      "town": {
+        "en": "Ifhaven",
+        "ko": "이프헤이븐",
+        "legacy": "이프 마을"
+      },
+      "boss": {
+        "en": "Wishra, Queen of Wishes",
+        "ko": "소원의 여왕 위슈라",
+        "legacy": "가정법의 수문장"
+      },
+      "residents": [
+        {
+          "en": "Falconer Ifan",
+          "ko": "새 조련사 이판",
+          "index": 0,
+          "legacy": "새 조련사 핀"
+        },
+        {
+          "en": "Merchant Woulden",
+          "ko": "상인 우든",
+          "index": 1,
+          "legacy": "상인 오토"
+        },
+        {
+          "en": "Wisha",
+          "ko": "위샤",
+          "index": 2,
+          "legacy": "소녀 루나"
+        },
+        {
+          "en": "Student Hadley",
+          "ko": "학생 해들리",
+          "index": 3,
+          "legacy": "수험생 도윤"
+        }
+      ],
+      "quest": {
+        "en": "Wings of Wishes",
+        "ko": "날개 없는 소원"
+      },
+      "page": {
+        "en": "Page of Wishes",
+        "ko": "소망의 페이지"
+      },
+      "reward": {
+        "en": "Wish Feather",
+        "ko": "소원의 깃털"
+      }
+    },
+    "cp": {
+      "town": {
+        "en": "Compare Hills",
+        "ko": "컴페어 힐스",
+        "legacy": "비교 마을"
+      },
+      "boss": {
+        "en": "Maximus, King of the Hills",
+        "ko": "언덕의 왕 막시무스",
+        "legacy": "비교급·최상급의 수문장"
+      },
+      "residents": [
+        {
+          "en": "Runner Swift",
+          "ko": "달리기 선수 스위프트",
+          "index": 0,
+          "legacy": "달리기 선수 아이"
+        },
+        {
+          "en": "Merchant Morella",
+          "ko": "상인 모렐라",
+          "index": 1,
+          "legacy": "가방 상인 릴리"
+        },
+        {
+          "en": "Landlord Equal",
+          "ko": "집주인 이퀄",
+          "index": 2,
+          "legacy": "집주인 톰"
+        },
+        {
+          "en": "Teacher Beston",
+          "ko": "선생님 베스턴",
+          "index": 3,
+          "legacy": "선생님 앤"
+        }
+      ],
+      "quest": {
+        "en": "The Champion of Champions",
+        "ko": "우승자가 없는 대회"
+      },
+      "page": {
+        "en": "Page of Comparison",
+        "ko": "비교의 페이지"
+      },
+      "reward": {
+        "en": "Champion Medal",
+        "ko": "챔피언 메달"
+      }
+    },
+    "pn": {
+      "town": {
+        "en": "Pronovia",
+        "ko": "프로노비아",
+        "legacy": "프로 마을"
+      },
+      "boss": {
+        "en": "Pronomus, Keeper of Names",
+        "ko": "이름의 수문장 프로노무스",
+        "legacy": "대명사·관사의 수문장"
+      },
+      "residents": [
+        {
+          "en": "Bookseller Myra",
+          "ko": "책방 주인 마이라",
+          "index": 0,
+          "legacy": "책방 주인 메이"
+        },
+        {
+          "en": "Fruit Seller Annie",
+          "ko": "과일 장수 애니",
+          "index": 1,
+          "legacy": "과일 장수 오리"
+        },
+        {
+          "en": "Selma",
+          "ko": "셀마",
+          "index": 2,
+          "legacy": "소녀 지아"
+        },
+        {
+          "en": "Theo",
+          "ko": "테오",
+          "index": 3,
+          "legacy": "소년 레오"
+        }
+      ],
+      "quest": {
+        "en": "Whose Treasure Is It?",
+        "ko": "주인을 잃어버린 물건들"
+      },
+      "page": {
+        "en": "Page of Ownership",
+        "ko": "소유의 페이지"
+      },
+      "reward": {
+        "en": "Lucky Pouch",
+        "ko": "행운의 주머니"
+      }
+    },
+    "ot": {
+      "town": {
+        "en": "Prep Isles",
+        "ko": "프렙 아일스",
+        "legacy": "프렙 마을"
+      },
+      "boss": {
+        "en": "Prepos, Elder of the Isles",
+        "ko": "섬의 장로 프레포스",
+        "legacy": "전치사·기타의 수문장"
+      },
+      "residents": [
+        {
+          "en": "Sailor Byron",
+          "ko": "선원 바이런",
+          "index": 0,
+          "legacy": "선원 보"
+        },
+        {
+          "en": "Onna",
+          "ko": "오나",
+          "index": 1,
+          "legacy": "소녀 수아"
+        },
+        {
+          "en": "Teacher Atley",
+          "ko": "선생님 애틀리",
+          "index": 2,
+          "legacy": "수학 선생 라이언"
+        },
+        {
+          "en": "Fisher Inna",
+          "ko": "어부 이나",
+          "index": 3,
+          "legacy": "어부 소피아"
+        }
+      ],
+      "quest": {
+        "en": "The Ship Without Directions",
+        "ko": "출항하지 못하는 배"
+      },
+      "page": {
+        "en": "Page of Direction",
+        "ko": "방향의 페이지"
+      },
+      "reward": {
+        "en": "Navigator's Map",
+        "ko": "항해자의 지도"
+      }
+    },
+    "iv": {
+      "town": {
+        "en": "Verbal Heights",
+        "ko": "버벌 하이츠",
+        "legacy": "투 마을"
+      },
+      "boss": {
+        "en": "Verbalis, Sky Emperor",
+        "ko": "하늘의 황제 버발리스",
+        "legacy": "to부정사·동명사의 수문장"
+      },
+      "residents": [
+        {
+          "en": "Swimmer Finn",
+          "ko": "수영 선수 핀",
+          "index": 0,
+          "legacy": "수영 선수 진"
+        },
+        {
+          "en": "Traveler Togo",
+          "ko": "여행자 토고",
+          "index": 1,
+          "legacy": "여행자 켄"
+        },
+        {
+          "en": "Linguist Infina",
+          "ko": "언어학자 인피나",
+          "index": 2,
+          "legacy": "언어학자 노라"
+        },
+        {
+          "en": "Chess Master Gerund",
+          "ko": "체스 챔피언 제룬드",
+          "index": 3,
+          "legacy": "체스 챔피언 막스"
+        }
+      ],
+      "quest": {
+        "en": "A Journey of Dreams",
+        "ko": "꿈을 향한 첫걸음"
+      },
+      "page": {
+        "en": "Page of Purpose",
+        "ko": "목적의 페이지"
+      },
+      "reward": {
+        "en": "Traveler's Boots",
+        "ko": "여행자의 장화"
+      }
+    },
+    "pe": {
+      "town": {
+        "en": "Sensewood",
+        "ko": "센스우드",
+        "legacy": "센스 마을"
+      },
+      "boss": {
+        "en": "Sensar, the Forest Watcher",
+        "ko": "숲의 감시자 센사르",
+        "legacy": "지각·사역·감각동사의 수문장"
+      },
+      "residents": [
+        {
+          "en": "Birdwatcher Seer",
+          "ko": "새 관찰자 시어",
+          "index": 0,
+          "legacy": "새 관찰자 에이"
+        },
+        {
+          "en": "Mother Maka",
+          "ko": "엄마 마카",
+          "index": 1,
+          "legacy": "엄마 베라"
+        },
+        {
+          "en": "Chef Savory",
+          "ko": "요리사 세이버리",
+          "index": 2,
+          "legacy": "요리사 간"
+        },
+        {
+          "en": "Mechanic Fix",
+          "ko": "수리공 픽스",
+          "index": 3,
+          "legacy": "수리공 팀"
+        }
+      ],
+      "quest": {
+        "en": "Something in the Woods",
+        "ko": "숲에서 들려온 이상한 소리"
+      },
+      "page": {
+        "en": "Page of Senses",
+        "ko": "감각의 페이지"
+      },
+      "reward": {
+        "en": "Watcher's Charm",
+        "ko": "감시자의 부적"
+      }
+    },
+    "ng": {
+      "town": {
+        "en": "Nounville",
+        "ko": "노운빌",
+        "legacy": "엑스 마을"
+      },
+      "boss": {
+        "en": "Nomina, Guardian of Words",
+        "ko": "단어의 수호자 노미나",
+        "legacy": "명사·명령문·감탄문의 수문장"
+      },
+      "residents": [
+        {
+          "en": "Florist Flora",
+          "ko": "꽃집 주인 플로라",
+          "index": 0,
+          "legacy": "꽃집 아가씨 로사"
+        },
+        {
+          "en": "Librarian Hush",
+          "ko": "사서 허쉬",
+          "index": 1,
+          "legacy": "사서 올리"
+        },
+        {
+          "en": "Baker Loaf",
+          "ko": "제빵사 로프",
+          "index": 2,
+          "legacy": "빵 가게 피트"
+        },
+        {
+          "en": "Keeper Letty",
+          "ko": "공원지기 레티",
+          "index": 3,
+          "legacy": "공원지기 헨리"
+        }
+      ],
+      "quest": {
+        "en": "The Festival of Hope",
+        "ko": "마지막 축제"
+      },
+      "page": {
+        "en": "Page of Exclamation",
+        "ko": "감탄의 페이지"
+      },
+      "reward": {
+        "en": "Crown of Hope",
+        "ko": "희망의 꽃왕관"
+      }
+    },
+    "rs": {
+      "town": {
+        "en": "Speechport",
+        "ko": "스피치포트",
+        "legacy": "세이 마을"
+      },
+      "boss": {
+        "en": "Reportus, Keeper of Messages",
+        "ko": "전갈의 수문장 리포터스",
+        "legacy": "화법·간접의문문의 수문장"
+      },
+      "residents": [
+        {
+          "en": "Postman Tell",
+          "ko": "우체부 텔",
+          "index": 0,
+          "legacy": "우체부 샘"
+        },
+        {
+          "en": "Detective Ask",
+          "ko": "탐정 애스크",
+          "index": 1,
+          "legacy": "탐정 노아"
+        },
+        {
+          "en": "Student Quora",
+          "ko": "학생 쿼라",
+          "index": 2,
+          "legacy": "학생 미나"
+        },
+        {
+          "en": "Guide Wenda",
+          "ko": "안내원 웬다",
+          "index": 3,
+          "legacy": "안내원 수"
+        }
+      ],
+      "quest": {
+        "en": "The Twisted Message",
+        "ko": "왜곡된 마지막 전갈"
+      },
+      "page": {
+        "en": "Page of Messages",
+        "ko": "전달의 페이지"
+      },
+      "reward": {
+        "en": "Messenger's Seal",
+        "ko": "전령의 인장"
+      }
+    },
+    "sx": {
+      "town": {
+        "en": "Inversion Keep",
+        "ko": "인버전 킵",
+        "legacy": "톱 마을"
+      },
+      "boss": {
+        "en": "Invertus, Sovereign of Order",
+        "ko": "질서의 군주 인버터스",
+        "legacy": "도치·강조·병렬·동격의 수문장"
+      },
+      "residents": [
+        {
+          "en": "Captain Never",
+          "ko": "선장 네버",
+          "index": 0,
+          "legacy": "선장 아벨"
+        },
+        {
+          "en": "Officer Emphas",
+          "ko": "경찰 엠파스",
+          "index": 1,
+          "legacy": "경찰 로건"
+        },
+        {
+          "en": "Artist Parallel",
+          "ko": "예술가 패럴렐",
+          "index": 2,
+          "legacy": "예술가 비비"
+        },
+        {
+          "en": "Keeper Apposia",
+          "ko": "성지기 아포시아",
+          "index": 3,
+          "legacy": "성지기 클라라"
+        }
+      ],
+      "quest": {
+        "en": "The Castle of Inversion",
+        "ko": "뒤집힌 세계의 성"
+      },
+      "page": {
+        "en": "Page of Order",
+        "ko": "질서의 페이지"
+      },
+      "reward": {
+        "en": "Inversion Seal",
+        "ko": "인버전 성의 인장"
+      }
+    }
+  },
+  "characters": {
+    "그래머 할아버지": {
+      "en": "Grandpa Grammar",
+      "ko": "그래머 할아버지"
+    },
+    "버벨라": {
+      "en": "Verbella",
+      "ko": "버벨라"
+    },
+    "컴플리": {
+      "en": "Comple",
+      "ko": "컴플리"
+    },
+    "오브": {
+      "en": "Ob",
+      "ko": "오브"
+    },
+    "옥시": {
+      "en": "Oxy",
+      "ko": "옥시"
+    },
+    "인디": {
+      "en": "Indy",
+      "ko": "인디"
+    },
+    "디렉": {
+      "en": "Direct",
+      "ko": "디렉"
+    },
+    "모디": {
+      "en": "Modi",
+      "ko": "모디"
+    },
+    "렉시온": {
+      "en": "Lexion",
+      "ko": "렉시온"
+    },
+    "노바": {
+      "en": "Nova",
+      "ko": "노바"
+    },
+    "사일렌티우스": {
+      "en": "Silentius",
+      "ko": "사일렌티우스"
+    },
+    "내레이션": {
+      "en": "Narrator",
+      "ko": "내레이션"
+    }
+  }
+}

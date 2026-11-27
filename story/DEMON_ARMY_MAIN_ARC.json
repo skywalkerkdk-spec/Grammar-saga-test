@@ -1,0 +1,217 @@
+{
+  "version": "0.1",
+  "status": "proposed connecting scenes",
+  "scenes": [
+    {
+      "id": "vesper_first",
+      "town": "g1",
+      "trigger": "first accessible visit",
+      "lines": [
+        {
+          "speaker": "g1_agent",
+          "en": "A traveler needs more than a sword. Take this bread.",
+          "ko": "여행자에게는 검만 필요한 게 아니지요. 이 빵을 받으세요."
+        },
+        {
+          "speaker": "Verbella",
+          "en": "That was kind of him.",
+          "ko": "친절한 분이네요."
+        },
+        {
+          "speaker": "g1_agent",
+          "en": "If you find an old page, the library is the best place for it.",
+          "ko": "오래된 페이지를 찾으면 도서관에 가져가는 것이 가장 좋습니다."
+        }
+      ]
+    },
+    {
+      "id": "ink_warning",
+      "town": "pc",
+      "trigger": "after manuscript investigation",
+      "lines": [
+        {
+          "speaker": "pc_extra_6",
+          "en": "The ink is new, but the mark is old.",
+          "ko": "잉크는 새것이지만 문양은 오래됐어요."
+        },
+        {
+          "speaker": "Lexion",
+          "en": "Someone wants us to read the book in a particular way.",
+          "ko": "누군가 우리가 책을 특정한 방식으로 읽기를 바라는군."
+        },
+        {
+          "speaker": "Ob",
+          "en": "Then we need the original, not another copy.",
+          "ko": "그렇다면 또 다른 사본이 아니라 원본이 필요해요."
+        }
+      ]
+    },
+    {
+      "id": "cinder_defection",
+      "town": "pf",
+      "trigger": "after letters evidence",
+      "lines": [
+        {
+          "speaker": "pf_agent",
+          "en": "I kept the letters because I was afraid.",
+          "ko": "두려워서 편지들을 숨겼어요."
+        },
+        {
+          "speaker": "Verbella",
+          "en": "You can still help the people you hurt.",
+          "ko": "당신이 상처 입힌 사람들을 아직 도울 수 있어요."
+        },
+        {
+          "speaker": "pf_agent",
+          "en": "Vesper told me the pages must return to the library.",
+          "ko": "베스퍼는 페이지들이 도서관으로 돌아가야 한다고 말했어요."
+        },
+        {
+          "speaker": "Comple",
+          "en": "We will check your story. The letters must go home.",
+          "ko": "당신의 이야기를 확인하겠어요. 편지는 주인에게 돌아가야 해요."
+        }
+      ]
+    },
+    {
+      "id": "vesper_reveal",
+      "town": "library",
+      "trigger": "after corroborated cinder testimony and manuscript record",
+      "lines": [
+        {
+          "speaker": "g1_agent",
+          "en": "You have done exactly what we needed.",
+          "ko": "당신은 우리가 필요로 하던 일을 정확히 해 주었군요."
+        },
+        {
+          "speaker": "Ob",
+          "en": "You wanted us to find the pages?",
+          "ko": "우리가 페이지를 찾기를 원했다고요?"
+        },
+        {
+          "speaker": "g1_agent",
+          "en": "A scattered book has little power. A restored book can open the sanctuary.",
+          "ko": "흩어진 책에는 힘이 거의 없지요. 복원된 책은 성역을 열 수 있습니다."
+        },
+        {
+          "speaker": "Lexion",
+          "en": "The pages are not the enemy. The spell placed upon them is.",
+          "ko": "페이지가 적인 것이 아니야. 그 위에 걸린 주문이 적이지."
+        },
+        {
+          "speaker": "g1_agent",
+          "en": "Then try to break it.",
+          "ko": "그렇다면 한번 풀어 보시지요."
+        }
+      ]
+    },
+    {
+      "id": "resistance",
+      "town": "library",
+      "trigger": "18 pages registered; optional investigation lines conditional",
+      "lines": [
+        {
+          "speaker": "Lexion",
+          "en": "The book can open the sanctuary, but no one must control its words.",
+          "ko": "책은 성역을 열 수 있지만 누구도 그 말을 지배해서는 안 되네."
+        },
+        {
+          "speaker": "Comple",
+          "en": "We are not alone. The villages are ready to help.",
+          "ko": "우리는 혼자가 아니에요. 마을들이 도울 준비가 되어 있어요."
+        },
+        {
+          "speaker": "Verbella",
+          "en": "Let us finish what we started.",
+          "ko": "우리가 시작한 일을 끝내요."
+        }
+      ]
+    },
+    {
+      "id": "final_counter",
+      "town": "sanctuary_of_silence",
+      "trigger": "before existing finale confrontation",
+      "lines": [
+        {
+          "speaker": "Silentius",
+          "en": "You brought me every page. Now the world will speak with one voice.",
+          "ko": "너희가 모든 페이지를 가져왔다. 이제 세계는 하나의 목소리로 말할 것이다."
+        },
+        {
+          "speaker": "Oxy",
+          "en": "The book belongs to the people who use it.",
+          "ko": "책은 그것을 사용하는 사람들의 것이야."
+        },
+        {
+          "speaker": "Lexion",
+          "en": "Read the words as they are, not as he commands.",
+          "ko": "그가 명령하는 대로가 아니라 있는 그대로 읽게."
+        },
+        {
+          "speaker": "Verbella",
+          "en": "We choose our own words.",
+          "ko": "우리는 우리 자신의 말을 선택해요."
+        }
+      ]
+    }
+  ],
+  "support": [
+    {
+      "town_id": "g1",
+      "requires": "g1_infiltration_verified",
+      "en": "Food supplies",
+      "ko": "식량 지원",
+      "effect": "optional narrative acknowledgement only"
+    },
+    {
+      "town_id": "md",
+      "requires": "md_infiltration_verified",
+      "en": "Safe crossing",
+      "ko": "안전한 이동로",
+      "effect": "optional narrative acknowledgement only"
+    },
+    {
+      "town_id": "rp",
+      "requires": "rp_infiltration_verified",
+      "en": "Scouts",
+      "ko": "정찰대",
+      "effect": "optional narrative acknowledgement only"
+    },
+    {
+      "town_id": "ps",
+      "requires": "ps_infiltration_verified",
+      "en": "Witness testimony",
+      "ko": "목격자 증언",
+      "effect": "optional narrative acknowledgement only"
+    },
+    {
+      "town_id": "pc",
+      "requires": "pc_infiltration_verified",
+      "en": "Original records",
+      "ko": "원본 기록",
+      "effect": "optional narrative acknowledgement only"
+    },
+    {
+      "town_id": "ot",
+      "requires": "ot_infiltration_verified",
+      "en": "Ships",
+      "ko": "선박 지원",
+      "effect": "optional narrative acknowledgement only"
+    },
+    {
+      "town_id": "rs",
+      "requires": "rs_infiltration_verified",
+      "en": "Verified messages",
+      "ko": "검증된 전갈",
+      "effect": "optional narrative acknowledgement only"
+    },
+    {
+      "town_id": "sx",
+      "requires": "sx_infiltration_verified",
+      "en": "Council support",
+      "ko": "의회 지원",
+      "effect": "optional narrative acknowledgement only"
+    }
+  ],
+  "policy": "Preserve 18-page finale unlock. Optional investigation scenes must not be prerequisites. If skipped, reveal core twist in mandatory finale introduction; do not imply optional help occurred. Evidence flags are proposed and require completed investigations. Library is safe hub, not d16. No new combat mechanics, assets or rewards. Existing finale confrontation follows final_counter. Verify all triggers, speaker IDs, evidence consistency and bilingual chunks before release."
+}

@@ -1,0 +1,1694 @@
+{
+  "version": "0.1",
+  "status": "infiltration narrative draft",
+  "factions": [
+    "Black Hand",
+    "False Tongue",
+    "Broken Quill",
+    "Iron Chain",
+    "Silent Order"
+  ],
+  "events": [
+    {
+      "id": "g1_infiltration",
+      "town_id": "g1",
+      "title_en": "The Helpful Stranger",
+      "title_ko": "친절한 낯선 사람",
+      "faction": "Black Hand",
+      "agent": {
+        "id": "g1_agent",
+        "name_en": "Merchant Vesper",
+        "name_ko": "상인 베스퍼",
+        "public_role": "Merchant",
+        "reveal": "after evidence review only"
+      },
+      "steps": [
+        {
+          "npc": "g1_extra_1",
+          "action": "accept",
+          "line": {
+            "en": "The stranger gave us seeds for free.",
+            "ko": "낯선 사람이 씨앗을 무료로 주었어요.",
+            "chunks": [
+              {
+                "en": "The stranger gave us seeds for free.",
+                "ko": "낯선 사람이 씨앗을 무료로 주었어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "g1_agent",
+          "action": "interview",
+          "line": {
+            "en": "There must be a misunderstanding.",
+            "ko": "무언가 오해가 있는 것 같군요.",
+            "chunks": [
+              {
+                "en": "There must be a misunderstanding.",
+                "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "g1_extra_9",
+          "action": "collect_record",
+          "line": {
+            "en": "The same mark is on the seed bag and the stolen page.",
+            "ko": "씨앗 자루와 도난당한 페이지에 같은 문양이 있어요.",
+            "chunks": [
+              {
+                "en": "The same mark is on the seed bag and the stolen page.",
+                "ko": "씨앗 자루와 도난당한 페이지에 같은 문양이 있어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "g1_extra_4",
+          "action": "review",
+          "line": {
+            "en": "Keep the bag as evidence.",
+            "ko": "자루를 증거로 보관하세요.",
+            "chunks": [
+              {
+                "en": "Keep the bag as evidence.",
+                "ko": "자루를 증거로 보관하세요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "g1_extra_1",
+          "action": "return",
+          "line": {
+            "en": "We need to check the records before we make a decision.",
+            "ko": "결정을 내리기 전에 기록을 확인해야 해요.",
+            "chunks": [
+              {
+                "en": "We need to check the records before we make a decision.",
+                "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_status": "case-specific corroboration and resolution still required",
+      "reward": "optional investigation flag",
+      "act": 1
+    },
+    {
+      "id": "g2_infiltration",
+      "town_id": "g2",
+      "title_en": "Orders in the Dark",
+      "title_ko": "어둠 속의 주문",
+      "faction": "False Tongue",
+      "agent": {
+        "id": "g2_agent",
+        "name_en": "Traveler Morrow",
+        "name_ko": "여행자 모로",
+        "public_role": "Traveler",
+        "reveal": "after evidence review only"
+      },
+      "steps": [
+        {
+          "npc": "g2_extra_1",
+          "action": "accept",
+          "line": {
+            "en": "Someone changed the orders after I wrote them.",
+            "ko": "누군가 내가 주문서를 쓴 뒤 내용을 바꿨어요.",
+            "chunks": [
+              {
+                "en": "Someone changed the orders after I wrote them.",
+                "ko": "누군가 내가 주문서를 쓴 뒤 내용을 바꿨어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "g2_agent",
+          "action": "interview",
+          "line": {
+            "en": "There must be a misunderstanding.",
+            "ko": "무언가 오해가 있는 것 같군요.",
+            "chunks": [
+              {
+                "en": "There must be a misunderstanding.",
+                "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "g2_extra_9",
+          "action": "collect_record",
+          "line": {
+            "en": "The original order says no fish.",
+            "ko": "원래 주문서에는 생선을 넣지 말라고 적혀 있어요.",
+            "chunks": [
+              {
+                "en": "The original order says no fish.",
+                "ko": "원래 주문서에는 생선을 넣지 말라고 적혀 있어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "g2_extra_4",
+          "action": "review",
+          "line": {
+            "en": "Compare the two orders before blaming anyone.",
+            "ko": "누구를 탓하기 전에 두 주문서를 비교하세요.",
+            "chunks": [
+              {
+                "en": "Compare the two orders before blaming anyone.",
+                "ko": "누구를 탓하기 전에 두 주문서를 비교하세요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "g2_extra_1",
+          "action": "return",
+          "line": {
+            "en": "We need to check the records before we make a decision.",
+            "ko": "결정을 내리기 전에 기록을 확인해야 해요.",
+            "chunks": [
+              {
+                "en": "We need to check the records before we make a decision.",
+                "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_status": "case-specific corroboration and resolution still required",
+      "reward": "optional investigation flag",
+      "act": 1
+    },
+    {
+      "id": "tn_infiltration",
+      "town_id": "tn",
+      "title_en": "The Stolen Hour",
+      "title_ko": "도둑맞은 한 시간",
+      "faction": "Black Hand",
+      "agent": {
+        "id": "tn_agent",
+        "name_en": "Clock Dealer Nox",
+        "name_ko": "시계 상인 녹스",
+        "public_role": "Clock",
+        "reveal": "after evidence review only"
+      },
+      "steps": [
+        {
+          "npc": "tn_extra_1",
+          "action": "accept",
+          "line": {
+            "en": "The delivery arrived at noon, not at one.",
+            "ko": "배달은 한 시가 아니라 정오에 도착했어요.",
+            "chunks": [
+              {
+                "en": "The delivery arrived at noon, not at one.",
+                "ko": "배달은 한 시가 아니라 정오에 도착했어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "tn_agent",
+          "action": "interview",
+          "line": {
+            "en": "There must be a misunderstanding.",
+            "ko": "무언가 오해가 있는 것 같군요.",
+            "chunks": [
+              {
+                "en": "There must be a misunderstanding.",
+                "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "tn_extra_9",
+          "action": "collect_record",
+          "line": {
+            "en": "The dealer's receipt shows a different time.",
+            "ko": "상인의 영수증에는 다른 시간이 적혀 있어요.",
+            "chunks": [
+              {
+                "en": "The dealer's receipt shows a different time.",
+                "ko": "상인의 영수증에는 다른 시간이 적혀 있어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "tn_extra_4",
+          "action": "review",
+          "line": {
+            "en": "Ask the courier to confirm the delivery time.",
+            "ko": "전령에게 배달 시간을 확인하세요.",
+            "chunks": [
+              {
+                "en": "Ask the courier to confirm the delivery time.",
+                "ko": "전령에게 배달 시간을 확인하세요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "tn_extra_1",
+          "action": "return",
+          "line": {
+            "en": "We need to check the records before we make a decision.",
+            "ko": "결정을 내리기 전에 기록을 확인해야 해요.",
+            "chunks": [
+              {
+                "en": "We need to check the records before we make a decision.",
+                "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_status": "case-specific corroboration and resolution still required",
+      "reward": "optional investigation flag",
+      "act": 1
+    },
+    {
+      "id": "md_infiltration",
+      "town_id": "md",
+      "title_en": "The Price of a Bridge",
+      "title_ko": "다리의 대가",
+      "faction": "Iron Chain",
+      "agent": {
+        "id": "md_agent",
+        "name_en": "Supplier Ferrum",
+        "name_ko": "물자 상인 페룸",
+        "public_role": "Supplier",
+        "reveal": "after evidence review only"
+      },
+      "steps": [
+        {
+          "npc": "md_extra_1",
+          "action": "accept",
+          "line": {
+            "en": "The supplier says we must pay before we can cross.",
+            "ko": "물자 상인은 건너기 전에 돈을 내야 한다고 해요.",
+            "chunks": [
+              {
+                "en": "The supplier says we must pay before we can cross.",
+                "ko": "물자 상인은 건너기 전에 돈을 내야 한다고 해요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "md_agent",
+          "action": "interview",
+          "line": {
+            "en": "There must be a misunderstanding.",
+            "ko": "무언가 오해가 있는 것 같군요.",
+            "chunks": [
+              {
+                "en": "There must be a misunderstanding.",
+                "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "md_extra_9",
+          "action": "collect_record",
+          "line": {
+            "en": "The bridge belongs to the village, not the supplier.",
+            "ko": "다리는 상인이 아니라 마을의 것이에요.",
+            "chunks": [
+              {
+                "en": "The bridge belongs to the village, not the supplier.",
+                "ko": "다리는 상인이 아니라 마을의 것이에요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "md_extra_4",
+          "action": "review",
+          "line": {
+            "en": "Show the village leader the false agreement.",
+            "ko": "마을 대표에게 거짓 계약서를 보여 주세요.",
+            "chunks": [
+              {
+                "en": "Show the village leader the false agreement.",
+                "ko": "마을 대표에게 거짓 계약서를 보여 주세요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "md_extra_1",
+          "action": "return",
+          "line": {
+            "en": "We need to check the records before we make a decision.",
+            "ko": "결정을 내리기 전에 기록을 확인해야 해요.",
+            "chunks": [
+              {
+                "en": "We need to check the records before we make a decision.",
+                "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_status": "case-specific corroboration and resolution still required",
+      "reward": "optional investigation flag",
+      "act": 1
+    },
+    {
+      "id": "rp_infiltration",
+      "town_id": "rp",
+      "title_en": "The False Trail",
+      "title_ko": "거짓 숲길",
+      "faction": "Black Hand",
+      "agent": {
+        "id": "rp_agent",
+        "name_en": "Guide Briar",
+        "name_ko": "안내자 브라이어",
+        "public_role": "Guide",
+        "reveal": "after evidence review only"
+      },
+      "steps": [
+        {
+          "npc": "rp_extra_1",
+          "action": "accept",
+          "line": {
+            "en": "The guide sent us down the path that leads away from the village.",
+            "ko": "안내자는 마을에서 멀어지는 길로 우리를 보냈어요.",
+            "chunks": [
+              {
+                "en": "The guide sent us down the path that leads away from the village.",
+                "ko": "안내자는 마을에서 멀어지는 길로 우리를 보냈어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "rp_agent",
+          "action": "interview",
+          "line": {
+            "en": "There must be a misunderstanding.",
+            "ko": "무언가 오해가 있는 것 같군요.",
+            "chunks": [
+              {
+                "en": "There must be a misunderstanding.",
+                "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "rp_extra_9",
+          "action": "collect_record",
+          "line": {
+            "en": "The real trail has stones with white marks.",
+            "ko": "진짜 길에는 흰 표시가 있는 돌들이 있어요.",
+            "chunks": [
+              {
+                "en": "The real trail has stones with white marks.",
+                "ko": "진짜 길에는 흰 표시가 있는 돌들이 있어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "rp_extra_4",
+          "action": "review",
+          "line": {
+            "en": "Warn the search party about the false signs.",
+            "ko": "수색대에 거짓 표지판을 알려 주세요.",
+            "chunks": [
+              {
+                "en": "Warn the search party about the false signs.",
+                "ko": "수색대에 거짓 표지판을 알려 주세요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "rp_extra_1",
+          "action": "return",
+          "line": {
+            "en": "We need to check the records before we make a decision.",
+            "ko": "결정을 내리기 전에 기록을 확인해야 해요.",
+            "chunks": [
+              {
+                "en": "We need to check the records before we make a decision.",
+                "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_status": "case-specific corroboration and resolution still required",
+      "reward": "optional investigation flag",
+      "act": 1
+    },
+    {
+      "id": "ps_infiltration",
+      "town_id": "ps",
+      "title_en": "A Convenient Suspect",
+      "title_ko": "편리한 용의자",
+      "faction": "False Tongue",
+      "agent": {
+        "id": "ps_agent",
+        "name_en": "Witness Sable",
+        "name_ko": "목격자 세이블",
+        "public_role": "Witness",
+        "reveal": "after evidence review only"
+      },
+      "steps": [
+        {
+          "npc": "ps_extra_1",
+          "action": "accept",
+          "line": {
+            "en": "The traveler was blamed before the book was found.",
+            "ko": "책이 발견되기 전에 여행자가 비난받았어요.",
+            "chunks": [
+              {
+                "en": "The traveler was blamed before the book was found.",
+                "ko": "책이 발견되기 전에 여행자가 비난받았어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "ps_agent",
+          "action": "interview",
+          "line": {
+            "en": "There must be a misunderstanding.",
+            "ko": "무언가 오해가 있는 것 같군요.",
+            "chunks": [
+              {
+                "en": "There must be a misunderstanding.",
+                "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "ps_extra_9",
+          "action": "collect_record",
+          "line": {
+            "en": "The accusation was written before the theft was reported.",
+            "ko": "절도 신고 전에 고발장이 작성되었어요.",
+            "chunks": [
+              {
+                "en": "The accusation was written before the theft was reported.",
+                "ko": "절도 신고 전에 고발장이 작성되었어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "ps_extra_4",
+          "action": "review",
+          "line": {
+            "en": "Give both records to the guard.",
+            "ko": "두 기록을 경비병에게 주세요.",
+            "chunks": [
+              {
+                "en": "Give both records to the guard.",
+                "ko": "두 기록을 경비병에게 주세요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "ps_extra_1",
+          "action": "return",
+          "line": {
+            "en": "We need to check the records before we make a decision.",
+            "ko": "결정을 내리기 전에 기록을 확인해야 해요.",
+            "chunks": [
+              {
+                "en": "We need to check the records before we make a decision.",
+                "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_status": "case-specific corroboration and resolution still required",
+      "reward": "optional investigation flag",
+      "act": 1
+    },
+    {
+      "id": "pf_infiltration",
+      "town_id": "pf",
+      "title_en": "Letters Never Sent",
+      "title_ko": "보내지 못한 편지",
+      "faction": "False Tongue",
+      "agent": {
+        "id": "pf_agent",
+        "name_en": "Clerk Cinder",
+        "name_ko": "서기 신더",
+        "public_role": "Clerk",
+        "reveal": "after evidence review only"
+      },
+      "steps": [
+        {
+          "npc": "pf_extra_1",
+          "action": "accept",
+          "line": {
+            "en": "I have sent letters for years, but none has reached my friend.",
+            "ko": "수년 동안 편지를 보냈지만 친구에게 하나도 도착하지 않았어요.",
+            "chunks": [
+              {
+                "en": "I have sent letters for years, but none has reached my friend.",
+                "ko": "수년 동안 편지를 보냈지만 친구에게 하나도 도착하지 않았어요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "have sent letters for years, but none has reached my friend.",
+                    "ko": "수년 동안 편지를 보냈지만 친구에게 하나도 도착하지 않았어요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "have sent letters for years, but none has reached my friend.",
+                "ko": "수년 동안 편지를 보냈지만 친구에게 하나도 도착하지 않았어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "pf_agent",
+          "action": "interview",
+          "line": {
+            "en": "There must be a misunderstanding.",
+            "ko": "무언가 오해가 있는 것 같군요.",
+            "chunks": [
+              {
+                "en": "There must be a misunderstanding.",
+                "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "pf_extra_9",
+          "action": "collect_record",
+          "line": {
+            "en": "The clerk has kept the letters in a locked box.",
+            "ko": "서기가 편지들을 잠긴 상자에 보관해 왔어요.",
+            "chunks": [
+              {
+                "en": "The clerk has kept the letters in a locked box.",
+                "ko": "서기가 편지들을 잠긴 상자에 보관해 왔어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "pf_extra_4",
+          "action": "review",
+          "line": {
+            "en": "Ask the letter keeper to recover the letters.",
+            "ko": "편지 보관인에게 편지를 되찾아 달라고 하세요.",
+            "chunks": [
+              {
+                "en": "Ask the letter keeper to recover the letters.",
+                "ko": "편지 보관인에게 편지를 되찾아 달라고 하세요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "pf_extra_1",
+          "action": "return",
+          "line": {
+            "en": "We need to check the records before we make a decision.",
+            "ko": "결정을 내리기 전에 기록을 확인해야 해요.",
+            "chunks": [
+              {
+                "en": "We need to check the records before we make a decision.",
+                "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_status": "case-specific corroboration and resolution still required",
+      "reward": "optional investigation flag",
+      "act": 2
+    },
+    {
+      "id": "rv_infiltration",
+      "town_id": "rv",
+      "title_en": "The Map That Lies",
+      "title_ko": "거짓말하는 지도",
+      "faction": "Broken Quill",
+      "agent": {
+        "id": "rv_agent",
+        "name_en": "Surveyor Veil",
+        "name_ko": "측량사 베일",
+        "public_role": "Surveyor",
+        "reveal": "after evidence review only"
+      },
+      "steps": [
+        {
+          "npc": "rv_extra_1",
+          "action": "accept",
+          "line": {
+            "en": "This is the place where the old house stood.",
+            "ko": "이곳은 옛집이 있던 장소예요.",
+            "chunks": [
+              {
+                "en": "This is the place where the old house stood.",
+                "ko": "이곳은 옛집이 있던 장소예요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "rv_agent",
+          "action": "interview",
+          "line": {
+            "en": "There must be a misunderstanding.",
+            "ko": "무언가 오해가 있는 것 같군요.",
+            "chunks": [
+              {
+                "en": "There must be a misunderstanding.",
+                "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "rv_extra_9",
+          "action": "collect_record",
+          "line": {
+            "en": "The new map shows a road where there is only water.",
+            "ko": "새 지도에는 물밖에 없는 곳에 길이 표시돼 있어요.",
+            "chunks": [
+              {
+                "en": "The new map shows a road where there is only water.",
+                "ko": "새 지도에는 물밖에 없는 곳에 길이 표시돼 있어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "rv_extra_4",
+          "action": "review",
+          "line": {
+            "en": "Bring the original map to the harbor master.",
+            "ko": "원본 지도를 항구 책임자에게 가져가세요.",
+            "chunks": [
+              {
+                "en": "Bring the original map to the harbor master.",
+                "ko": "원본 지도를 항구 책임자에게 가져가세요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "rv_extra_1",
+          "action": "return",
+          "line": {
+            "en": "We need to check the records before we make a decision.",
+            "ko": "결정을 내리기 전에 기록을 확인해야 해요.",
+            "chunks": [
+              {
+                "en": "We need to check the records before we make a decision.",
+                "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_status": "case-specific corroboration and resolution still required",
+      "reward": "optional investigation flag",
+      "act": 2
+    },
+    {
+      "id": "pc_infiltration",
+      "town_id": "pc",
+      "title_en": "History in Black Ink",
+      "title_ko": "검은 잉크의 역사",
+      "faction": "Broken Quill",
+      "agent": {
+        "id": "pc_agent",
+        "name_en": "Scholar Vellum",
+        "name_ko": "학자 벨럼",
+        "public_role": "Scholar",
+        "reveal": "after evidence review only"
+      },
+      "steps": [
+        {
+          "npc": "pc_extra_1",
+          "action": "accept",
+          "line": {
+            "en": "Written in fresh ink, the last line cannot be ancient.",
+            "ko": "새 잉크로 쓰인 마지막 줄은 고대 기록일 수 없어요.",
+            "chunks": [
+              {
+                "en": "Written in fresh ink, the last line cannot be ancient.",
+                "ko": "새 잉크로 쓰인 마지막 줄은 고대 기록일 수 없어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "pc_agent",
+          "action": "interview",
+          "line": {
+            "en": "There must be a misunderstanding.",
+            "ko": "무언가 오해가 있는 것 같군요.",
+            "chunks": [
+              {
+                "en": "There must be a misunderstanding.",
+                "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "pc_extra_9",
+          "action": "collect_record",
+          "line": {
+            "en": "The stone copy has no such line.",
+            "ko": "돌에 새긴 사본에는 그런 줄이 없어요.",
+            "chunks": [
+              {
+                "en": "The stone copy has no such line.",
+                "ko": "돌에 새긴 사본에는 그런 줄이 없어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "pc_extra_4",
+          "action": "review",
+          "line": {
+            "en": "Preserve both copies for the library.",
+            "ko": "두 사본을 도서관에 보관하세요.",
+            "chunks": [
+              {
+                "en": "Preserve both copies for the library.",
+                "ko": "두 사본을 도서관에 보관하세요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "pc_extra_1",
+          "action": "return",
+          "line": {
+            "en": "We need to check the records before we make a decision.",
+            "ko": "결정을 내리기 전에 기록을 확인해야 해요.",
+            "chunks": [
+              {
+                "en": "We need to check the records before we make a decision.",
+                "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_status": "case-specific corroboration and resolution still required",
+      "reward": "optional investigation flag",
+      "act": 2
+    },
+    {
+      "id": "sj_infiltration",
+      "town_id": "sj",
+      "title_en": "The Wish Merchant",
+      "title_ko": "소원을 파는 상인",
+      "faction": "Silent Order",
+      "agent": {
+        "id": "sj_agent",
+        "name_en": "Merchant Mirage",
+        "name_ko": "상인 미라주",
+        "public_role": "Merchant",
+        "reveal": "after evidence review only"
+      },
+      "steps": [
+        {
+          "npc": "sj_extra_1",
+          "action": "accept",
+          "line": {
+            "en": "If I signed the paper, he would grant my wish.",
+            "ko": "내가 서류에 서명하면 그가 소원을 들어줄 거라고 했어요.",
+            "chunks": [
+              {
+                "en": "If I signed the paper, he would grant my wish.",
+                "ko": "내가 서류에 서명하면 그가 소원을 들어줄 거라고 했어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "sj_agent",
+          "action": "interview",
+          "line": {
+            "en": "There must be a misunderstanding.",
+            "ko": "무언가 오해가 있는 것 같군요.",
+            "chunks": [
+              {
+                "en": "There must be a misunderstanding.",
+                "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "sj_extra_9",
+          "action": "collect_record",
+          "line": {
+            "en": "The paper says you must obey him forever.",
+            "ko": "서류에는 영원히 그에게 복종해야 한다고 적혀 있어요.",
+            "chunks": [
+              {
+                "en": "The paper says you must obey him forever.",
+                "ko": "서류에는 영원히 그에게 복종해야 한다고 적혀 있어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "sj_extra_4",
+          "action": "review",
+          "line": {
+            "en": "Let the villagers decide after reading the whole agreement.",
+            "ko": "주민들이 계약서 전체를 읽고 결정하게 하세요.",
+            "chunks": [
+              {
+                "en": "Let the villagers decide after reading the whole agreement.",
+                "ko": "주민들이 계약서 전체를 읽고 결정하게 하세요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "sj_extra_1",
+          "action": "return",
+          "line": {
+            "en": "We need to check the records before we make a decision.",
+            "ko": "결정을 내리기 전에 기록을 확인해야 해요.",
+            "chunks": [
+              {
+                "en": "We need to check the records before we make a decision.",
+                "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_status": "case-specific corroboration and resolution still required",
+      "reward": "optional investigation flag",
+      "act": 2
+    },
+    {
+      "id": "cp_infiltration",
+      "town_id": "cp",
+      "title_en": "The Bought Victory",
+      "title_ko": "돈으로 산 승리",
+      "faction": "Iron Chain",
+      "agent": {
+        "id": "cp_agent",
+        "name_en": "Sponsor Gilt",
+        "name_ko": "후원자 길트",
+        "public_role": "Sponsor",
+        "reveal": "after evidence review only"
+      },
+      "steps": [
+        {
+          "npc": "cp_extra_1",
+          "action": "accept",
+          "line": {
+            "en": "The second runner was faster than the declared winner.",
+            "ko": "두 번째 선수가 발표된 우승자보다 빨랐어요.",
+            "chunks": [
+              {
+                "en": "The second runner was faster than the declared winner.",
+                "ko": "두 번째 선수가 발표된 우승자보다 빨랐어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "cp_agent",
+          "action": "interview",
+          "line": {
+            "en": "There must be a misunderstanding.",
+            "ko": "무언가 오해가 있는 것 같군요.",
+            "chunks": [
+              {
+                "en": "There must be a misunderstanding.",
+                "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "cp_extra_9",
+          "action": "collect_record",
+          "line": {
+            "en": "The original race record proves it.",
+            "ko": "원래 경주 기록이 그것을 증명해요.",
+            "chunks": [
+              {
+                "en": "The original race record proves it.",
+                "ko": "원래 경주 기록이 그것을 증명해요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "cp_extra_4",
+          "action": "review",
+          "line": {
+            "en": "Ask the judge to publish the original result.",
+            "ko": "심판에게 원래 결과를 공개해 달라고 하세요.",
+            "chunks": [
+              {
+                "en": "Ask the judge to publish the original result.",
+                "ko": "심판에게 원래 결과를 공개해 달라고 하세요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "cp_extra_1",
+          "action": "return",
+          "line": {
+            "en": "We need to check the records before we make a decision.",
+            "ko": "결정을 내리기 전에 기록을 확인해야 해요.",
+            "chunks": [
+              {
+                "en": "We need to check the records before we make a decision.",
+                "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_status": "case-specific corroboration and resolution still required",
+      "reward": "optional investigation flag",
+      "act": 2
+    },
+    {
+      "id": "pn_infiltration",
+      "town_id": "pn",
+      "title_en": "Names for Sale",
+      "title_ko": "팔려 나가는 이름",
+      "faction": "Black Hand",
+      "agent": {
+        "id": "pn_agent",
+        "name_en": "Broker Alias",
+        "name_ko": "중개인 에일리어스",
+        "public_role": "Broker",
+        "reveal": "after evidence review only"
+      },
+      "steps": [
+        {
+          "npc": "pn_extra_1",
+          "action": "accept",
+          "line": {
+            "en": "This seal is mine, but the signature is not.",
+            "ko": "이 인장은 내 것이지만 서명은 내 것이 아니에요.",
+            "chunks": [
+              {
+                "en": "This seal is mine, but the signature is not.",
+                "ko": "이 인장은 내 것이지만 서명은 내 것이 아니에요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "pn_agent",
+          "action": "interview",
+          "line": {
+            "en": "There must be a misunderstanding.",
+            "ko": "무언가 오해가 있는 것 같군요.",
+            "chunks": [
+              {
+                "en": "There must be a misunderstanding.",
+                "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "pn_extra_9",
+          "action": "collect_record",
+          "line": {
+            "en": "The broker used someone else's name.",
+            "ko": "중개인은 다른 사람의 이름을 사용했어요.",
+            "chunks": [
+              {
+                "en": "The broker used someone else's name.",
+                "ko": "중개인은 다른 사람의 이름을 사용했어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "pn_extra_4",
+          "action": "review",
+          "line": {
+            "en": "Return the seal to its owner and report the forgery.",
+            "ko": "인장을 주인에게 돌려주고 위조를 신고하세요.",
+            "chunks": [
+              {
+                "en": "Return the seal to its owner and report the forgery.",
+                "ko": "인장을 주인에게 돌려주고 위조를 신고하세요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "pn_extra_1",
+          "action": "return",
+          "line": {
+            "en": "We need to check the records before we make a decision.",
+            "ko": "결정을 내리기 전에 기록을 확인해야 해요.",
+            "chunks": [
+              {
+                "en": "We need to check the records before we make a decision.",
+                "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_status": "case-specific corroboration and resolution still required",
+      "reward": "optional investigation flag",
+      "act": 2
+    },
+    {
+      "id": "ot_infiltration",
+      "town_id": "ot",
+      "title_en": "The Closed Harbor",
+      "title_ko": "봉쇄된 항구",
+      "faction": "Iron Chain",
+      "agent": {
+        "id": "ot_agent",
+        "name_en": "Inspector Lock",
+        "name_ko": "검사관 로크",
+        "public_role": "Inspector",
+        "reveal": "after evidence review only"
+      },
+      "steps": [
+        {
+          "npc": "ot_extra_1",
+          "action": "accept",
+          "line": {
+            "en": "The notice says the harbor is closed until Friday.",
+            "ko": "안내문에는 금요일까지 항구가 폐쇄된다고 적혀 있어요.",
+            "chunks": [
+              {
+                "en": "The notice says the harbor is closed until Friday.",
+                "ko": "안내문에는 금요일까지 항구가 폐쇄된다고 적혀 있어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "ot_agent",
+          "action": "interview",
+          "line": {
+            "en": "There must be a misunderstanding.",
+            "ko": "무언가 오해가 있는 것 같군요.",
+            "chunks": [
+              {
+                "en": "There must be a misunderstanding.",
+                "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "ot_extra_9",
+          "action": "collect_record",
+          "line": {
+            "en": "The harbor master issued no such notice.",
+            "ko": "항구 책임자는 그런 안내문을 발행하지 않았어요.",
+            "chunks": [
+              {
+                "en": "The harbor master issued no such notice.",
+                "ko": "항구 책임자는 그런 안내문을 발행하지 않았어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "ot_extra_4",
+          "action": "review",
+          "line": {
+            "en": "Ask the harbor master to correct the notice.",
+            "ko": "항구 책임자에게 안내문을 바로잡아 달라고 하세요.",
+            "chunks": [
+              {
+                "en": "Ask the harbor master to correct the notice.",
+                "ko": "항구 책임자에게 안내문을 바로잡아 달라고 하세요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "ot_extra_1",
+          "action": "return",
+          "line": {
+            "en": "We need to check the records before we make a decision.",
+            "ko": "결정을 내리기 전에 기록을 확인해야 해요.",
+            "chunks": [
+              {
+                "en": "We need to check the records before we make a decision.",
+                "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_status": "case-specific corroboration and resolution still required",
+      "reward": "optional investigation flag",
+      "act": 3
+    },
+    {
+      "id": "iv_infiltration",
+      "town_id": "iv",
+      "title_en": "The Academy of Obedience",
+      "title_ko": "복종의 학교",
+      "faction": "Silent Order",
+      "agent": {
+        "id": "iv_agent",
+        "name_en": "Tutor Creed",
+        "name_ko": "교사 크리드",
+        "public_role": "Tutor",
+        "reveal": "after evidence review only"
+      },
+      "steps": [
+        {
+          "npc": "iv_extra_1",
+          "action": "accept",
+          "line": {
+            "en": "They teach students to repeat, not to ask questions.",
+            "ko": "그들은 학생들에게 질문하지 않고 따라 말하도록 가르쳐요.",
+            "chunks": [
+              {
+                "en": "They teach students to repeat, not to ask questions.",
+                "ko": "그들은 학생들에게 질문하지 않고 따라 말하도록 가르쳐요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "iv_agent",
+          "action": "interview",
+          "line": {
+            "en": "There must be a misunderstanding.",
+            "ko": "무언가 오해가 있는 것 같군요.",
+            "chunks": [
+              {
+                "en": "There must be a misunderstanding.",
+                "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "iv_extra_9",
+          "action": "collect_record",
+          "line": {
+            "en": "Learning means understanding, not merely repeating.",
+            "ko": "배움은 단순히 반복하는 것이 아니라 이해하는 것이에요.",
+            "chunks": [
+              {
+                "en": "Learning means understanding, not merely repeating.",
+                "ko": "배움은 단순히 반복하는 것이 아니라 이해하는 것이에요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "iv_extra_4",
+          "action": "review",
+          "line": {
+            "en": "Invite the students to the open lesson.",
+            "ko": "학생들을 공개 수업에 초대하세요.",
+            "chunks": [
+              {
+                "en": "Invite the students to the open lesson.",
+                "ko": "학생들을 공개 수업에 초대하세요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "iv_extra_1",
+          "action": "return",
+          "line": {
+            "en": "We need to check the records before we make a decision.",
+            "ko": "결정을 내리기 전에 기록을 확인해야 해요.",
+            "chunks": [
+              {
+                "en": "We need to check the records before we make a decision.",
+                "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_status": "case-specific corroboration and resolution still required",
+      "reward": "optional investigation flag",
+      "act": 3
+    },
+    {
+      "id": "pe_infiltration",
+      "town_id": "pe",
+      "title_en": "The Monster That Wasn't",
+      "title_ko": "괴물이 아니었던 것",
+      "faction": "False Tongue",
+      "agent": {
+        "id": "pe_agent",
+        "name_en": "Hunter Hushwood",
+        "name_ko": "사냥꾼 허쉬우드",
+        "public_role": "Hunter",
+        "reveal": "after evidence review only"
+      },
+      "steps": [
+        {
+          "npc": "pe_extra_1",
+          "action": "accept",
+          "line": {
+            "en": "I heard someone make the bell ring.",
+            "ko": "누군가 종을 울리게 하는 것을 들었어요.",
+            "chunks": [
+              {
+                "en": "I heard someone make the bell ring.",
+                "ko": "누군가 종을 울리게 하는 것을 들었어요.",
+                "direct_chunks": [
+                  {
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "heard someone make the bell ring.",
+                    "ko": "누군가 종을 울리게 하는 것을 들었어요."
+                  }
+                ]
+              }
+            ],
+            "direct_chunks": [
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "heard someone make the bell ring.",
+                "ko": "누군가 종을 울리게 하는 것을 들었어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "pe_agent",
+          "action": "interview",
+          "line": {
+            "en": "There must be a misunderstanding.",
+            "ko": "무언가 오해가 있는 것 같군요.",
+            "chunks": [
+              {
+                "en": "There must be a misunderstanding.",
+                "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "pe_extra_9",
+          "action": "collect_record",
+          "line": {
+            "en": "The hunter's story says a monster rang it.",
+            "ko": "사냥꾼의 이야기에는 괴물이 종을 울렸다고 되어 있어요.",
+            "chunks": [
+              {
+                "en": "The hunter's story says a monster rang it.",
+                "ko": "사냥꾼의 이야기에는 괴물이 종을 울렸다고 되어 있어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "pe_extra_4",
+          "action": "review",
+          "line": {
+            "en": "Compare the witness reports before entering the woods.",
+            "ko": "숲에 들어가기 전에 목격자들의 증언을 비교하세요.",
+            "chunks": [
+              {
+                "en": "Compare the witness reports before entering the woods.",
+                "ko": "숲에 들어가기 전에 목격자들의 증언을 비교하세요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "pe_extra_1",
+          "action": "return",
+          "line": {
+            "en": "We need to check the records before we make a decision.",
+            "ko": "결정을 내리기 전에 기록을 확인해야 해요.",
+            "chunks": [
+              {
+                "en": "We need to check the records before we make a decision.",
+                "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_status": "case-specific corroboration and resolution still required",
+      "reward": "optional investigation flag",
+      "act": 3
+    },
+    {
+      "id": "ng_infiltration",
+      "town_id": "ng",
+      "title_en": "A Festival Without Voices",
+      "title_ko": "목소리 없는 축제",
+      "faction": "Silent Order",
+      "agent": {
+        "id": "ng_agent",
+        "name_en": "Director Mute",
+        "name_ko": "연출가 뮤트",
+        "public_role": "Director",
+        "reveal": "after evidence review only"
+      },
+      "steps": [
+        {
+          "npc": "ng_extra_1",
+          "action": "accept",
+          "line": {
+            "en": "Do not sing unless you have permission.",
+            "ko": "허락을 받지 않으면 노래하지 마세요.",
+            "chunks": [
+              {
+                "en": "Do not sing unless you have permission.",
+                "ko": "허락을 받지 않으면 노래하지 마세요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "ng_agent",
+          "action": "interview",
+          "line": {
+            "en": "There must be a misunderstanding.",
+            "ko": "무언가 오해가 있는 것 같군요.",
+            "chunks": [
+              {
+                "en": "There must be a misunderstanding.",
+                "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "ng_extra_9",
+          "action": "collect_record",
+          "line": {
+            "en": "The festival committee never approved that rule.",
+            "ko": "축제 위원회는 그 규칙을 승인한 적이 없어요.",
+            "chunks": [
+              {
+                "en": "The festival committee never approved that rule.",
+                "ko": "축제 위원회는 그 규칙을 승인한 적이 없어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "ng_extra_4",
+          "action": "review",
+          "line": {
+            "en": "Ask the committee to restore the original program.",
+            "ko": "위원회에 원래 프로그램을 복원해 달라고 하세요.",
+            "chunks": [
+              {
+                "en": "Ask the committee to restore the original program.",
+                "ko": "위원회에 원래 프로그램을 복원해 달라고 하세요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "ng_extra_1",
+          "action": "return",
+          "line": {
+            "en": "We need to check the records before we make a decision.",
+            "ko": "결정을 내리기 전에 기록을 확인해야 해요.",
+            "chunks": [
+              {
+                "en": "We need to check the records before we make a decision.",
+                "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_status": "case-specific corroboration and resolution still required",
+      "reward": "optional investigation flag",
+      "act": 3
+    },
+    {
+      "id": "rs_infiltration",
+      "town_id": "rs",
+      "title_en": "The Second Message",
+      "title_ko": "두 번째 전갈",
+      "faction": "False Tongue",
+      "agent": {
+        "id": "rs_agent",
+        "name_en": "Envoy Echo",
+        "name_ko": "특사 에코",
+        "public_role": "Envoy",
+        "reveal": "after evidence review only"
+      },
+      "steps": [
+        {
+          "npc": "rs_extra_1",
+          "action": "accept",
+          "line": {
+            "en": "He said that the library was safe.",
+            "ko": "그는 도서관이 안전하다고 말했어요.",
+            "chunks": [
+              {
+                "en": "He said that the library was safe.",
+                "ko": "그는 도서관이 안전하다고 말했어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "rs_agent",
+          "action": "interview",
+          "line": {
+            "en": "There must be a misunderstanding.",
+            "ko": "무언가 오해가 있는 것 같군요.",
+            "chunks": [
+              {
+                "en": "There must be a misunderstanding.",
+                "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "rs_extra_9",
+          "action": "collect_record",
+          "line": {
+            "en": "The copied message says that it must be closed.",
+            "ko": "복사된 전갈에는 도서관을 폐쇄해야 한다고 적혀 있어요.",
+            "chunks": [
+              {
+                "en": "The copied message says that it must be closed.",
+                "ko": "복사된 전갈에는 도서관을 폐쇄해야 한다고 적혀 있어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "rs_extra_4",
+          "action": "review",
+          "line": {
+            "en": "Take the original message to Lexion.",
+            "ko": "원본 전갈을 렉시온에게 가져가세요.",
+            "chunks": [
+              {
+                "en": "Take the original message to Lexion.",
+                "ko": "원본 전갈을 렉시온에게 가져가세요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "rs_extra_1",
+          "action": "return",
+          "line": {
+            "en": "We need to check the records before we make a decision.",
+            "ko": "결정을 내리기 전에 기록을 확인해야 해요.",
+            "chunks": [
+              {
+                "en": "We need to check the records before we make a decision.",
+                "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_status": "case-specific corroboration and resolution still required",
+      "reward": "optional investigation flag",
+      "act": 3
+    },
+    {
+      "id": "sx_infiltration",
+      "town_id": "sx",
+      "title_en": "The Order Behind the Order",
+      "title_ko": "명령 뒤의 명령",
+      "faction": "Silent Order",
+      "agent": {
+        "id": "sx_agent",
+        "name_en": "Counselor Null",
+        "name_ko": "고문 널",
+        "public_role": "Counselor",
+        "reveal": "after evidence review only"
+      },
+      "steps": [
+        {
+          "npc": "sx_extra_1",
+          "action": "accept",
+          "line": {
+            "en": "It was the council, not the counselor, that made the law.",
+            "ko": "법을 만든 것은 고문이 아니라 의회였어요.",
+            "chunks": [
+              {
+                "en": "It was the council, not the counselor, that made the law.",
+                "ko": "법을 만든 것은 고문이 아니라 의회였어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "sx_agent",
+          "action": "interview",
+          "line": {
+            "en": "There must be a misunderstanding.",
+            "ko": "무언가 오해가 있는 것 같군요.",
+            "chunks": [
+              {
+                "en": "There must be a misunderstanding.",
+                "ko": "무언가 오해가 있는 것 같군요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "sx_extra_9",
+          "action": "collect_record",
+          "line": {
+            "en": "Never did the council approve the order to silence the towns.",
+            "ko": "의회는 마을들을 침묵시키라는 명령을 승인한 적이 없어요.",
+            "chunks": [
+              {
+                "en": "Never did the council approve the order to silence the towns.",
+                "ko": "의회는 마을들을 침묵시키라는 명령을 승인한 적이 없어요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "sx_extra_4",
+          "action": "review",
+          "line": {
+            "en": "Bring the council record to the castellan.",
+            "ko": "의회 기록을 성주에게 가져가세요.",
+            "chunks": [
+              {
+                "en": "Bring the council record to the castellan.",
+                "ko": "의회 기록을 성주에게 가져가세요."
+              }
+            ]
+          }
+        },
+        {
+          "npc": "sx_extra_1",
+          "action": "return",
+          "line": {
+            "en": "We need to check the records before we make a decision.",
+            "ko": "결정을 내리기 전에 기록을 확인해야 해요.",
+            "chunks": [
+              {
+                "en": "We need to check the records before we make a decision.",
+                "ko": "결정을 내리기 전에 기록을 확인해야 해요."
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_status": "case-specific corroboration and resolution still required",
+      "reward": "optional investigation flag",
+      "act": 3
+    }
+  ],
+  "arc": [
+    {
+      "act": 1,
+      "theme": "isolated incidents",
+      "towns": [
+        "g1",
+        "g2",
+        "tn",
+        "md",
+        "rp",
+        "ps"
+      ]
+    },
+    {
+      "act": 2,
+      "theme": "connected forged records",
+      "towns": [
+        "pf",
+        "rv",
+        "pc",
+        "sj",
+        "cp",
+        "pn"
+      ]
+    },
+    {
+      "act": 3,
+      "theme": "attempted control of public speech",
+      "towns": [
+        "ot",
+        "iv",
+        "pe",
+        "ng",
+        "rs",
+        "sx"
+      ]
+    }
+  ],
+  "policy": "New agents are separate NPCs; do not replace existing residents. Suspicion is not proof. No mandatory gates or real-world tactics. Preserve existing finale and optional story progression. No automatic conviction based on single clue. Draft requires unique corroboration, final confrontation and aftermath before release."
+}
