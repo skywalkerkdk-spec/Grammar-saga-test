@@ -161,8 +161,20 @@
           "ko": "대륙 일상어는"
         },
         {
-          "en": "helps us understand each other.",
-          "ko": "우리가 서로 이해하도록 도와주지."
+          "en": "helps",
+          "ko": "도와주지"
+        },
+        {
+          "en": "us",
+          "ko": "우리가"
+        },
+        {
+          "en": "understand",
+          "ko": "이해하도록"
+        },
+        {
+          "en": "each other.",
+          "ko": "서로."
         }
       ],
       "speaker_en": "Lexion"
@@ -197,8 +209,16 @@
           "ko": "주민들을 돕게나"
         },
         {
-          "en": "and find the missing pages.",
-          "ko": "그리고 사라진 페이지들을 찾게나."
+          "en": "and",
+          "ko": "그리고"
+        },
+        {
+          "en": "find",
+          "ko": "찾게나"
+        },
+        {
+          "en": "the missing pages.",
+          "ko": "사라진 페이지들을."
         }
       ],
       "speaker_en": "Lexion"
@@ -244,8 +264,16 @@
             "ko": "초원에서 황금빛 페이지를 봤어요.",
             "chunks": [
               {
-                "en": "I saw a golden page",
-                "ko": "저는 황금빛 페이지를 봤어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "saw",
+                "ko": "봤어요"
+              },
+              {
+                "en": "a golden page",
+                "ko": "황금빛 페이지를."
               },
               {
                 "en": "in the meadow.",
@@ -268,8 +296,12 @@
             "ko": "훌륭한 안내원이 되고 싶어요.",
             "chunks": [
               {
-                "en": "I want to be",
-                "ko": "저는 되고 싶어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "want to be",
+                "ko": "되고 싶어요."
               },
               {
                 "en": "a good guide.",
@@ -286,7 +318,7 @@
             "chunks": [
               {
                 "en": "A big tree monster",
-                "ko": "커다란 나무 괴물이"
+                "ko": "커다란 나무 괴물이."
               },
               {
                 "en": "took the page.",
@@ -418,8 +450,12 @@
         "ko": "이 채소들을 퀘스턴의 도트에게 가져다주세요.",
         "chunks": [
           {
-            "en": "Please take these vegetables",
-            "ko": "이 채소들을 가져다주세요"
+            "en": "Please take",
+            "ko": "가져다주세요"
+          },
+          {
+            "en": "these vegetables",
+            "ko": "이 채소들을."
           },
           {
             "en": "to Dot in Queston.",
@@ -440,8 +476,12 @@
               "ko": "페이지가"
             },
             {
-              "en": "is giving off dark magic.",
-              "ko": "어둠의 마력을 내뿜고 있어."
+              "en": "is giving off",
+              "ko": "내뿜고 있어"
+            },
+            {
+              "en": "dark magic.",
+              "ko": "어둠의 마력을."
             }
           ],
           "speaker_legacy": "옥시",
@@ -547,8 +587,16 @@
                 "ko": "피곤하세요?"
               },
               {
-                "en": "I cannot ask my patients.",
-                "ko": "환자들에게 물어볼 수 없어요."
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "cannot ask",
+                "ko": "물어볼 수 없어요"
+              },
+              {
+                "en": "my patients.",
+                "ko": "환자들에게."
               }
             ],
             "speaker_legacy": "약초꾼 미라",
@@ -564,8 +612,12 @@
                 "ko": "동굴은"
               },
               {
-                "en": "is full of strange echoes.",
-                "ko": "이상한 메아리로 가득해요."
+                "en": "is full",
+                "ko": "가득해요"
+              },
+              {
+                "en": "of strange echoes.",
+                "ko": "이상한 메아리로."
               }
             ],
             "speaker_legacy": "약초꾼 미라",
@@ -601,8 +653,12 @@
             "ko": "손님들이 무엇을 좋아하는지 물어봐야 해요.",
             "chunks": [
               {
-                "en": "I need to ask",
-                "ko": "저는 물어봐야 해요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "need to ask",
+                "ko": "물어봐야 해요."
               },
               {
                 "en": "what they like.",
@@ -625,8 +681,16 @@
             "ko": "테니스를 함께 칠 짝이 필요해요.",
             "chunks": [
               {
-                "en": "I need a partner",
-                "ko": "저는 짝이 필요해요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "need",
+                "ko": "필요해요"
+              },
+              {
+                "en": "a partner",
+                "ko": "짝이."
               },
               {
                 "en": "for tennis.",
@@ -705,8 +769,20 @@
         "ko": "이제 손님들에게 무엇을 원하는지 물어볼 수 있어요.",
         "chunks": [
           {
-            "en": "Now I can ask my customers",
-            "ko": "이제 손님들에게 물어볼 수 있어요"
+            "en": "Now",
+            "ko": "이제"
+          },
+          {
+            "en": "I",
+            "ko": "저는"
+          },
+          {
+            "en": "can ask",
+            "ko": "물어볼 수 있어요"
+          },
+          {
+            "en": "my customers",
+            "ko": "손님들에게."
           },
           {
             "en": "what they want.",
@@ -748,8 +824,12 @@
               "ko": "페이지가"
             },
             {
-              "en": "is giving off dark magic.",
-              "ko": "어둠의 마력을 내뿜고 있어."
+              "en": "is giving off",
+              "ko": "내뿜고 있어"
+            },
+            {
+              "en": "dark magic.",
+              "ko": "어둠의 마력을."
             }
           ],
           "speaker_legacy": "옥시",
@@ -851,12 +931,28 @@
             "ko": "케이크 주문이 있는데 날짜가 불분명해요.",
             "chunks": [
               {
-                "en": "I have a cake order,",
-                "ko": "케이크 주문이 있어요,"
+                "en": "I",
+                "ko": "저는"
               },
               {
-                "en": "but the date is unclear.",
-                "ko": "하지만 날짜가 불분명해요."
+                "en": "have",
+                "ko": "있어요"
+              },
+              {
+                "en": "a cake order,",
+                "ko": "케이크 주문이,"
+              },
+              {
+                "en": "but",
+                "ko": "하지만"
+              },
+              {
+                "en": "the date",
+                "ko": "날짜가"
+              },
+              {
+                "en": "is unclear.",
+                "ko": "불분명해요."
               }
             ],
             "speaker_legacy": "빵집 주인 보리",
@@ -909,8 +1005,16 @@
             "ko": "엄마가 어제 사과를 샀어요.",
             "chunks": [
               {
-                "en": "My mother bought apples",
-                "ko": "엄마가 사과를 샀어요"
+                "en": "My mother",
+                "ko": "엄마가"
+              },
+              {
+                "en": "bought",
+                "ko": "샀어요"
+              },
+              {
+                "en": "apples",
+                "ko": "사과를."
               },
               {
                 "en": "yesterday.",
@@ -991,8 +1095,12 @@
             "ko": "캔윌로 갈 소포가 아직 여기 있어요.",
             "chunks": [
               {
-                "en": "A package for Canwill",
-                "ko": "캔윌로 갈 소포가"
+                "en": "A package",
+                "ko": "소포가"
+              },
+              {
+                "en": "for Canwill",
+                "ko": "캔윌로 갈."
               },
               {
                 "en": "is still here.",
@@ -1013,12 +1121,24 @@
         "ko": "케이크가 준비됐으니 파티를 시작할 수 있어요!",
         "chunks": [
           {
-            "en": "The cake is ready,",
-            "ko": "케이크가 준비됐어요,"
+            "en": "The cake",
+            "ko": "케이크가"
           },
           {
-            "en": "and the party can begin!",
-            "ko": "그리고 파티를 시작할 수 있어요!"
+            "en": "is ready,",
+            "ko": "준비됐어요,"
+          },
+          {
+            "en": "and",
+            "ko": "그리고"
+          },
+          {
+            "en": "the party",
+            "ko": "파티를"
+          },
+          {
+            "en": "can begin!",
+            "ko": "시작할 수 있어요!"
           }
         ],
         "speaker_legacy": "빵집 주인 보리",
@@ -1030,8 +1150,12 @@
         "ko": "이 소포를 모달베일로 배달해 주세요.",
         "chunks": [
           {
-            "en": "Please deliver this package",
-            "ko": "이 소포를 배달해 주세요"
+            "en": "Please deliver",
+            "ko": "배달해 주세요"
+          },
+          {
+            "en": "this package",
+            "ko": "이 소포를."
           },
           {
             "en": "to Modalvale.",
@@ -1052,8 +1176,12 @@
               "ko": "페이지가"
             },
             {
-              "en": "is giving off dark magic.",
-              "ko": "어둠의 마력을 내뿜고 있어."
+              "en": "is giving off",
+              "ko": "내뿜고 있어"
+            },
+            {
+              "en": "dark magic.",
+              "ko": "어둠의 마력을."
             }
           ],
           "speaker_legacy": "옥시",
@@ -1172,8 +1300,16 @@
             "ko": "비가 오기 전에 다리를 수리해야 해.",
             "chunks": [
               {
-                "en": "We must repair it",
-                "ko": "우리는 그것을 수리해야 해"
+                "en": "We",
+                "ko": "우리는"
+              },
+              {
+                "en": "must repair",
+                "ko": "수리해야 해"
+              },
+              {
+                "en": "it",
+                "ko": "그것을."
               },
               {
                 "en": "before the rain.",
@@ -1213,8 +1349,16 @@
             "ko": "다리 근처에서는 안전모를 써야 해요.",
             "chunks": [
               {
-                "en": "You must wear a helmet",
-                "ko": "안전모를 써야 해요"
+                "en": "You",
+                "ko": "당신은"
+              },
+              {
+                "en": "must wear",
+                "ko": "써야 해요"
+              },
+              {
+                "en": "a helmet",
+                "ko": "안전모를."
               },
               {
                 "en": "near the bridge.",
@@ -1317,8 +1461,16 @@
         "ko": "이제 안전하게 다리를 완성할 수 있어요.",
         "chunks": [
           {
-            "en": "We can finish the bridge",
-            "ko": "우리는 다리를 완성할 수 있어요"
+            "en": "We",
+            "ko": "우리는"
+          },
+          {
+            "en": "can finish",
+            "ko": "완성할 수 있어요"
+          },
+          {
+            "en": "the bridge",
+            "ko": "다리를."
           },
           {
             "en": "safely now.",
@@ -1334,8 +1486,12 @@
         "ko": "렐라우드에서 아이가 실종됐어요.",
         "chunks": [
           {
-            "en": "A child is missing",
-            "ko": "아이가 실종됐어요"
+            "en": "A child",
+            "ko": "아이가"
+          },
+          {
+            "en": "is missing",
+            "ko": "실종됐어요."
           },
           {
             "en": "in Relawood.",
@@ -1356,8 +1512,12 @@
               "ko": "페이지가"
             },
             {
-              "en": "is giving off dark magic.",
-              "ko": "어둠의 마력을 내뿜고 있어."
+              "en": "is giving off",
+              "ko": "내뿜고 있어"
+            },
+            {
+              "en": "dark magic.",
+              "ko": "어둠의 마력을."
             }
           ],
           "speaker_legacy": "옥시",
@@ -1459,8 +1619,16 @@
             "ko": "실종된 소녀를 찾고 있어요.",
             "chunks": [
               {
-                "en": "We are looking for a girl",
-                "ko": "우리는 소녀를 찾고 있어요"
+                "en": "We",
+                "ko": "우리는"
+              },
+              {
+                "en": "are looking for",
+                "ko": "찾고 있어요"
+              },
+              {
+                "en": "a girl",
+                "ko": "소녀를."
               },
               {
                 "en": "who is missing.",
@@ -1500,8 +1668,16 @@
             "ko": "숲에 관한 책을 찾았어요.",
             "chunks": [
               {
-                "en": "I found a book",
-                "ko": "책을 찾았어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "found",
+                "ko": "찾았어요"
+              },
+              {
+                "en": "a book",
+                "ko": "책을."
               },
               {
                 "en": "about the forest.",
@@ -1541,8 +1717,12 @@
             "ko": "빨간 차를 가진 남자가 소녀를 봤어요.",
             "chunks": [
               {
-                "en": "A man with a red car",
-                "ko": "빨간 차를 가진 남자가"
+                "en": "A man",
+                "ko": "남자가"
+              },
+              {
+                "en": "with a red car",
+                "ko": "빨간 차를 가진."
               },
               {
                 "en": "saw the girl.",
@@ -1582,8 +1762,16 @@
             "ko": "그녀를 마지막으로 본 소년을 알고 있네.",
             "chunks": [
               {
-                "en": "I know the boy",
-                "ko": "나는 소년을 알고 있네"
+                "en": "I",
+                "ko": "나는"
+              },
+              {
+                "en": "know",
+                "ko": "알고 있네"
+              },
+              {
+                "en": "the boy",
+                "ko": "소년을."
               },
               {
                 "en": "who saw her last.",
@@ -1621,8 +1809,12 @@
         "ko": "소녀는 대피소에서 안전하게 지내고 있어요.",
         "chunks": [
           {
-            "en": "The girl is safe",
-            "ko": "소녀는 안전해요"
+            "en": "The girl",
+            "ko": "소녀는"
+          },
+          {
+            "en": "is safe",
+            "ko": "안전해요."
           },
           {
             "en": "in the shelter.",
@@ -1638,8 +1830,12 @@
         "ko": "패시브 레이크에서 책 한 권이 사라졌어요.",
         "chunks": [
           {
-            "en": "A book is missing",
-            "ko": "책 한 권이 사라졌어요"
+            "en": "A book",
+            "ko": "책 한 권이"
+          },
+          {
+            "en": "is missing",
+            "ko": "사라졌어요."
           },
           {
             "en": "from Passive Lake.",
@@ -1660,8 +1856,12 @@
               "ko": "페이지가"
             },
             {
-              "en": "is giving off dark magic.",
-              "ko": "어둠의 마력을 내뿜고 있어."
+              "en": "is giving off",
+              "ko": "내뿜고 있어"
+            },
+            {
+              "en": "dark magic.",
+              "ko": "어둠의 마력을."
             }
           ],
           "speaker_legacy": "옥시",
@@ -1780,8 +1980,16 @@
             "ko": "한 소년이 실수로 창문을 깼어요.",
             "chunks": [
               {
-                "en": "A boy broke it",
-                "ko": "한 소년이 그것을 깼어요"
+                "en": "A boy",
+                "ko": "한 소년이"
+              },
+              {
+                "en": "broke",
+                "ko": "깼어요"
+              },
+              {
+                "en": "it",
+                "ko": "그것을."
               },
               {
                 "en": "by accident.",
@@ -1821,8 +2029,12 @@
             "ko": "그 책은 유명한 시인이 썼어요.",
             "chunks": [
               {
-                "en": "The book was written",
-                "ko": "그 책은 쓰였어요"
+                "en": "The book",
+                "ko": "그 책은"
+              },
+              {
+                "en": "was written",
+                "ko": "쓰였어요."
               },
               {
                 "en": "by a famous poet.",
@@ -1862,12 +2074,24 @@
             "ko": "도둑은 잡혔지만 책은 아직 사라진 상태예요.",
             "chunks": [
               {
-                "en": "The thief was caught,",
-                "ko": "도둑은 잡혔지만,"
+                "en": "The thief",
+                "ko": "도둑은"
               },
               {
-                "en": "but the book is missing.",
-                "ko": "책은 사라진 상태예요."
+                "en": "was caught,",
+                "ko": "잡혔지만,"
+              },
+              {
+                "en": "but",
+                "ko": "하지만"
+              },
+              {
+                "en": "the book",
+                "ko": "책은"
+              },
+              {
+                "en": "is missing.",
+                "ko": "사라진 상태예요."
               }
             ],
             "speaker_legacy": "경비병 돈",
@@ -1886,8 +2110,16 @@
             "ko": "저는 매일 방을 청소해요.",
             "chunks": [
               {
-                "en": "I clean the room",
-                "ko": "저는 방을 청소해요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "clean",
+                "ko": "청소해요"
+              },
+              {
+                "en": "the room",
+                "ko": "방을."
               },
               {
                 "en": "every day.",
@@ -1903,8 +2135,12 @@
             "ko": "책은 호수 근처에 숨겨져 있었어요.",
             "chunks": [
               {
-                "en": "The book was hidden",
-                "ko": "책은 숨겨져 있었어요"
+                "en": "The book",
+                "ko": "책은"
+              },
+              {
+                "en": "was hidden",
+                "ko": "숨겨져 있었어요."
               },
               {
                 "en": "near the lake.",
@@ -1925,12 +2161,24 @@
         "ko": "책을 찾았고 소년의 누명도 벗겨졌어요.",
         "chunks": [
           {
-            "en": "The book was found,",
-            "ko": "책을 찾았고,"
+            "en": "The book",
+            "ko": "책을"
           },
           {
-            "en": "and the boy is innocent.",
-            "ko": "소년은 무죄예요."
+            "en": "was found,",
+            "ko": "찾았고,"
+          },
+          {
+            "en": "and",
+            "ko": "그리고"
+          },
+          {
+            "en": "the boy",
+            "ko": "소년은"
+          },
+          {
+            "en": "is innocent.",
+            "ko": "무죄예요."
           }
         ],
         "speaker_legacy": "빵집 아가씨 소피",
@@ -1942,8 +2190,12 @@
         "ko": "책 안에서 오래된 편지가 발견됐어요.",
         "chunks": [
           {
-            "en": "An old letter was found",
-            "ko": "오래된 편지가 발견됐어요"
+            "en": "An old letter",
+            "ko": "오래된 편지가"
+          },
+          {
+            "en": "was found",
+            "ko": "발견됐어요."
           },
           {
             "en": "inside the book.",
@@ -1964,8 +2216,12 @@
               "ko": "페이지가"
             },
             {
-              "en": "is giving off dark magic.",
-              "ko": "어둠의 마력을 내뿜고 있어."
+              "en": "is giving off",
+              "ko": "내뿜고 있어"
+            },
+            {
+              "en": "dark magic.",
+              "ko": "어둠의 마력을."
             }
           ],
           "speaker_legacy": "옥시",
@@ -2067,8 +2323,16 @@
             "ko": "저는 10년 동안 여기 살아 왔어요.",
             "chunks": [
               {
-                "en": "I have lived here",
-                "ko": "저는 여기 살아 왔어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "have lived",
+                "ko": "살아 왔어요"
+              },
+              {
+                "en": "here",
+                "ko": "여기."
               },
               {
                 "en": "for ten years.",
@@ -2088,8 +2352,16 @@
                 "ko": "저는 기다려 왔어요"
               },
               {
-                "en": "for a letter from my family.",
-                "ko": "가족의 편지를."
+                "en": "for",
+                "ko": "을 기다려요"
+              },
+              {
+                "en": "a letter",
+                "ko": "편지를"
+              },
+              {
+                "en": "from my family.",
+                "ko": "가족의."
               }
             ],
             "speaker_legacy": "집주인 맥스",
@@ -2108,8 +2380,12 @@
             "ko": "저는 막 숙제를 끝냈어요.",
             "chunks": [
               {
-                "en": "I have just finished",
-                "ko": "저는 막 끝냈어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "have just finished",
+                "ko": "막 끝냈어요."
               },
               {
                 "en": "my homework.",
@@ -2125,8 +2401,16 @@
             "ko": "오래된 편지를 읽는 것을 도와드릴 수 있어요.",
             "chunks": [
               {
-                "en": "I can help you",
-                "ko": "도와드릴 수 있어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "can help",
+                "ko": "도울 수 있어요"
+              },
+              {
+                "en": "you",
+                "ko": "당신을."
               },
               {
                 "en": "read the old letter.",
@@ -2190,8 +2474,12 @@
             "ko": "저는 그 음식을 먹어 본 적 없어요.",
             "chunks": [
               {
-                "en": "I have never eaten",
-                "ko": "저는 먹어 본 적 없어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "have never eaten",
+                "ko": "먹어 본 적 없어요."
               },
               {
                 "en": "that dish.",
@@ -2207,8 +2495,16 @@
             "ko": "여행자가 제 식탁에 메시지를 남겼어요.",
             "chunks": [
               {
-                "en": "A traveler left a message",
-                "ko": "여행자가 메시지를 남겼어요"
+                "en": "A traveler",
+                "ko": "여행자가"
+              },
+              {
+                "en": "left",
+                "ko": "남겼어요"
+              },
+              {
+                "en": "a message",
+                "ko": "메시지를."
               },
               {
                 "en": "at my table.",
@@ -2246,8 +2542,16 @@
         "ko": "편지에는 웨어포트의 집 한 채가 언급돼요.",
         "chunks": [
           {
-            "en": "The letter mentions a house",
-            "ko": "편지는 집 한 채를 언급해요"
+            "en": "The letter",
+            "ko": "편지는"
+          },
+          {
+            "en": "mentions",
+            "ko": "언급해요"
+          },
+          {
+            "en": "a house",
+            "ko": "집 한 채를."
           },
           {
             "en": "in Whereport.",
@@ -2268,8 +2572,12 @@
               "ko": "페이지가"
             },
             {
-              "en": "is giving off dark magic.",
-              "ko": "어둠의 마력을 내뿜고 있어."
+              "en": "is giving off",
+              "ko": "내뿜고 있어"
+            },
+            {
+              "en": "dark magic.",
+              "ko": "어둠의 마력을."
             }
           ],
           "speaker_legacy": "옥시",
@@ -2371,8 +2679,16 @@
             "ko": "제가 태어난 집을 찾고 싶어요.",
             "chunks": [
               {
-                "en": "I want to find the house",
-                "ko": "저는 집을 찾고 싶어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "want to find",
+                "ko": "찾고 싶어요"
+              },
+              {
+                "en": "the house",
+                "ko": "집을."
               },
               {
                 "en": "where I was born.",
@@ -2412,8 +2728,16 @@
             "ko": "가족이 떠난 이유를 알고 싶어요.",
             "chunks": [
               {
-                "en": "I want to know the reason",
-                "ko": "저는 이유를 알고 싶어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "want to know",
+                "ko": "알고 싶어요"
+              },
+              {
+                "en": "the reason",
+                "ko": "이유를."
               },
               {
                 "en": "why my family left.",
@@ -2433,8 +2757,12 @@
                 "ko": "그들은 떠났어요"
               },
               {
-                "en": "to protect an old record.",
-                "ko": "오래된 기록을 지키기 위해."
+                "en": "to protect",
+                "ko": "지키기 위해"
+              },
+              {
+                "en": "an old record.",
+                "ko": "오래된 기록을."
               }
             ],
             "speaker_legacy": "소녀 제나",
@@ -2453,8 +2781,16 @@
             "ko": "우리가 만났던 공원을 기억해요.",
             "chunks": [
               {
-                "en": "I remember the park",
-                "ko": "저는 공원을 기억해요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "remember",
+                "ko": "기억해요"
+              },
+              {
+                "en": "the park",
+                "ko": "공원을."
               },
               {
                 "en": "where we met.",
@@ -2533,8 +2869,16 @@
         "ko": "우리 이야기가 시작된 집을 찾았어요.",
         "chunks": [
           {
-            "en": "We found the house",
-            "ko": "우리는 집을 찾았어요"
+            "en": "We",
+            "ko": "우리는"
+          },
+          {
+            "en": "found",
+            "ko": "찾았어요"
+          },
+          {
+            "en": "the house",
+            "ko": "집을."
           },
           {
             "en": "where our story began.",
@@ -2554,8 +2898,12 @@
             "ko": "이 기록을 가져가게"
           },
           {
-            "en": "to Edlyn in Participle Canyon.",
-            "ko": "파티서플 캐니언의 에들린에게."
+            "en": "to Edlyn",
+            "ko": "에들린에게"
+          },
+          {
+            "en": "in Participle Canyon.",
+            "ko": "파티서플 캐니언의."
           }
         ],
         "speaker_legacy": "어부 노아",
@@ -2572,8 +2920,12 @@
               "ko": "페이지가"
             },
             {
-              "en": "is giving off dark magic.",
-              "ko": "어둠의 마력을 내뿜고 있어."
+              "en": "is giving off",
+              "ko": "내뿜고 있어"
+            },
+            {
+              "en": "dark magic.",
+              "ko": "어둠의 마력을."
             }
           ],
           "speaker_legacy": "옥시",
@@ -2679,8 +3031,16 @@
                 "ko": "협곡 근처를 걷다가,"
               },
               {
-                "en": "I found a stone tablet.",
-                "ko": "돌판을 발견했어요."
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "found",
+                "ko": "발견했어요"
+              },
+              {
+                "en": "a stone tablet.",
+                "ko": "돌판을."
               }
             ],
             "speaker_legacy": "산책자 윌",
@@ -2696,8 +3056,16 @@
                 "ko": "그것에는 문양이 있어요"
               },
               {
-                "en": "like those on the page.",
-                "ko": "페이지에 있는 것과 같은."
+                "en": "like",
+                "ko": "같은"
+              },
+              {
+                "en": "those",
+                "ko": "것들과"
+              },
+              {
+                "en": "on the page.",
+                "ko": "페이지에 있는."
               }
             ],
             "speaker_legacy": "산책자 윌",
@@ -2716,12 +3084,24 @@
             "ko": "옛 단어 몇 개를 알아서 첫 줄을 읽었어요.",
             "chunks": [
               {
-                "en": "Knowing a few old words,",
-                "ko": "옛 단어 몇 개를 알아서,"
+                "en": "Knowing",
+                "ko": "알아서"
               },
               {
-                "en": "I read the first line.",
-                "ko": "첫 줄을 읽었어요."
+                "en": "a few old words,",
+                "ko": "옛 단어 몇 개를,"
+              },
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "read",
+                "ko": "읽었어요"
+              },
+              {
+                "en": "the first line.",
+                "ko": "첫 줄을."
               }
             ],
             "speaker_legacy": "학생 카이",
@@ -2757,12 +3137,24 @@
             "ko": "옛 언어로 쓰인 기록은 읽기 어려워요.",
             "chunks": [
               {
-                "en": "Written in an old language,",
-                "ko": "옛 언어로 쓰여서,"
+                "en": "Written",
+                "ko": "쓰여서"
               },
               {
-                "en": "the record is hard to read.",
-                "ko": "기록은 읽기 어려워요."
+                "en": "in an old language,",
+                "ko": "옛 언어로,"
+              },
+              {
+                "en": "the record",
+                "ko": "기록은"
+              },
+              {
+                "en": "is hard",
+                "ko": "어려워요"
+              },
+              {
+                "en": "to read.",
+                "ko": "읽기."
               }
             ],
             "speaker_legacy": "사서 아델",
@@ -2778,8 +3170,12 @@
                 "ko": "같은 문양이"
               },
               {
-                "en": "appears in the library records.",
-                "ko": "도서관 기록에 나타나요."
+                "en": "appears",
+                "ko": "나타나요"
+              },
+              {
+                "en": "in the library records.",
+                "ko": "도서관 기록에."
               }
             ],
             "speaker_legacy": "사서 아델",
@@ -2815,8 +3211,16 @@
             "ko": "창문에서 어두운 빛을 봤어요.",
             "chunks": [
               {
-                "en": "I saw a dark light",
-                "ko": "어두운 빛을 봤어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "saw",
+                "ko": "봤어요"
+              },
+              {
+                "en": "a dark light",
+                "ko": "어두운 빛을."
               },
               {
                 "en": "from my window.",
@@ -2837,8 +3241,16 @@
         "ko": "기록이 이제 명확해요. 누군가 저주를 만들었어요.",
         "chunks": [
           {
-            "en": "The record is clear now.",
-            "ko": "기록이 이제 명확해요."
+            "en": "The record",
+            "ko": "기록이"
+          },
+          {
+            "en": "is clear",
+            "ko": "명확해요"
+          },
+          {
+            "en": "now.",
+            "ko": "이제."
           },
           {
             "en": "Someone created the curse.",
@@ -2876,8 +3288,12 @@
               "ko": "페이지가"
             },
             {
-              "en": "is giving off dark magic.",
-              "ko": "어둠의 마력을 내뿜고 있어."
+              "en": "is giving off",
+              "ko": "내뿜고 있어"
+            },
+            {
+              "en": "dark magic.",
+              "ko": "어둠의 마력을."
             }
           ],
           "speaker_legacy": "옥시",
@@ -2979,12 +3395,32 @@
             "ko": "내가 새라면 멀리 날아갈 텐데요.",
             "chunks": [
               {
-                "en": "If I were a bird,",
-                "ko": "내가 새라면,"
+                "en": "If",
+                "ko": "만약"
               },
               {
-                "en": "I would fly far away.",
-                "ko": "멀리 날아갈 텐데요."
+                "en": "I",
+                "ko": "내가"
+              },
+              {
+                "en": "were",
+                "ko": "라면"
+              },
+              {
+                "en": "a bird,",
+                "ko": "새,"
+              },
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "would fly",
+                "ko": "날아갈 텐데요"
+              },
+              {
+                "en": "far away.",
+                "ko": "멀리."
               }
             ],
             "speaker_legacy": "새 조련사 핀",
@@ -3020,12 +3456,32 @@
             "ko": "돈이 더 있다면 마을을 도울 텐데요.",
             "chunks": [
               {
-                "en": "If I had more money,",
-                "ko": "돈이 더 있다면,"
+                "en": "If",
+                "ko": "만약"
               },
               {
-                "en": "I would help the village.",
-                "ko": "마을을 도울 텐데요."
+                "en": "I",
+                "ko": "제가"
+              },
+              {
+                "en": "had",
+                "ko": "있다면"
+              },
+              {
+                "en": "more money,",
+                "ko": "돈이 더,"
+              },
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "would help",
+                "ko": "도울 텐데요"
+              },
+              {
+                "en": "the village.",
+                "ko": "마을을."
               }
             ],
             "speaker_legacy": "상인 오토",
@@ -3037,8 +3493,16 @@
             "ko": "새 경주에 작은 상품을 제공할 수 있어요.",
             "chunks": [
               {
-                "en": "I can offer a small prize",
-                "ko": "작은 상품을 제공할 수 있어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "can offer",
+                "ko": "제공할 수 있어요"
+              },
+              {
+                "en": "a small prize",
+                "ko": "작은 상품을."
               },
               {
                 "en": "for the bird race.",
@@ -3078,8 +3542,16 @@
             "ko": "그에게 줄 편지를 썼어요.",
             "chunks": [
               {
-                "en": "I wrote a letter",
-                "ko": "편지를 썼어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "wrote",
+                "ko": "썼어요"
+              },
+              {
+                "en": "a letter",
+                "ko": "편지를."
               },
               {
                 "en": "for him.",
@@ -3102,11 +3574,27 @@
             "ko": "더 열심히 공부했더라면 합격했을 텐데요.",
             "chunks": [
               {
-                "en": "If I had studied harder,",
-                "ko": "더 열심히 공부했더라면,"
+                "en": "If",
+                "ko": "만약"
               },
               {
-                "en": "I would have passed.",
+                "en": "I",
+                "ko": "제가"
+              },
+              {
+                "en": "had studied",
+                "ko": "공부했더라면"
+              },
+              {
+                "en": "harder,",
+                "ko": "더 열심히,"
+              },
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "would have passed.",
                 "ko": "합격했을 텐데요."
               }
             ],
@@ -3119,8 +3607,16 @@
             "ko": "내년에 다시 도전할 수 있어요.",
             "chunks": [
               {
-                "en": "I can try again",
-                "ko": "다시 도전할 수 있어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "can try",
+                "ko": "도전할 수 있어요"
+              },
+              {
+                "en": "again",
+                "ko": "다시."
               },
               {
                 "en": "next year.",
@@ -3141,8 +3637,16 @@
         "ko": "제 소원이 이루어질 기회가 생겼어요.",
         "chunks": [
           {
-            "en": "My wish has a chance",
-            "ko": "제 소원에 기회가 생겼어요"
+            "en": "My wish",
+            "ko": "제 소원에"
+          },
+          {
+            "en": "has",
+            "ko": "생겼어요"
+          },
+          {
+            "en": "a chance",
+            "ko": "기회가."
           },
           {
             "en": "to come true.",
@@ -3162,8 +3666,12 @@
             "ko": "새 경주는"
           },
           {
-            "en": "will be held in Compare Hills.",
-            "ko": "컴페어 힐스에서 열릴 거예요."
+            "en": "will be held",
+            "ko": "열릴 거예요"
+          },
+          {
+            "en": "in Compare Hills.",
+            "ko": "컴페어 힐스에서."
           }
         ],
         "speaker_legacy": "새 조련사 핀",
@@ -3180,8 +3688,12 @@
               "ko": "페이지가"
             },
             {
-              "en": "is giving off dark magic.",
-              "ko": "어둠의 마력을 내뿜고 있어."
+              "en": "is giving off",
+              "ko": "내뿜고 있어"
+            },
+            {
+              "en": "dark magic.",
+              "ko": "어둠의 마력을."
             }
           ],
           "speaker_legacy": "옥시",
@@ -3287,8 +3799,16 @@
                 "ko": "누가 더 빠르죠?"
               },
               {
-                "en": "I cannot read the results.",
-                "ko": "결과를 읽을 수 없어요."
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "cannot read",
+                "ko": "읽을 수 없어요"
+              },
+              {
+                "en": "the results.",
+                "ko": "결과를."
               }
             ],
             "speaker_legacy": "달리기 선수 아이",
@@ -3324,8 +3844,12 @@
             "ko": "이 가방은 저것보다 가벼워요.",
             "chunks": [
               {
-                "en": "This bag is lighter",
-                "ko": "이 가방은 더 가벼워요"
+                "en": "This bag",
+                "ko": "이 가방은"
+              },
+              {
+                "en": "is lighter",
+                "ko": "더 가벼워요."
               },
               {
                 "en": "than that one.",
@@ -3365,8 +3889,16 @@
             "ko": "제 방은 당신 방과 크기가 같아요.",
             "chunks": [
               {
-                "en": "My room is as big",
-                "ko": "제 방은 크기가 같아요"
+                "en": "My room",
+                "ko": "제 방은"
+              },
+              {
+                "en": "is",
+                "ko": "이에요"
+              },
+              {
+                "en": "as big",
+                "ko": "크기가 같은."
               },
               {
                 "en": "as yours.",
@@ -3406,8 +3938,12 @@
             "ko": "규칙이 공정할수록 더 좋은 경주가 돼요.",
             "chunks": [
               {
-                "en": "The fairer the rules,",
-                "ko": "규칙이 더 공정할수록,"
+                "en": "The fairer",
+                "ko": "더 공정할수록"
+              },
+              {
+                "en": "the rules,",
+                "ko": "규칙이,"
               },
               {
                 "en": "the better the race.",
@@ -3423,8 +3959,12 @@
             "ko": "결과를 검토할 준비가 됐어요.",
             "chunks": [
               {
-                "en": "The results are ready",
-                "ko": "결과가 준비됐어요"
+                "en": "The results",
+                "ko": "결과가"
+              },
+              {
+                "en": "are ready",
+                "ko": "준비됐어요."
               },
               {
                 "en": "for review.",
@@ -3445,8 +3985,16 @@
         "ko": "마침내 우승자가 나왔어요!",
         "chunks": [
           {
-            "en": "We have a winner",
-            "ko": "우승자가 나왔어요"
+            "en": "We",
+            "ko": "우리에게는"
+          },
+          {
+            "en": "have",
+            "ko": "있어요"
+          },
+          {
+            "en": "a winner",
+            "ko": "우승자가."
           },
           {
             "en": "at last!",
@@ -3484,8 +4032,12 @@
               "ko": "페이지가"
             },
             {
-              "en": "is giving off dark magic.",
-              "ko": "어둠의 마력을 내뿜고 있어."
+              "en": "is giving off",
+              "ko": "내뿜고 있어"
+            },
+            {
+              "en": "dark magic.",
+              "ko": "어둠의 마력을."
             }
           ],
           "speaker_legacy": "옥시",
@@ -3587,12 +4139,24 @@
             "ko": "이 책은 제 것이지만 펜은 그녀 것이에요.",
             "chunks": [
               {
-                "en": "This book is mine,",
-                "ko": "이 책은 제 것이지만,"
+                "en": "This book",
+                "ko": "이 책은"
               },
               {
-                "en": "but the pen is hers.",
-                "ko": "펜은 그녀 것이에요."
+                "en": "is mine,",
+                "ko": "제 것이지만,"
+              },
+              {
+                "en": "but",
+                "ko": "하지만"
+              },
+              {
+                "en": "the pen",
+                "ko": "펜은"
+              },
+              {
+                "en": "is hers.",
+                "ko": "그녀 것이에요."
               }
             ],
             "speaker_legacy": "책방 주인 메이",
@@ -3628,8 +4192,16 @@
             "ko": "우산과 사과를 찾았어요.",
             "chunks": [
               {
-                "en": "I found an umbrella",
-                "ko": "우산을 찾았어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "found",
+                "ko": "찾았어요"
+              },
+              {
+                "en": "an umbrella",
+                "ko": "우산을."
               },
               {
                 "en": "and an apple.",
@@ -3696,8 +4268,12 @@
                 "ko": "그녀의 가방은"
               },
               {
-                "en": "is at the lost property desk.",
-                "ko": "분실물 보관소에 있어요."
+                "en": "is",
+                "ko": "있어요"
+              },
+              {
+                "en": "at the lost property desk.",
+                "ko": "분실물 보관소에."
               }
             ],
             "speaker_legacy": "소녀 지아",
@@ -3772,8 +4348,16 @@
         "ko": "오래된 책에는 도서관 습격이 기록돼 있어요.",
         "chunks": [
           {
-            "en": "The old book records an attack",
-            "ko": "오래된 책은 공격을 기록해요"
+            "en": "The old book",
+            "ko": "오래된 책은"
+          },
+          {
+            "en": "records",
+            "ko": "기록해요"
+          },
+          {
+            "en": "an attack",
+            "ko": "공격을."
           },
           {
             "en": "on the library.",
@@ -3794,8 +4378,12 @@
               "ko": "페이지가"
             },
             {
-              "en": "is giving off dark magic.",
-              "ko": "어둠의 마력을 내뿜고 있어."
+              "en": "is giving off",
+              "ko": "내뿜고 있어"
+            },
+            {
+              "en": "dark magic.",
+              "ko": "어둠의 마력을."
             }
           ],
           "speaker_legacy": "옥시",
@@ -3918,8 +4506,12 @@
                 "ko": "화물이"
               },
               {
-                "en": "is on the wrong ship.",
-                "ko": "잘못된 배에 있어요."
+                "en": "is",
+                "ko": "있어요"
+              },
+              {
+                "en": "on the wrong ship.",
+                "ko": "잘못된 배에."
               }
             ],
             "speaker_legacy": "선원 보",
@@ -3979,12 +4571,32 @@
             "ko": "저는 수학을 잘하지만 바다가 무서워요.",
             "chunks": [
               {
-                "en": "I am good at math,",
-                "ko": "저는 수학을 잘하지만,"
+                "en": "I",
+                "ko": "저는"
               },
               {
-                "en": "but I am afraid of the sea.",
-                "ko": "바다가 무서워요."
+                "en": "am good at",
+                "ko": "잘하지만"
+              },
+              {
+                "en": "math,",
+                "ko": "수학을,"
+              },
+              {
+                "en": "but",
+                "ko": "하지만"
+              },
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "am afraid of",
+                "ko": "무서워요"
+              },
+              {
+                "en": "the sea.",
+                "ko": "바다가."
               }
             ],
             "speaker_legacy": "수학 선생 라이언",
@@ -4059,8 +4671,12 @@
         "ko": "배가 출항할 준비를 마쳤어요.",
         "chunks": [
           {
-            "en": "The ship is ready",
-            "ko": "배가 준비됐어요"
+            "en": "The ship",
+            "ko": "배가"
+          },
+          {
+            "en": "is ready",
+            "ko": "준비됐어요."
           },
           {
             "en": "to leave.",
@@ -4098,8 +4714,12 @@
               "ko": "페이지가"
             },
             {
-              "en": "is giving off dark magic.",
-              "ko": "어둠의 마력을 내뿜고 있어."
+              "en": "is giving off",
+              "ko": "내뿜고 있어"
+            },
+            {
+              "en": "dark magic.",
+              "ko": "어둠의 마력을."
             }
           ],
           "speaker_legacy": "옥시",
@@ -4201,8 +4821,12 @@
             "ko": "저는 바다에서 수영하고 싶어요.",
             "chunks": [
               {
-                "en": "I want to swim",
-                "ko": "저는 수영하고 싶어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "want to swim",
+                "ko": "수영하고 싶어요."
               },
               {
                 "en": "in the sea.",
@@ -4300,8 +4924,16 @@
             "ko": "센스우드에 관한 단서를 발견했어요.",
             "chunks": [
               {
-                "en": "I found a clue",
-                "ko": "단서를 발견했어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "found",
+                "ko": "발견했어요"
+              },
+              {
+                "en": "a clue",
+                "ko": "단서를."
               },
               {
                 "en": "about Sensewood.",
@@ -4324,8 +4956,12 @@
             "ko": "저는 체스를 잘 둬요.",
             "chunks": [
               {
-                "en": "I am good at",
-                "ko": "저는 잘해요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "am good at",
+                "ko": "잘해요."
               },
               {
                 "en": "playing chess.",
@@ -4380,8 +5016,12 @@
         "ko": "이 보고서를 센스우드로 가져가 주세요.",
         "chunks": [
           {
-            "en": "Please take this report",
-            "ko": "이 보고서를 가져가 주세요"
+            "en": "Please take",
+            "ko": "가져가 주세요"
+          },
+          {
+            "en": "this report",
+            "ko": "이 보고서를."
           },
           {
             "en": "to Sensewood.",
@@ -4402,8 +5042,12 @@
               "ko": "페이지가"
             },
             {
-              "en": "is giving off dark magic.",
-              "ko": "어둠의 마력을 내뿜고 있어."
+              "en": "is giving off",
+              "ko": "내뿜고 있어"
+            },
+            {
+              "en": "dark magic.",
+              "ko": "어둠의 마력을."
             }
           ],
           "speaker_legacy": "옥시",
@@ -4546,8 +5190,16 @@
             "ko": "아이들이 집 안에 있게 했어요.",
             "chunks": [
               {
-                "en": "I let the children",
-                "ko": "아이들이 있게 했어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "let",
+                "ko": "있게 했어요"
+              },
+              {
+                "en": "the children",
+                "ko": "아이들이."
               },
               {
                 "en": "stay inside.",
@@ -4563,8 +5215,16 @@
             "ko": "아이들은 밖에서 소리를 들었어요.",
             "chunks": [
               {
-                "en": "They heard a noise",
-                "ko": "아이들은 소리를 들었어요"
+                "en": "They",
+                "ko": "아이들은"
+              },
+              {
+                "en": "heard",
+                "ko": "들었어요"
+              },
+              {
+                "en": "a noise",
+                "ko": "소리를."
               },
               {
                 "en": "outside.",
@@ -4587,8 +5247,16 @@
             "ko": "숲 근처에서는 공기에서 이상한 냄새가 나요.",
             "chunks": [
               {
-                "en": "The air smells strange",
-                "ko": "공기에서 이상한 냄새가 나요"
+                "en": "The air",
+                "ko": "공기에서"
+              },
+              {
+                "en": "smells",
+                "ko": "나요"
+              },
+              {
+                "en": "strange",
+                "ko": "이상한 냄새가."
               },
               {
                 "en": "near the forest.",
@@ -4628,8 +5296,16 @@
             "ko": "땅이 흔들리는 것을 느꼈어요.",
             "chunks": [
               {
-                "en": "I felt the ground",
-                "ko": "저는 땅을 느꼈어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "felt",
+                "ko": "느꼈어요"
+              },
+              {
+                "en": "the ground",
+                "ko": "땅을."
               },
               {
                 "en": "shake.",
@@ -4645,8 +5321,16 @@
             "ko": "길에서 검은 인장을 발견했어요.",
             "chunks": [
               {
-                "en": "I found a black seal",
-                "ko": "검은 인장을 발견했어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "found",
+                "ko": "발견했어요"
+              },
+              {
+                "en": "a black seal",
+                "ko": "검은 인장을."
               },
               {
                 "en": "on the road.",
@@ -4688,8 +5372,16 @@
             "ko": "사람들에게 경고해 주세요"
           },
           {
-            "en": "at the festival in Nounville.",
-            "ko": "노운빌 축제에 있는."
+            "en": "at",
+            "ko": "에서"
+          },
+          {
+            "en": "the festival",
+            "ko": "축제"
+          },
+          {
+            "en": "in Nounville.",
+            "ko": "노운빌의."
           }
         ],
         "speaker_legacy": "새 관찰자 에이",
@@ -4706,8 +5398,12 @@
               "ko": "페이지가"
             },
             {
-              "en": "is giving off dark magic.",
-              "ko": "어둠의 마력을 내뿜고 있어."
+              "en": "is giving off",
+              "ko": "내뿜고 있어"
+            },
+            {
+              "en": "dark magic.",
+              "ko": "어둠의 마력을."
             }
           ],
           "speaker_legacy": "옥시",
@@ -4856,8 +5552,12 @@
             "ko": "안내문을 읽어 주세요. 뛰지 마세요.",
             "chunks": [
               {
-                "en": "Please read the signs.",
-                "ko": "안내문을 읽어 주세요."
+                "en": "Please read",
+                "ko": "읽어 주세요"
+              },
+              {
+                "en": "the signs.",
+                "ko": "안내문을."
               },
               {
                 "en": "Do not run.",
@@ -4873,8 +5573,16 @@
             "ko": "도서관에 경고문을 붙일게요.",
             "chunks": [
               {
-                "en": "I will post a warning",
-                "ko": "경고문을 붙일게요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "will post",
+                "ko": "붙일게요"
+              },
+              {
+                "en": "a warning",
+                "ko": "경고문을."
               },
               {
                 "en": "at the library.",
@@ -4897,8 +5605,16 @@
             "ko": "물과 빵이 필요해요.",
             "chunks": [
               {
-                "en": "We need some water",
-                "ko": "우리는 물이 필요해요"
+                "en": "We",
+                "ko": "우리는"
+              },
+              {
+                "en": "need",
+                "ko": "필요해요"
+              },
+              {
+                "en": "some water",
+                "ko": "물이."
               },
               {
                 "en": "and bread.",
@@ -4914,8 +5630,12 @@
             "ko": "모두가 먹을 음식이 충분해요.",
             "chunks": [
               {
-                "en": "There is enough food",
-                "ko": "음식이 충분해요"
+                "en": "There is",
+                "ko": "있어요"
+              },
+              {
+                "en": "enough food",
+                "ko": "음식이 충분히."
               },
               {
                 "en": "for everyone.",
@@ -5022,8 +5742,12 @@
               "ko": "페이지가"
             },
             {
-              "en": "is giving off dark magic.",
-              "ko": "어둠의 마력을 내뿜고 있어."
+              "en": "is giving off",
+              "ko": "내뿜고 있어"
+            },
+            {
+              "en": "dark magic.",
+              "ko": "어둠의 마력을."
             }
           ],
           "speaker_legacy": "옥시",
@@ -5129,8 +5853,16 @@
                 "ko": "그는 제게 말했어요"
               },
               {
-                "en": "that the message was urgent.",
-                "ko": "전갈이 긴급하다고."
+                "en": "that",
+                "ko": "~라고"
+              },
+              {
+                "en": "the message",
+                "ko": "전갈이"
+              },
+              {
+                "en": "was urgent.",
+                "ko": "긴급했다."
               }
             ],
             "speaker_legacy": "우체부 샘",
@@ -5252,8 +5984,16 @@
                 "ko": "저는 알아요"
               },
               {
-                "en": "when the next ship leaves.",
-                "ko": "다음 배가 언제 출발하는지."
+                "en": "when",
+                "ko": "~지"
+              },
+              {
+                "en": "the next ship",
+                "ko": "다음 배가"
+              },
+              {
+                "en": "leaves.",
+                "ko": "출발하는."
               }
             ],
             "speaker_legacy": "안내원 수",
@@ -5287,12 +6027,24 @@
         "ko": "전갈이 명확해요. 마지막 페이지는 성에 있어요.",
         "chunks": [
           {
-            "en": "The message is clear.",
-            "ko": "전갈이 명확해요."
+            "en": "The message",
+            "ko": "전갈이"
           },
           {
-            "en": "The last page is in the castle.",
-            "ko": "마지막 페이지는 성에 있어요."
+            "en": "is clear.",
+            "ko": "명확해요."
+          },
+          {
+            "en": "The last page",
+            "ko": "마지막 페이지는"
+          },
+          {
+            "en": "is",
+            "ko": "있어요"
+          },
+          {
+            "en": "in the castle.",
+            "ko": "성에."
           }
         ],
         "speaker_legacy": "우체부 샘",
@@ -5308,8 +6060,20 @@
             "ko": "인버전 킵로 가세요"
           },
           {
-            "en": "and show them the seal.",
-            "ko": "그리고 인장을 보여 주세요."
+            "en": "and",
+            "ko": "그리고"
+          },
+          {
+            "en": "show",
+            "ko": "보여 주세요"
+          },
+          {
+            "en": "them",
+            "ko": "그들에게"
+          },
+          {
+            "en": "the seal.",
+            "ko": "인장을."
           }
         ],
         "speaker_legacy": "우체부 샘",
@@ -5326,8 +6090,12 @@
               "ko": "페이지가"
             },
             {
-              "en": "is giving off dark magic.",
-              "ko": "어둠의 마력을 내뿜고 있어."
+              "en": "is giving off",
+              "ko": "내뿜고 있어"
+            },
+            {
+              "en": "dark magic.",
+              "ko": "어둠의 마력을."
             }
           ],
           "speaker_legacy": "옥시",
@@ -5470,8 +6238,12 @@
             "ko": "문을 연 것은 낯선 사람이었소.",
             "chunks": [
               {
-                "en": "It was a stranger",
-                "ko": "낯선 사람이었소"
+                "en": "It was",
+                "ko": "~였소"
+              },
+              {
+                "en": "a stranger",
+                "ko": "낯선 사람."
               },
               {
                 "en": "who opened the gate.",
@@ -5552,8 +6324,12 @@
             "ko": "저주가 너무 강해서 문이 닫혔어요.",
             "chunks": [
               {
-                "en": "So strong was the curse",
-                "ko": "저주가 너무 강해서"
+                "en": "So strong",
+                "ko": "너무 강해서"
+              },
+              {
+                "en": "was the curse",
+                "ko": "저주가."
               },
               {
                 "en": "that the gate closed.",
@@ -5573,8 +6349,12 @@
                 "ko": "페이지는"
               },
               {
-                "en": "is behind the final gate.",
-                "ko": "마지막 문 뒤에 있어요."
+                "en": "is",
+                "ko": "있어요"
+              },
+              {
+                "en": "behind the final gate.",
+                "ko": "마지막 문 뒤에."
               }
             ],
             "speaker_legacy": "성지기 클라라",
@@ -5591,8 +6371,12 @@
         "ko": "성은 저주에서 벗어났어요.",
         "chunks": [
           {
-            "en": "The castle is free",
-            "ko": "성은 자유로워졌어요"
+            "en": "The castle",
+            "ko": "성은"
+          },
+          {
+            "en": "is free",
+            "ko": "자유로워졌어요."
           },
           {
             "en": "from the curse.",
@@ -5630,8 +6414,12 @@
               "ko": "페이지가"
             },
             {
-              "en": "is giving off dark magic.",
-              "ko": "어둠의 마력을 내뿜고 있어."
+              "en": "is giving off",
+              "ko": "내뿜고 있어"
+            },
+            {
+              "en": "dark magic.",
+              "ko": "어둠의 마력을."
             }
           ],
           "speaker_legacy": "옥시",
@@ -5810,8 +6598,12 @@
         "ko": "책은 완성됐지만 위험은 남아 있네.",
         "chunks": [
           {
-            "en": "The book is complete,",
-            "ko": "책은 완성됐지만,"
+            "en": "The book",
+            "ko": "책은"
+          },
+          {
+            "en": "is complete,",
+            "ko": "완성됐지만,"
           },
           {
             "en": "but the danger remains.",
@@ -5837,8 +6629,16 @@
           "ko": "오직 내 말만,"
         },
         {
-          "en": "the world would be perfect.",
-          "ko": "세상은 완벽할 것이다."
+          "en": "the world",
+          "ko": "세상은"
+        },
+        {
+          "en": "would be",
+          "ko": "~일 것이다"
+        },
+        {
+          "en": "perfect.",
+          "ko": "완벽한."
         }
       ],
       "speaker_en": "Silentius"
@@ -5891,8 +6691,16 @@
       "ko": "언어는 다른 사람을 지배하는 도구가 아니야.",
       "chunks": [
         {
-          "en": "Language is not a tool",
-          "ko": "언어는 도구가 아니야"
+          "en": "Language",
+          "ko": "언어는"
+        },
+        {
+          "en": "is not",
+          "ko": "아니야"
+        },
+        {
+          "en": "a tool",
+          "ko": "도구가."
         },
         {
           "en": "to control others.",
@@ -5907,8 +6715,16 @@
       "ko": "언어는 우리를 이어 주는 다리예요.",
       "chunks": [
         {
-          "en": "It is a bridge",
-          "ko": "그것은 다리예요"
+          "en": "It",
+          "ko": "그것은"
+        },
+        {
+          "en": "is",
+          "ko": "이에요"
+        },
+        {
+          "en": "a bridge",
+          "ko": "다리."
         },
         {
           "en": "that connects us.",

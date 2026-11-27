@@ -153,16 +153,32 @@
             ],
             "direct_chunks": [
               {
-                "en": "We need to check",
-                "ko": "우리는 확인해야 해요"
+                "en": "We",
+                "ko": "우리는"
+              },
+              {
+                "en": "need to check",
+                "ko": "확인해야 해요."
               },
               {
                 "en": "the records",
                 "ko": "기록을"
               },
               {
-                "en": "before we make a decision.",
-                "ko": "결정을 내리기 전에."
+                "en": "before",
+                "ko": "~하기 전에"
+              },
+              {
+                "en": "we",
+                "ko": "우리가"
+              },
+              {
+                "en": "make",
+                "ko": "내리기"
+              },
+              {
+                "en": "a decision.",
+                "ko": "결정을."
               }
             ]
           }
@@ -312,16 +328,32 @@
             ],
             "direct_chunks": [
               {
-                "en": "We need to check",
-                "ko": "우리는 확인해야 해요"
+                "en": "We",
+                "ko": "우리는"
+              },
+              {
+                "en": "need to check",
+                "ko": "확인해야 해요."
               },
               {
                 "en": "the records",
                 "ko": "기록을"
               },
               {
-                "en": "before we make a decision.",
-                "ko": "결정을 내리기 전에."
+                "en": "before",
+                "ko": "~하기 전에"
+              },
+              {
+                "en": "we",
+                "ko": "우리가"
+              },
+              {
+                "en": "make",
+                "ko": "내리기"
+              },
+              {
+                "en": "a decision.",
+                "ko": "결정을."
               }
             ]
           }
@@ -471,16 +503,32 @@
             ],
             "direct_chunks": [
               {
-                "en": "We need to check",
-                "ko": "우리는 확인해야 해요"
+                "en": "We",
+                "ko": "우리는"
+              },
+              {
+                "en": "need to check",
+                "ko": "확인해야 해요."
               },
               {
                 "en": "the records",
                 "ko": "기록을"
               },
               {
-                "en": "before we make a decision.",
-                "ko": "결정을 내리기 전에."
+                "en": "before",
+                "ko": "~하기 전에"
+              },
+              {
+                "en": "we",
+                "ko": "우리가"
+              },
+              {
+                "en": "make",
+                "ko": "내리기"
+              },
+              {
+                "en": "a decision.",
+                "ko": "결정을."
               }
             ]
           }
@@ -630,16 +678,32 @@
             ],
             "direct_chunks": [
               {
-                "en": "We need to check",
-                "ko": "우리는 확인해야 해요"
+                "en": "We",
+                "ko": "우리는"
+              },
+              {
+                "en": "need to check",
+                "ko": "확인해야 해요."
               },
               {
                 "en": "the records",
                 "ko": "기록을"
               },
               {
-                "en": "before we make a decision.",
-                "ko": "결정을 내리기 전에."
+                "en": "before",
+                "ko": "~하기 전에"
+              },
+              {
+                "en": "we",
+                "ko": "우리가"
+              },
+              {
+                "en": "make",
+                "ko": "내리기"
+              },
+              {
+                "en": "a decision.",
+                "ko": "결정을."
               }
             ]
           }
@@ -689,8 +753,16 @@
                 "ko": "길로"
               },
               {
-                "en": "that leads away from the village.",
-                "ko": "마을에서 멀어지는."
+                "en": "that",
+                "ko": "~하는"
+              },
+              {
+                "en": "leads away",
+                "ko": "멀어지는"
+              },
+              {
+                "en": "from the village.",
+                "ko": "마을에서."
               }
             ]
           }
@@ -793,16 +865,32 @@
             ],
             "direct_chunks": [
               {
-                "en": "We need to check",
-                "ko": "우리는 확인해야 해요"
+                "en": "We",
+                "ko": "우리는"
+              },
+              {
+                "en": "need to check",
+                "ko": "확인해야 해요."
               },
               {
                 "en": "the records",
                 "ko": "기록을"
               },
               {
-                "en": "before we make a decision.",
-                "ko": "결정을 내리기 전에."
+                "en": "before",
+                "ko": "~하기 전에"
+              },
+              {
+                "en": "we",
+                "ko": "우리가"
+              },
+              {
+                "en": "make",
+                "ko": "내리기"
+              },
+              {
+                "en": "a decision.",
+                "ko": "결정을."
               }
             ]
           }
@@ -848,8 +936,16 @@
                 "ko": "비난받았어요"
               },
               {
-                "en": "before the book was found.",
-                "ko": "책이 발견되기 전에."
+                "en": "before",
+                "ko": "~하기 전에"
+              },
+              {
+                "en": "the book",
+                "ko": "책이"
+              },
+              {
+                "en": "was found.",
+                "ko": "발견되기."
               }
             ]
           }
@@ -900,8 +996,16 @@
                 "ko": "작성되었어요"
               },
               {
-                "en": "before the theft was reported.",
-                "ko": "절도 신고 전에."
+                "en": "before",
+                "ko": "~하기 전에"
+              },
+              {
+                "en": "the theft",
+                "ko": "절도가"
+              },
+              {
+                "en": "was reported.",
+                "ko": "신고되기."
               }
             ]
           }
@@ -948,16 +1052,32 @@
             ],
             "direct_chunks": [
               {
-                "en": "We need to check",
-                "ko": "우리는 확인해야 해요"
+                "en": "We",
+                "ko": "우리는"
+              },
+              {
+                "en": "need to check",
+                "ko": "확인해야 해요."
               },
               {
                 "en": "the records",
                 "ko": "기록을"
               },
               {
-                "en": "before we make a decision.",
-                "ko": "결정을 내리기 전에."
+                "en": "before",
+                "ko": "~하기 전에"
+              },
+              {
+                "en": "we",
+                "ko": "우리가"
+              },
+              {
+                "en": "make",
+                "ko": "내리기"
+              },
+              {
+                "en": "a decision.",
+                "ko": "결정을."
               }
             ]
           }
@@ -1009,8 +1129,28 @@
                 "ko": "저는"
               },
               {
-                "en": "have sent letters for years, but none has reached my friend.",
-                "ko": "수년 동안 편지를 보냈지만 친구에게 하나도 도착하지 않았어요."
+                "en": "have sent",
+                "ko": "보냈지만"
+              },
+              {
+                "en": "letters",
+                "ko": "편지를"
+              },
+              {
+                "en": "for years,",
+                "ko": "수년 동안"
+              },
+              {
+                "en": "but none",
+                "ko": "하지만 하나도"
+              },
+              {
+                "en": "has reached",
+                "ko": "도착하지 않았어요"
+              },
+              {
+                "en": "my friend.",
+                "ko": "친구에게."
               }
             ]
           }
@@ -1113,16 +1253,32 @@
             ],
             "direct_chunks": [
               {
-                "en": "We need to check",
-                "ko": "우리는 확인해야 해요"
+                "en": "We",
+                "ko": "우리는"
+              },
+              {
+                "en": "need to check",
+                "ko": "확인해야 해요."
               },
               {
                 "en": "the records",
                 "ko": "기록을"
               },
               {
-                "en": "before we make a decision.",
-                "ko": "결정을 내리기 전에."
+                "en": "before",
+                "ko": "~하기 전에"
+              },
+              {
+                "en": "we",
+                "ko": "우리가"
+              },
+              {
+                "en": "make",
+                "ko": "내리기"
+              },
+              {
+                "en": "a decision.",
+                "ko": "결정을."
               }
             ]
           }
@@ -1160,8 +1316,16 @@
             ],
             "direct_chunks": [
               {
-                "en": "This is the place",
-                "ko": "이곳은 장소예요"
+                "en": "This",
+                "ko": "이곳은"
+              },
+              {
+                "en": "is",
+                "ko": "이다"
+              },
+              {
+                "en": "the place",
+                "ko": "장소."
               },
               {
                 "en": "where",
@@ -1220,8 +1384,16 @@
                 "ko": "길이 표시돼 있어요"
               },
               {
-                "en": "where there is only water.",
-                "ko": "물밖에 없는 곳에."
+                "en": "where",
+                "ko": "~한"
+              },
+              {
+                "en": "there is",
+                "ko": "있는"
+              },
+              {
+                "en": "only water.",
+                "ko": "물밖에."
               }
             ]
           }
@@ -1268,16 +1440,32 @@
             ],
             "direct_chunks": [
               {
-                "en": "We need to check",
-                "ko": "우리는 확인해야 해요"
+                "en": "We",
+                "ko": "우리는"
+              },
+              {
+                "en": "need to check",
+                "ko": "확인해야 해요."
               },
               {
                 "en": "the records",
                 "ko": "기록을"
               },
               {
-                "en": "before we make a decision.",
-                "ko": "결정을 내리기 전에."
+                "en": "before",
+                "ko": "~하기 전에"
+              },
+              {
+                "en": "we",
+                "ko": "우리가"
+              },
+              {
+                "en": "make",
+                "ko": "내리기"
+              },
+              {
+                "en": "a decision.",
+                "ko": "결정을."
               }
             ]
           }
@@ -1427,16 +1615,32 @@
             ],
             "direct_chunks": [
               {
-                "en": "We need to check",
-                "ko": "우리는 확인해야 해요"
+                "en": "We",
+                "ko": "우리는"
+              },
+              {
+                "en": "need to check",
+                "ko": "확인해야 해요."
               },
               {
                 "en": "the records",
                 "ko": "기록을"
               },
               {
-                "en": "before we make a decision.",
-                "ko": "결정을 내리기 전에."
+                "en": "before",
+                "ko": "~하기 전에"
+              },
+              {
+                "en": "we",
+                "ko": "우리가"
+              },
+              {
+                "en": "make",
+                "ko": "내리기"
+              },
+              {
+                "en": "a decision.",
+                "ko": "결정을."
               }
             ]
           }
@@ -1474,8 +1678,20 @@
             ],
             "direct_chunks": [
               {
-                "en": "If I signed the paper,",
-                "ko": "내가 서류에 서명하면"
+                "en": "If",
+                "ko": "만약"
+              },
+              {
+                "en": "I",
+                "ko": "내가"
+              },
+              {
+                "en": "signed",
+                "ko": "서명하면"
+              },
+              {
+                "en": "the paper,",
+                "ko": "서류에."
               },
               {
                 "en": "he would grant",
@@ -1562,8 +1778,16 @@
             ],
             "direct_chunks": [
               {
-                "en": "Let the villagers decide",
-                "ko": "주민들이 결정하게 하세요"
+                "en": "Let",
+                "ko": "~하게 하세요"
+              },
+              {
+                "en": "the villagers",
+                "ko": "주민들이"
+              },
+              {
+                "en": "decide",
+                "ko": "결정."
               },
               {
                 "en": "after reading",
@@ -1590,16 +1814,32 @@
             ],
             "direct_chunks": [
               {
-                "en": "We need to check",
-                "ko": "우리는 확인해야 해요"
+                "en": "We",
+                "ko": "우리는"
+              },
+              {
+                "en": "need to check",
+                "ko": "확인해야 해요."
               },
               {
                 "en": "the records",
                 "ko": "기록을"
               },
               {
-                "en": "before we make a decision.",
-                "ko": "결정을 내리기 전에."
+                "en": "before",
+                "ko": "~하기 전에"
+              },
+              {
+                "en": "we",
+                "ko": "우리가"
+              },
+              {
+                "en": "make",
+                "ko": "내리기"
+              },
+              {
+                "en": "a decision.",
+                "ko": "결정을."
               }
             ]
           }
@@ -1689,8 +1929,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "The original race record",
-                "ko": "원래 경주 기록이"
+                "en": "The original",
+                "ko": "원래"
+              },
+              {
+                "en": "race record",
+                "ko": "경주 기록이."
               },
               {
                 "en": "proves",
@@ -1745,16 +1989,32 @@
             ],
             "direct_chunks": [
               {
-                "en": "We need to check",
-                "ko": "우리는 확인해야 해요"
+                "en": "We",
+                "ko": "우리는"
+              },
+              {
+                "en": "need to check",
+                "ko": "확인해야 해요."
               },
               {
                 "en": "the records",
                 "ko": "기록을"
               },
               {
-                "en": "before we make a decision.",
-                "ko": "결정을 내리기 전에."
+                "en": "before",
+                "ko": "~하기 전에"
+              },
+              {
+                "en": "we",
+                "ko": "우리가"
+              },
+              {
+                "en": "make",
+                "ko": "내리기"
+              },
+              {
+                "en": "a decision.",
+                "ko": "결정을."
               }
             ]
           }
@@ -1908,16 +2168,32 @@
             ],
             "direct_chunks": [
               {
-                "en": "We need to check",
-                "ko": "우리는 확인해야 해요"
+                "en": "We",
+                "ko": "우리는"
+              },
+              {
+                "en": "need to check",
+                "ko": "확인해야 해요."
               },
               {
                 "en": "the records",
                 "ko": "기록을"
               },
               {
-                "en": "before we make a decision.",
-                "ko": "결정을 내리기 전에."
+                "en": "before",
+                "ko": "~하기 전에"
+              },
+              {
+                "en": "we",
+                "ko": "우리가"
+              },
+              {
+                "en": "make",
+                "ko": "내리기"
+              },
+              {
+                "en": "a decision.",
+                "ko": "결정을."
               }
             ]
           }
@@ -2067,16 +2343,32 @@
             ],
             "direct_chunks": [
               {
-                "en": "We need to check",
-                "ko": "우리는 확인해야 해요"
+                "en": "We",
+                "ko": "우리는"
+              },
+              {
+                "en": "need to check",
+                "ko": "확인해야 해요."
               },
               {
                 "en": "the records",
                 "ko": "기록을"
               },
               {
-                "en": "before we make a decision.",
-                "ko": "결정을 내리기 전에."
+                "en": "before",
+                "ko": "~하기 전에"
+              },
+              {
+                "en": "we",
+                "ko": "우리가"
+              },
+              {
+                "en": "make",
+                "ko": "내리기"
+              },
+              {
+                "en": "a decision.",
+                "ko": "결정을."
               }
             ]
           }
@@ -2230,16 +2522,32 @@
             ],
             "direct_chunks": [
               {
-                "en": "We need to check",
-                "ko": "우리는 확인해야 해요"
+                "en": "We",
+                "ko": "우리는"
+              },
+              {
+                "en": "need to check",
+                "ko": "확인해야 해요."
               },
               {
                 "en": "the records",
                 "ko": "기록을"
               },
               {
-                "en": "before we make a decision.",
-                "ko": "결정을 내리기 전에."
+                "en": "before",
+                "ko": "~하기 전에"
+              },
+              {
+                "en": "we",
+                "ko": "우리가"
+              },
+              {
+                "en": "make",
+                "ko": "내리기"
+              },
+              {
+                "en": "a decision.",
+                "ko": "결정을."
               }
             ]
           }
@@ -2291,8 +2599,24 @@
                 "ko": "저는"
               },
               {
-                "en": "heard someone make the bell ring.",
-                "ko": "누군가 종을 울리게 하는 것을 들었어요."
+                "en": "heard",
+                "ko": "들었어요"
+              },
+              {
+                "en": "someone",
+                "ko": "누군가"
+              },
+              {
+                "en": "make",
+                "ko": "하게 하는 것을"
+              },
+              {
+                "en": "the bell",
+                "ko": "종을"
+              },
+              {
+                "en": "ring.",
+                "ko": "울리게."
               }
             ]
           }
@@ -2395,16 +2719,32 @@
             ],
             "direct_chunks": [
               {
-                "en": "We need to check",
-                "ko": "우리는 확인해야 해요"
+                "en": "We",
+                "ko": "우리는"
+              },
+              {
+                "en": "need to check",
+                "ko": "확인해야 해요."
               },
               {
                 "en": "the records",
                 "ko": "기록을"
               },
               {
-                "en": "before we make a decision.",
-                "ko": "결정을 내리기 전에."
+                "en": "before",
+                "ko": "~하기 전에"
+              },
+              {
+                "en": "we",
+                "ko": "우리가"
+              },
+              {
+                "en": "make",
+                "ko": "내리기"
+              },
+              {
+                "en": "a decision.",
+                "ko": "결정을."
               }
             ]
           }
@@ -2546,16 +2886,32 @@
             ],
             "direct_chunks": [
               {
-                "en": "We need to check",
-                "ko": "우리는 확인해야 해요"
+                "en": "We",
+                "ko": "우리는"
+              },
+              {
+                "en": "need to check",
+                "ko": "확인해야 해요."
               },
               {
                 "en": "the records",
                 "ko": "기록을"
               },
               {
-                "en": "before we make a decision.",
-                "ko": "결정을 내리기 전에."
+                "en": "before",
+                "ko": "~하기 전에"
+              },
+              {
+                "en": "we",
+                "ko": "우리가"
+              },
+              {
+                "en": "make",
+                "ko": "내리기"
+              },
+              {
+                "en": "a decision.",
+                "ko": "결정을."
               }
             ]
           }
@@ -2653,8 +3009,16 @@
                 "ko": "적혀 있어요"
               },
               {
-                "en": "that it must be closed.",
-                "ko": "도서관을 폐쇄해야 한다고."
+                "en": "that",
+                "ko": "~라고"
+              },
+              {
+                "en": "it",
+                "ko": "그것을"
+              },
+              {
+                "en": "must be closed.",
+                "ko": "폐쇄해야 한다."
               }
             ]
           }
@@ -2701,16 +3065,32 @@
             ],
             "direct_chunks": [
               {
-                "en": "We need to check",
-                "ko": "우리는 확인해야 해요"
+                "en": "We",
+                "ko": "우리는"
+              },
+              {
+                "en": "need to check",
+                "ko": "확인해야 해요."
               },
               {
                 "en": "the records",
                 "ko": "기록을"
               },
               {
-                "en": "before we make a decision.",
-                "ko": "결정을 내리기 전에."
+                "en": "before",
+                "ko": "~하기 전에"
+              },
+              {
+                "en": "we",
+                "ko": "우리가"
+              },
+              {
+                "en": "make",
+                "ko": "내리기"
+              },
+              {
+                "en": "a decision.",
+                "ko": "결정을."
               }
             ]
           }
@@ -2748,8 +3128,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "It was the council,",
-                "ko": "의회였어요"
+                "en": "It was",
+                "ko": "~였어요"
+              },
+              {
+                "en": "the council,",
+                "ko": "의회."
               },
               {
                 "en": "not the counselor,",
@@ -2864,16 +3248,32 @@
             ],
             "direct_chunks": [
               {
-                "en": "We need to check",
-                "ko": "우리는 확인해야 해요"
+                "en": "We",
+                "ko": "우리는"
+              },
+              {
+                "en": "need to check",
+                "ko": "확인해야 해요."
               },
               {
                 "en": "the records",
                 "ko": "기록을"
               },
               {
-                "en": "before we make a decision.",
-                "ko": "결정을 내리기 전에."
+                "en": "before",
+                "ko": "~하기 전에"
+              },
+              {
+                "en": "we",
+                "ko": "우리가"
+              },
+              {
+                "en": "make",
+                "ko": "내리기"
+              },
+              {
+                "en": "a decision.",
+                "ko": "결정을."
               }
             ]
           }

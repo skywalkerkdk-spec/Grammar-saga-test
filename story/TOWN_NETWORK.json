@@ -2166,8 +2166,16 @@
           "ko": "섬에 도착하려면 지도가 필요하다.",
           "direct_chunks": [
             {
-              "en": "I need the map",
-              "ko": "나는 지도가 필요하다"
+              "en": "I",
+              "ko": "나는"
+            },
+            {
+              "en": "need",
+              "ko": "필요하다"
+            },
+            {
+              "en": "the map",
+              "ko": "지도가."
             },
             {
               "en": "to reach",
@@ -2332,8 +2340,12 @@
           "ko": "문을 연 것은 바로 은빛 열쇠였다.",
           "direct_chunks": [
             {
-              "en": "It was the silver key",
-              "ko": "바로 은빛 열쇠였다"
+              "en": "It was",
+              "ko": "~였어요"
+            },
+            {
+              "en": "the silver key",
+              "ko": "바로 은빛 열쇠."
             },
             {
               "en": "that opened",

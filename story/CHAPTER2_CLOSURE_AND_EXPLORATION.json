@@ -142,8 +142,16 @@
             "ko": "표시돼요"
           },
           {
-            "en": "as its source of metal.",
-            "ko": "금속의 출처로."
+            "en": "as",
+            "ko": "로서"
+          },
+          {
+            "en": "its source",
+            "ko": "그것의 출처"
+          },
+          {
+            "en": "of metal.",
+            "ko": "금속의."
           }
         ]
       },
@@ -304,8 +312,12 @@
             "ko": "있어요"
           },
           {
-            "en": "a date and a source.",
-            "ko": "날짜와 출처가."
+            "en": "a date",
+            "ko": "날짜와"
+          },
+          {
+            "en": "and a source.",
+            "ko": "출처가."
           },
           {
             "en": "The second",
@@ -512,12 +524,28 @@
       "ko": "복원된 페이지들이 빛나지만 검은 선이 모든 페이지를 가로지른다.",
       "chunks": [
         {
-          "en": "The restored pages shine,",
-          "ko": "복원된 페이지들이 빛나지만"
+          "en": "The restored pages",
+          "ko": "복원된 페이지들이"
         },
         {
-          "en": "but a dark line runs across every page.",
-          "ko": "검은 선이 모든 페이지를 가로지른다."
+          "en": "shine,",
+          "ko": "빛나지만"
+        },
+        {
+          "en": "but",
+          "ko": "하지만"
+        },
+        {
+          "en": "a dark line",
+          "ko": "검은 선이"
+        },
+        {
+          "en": "runs across",
+          "ko": "가로지른다"
+        },
+        {
+          "en": "every page.",
+          "ko": "모든 페이지를."
         }
       ]
     },
@@ -560,12 +588,28 @@
       "ko": "책은 성역을 연다. 우리가 깨야 할 것은 덧붙여진 주문이네.",
       "chunks": [
         {
-          "en": "The book opens the sanctuary.",
-          "ko": "책이 성역을 열어."
+          "en": "The book",
+          "ko": "책이"
         },
         {
-          "en": "The added spell is what we must break.",
-          "ko": "우리가 깨야 할 것은 덧씌운 주문이야."
+          "en": "opens",
+          "ko": "열어"
+        },
+        {
+          "en": "the sanctuary.",
+          "ko": "성역을."
+        },
+        {
+          "en": "The added spell",
+          "ko": "덧씌운 주문이야"
+        },
+        {
+          "en": "is",
+          "ko": "~인 것은"
+        },
+        {
+          "en": "what we must break.",
+          "ko": "우리가 깨야 할 것."
         }
       ]
     },
@@ -576,7 +620,11 @@
       "ko": "이 짐을 혼자 지지 않겠어.",
       "chunks": [
         {
-          "en": "I will not carry",
+          "en": "I",
+          "ko": "나는"
+        },
+        {
+          "en": "will not carry",
           "ko": "짊어지지 않을 거야."
         },
         {
@@ -624,8 +672,16 @@
       "ko": "책을 파괴하지 않고 복원할 수 있어.",
       "chunks": [
         {
-          "en": "We can restore the book",
-          "ko": "우리는 책을 복원할 수 있어."
+          "en": "We",
+          "ko": "우리는"
+        },
+        {
+          "en": "can restore",
+          "ko": "복원할 수 있어"
+        },
+        {
+          "en": "the book",
+          "ko": "책을."
         },
         {
           "en": "without destroying it.",
@@ -664,8 +720,16 @@
       "ko": "평화는 모두가 복종할 때가 아니라 서로의 말을 들을 때 시작돼요.",
       "chunks": [
         {
-          "en": "Peace begins when we listen,",
-          "ko": "평화는 서로의 말을 들을 때 시작돼."
+          "en": "Peace",
+          "ko": "평화는"
+        },
+        {
+          "en": "begins",
+          "ko": "시작돼"
+        },
+        {
+          "en": "when we listen,",
+          "ko": "서로의 말을 들을 때."
         },
         {
           "en": "not when everyone obeys.",
@@ -758,8 +822,16 @@
           "ko": "누구에게나"
         },
         {
-          "en": "who has come a long way.",
-          "ko": "먼 길을 온."
+          "en": "who",
+          "ko": "~한"
+        },
+        {
+          "en": "has come",
+          "ko": "온"
+        },
+        {
+          "en": "a long way.",
+          "ko": "먼 길을."
         }
       ]
     },
@@ -822,8 +894,12 @@
       ],
       "direct_chunks": [
         {
-          "en": "We will keep checking",
-          "ko": "우리는 계속 점검할 거예요"
+          "en": "We",
+          "ko": "우리는"
+        },
+        {
+          "en": "will keep checking",
+          "ko": "계속 점검할 거예요."
         },
         {
           "en": "the bridge.",
@@ -914,8 +990,12 @@
       ],
       "direct_chunks": [
         {
-          "en": "There are still places",
-          "ko": "아직 곳들이 있어요"
+          "en": "There are",
+          "ko": "있어요"
+        },
+        {
+          "en": "still places",
+          "ko": "아직 곳들이."
         },
         {
           "en": "to add",
@@ -1106,8 +1186,12 @@
       ],
       "direct_chunks": [
         {
-          "en": "There is always room",
-          "ko": "언제나 자리가 있어요"
+          "en": "There is",
+          "ko": "있어요"
+        },
+        {
+          "en": "always room",
+          "ko": "언제나 자리가."
         },
         {
           "en": "for a new song.",
@@ -1174,8 +1258,12 @@
         "ko": "학생은 안전하지만 우리 뒤로 문이 잠겼어.",
         "direct_chunks": [
           {
-            "en": "The student is safe,",
-            "ko": "학생은 안전하지만"
+            "en": "The student",
+            "ko": "학생은"
+          },
+          {
+            "en": "is safe,",
+            "ko": "안전하지만"
           },
           {
             "en": "but the door",

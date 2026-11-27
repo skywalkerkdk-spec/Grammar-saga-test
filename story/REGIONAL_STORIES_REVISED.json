@@ -49,12 +49,24 @@
               "ko": "배송표 두 장이"
             },
             {
-              "en": "came loose in the rain.",
-              "ko": "빗속에서 떨어졌어요."
+              "en": "came loose",
+              "ko": "떨어졌어요"
             },
             {
-              "en": "I remember the red ribbon",
-              "ko": "저는 빨간 리본을 기억해요"
+              "en": "in the rain.",
+              "ko": "빗속에서."
+            },
+            {
+              "en": "I",
+              "ko": "저는"
+            },
+            {
+              "en": "remember",
+              "ko": "기억해요"
+            },
+            {
+              "en": "the red ribbon",
+              "ko": "빨간 리본을."
             },
             {
               "en": "on the flour box.",
@@ -99,16 +111,24 @@
           ],
           "direct_chunks": [
             {
-              "en": "Please take the flour",
-              "ko": "밀가루를 가져다주세요"
+              "en": "Please take",
+              "ko": "가져다주세요"
+            },
+            {
+              "en": "the flour",
+              "ko": "밀가루를."
             },
             {
               "en": "to Belle.",
               "ko": "벨에게."
             },
             {
-              "en": "Our vegetables can wait",
-              "ko": "우리 채소는 기다려도 돼요"
+              "en": "Our vegetables",
+              "ko": "우리 채소는"
+            },
+            {
+              "en": "can wait",
+              "ko": "기다려도 돼요."
             },
             {
               "en": "until tomorrow.",
@@ -136,8 +156,12 @@
           },
           "direct_chunks": [
             {
-              "en": "The birthday cake order",
-              "ko": "생일 케이크 주문은"
+              "en": "The birthday cake",
+              "ko": "생일 케이크"
+            },
+            {
+              "en": "order",
+              "ko": "주문은."
             },
             {
               "en": "is for Belle,",
@@ -317,8 +341,24 @@
               "ko": "저는"
             },
             {
-              "en": "used some boards to repair a shelter for a lost child.",
-              "ko": "길 잃은 아이를 위한 쉼터를 고치는 데 널빤지 일부를 썼어요."
+              "en": "used",
+              "ko": "썼어요"
+            },
+            {
+              "en": "some boards",
+              "ko": "널빤지 일부를"
+            },
+            {
+              "en": "to repair",
+              "ko": "고치는 데"
+            },
+            {
+              "en": "a shelter",
+              "ko": "쉼터를"
+            },
+            {
+              "en": "for a lost child.",
+              "ko": "길 잃은 아이를 위한."
             }
           ]
         },
@@ -389,8 +429,20 @@
               "ko": "부두 옆에."
             },
             {
-              "en": "I kept them dry",
-              "ko": "저는 젖지 않게 보관했어요"
+              "en": "I",
+              "ko": "저는"
+            },
+            {
+              "en": "kept",
+              "ko": "보관했어요"
+            },
+            {
+              "en": "them",
+              "ko": "그것들을"
+            },
+            {
+              "en": "dry",
+              "ko": "젖지 않게."
             },
             {
               "en": "for Axel.",
@@ -420,8 +472,12 @@
               "ko": "도난당하지 않았군요."
             },
             {
-              "en": "We only lost track",
-              "ko": "우리는 행방만 놓친 거예요"
+              "en": "We",
+              "ko": "우리는"
+            },
+            {
+              "en": "only lost track",
+              "ko": "행방만 놓친 거예요."
             },
             {
               "en": "of the supplies.",
@@ -562,8 +618,24 @@
               "ko": "저는"
             },
             {
-              "en": "wrote to my friend Bay before she moved away.",
-              "ko": "친구 베이가 이사하기 전에 편지를 썼어요."
+              "en": "wrote",
+              "ko": "편지를 썼어요"
+            },
+            {
+              "en": "to my friend Bay",
+              "ko": "친구 베이에게"
+            },
+            {
+              "en": "before",
+              "ko": "~하기 전에"
+            },
+            {
+              "en": "she",
+              "ko": "그녀가"
+            },
+            {
+              "en": "moved away.",
+              "ko": "이사하기."
             }
           ]
         },
@@ -688,8 +760,24 @@
               "ko": "저는"
             },
             {
-              "en": "will visit Palm when my inn is quiet.",
-              "ko": "여관이 한가해지면 팜을 찾아갈게요."
+              "en": "will visit",
+              "ko": "찾아갈게요"
+            },
+            {
+              "en": "Palm",
+              "ko": "팜을"
+            },
+            {
+              "en": "when",
+              "ko": "~하면"
+            },
+            {
+              "en": "my inn",
+              "ko": "여관이"
+            },
+            {
+              "en": "is quiet.",
+              "ko": "한가해지."
             }
           ]
         }
@@ -780,8 +868,12 @@
               "ko": "돌판에"
             },
             {
-              "en": "about an old travelers' guild.",
-              "ko": "옛 여행자 길드에 관한."
+              "en": "about",
+              "ko": "관한"
+            },
+            {
+              "en": "an old travelers' guild.",
+              "ko": "옛 여행자 길드에."
             }
           ]
         },
@@ -891,8 +983,16 @@
               "ko": "그 문양이 뜻한다고"
             },
             {
-              "en": "a safe place to rest.",
-              "ko": "안전한 쉼터를."
+              "en": "a safe",
+              "ko": "안전한"
+            },
+            {
+              "en": "place",
+              "ko": "쉼터를"
+            },
+            {
+              "en": "to rest.",
+              "ko": "쉴."
             }
           ]
         },
@@ -941,8 +1041,16 @@
               "ko": "저는"
             },
             {
-              "en": "will add the old shelters to our historical map.",
-              "ko": "옛 쉼터들을 역사 지도에 추가할게요."
+              "en": "will add",
+              "ko": "추가할게요"
+            },
+            {
+              "en": "the old shelters",
+              "ko": "옛 쉼터들을"
+            },
+            {
+              "en": "to our historical map.",
+              "ko": "역사 지도에."
             }
           ]
         }
@@ -990,8 +1098,12 @@
           "requires": [],
           "direct_chunks": [
             {
-              "en": "The bird race medal",
-              "ko": "새 경주 메달이"
+              "en": "The bird race",
+              "ko": "새 경주"
+            },
+            {
+              "en": "medal",
+              "ko": "메달이."
             },
             {
               "en": "has not arrived.",
@@ -1048,8 +1160,20 @@
               "ko": "저는"
             },
             {
-              "en": "delivered the feather medal to Pronovia by mistake.",
-              "ko": "실수로 깃털 메달을 프로노비아에 배달했어요."
+              "en": "delivered",
+              "ko": "배달했어요"
+            },
+            {
+              "en": "the feather medal",
+              "ko": "깃털 메달을"
+            },
+            {
+              "en": "to Pronovia",
+              "ko": "프로노비아에"
+            },
+            {
+              "en": "by mistake.",
+              "ko": "실수로."
             }
           ]
         },
@@ -1112,8 +1236,24 @@
               "ko": "저는"
             },
             {
-              "en": "found the parcel outside our shop and brought it here.",
-              "ko": "가게 밖에서 소포를 발견해 여기로 가져왔어요."
+              "en": "found",
+              "ko": "발견해"
+            },
+            {
+              "en": "the parcel",
+              "ko": "소포를"
+            },
+            {
+              "en": "outside our shop",
+              "ko": "가게 밖에서"
+            },
+            {
+              "en": "and brought it",
+              "ko": "가져왔어요"
+            },
+            {
+              "en": "here.",
+              "ko": "여기로."
             }
           ]
         },
@@ -1158,8 +1298,16 @@
               "ko": "저는"
             },
             {
-              "en": "would love to watch the next bird race.",
-              "ko": "다음 새 경주를 꼭 보고 싶어요."
+              "en": "would love",
+              "ko": "꼭 하고 싶어요"
+            },
+            {
+              "en": "to watch",
+              "ko": "보기를"
+            },
+            {
+              "en": "the next bird race.",
+              "ko": "다음 새 경주를."
             }
           ]
         }
@@ -1412,8 +1560,20 @@
             "ko": "저는"
           },
           {
-            "en": "now keep my name on every travel bag.",
-            "ko": "이제 모든 여행 가방에 제 이름을 붙여요."
+            "en": "now",
+            "ko": "이제"
+          },
+          {
+            "en": "keep",
+            "ko": "붙여요"
+          },
+          {
+            "en": "my name",
+            "ko": "제 이름을"
+          },
+          {
+            "en": "on every travel bag.",
+            "ko": "모든 여행 가방에."
           }
         ]
       },
@@ -1494,8 +1654,28 @@
               "ko": "저는"
             },
             {
-              "en": "have repaired the bell, but a fallen tree still blocks the road.",
-              "ko": "종은 수리했지만 쓰러진 나무가 아직 길을 막고 있어요."
+              "en": "have repaired",
+              "ko": "수리했지만"
+            },
+            {
+              "en": "the bell,",
+              "ko": "종은"
+            },
+            {
+              "en": "but",
+              "ko": "하지만"
+            },
+            {
+              "en": "a fallen tree",
+              "ko": "쓰러진 나무가"
+            },
+            {
+              "en": "still blocks",
+              "ko": "아직 막고 있어요"
+            },
+            {
+              "en": "the road.",
+              "ko": "길을."
             }
           ]
         },
@@ -1581,8 +1761,16 @@
               "ko": "저는"
             },
             {
-              "en": "will send the musicians the new route.",
-              "ko": "음악가들에게 새 경로를 알려 줄게요."
+              "en": "will send",
+              "ko": "알려 줄게요"
+            },
+            {
+              "en": "the musicians",
+              "ko": "음악가들에게"
+            },
+            {
+              "en": "the new route.",
+              "ko": "새 경로를."
             }
           ]
         },
@@ -1696,8 +1884,12 @@
               "ko": "금요일 것."
             },
             {
-              "en": "I did not deliver",
-              "ko": "저는 전달하지 않았어요"
+              "en": "I",
+              "ko": "저는"
+            },
+            {
+              "en": "did not deliver",
+              "ko": "전달하지 않았어요."
             },
             {
               "en": "the other one.",
@@ -1837,8 +2029,24 @@
               "ko": "저는"
             },
             {
-              "en": "will mark old drafts clearly before sending any letters.",
-              "ko": "편지를 보내기 전에 오래된 초안에는 확실히 표시할게요."
+              "en": "will mark",
+              "ko": "표시할게요"
+            },
+            {
+              "en": "old drafts",
+              "ko": "오래된 초안에는"
+            },
+            {
+              "en": "clearly",
+              "ko": "확실히"
+            },
+            {
+              "en": "before sending",
+              "ko": "보내기 전에"
+            },
+            {
+              "en": "any letters.",
+              "ko": "편지를."
             }
           ]
         }

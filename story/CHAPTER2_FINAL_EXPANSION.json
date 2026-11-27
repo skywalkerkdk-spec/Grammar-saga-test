@@ -136,8 +136,16 @@
               "ko": "우리의 가면을 꿰뚫어 보았군. 하지만 책은 이미 운명을 향해 움직이고 있다.",
               "direct_chunks": [
                 {
-                  "en": "You saw through our masks,",
-                  "ko": "너는 우리의 가면을 꿰뚫어 보았군"
+                  "en": "You",
+                  "ko": "너는"
+                },
+                {
+                  "en": "saw through",
+                  "ko": "꿰뚫어 보았군"
+                },
+                {
+                  "en": "our masks,",
+                  "ko": "우리의 가면을."
                 },
                 {
                   "en": "but the book",
@@ -173,8 +181,16 @@
                   "ko": "이 기록을."
                 },
                 {
-                  "en": "It may help us",
-                  "ko": "그것이 우리를 도울지도 모르네"
+                  "en": "It",
+                  "ko": "그것이"
+                },
+                {
+                  "en": "may help",
+                  "ko": "도울지도 모르네"
+                },
+                {
+                  "en": "us",
+                  "ko": "우리를."
                 },
                 {
                   "en": "understand",
@@ -354,8 +370,16 @@
                   "ko": "이 기록을."
                 },
                 {
-                  "en": "It may help us",
-                  "ko": "그것이 우리를 도울지도 모르네"
+                  "en": "It",
+                  "ko": "그것이"
+                },
+                {
+                  "en": "may help",
+                  "ko": "도울지도 모르네"
+                },
+                {
+                  "en": "us",
+                  "ko": "우리를."
                 },
                 {
                   "en": "understand",
@@ -476,7 +500,11 @@
                   "ko": "나타나요"
                 },
                 {
-                  "en": "only in the new copy.",
+                  "en": "only",
+                  "ko": "오직"
+                },
+                {
+                  "en": "in the new copy.",
                   "ko": "새 사본에만."
                 }
               ]
@@ -499,8 +527,16 @@
               "ko": "과거를 되찾을 수는 있어도 다음에 일어날 일을 바꿀 수는 없다.",
               "direct_chunks": [
                 {
-                  "en": "You can recover the past,",
-                  "ko": "과거를 되찾을 수는 있어도"
+                  "en": "You",
+                  "ko": "과거를"
+                },
+                {
+                  "en": "can recover",
+                  "ko": "되찾을 수는 있어도"
+                },
+                {
+                  "en": "the past,",
+                  "ko": "."
                 },
                 {
                   "en": "but you cannot change",
@@ -532,8 +568,16 @@
                   "ko": "이 기록을."
                 },
                 {
-                  "en": "It may help us",
-                  "ko": "그것이 우리를 도울지도 모르네"
+                  "en": "It",
+                  "ko": "그것이"
+                },
+                {
+                  "en": "may help",
+                  "ko": "도울지도 모르네"
+                },
+                {
+                  "en": "us",
+                  "ko": "우리를."
                 },
                 {
                   "en": "understand",
@@ -723,8 +767,16 @@
                   "ko": "이 기록을."
                 },
                 {
-                  "en": "It may help us",
-                  "ko": "그것이 우리를 도울지도 모르네"
+                  "en": "It",
+                  "ko": "그것이"
+                },
+                {
+                  "en": "may help",
+                  "ko": "도울지도 모르네"
+                },
+                {
+                  "en": "us",
+                  "ko": "우리를."
                 },
                 {
                   "en": "understand",
@@ -874,8 +926,20 @@
               "ko": "너희는 자유라 부르지만 내 주인은 혼란이라 부른다.",
               "direct_chunks": [
                 {
-                  "en": "You call it freedom.",
-                  "ko": "너희는 그것을 자유라 부르지만"
+                  "en": "You",
+                  "ko": "너희는"
+                },
+                {
+                  "en": "call",
+                  "ko": "부르지만"
+                },
+                {
+                  "en": "it",
+                  "ko": "그것을"
+                },
+                {
+                  "en": "freedom.",
+                  "ko": "자유라."
                 },
                 {
                   "en": "My master",
@@ -907,8 +971,16 @@
                   "ko": "이 기록을."
                 },
                 {
-                  "en": "It may help us",
-                  "ko": "그것이 우리를 도울지도 모르네"
+                  "en": "It",
+                  "ko": "그것이"
+                },
+                {
+                  "en": "may help",
+                  "ko": "도울지도 모르네"
+                },
+                {
+                  "en": "us",
+                  "ko": "우리를."
                 },
                 {
                   "en": "understand",
@@ -953,8 +1025,12 @@
                   "ko": "저는 보냈어요"
                 },
                 {
-                  "en": "a copy of the letters",
-                  "ko": "편지 사본을"
+                  "en": "a copy",
+                  "ko": "사본을"
+                },
+                {
+                  "en": "of the letters",
+                  "ko": "편지의."
                 },
                 {
                   "en": "to someone",
@@ -1003,8 +1079,12 @@
               "ko": "제가 등불 전갈을 보내 왔어요. 제 이름은 빔이에요.",
               "direct_chunks": [
                 {
-                  "en": "I have been sending",
-                  "ko": "제가 보내 왔어요"
+                  "en": "I",
+                  "ko": "제가"
+                },
+                {
+                  "en": "have been sending",
+                  "ko": "보내 왔어요."
                 },
                 {
                   "en": "the lantern messages.",
@@ -1102,8 +1182,16 @@
               "ko": "소식을 전하는 여행자들을 위해 빵을 구울 수 있어요.",
               "direct_chunks": [
                 {
-                  "en": "We can bake bread",
-                  "ko": "우리는 빵을 구울 수 있어요"
+                  "en": "We",
+                  "ko": "우리는"
+                },
+                {
+                  "en": "can bake",
+                  "ko": "구울 수 있어요"
+                },
+                {
+                  "en": "bread",
+                  "ko": "빵을."
                 },
                 {
                   "en": "for the travelers",
@@ -1259,8 +1347,12 @@
                   "ko": "기다리고 있어요"
                 },
                 {
-                  "en": "on the other side of the river.",
-                  "ko": "강 건너편에서."
+                  "en": "on the other side",
+                  "ko": "건너편에서"
+                },
+                {
+                  "en": "of the river.",
+                  "ko": "강의."
                 }
               ]
             }
@@ -1276,8 +1368,16 @@
               "ko": "다른 사람들이 물자를 가져오는 동안 마을을 지킬 수 있어요.",
               "direct_chunks": [
                 {
-                  "en": "We can protect the village",
-                  "ko": "우리는 마을을 지킬 수 있어요"
+                  "en": "We",
+                  "ko": "우리는"
+                },
+                {
+                  "en": "can protect",
+                  "ko": "지킬 수 있어요"
+                },
+                {
+                  "en": "the village",
+                  "ko": "마을을."
                 },
                 {
                   "en": "while the others",
@@ -1404,8 +1504,16 @@
                   "ko": "학생 곁에"
                 },
                 {
-                  "en": "until the door is open.",
-                  "ko": "문이 열릴 때까지."
+                  "en": "until",
+                  "ko": "~할 때까지"
+                },
+                {
+                  "en": "the door",
+                  "ko": "문이"
+                },
+                {
+                  "en": "is open.",
+                  "ko": "열릴."
                 }
               ]
             }
@@ -1624,8 +1732,12 @@
               "ko": "책은 복원되었지만 우리의 일은 끝나지 않았네.",
               "direct_chunks": [
                 {
-                  "en": "The book is restored.",
-                  "ko": "책은 복원되었지만"
+                  "en": "The book",
+                  "ko": "책은"
+                },
+                {
+                  "en": "is restored.",
+                  "ko": "복원되었지만"
                 },
                 {
                   "en": "Our work",

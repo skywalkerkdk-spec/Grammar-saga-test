@@ -303,8 +303,16 @@
               "ko": "그는 밥을 좋아하지만"
             },
             {
-              "en": "but he does not like",
-              "ko": "좋아하지 않는다"
+              "en": "but",
+              "ko": "하지만"
+            },
+            {
+              "en": "he",
+              "ko": "그는"
+            },
+            {
+              "en": "does not like",
+              "ko": "좋아하지 않는다."
             },
             {
               "en": "fish.",
@@ -387,8 +395,12 @@
           "ko": "우리는 소녀를 찾고 있다.",
           "direct_chunks": [
             {
-              "en": "We are looking for",
-              "ko": "우리는 찾고 있다"
+              "en": "We",
+              "ko": "우리는"
+            },
+            {
+              "en": "are looking for",
+              "ko": "찾고 있다."
             },
             {
               "en": "a girl.",

@@ -56,8 +56,12 @@
                   "ko": "일꾼 여섯 명이."
                 },
                 {
-                  "en": "You do not need",
-                  "ko": "당신은 필요 없어요"
+                  "en": "You",
+                  "ko": "당신은"
+                },
+                {
+                  "en": "do not need",
+                  "ko": "필요 없어요."
                 },
                 {
                   "en": "to carry them",
@@ -124,8 +128,12 @@
               "ko": "수레는 준비됐지만 바퀴 하나가 헐거워요.",
               "direct_chunks": [
                 {
-                  "en": "The cart is ready,",
-                  "ko": "수레는 준비됐지만"
+                  "en": "The cart",
+                  "ko": "수레는"
+                },
+                {
+                  "en": "is ready,",
+                  "ko": "준비됐지만"
                 },
                 {
                   "en": "but one wheel",
@@ -143,8 +151,12 @@
               "ko": "아무도 지연을 알아차리기 전에 떠나고 싶었어.",
               "direct_chunks": [
                 {
-                  "en": "I wanted to leave",
-                  "ko": "나는 떠나고 싶었어"
+                  "en": "I",
+                  "ko": "나는"
+                },
+                {
+                  "en": "wanted to leave",
+                  "ko": "떠나고 싶었어."
                 },
                 {
                   "en": "before anyone noticed",
@@ -318,8 +330,12 @@
               "ko": "도움이란 즉시 무언가를 하는 것이라고 생각했어요.",
               "direct_chunks": [
                 {
-                  "en": "I used to think",
-                  "ko": "나는 생각하곤 했어요"
+                  "en": "I",
+                  "ko": "나는"
+                },
+                {
+                  "en": "used to think",
+                  "ko": "생각하곤 했어요."
                 },
                 {
                   "en": "helping meant",
@@ -393,8 +409,16 @@
                   "ko": "다른 사람은"
                 },
                 {
-                  "en": "need a place to rest.",
-                  "ko": "쉴 곳이 필요해요."
+                  "en": "need",
+                  "ko": "필요해요"
+                },
+                {
+                  "en": "a place",
+                  "ko": "곳이"
+                },
+                {
+                  "en": "to rest.",
+                  "ko": "쉴."
                 }
               ]
             },
@@ -607,16 +631,32 @@
               "ko": "기사는 홀로 서야 한다고 생각해 도움을 거절한 적이 있어.",
               "direct_chunks": [
                 {
-                  "en": "I once refused help",
-                  "ko": "나는 한때 도움을 거절했어"
+                  "en": "I",
+                  "ko": "나는"
+                },
+                {
+                  "en": "once refused",
+                  "ko": "한때 거절했어"
+                },
+                {
+                  "en": "help",
+                  "ko": "도움을."
                 },
                 {
                   "en": "because I thought",
                   "ko": "내가 생각했기 때문에"
                 },
                 {
-                  "en": "a knight must stand alone.",
-                  "ko": "기사는 홀로 서야 한다고."
+                  "en": "a knight",
+                  "ko": "기사는"
+                },
+                {
+                  "en": "must stand",
+                  "ko": "서야 한다고"
+                },
+                {
+                  "en": "alone.",
+                  "ko": "홀로."
                 }
               ]
             },
@@ -662,8 +702,16 @@
               "ko": "여행자를 지키는 동안 안전한 길을 안내할게요.",
               "direct_chunks": [
                 {
-                  "en": "I can show you",
-                  "ko": "내가 보여 줄 수 있어"
+                  "en": "I",
+                  "ko": "내가"
+                },
+                {
+                  "en": "can show",
+                  "ko": "보여 줄 수 있어"
+                },
+                {
+                  "en": "you",
+                  "ko": "너에게."
                 },
                 {
                   "en": "a safe path",
@@ -884,8 +932,12 @@
               "ko": "처음 발견한 단서를 곧바로 따라가곤 했어.",
               "direct_chunks": [
                 {
-                  "en": "I used to follow",
-                  "ko": "나는 따라가곤 했어"
+                  "en": "I",
+                  "ko": "나는"
+                },
+                {
+                  "en": "used to follow",
+                  "ko": "따라가곤 했어."
                 },
                 {
                   "en": "the first clue",
@@ -999,8 +1051,12 @@
                   "ko": "초록색 끈을"
                 },
                 {
-                  "en": "and a small silver button.",
-                  "ko": "그리고 작은 은색 단추를."
+                  "en": "and",
+                  "ko": "그리고"
+                },
+                {
+                  "en": "a small silver button.",
+                  "ko": "작은 은색 단추를."
                 }
               ]
             },
@@ -1010,8 +1066,16 @@
               "ko": "초록색 끈이 달린 가방을 찾았지만 단추가 검은색이야.",
               "direct_chunks": [
                 {
-                  "en": "I found a bag",
-                  "ko": "나는 가방을 찾았지만"
+                  "en": "I",
+                  "ko": "나는"
+                },
+                {
+                  "en": "found",
+                  "ko": "찾았지만"
+                },
+                {
+                  "en": "a bag",
+                  "ko": "가방을."
                 },
                 {
                   "en": "with a green strap,",
@@ -1173,8 +1237,20 @@
                   "ko": "망가진 물건을"
                 },
                 {
-                  "en": "before anyone could examine it.",
-                  "ko": "누군가 그것을 조사하기 전에."
+                  "en": "before",
+                  "ko": "~하기 전에"
+                },
+                {
+                  "en": "anyone",
+                  "ko": "누군가"
+                },
+                {
+                  "en": "could examine",
+                  "ko": "조사할 수 있기"
+                },
+                {
+                  "en": "it.",
+                  "ko": "그것을."
                 }
               ]
             },
@@ -1220,8 +1296,20 @@
                   "ko": "옛 문양을"
                 },
                 {
-                  "en": "before you repair the stone.",
-                  "ko": "돌을 수리하기 전에."
+                  "en": "before",
+                  "ko": "~하기 전에"
+                },
+                {
+                  "en": "you",
+                  "ko": "네가"
+                },
+                {
+                  "en": "repair",
+                  "ko": "수리하기"
+                },
+                {
+                  "en": "the stone.",
+                  "ko": "돌을."
                 }
               ]
             },
@@ -1283,8 +1371,16 @@
               "ko": "마법으로 글자를 고칠 수 있지만 모양을 바꿀 수도 있어.",
               "direct_chunks": [
                 {
-                  "en": "I could repair the letter",
-                  "ko": "나는 글자를 고칠 수 있지만"
+                  "en": "I",
+                  "ko": "나는"
+                },
+                {
+                  "en": "could repair",
+                  "ko": "고칠 수 있지만"
+                },
+                {
+                  "en": "the letter",
+                  "ko": "글자를."
                 },
                 {
                   "en": "with magic,",
@@ -1364,8 +1460,16 @@
               "ko": "역사를 지우지 않고도 사물을 바꿀 수 있어.",
               "direct_chunks": [
                 {
-                  "en": "I can change things",
-                  "ko": "나는 사물을 바꿀 수 있어"
+                  "en": "I",
+                  "ko": "나는"
+                },
+                {
+                  "en": "can change",
+                  "ko": "바꿀 수 있어"
+                },
+                {
+                  "en": "things",
+                  "ko": "사물을."
                 },
                 {
                   "en": "without erasing",
@@ -1446,8 +1550,12 @@
               "ko": "선물을 줄 때마다 판매 기회를 잃었다고 생각했어.",
               "direct_chunks": [
                 {
-                  "en": "I used to count",
-                  "ko": "나는 생각하곤 했어"
+                  "en": "I",
+                  "ko": "나는"
+                },
+                {
+                  "en": "used to count",
+                  "ko": "생각하곤 했어."
                 },
                 {
                   "en": "every gift",
@@ -1637,8 +1745,16 @@
               "ko": "상점을 운영하면서도 나눔을 선택할 수 있어.",
               "direct_chunks": [
                 {
-                  "en": "I can run a shop",
-                  "ko": "나는 상점을 운영할 수 있어"
+                  "en": "I",
+                  "ko": "나는"
+                },
+                {
+                  "en": "can run",
+                  "ko": "운영할 수 있어"
+                },
+                {
+                  "en": "a shop",
+                  "ko": "상점을."
                 },
                 {
                   "en": "and still choose",
@@ -1731,8 +1847,16 @@
                   "ko": "많은 물건을"
                 },
                 {
-                  "en": "but I do not always know",
-                  "ko": "늘 아는 건 아니야"
+                  "en": "but",
+                  "ko": "하지만"
+                },
+                {
+                  "en": "I",
+                  "ko": "나는"
+                },
+                {
+                  "en": "do not always know",
+                  "ko": "늘 아는 건 아니야."
                 },
                 {
                   "en": "who needs them.",
@@ -1849,8 +1973,20 @@
                   "ko": "내 안에"
                 },
                 {
-                  "en": "but they have different owners.",
-                  "ko": "주인이 달라."
+                  "en": "but",
+                  "ko": "하지만"
+                },
+                {
+                  "en": "they",
+                  "ko": "그것들은"
+                },
+                {
+                  "en": "have",
+                  "ko": "가지고 있어"
+                },
+                {
+                  "en": "different owners.",
+                  "ko": "서로 다른 주인을."
                 }
               ]
             },
@@ -1860,8 +1996,16 @@
               "ko": "떠나기 전에 이름표를 붙이자.",
               "direct_chunks": [
                 {
-                  "en": "Let us label them",
+                  "en": "Let us",
+                  "ko": "~하자"
+                },
+                {
+                  "en": "label",
                   "ko": "이름표를 붙이자"
+                },
+                {
+                  "en": "them",
+                  "ko": "그것들에."
                 },
                 {
                   "en": "before we leave.",
@@ -1914,8 +2058,20 @@
               "ko": "물건이 필요한 사람에게 닿을 때까지 안전하게 보관할게.",
               "direct_chunks": [
                 {
-                  "en": "I will keep things safe",
-                  "ko": "나는 물건을 안전하게 보관할게"
+                  "en": "I",
+                  "ko": "나는"
+                },
+                {
+                  "en": "will keep",
+                  "ko": "보관할게"
+                },
+                {
+                  "en": "things",
+                  "ko": "물건을"
+                },
+                {
+                  "en": "safe",
+                  "ko": "안전하게."
                 },
                 {
                   "en": "until they reach",
@@ -2281,8 +2437,12 @@
               "ko": "그러다"
             },
             {
-              "en": "I began to decide",
-              "ko": "내가 결정하기 시작했지"
+              "en": "I",
+              "ko": "나는"
+            },
+            {
+              "en": "began to decide",
+              "ko": "결정하기 시작했지."
             },
             {
               "en": "who deserved them.",
@@ -2518,8 +2678,20 @@
               "ko": "무너지는 것을"
             },
             {
-              "en": "because no one paid for repairs.",
-              "ko": "수리비를 아무도 내지 않아서."
+              "en": "because",
+              "ko": "왜냐하면"
+            },
+            {
+              "en": "no one",
+              "ko": "아무도"
+            },
+            {
+              "en": "paid for",
+              "ko": "돈을 내지 않아서"
+            },
+            {
+              "en": "repairs.",
+              "ko": "수리비를."
             },
             {
               "en": "I decided",
@@ -2640,8 +2812,16 @@
               "ko": "안전이"
             },
             {
-              "en": "and the freedom to ask.",
-              "ko": "그리고 질문할 자유가."
+              "en": "and",
+              "ko": "그리고"
+            },
+            {
+              "en": "the freedom",
+              "ko": "자유가"
+            },
+            {
+              "en": "to ask.",
+              "ko": "질문할."
             }
           ]
         }

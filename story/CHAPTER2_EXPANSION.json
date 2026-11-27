@@ -2835,8 +2835,12 @@
         ],
         "direct_chunks": [
           {
-            "en": "The book is whole,",
-            "ko": "책은 완전해졌지만"
+            "en": "The book",
+            "ko": "책은"
+          },
+          {
+            "en": "is whole,",
+            "ko": "완전해졌지만"
           },
           {
             "en": "but its final warning",
@@ -2949,8 +2953,16 @@
             "ko": "오직 내 말만,"
           },
           {
-            "en": "the world would be perfect.",
-            "ko": "세상은 완벽할 것이다."
+            "en": "the world",
+            "ko": "세상은"
+          },
+          {
+            "en": "would be",
+            "ko": "~일 것이다"
+          },
+          {
+            "en": "perfect.",
+            "ko": "완벽한."
           }
         ],
         "speaker_en": "Silentius"
@@ -3003,8 +3015,16 @@
         "ko": "언어는 다른 사람을 지배하는 도구가 아니야.",
         "chunks": [
           {
-            "en": "Language is not a tool",
-            "ko": "언어는 도구가 아니야"
+            "en": "Language",
+            "ko": "언어는"
+          },
+          {
+            "en": "is not",
+            "ko": "아니야"
+          },
+          {
+            "en": "a tool",
+            "ko": "도구가."
           },
           {
             "en": "to control others.",
@@ -3019,8 +3039,16 @@
         "ko": "언어는 우리를 이어 주는 다리예요.",
         "chunks": [
           {
-            "en": "It is a bridge",
-            "ko": "그것은 다리예요"
+            "en": "It",
+            "ko": "그것은"
+          },
+          {
+            "en": "is",
+            "ko": "이에요"
+          },
+          {
+            "en": "a bridge",
+            "ko": "다리."
           },
           {
             "en": "that connects us.",

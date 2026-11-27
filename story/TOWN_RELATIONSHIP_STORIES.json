@@ -74,8 +74,24 @@
                 "ko": "저는"
               },
               {
-                "en": "kept half the flour for families who had no food.",
-                "ko": "먹을 것이 없는 가족들을 위해 밀가루 절반을 남겨 두었어요."
+                "en": "kept",
+                "ko": "남겨 두었어요"
+              },
+              {
+                "en": "half",
+                "ko": "절반을"
+              },
+              {
+                "en": "the flour",
+                "ko": "밀가루"
+              },
+              {
+                "en": "for families",
+                "ko": "가족들을 위해"
+              },
+              {
+                "en": "who had no food.",
+                "ko": "먹을 것이 없는."
               }
             ]
           },
@@ -148,8 +164,20 @@
                 "ko": "저는"
               },
               {
-                "en": "did not know why you kept it.",
-                "ko": "왜 남겨 두었는지 몰랐어요."
+                "en": "did not know",
+                "ko": "몰랐어요"
+              },
+              {
+                "en": "why",
+                "ko": "왜"
+              },
+              {
+                "en": "you",
+                "ko": "당신이"
+              },
+              {
+                "en": "kept it.",
+                "ko": "남겨 두었는지."
               }
             ]
           },
@@ -218,8 +246,16 @@
                 "ko": "저는"
               },
               {
-                "en": "should have explained my plan first.",
-                "ko": "먼저 내 계획을 설명했어야 했어요."
+                "en": "should have explained",
+                "ko": "설명했어야 했어요"
+              },
+              {
+                "en": "my plan",
+                "ko": "내 계획을"
+              },
+              {
+                "en": "first.",
+                "ko": "먼저."
               }
             ]
           },
@@ -344,8 +380,28 @@
                 "ko": "저는"
               },
               {
-                "en": "cannot eat fish, but I do not want to upset the cook.",
-                "ko": "생선을 먹을 수 없지만 요리사를 속상하게 하고 싶지 않아요."
+                "en": "cannot eat",
+                "ko": "먹을 수 없지만"
+              },
+              {
+                "en": "fish,",
+                "ko": "생선을"
+              },
+              {
+                "en": "but",
+                "ko": "하지만"
+              },
+              {
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "do not want to upset",
+                "ko": "속상하게 하고 싶지 않아요"
+              },
+              {
+                "en": "the cook.",
+                "ko": "요리사를."
               }
             ]
           },
@@ -446,8 +502,16 @@
                 "ko": "저는"
               },
               {
-                "en": "can make vegetable soup in a separate pot.",
-                "ko": "별도의 냄비에 채소 수프를 만들 수 있어요."
+                "en": "can make",
+                "ko": "만들 수 있어요"
+              },
+              {
+                "en": "vegetable soup",
+                "ko": "채소 수프를"
+              },
+              {
+                "en": "in a separate pot.",
+                "ko": "별도의 냄비에."
               }
             ]
           },
@@ -503,7 +567,7 @@
             "direct_chunks": [
               {
                 "en": "There will always be",
-                "ko": "언제나 있을 거야"
+                "ko": "언제나 있을 거야."
               },
               {
                 "en": "a seat",
@@ -578,8 +642,20 @@
                 "ko": "저는"
               },
               {
-                "en": "stopped this clock on the day my brother left.",
-                "ko": "동생이 떠난 날 이 시계를 멈췄어요."
+                "en": "stopped",
+                "ko": "멈췄어요"
+              },
+              {
+                "en": "this clock",
+                "ko": "이 시계를"
+              },
+              {
+                "en": "on the day",
+                "ko": "날에"
+              },
+              {
+                "en": "my brother left.",
+                "ko": "동생이 떠난."
               }
             ]
           },
@@ -614,8 +690,16 @@
                 "ko": "저는"
               },
               {
-                "en": "thought the clock was broken.",
-                "ko": "시계가 고장 난 줄 알았어요."
+                "en": "thought",
+                "ko": "생각했어요"
+              },
+              {
+                "en": "the clock",
+                "ko": "시계가"
+              },
+              {
+                "en": "was broken.",
+                "ko": "고장 난 줄."
               }
             ]
           },
@@ -684,8 +768,20 @@
                 "ko": "저는"
               },
               {
-                "en": "was afraid to start it again.",
-                "ko": "다시 작동시키기가 두려웠어요."
+                "en": "was afraid",
+                "ko": "두려웠어요"
+              },
+              {
+                "en": "to start",
+                "ko": "작동시키기가"
+              },
+              {
+                "en": "it",
+                "ko": "그것을"
+              },
+              {
+                "en": "again.",
+                "ko": "다시."
               }
             ]
           },
@@ -882,8 +978,24 @@
                 "ko": "저는"
               },
               {
-                "en": "can carry people while the bridge is being repaired.",
-                "ko": "다리를 수리하는 동안 사람들을 태워 줄 수 있어요."
+                "en": "can carry",
+                "ko": "태워 줄 수 있어요"
+              },
+              {
+                "en": "people",
+                "ko": "사람들을"
+              },
+              {
+                "en": "while",
+                "ko": "~하는 동안"
+              },
+              {
+                "en": "the bridge",
+                "ko": "다리를"
+              },
+              {
+                "en": "is being repaired.",
+                "ko": "수리하는."
               }
             ]
           },
@@ -982,8 +1094,16 @@
                 "ko": "경사로를"
               },
               {
-                "en": "before the bridge is ready.",
-                "ko": "다리가 완성되기 전에."
+                "en": "before",
+                "ko": "~하기 전에"
+              },
+              {
+                "en": "the bridge",
+                "ko": "다리가"
+              },
+              {
+                "en": "is ready.",
+                "ko": "완성되."
               }
             ]
           },
@@ -1020,8 +1140,20 @@
                 "ko": "저는"
               },
               {
-                "en": "will help Oak build it.",
-                "ko": "오크가 만드는 것을 도울게요."
+                "en": "will help",
+                "ko": "도울게요"
+              },
+              {
+                "en": "Oak",
+                "ko": "오크가"
+              },
+              {
+                "en": "build",
+                "ko": "만드는 것을"
+              },
+              {
+                "en": "it.",
+                "ko": "그것을."
               }
             ]
           },
@@ -1116,8 +1248,20 @@
                 "ko": "저는"
               },
               {
-                "en": "want to cut down the tree that blocks my path.",
-                "ko": "길을 막는 나무를 베고 싶어요."
+                "en": "want to cut down",
+                "ko": "베고 싶어요"
+              },
+              {
+                "en": "the tree",
+                "ko": "나무를"
+              },
+              {
+                "en": "that blocks",
+                "ko": "막는"
+              },
+              {
+                "en": "my path.",
+                "ko": "내 길을."
               }
             ]
           },
@@ -1138,8 +1282,16 @@
             ],
             "direct_chunks": [
               {
-                "en": "That is the tree",
-                "ko": "그것은 나무예요"
+                "en": "That",
+                "ko": "그것은"
+              },
+              {
+                "en": "is",
+                "ko": "이에요"
+              },
+              {
+                "en": "the tree",
+                "ko": "나무."
               },
               {
                 "en": "where birds",
@@ -1220,8 +1372,20 @@
                 "ko": "저는"
               },
               {
-                "en": "did not know it meant so much to you.",
-                "ko": "그 나무가 그렇게 소중한 줄 몰랐어요."
+                "en": "did not know",
+                "ko": "몰랐어요"
+              },
+              {
+                "en": "it meant",
+                "ko": "그것이 의미하는지"
+              },
+              {
+                "en": "so much",
+                "ko": "그렇게 많이"
+              },
+              {
+                "en": "to you.",
+                "ko": "당신에게."
               }
             ]
           },
@@ -1290,8 +1454,20 @@
                 "ko": "저는"
               },
               {
-                "en": "will show you the path tomorrow.",
-                "ko": "내일 그 길을 보여 줄게요."
+                "en": "will show",
+                "ko": "보여 줄게요"
+              },
+              {
+                "en": "you",
+                "ko": "당신에게"
+              },
+              {
+                "en": "the path",
+                "ko": "그 길을"
+              },
+              {
+                "en": "tomorrow.",
+                "ko": "내일."
               }
             ]
           },
@@ -1406,8 +1582,16 @@
                 "ko": "잘렸어요"
               },
               {
-                "en": "by a sharp piece of wood.",
-                "ko": "날카로운 나무 조각에."
+                "en": "by",
+                "ko": "에"
+              },
+              {
+                "en": "a sharp piece",
+                "ko": "날카로운 조각"
+              },
+              {
+                "en": "of wood.",
+                "ko": "나무."
               }
             ]
           },
@@ -1444,8 +1628,24 @@
                 "ko": "저는"
               },
               {
-                "en": "saw the boat hit the dock in the wind.",
-                "ko": "바람에 배가 부두에 부딪치는 것을 봤어요."
+                "en": "saw",
+                "ko": "봤어요"
+              },
+              {
+                "en": "the boat",
+                "ko": "배가"
+              },
+              {
+                "en": "hit",
+                "ko": "부딪치는 것을"
+              },
+              {
+                "en": "the dock",
+                "ko": "부두에"
+              },
+              {
+                "en": "in the wind.",
+                "ko": "바람에."
               }
             ]
           },
@@ -1582,8 +1782,24 @@
                 "ko": "저는"
               },
               {
-                "en": "will keep my promise to take Ripple fishing.",
-                "ko": "리플을 낚시하러 데려가겠다는 약속을 지킬게요."
+                "en": "will keep",
+                "ko": "지킬게요"
+              },
+              {
+                "en": "my promise",
+                "ko": "약속을"
+              },
+              {
+                "en": "to take",
+                "ko": "데려가겠다는"
+              },
+              {
+                "en": "Ripple",
+                "ko": "리플을"
+              },
+              {
+                "en": "fishing.",
+                "ko": "낚시하러."
               }
             ]
           },
@@ -1646,8 +1862,16 @@
                 "ko": "저는"
               },
               {
-                "en": "have kept this cup for ten years.",
-                "ko": "이 잔을 십 년 동안 간직했어요."
+                "en": "have kept",
+                "ko": "간직했어요"
+              },
+              {
+                "en": "this cup",
+                "ko": "이 잔을"
+              },
+              {
+                "en": "for ten years.",
+                "ko": "십 년 동안."
               }
             ]
           },
@@ -1714,8 +1938,16 @@
                 "ko": "저는"
               },
               {
-                "en": "have seen the same flower on a letter.",
-                "ko": "편지에서 같은 꽃을 본 적이 있어요."
+                "en": "have seen",
+                "ko": "본 적이 있어요"
+              },
+              {
+                "en": "the same flower",
+                "ko": "같은 꽃을"
+              },
+              {
+                "en": "on a letter.",
+                "ko": "편지에서."
               }
             ]
           },
@@ -1910,8 +2142,24 @@
                 "ko": "저는"
               },
               {
-                "en": "ring the bell at the time when the boats return.",
-                "ko": "배가 돌아오는 시간에 종을 울려요."
+                "en": "ring",
+                "ko": "울려요"
+              },
+              {
+                "en": "the bell",
+                "ko": "종을"
+              },
+              {
+                "en": "at the time",
+                "ko": "시간에"
+              },
+              {
+                "en": "when",
+                "ko": "~하는"
+              },
+              {
+                "en": "the boats return.",
+                "ko": "배가 돌아오는."
               }
             ]
           },
@@ -1944,8 +2192,16 @@
                 "ko": "장소가"
               },
               {
-                "en": "where the sound cannot reach.",
-                "ko": "소리가 닿지 않는."
+                "en": "where",
+                "ko": "~한"
+              },
+              {
+                "en": "the sound",
+                "ko": "소리가"
+              },
+              {
+                "en": "cannot reach.",
+                "ko": "닿지 않는."
               }
             ]
           },
@@ -2082,8 +2338,16 @@
                 "ko": "저는"
               },
               {
-                "en": "can make a pole for the flag.",
-                "ko": "깃발용 기둥을 만들 수 있어요."
+                "en": "can make",
+                "ko": "만들 수 있어요"
+              },
+              {
+                "en": "a pole",
+                "ko": "기둥을"
+              },
+              {
+                "en": "for the flag.",
+                "ko": "깃발용."
               }
             ]
           },
@@ -2180,8 +2444,12 @@
                 "ko": "이름을"
               },
               {
-                "en": "I did not know.",
-                "ko": "제가 모르는."
+                "en": "I",
+                "ko": "제가"
+              },
+              {
+                "en": "did not know.",
+                "ko": "모르는."
               }
             ]
           },
@@ -2202,8 +2470,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "Written in an old style,",
-                "ko": "옛 방식으로 쓰여"
+                "en": "Written",
+                "ko": "쓰여"
+              },
+              {
+                "en": "in an old style,",
+                "ko": "옛 방식으로,"
               },
               {
                 "en": "the name",
@@ -2302,8 +2574,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "It was the name",
-                "ko": "이름이었어요"
+                "en": "It was",
+                "ko": "~였어요"
+              },
+              {
+                "en": "the name",
+                "ko": "이름."
               },
               {
                 "en": "of a guide,",
@@ -2442,8 +2718,20 @@
                 "ko": "저는"
               },
               {
-                "en": "wish I could fly to my friend.",
-                "ko": "친구에게 날아갈 수 있으면 좋겠어요."
+                "en": "wish",
+                "ko": "바라요"
+              },
+              {
+                "en": "I",
+                "ko": "제가"
+              },
+              {
+                "en": "could fly",
+                "ko": "날아갈 수 있기를"
+              },
+              {
+                "en": "to my friend.",
+                "ko": "친구에게."
               }
             ]
           },
@@ -2514,8 +2802,20 @@
                 "ko": "저는"
               },
               {
-                "en": "can help you write a letter.",
-                "ko": "편지 쓰는 것을 도울 수 있어요."
+                "en": "can help",
+                "ko": "도울 수 있어요"
+              },
+              {
+                "en": "you",
+                "ko": "당신을"
+              },
+              {
+                "en": "write",
+                "ko": "쓰는 것을"
+              },
+              {
+                "en": "a letter.",
+                "ko": "편지를."
               }
             ]
           },
@@ -2546,8 +2846,16 @@
                 "ko": "무슨 말을 할지"
               },
               {
-                "en": "I would write it",
-                "ko": "저는 쓸 텐데요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "would write",
+                "ko": "쓸 텐데요"
+              },
+              {
+                "en": "it",
+                "ko": "그것을."
               },
               {
                 "en": "myself.",
@@ -2770,8 +3078,20 @@
                 "ko": "저는"
               },
               {
-                "en": "stopped to help a runner who fell.",
-                "ko": "넘어진 선수를 돕기 위해 멈췄어요."
+                "en": "stopped",
+                "ko": "멈췄어요"
+              },
+              {
+                "en": "to help",
+                "ko": "돕기 위해"
+              },
+              {
+                "en": "a runner",
+                "ko": "선수를"
+              },
+              {
+                "en": "who fell.",
+                "ko": "넘어진."
               }
             ]
           },
@@ -3164,8 +3484,20 @@
                 "ko": "저는"
               },
               {
-                "en": "am glad it has found its owner.",
-                "ko": "주인을 찾아서 기뻐요."
+                "en": "am glad",
+                "ko": "기뻐요"
+              },
+              {
+                "en": "it",
+                "ko": "그것이"
+              },
+              {
+                "en": "has found",
+                "ko": "찾아서"
+              },
+              {
+                "en": "its owner.",
+                "ko": "주인을."
               }
             ]
           },
@@ -3386,8 +3718,16 @@
                 "ko": "저는"
               },
               {
-                "en": "will signal the ship from the shore.",
-                "ko": "해안에서 배에 신호를 보낼게요."
+                "en": "will signal",
+                "ko": "신호를 보낼게요"
+              },
+              {
+                "en": "the ship",
+                "ko": "배에"
+              },
+              {
+                "en": "from the shore.",
+                "ko": "해안에서."
               }
             ]
           },
@@ -3506,8 +3846,16 @@
             ],
             "direct_chunks": [
               {
-                "en": "I enjoy making things,",
-                "ko": "저는 물건 만들기를 즐겨요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "enjoy making",
+                "ko": "만들기를 즐겨요"
+              },
+              {
+                "en": "things,",
+                "ko": "물건."
               },
               {
                 "en": "not sailing.",
@@ -3616,8 +3964,16 @@
                 "ko": "저는"
               },
               {
-                "en": "can offer her a trial lesson.",
-                "ko": "체험 수업을 제공할 수 있어요."
+                "en": "can offer",
+                "ko": "제공할 수 있어요"
+              },
+              {
+                "en": "her",
+                "ko": "그녀에게"
+              },
+              {
+                "en": "a trial lesson.",
+                "ko": "체험 수업을."
               }
             ]
           },
@@ -3654,8 +4010,20 @@
                 "ko": "저는"
               },
               {
-                "en": "want to try it before I decide.",
-                "ko": "결정하기 전에 해 보고 싶어요."
+                "en": "want to try",
+                "ko": "해 보고 싶어요"
+              },
+              {
+                "en": "it",
+                "ko": "그것을"
+              },
+              {
+                "en": "before",
+                "ko": "~하기 전에"
+              },
+              {
+                "en": "I decide.",
+                "ko": "제가 결정하."
               }
             ]
           },
@@ -3750,8 +4118,20 @@
                 "ko": "저는"
               },
               {
-                "en": "heard Robin crying near the bell.",
-                "ko": "종 근처에서 로빈이 우는 것을 들었어요."
+                "en": "heard",
+                "ko": "들었어요"
+              },
+              {
+                "en": "Robin",
+                "ko": "로빈이"
+              },
+              {
+                "en": "crying",
+                "ko": "우는 것을"
+              },
+              {
+                "en": "near the bell.",
+                "ko": "종 근처에서."
               }
             ]
           },
@@ -3854,8 +4234,20 @@
                 "ko": "저는"
               },
               {
-                "en": "can make the bell sound softer.",
-                "ko": "종소리를 더 부드럽게 만들 수 있어요."
+                "en": "can make",
+                "ko": "만들 수 있어요"
+              },
+              {
+                "en": "the bell",
+                "ko": "종이"
+              },
+              {
+                "en": "sound",
+                "ko": "소리 나게"
+              },
+              {
+                "en": "softer.",
+                "ko": "더 부드럽게."
               }
             ]
           },
@@ -4030,8 +4422,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "Please do not make me",
-                "ko": "저를 시키지 말아 주세요"
+                "en": "Please do not make",
+                "ko": "시키지 말아 주세요"
+              },
+              {
+                "en": "me",
+                "ko": "저를."
               },
               {
                 "en": "sing",
@@ -4280,8 +4676,20 @@
                 "ko": "저는"
               },
               {
-                "en": "said that she was worried, not angry.",
-                "ko": "화난 것이 아니라 걱정한다고 말했어요."
+                "en": "said",
+                "ko": "말했어요"
+              },
+              {
+                "en": "that she",
+                "ko": "그녀가"
+              },
+              {
+                "en": "was worried,",
+                "ko": "걱정한다고"
+              },
+              {
+                "en": "not angry.",
+                "ko": "화난 것이 아니라."
               }
             ]
           },
@@ -4318,8 +4726,20 @@
                 "ko": "저는"
               },
               {
-                "en": "asked when my mother would return.",
-                "ko": "엄마가 언제 돌아올지 물었어요."
+                "en": "asked",
+                "ko": "물었어요"
+              },
+              {
+                "en": "when",
+                "ko": "언제"
+              },
+              {
+                "en": "my mother",
+                "ko": "엄마가"
+              },
+              {
+                "en": "would return.",
+                "ko": "돌아올지."
               }
             ]
           },
@@ -4388,8 +4808,20 @@
                 "ko": "저는"
               },
               {
-                "en": "know where her mother is waiting.",
-                "ko": "엄마가 어디에서 기다리는지 알아요."
+                "en": "know",
+                "ko": "알아요"
+              },
+              {
+                "en": "where",
+                "ko": "어디에서"
+              },
+              {
+                "en": "her mother",
+                "ko": "엄마가"
+              },
+              {
+                "en": "is waiting.",
+                "ko": "기다리는지."
               }
             ]
           },
@@ -4536,8 +4968,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "It was the old rule",
-                "ko": "옛 규칙이었어요"
+                "en": "It was",
+                "ko": "~였어요"
+              },
+              {
+                "en": "the old rule",
+                "ko": "옛 규칙."
               },
               {
                 "en": "that kept",
@@ -4586,8 +5022,20 @@
                 "ko": "저는"
               },
               {
-                "en": "want to read, learn, and ask questions.",
-                "ko": "읽고 배우고 질문하고 싶어요."
+                "en": "want to read,",
+                "ko": "읽고"
+              },
+              {
+                "en": "learn,",
+                "ko": "배우고"
+              },
+              {
+                "en": "and ask",
+                "ko": "질문하고 싶어요"
+              },
+              {
+                "en": "questions.",
+                "ko": "질문을."
               }
             ]
           },
@@ -4674,8 +5122,20 @@
             ],
             "direct_chunks": [
               {
-                "en": "Only after we check the room",
-                "ko": "방을 확인한 뒤에야"
+                "en": "Only after",
+                "ko": "~한 뒤에야"
+              },
+              {
+                "en": "we",
+                "ko": "우리가"
+              },
+              {
+                "en": "check",
+                "ko": "확인한"
+              },
+              {
+                "en": "the room",
+                "ko": "방을."
               },
               {
                 "en": "will we open it.",

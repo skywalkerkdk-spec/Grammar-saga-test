@@ -1157,7 +1157,7 @@
       if (!episode || ids.has(quest.town_id) || quest.clues.length!==4 || quest.tasks.length!==2 ||
           quest.town_en!==episode.town_en || quest.reward.type!=='completion_flag' ||
           quest.clues.some((line,i)=>line.speaker!==episode.residents.find(r=>r.index===i)?.name_en ||
-            !line.chunks.length || line.chunks.length>data.palette.length ||
+            !line.chunks.length || line.chunks.length>12 ||
             !line.chunks.every(chunk=>typeof chunk.en==='string' && typeof chunk.ko==='string')) ||
           quest.tasks.some(task=>task.options.length!==3 || !Number.isInteger(task.correct_index) ||
             task.correct_index<0 || task.correct_index>=task.options.length ||
@@ -1414,7 +1414,7 @@
     if (!Array.isArray(data.palette) || !data.palette.every(c=>/^#[0-9a-f]{6}$/i.test(c))) throw new Error('Invalid palette');
     const validateLine=line=>{
       if (!line || !['speaker','en','ko'].every(k=>typeof line[k]==='string') ||
-          !Array.isArray(line.chunks) || !line.chunks.length || line.chunks.length>data.palette.length ||
+          !Array.isArray(line.chunks) || !line.chunks.length || line.chunks.length>12 ||
           !line.chunks.every(chunk=>typeof chunk.en==='string'&&typeof chunk.ko==='string')) throw new Error('Invalid dialogue');
     };
     const legacyTown=value=>value?.replace(/\s+/g,'');

@@ -274,8 +274,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "I am looking for",
-                "ko": "저는 찾고 있어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "am looking for",
+                "ko": "찾고 있어요."
               },
               {
                 "en": "my flour sack.",
@@ -589,8 +593,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "There is always something",
-                "ko": "언제나 무언가가 있어요"
+                "en": "There is",
+                "ko": "있어요"
+              },
+              {
+                "en": "always something",
+                "ko": "언제나 무언가가."
               },
               {
                 "en": "to do",
@@ -932,8 +940,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I will put it to use",
-                    "ko": "저는 쓸게요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "will put it to use",
+                    "ko": "쓸게요."
                   },
                   {
                     "en": "today.",
@@ -1058,8 +1070,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "The courier can already pass,",
-                    "ko": "배달부는 벌써 지나갈 수 있지만"
+                    "en": "The courier",
+                    "ko": "배달부는"
+                  },
+                  {
+                    "en": "can already pass,",
+                    "ko": "벌써 지나갈 수 있지만"
                   },
                   {
                     "en": "but the side path",
@@ -1150,8 +1166,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I have written down",
-                    "ko": "저는 적어 두었어요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "have written down",
+                    "ko": "적어 두었어요."
                   },
                   {
                     "en": "the correction",
@@ -1433,8 +1453,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "I am looking for",
-                "ko": "저는 찾고 있어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "am looking for",
+                "ko": "찾고 있어요."
               },
               {
                 "en": "my menu.",
@@ -1762,8 +1786,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "There is always something",
-                "ko": "언제나 무언가가 있어요"
+                "en": "There is",
+                "ko": "있어요"
+              },
+              {
+                "en": "always something",
+                "ko": "언제나 무언가가."
               },
               {
                 "en": "to do",
@@ -2033,8 +2061,12 @@
                     "ko": "상점에"
                   },
                   {
-                    "en": "for a clean tasting spoon.",
-                    "ko": "깨끗한 시식 숟가락을."
+                    "en": "for",
+                    "ko": "을"
+                  },
+                  {
+                    "en": "a clean tasting spoon.",
+                    "ko": "깨끗한 시식 숟가락."
                   }
                 ]
               }
@@ -2105,8 +2137,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I will put it to use",
-                    "ko": "저는 쓸게요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "will put it to use",
+                    "ko": "쓸게요."
                   },
                   {
                     "en": "today.",
@@ -2313,8 +2349,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I have written down",
-                    "ko": "저는 적어 두었어요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "have written down",
+                    "ko": "적어 두었어요."
                   },
                   {
                     "en": "the correction",
@@ -2606,8 +2646,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "I am looking for",
-                "ko": "저는 찾고 있어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "am looking for",
+                "ko": "찾고 있어요."
               },
               {
                 "en": "my clock key.",
@@ -2935,8 +2979,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "There is always something",
-                "ko": "언제나 무언가가 있어요"
+                "en": "There is",
+                "ko": "있어요"
+              },
+              {
+                "en": "always something",
+                "ko": "언제나 무언가가."
               },
               {
                 "en": "to do",
@@ -3292,8 +3340,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I will put it to use",
-                    "ko": "저는 쓸게요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "will put it to use",
+                    "ko": "쓸게요."
                   },
                   {
                     "en": "today.",
@@ -3404,8 +3456,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "Only the small repair bell",
-                    "ko": "수리한 작은 종만"
+                    "en": "Only",
+                    "ko": "오직"
+                  },
+                  {
+                    "en": "the small repair bell",
+                    "ko": "수리한 작은 종만."
                   },
                   {
                     "en": "rang",
@@ -3508,8 +3564,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I have written down",
-                    "ko": "저는 적어 두었어요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "have written down",
+                    "ko": "적어 두었어요."
                   },
                   {
                     "en": "the correction",
@@ -3791,8 +3851,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "I am looking for",
-                "ko": "저는 찾고 있어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "am looking for",
+                "ko": "찾고 있어요."
               },
               {
                 "en": "my rope.",
@@ -4106,8 +4170,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "There is always something",
-                "ko": "언제나 무언가가 있어요"
+                "en": "There is",
+                "ko": "있어요"
+              },
+              {
+                "en": "always something",
+                "ko": "언제나 무언가가."
               },
               {
                 "en": "to do",
@@ -4363,8 +4431,12 @@
                     "ko": "상점에"
                   },
                   {
-                    "en": "for a spare helmet strap.",
-                    "ko": "여분의 헬멧 끈을."
+                    "en": "for",
+                    "ko": "을"
+                  },
+                  {
+                    "en": "a spare helmet strap.",
+                    "ko": "여분의 헬멧 끈."
                   }
                 ]
               }
@@ -4435,8 +4507,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I will put it to use",
-                    "ko": "저는 쓸게요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "will put it to use",
+                    "ko": "쓸게요."
                   },
                   {
                     "en": "today.",
@@ -4643,8 +4719,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I have written down",
-                    "ko": "저는 적어 두었어요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "have written down",
+                    "ko": "적어 두었어요."
                   },
                   {
                     "en": "the correction",
@@ -4936,8 +5016,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "I am looking for",
-                "ko": "저는 찾고 있어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "am looking for",
+                "ko": "찾고 있어요."
               },
               {
                 "en": "my wooden sign.",
@@ -5251,8 +5335,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "There is always something",
-                "ko": "언제나 무언가가 있어요"
+                "en": "There is",
+                "ko": "있어요"
+              },
+              {
+                "en": "always something",
+                "ko": "언제나 무언가가."
               },
               {
                 "en": "to do",
@@ -5522,8 +5610,12 @@
                     "ko": "상점에"
                   },
                   {
-                    "en": "for a bottle of blue ink.",
-                    "ko": "파란 잉크 한 병을."
+                    "en": "for",
+                    "ko": "을"
+                  },
+                  {
+                    "en": "a bottle of blue ink.",
+                    "ko": "파란 잉크 한 병."
                   }
                 ]
               }
@@ -5560,8 +5652,12 @@
                     "ko": "여기 있어요"
                   },
                   {
-                    "en": "a bottle of blue ink",
-                    "ko": "파란 잉크 한 병이"
+                    "en": "a bottle",
+                    "ko": "한 병"
+                  },
+                  {
+                    "en": "of blue ink",
+                    "ko": "파란 잉크."
                   },
                   {
                     "en": "for the trail mapmaker.",
@@ -5594,8 +5690,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I will put it to use",
-                    "ko": "저는 쓸게요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "will put it to use",
+                    "ko": "쓸게요."
                   },
                   {
                     "en": "today.",
@@ -5720,8 +5820,16 @@
                     "ko": "들어졌어요"
                   },
                   {
-                    "en": "so the bridge builders could pass.",
-                    "ko": "다리 공사팀이 지나갈 수 있도록."
+                    "en": "so",
+                    "ko": "~하도록"
+                  },
+                  {
+                    "en": "the bridge builders",
+                    "ko": "다리 공사팀이"
+                  },
+                  {
+                    "en": "could pass.",
+                    "ko": "지나갈 수 있."
                   }
                 ]
               }
@@ -5804,8 +5912,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I have written down",
-                    "ko": "저는 적어 두었어요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "have written down",
+                    "ko": "적어 두었어요."
                   },
                   {
                     "en": "the correction",
@@ -6087,8 +6199,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "I am looking for",
-                "ko": "저는 찾고 있어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "am looking for",
+                "ko": "찾고 있어요."
               },
               {
                 "en": "my lantern.",
@@ -6416,8 +6532,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "There is always something",
-                "ko": "언제나 무언가가 있어요"
+                "en": "There is",
+                "ko": "있어요"
+              },
+              {
+                "en": "always something",
+                "ko": "언제나 무언가가."
               },
               {
                 "en": "to do",
@@ -6687,8 +6807,12 @@
                     "ko": "상점에"
                   },
                   {
-                    "en": "for a spare lantern pane.",
-                    "ko": "여분의 등불 유리를."
+                    "en": "for",
+                    "ko": "을"
+                  },
+                  {
+                    "en": "a spare lantern pane.",
+                    "ko": "여분의 등불 유리."
                   }
                 ]
               }
@@ -6759,8 +6883,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I will put it to use",
-                    "ko": "저는 쓸게요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "will put it to use",
+                    "ko": "쓸게요."
                   },
                   {
                     "en": "today.",
@@ -6979,8 +7107,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I have written down",
-                    "ko": "저는 적어 두었어요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "have written down",
+                    "ko": "적어 두었어요."
                   },
                   {
                     "en": "the correction",
@@ -7272,8 +7404,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "I am looking for",
-                "ko": "저는 찾고 있어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "am looking for",
+                "ko": "찾고 있어요."
               },
               {
                 "en": "my water jar.",
@@ -7587,8 +7723,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "There is always something",
-                "ko": "언제나 무언가가 있어요"
+                "en": "There is",
+                "ko": "있어요"
+              },
+              {
+                "en": "always something",
+                "ko": "언제나 무언가가."
               },
               {
                 "en": "to do",
@@ -7858,8 +7998,12 @@
                     "ko": "상점에"
                   },
                   {
-                    "en": "for a clean jar cover.",
-                    "ko": "깨끗한 항아리 덮개를."
+                    "en": "for",
+                    "ko": "을"
+                  },
+                  {
+                    "en": "a clean jar cover.",
+                    "ko": "깨끗한 항아리 덮개."
                   }
                 ]
               }
@@ -7930,8 +8074,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I will put it to use",
-                    "ko": "저는 쓸게요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "will put it to use",
+                    "ko": "쓸게요."
                   },
                   {
                     "en": "today.",
@@ -8042,8 +8190,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "The well is full;",
-                    "ko": "우물은 가득해요"
+                    "en": "The well",
+                    "ko": "우물은"
+                  },
+                  {
+                    "en": "is full;",
+                    "ko": "가득해요."
                   },
                   {
                     "en": "the outside jug",
@@ -8138,8 +8290,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I have written down",
-                    "ko": "저는 적어 두었어요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "have written down",
+                    "ko": "적어 두었어요."
                   },
                   {
                     "en": "the correction",
@@ -8431,8 +8587,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "I am looking for",
-                "ko": "저는 찾고 있어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "am looking for",
+                "ko": "찾고 있어요."
               },
               {
                 "en": "my bell rope.",
@@ -8760,8 +8920,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "There is always something",
-                "ko": "언제나 무언가가 있어요"
+                "en": "There is",
+                "ko": "있어요"
+              },
+              {
+                "en": "always something",
+                "ko": "언제나 무언가가."
               },
               {
                 "en": "to do",
@@ -9045,8 +9209,12 @@
                     "ko": "상점에"
                   },
                   {
-                    "en": "for a new chart cord.",
-                    "ko": "새 조수표 끈을."
+                    "en": "for",
+                    "ko": "을"
+                  },
+                  {
+                    "en": "a new chart cord.",
+                    "ko": "새 조수표 끈."
                   }
                 ]
               }
@@ -9117,8 +9285,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I will put it to use",
-                    "ko": "저는 쓸게요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "will put it to use",
+                    "ko": "쓸게요."
                   },
                   {
                     "en": "today.",
@@ -9343,8 +9515,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I have written down",
-                    "ko": "저는 적어 두었어요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "have written down",
+                    "ko": "적어 두었어요."
                   },
                   {
                     "en": "the correction",
@@ -9626,8 +9802,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "I am looking for",
-                "ko": "저는 찾고 있어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "am looking for",
+                "ko": "찾고 있어요."
               },
               {
                 "en": "my brush.",
@@ -9941,8 +10121,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "There is always something",
-                "ko": "언제나 무언가가 있어요"
+                "en": "There is",
+                "ko": "있어요"
+              },
+              {
+                "en": "always something",
+                "ko": "언제나 무언가가."
               },
               {
                 "en": "to do",
@@ -10198,8 +10382,12 @@
                     "ko": "상점에"
                   },
                   {
-                    "en": "for a fine copying brush.",
-                    "ko": "가는 필사용 붓을."
+                    "en": "for",
+                    "ko": "을"
+                  },
+                  {
+                    "en": "a fine copying brush.",
+                    "ko": "가는 필사용 붓."
                   }
                 ]
               }
@@ -10270,8 +10458,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I will put it to use",
-                    "ko": "저는 쓸게요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "will put it to use",
+                    "ko": "쓸게요."
                   },
                   {
                     "en": "today.",
@@ -10408,8 +10600,12 @@
                     "ko": "오늘 닫혔고"
                   },
                   {
-                    "en": "the rest of the marked path",
-                    "ko": "표시된 길의 나머지는"
+                    "en": "the rest",
+                    "ko": "나머지는"
+                  },
+                  {
+                    "en": "of the marked path",
+                    "ko": "표시된 길의."
                   },
                   {
                     "en": "is open.",
@@ -10496,8 +10692,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I have written down",
-                    "ko": "저는 적어 두었어요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "have written down",
+                    "ko": "적어 두었어요."
                   },
                   {
                     "en": "the correction",
@@ -10779,8 +10979,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "I am looking for",
-                "ko": "저는 찾고 있어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "am looking for",
+                "ko": "찾고 있어요."
               },
               {
                 "en": "my ribbon.",
@@ -11108,8 +11312,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "There is always something",
-                "ko": "언제나 무언가가 있어요"
+                "en": "There is",
+                "ko": "있어요"
+              },
+              {
+                "en": "always something",
+                "ko": "언제나 무언가가."
               },
               {
                 "en": "to do",
@@ -11379,8 +11587,16 @@
                     "ko": "상점에"
                   },
                   {
-                    "en": "for a sheet of thick paper.",
-                    "ko": "두꺼운 종이 한 장을."
+                    "en": "for",
+                    "ko": "을"
+                  },
+                  {
+                    "en": "a sheet",
+                    "ko": "한 장"
+                  },
+                  {
+                    "en": "of thick paper.",
+                    "ko": "두꺼운 종이."
                   }
                 ]
               }
@@ -11417,8 +11633,12 @@
                     "ko": "여기 있어요"
                   },
                   {
-                    "en": "a sheet of thick paper",
-                    "ko": "두꺼운 종이 한 장이"
+                    "en": "a sheet",
+                    "ko": "한 장이"
+                  },
+                  {
+                    "en": "of thick paper",
+                    "ko": "두꺼운 종이."
                   },
                   {
                     "en": "for the letter writer.",
@@ -11451,8 +11671,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I will put it to use",
-                    "ko": "저는 쓸게요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "will put it to use",
+                    "ko": "쓸게요."
                   },
                   {
                     "en": "today.",
@@ -11659,8 +11883,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I have written down",
-                    "ko": "저는 적어 두었어요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "have written down",
+                    "ko": "적어 두었어요."
                   },
                   {
                     "en": "the correction",
@@ -11942,8 +12170,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "I am looking for",
-                "ko": "저는 찾고 있어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "am looking for",
+                "ko": "찾고 있어요."
               },
               {
                 "en": "my flag.",
@@ -12271,8 +12503,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "There is always something",
-                "ko": "언제나 무언가가 있어요"
+                "en": "There is",
+                "ko": "있어요"
+              },
+              {
+                "en": "always something",
+                "ko": "언제나 무언가가."
               },
               {
                 "en": "to do",
@@ -12542,8 +12778,12 @@
                     "ko": "상점에"
                   },
                   {
-                    "en": "for a blank medal tag.",
-                    "ko": "빈 메달 이름표를."
+                    "en": "for",
+                    "ko": "을"
+                  },
+                  {
+                    "en": "a blank medal tag.",
+                    "ko": "빈 메달 이름표."
                   }
                 ]
               }
@@ -12614,8 +12854,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I will put it to use",
-                    "ko": "저는 쓸게요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "will put it to use",
+                    "ko": "쓸게요."
                   },
                   {
                     "en": "today.",
@@ -12738,8 +12982,16 @@
                     "ko": "출발 담당자는"
                   },
                   {
-                    "en": "has not given the signal yet.",
-                    "ko": "아직 신호를 주지 않았어요."
+                    "en": "has not given",
+                    "ko": "주지 않았어요"
+                  },
+                  {
+                    "en": "the signal",
+                    "ko": "신호를"
+                  },
+                  {
+                    "en": "yet.",
+                    "ko": "아직."
                   }
                 ]
               }
@@ -12822,8 +13074,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I have written down",
-                    "ko": "저는 적어 두었어요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "have written down",
+                    "ko": "적어 두었어요."
                   },
                   {
                     "en": "the correction",
@@ -13105,8 +13361,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "I am looking for",
-                "ko": "저는 찾고 있어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "am looking for",
+                "ko": "찾고 있어요."
               },
               {
                 "en": "my umbrella.",
@@ -13182,8 +13442,12 @@
                 "ko": "무언가를"
               },
               {
-                "en": "beside the lost property desk.",
-                "ko": "분실물 안내소 옆에서."
+                "en": "beside",
+                "ko": "옆에서"
+              },
+              {
+                "en": "the lost property desk.",
+                "ko": "분실물 안내소."
               }
             ]
           },
@@ -13434,8 +13698,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "There is always something",
-                "ko": "언제나 무언가가 있어요"
+                "en": "There is",
+                "ko": "있어요"
+              },
+              {
+                "en": "always something",
+                "ko": "언제나 무언가가."
               },
               {
                 "en": "to do",
@@ -13547,8 +13815,12 @@
                     "ko": "무언가를"
                   },
                   {
-                    "en": "beside the lost property desk.",
-                    "ko": "분실물 안내소 옆에서."
+                    "en": "beside",
+                    "ko": "옆에서"
+                  },
+                  {
+                    "en": "the lost property desk.",
+                    "ko": "분실물 안내소."
                   }
                 ]
               }
@@ -13705,8 +13977,16 @@
                     "ko": "상점에"
                   },
                   {
-                    "en": "for a spool of green thread.",
-                    "ko": "초록 실 한 타래를."
+                    "en": "for",
+                    "ko": "을"
+                  },
+                  {
+                    "en": "a spool",
+                    "ko": "한 타래"
+                  },
+                  {
+                    "en": "of green thread.",
+                    "ko": "초록 실."
                   }
                 ]
               }
@@ -13743,8 +14023,12 @@
                     "ko": "여기 있어요"
                   },
                   {
-                    "en": "a spool of green thread",
-                    "ko": "초록 실 한 타래가"
+                    "en": "a spool",
+                    "ko": "한 타래가"
+                  },
+                  {
+                    "en": "of green thread",
+                    "ko": "초록 실."
                   },
                   {
                     "en": "for the binder.",
@@ -13777,8 +14061,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I will put it to use",
-                    "ko": "저는 쓸게요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "will put it to use",
+                    "ko": "쓸게요."
                   },
                   {
                     "en": "today.",
@@ -13911,8 +14199,12 @@
                     "ko": "목도리는"
                   },
                   {
-                    "en": "is still at the desk;",
-                    "ko": "아직 안내대에 있어요"
+                    "en": "is still",
+                    "ko": "아직 있어요"
+                  },
+                  {
+                    "en": "at the desk;",
+                    "ko": "안내대에."
                   },
                   {
                     "en": "the umbrella’s owner",
@@ -14003,8 +14295,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I have written down",
-                    "ko": "저는 적어 두었어요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "have written down",
+                    "ko": "적어 두었어요."
                   },
                   {
                     "en": "the correction",
@@ -14286,8 +14582,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "I am looking for",
-                "ko": "저는 찾고 있어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "am looking for",
+                "ko": "찾고 있어요."
               },
               {
                 "en": "my lens.",
@@ -14601,8 +14901,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "There is always something",
-                "ko": "언제나 무언가가 있어요"
+                "en": "There is",
+                "ko": "있어요"
+              },
+              {
+                "en": "always something",
+                "ko": "언제나 무언가가."
               },
               {
                 "en": "to do",
@@ -14858,8 +15162,12 @@
                     "ko": "상점에"
                   },
                   {
-                    "en": "for a small replacement hook.",
-                    "ko": "작은 교체용 고리를."
+                    "en": "for",
+                    "ko": "을"
+                  },
+                  {
+                    "en": "a small replacement hook.",
+                    "ko": "작은 교체용 고리."
                   }
                 ]
               }
@@ -14930,8 +15238,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I will put it to use",
-                    "ko": "저는 쓸게요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "will put it to use",
+                    "ko": "쓸게요."
                   },
                   {
                     "en": "today.",
@@ -15164,8 +15476,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I have written down",
-                    "ko": "저는 적어 두었어요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "have written down",
+                    "ko": "적어 두었어요."
                   },
                   {
                     "en": "the correction",
@@ -15457,8 +15773,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "I am looking for",
-                "ko": "저는 찾고 있어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "am looking for",
+                "ko": "찾고 있어요."
               },
               {
                 "en": "my pair of boots.",
@@ -15786,8 +16106,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "There is always something",
-                "ko": "언제나 무언가가 있어요"
+                "en": "There is",
+                "ko": "있어요"
+              },
+              {
+                "en": "always something",
+                "ko": "언제나 무언가가."
               },
               {
                 "en": "to do",
@@ -16143,8 +16467,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I will put it to use",
-                    "ko": "저는 쓸게요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "will put it to use",
+                    "ko": "쓸게요."
                   },
                   {
                     "en": "today.",
@@ -16273,8 +16601,12 @@
                     "ko": "쓸 수 있는 벤치가 있어요"
                   },
                   {
-                    "en": "only the small bunk room",
-                    "ko": "작은 침실만"
+                    "en": "only",
+                    "ko": "오직"
+                  },
+                  {
+                    "en": "the small bunk room",
+                    "ko": "작은 침실만."
                   },
                   {
                     "en": "is full.",
@@ -16361,8 +16693,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I have written down",
-                    "ko": "저는 적어 두었어요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "have written down",
+                    "ko": "적어 두었어요."
                   },
                   {
                     "en": "the correction",
@@ -16644,8 +16980,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "I am looking for",
-                "ko": "저는 찾고 있어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "am looking for",
+                "ko": "찾고 있어요."
               },
               {
                 "en": "my bell.",
@@ -16973,8 +17313,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "There is always something",
-                "ko": "언제나 무언가가 있어요"
+                "en": "There is",
+                "ko": "있어요"
+              },
+              {
+                "en": "always something",
+                "ko": "언제나 무언가가."
               },
               {
                 "en": "to do",
@@ -17316,8 +17660,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I will put it to use",
-                    "ko": "저는 쓸게요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "will put it to use",
+                    "ko": "쓸게요."
                   },
                   {
                     "en": "today.",
@@ -17534,8 +17882,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I have written down",
-                    "ko": "저는 적어 두었어요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "have written down",
+                    "ko": "적어 두었어요."
                   },
                   {
                     "en": "the correction",
@@ -17817,8 +18169,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "I am looking for",
-                "ko": "저는 찾고 있어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "am looking for",
+                "ko": "찾고 있어요."
               },
               {
                 "en": "my banner.",
@@ -18132,8 +18488,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "There is always something",
-                "ko": "언제나 무언가가 있어요"
+                "en": "There is",
+                "ko": "있어요"
+              },
+              {
+                "en": "always something",
+                "ko": "언제나 무언가가."
               },
               {
                 "en": "to do",
@@ -18389,8 +18749,12 @@
                     "ko": "상점에"
                   },
                   {
-                    "en": "for a blue curtain ribbon.",
-                    "ko": "파란 커튼 리본을."
+                    "en": "for",
+                    "ko": "을"
+                  },
+                  {
+                    "en": "a blue curtain ribbon.",
+                    "ko": "파란 커튼 리본."
                   }
                 ]
               }
@@ -18461,8 +18825,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I will put it to use",
-                    "ko": "저는 쓸게요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "will put it to use",
+                    "ko": "쓸게요."
                   },
                   {
                     "en": "today.",
@@ -18595,8 +18963,12 @@
                     "ko": "노래는"
                   },
                   {
-                    "en": "is still on the program,",
-                    "ko": "아직 순서에 있어요"
+                    "en": "is still",
+                    "ko": "아직 있어요"
+                  },
+                  {
+                    "en": "on the program,",
+                    "ko": "순서에."
                   },
                   {
                     "en": "but it comes",
@@ -18687,8 +19059,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I have written down",
-                    "ko": "저는 적어 두었어요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "have written down",
+                    "ko": "적어 두었어요."
                   },
                   {
                     "en": "the correction",
@@ -18970,8 +19346,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "I am looking for",
-                "ko": "저는 찾고 있어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "am looking for",
+                "ko": "찾고 있어요."
               },
               {
                 "en": "my envelope.",
@@ -19299,8 +19679,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "There is always something",
-                "ko": "언제나 무언가가 있어요"
+                "en": "There is",
+                "ko": "있어요"
+              },
+              {
+                "en": "always something",
+                "ko": "언제나 무언가가."
               },
               {
                 "en": "to do",
@@ -19570,8 +19954,16 @@
                     "ko": "상점에"
                   },
                   {
-                    "en": "for a piece of plain sealing wax.",
-                    "ko": "문양 없는 봉인용 밀랍 한 조각을."
+                    "en": "for",
+                    "ko": "을"
+                  },
+                  {
+                    "en": "a piece",
+                    "ko": "한 조각"
+                  },
+                  {
+                    "en": "of plain sealing wax.",
+                    "ko": "문양 없는 봉인용 밀랍."
                   }
                 ]
               }
@@ -19608,8 +20000,12 @@
                     "ko": "여기 있어요"
                   },
                   {
-                    "en": "a piece of plain sealing wax",
-                    "ko": "문양 없는 봉인용 밀랍 한 조각이"
+                    "en": "a piece",
+                    "ko": "한 조각이"
+                  },
+                  {
+                    "en": "of plain sealing wax",
+                    "ko": "문양 없는 봉인용 밀랍."
                   },
                   {
                     "en": "for the message clerk.",
@@ -19642,8 +20038,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I will put it to use",
-                    "ko": "저는 쓸게요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "will put it to use",
+                    "ko": "쓸게요."
                   },
                   {
                     "en": "today.",
@@ -19772,8 +20172,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "The witness and the written notice",
-                    "ko": "증인과 적힌 안내문이"
+                    "en": "The witness",
+                    "ko": "증인과"
+                  },
+                  {
+                    "en": "and the written notice",
+                    "ko": "적힌 안내문이."
                   },
                   {
                     "en": "disagree;",
@@ -19784,8 +20188,12 @@
                     "ko": "서기는"
                   },
                   {
-                    "en": "has not confirmed the time.",
-                    "ko": "아직 시각을 확인하지 않았어요."
+                    "en": "has not confirmed",
+                    "ko": "확인하지 않았어요"
+                  },
+                  {
+                    "en": "the time.",
+                    "ko": "시각을."
                   }
                 ]
               }
@@ -19868,8 +20276,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I have written down",
-                    "ko": "저는 적어 두었어요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "have written down",
+                    "ko": "적어 두었어요."
                   },
                   {
                     "en": "the correction",
@@ -20151,8 +20563,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "I am looking for",
-                "ko": "저는 찾고 있어요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "am looking for",
+                "ko": "찾고 있어요."
               },
               {
                 "en": "my lock.",
@@ -20480,8 +20896,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "There is always something",
-                "ko": "언제나 무언가가 있어요"
+                "en": "There is",
+                "ko": "있어요"
+              },
+              {
+                "en": "always something",
+                "ko": "언제나 무언가가."
               },
               {
                 "en": "to do",
@@ -20751,8 +21171,12 @@
                     "ko": "상점에"
                   },
                   {
-                    "en": "for a new lock label.",
-                    "ko": "새 자물쇠 꼬리표를."
+                    "en": "for",
+                    "ko": "을"
+                  },
+                  {
+                    "en": "a new lock label.",
+                    "ko": "새 자물쇠 꼬리표."
                   }
                 ]
               }
@@ -20823,8 +21247,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I will put it to use",
-                    "ko": "저는 쓸게요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "will put it to use",
+                    "ko": "쓸게요."
                   },
                   {
                     "en": "today.",
@@ -21039,8 +21467,12 @@
                 ],
                 "direct_chunks": [
                   {
-                    "en": "I have written down",
-                    "ko": "저는 적어 두었어요"
+                    "en": "I",
+                    "ko": "저는"
+                  },
+                  {
+                    "en": "have written down",
+                    "ko": "적어 두었어요."
                   },
                   {
                     "en": "the correction",
@@ -23094,8 +23526,16 @@
             ],
             "direct_chunks": [
               {
-                "en": "I need the map",
-                "ko": "나는 지도가 필요하다"
+                "en": "I",
+                "ko": "나는"
+              },
+              {
+                "en": "need",
+                "ko": "필요하다"
+              },
+              {
+                "en": "the map",
+                "ko": "지도가."
               },
               {
                 "en": "to reach",
@@ -23109,8 +23549,16 @@
           },
           "direct_chunks": [
             {
-              "en": "I need the map",
-              "ko": "나는 지도가 필요하다"
+              "en": "I",
+              "ko": "나는"
+            },
+            {
+              "en": "need",
+              "ko": "필요하다"
+            },
+            {
+              "en": "the map",
+              "ko": "지도가."
             },
             {
               "en": "to reach",
@@ -23810,8 +24258,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "It was the silver key",
-                "ko": "바로 은빛 열쇠였어요"
+                "en": "It was",
+                "ko": "~였어요"
+              },
+              {
+                "en": "the silver key",
+                "ko": "바로 은빛 열쇠."
               },
               {
                 "en": "that opened",
@@ -23825,8 +24277,12 @@
           },
           "direct_chunks": [
             {
-              "en": "It was the silver key",
-              "ko": "바로 은빛 열쇠였다"
+              "en": "It was",
+              "ko": "~였어요"
+            },
+            {
+              "en": "the silver key",
+              "ko": "바로 은빛 열쇠."
             },
             {
               "en": "that opened",

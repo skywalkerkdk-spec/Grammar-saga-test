@@ -386,8 +386,16 @@
               "ko": "그 소녀는"
             },
             {
-              "en": "who wears a green coat",
-              "ko": "초록 코트를 입은"
+              "en": "who",
+              "ko": "~한"
+            },
+            {
+              "en": "wears",
+              "ko": "입은"
+            },
+            {
+              "en": "a green coat",
+              "ko": "초록 코트를."
             },
             {
               "en": "is here.",
@@ -400,8 +408,16 @@
           "ko_direct": "나는 남자를 안다 / 그의 수레가 빨간.",
           "chunks": [
             {
-              "en": "I know a man",
-              "ko": "나는 남자를 안다"
+              "en": "I",
+              "ko": "나는"
+            },
+            {
+              "en": "know",
+              "ko": "안다"
+            },
+            {
+              "en": "a man",
+              "ko": "남자를."
             },
             {
               "en": "whose cart is red.",
@@ -431,8 +447,12 @@
           "ko_direct": "책은 가져가졌다 / 낯선 사람에 의해.",
           "chunks": [
             {
-              "en": "The book was taken",
-              "ko": "책은 가져가졌다"
+              "en": "The book",
+              "ko": "책은"
+            },
+            {
+              "en": "was taken",
+              "ko": "가져가졌다."
             },
             {
               "en": "by a stranger.",
@@ -445,8 +465,12 @@
           "ko_direct": "방은 청소된다 / 매일.",
           "chunks": [
             {
-              "en": "The room is cleaned",
-              "ko": "방은 청소된다"
+              "en": "The room",
+              "ko": "방은"
+            },
+            {
+              "en": "is cleaned",
+              "ko": "청소된다."
             },
             {
               "en": "every day.",
@@ -476,8 +500,16 @@
           "ko_direct": "나는 여기 살아 왔다 / 10년 동안.",
           "chunks": [
             {
-              "en": "I have lived here",
-              "ko": "나는 여기 살아 왔다"
+              "en": "I",
+              "ko": "저는"
+            },
+            {
+              "en": "have lived",
+              "ko": "살아 왔어요"
+            },
+            {
+              "en": "here",
+              "ko": "여기."
             },
             {
               "en": "for ten years.",
@@ -490,8 +522,12 @@
           "ko_direct": "그녀는 방금 찾았다 / 편지를.",
           "chunks": [
             {
-              "en": "She has just found",
-              "ko": "그녀는 방금 찾았다"
+              "en": "She",
+              "ko": "그녀는"
+            },
+            {
+              "en": "has just found",
+              "ko": "방금 찾았다."
             },
             {
               "en": "a letter.",
@@ -521,8 +557,16 @@
           "ko_direct": "이곳은 장소이다 / 우리가 만났던.",
           "chunks": [
             {
-              "en": "This is the place",
-              "ko": "이곳은 장소이다"
+              "en": "This",
+              "ko": "이곳은"
+            },
+            {
+              "en": "is",
+              "ko": "이다"
+            },
+            {
+              "en": "the place",
+              "ko": "장소."
             },
             {
               "en": "where we met.",
@@ -535,8 +579,16 @@
           "ko_direct": "나는 그날을 기억한다 / 우리가 떠났던.",
           "chunks": [
             {
-              "en": "I remember the day",
-              "ko": "나는 그날을 기억한다"
+              "en": "I",
+              "ko": "나는"
+            },
+            {
+              "en": "remember",
+              "ko": "기억한다"
+            },
+            {
+              "en": "the day",
+              "ko": "그날을."
             },
             {
               "en": "when we left.",
@@ -570,8 +622,16 @@
               "ko": "길을 따라 걷다가"
             },
             {
-              "en": "I found a key.",
-              "ko": "나는 열쇠를 발견했다."
+              "en": "I",
+              "ko": "나는"
+            },
+            {
+              "en": "found",
+              "ko": "발견했다"
+            },
+            {
+              "en": "a key.",
+              "ko": "열쇠를."
             }
           ]
         },
@@ -611,8 +671,20 @@
           "ko_direct": "내가 새라면 / 날 텐데.",
           "chunks": [
             {
-              "en": "If I were a bird,",
-              "ko": "내가 새라면"
+              "en": "If",
+              "ko": "만약"
+            },
+            {
+              "en": "I",
+              "ko": "내가"
+            },
+            {
+              "en": "were",
+              "ko": "라면"
+            },
+            {
+              "en": "a bird,",
+              "ko": "새,"
             },
             {
               "en": "I would fly.",
@@ -981,8 +1053,12 @@
           "ko_direct": "바로 열쇠였다 / 문을 연 것은.",
           "chunks": [
             {
-              "en": "It was the key",
-              "ko": "바로 열쇠였다"
+              "en": "It was",
+              "ko": "~였다"
+            },
+            {
+              "en": "the key",
+              "ko": "열쇠."
             },
             {
               "en": "that opened the gate.",
@@ -1693,12 +1769,28 @@
         "ko_direct": "회수한 세 페이지에는 같은 검은 문양이 있다. / 손상에는 공통된 원인이 있을지도 모른다.",
         "chunks": [
           {
-            "en": "Three recovered pages carry the same black mark.",
-            "ko": "회수한 세 페이지에는 같은 검은 문양이 있다."
+            "en": "Three recovered pages",
+            "ko": "회수한 세 페이지에는"
           },
           {
-            "en": "The damage may have a common source.",
-            "ko": "손상에는 공통된 원인이 있을지도 모른다."
+            "en": "carry",
+            "ko": "있다"
+          },
+          {
+            "en": "the same black mark.",
+            "ko": "같은 검은 문양이."
+          },
+          {
+            "en": "The damage",
+            "ko": "손상에는"
+          },
+          {
+            "en": "may have",
+            "ko": "있을지도 모른다"
+          },
+          {
+            "en": "a common source.",
+            "ko": "공통된 원인이."
           }
         ]
       },
@@ -1714,12 +1806,32 @@
         "ko_direct": "수호자들은 처음부터 우리의 적이 아니었다. / 도난당한 페이지들이 그들을 변화시켰다.",
         "chunks": [
           {
-            "en": "The guardians were not our enemies at first.",
-            "ko": "수호자들은 처음부터 우리의 적이 아니었다."
+            "en": "The guardians",
+            "ko": "수호자들은"
           },
           {
-            "en": "The stolen pages changed them.",
-            "ko": "도난당한 페이지들이 그들을 변화시켰다."
+            "en": "were not",
+            "ko": "아니었다"
+          },
+          {
+            "en": "our enemies",
+            "ko": "우리의 적이"
+          },
+          {
+            "en": "at first.",
+            "ko": "처음부터."
+          },
+          {
+            "en": "The stolen pages",
+            "ko": "도난당한 페이지들이"
+          },
+          {
+            "en": "changed",
+            "ko": "변화시켰다"
+          },
+          {
+            "en": "them.",
+            "ko": "그들을."
           }
         ]
       },
@@ -1735,12 +1847,32 @@
         "ko_direct": "누군가 불완전한 문장으로 괴물들을 만들었다. / 저주는 우연이 아니었다.",
         "chunks": [
           {
-            "en": "Someone used broken sentences to create monsters.",
-            "ko": "누군가 불완전한 문장으로 괴물들을 만들었다."
+            "en": "Someone",
+            "ko": "누군가"
           },
           {
-            "en": "The curse was not an accident.",
-            "ko": "저주는 우연이 아니었다."
+            "en": "used",
+            "ko": "사용했다"
+          },
+          {
+            "en": "broken sentences",
+            "ko": "불완전한 문장으로"
+          },
+          {
+            "en": "to create monsters.",
+            "ko": "괴물들을 만들기 위해."
+          },
+          {
+            "en": "The curse",
+            "ko": "저주는"
+          },
+          {
+            "en": "was not",
+            "ko": "아니었다"
+          },
+          {
+            "en": "an accident.",
+            "ko": "우연이."
           }
         ]
       },
@@ -1756,12 +1888,28 @@
         "ko_direct": "대마왕군이 도서관을 공격했다. / 그들의 부하들이 열여덟 페이지를 훔쳤다.",
         "chunks": [
           {
-            "en": "The dark army attacked the library.",
-            "ko": "대마왕군이 도서관을 공격했다."
+            "en": "The dark army",
+            "ko": "대마왕군이"
           },
           {
-            "en": "Its agents stole eighteen pages.",
-            "ko": "그들의 부하들이 열여덟 페이지를 훔쳤다."
+            "en": "attacked",
+            "ko": "공격했다"
+          },
+          {
+            "en": "the library.",
+            "ko": "도서관을."
+          },
+          {
+            "en": "Its agents",
+            "ko": "그들의 부하들이"
+          },
+          {
+            "en": "stole",
+            "ko": "훔쳤다"
+          },
+          {
+            "en": "eighteen pages.",
+            "ko": "열여덟 페이지를."
           }
         ]
       },
@@ -1777,12 +1925,36 @@
         "ko_direct": "같은 인장이 여러 기록에 나타난다. / 우리는 아직 누가 군대를 이끄는지 모른다.",
         "chunks": [
           {
-            "en": "The same seal appears in several records.",
-            "ko": "같은 인장이 여러 기록에 나타난다."
+            "en": "The same seal",
+            "ko": "같은 인장이"
           },
           {
-            "en": "We still do not know who leads the army.",
-            "ko": "우리는 아직 누가 군대를 이끄는지 모른다."
+            "en": "appears",
+            "ko": "나타난다"
+          },
+          {
+            "en": "in several records.",
+            "ko": "여러 기록에."
+          },
+          {
+            "en": "We",
+            "ko": "우리는"
+          },
+          {
+            "en": "still do not know",
+            "ko": "아직 모른다"
+          },
+          {
+            "en": "who",
+            "ko": "누가"
+          },
+          {
+            "en": "leads",
+            "ko": "이끄는지"
+          },
+          {
+            "en": "the army.",
+            "ko": "군대를."
           }
         ]
       },
@@ -1798,12 +1970,36 @@
         "ko_direct": "그라마티카는 다시 완전해졌다. / 하지만 누군가는 여전히 모든 목소리를 침묵시키려 한다.",
         "chunks": [
           {
-            "en": "The Grammatica is whole again.",
-            "ko": "그라마티카는 다시 완전해졌다."
+            "en": "The Grammatica",
+            "ko": "그라마티카는"
           },
           {
-            "en": "But someone still wants to silence every voice.",
-            "ko": "하지만 누군가는 여전히 모든 목소리를 침묵시키려 한다."
+            "en": "is whole",
+            "ko": "완전해졌다"
+          },
+          {
+            "en": "again.",
+            "ko": "다시."
+          },
+          {
+            "en": "But",
+            "ko": "하지만"
+          },
+          {
+            "en": "someone",
+            "ko": "누군가는"
+          },
+          {
+            "en": "still wants",
+            "ko": "여전히 원한다"
+          },
+          {
+            "en": "to silence",
+            "ko": "침묵시키기를"
+          },
+          {
+            "en": "every voice.",
+            "ko": "모든 목소리를."
           }
         ]
       },
@@ -1818,12 +2014,32 @@
       "ko_direct": "도서관 카드는 지식으로 가는 문을 연다. / 모든 비밀을 여는 것은 아니다.",
       "chunks": [
         {
-          "en": "A library card opens a door to knowledge.",
-          "ko": "도서관 카드는 지식으로 가는 문을 연다."
+          "en": "A library card",
+          "ko": "도서관 카드는"
         },
         {
-          "en": "It does not open every secret.",
-          "ko": "모든 비밀을 여는 것은 아니다."
+          "en": "opens",
+          "ko": "연다"
+        },
+        {
+          "en": "a door",
+          "ko": "문을"
+        },
+        {
+          "en": "to knowledge.",
+          "ko": "지식으로 가는."
+        },
+        {
+          "en": "It",
+          "ko": "그것은"
+        },
+        {
+          "en": "does not open",
+          "ko": "열지 않는다"
+        },
+        {
+          "en": "every secret.",
+          "ko": "모든 비밀을."
         }
       ]
     }

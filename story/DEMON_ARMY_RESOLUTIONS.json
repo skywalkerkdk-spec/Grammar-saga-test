@@ -141,8 +141,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "The seeds were harmless,",
-                "ko": "씨앗은 무해했지만"
+                "en": "The seeds",
+                "ko": "씨앗은"
+              },
+              {
+                "en": "were harmless,",
+                "ko": "무해했지만"
               },
               {
                 "en": "but we will keep",
@@ -169,8 +173,12 @@
         ],
         "direct_chunks": [
           {
-            "en": "The seeds were harmless,",
-            "ko": "씨앗은 무해했지만"
+            "en": "The seeds",
+            "ko": "씨앗은"
+          },
+          {
+            "en": "were harmless,",
+            "ko": "무해했지만"
           },
           {
             "en": "but we will keep",
@@ -475,8 +483,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "I cannot explain away",
-                "ko": "저는 변명할 수 없겠군요"
+                "en": "I",
+                "ko": "저는"
+              },
+              {
+                "en": "cannot explain away",
+                "ko": "변명할 수 없겠군요."
               },
               {
                 "en": "both records.",
@@ -565,8 +577,20 @@
                 "ko": "계약서에"
               },
               {
-                "en": "as if he owned the bridge.",
-                "ko": "다리를 소유한 것처럼."
+                "en": "as if",
+                "ko": "~처럼"
+              },
+              {
+                "en": "he",
+                "ko": "그가"
+              },
+              {
+                "en": "owned",
+                "ko": "소유한"
+              },
+              {
+                "en": "the bridge.",
+                "ko": "다리를."
               }
             ]
           },
@@ -923,8 +947,12 @@
                 "ko": "고발장을"
               },
               {
-                "en": "a day before the theft.",
-                "ko": "절도 하루 전에."
+                "en": "a day",
+                "ko": "하루"
+              },
+              {
+                "en": "before the theft.",
+                "ko": "절도 전에."
               }
             ]
           },
@@ -1467,12 +1495,32 @@
             "ko": "돌에 새긴 기록과 오래된 사본은 일치해요. 새 종이 사본에만 추가 문장이 있어요.",
             "chunks": [
               {
-                "en": "The stone record and the older copy agree.",
-                "ko": "돌에 새긴 기록과 오래된 사본은 일치해요."
+                "en": "The stone record",
+                "ko": "돌에 새긴 기록과"
               },
               {
-                "en": "Only the new paper copy contains the extra line.",
-                "ko": "새 종이 사본에만 추가 문장이 있어요."
+                "en": "and the older copy",
+                "ko": "오래된 사본은"
+              },
+              {
+                "en": "agree.",
+                "ko": "일치해요."
+              },
+              {
+                "en": "Only",
+                "ko": "오직"
+              },
+              {
+                "en": "the new paper copy",
+                "ko": "새 종이 사본에만"
+              },
+              {
+                "en": "contains",
+                "ko": "있어요"
+              },
+              {
+                "en": "the extra line.",
+                "ko": "추가 문장이."
               }
             ]
           },
@@ -1682,8 +1730,20 @@
             ],
             "direct_chunks": [
               {
-                "en": "I cannot make them sign",
-                "ko": "나는 그들을 서명하게 할 수 없겠군"
+                "en": "I",
+                "ko": "나는"
+              },
+              {
+                "en": "cannot make",
+                "ko": "할 수 없겠군"
+              },
+              {
+                "en": "them",
+                "ko": "그들을"
+              },
+              {
+                "en": "sign",
+                "ko": "서명하게."
               },
               {
                 "en": "if they refuse.",
@@ -2241,8 +2301,16 @@
                 "ko": "돌아올 수 있어요"
               },
               {
-                "en": "when the harbor is safe.",
-                "ko": "항구가 안전해지면."
+                "en": "when",
+                "ko": "~하면"
+              },
+              {
+                "en": "the harbor",
+                "ko": "항구가"
+              },
+              {
+                "en": "is safe.",
+                "ko": "안전해지."
               }
             ]
           },
@@ -2269,8 +2337,16 @@
             "ko": "돌아올 수 있어요"
           },
           {
-            "en": "when the harbor is safe.",
-            "ko": "항구가 안전해지면."
+            "en": "when",
+            "ko": "~하면"
+          },
+          {
+            "en": "the harbor",
+            "ko": "항구가"
+          },
+          {
+            "en": "is safe.",
+            "ko": "안전해지."
           }
         ]
       },
@@ -2742,8 +2818,16 @@
             ],
             "direct_chunks": [
               {
-                "en": "You will not silence me",
-                "ko": "당신들도 나를 침묵시키지는 않겠지요"
+                "en": "You",
+                "ko": "당신들도"
+              },
+              {
+                "en": "will not silence",
+                "ko": "침묵시키지는 않겠지요"
+              },
+              {
+                "en": "me",
+                "ko": "나를."
               },
               {
                 "en": "in return,",
@@ -2774,8 +2858,16 @@
                 "ko": "말할 수는 있지만"
               },
               {
-                "en": "but you may not silence",
-                "ko": "침묵시켜서는 안 돼요"
+                "en": "but",
+                "ko": "하지만"
+              },
+              {
+                "en": "you",
+                "ko": "당신은"
+              },
+              {
+                "en": "may not silence",
+                "ko": "침묵시켜서는 안 돼요."
               },
               {
                 "en": "others.",
@@ -2802,8 +2894,16 @@
             "ko": "말할 수는 있지만"
           },
           {
-            "en": "but you may not silence",
-            "ko": "침묵시켜서는 안 돼요"
+            "en": "but",
+            "ko": "하지만"
+          },
+          {
+            "en": "you",
+            "ko": "당신은"
+          },
+          {
+            "en": "may not silence",
+            "ko": "침묵시켜서는 안 돼요."
           },
           {
             "en": "others.",
@@ -3040,8 +3140,12 @@
             ],
             "direct_chunks": [
               {
-                "en": "The signed council record",
-                "ko": "서명된 의회 기록에는"
+                "en": "The signed",
+                "ko": "서명된"
+              },
+              {
+                "en": "council record",
+                "ko": "의회 기록에는."
               },
               {
                 "en": "contains",

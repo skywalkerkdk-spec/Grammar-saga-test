@@ -192,8 +192,12 @@
           "ko": "당신이 상처 입힌 사람들을 아직 도울 수 있어요.",
           "direct_chunks": [
             {
-              "en": "You can still help",
-              "ko": "당신은 아직 도울 수 있어요"
+              "en": "You",
+              "ko": "당신은"
+            },
+            {
+              "en": "can still help",
+              "ko": "아직 도울 수 있어요."
             },
             {
               "en": "the people",
