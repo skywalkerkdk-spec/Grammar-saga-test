@@ -203,7 +203,7 @@
       if (docked) {
         const isHero=line.speakerId==='Subject';
         const header=node('div',undefined,'c2-field-speaker'+(isHero?' is-hero':''));
-        const atlas=window.NPC_ATLAS?.[line.speakerId];
+        const atlas=atlasFor(line.speakerId);
         const source=isHero ? 'mp_'+(isRpgM()?rhero():lhero())+'.webp'
           : line.speakerId==='Narrator' ? null
           : atlas?.front?.ready ? atlas.front.sheet
@@ -692,6 +692,16 @@
   }
 
   const AGENT_PORTRAIT={g1:'sj-1',g2:'ps-1',tn:'pf-2',md:'cp-1',rp:'rs-3',ps:'rs-1',pf:'pc-2',rv:'pc-0',pc:'ng-1',sj:'pn-1',cp:'pf-0',pn:'cp-2',ot:'sx-1',iv:'ot-2',pe:'rp-3',ng:'sx-2',rs:'sx-0',sx:'cp-3'};
+  // Black Hand agents borrow a resident's art so they match the rest of the map (same sprite and walk sheet).
+  function atlasFor(id) {
+    const atlas=window.NPC_ATLAS;
+    if (!atlas) return null;
+    if (id && !atlas[id] && String(id).endsWith('_agent')) {
+      const borrowed=AGENT_PORTRAIT[id.split('_')[0]];
+      if (borrowed) atlas[id]=atlas[borrowed.replace('-','_o')]||atlas[id];
+    }
+    return atlas[id]||null;
+  }
   function extraPortrait(id) {
     if (id.endsWith('_agent') && AGENT_PORTRAIT[id.split('_')[0]]) return 'story/maps/villages/'+AGENT_PORTRAIT[id.split('_')[0]]+'.webp';
     const [town,,number]=id.split('_');
@@ -716,7 +726,7 @@
       const point=choices.reduce((best,tile)=>distance(tile)>distance(best)?tile:best,choices[0]);
       if(!point||distance(point)===0)throw new Error('No resident placement for '+npc.id);
       points[npc.id]=point;
-      const art=window.NPC_ATLAS?.[npc.id]||null;
+      const art=atlasFor(npc.id);
       const image=artFront(art)||extraPortrait(npc.id);
       extras.push({id:npc.id,label:npc.en+' · '+npc.ko,caption:npc.name,job:npc.job,image,walk:artWalk(art),
         action:detail=>chapterWorld.meetResident(npc.id,image,back,!!detail?.guide)});

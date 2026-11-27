@@ -20,7 +20,7 @@ window.openChapterField = function(container, map, hero, targets, options={}) {
   const controls=document.createElement('div');
   controls.className='c2-field-controls';
   const instructions=document.createElement('p');
-  instructions.textContent='조이스틱을 밀거나 길을 눌러 이동하세요.';
+  instructions.textContent='조이스틱을 밀거나, 길을 누르거나, 화면을 누른 채 끌어서 이동하세요.';
   const destinations=document.createElement('select');
   destinations.setAttribute('aria-label','탐험 목적지');
   destinations.add(new Option('목적지 선택',''));
@@ -329,7 +329,43 @@ window.openChapterField = function(container, map, hero, targets, options={}) {
       pressedKeys.length=0;
     }
   };
+  // Press and hold on the map, then drag: the hero walks toward the finger like the joystick.
+  let dragId=null,dragStart=null,dragging=false,dragSkipClick=false,dragTimer=0,lastPoint=null;
+  viewport.style.touchAction='none';
+  const steer=event=>{
+    const box=actor.getBoundingClientRect();
+    const dx=event.clientX-(box.left+box.width/2);
+    const dy=event.clientY-(box.top+box.height/2);
+    if (Math.hypot(dx,dy)<size*.6) {
+      if (held?.token===viewport) {held=null;requested=null;}
+      return;
+    }
+    const horizontalFirst=Math.abs(dx)>Math.abs(dy);
+    const direction=horizontalFirst?(dx<0?1:2):(dy<0?3:0);
+    if (held?.token!==viewport || held.direction!==direction) move(direction,viewport);
+  };
+  const beginDrag=()=>{dragging=true;dragSkipClick=true;if (lastPoint) steer(lastPoint);};
+  viewport.addEventListener('pointerdown',event=>{
+    if (event.button!==0 || dragId!==null || (event.target!==world && event.target!==actor)) return;
+    dragId=event.pointerId;dragStart=[event.clientX,event.clientY];dragging=false;dragSkipClick=false;lastPoint=event;
+    dragTimer=setTimeout(beginDrag,220);
+  });
+  viewport.addEventListener('pointermove',event=>{
+    if (event.pointerId!==dragId) return;
+    lastPoint=event;
+    if (!dragging && Math.hypot(event.clientX-dragStart[0],event.clientY-dragStart[1])>10) {clearTimeout(dragTimer);beginDrag();}
+    if (dragging) steer(event);
+  });
+  const endDrag=event=>{
+    if (event.pointerId!==dragId) return;
+    clearTimeout(dragTimer);dragId=null;dragging=false;
+    if (held?.token===viewport) held=null;
+    setTimeout(()=>{dragSkipClick=false;},0);
+  };
+  viewport.addEventListener('pointerup',endDrag);
+  viewport.addEventListener('pointercancel',endDrag);
   world.onclick=event=>{
+    if (dragSkipClick) {dragSkipClick=false;return;}
     if (event.target!==world) return;
     const box=world.getBoundingClientRect();
     moveTo(Math.floor((event.clientX-box.left)/size),Math.floor((event.clientY-box.top)/size));
