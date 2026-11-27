@@ -1823,7 +1823,7 @@ function title(){
   if(!n){lm('이름을 입력하세요.');return;}
   const b=$('go');if(b.disabled)return;b.disabled=true;
   try{const ok=await cloudLogin(n,p,{msg:lm,sure:{get:()=>_sure,set:v=>{_sure=v;}}});if(ok){begin(n,false);}}finally{b.disabled=false;}};
- if(/grammar-saga-test/i.test(location.pathname)&&!window._hdDone){window._hdDone=1;begin('Mr.KANG',true);return;}
+ if(/grammar-saga-test/i.test(location.pathname)&&!/[?&]setup\b/.test(location.search)&&!window._hdDone){window._hdDone=1;begin('Mr.KANG',true);return;}
  if(DEVH()&&!window._hdDone){window._hdDone=1;$('nmi').value=DEVH();go();return;}
  $('go').onclick=go;$('nmi').onkeydown=e=>{if(e.key==='Enter')$('pwi').focus();};$('pwi').onkeydown=e=>{if(e.key==='Enter')go();};
  {const sn=savedNames();if(sn.length){$('svn').innerHTML='<div class="hint" style="margin:0 0 4px">이 기기에서 쓴 이름 (누르면 바로 시작)</div>'+sn.map(x=>'<button class="btn-s svn" data-n="'+esc(x)+'" style="margin:2px">'+esc(x)+'</button>').join('');$('svn').querySelectorAll('.svn').forEach(el=>el.onclick=()=>{$('nmi').value=el.dataset.n;$('pwi').value='';go();});}}

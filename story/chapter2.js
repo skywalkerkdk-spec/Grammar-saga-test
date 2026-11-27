@@ -64,9 +64,28 @@
 
   function dialogueSettings(back) {
     const body=worldPanel('대화 설정',back,'닫기');
-    const select=modeSelect();
-    select.onchange=()=>{reading.mode=select.value;persistReading();};
-    body.append(select);
+    const note=node('p','대화 표시 방식을 고르세요. 선택은 이 기기에 저장됩니다.');
+    const rows=node('div',undefined,'c2-actions');
+    const info=node('p','');
+    info.setAttribute('role','status');
+    const descriptions={literal:'영어와 우리말을 의미 덩어리별 색으로 나란히 보여 줍니다.',english:'영어 문장만 보여 줍니다.'};
+    const refresh=()=>{
+      for (const el of rows.querySelectorAll('[data-mode]')) el.setAttribute('aria-pressed',String(el.dataset.mode===reading.mode));
+      const colorButton=rows.querySelector('[data-setting="color"]');
+      colorButton.setAttribute('aria-pressed',String(reading.color));
+      colorButton.disabled=reading.mode!=='literal';
+      info.textContent=descriptions[reading.mode];
+    };
+    for (const [key,label] of Object.entries(modes)) {
+      const choice=button(label,()=>{reading.mode=key;persistReading();refresh();});
+      choice.dataset.mode=key;
+      rows.append(choice);
+    }
+    const color=button('색상',()=>{reading.color=!reading.color;persistReading();refresh();});
+    color.dataset.setting='color';
+    rows.append(color);
+    body.append(note,rows,info);
+    refresh();
   }
 
   let nameRules=null;
@@ -882,8 +901,9 @@
     if (G.scr==='title') {
       const container=document.querySelector('#app #go')?.parentElement;
       if(container&&!container.querySelector('#c2-dialogue-settings')){
-        const entry=button('대화 설정',()=>dialogueSettings());
+        const entry=button('⚙️ 대화 설정',()=>dialogueSettings());
         entry.id='c2-dialogue-settings';
+        entry.style.marginTop='10px';
         container.append(entry);
       }
     }
