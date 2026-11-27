@@ -85,7 +85,21 @@
             "g1_witness",
             "g1_record"
           ],
-          "retry_ko": "두 증거를 다시 읽어 보세요."
+          "retry_ko": "두 증거를 다시 읽어 보세요.",
+          "question_chunks": [
+            {
+              "en": "Who",
+              "ko": "누가"
+            },
+            {
+              "en": "sent",
+              "ko": "보냈는가"
+            },
+            {
+              "en": "the letter?",
+              "ko": "편지를?"
+            }
+          ]
         },
         {
           "npc": "g1_agent",
@@ -280,7 +294,21 @@
             "g2_witness",
             "g2_record"
           ],
-          "retry_ko": "두 증거를 다시 읽어 보세요."
+          "retry_ko": "두 증거를 다시 읽어 보세요.",
+          "question_chunks": [
+            {
+              "en": "Who",
+              "ko": "누가"
+            },
+            {
+              "en": "replaced",
+              "ko": "바꿨는가"
+            },
+            {
+              "en": "the order?",
+              "ko": "주문서를?"
+            }
+          ]
         },
         {
           "npc": "g2_agent",
@@ -467,7 +495,17 @@
             "tn_witness",
             "tn_record"
           ],
-          "retry_ko": "두 증거를 다시 읽어 보세요."
+          "retry_ko": "두 증거를 다시 읽어 보세요.",
+          "question_chunks": [
+            {
+              "en": "When",
+              "ko": "언제"
+            },
+            {
+              "en": "did the delivery arrive?",
+              "ko": "배달은 도착했는가?"
+            }
+          ]
         },
         {
           "npc": "tn_agent",
@@ -642,7 +680,21 @@
             "md_witness",
             "md_record"
           ],
-          "retry_ko": "두 증거를 다시 읽어 보세요."
+          "retry_ko": "두 증거를 다시 읽어 보세요.",
+          "question_chunks": [
+            {
+              "en": "Who",
+              "ko": "누가"
+            },
+            {
+              "en": "owns",
+              "ko": "소유하는가"
+            },
+            {
+              "en": "the bridge?",
+              "ko": "다리를?"
+            }
+          ]
         },
         {
           "npc": "md_agent",
@@ -821,7 +873,21 @@
             "rp_witness",
             "rp_record"
           ],
-          "retry_ko": "두 증거를 다시 읽어 보세요."
+          "retry_ko": "두 증거를 다시 읽어 보세요.",
+          "question_chunks": [
+            {
+              "en": "Who",
+              "ko": "누가"
+            },
+            {
+              "en": "moved",
+              "ko": "옮겼는가"
+            },
+            {
+              "en": "the sign?",
+              "ko": "표지판을?"
+            }
+          ]
         },
         {
           "npc": "rp_agent",
@@ -1004,7 +1070,21 @@
             "ps_witness",
             "ps_record"
           ],
-          "retry_ko": "두 증거를 다시 읽어 보세요."
+          "retry_ko": "두 증거를 다시 읽어 보세요.",
+          "question_chunks": [
+            {
+              "en": "Which",
+              "ko": "어느 것이"
+            },
+            {
+              "en": "came",
+              "ko": "왔는가"
+            },
+            {
+              "en": "first?",
+              "ko": "먼저?"
+            }
+          ]
         },
         {
           "npc": "ps_agent",
@@ -1175,7 +1255,21 @@
             "pf_witness",
             "pf_record"
           ],
-          "retry_ko": "두 증거를 다시 읽어 보세요."
+          "retry_ko": "두 증거를 다시 읽어 보세요.",
+          "question_chunks": [
+            {
+              "en": "What",
+              "ko": "무엇이"
+            },
+            {
+              "en": "was",
+              "ko": "있었는가"
+            },
+            {
+              "en": "in the box?",
+              "ko": "상자 안에?"
+            }
+          ]
         },
         {
           "npc": "pf_agent",
@@ -1358,7 +1452,17 @@
             "rv_witness",
             "rv_record"
           ],
-          "retry_ko": "두 증거를 다시 읽어 보세요."
+          "retry_ko": "두 증거를 다시 읽어 보세요.",
+          "question_chunks": [
+            {
+              "en": "Which map",
+              "ko": "어떤 지도를"
+            },
+            {
+              "en": "should we use?",
+              "ko": "우리는 써야 하는가?"
+            }
+          ]
         },
         {
           "npc": "rv_agent",
@@ -1539,7 +1643,17 @@
             "pc_witness",
             "pc_record"
           ],
-          "retry_ko": "두 증거를 다시 읽어 보세요."
+          "retry_ko": "두 증거를 다시 읽어 보세요.",
+          "question_chunks": [
+            {
+              "en": "Which record",
+              "ko": "어떤 기록이"
+            },
+            {
+              "en": "was altered?",
+              "ko": "고쳐졌는가?"
+            }
+          ]
         },
         {
           "npc": "pc_agent",
@@ -1714,7 +1828,17 @@
             "sj_witness",
             "sj_record"
           ],
-          "retry_ko": "두 증거를 다시 읽어 보세요."
+          "retry_ko": "두 증거를 다시 읽어 보세요.",
+          "question_chunks": [
+            {
+              "en": "What",
+              "ko": "무엇을"
+            },
+            {
+              "en": "does the agreement demand?",
+              "ko": "합의서는 요구하는가?"
+            }
+          ]
         },
         {
           "npc": "sj_agent",
@@ -1889,7 +2013,17 @@
             "cp_witness",
             "cp_record"
           ],
-          "retry_ko": "두 증거를 다시 읽어 보세요."
+          "retry_ko": "두 증거를 다시 읽어 보세요.",
+          "question_chunks": [
+            {
+              "en": "What",
+              "ko": "무엇을"
+            },
+            {
+              "en": "did Gilt try to change?",
+              "ko": "길트는 바꾸려 했는가?"
+            }
+          ]
         },
         {
           "npc": "cp_agent",
@@ -2069,7 +2203,25 @@
             "pn_record"
           ],
           "retry_ko": "두 증거를 다시 읽어 보세요.",
-          "question_ko": "자신이 문서에 서명한 적이 없다고 확인해 준 사람은 누구인가요?"
+          "question_ko": "자신이 문서에 서명한 적이 없다고 확인해 준 사람은 누구인가요?",
+          "question_chunks": [
+            {
+              "en": "Who",
+              "ko": "누가"
+            },
+            {
+              "en": "confirmed",
+              "ko": "확인했는가"
+            },
+            {
+              "en": "that she had never signed",
+              "ko": "그녀가 서명한 적이 없다고"
+            },
+            {
+              "en": "the document?",
+              "ko": "문서에?"
+            }
+          ]
         },
         {
           "npc": "pn_agent",
@@ -2249,7 +2401,25 @@
             "ot_record"
           ],
           "retry_ko": "두 증거를 다시 읽어 보세요.",
-          "question_ko": "통항 금지 공지가 거짓이라고 확인해 준 관리는 누구인가요?"
+          "question_ko": "통항 금지 공지가 거짓이라고 확인해 준 관리는 누구인가요?",
+          "question_chunks": [
+            {
+              "en": "Which official",
+              "ko": "어떤 관리가"
+            },
+            {
+              "en": "confirmed",
+              "ko": "확인했는가"
+            },
+            {
+              "en": "that the closure notice",
+              "ko": "통항 금지 공지가"
+            },
+            {
+              "en": "was false?",
+              "ko": "거짓이라고?"
+            }
+          ]
         },
         {
           "npc": "ot_agent",
@@ -2436,7 +2606,21 @@
             "iv_witness",
             "iv_record"
           ],
-          "retry_ko": "두 증거를 다시 읽어 보세요."
+          "retry_ko": "두 증거를 다시 읽어 보세요.",
+          "question_chunks": [
+            {
+              "en": "What",
+              "ko": "무엇이"
+            },
+            {
+              "en": "was forbidden",
+              "ko": "금지되었는가"
+            },
+            {
+              "en": "in the lesson?",
+              "ko": "수업에서?"
+            }
+          ]
         },
         {
           "npc": "iv_agent",
@@ -2623,7 +2807,21 @@
             "pe_witness",
             "pe_record"
           ],
-          "retry_ko": "두 증거를 다시 읽어 보세요."
+          "retry_ko": "두 증거를 다시 읽어 보세요.",
+          "question_chunks": [
+            {
+              "en": "Who",
+              "ko": "누가"
+            },
+            {
+              "en": "rang",
+              "ko": "울렸는가"
+            },
+            {
+              "en": "the bell?",
+              "ko": "종을?"
+            }
+          ]
         },
         {
           "npc": "pe_agent",
@@ -2802,7 +3000,21 @@
             "ng_witness",
             "ng_record"
           ],
-          "retry_ko": "두 증거를 다시 읽어 보세요."
+          "retry_ko": "두 증거를 다시 읽어 보세요.",
+          "question_chunks": [
+            {
+              "en": "Who",
+              "ko": "누가"
+            },
+            {
+              "en": "may sing",
+              "ko": "노래해도 되는가"
+            },
+            {
+              "en": "under the original program?",
+              "ko": "원래 순서에 따르면?"
+            }
+          ]
         },
         {
           "npc": "ng_agent",
@@ -2997,7 +3209,17 @@
             "rs_witness",
             "rs_record"
           ],
-          "retry_ko": "두 증거를 다시 읽어 보세요."
+          "retry_ko": "두 증거를 다시 읽어 보세요.",
+          "question_chunks": [
+            {
+              "en": "What",
+              "ko": "무엇을"
+            },
+            {
+              "en": "does the original say?",
+              "ko": "원본은 말하는가?"
+            }
+          ]
         },
         {
           "npc": "rs_agent",
@@ -3176,7 +3398,21 @@
             "sx_witness",
             "sx_record"
           ],
-          "retry_ko": "두 증거를 다시 읽어 보세요."
+          "retry_ko": "두 증거를 다시 읽어 보세요.",
+          "question_chunks": [
+            {
+              "en": "Who",
+              "ko": "누가"
+            },
+            {
+              "en": "ordered",
+              "ko": "지시했는가"
+            },
+            {
+              "en": "the false addition?",
+              "ko": "거짓 추가를?"
+            }
+          ]
         },
         {
           "npc": "sx_agent",

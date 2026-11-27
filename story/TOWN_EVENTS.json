@@ -1177,7 +1177,25 @@
                   "into the river"
                 ],
                 "correct_index": 0,
-                "feedback_ko": "아이비가 알려 준 발자국의 끝을 다시 떠올려 보세요."
+                "feedback_ko": "아이비가 알려 준 발자국의 끝을 다시 떠올려 보세요.",
+                "question_chunks": [
+                  {
+                    "en": "Where",
+                    "ko": "어디로"
+                  },
+                  {
+                    "en": "do",
+                    "ko": "~는가"
+                  },
+                  {
+                    "en": "the footprints",
+                    "ko": "발자국은"
+                  },
+                  {
+                    "en": "lead?",
+                    "ko": "이어지는?"
+                  }
+                ]
               }
             },
             {
@@ -1520,6 +1538,20 @@
                       ]
                     }
                   ]
+                ],
+                "question_chunks": [
+                  {
+                    "en": "How",
+                    "ko": "어떻게"
+                  },
+                  {
+                    "en": "will you speak",
+                    "ko": "당신은 말할 것인가"
+                  },
+                  {
+                    "en": "to Amy?",
+                    "ko": "에이미에게?"
+                  }
                 ]
               }
             },
@@ -2024,7 +2056,21 @@
                   "I want loaf."
                 ],
                 "correct_index": 0,
-                "feedback_ko": "공손한 요청은 Could로 시작하고 please를 붙입니다."
+                "feedback_ko": "공손한 요청은 Could로 시작하고 please를 붙입니다.",
+                "question_chunks": [
+                  {
+                    "en": "How",
+                    "ko": "어떻게"
+                  },
+                  {
+                    "en": "do you ask",
+                    "ko": "당신은 부탁하는가"
+                  },
+                  {
+                    "en": "politely?",
+                    "ko": "공손하게?"
+                  }
+                ]
               }
             },
             {
@@ -2309,6 +2355,20 @@
                       ]
                     }
                   ]
+                ],
+                "question_chunks": [
+                  {
+                    "en": "How",
+                    "ko": "어떻게"
+                  },
+                  {
+                    "en": "will you persuade",
+                    "ko": "당신은 설득할 것인가"
+                  },
+                  {
+                    "en": "Arden?",
+                    "ko": "아든을?"
+                  }
                 ]
               }
             },
@@ -2933,7 +2993,25 @@
                   "The mill is destroyed."
                 ],
                 "correct_index": 0,
-                "feedback_ko": "아든과 리드가 말한 사실만 정확히 담은 문장을 고르세요."
+                "feedback_ko": "아든과 리드가 말한 사실만 정확히 담은 문장을 고르세요.",
+                "question_chunks": [
+                  {
+                    "en": "Which sentence",
+                    "ko": "어떤 문장이"
+                  },
+                  {
+                    "en": "is",
+                    "ko": "~인가"
+                  },
+                  {
+                    "en": "checked",
+                    "ko": "확인되고"
+                  },
+                  {
+                    "en": "and exact?",
+                    "ko": "정확한?"
+                  }
+                ]
               }
             },
             {
@@ -3104,6 +3182,16 @@
                       ]
                     }
                   ]
+                ],
+                "question_chunks": [
+                  {
+                    "en": "What",
+                    "ko": "무엇을"
+                  },
+                  {
+                    "en": "should the correction include?",
+                    "ko": "정정문은 포함해야 하는가?"
+                  }
                 ]
               }
             },
@@ -4044,7 +4132,17 @@
               ],
               "correct_index": 0,
               "feedback_ko": "두 주민이 알려 준 위치를 확인하세요.",
-              "grant_evidence": "g2_found_item"
+              "grant_evidence": "g2_found_item",
+              "question_chunks": [
+                {
+                  "en": "Where",
+                  "ko": "어디를"
+                },
+                {
+                  "en": "should you look?",
+                  "ko": "당신은 봐야 하는가?"
+                }
+              ]
             },
             {
               "npc": "g2_extra_5",
@@ -5267,7 +5365,17 @@
               ],
               "correct_index": 0,
               "feedback_ko": "두 주민이 알려 준 위치를 확인하세요.",
-              "grant_evidence": "tn_found_item"
+              "grant_evidence": "tn_found_item",
+              "question_chunks": [
+                {
+                  "en": "Where",
+                  "ko": "어디를"
+                },
+                {
+                  "en": "should you look?",
+                  "ko": "당신은 봐야 하는가?"
+                }
+              ]
             },
             {
               "npc": "tn_extra_5",
@@ -6446,7 +6554,17 @@
               ],
               "correct_index": 0,
               "feedback_ko": "두 주민이 알려 준 위치를 확인하세요.",
-              "grant_evidence": "md_found_item"
+              "grant_evidence": "md_found_item",
+              "question_chunks": [
+                {
+                  "en": "Where",
+                  "ko": "어디를"
+                },
+                {
+                  "en": "should you look?",
+                  "ko": "당신은 봐야 하는가?"
+                }
+              ]
             },
             {
               "npc": "md_extra_5",
@@ -7641,7 +7759,17 @@
               ],
               "correct_index": 0,
               "feedback_ko": "두 주민이 알려 준 위치를 확인하세요.",
-              "grant_evidence": "rp_found_item"
+              "grant_evidence": "rp_found_item",
+              "question_chunks": [
+                {
+                  "en": "Where",
+                  "ko": "어디를"
+                },
+                {
+                  "en": "should you look?",
+                  "ko": "당신은 봐야 하는가?"
+                }
+              ]
             },
             {
               "npc": "rp_extra_5",
@@ -8854,7 +8982,17 @@
               ],
               "correct_index": 0,
               "feedback_ko": "두 주민이 알려 준 위치를 확인하세요.",
-              "grant_evidence": "ps_found_item"
+              "grant_evidence": "ps_found_item",
+              "question_chunks": [
+                {
+                  "en": "Where",
+                  "ko": "어디를"
+                },
+                {
+                  "en": "should you look?",
+                  "ko": "당신은 봐야 하는가?"
+                }
+              ]
             },
             {
               "npc": "ps_extra_5",
@@ -10061,7 +10199,17 @@
               ],
               "correct_index": 0,
               "feedback_ko": "두 주민이 알려 준 위치를 확인하세요.",
-              "grant_evidence": "pf_found_item"
+              "grant_evidence": "pf_found_item",
+              "question_chunks": [
+                {
+                  "en": "Where",
+                  "ko": "어디를"
+                },
+                {
+                  "en": "should you look?",
+                  "ko": "당신은 봐야 하는가?"
+                }
+              ]
             },
             {
               "npc": "pf_extra_5",
@@ -11288,7 +11436,17 @@
               ],
               "correct_index": 0,
               "feedback_ko": "두 주민이 알려 준 위치를 확인하세요.",
-              "grant_evidence": "rv_found_item"
+              "grant_evidence": "rv_found_item",
+              "question_chunks": [
+                {
+                  "en": "Where",
+                  "ko": "어디를"
+                },
+                {
+                  "en": "should you look?",
+                  "ko": "당신은 봐야 하는가?"
+                }
+              ]
             },
             {
               "npc": "rv_extra_5",
@@ -12477,7 +12635,17 @@
               ],
               "correct_index": 0,
               "feedback_ko": "두 주민이 알려 준 위치를 확인하세요.",
-              "grant_evidence": "pc_found_item"
+              "grant_evidence": "pc_found_item",
+              "question_chunks": [
+                {
+                  "en": "Where",
+                  "ko": "어디를"
+                },
+                {
+                  "en": "should you look?",
+                  "ko": "당신은 봐야 하는가?"
+                }
+              ]
             },
             {
               "npc": "pc_extra_5",
@@ -13698,7 +13866,17 @@
               ],
               "correct_index": 0,
               "feedback_ko": "두 주민이 알려 준 위치를 확인하세요.",
-              "grant_evidence": "sj_found_item"
+              "grant_evidence": "sj_found_item",
+              "question_chunks": [
+                {
+                  "en": "Where",
+                  "ko": "어디를"
+                },
+                {
+                  "en": "should you look?",
+                  "ko": "당신은 봐야 하는가?"
+                }
+              ]
             },
             {
               "npc": "sj_extra_5",
@@ -14905,7 +15083,17 @@
               ],
               "correct_index": 0,
               "feedback_ko": "두 주민이 알려 준 위치를 확인하세요.",
-              "grant_evidence": "cp_found_item"
+              "grant_evidence": "cp_found_item",
+              "question_chunks": [
+                {
+                  "en": "Where",
+                  "ko": "어디를"
+                },
+                {
+                  "en": "should you look?",
+                  "ko": "당신은 봐야 하는가?"
+                }
+              ]
             },
             {
               "npc": "cp_extra_5",
@@ -16120,7 +16308,17 @@
               ],
               "correct_index": 0,
               "feedback_ko": "두 주민이 알려 준 위치를 확인하세요.",
-              "grant_evidence": "pn_found_item"
+              "grant_evidence": "pn_found_item",
+              "question_chunks": [
+                {
+                  "en": "Where",
+                  "ko": "어디를"
+                },
+                {
+                  "en": "should you look?",
+                  "ko": "당신은 봐야 하는가?"
+                }
+              ]
             },
             {
               "npc": "pn_extra_5",
@@ -17321,7 +17519,17 @@
               ],
               "correct_index": 0,
               "feedback_ko": "두 주민이 알려 준 위치를 확인하세요.",
-              "grant_evidence": "ot_found_item"
+              "grant_evidence": "ot_found_item",
+              "question_chunks": [
+                {
+                  "en": "Where",
+                  "ko": "어디를"
+                },
+                {
+                  "en": "should you look?",
+                  "ko": "당신은 봐야 하는가?"
+                }
+              ]
             },
             {
               "npc": "ot_extra_5",
@@ -18570,7 +18778,17 @@
               ],
               "correct_index": 0,
               "feedback_ko": "두 주민이 알려 준 위치를 확인하세요.",
-              "grant_evidence": "iv_found_item"
+              "grant_evidence": "iv_found_item",
+              "question_chunks": [
+                {
+                  "en": "Where",
+                  "ko": "어디를"
+                },
+                {
+                  "en": "should you look?",
+                  "ko": "당신은 봐야 하는가?"
+                }
+              ]
             },
             {
               "npc": "iv_extra_5",
@@ -19783,7 +20001,17 @@
               ],
               "correct_index": 0,
               "feedback_ko": "두 주민이 알려 준 위치를 확인하세요.",
-              "grant_evidence": "pe_found_item"
+              "grant_evidence": "pe_found_item",
+              "question_chunks": [
+                {
+                  "en": "Where",
+                  "ko": "어디를"
+                },
+                {
+                  "en": "should you look?",
+                  "ko": "당신은 봐야 하는가?"
+                }
+              ]
             },
             {
               "npc": "pe_extra_5",
@@ -20960,7 +21188,17 @@
               ],
               "correct_index": 0,
               "feedback_ko": "두 주민이 알려 준 위치를 확인하세요.",
-              "grant_evidence": "ng_found_item"
+              "grant_evidence": "ng_found_item",
+              "question_chunks": [
+                {
+                  "en": "Where",
+                  "ko": "어디를"
+                },
+                {
+                  "en": "should you look?",
+                  "ko": "당신은 봐야 하는가?"
+                }
+              ]
             },
             {
               "npc": "ng_extra_5",
@@ -22181,7 +22419,17 @@
               ],
               "correct_index": 0,
               "feedback_ko": "두 주민이 알려 준 위치를 확인하세요.",
-              "grant_evidence": "rs_found_item"
+              "grant_evidence": "rs_found_item",
+              "question_chunks": [
+                {
+                  "en": "Where",
+                  "ko": "어디를"
+                },
+                {
+                  "en": "should you look?",
+                  "ko": "당신은 봐야 하는가?"
+                }
+              ]
             },
             {
               "npc": "rs_extra_5",
@@ -23414,7 +23662,17 @@
               ],
               "correct_index": 0,
               "feedback_ko": "두 주민이 알려 준 위치를 확인하세요.",
-              "grant_evidence": "sx_found_item"
+              "grant_evidence": "sx_found_item",
+              "question_chunks": [
+                {
+                  "en": "Where",
+                  "ko": "어디를"
+                },
+                {
+                  "en": "should you look?",
+                  "ko": "당신은 봐야 하는가?"
+                }
+              ]
             },
             {
               "npc": "sx_extra_5",

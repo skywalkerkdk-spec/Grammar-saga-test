@@ -91,6 +91,48 @@
     if(last<text.length)parent.append(text.slice(last));
   }
 
+  // Quest reward: update the save, play the fanfare and show what the player received.
+  function grantQuestReward(reward,next) {
+    let en,ko;
+    if(reward.cry){
+      SV.cry=(SV.cry||0)+reward.cry;
+      en=reward.cry+' gems.';ko='💎 '+reward.cry+'개를';
+    } else if(reward.stone){
+      SV.stone=(SV.stone||0)+reward.stone;
+      en='an upgrade stone.';ko='⚒️ 강화석 '+reward.stone+'개를';
+    } else if(reward.pot&&POT[reward.pot]){
+      SV.pot=SV.pot||{};SV.pot[reward.pot]=(SV.pot[reward.pot]||0)+1;
+      en='a '+({hs:'small healing potion.',hm:'medium healing potion.',hl:'large healing potion.',cure:'cure potion.',rev:'revival potion.'}[reward.pot]);
+      ko=POT[reward.pot].ic+' '+POT[reward.pot].nm+' 1개를';
+    } else {next();return;}
+    saveNow();
+    try{sfx('fanfare');setTimeout(()=>sfx('coins'),450);}catch{}
+    const full='Quest complete! You received '+en;
+    show('퀘스트 보상',[{
+      speaker:'이야기',speaker_en:'Narrator',speakerId:'Narrator',
+      en:full,ko:'퀘스트 완료! '+ko+' 받았다.',
+      chunks:[{en:full,ko:'퀘스트 완료! '+ko+' 받았다.'}],
+      direct_chunks:[{en:'Quest complete!',ko:'퀘스트 완료!'},{en:'You received',ko:'너는 받았다'},{en:en,ko:ko}],
+    }],next,null,{dock:true,skip:false,confirm:true,questTitle:'퀘스트 완료'});
+  }
+
+  // A standalone sentence (e.g. a quiz question) that follows the reading mode, colors and slashes.
+  function chunkedLine(chunks,language,fallback) {
+    const p=node('p',undefined,'c2-line');
+    p.lang=language;
+    if(reading.mode==='literal'&&chunks?.length) {
+      const palette=story.palette;
+      chunks.forEach((chunk,i)=>{
+        if(i)p.append(reading.slash?' / ':' ');
+        const span=node('span');
+        withNames(span,chunk[language],language);
+        if(reading.color)span.style.color=palette[i%palette.length];
+        p.append(span);
+      });
+    } else withNames(p,fallback,language);
+    return p;
+  }
+
   function show(title, lines, done, back, options = {}) {
     const docked=!!(options.field||options.dock);
     const field=docked ? dialogue : null;
@@ -313,7 +355,7 @@
       'LIBRARY_SERIAL_BOOKS','LIBRARY_SERIAL_EXPANSION_A','LIBRARY_SERIAL_EXPANSION_B',
     ].map(file=>loadData('story/'+file+'.json')));
     serialReading=window.createChapterReading({
-      node,button,show,library,panel:worldPanel,chapter:worldProgress,pages:registeredCount,
+      node,button,show,chunkedLine,library,panel:worldPanel,chapter:worldProgress,pages:registeredCount,
       recovered:twCleared,flag:worldFlag,save:saveWorld,player:()=>G.name,
       townName:id=>townFor(episodes.get(id)),
       field:(body,map,targets)=>window.openChapterField(body,map,isRpgM()?rhero():lhero(),targets),
@@ -327,7 +369,7 @@
       'CHAPTER2_CLOSURE_AND_EXPLORATION','CHAPTER2_FINAL_EXPANSION','CHAPTER2_REVIEW_AND_COMPANIONS'];
     const data=Object.fromEntries(await Promise.all(files.map(async key=>[key,await loadData('story/'+key+'.json')])));
     chapterWorld=window.createChapterWorld({
-      node,button,show,panel:worldPanel,save:saveWorld,state:worldProgress,flag:worldFlag,
+      node,button,show,chunkedLine,panel:worldPanel,save:saveWorld,reward:grantQuestReward,state:worldProgress,flag:worldFlag,
       recovered:twCleared,available:wmUnlocked,visit:visitTown,shuffle,pages:registeredCount,
       speakerName:key=>naming.characters[key]||Object.values(naming.characters).find(name=>name.en===key)||
         (key==='Subject'?{en:G.name,ko:'모험가'}:null),

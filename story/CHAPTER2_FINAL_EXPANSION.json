@@ -125,7 +125,21 @@
             "Tree",
             "Both"
           ],
-          "correct_index": 0
+          "correct_index": 0,
+          "question_chunks": [
+            {
+              "en": "Which crates",
+              "ko": "어떤 상자들이"
+            },
+            {
+              "en": "contain",
+              "ko": "들어 있는가"
+            },
+            {
+              "en": "the records?",
+              "ko": "기록이?"
+            }
+          ]
         },
         {
           "id": "boss",
@@ -326,7 +340,17 @@
             "The verified original",
             "Neither"
           ],
-          "correct_index": 1
+          "correct_index": 1,
+          "question_chunks": [
+            {
+              "en": "Which message",
+              "ko": "어떤 전갈을"
+            },
+            {
+              "en": "should be trusted?",
+              "ko": "믿어야 하는가?"
+            }
+          ]
         },
         {
           "id": "boss",
@@ -516,7 +540,21 @@
             "Every line",
             "The final line of the new copy"
           ],
-          "correct_index": 2
+          "correct_index": 2,
+          "question_chunks": [
+            {
+              "en": "Which line",
+              "ko": "어떤 줄이"
+            },
+            {
+              "en": "needs",
+              "ko": "필요한가"
+            },
+            {
+              "en": "further verification?",
+              "ko": "추가 확인이?"
+            }
+          ]
         },
         {
           "id": "boss",
@@ -711,7 +749,21 @@
             "Ferron",
             "The harbor master"
           ],
-          "correct_index": 0
+          "correct_index": 0,
+          "question_chunks": [
+            {
+              "en": "Who",
+              "ko": "누가"
+            },
+            {
+              "en": "owns",
+              "ko": "소유하는가"
+            },
+            {
+              "en": "the bridge?",
+              "ko": "다리를?"
+            }
+          ]
         },
         {
           "id": "boss",
@@ -915,7 +967,17 @@
             "No such agreement",
             "Eternal obedience"
           ],
-          "correct_index": 1
+          "correct_index": 1,
+          "question_chunks": [
+            {
+              "en": "What",
+              "ko": "무엇을"
+            },
+            {
+              "en": "did the council approve?",
+              "ko": "의회는 승인했는가?"
+            }
+          ]
         },
         {
           "id": "boss",

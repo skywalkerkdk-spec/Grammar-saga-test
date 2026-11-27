@@ -152,7 +152,21 @@
               "Neither box"
             ],
             "correct_index": 0,
-            "retry_ko": "앞서 확인한 대화를 다시 읽어 보세요."
+            "retry_ko": "앞서 확인한 대화를 다시 읽어 보세요.",
+            "question_chunks": [
+              {
+                "en": "Which box",
+                "ko": "어떤 상자에"
+              },
+              {
+                "en": "contains",
+                "ko": "들어 있는가"
+              },
+              {
+                "en": "flour?",
+                "ko": "밀가루가?"
+              }
+            ]
           },
           "direct_chunks": [
             {
@@ -413,7 +427,21 @@
               "Under the bridge"
             ],
             "correct_index": 1,
-            "retry_ko": "앞서 확인한 대화를 다시 읽어 보세요."
+            "retry_ko": "앞서 확인한 대화를 다시 읽어 보세요.",
+            "question_chunks": [
+              {
+                "en": "Where",
+                "ko": "어디에"
+              },
+              {
+                "en": "are",
+                "ko": "있는가"
+              },
+              {
+                "en": "the remaining boards?",
+                "ko": "남은 널빤지들은?"
+              }
+            ]
           },
           "direct_chunks": [
             {
@@ -686,7 +714,21 @@
               "Palm"
             ],
             "correct_index": 2,
-            "retry_ko": "앞서 확인한 대화를 다시 읽어 보세요."
+            "retry_ko": "앞서 확인한 대화를 다시 읽어 보세요.",
+            "question_chunks": [
+              {
+                "en": "Who",
+                "ko": "누가"
+              },
+              {
+                "en": "wrote",
+                "ko": "썼는가"
+              },
+              {
+                "en": "the letter?",
+                "ko": "편지를?"
+              }
+            ]
           },
           "direct_chunks": [
             {
@@ -967,7 +1009,17 @@
               "Royal titles"
             ],
             "correct_index": 0,
-            "retry_ko": "앞서 확인한 대화를 다시 읽어 보세요."
+            "retry_ko": "앞서 확인한 대화를 다시 읽어 보세요.",
+            "question_chunks": [
+              {
+                "en": "What",
+                "ko": "무엇을"
+              },
+              {
+                "en": "did the guild offer?",
+                "ko": "길드는 제안했는가?"
+              }
+            ]
           },
           "direct_chunks": [
             {
@@ -1228,7 +1280,21 @@
               "Both medals"
             ],
             "correct_index": 1,
-            "retry_ko": "앞서 확인한 대화를 다시 읽어 보세요."
+            "retry_ko": "앞서 확인한 대화를 다시 읽어 보세요.",
+            "question_chunks": [
+              {
+                "en": "Which medal",
+                "ko": "어떤 메달이"
+              },
+              {
+                "en": "belongs",
+                "ko": "속하는가"
+              },
+              {
+                "en": "to the bird race?",
+                "ko": "새 경주에?"
+              }
+            ]
           },
           "direct_chunks": [
             {
@@ -1477,7 +1543,21 @@
               "Journey"
             ],
             "correct_index": 2,
-            "retry_ko": "앞서 확인한 대화를 다시 읽어 보세요."
+            "retry_ko": "앞서 확인한 대화를 다시 읽어 보세요.",
+            "question_chunks": [
+              {
+                "en": "Who",
+                "ko": "누가"
+              },
+              {
+                "en": "owns",
+                "ko": "가지고 있는가"
+              },
+              {
+                "en": "the blue bag?",
+                "ko": "파란 가방을?"
+              }
+            ]
           },
           "direct_chunks": [
             {
@@ -1722,7 +1802,17 @@
               "Neither route"
             ],
             "correct_index": 0,
-            "retry_ko": "앞서 확인한 대화를 다시 읽어 보세요."
+            "retry_ko": "앞서 확인한 대화를 다시 읽어 보세요.",
+            "question_chunks": [
+              {
+                "en": "Which route",
+                "ko": "어떤 경로가"
+              },
+              {
+                "en": "is open?",
+                "ko": "열려 있는가?"
+              }
+            ]
           },
           "direct_chunks": [
             {
@@ -1959,7 +2049,21 @@
               "Saturday"
             ],
             "correct_index": 1,
-            "retry_ko": "앞서 확인한 대화를 다시 읽어 보세요."
+            "retry_ko": "앞서 확인한 대화를 다시 읽어 보세요.",
+            "question_chunks": [
+              {
+                "en": "When",
+                "ko": "언제"
+              },
+              {
+                "en": "is",
+                "ko": "인가"
+              },
+              {
+                "en": "the castle event?",
+                "ko": "성 행사는?"
+              }
+            ]
           },
           "direct_chunks": [
             {

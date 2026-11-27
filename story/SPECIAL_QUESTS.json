@@ -97,7 +97,21 @@
           "evidence_indices": [
             0
           ],
-          "retry_ko": "다시 확인할 증언: Farmer Am."
+          "retry_ko": "다시 확인할 증언: Farmer Am.",
+          "question_chunks": [
+            {
+              "en": "Who",
+              "ko": "누가"
+            },
+            {
+              "en": "is",
+              "ko": "~인가"
+            },
+            {
+              "en": "the farmer?",
+              "ko": "농부?"
+            }
+          ]
         },
         {
           "id": "g1_task_2",
@@ -112,7 +126,21 @@
           "evidence_indices": [
             2
           ],
-          "retry_ko": "다시 확인할 증언: Granny Aria."
+          "retry_ko": "다시 확인할 증언: Granny Aria.",
+          "question_chunks": [
+            {
+              "en": "Where",
+              "ko": "어디에"
+            },
+            {
+              "en": "are",
+              "ko": "있는가"
+            },
+            {
+              "en": "the sisters?",
+              "ko": "자매는?"
+            }
+          ]
         }
       ],
       "reward": {
@@ -246,7 +274,17 @@
             2,
             3
           ],
-          "retry_ko": "다시 확인할 증언: Donny, Miss Nott."
+          "retry_ko": "다시 확인할 증언: Donny, Miss Nott.",
+          "question_chunks": [
+            {
+              "en": "What",
+              "ko": "무엇을"
+            },
+            {
+              "en": "should Dot serve?",
+              "ko": "도트는 제공해야 하는가?"
+            }
+          ]
         },
         {
           "id": "g2_task_2",
@@ -262,7 +300,25 @@
             1,
             3
           ],
-          "retry_ko": "다시 확인할 증언: Chef Dot, Miss Nott."
+          "retry_ko": "다시 확인할 증언: Chef Dot, Miss Nott.",
+          "question_chunks": [
+            {
+              "en": "Which question",
+              "ko": "어떤 질문이"
+            },
+            {
+              "en": "checks",
+              "ko": "확인하는가"
+            },
+            {
+              "en": "his preference",
+              "ko": "그의 선호를"
+            },
+            {
+              "en": "for meat?",
+              "ko": "고기에 대한?"
+            }
+          ]
         }
       ],
       "reward": {
@@ -403,7 +459,21 @@
             1,
             3
           ],
-          "retry_ko": "다시 확인할 증언: Baker Preston, Pasty, Postman Will."
+          "retry_ko": "다시 확인할 증언: Baker Preston, Pasty, Postman Will.",
+          "question_chunks": [
+            {
+              "en": "Which",
+              "ko": "어느 것이"
+            },
+            {
+              "en": "happened",
+              "ko": "일어났는가"
+            },
+            {
+              "en": "first?",
+              "ko": "가장 먼저?"
+            }
+          ]
         },
         {
           "id": "tn_task_2",
@@ -419,7 +489,17 @@
             2,
             3
           ],
-          "retry_ko": "다시 확인할 증언: Grandpa Tick, Postman Will."
+          "retry_ko": "다시 확인할 증언: Grandpa Tick, Postman Will.",
+          "question_chunks": [
+            {
+              "en": "When",
+              "ko": "언제"
+            },
+            {
+              "en": "must the cake arrive?",
+              "ko": "케이크는 도착해야 하는가?"
+            }
+          ]
         }
       ],
       "reward": {
@@ -572,7 +652,21 @@
             2,
             3
           ],
-          "retry_ko": "다시 확인할 증언: Foreman Muston, Runner Canby, Captain Coulden."
+          "retry_ko": "다시 확인할 증언: Foreman Muston, Runner Canby, Captain Coulden.",
+          "question_chunks": [
+            {
+              "en": "How",
+              "ko": "어떻게"
+            },
+            {
+              "en": "can we cross",
+              "ko": "우리는 건널 수 있는가"
+            },
+            {
+              "en": "today?",
+              "ko": "오늘?"
+            }
+          ]
         },
         {
           "id": "md_task_2",
@@ -587,7 +681,21 @@
           "evidence_indices": [
             0
           ],
-          "retry_ko": "다시 확인할 증언: Granny May."
+          "retry_ko": "다시 확인할 증언: Granny May.",
+          "question_chunks": [
+            {
+              "en": "What",
+              "ko": "무엇이"
+            },
+            {
+              "en": "is required",
+              "ko": "필수인가"
+            },
+            {
+              "en": "for workers?",
+              "ko": "작업자에게?"
+            }
+          ]
         }
       ],
       "reward": {
@@ -755,7 +863,17 @@
             0,
             1
           ],
-          "retry_ko": "다시 확인할 증언: Ranger Whoa, Librarian Thatton."
+          "retry_ko": "다시 확인할 증언: Ranger Whoa, Librarian Thatton.",
+          "question_chunks": [
+            {
+              "en": "Which child",
+              "ko": "어떤 아이를"
+            },
+            {
+              "en": "should we look for?",
+              "ko": "우리는 찾아야 하는가?"
+            }
+          ]
         },
         {
           "id": "rp_task_2",
@@ -770,7 +888,21 @@
           "evidence_indices": [
             2
           ],
-          "retry_ko": "다시 확인할 증언: Mechanic Whoseley."
+          "retry_ko": "다시 확인할 증언: Mechanic Whoseley.",
+          "question_chunks": [
+            {
+              "en": "Which cart",
+              "ko": "어떤 수레가"
+            },
+            {
+              "en": "is",
+              "ko": "~인가"
+            },
+            {
+              "en": "a useful clue?",
+              "ko": "유용한 단서?"
+            }
+          ]
         }
       ],
       "reward": {
@@ -909,7 +1041,21 @@
           "evidence_indices": [
             1
           ],
-          "retry_ko": "다시 확인할 증언: Traveler Byn."
+          "retry_ko": "다시 확인할 증언: Traveler Byn.",
+          "question_chunks": [
+            {
+              "en": "Who",
+              "ko": "누가"
+            },
+            {
+              "en": "took",
+              "ko": "가져갔는가"
+            },
+            {
+              "en": "the book?",
+              "ko": "책을?"
+            }
+          ]
         },
         {
           "id": "ps_task_2",
@@ -924,7 +1070,21 @@
           "evidence_indices": [
             3
           ],
-          "retry_ko": "다시 확인할 증언: Cleaner Done."
+          "retry_ko": "다시 확인할 증언: Cleaner Done.",
+          "question_chunks": [
+            {
+              "en": "Where",
+              "ko": "어디에서"
+            },
+            {
+              "en": "should we recover",
+              "ko": "우리는 회수해야 하는가"
+            },
+            {
+              "en": "the book?",
+              "ko": "책을?"
+            }
+          ]
         }
       ],
       "reward": {
@@ -1063,7 +1223,25 @@
           "evidence_indices": [
             0
           ],
-          "retry_ko": "다시 확인할 증언: Landlord Haven."
+          "retry_ko": "다시 확인할 증언: Landlord Haven.",
+          "question_chunks": [
+            {
+              "en": "Who",
+              "ko": "누가"
+            },
+            {
+              "en": "has lived",
+              "ko": "살아 왔는가"
+            },
+            {
+              "en": "here",
+              "ko": "여기에"
+            },
+            {
+              "en": "for ten years?",
+              "ko": "10년 동안?"
+            }
+          ]
         },
         {
           "id": "pf_task_2",
@@ -1078,7 +1256,21 @@
           "evidence_indices": [
             2
           ],
-          "retry_ko": "다시 확인할 증언: Clockmaker Since."
+          "retry_ko": "다시 확인할 증언: Clockmaker Since.",
+          "question_chunks": [
+            {
+              "en": "Which event",
+              "ko": "어떤 사건이"
+            },
+            {
+              "en": "happened",
+              "ko": "일어났는가"
+            },
+            {
+              "en": "ten years ago?",
+              "ko": "10년 전에?"
+            }
+          ]
         }
       ],
       "reward": {
@@ -1241,7 +1433,21 @@
           "evidence_indices": [
             2
           ],
-          "retry_ko": "다시 확인할 증언: Coach Howie."
+          "retry_ko": "다시 확인할 증언: Coach Howie.",
+          "question_chunks": [
+            {
+              "en": "Where",
+              "ko": "어디에"
+            },
+            {
+              "en": "is",
+              "ko": "있는가"
+            },
+            {
+              "en": "the house?",
+              "ko": "집은?"
+            }
+          ]
         },
         {
           "id": "rv_task_2",
@@ -1256,7 +1462,21 @@
           "evidence_indices": [
             1
           ],
-          "retry_ko": "다시 확인할 증언: Wynna."
+          "retry_ko": "다시 확인할 증언: Wynna.",
+          "question_chunks": [
+            {
+              "en": "What",
+              "ko": "무슨 일이"
+            },
+            {
+              "en": "happened",
+              "ko": "있었는가"
+            },
+            {
+              "en": "on the remembered day?",
+              "ko": "기억 속 그날에?"
+            }
+          ]
         }
       ],
       "reward": {
@@ -1403,7 +1623,21 @@
           "evidence_indices": [
             0
           ],
-          "retry_ko": "다시 확인할 증언: Walker Ingmar."
+          "retry_ko": "다시 확인할 증언: Walker Ingmar.",
+          "question_chunks": [
+            {
+              "en": "Who",
+              "ko": "누가"
+            },
+            {
+              "en": "found",
+              "ko": "발견했는가"
+            },
+            {
+              "en": "the tablet?",
+              "ko": "돌판을?"
+            }
+          ]
         },
         {
           "id": "pc_task_2",
@@ -1418,7 +1652,17 @@
           "evidence_indices": [
             2
           ],
-          "retry_ko": "다시 확인할 증언: Librarian Edlyn."
+          "retry_ko": "다시 확인할 증언: Librarian Edlyn.",
+          "question_chunks": [
+            {
+              "en": "What",
+              "ko": "무엇을"
+            },
+            {
+              "en": "does the tablet describe?",
+              "ko": "돌판은 설명하는가?"
+            }
+          ]
         }
       ],
       "reward": {
@@ -1625,7 +1869,17 @@
           "evidence_indices": [
             2
           ],
-          "retry_ko": "다시 확인할 증언: Wisha."
+          "retry_ko": "다시 확인할 증언: Wisha.",
+          "question_chunks": [
+            {
+              "en": "What",
+              "ko": "무엇을"
+            },
+            {
+              "en": "does Wisha wish for?",
+              "ko": "위샤는 바라는가?"
+            }
+          ]
         },
         {
           "id": "sj_task_2",
@@ -1640,7 +1894,17 @@
           "evidence_indices": [
             1
           ],
-          "retry_ko": "다시 확인할 증언: Merchant Woulden."
+          "retry_ko": "다시 확인할 증언: Merchant Woulden.",
+          "question_chunks": [
+            {
+              "en": "How",
+              "ko": "어떻게"
+            },
+            {
+              "en": "could a bird help?",
+              "ko": "새는 도울 수 있는가?"
+            }
+          ]
         }
       ],
       "reward": {
@@ -1775,7 +2039,17 @@
             1,
             3
           ],
-          "retry_ko": "다시 확인할 증언: Runner Swift, Merchant Morella, Teacher Beston."
+          "retry_ko": "다시 확인할 증언: Runner Swift, Merchant Morella, Teacher Beston.",
+          "question_chunks": [
+            {
+              "en": "Who",
+              "ko": "누가"
+            },
+            {
+              "en": "wins?",
+              "ko": "우승하는가?"
+            }
+          ]
         },
         {
           "id": "cp_task_2",
@@ -1791,7 +2065,21 @@
             0,
             1
           ],
-          "retry_ko": "다시 확인할 증언: Runner Swift, Merchant Morella."
+          "retry_ko": "다시 확인할 증언: Runner Swift, Merchant Morella.",
+          "question_chunks": [
+            {
+              "en": "Who",
+              "ko": "누가"
+            },
+            {
+              "en": "finished",
+              "ko": "끝냈는가"
+            },
+            {
+              "en": "second?",
+              "ko": "2위로?"
+            }
+          ]
         }
       ],
       "reward": {
@@ -1928,7 +2216,21 @@
           "evidence_indices": [
             0
           ],
-          "retry_ko": "다시 확인할 증언: Bookseller Myra."
+          "retry_ko": "다시 확인할 증언: Bookseller Myra.",
+          "question_chunks": [
+            {
+              "en": "Who",
+              "ko": "누가"
+            },
+            {
+              "en": "owns",
+              "ko": "가지고 있는가"
+            },
+            {
+              "en": "the blue book?",
+              "ko": "파란 책을?"
+            }
+          ]
         },
         {
           "id": "pn_task_2",
@@ -1944,7 +2246,21 @@
             1,
             2
           ],
-          "retry_ko": "다시 확인할 증언: Fruit Seller Annie, Selma."
+          "retry_ko": "다시 확인할 증언: Fruit Seller Annie, Selma.",
+          "question_chunks": [
+            {
+              "en": "Who",
+              "ko": "누가"
+            },
+            {
+              "en": "owns",
+              "ko": "가지고 있는가"
+            },
+            {
+              "en": "the umbrella?",
+              "ko": "우산을?"
+            }
+          ]
         }
       ],
       "reward": {
@@ -2091,7 +2407,21 @@
           "evidence_indices": [
             2
           ],
-          "retry_ko": "다시 확인할 증언: Teacher Atley."
+          "retry_ko": "다시 확인할 증언: Teacher Atley.",
+          "question_chunks": [
+            {
+              "en": "Where",
+              "ko": "어디에"
+            },
+            {
+              "en": "is",
+              "ko": "있는가"
+            },
+            {
+              "en": "the map?",
+              "ko": "지도는?"
+            }
+          ]
         },
         {
           "id": "ot_task_2",
@@ -2107,7 +2437,17 @@
             0,
             1
           ],
-          "retry_ko": "다시 확인할 증언: Sailor Byron, Onna."
+          "retry_ko": "다시 확인할 증언: Sailor Byron, Onna.",
+          "question_chunks": [
+            {
+              "en": "When",
+              "ko": "언제"
+            },
+            {
+              "en": "does the boat leave?",
+              "ko": "배는 출발하는가?"
+            }
+          ]
         }
       ],
       "reward": {
@@ -2254,7 +2594,21 @@
           "evidence_indices": [
             1
           ],
-          "retry_ko": "다시 확인할 증언: Traveler Togo."
+          "retry_ko": "다시 확인할 증언: Traveler Togo.",
+          "question_chunks": [
+            {
+              "en": "Who",
+              "ko": "누가"
+            },
+            {
+              "en": "plans",
+              "ko": "계획하는가"
+            },
+            {
+              "en": "to study abroad?",
+              "ko": "유학 가기를?"
+            }
+          ]
         },
         {
           "id": "iv_task_2",
@@ -2269,7 +2623,17 @@
           "evidence_indices": [
             0
           ],
-          "retry_ko": "다시 확인할 증언: Swimmer Finn."
+          "retry_ko": "다시 확인할 증언: Swimmer Finn.",
+          "question_chunks": [
+            {
+              "en": "Which activity",
+              "ko": "어떤 활동을"
+            },
+            {
+              "en": "does Finn enjoy?",
+              "ko": "핀은 즐기는가?"
+            }
+          ]
         }
       ],
       "reward": {
@@ -2408,7 +2772,17 @@
           "evidence_indices": [
             0
           ],
-          "retry_ko": "다시 확인할 증언: Birdwatcher Seer."
+          "retry_ko": "다시 확인할 증언: Birdwatcher Seer.",
+          "question_chunks": [
+            {
+              "en": "What",
+              "ko": "무엇을"
+            },
+            {
+              "en": "did Seer see?",
+              "ko": "시어는 보았는가?"
+            }
+          ]
         },
         {
           "id": "pe_task_2",
@@ -2423,7 +2797,17 @@
           "evidence_indices": [
             3
           ],
-          "retry_ko": "다시 확인할 증언: Mechanic Fix."
+          "retry_ko": "다시 확인할 증언: Mechanic Fix.",
+          "question_chunks": [
+            {
+              "en": "What",
+              "ko": "무엇을"
+            },
+            {
+              "en": "did Fix feel?",
+              "ko": "픽스는 느꼈는가?"
+            }
+          ]
         }
       ],
       "reward": {
@@ -2550,7 +2934,17 @@
           "evidence_indices": [
             2
           ],
-          "retry_ko": "다시 확인할 증언: Baker Loaf."
+          "retry_ko": "다시 확인할 증언: Baker Loaf.",
+          "question_chunks": [
+            {
+              "en": "Which supplies",
+              "ko": "어떤 물품이"
+            },
+            {
+              "en": "are needed?",
+              "ko": "필요한가?"
+            }
+          ]
         },
         {
           "id": "ng_task_2",
@@ -2565,7 +2959,25 @@
           "evidence_indices": [
             1
           ],
-          "retry_ko": "다시 확인할 증언: Librarian Hush."
+          "retry_ko": "다시 확인할 증언: Librarian Hush.",
+          "question_chunks": [
+            {
+              "en": "Which sign",
+              "ko": "어떤 안내문이"
+            },
+            {
+              "en": "keeps",
+              "ko": "지키는가"
+            },
+            {
+              "en": "visitors",
+              "ko": "방문객을"
+            },
+            {
+              "en": "safe?",
+              "ko": "안전하게?"
+            }
+          ]
         }
       ],
       "reward": {
@@ -2766,7 +3178,21 @@
           "evidence_indices": [
             3
           ],
-          "retry_ko": "다시 확인할 증언: Guide Wenda."
+          "retry_ko": "다시 확인할 증언: Guide Wenda.",
+          "question_chunks": [
+            {
+              "en": "Where",
+              "ko": "어디에"
+            },
+            {
+              "en": "is",
+              "ko": "있는가"
+            },
+            {
+              "en": "the messenger?",
+              "ko": "전령은?"
+            }
+          ]
         },
         {
           "id": "rs_task_2",
@@ -2781,7 +3207,21 @@
           "evidence_indices": [
             0
           ],
-          "retry_ko": "다시 확인할 증언: Postman Tell."
+          "retry_ko": "다시 확인할 증언: Postman Tell.",
+          "question_chunks": [
+            {
+              "en": "What",
+              "ko": "무엇을"
+            },
+            {
+              "en": "did she say",
+              "ko": "그녀는 말했는가"
+            },
+            {
+              "en": "about the seal?",
+              "ko": "인장에 관해?"
+            }
+          ]
         }
       ],
       "reward": {
@@ -2938,7 +3378,21 @@
           "evidence_indices": [
             1
           ],
-          "retry_ko": "다시 확인할 증언: Officer Emphas."
+          "retry_ko": "다시 확인할 증언: Officer Emphas.",
+          "question_chunks": [
+            {
+              "en": "Which key",
+              "ko": "어떤 열쇠가"
+            },
+            {
+              "en": "opened",
+              "ko": "열었는가"
+            },
+            {
+              "en": "the gate?",
+              "ko": "문을?"
+            }
+          ]
         },
         {
           "id": "sx_task_2",
@@ -2953,7 +3407,17 @@
           "evidence_indices": [
             2
           ],
-          "retry_ko": "다시 확인할 증언: Artist Parallel."
+          "retry_ko": "다시 확인할 증언: Artist Parallel.",
+          "question_chunks": [
+            {
+              "en": "Which three qualities",
+              "ko": "어떤 세 가지 자질이"
+            },
+            {
+              "en": "are needed?",
+              "ko": "필요한가?"
+            }
+          ]
         }
       ],
       "reward": {

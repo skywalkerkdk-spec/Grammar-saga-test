@@ -28,7 +28,7 @@ window.createChapterWorld = function(api, data) {
   const roles=data.RESIDENT_DAILY_DIALOGUE.role_pools;
   const stageStore=()=>state().stages ||= {};
   const cursor=id=>stageStore()[id]||0;
-  const label=n=>n ? n.en+' · '+n.ko : '';
+  const label=n=>!n ? '' : n.job ? n.job+' '+n.name : n.en+' · '+n.ko;
   const events=[];
   function lineChunks(text) {
     if(text.chunks?.length>1)return text.chunks;
@@ -185,11 +185,22 @@ window.createChapterWorld = function(api, data) {
     return next&&{...next,title:event.title};
   }
 
+  // Every event pays out once when it is finished: gems, a potion or an upgrade stone.
+  function rewardFor(event) {
+    if(event.reward_item)return event.reward_item;
+    const sum=[...event.id].reduce((total,char)=>total+char.charCodeAt(0),0);
+    const table=event.group==='마을'
+      ? [{cry:120},{pot:'hs'},{stone:1}]
+      : [{cry:200},{pot:'hm'},{stone:1}];
+    return table[sum%3];
+  }
+
   function openQuest(event,index,back,portrait) {
     if(index>cursor(event.id)||!event.requires())return;
     const stage=event.stages[index];
     if(!stage||!canVisit(stage.town))return;
     const replay=index<cursor(event.id)||flag(event.finish);
+    let finished=false;
     const proceed=()=>{
       if(!replay&&index===cursor(event.id)){
         stageStore()[event.id]=index+1;
@@ -197,17 +208,24 @@ window.createChapterWorld = function(api, data) {
         if(index===event.stages.length-1){
           state().flags[event.finish]=true;
           if(event.souvenir)(state().souvenirs ||= {})[event.souvenir.id]=event.souvenir.ko;
+          finished=true;
         }
         save();
       }
-      back();
+      if(finished&&api.reward)api.reward(rewardFor(event),back);
+      else back();
     };
     const ask=()=>{
       const task=stage.task;
       const body=panel(event.title,back,'돌아가기');
       const status=node('p');status.setAttribute('role','status');
-      const question=node('p',task.question_en);question.lang='en';body.append(question);
-      if(task.question_ko&&api.koreanVisible?.())body.append(node('p',task.question_ko));
+      if(api.chunkedLine&&task.question_chunks) {
+        body.append(api.chunkedLine(task.question_chunks,'en',task.question_en));
+        if(api.koreanVisible?.())body.append(api.chunkedLine(task.question_chunks,'ko',task.question_ko||''));
+      } else {
+        const question=node('p',task.question_en);question.lang='en';body.append(question);
+        if(task.question_ko&&api.koreanVisible?.())body.append(node('p',task.question_ko));
+      }
       const row=node('div',undefined,'c2-actions');
       for(const [i,option] of task.options.entries())row.append(button(option,()=>{
         if(task.choice) {
@@ -343,6 +361,7 @@ window.createChapterWorld = function(api, data) {
         en:'I am staying in this town. We may speak again later.',
         ko:'이 마을에 머물고 있어요. 나중에 다시 이야기할 수도 있겠군요.',
         chunks:[{en:'I am staying in this town.',ko:'이 마을에 머물고 있어요.'},{en:'We may speak again later.',ko:'나중에 다시 이야기할 수도 있겠군요.'}],
+        direct_chunks:[{en:'I',ko:'나는'},{en:'am staying',ko:'머물고 있어요'},{en:'in this town.',ko:'이 마을에.'},{en:'We',ko:'우리는'},{en:'may speak',ko:'이야기할 수도 있어요'},{en:'again',ko:'다시'},{en:'later.',ko:'나중에.'}],
       };
       show(label(npc),[localized(greeting,id)],null,null,{field:portrait,skip:false});
     };

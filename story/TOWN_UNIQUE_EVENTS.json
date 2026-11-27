@@ -113,7 +113,21 @@
             "Both loaves"
           ],
           "correct_index": 0,
-          "feedback_ko": "두 증언을 다시 비교해 보세요."
+          "feedback_ko": "두 증언을 다시 비교해 보세요.",
+          "question_chunks": [
+            {
+              "en": "Which loaf",
+              "ko": "어떤 빵이"
+            },
+            {
+              "en": "goes",
+              "ko": "가는가"
+            },
+            {
+              "en": "to the contest?",
+              "ko": "대회에?"
+            }
+          ]
         },
         {
           "npc": "g1_extra_1",
@@ -295,7 +309,21 @@
             "Herbs, onions, fish"
           ],
           "correct_index": 1,
-          "feedback_ko": "두 증언을 다시 비교해 보세요."
+          "feedback_ko": "두 증언을 다시 비교해 보세요.",
+          "question_chunks": [
+            {
+              "en": "What",
+              "ko": "무엇이"
+            },
+            {
+              "en": "is",
+              "ko": "~인가"
+            },
+            {
+              "en": "the correct order?",
+              "ko": "올바른 순서?"
+            }
+          ]
         },
         {
           "npc": "g2_extra_1",
@@ -473,7 +501,17 @@
             "Before six"
           ],
           "correct_index": 2,
-          "feedback_ko": "두 증언을 다시 비교해 보세요."
+          "feedback_ko": "두 증언을 다시 비교해 보세요.",
+          "question_chunks": [
+            {
+              "en": "When",
+              "ko": "언제"
+            },
+            {
+              "en": "should we hide?",
+              "ko": "우리는 숨어야 하는가?"
+            }
+          ]
         },
         {
           "npc": "tn_extra_1",
@@ -655,7 +693,17 @@
             "Enter the broken tunnel."
           ],
           "correct_index": 0,
-          "feedback_ko": "두 증언을 다시 비교해 보세요."
+          "feedback_ko": "두 증언을 다시 비교해 보세요.",
+          "question_chunks": [
+            {
+              "en": "Which plan",
+              "ko": "어떤 계획이"
+            },
+            {
+              "en": "is safe?",
+              "ko": "안전한가?"
+            }
+          ]
         },
         {
           "npc": "md_extra_1",
@@ -845,7 +893,17 @@
             "Unmarked trail"
           ],
           "correct_index": 1,
-          "feedback_ko": "두 증언을 다시 비교해 보세요."
+          "feedback_ko": "두 증언을 다시 비교해 보세요.",
+          "question_chunks": [
+            {
+              "en": "Which trail",
+              "ko": "어떤 길을"
+            },
+            {
+              "en": "should you take?",
+              "ko": "당신은 가야 하는가?"
+            }
+          ]
         },
         {
           "npc": "rp_extra_1",
@@ -1031,7 +1089,21 @@
             "A branch"
           ],
           "correct_index": 2,
-          "feedback_ko": "두 증언을 다시 비교해 보세요."
+          "feedback_ko": "두 증언을 다시 비교해 보세요.",
+          "question_chunks": [
+            {
+              "en": "What",
+              "ko": "무엇이"
+            },
+            {
+              "en": "broke",
+              "ko": "깼는가"
+            },
+            {
+              "en": "the window?",
+              "ko": "창문을?"
+            }
+          ]
         },
         {
           "npc": "ps_extra_1",
@@ -1201,7 +1273,17 @@
             "A visit already completed"
           ],
           "correct_index": 0,
-          "feedback_ko": "두 증언을 다시 비교해 보세요."
+          "feedback_ko": "두 증언을 다시 비교해 보세요.",
+          "question_chunks": [
+            {
+              "en": "Which new experience",
+              "ko": "어떤 새로운 경험을"
+            },
+            {
+              "en": "can we offer?",
+              "ko": "우리는 제공할 수 있는가?"
+            }
+          ]
         },
         {
           "npc": "pf_extra_1",
@@ -1399,7 +1481,17 @@
             "Immediately"
           ],
           "correct_index": 1,
-          "feedback_ko": "두 증언을 다시 비교해 보세요."
+          "feedback_ko": "두 증언을 다시 비교해 보세요.",
+          "question_chunks": [
+            {
+              "en": "When",
+              "ko": "언제"
+            },
+            {
+              "en": "should we enter?",
+              "ko": "우리는 들어가야 하는가?"
+            }
+          ]
         },
         {
           "npc": "rv_extra_1",
@@ -1585,7 +1677,17 @@
             "Stone message"
           ],
           "correct_index": 2,
-          "feedback_ko": "두 증언을 다시 비교해 보세요."
+          "feedback_ko": "두 증언을 다시 비교해 보세요.",
+          "question_chunks": [
+            {
+              "en": "Which record",
+              "ko": "어떤 기록이"
+            },
+            {
+              "en": "survived?",
+              "ko": "살아남았는가?"
+            }
+          ]
         },
         {
           "npc": "pc_extra_1",
@@ -1775,7 +1877,21 @@
             "Destroy the letter."
           ],
           "correct_index": 0,
-          "feedback_ko": "두 증언을 다시 비교해 보세요."
+          "feedback_ko": "두 증언을 다시 비교해 보세요.",
+          "question_chunks": [
+            {
+              "en": "What",
+              "ko": "무엇을"
+            },
+            {
+              "en": "can we do",
+              "ko": "우리는 할 수 있는가"
+            },
+            {
+              "en": "now?",
+              "ko": "지금?"
+            }
+          ]
         },
         {
           "npc": "sj_extra_1",
@@ -1961,7 +2077,21 @@
             "Leo"
           ],
           "correct_index": 1,
-          "feedback_ko": "두 증언을 다시 비교해 보세요."
+          "feedback_ko": "두 증언을 다시 비교해 보세요.",
+          "question_chunks": [
+            {
+              "en": "Who",
+              "ko": "누가"
+            },
+            {
+              "en": "was",
+              "ko": "였는가"
+            },
+            {
+              "en": "fastest?",
+              "ko": "가장 빠른?"
+            }
+          ]
         },
         {
           "npc": "cp_extra_1",
@@ -2127,7 +2257,17 @@
             "Blue scarf"
           ],
           "correct_index": 2,
-          "feedback_ko": "두 증언을 다시 비교해 보세요."
+          "feedback_ko": "두 증언을 다시 비교해 보세요.",
+          "question_chunks": [
+            {
+              "en": "Which scarf",
+              "ko": "어떤 목도리를"
+            },
+            {
+              "en": "should Rain receive?",
+              "ko": "레인은 받아야 하는가?"
+            }
+          ]
         },
         {
           "npc": "pn_extra_1",
@@ -2309,7 +2449,17 @@
             "North"
           ],
           "correct_index": 0,
-          "feedback_ko": "두 증언을 다시 비교해 보세요."
+          "feedback_ko": "두 증언을 다시 비교해 보세요.",
+          "question_chunks": [
+            {
+              "en": "Which way",
+              "ko": "어느 쪽으로"
+            },
+            {
+              "en": "should we sail?",
+              "ko": "우리는 항해해야 하는가?"
+            }
+          ]
         },
         {
           "npc": "ot_extra_1",
@@ -2479,7 +2629,21 @@
             "Fisher"
           ],
           "correct_index": 1,
-          "feedback_ko": "두 증언을 다시 비교해 보세요."
+          "feedback_ko": "두 증언을 다시 비교해 보세요.",
+          "question_chunks": [
+            {
+              "en": "Which job",
+              "ko": "어떤 일이"
+            },
+            {
+              "en": "fits",
+              "ko": "맞는가"
+            },
+            {
+              "en": "the apprentice?",
+              "ko": "견습생에게?"
+            }
+          ]
         },
         {
           "npc": "iv_extra_1",
@@ -2689,7 +2853,21 @@
             "The wind"
           ],
           "correct_index": 2,
-          "feedback_ko": "두 증언을 다시 비교해 보세요."
+          "feedback_ko": "두 증언을 다시 비교해 보세요.",
+          "question_chunks": [
+            {
+              "en": "What",
+              "ko": "무엇이"
+            },
+            {
+              "en": "caused",
+              "ko": "일으켰는가"
+            },
+            {
+              "en": "the sound?",
+              "ko": "그 소리를?"
+            }
+          ]
         },
         {
           "npc": "pe_extra_1",
@@ -2871,7 +3049,17 @@
             "Before the song starts"
           ],
           "correct_index": 0,
-          "feedback_ko": "두 증언을 다시 비교해 보세요."
+          "feedback_ko": "두 증언을 다시 비교해 보세요.",
+          "question_chunks": [
+            {
+              "en": "When",
+              "ko": "언제"
+            },
+            {
+              "en": "should we clap?",
+              "ko": "우리는 박수 쳐야 하는가?"
+            }
+          ]
         },
         {
           "npc": "ng_extra_1",
@@ -3053,7 +3241,17 @@
             "Six"
           ],
           "correct_index": 1,
-          "feedback_ko": "두 증언을 다시 비교해 보세요."
+          "feedback_ko": "두 증언을 다시 비교해 보세요.",
+          "question_chunks": [
+            {
+              "en": "What time",
+              "ko": "몇 시를"
+            },
+            {
+              "en": "did she actually report?",
+              "ko": "그녀는 실제로 보고했는가?"
+            }
+          ]
         },
         {
           "npc": "rs_extra_1",
@@ -3265,7 +3463,21 @@
             "Silver key"
           ],
           "correct_index": 2,
-          "feedback_ko": "두 증언을 다시 비교해 보세요."
+          "feedback_ko": "두 증언을 다시 비교해 보세요.",
+          "question_chunks": [
+            {
+              "en": "Which key",
+              "ko": "어떤 열쇠가"
+            },
+            {
+              "en": "opens",
+              "ko": "여는가"
+            },
+            {
+              "en": "the gate?",
+              "ko": "문을?"
+            }
+          ]
         },
         {
           "npc": "sx_extra_1",

@@ -203,7 +203,17 @@
               "The repaired cart",
               "Both immediately"
             ],
-            "correct_index": 1
+            "correct_index": 1,
+            "question_chunks": [
+              {
+                "en": "Which cart",
+                "ko": "어떤 수레를"
+              },
+              {
+                "en": "should we use?",
+                "ko": "우리는 써야 하는가?"
+              }
+            ]
           },
           "lines": [
             {
@@ -520,7 +530,17 @@
               "Fish soup",
               "Bread"
             ],
-            "correct_index": 0
+            "correct_index": 0,
+            "question_chunks": [
+              {
+                "en": "What",
+                "ko": "무엇을"
+              },
+              {
+                "en": "does the second guest want?",
+                "ko": "두 번째 손님은 원하는가?"
+              }
+            ]
           },
           "lines": [
             {
@@ -837,7 +857,17 @@
               "Neither path",
               "The repaired bridge"
             ],
-            "correct_index": 2
+            "correct_index": 2,
+            "question_chunks": [
+              {
+                "en": "Which path",
+                "ko": "어떤 길이"
+              },
+              {
+                "en": "is safe?",
+                "ko": "안전한가?"
+              }
+            ]
           },
           "lines": [
             {
@@ -1134,7 +1164,21 @@
               "Green strap and silver button",
               "Red strap and silver button"
             ],
-            "correct_index": 1
+            "correct_index": 1,
+            "question_chunks": [
+              {
+                "en": "Which bag",
+                "ko": "어떤 가방이"
+              },
+              {
+                "en": "matches",
+                "ko": "일치하는가"
+              },
+              {
+                "en": "both clues?",
+                "ko": "두 단서와 모두?"
+              }
+            ]
           },
           "lines": [
             {
@@ -1439,7 +1483,17 @@
               "Nothing",
               "The original stone"
             ],
-            "correct_index": 2
+            "correct_index": 2,
+            "question_chunks": [
+              {
+                "en": "What",
+                "ko": "무엇을"
+              },
+              {
+                "en": "should we preserve?",
+                "ko": "우리는 보존해야 하는가?"
+              }
+            ]
           },
           "lines": [
             {
@@ -1720,7 +1774,25 @@
               "The baker",
               "The merchant"
             ],
-            "correct_index": 0
+            "correct_index": 0,
+            "question_chunks": [
+              {
+                "en": "Who",
+                "ko": "누구를"
+              },
+              {
+                "en": "is",
+                "ko": "~인가"
+              },
+              {
+                "en": "the second loaf",
+                "ko": "두 번째 빵은"
+              },
+              {
+                "en": "for?",
+                "ko": "위한?"
+              }
+            ]
           },
           "lines": [
             {
@@ -2037,7 +2109,17 @@
               "The notebook",
               "Both objects"
             ],
-            "correct_index": 1
+            "correct_index": 1,
+            "question_chunks": [
+              {
+                "en": "What",
+                "ko": "무엇을"
+              },
+              {
+                "en": "should the student receive?",
+                "ko": "학생은 받아야 하는가?"
+              }
+            ]
           },
           "lines": [
             {
@@ -2318,7 +2400,25 @@
               "Below the circle",
               "Above the circle"
             ],
-            "correct_index": 2
+            "correct_index": 2,
+            "question_chunks": [
+              {
+                "en": "Where",
+                "ko": "어디에"
+              },
+              {
+                "en": "is",
+                "ko": "있는가"
+              },
+              {
+                "en": "the bird",
+                "ko": "새는"
+              },
+              {
+                "en": "on the old sign?",
+                "ko": "옛 표지판의?"
+              }
+            ]
           },
           "lines": [
             {

@@ -270,7 +270,17 @@
           "Break the box."
         ],
         "correct_index": 0,
-        "feedback_ko": "도움을 요청하는 것이 책임 있는 행동이다."
+        "feedback_ko": "도움을 요청하는 것이 책임 있는 행동이다.",
+        "question_chunks": [
+          {
+            "en": "What",
+            "ko": "무엇을"
+          },
+          {
+            "en": "should we do?",
+            "ko": "우리는 해야 하는가?"
+          }
+        ]
       },
       "completion_flag": "companion_arc_Subject",
       "reward_type": "story_flag_only"
@@ -329,7 +339,17 @@
           "Close the kitchen."
         ],
         "correct_index": 1,
-        "feedback_ko": "손님의 기호를 이해하고 행동한다."
+        "feedback_ko": "손님의 기호를 이해하고 행동한다.",
+        "question_chunks": [
+          {
+            "en": "What",
+            "ko": "무엇을"
+          },
+          {
+            "en": "should we do?",
+            "ko": "우리는 해야 하는가?"
+          }
+        ]
       },
       "completion_flag": "companion_arc_Verbella",
       "reward_type": "story_flag_only"
@@ -380,7 +400,17 @@
           "Use the boat together."
         ],
         "correct_index": 2,
-        "feedback_ko": "안전한 협력 방법을 선택한다."
+        "feedback_ko": "안전한 협력 방법을 선택한다.",
+        "question_chunks": [
+          {
+            "en": "What",
+            "ko": "무엇을"
+          },
+          {
+            "en": "should we do?",
+            "ko": "우리는 해야 하는가?"
+          }
+        ]
       },
       "completion_flag": "companion_arc_Comple",
       "reward_type": "story_flag_only"
@@ -439,7 +469,17 @@
           "Follow any stranger."
         ],
         "correct_index": 0,
-        "feedback_ko": "정확한 특징으로 목표를 찾는다."
+        "feedback_ko": "정확한 특징으로 목표를 찾는다.",
+        "question_chunks": [
+          {
+            "en": "What",
+            "ko": "무엇을"
+          },
+          {
+            "en": "should we do?",
+            "ko": "우리는 해야 하는가?"
+          }
+        ]
       },
       "completion_flag": "companion_arc_Ob",
       "reward_type": "story_flag_only"
@@ -502,7 +542,17 @@
           "Ignore the villagers."
         ],
         "correct_index": 1,
-        "feedback_ko": "변화의 힘은 타인을 돕는 데 쓴다."
+        "feedback_ko": "변화의 힘은 타인을 돕는 데 쓴다.",
+        "question_chunks": [
+          {
+            "en": "What",
+            "ko": "무엇을"
+          },
+          {
+            "en": "should we do?",
+            "ko": "우리는 해야 하는가?"
+          }
+        ]
       },
       "completion_flag": "companion_arc_Oxy",
       "reward_type": "story_flag_only"
@@ -553,7 +603,17 @@
           "Return it to Myra."
         ],
         "correct_index": 2,
-        "feedback_ko": "물건을 올바른 사람에게 전달한다."
+        "feedback_ko": "물건을 올바른 사람에게 전달한다.",
+        "question_chunks": [
+          {
+            "en": "What",
+            "ko": "무엇을"
+          },
+          {
+            "en": "should we do?",
+            "ko": "우리는 해야 하는가?"
+          }
+        ]
       },
       "completion_flag": "companion_arc_Indy",
       "reward_type": "story_flag_only"
@@ -608,7 +668,17 @@
           "Hide the map."
         ],
         "correct_index": 0,
-        "feedback_ko": "필요한 물건을 찾아 전달한다."
+        "feedback_ko": "필요한 물건을 찾아 전달한다.",
+        "question_chunks": [
+          {
+            "en": "What",
+            "ko": "무엇을"
+          },
+          {
+            "en": "should we do?",
+            "ko": "우리는 해야 하는가?"
+          }
+        ]
       },
       "completion_flag": "companion_arc_Direct",
       "reward_type": "story_flag_only"
@@ -663,7 +733,17 @@
           "Look for a ship."
         ],
         "correct_index": 1,
-        "feedback_ko": "작은 수식 정보가 정확한 탐색을 돕는다."
+        "feedback_ko": "작은 수식 정보가 정확한 탐색을 돕는다.",
+        "question_chunks": [
+          {
+            "en": "What",
+            "ko": "무엇을"
+          },
+          {
+            "en": "should we do?",
+            "ko": "우리는 해야 하는가?"
+          }
+        ]
       },
       "completion_flag": "companion_arc_Modi",
       "reward_type": "story_flag_only"
