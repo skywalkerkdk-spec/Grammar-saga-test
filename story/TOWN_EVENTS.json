@@ -9923,199 +9923,660 @@
         {
           "id": "rp_local_search",
           "title_en": "The Forest Sign",
-          "title_ko": "숲의 표지판",
+          "title_ko": "숲길 표지",
           "steps": [
             {
-              "npc": "rp_extra_5",
               "action": "accept",
-              "line": {
-                "en": "Please help me find my wooden sign.",
-                "ko": "제 나무 표지판을(를) 찾도록 도와주세요.",
-                "chunks": [
-                  {
-                    "en": "Please help me find my wooden sign.",
-                    "ko": "제 나무 표지판을(를) 찾도록 도와주세요.",
-                    "direct_chunks": [
-                      {
-                        "en": "Please help me",
-                        "ko": "저를 도와주세요"
-                      },
-                      {
-                        "en": "find",
-                        "ko": "찾는 것을"
-                      },
-                      {
-                        "en": "my wooden sign.",
-                        "ko": "제 나무 표지판을."
-                      }
-                    ]
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "Please help me",
-                    "ko": "저를 도와주세요"
-                  },
-                  {
-                    "en": "find",
-                    "ko": "찾는 것을"
-                  },
-                  {
-                    "en": "my wooden sign.",
-                    "ko": "제 나무 표지판을."
-                  }
-                ]
-              }
-            },
-            {
-              "npc": "rp_extra_6",
-              "action": "talk",
-              "line": {
-                "en": "I saw something near the cart.",
-                "ko": "수레 근처에서 무언가를 봤어요.",
-                "chunks": [
-                  {
-                    "en": "I saw something near the cart.",
-                    "ko": "수레 근처에서 무언가를 봤어요."
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "I saw",
-                    "ko": "저는 봤어요"
-                  },
-                  {
-                    "en": "something",
-                    "ko": "무언가를"
-                  },
-                  {
-                    "en": "near the cart.",
-                    "ko": "수레 근처에서."
-                  }
-                ]
-              }
-            },
-            {
-              "npc": "rp_extra_8",
-              "action": "confirm",
-              "line": {
-                "en": "Yes, I saw it there too.",
-                "ko": "네, 저도 거기서 봤어요.",
-                "chunks": [
-                  {
-                    "en": "Yes, I saw it there too.",
-                    "ko": "네, 저도 거기서 봤어요."
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "Yes,",
-                    "ko": "네"
-                  },
-                  {
-                    "en": "I saw it",
-                    "ko": "저도 봤어요"
-                  },
-                  {
-                    "en": "there too.",
-                    "ko": "거기서도."
-                  }
-                ]
-              }
-            },
-            {
-              "action": "choose_location",
-              "question_en": "Where should you look?",
-              "options": [
-                "near the cart",
-                "at the village gate",
-                "on the roof"
-              ],
-              "correct_index": 0,
-              "feedback_ko": "두 주민이 알려 준 위치를 확인하세요.",
-              "grant_evidence": "rp_found_item",
-              "question_chunks": [
+              "lines": [
                 {
-                  "en": "Where",
-                  "ko": "어디를"
+                  "speaker": "Narrator",
+                  "en": "Wren kneels at the edge of the forest path, staring at a post.",
+                  "ko": "렌이 숲길 가장자리에 무릎을 꿇고 푯말을 바라본다.",
+                  "chunks": [
+                    {
+                      "en": "Wren kneels at the edge of the forest path, staring at a post.",
+                      "ko": "렌이 숲길 가장자리에 무릎을 꿇고 푯말을 바라본다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Wren kneels",
+                      "ko": "렌이 무릎을 꿇는다"
+                    },
+                    {
+                      "en": "at the edge of the forest path,",
+                      "ko": "숲길 가장자리에서"
+                    },
+                    {
+                      "en": "staring at a post.",
+                      "ko": "푯말을 바라보며."
+                    }
+                  ]
                 },
                 {
-                  "en": "should you look?",
-                  "ko": "당신은 봐야 하는가?"
+                  "speaker": "rp_extra_6",
+                  "en": "The trail sign is broken. The arrow that points to the village is missing.",
+                  "ko": "길 표지가 부러졌어요. 마을을 가리키던 화살표가 없어졌어요.",
+                  "chunks": [
+                    {
+                      "en": "The trail sign is broken. The arrow that points to the village is missing.",
+                      "ko": "길 표지가 부러졌어요. 마을을 가리키던 화살표가 없어졌어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The trail sign is broken.",
+                      "ko": "길 표지가 부러졌어요."
+                    },
+                    {
+                      "en": "The arrow",
+                      "ko": "화살표가"
+                    },
+                    {
+                      "en": "that points to the village",
+                      "ko": "마을을 가리키던"
+                    },
+                    {
+                      "en": "is missing.",
+                      "ko": "없어졌어요."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "rp_extra_6",
+                  "en": "The travelers who come tonight will not find the road.",
+                  "ko": "오늘 밤 오는 여행자들이 길을 찾지 못할 거예요.",
+                  "chunks": [
+                    {
+                      "en": "The travelers who come tonight will not find the road.",
+                      "ko": "오늘 밤 오는 여행자들이 길을 찾지 못할 거예요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The travelers",
+                      "ko": "여행자들이"
+                    },
+                    {
+                      "en": "who come tonight",
+                      "ko": "오늘 밤 오는"
+                    },
+                    {
+                      "en": "will not find",
+                      "ko": "찾지 못할 거예요"
+                    },
+                    {
+                      "en": "the road.",
+                      "ko": "길을."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Subject",
+                  "en": "We will find the arrow.",
+                  "ko": "우리가 화살표를 찾을게요.",
+                  "chunks": [
+                    {
+                      "en": "We will find the arrow.",
+                      "ko": "우리가 화살표를 찾을게요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "We will find",
+                      "ko": "우리가 찾을게요"
+                    },
+                    {
+                      "en": "the arrow.",
+                      "ko": "화살표를."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "rp_extra_6",
+                  "en": "Ask Birch, the woodworker who made it.",
+                  "ko": "그걸 만든 목수 버치에게 물어보세요.",
+                  "chunks": [
+                    {
+                      "en": "Ask Birch, the woodworker who made it.",
+                      "ko": "그걸 만든 목수 버치에게 물어보세요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Ask Birch,",
+                      "ko": "버치에게 물어보세요"
+                    },
+                    {
+                      "en": "the woodworker",
+                      "ko": "목수인"
+                    },
+                    {
+                      "en": "who made it.",
+                      "ko": "그걸 만든."
+                    }
+                  ]
                 }
-              ]
+              ],
+              "npc": "rp_extra_6"
             },
             {
-              "npc": "rp_extra_5",
+              "action": "talk",
+              "lines": [
+                {
+                  "speaker": "rp_extra_7",
+                  "en": "The arrow was carved from a pine plank. It is the one that I made last spring.",
+                  "ko": "화살표는 소나무 판자로 깎았어요. 지난봄에 제가 만든 거죠.",
+                  "chunks": [
+                    {
+                      "en": "The arrow was carved from a pine plank. It is the one that I made last spring.",
+                      "ko": "화살표는 소나무 판자로 깎았어요. 지난봄에 제가 만든 거죠."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The arrow was carved",
+                      "ko": "화살표는 깎였어요"
+                    },
+                    {
+                      "en": "from a pine plank.",
+                      "ko": "소나무 판자로."
+                    },
+                    {
+                      "en": "It is the one",
+                      "ko": "그것은 바로 그것이에요"
+                    },
+                    {
+                      "en": "that I made",
+                      "ko": "제가 만든"
+                    },
+                    {
+                      "en": "last spring.",
+                      "ko": "지난봄에."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "rp_extra_7",
+                  "en": "The boy who helps me saw it near the creek. Ask Star.",
+                  "ko": "저를 돕는 아이가 개울 근처에서 봤대요. 스타에게 물어보세요.",
+                  "chunks": [
+                    {
+                      "en": "The boy who helps me saw it near the creek. Ask Star.",
+                      "ko": "저를 돕는 아이가 개울 근처에서 봤대요. 스타에게 물어보세요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The boy",
+                      "ko": "아이가"
+                    },
+                    {
+                      "en": "who helps me",
+                      "ko": "저를 돕는"
+                    },
+                    {
+                      "en": "saw it",
+                      "ko": "봤어요"
+                    },
+                    {
+                      "en": "near the creek.",
+                      "ko": "개울 근처에서."
+                    },
+                    {
+                      "en": "Ask Star.",
+                      "ko": "스타에게 물어보세요."
+                    }
+                  ]
+                }
+              ],
+              "npc": "rp_extra_7"
+            },
+            {
+              "action": "confirm",
+              "lines": [
+                {
+                  "speaker": "Narrator",
+                  "en": "Star sits on a log by the creek, holding the arrow in both hands.",
+                  "ko": "스타가 개울가 통나무에 앉아 두 손으로 화살표를 안고 있다.",
+                  "chunks": [
+                    {
+                      "en": "Star sits on a log by the creek, holding the arrow in both hands.",
+                      "ko": "스타가 개울가 통나무에 앉아 두 손으로 화살표를 안고 있다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Star sits on a log",
+                      "ko": "스타가 통나무에 앉아 있다"
+                    },
+                    {
+                      "en": "by the creek,",
+                      "ko": "개울가의"
+                    },
+                    {
+                      "en": "holding the arrow",
+                      "ko": "화살표를 안고"
+                    },
+                    {
+                      "en": "in both hands.",
+                      "ko": "두 손으로."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "rp_extra_8",
+                  "en": "I found it, but I could not carry it home. It is too heavy.",
+                  "ko": "찾았는데 집까지 못 들고 가겠어요. 너무 무거워요.",
+                  "chunks": [
+                    {
+                      "en": "I found it, but I could not carry it home. It is too heavy.",
+                      "ko": "찾았는데 집까지 못 들고 가겠어요. 너무 무거워요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I found it,",
+                      "ko": "찾았는데"
+                    },
+                    {
+                      "en": "but I could not carry it",
+                      "ko": "하지만 들고 갈 수 없었어요"
+                    },
+                    {
+                      "en": "home.",
+                      "ko": "집으로."
+                    },
+                    {
+                      "en": "It is too heavy.",
+                      "ko": "너무 무거워요."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "rp_extra_8",
+                  "en": "The storm took it into the creek. I am the one who pulled it out.",
+                  "ko": "폭풍이 개울로 날려 보냈어요. 건져 낸 사람이 저예요.",
+                  "chunks": [
+                    {
+                      "en": "The storm took it into the creek. I am the one who pulled it out.",
+                      "ko": "폭풍이 개울로 날려 보냈어요. 건져 낸 사람이 저예요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The storm took it",
+                      "ko": "폭풍이 가져갔어요"
+                    },
+                    {
+                      "en": "into the creek.",
+                      "ko": "개울로."
+                    },
+                    {
+                      "en": "I am the one",
+                      "ko": "제가 바로 그 사람이에요"
+                    },
+                    {
+                      "en": "who pulled it out.",
+                      "ko": "건져 낸."
+                    }
+                  ]
+                }
+              ],
+              "npc": "rp_extra_8"
+            },
+            {
+              "action": "talk",
+              "lines": [
+                {
+                  "speaker": "rp_extra_10",
+                  "en": "The woman who fixes the signs needs the right word. Which sentence is correct?",
+                  "ko": "표지를 고치는 분은 알맞은 낱말이 필요해요. 어느 문장이 맞을까요?",
+                  "chunks": [
+                    {
+                      "en": "The woman who fixes the signs needs the right word. Which sentence is correct?",
+                      "ko": "표지를 고치는 분은 알맞은 낱말이 필요해요. 어느 문장이 맞을까요?"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The woman",
+                      "ko": "여자분은"
+                    },
+                    {
+                      "en": "who fixes the signs",
+                      "ko": "표지를 고치는"
+                    },
+                    {
+                      "en": "needs the right word.",
+                      "ko": "알맞은 낱말이 필요해요."
+                    },
+                    {
+                      "en": "Which sentence",
+                      "ko": "어느 문장이"
+                    },
+                    {
+                      "en": "is correct?",
+                      "ko": "맞나요?"
+                    }
+                  ]
+                }
+              ],
+              "task": {
+                "question_en": "Which sentence is correct?",
+                "question_ko": "어느 문장이 맞을까요?",
+                "options": [
+                  "Star is the boy who found the arrow.",
+                  "Star is the boy which found the arrow.",
+                  "Star is the boy whose found the arrow."
+                ],
+                "correct_index": 0,
+                "feedback_ko": "사람을 꾸미는 관계대명사는 who예요.",
+                "question_chunks": [
+                  {
+                    "en": "Which sentence",
+                    "ko": "어느 문장이"
+                  },
+                  {
+                    "en": "is correct?",
+                    "ko": "맞나요?"
+                  }
+                ]
+              },
+              "npc": "rp_extra_10"
+            },
+            {
+              "action": "search",
+              "lines": [
+                {
+                  "speaker": "Narrator",
+                  "en": "Beside the creek, a muddy trail leads back toward the village.",
+                  "ko": "개울 옆으로 진흙길이 마을 쪽으로 이어져 있다.",
+                  "chunks": [
+                    {
+                      "en": "Beside the creek, a muddy trail leads back toward the village.",
+                      "ko": "개울 옆으로 진흙길이 마을 쪽으로 이어져 있다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Beside the creek,",
+                      "ko": "개울 옆에"
+                    },
+                    {
+                      "en": "a muddy trail",
+                      "ko": "진흙길이"
+                    },
+                    {
+                      "en": "leads back",
+                      "ko": "이어져 있다"
+                    },
+                    {
+                      "en": "toward the village.",
+                      "ko": "마을 쪽으로."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "rp_extra_8",
+                  "en": "I wanted to carry it, but my arms were too weak. I did not want to leave it.",
+                  "ko": "들고 가고 싶었지만 팔이 너무 약했어요. 두고 가기도 싫었어요.",
+                  "chunks": [
+                    {
+                      "en": "I wanted to carry it, but my arms were too weak. I did not want to leave it.",
+                      "ko": "들고 가고 싶었지만 팔이 너무 약했어요. 두고 가기도 싫었어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I wanted to carry it,",
+                      "ko": "들고 가고 싶었지만"
+                    },
+                    {
+                      "en": "but my arms",
+                      "ko": "하지만 제 팔이"
+                    },
+                    {
+                      "en": "were too weak.",
+                      "ko": "너무 약했어요."
+                    },
+                    {
+                      "en": "I did not want",
+                      "ko": "두고 싶지 않았어요"
+                    },
+                    {
+                      "en": "to leave it.",
+                      "ko": "그것을."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Narrator",
+                  "en": "Star looks at you, waiting.",
+                  "ko": "스타가 기다리며 당신을 바라본다.",
+                  "chunks": [
+                    {
+                      "en": "Star looks at you, waiting.",
+                      "ko": "스타가 기다리며 당신을 바라본다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Star looks at you,",
+                      "ko": "스타가 당신을 본다"
+                    },
+                    {
+                      "en": "waiting.",
+                      "ko": "기다리며."
+                    }
+                  ]
+                }
+              ],
+              "field": "nbg_07.webp",
+              "task": {
+                "question_en": "How will you help Star?",
+                "question_ko": "스타를 어떻게 도울까요?",
+                "options": [
+                  "Carry the arrow together.",
+                  "Tell Star he did well.",
+                  "Ask Axel to bring his cart."
+                ],
+                "correct_index": 0,
+                "choice": true,
+                "flag": "rp_star_choice",
+                "reactions": [
+                  [
+                    {
+                      "speaker": "rp_extra_8",
+                      "en": "Together! One, two, three, lift!",
+                      "ko": "같이요! 하나, 둘, 셋, 들어요!",
+                      "chunks": [
+                        {
+                          "en": "Together! One, two, three, lift!",
+                          "ko": "같이요! 하나, 둘, 셋, 들어요!"
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "Together!",
+                          "ko": "같이요!"
+                        },
+                        {
+                          "en": "One, two, three,",
+                          "ko": "하나, 둘, 셋"
+                        },
+                        {
+                          "en": "lift!",
+                          "ko": "들어요!"
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "speaker": "rp_extra_8",
+                      "en": "Really? I am the one who saved it. Thank you!",
+                      "ko": "정말요? 제가 건진 거네요. 고마워요!",
+                      "chunks": [
+                        {
+                          "en": "Really? I am the one who saved it. Thank you!",
+                          "ko": "정말요? 제가 건진 거네요. 고마워요!"
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "Really?",
+                          "ko": "정말요?"
+                        },
+                        {
+                          "en": "I am the one",
+                          "ko": "제가 그 사람이에요"
+                        },
+                        {
+                          "en": "who saved it.",
+                          "ko": "지켜 낸."
+                        },
+                        {
+                          "en": "Thank you!",
+                          "ko": "고마워요!"
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "speaker": "rp_extra_8",
+                      "en": "Axel has a cart which never gets stuck. Good idea!",
+                      "ko": "액슬 아저씨 수레는 절대 안 빠져요. 좋은 생각이에요!",
+                      "chunks": [
+                        {
+                          "en": "Axel has a cart which never gets stuck. Good idea!",
+                          "ko": "액슬 아저씨 수레는 절대 안 빠져요. 좋은 생각이에요!"
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "Axel has a cart",
+                          "ko": "액슬은 수레가 있어요"
+                        },
+                        {
+                          "en": "which never gets stuck.",
+                          "ko": "절대 빠지지 않는."
+                        },
+                        {
+                          "en": "Good idea!",
+                          "ko": "좋은 생각이에요!"
+                        }
+                      ]
+                    }
+                  ]
+                ],
+                "question_chunks": [
+                  {
+                    "en": "How",
+                    "ko": "어떻게"
+                  },
+                  {
+                    "en": "will you help",
+                    "ko": "당신은 도울 건가요"
+                  },
+                  {
+                    "en": "Star?",
+                    "ko": "스타를?"
+                  }
+                ]
+              }
+            },
+            {
               "action": "return",
-              "line": {
-                "en": "Thank you. I have the missing item back, and I will mark where it belongs.",
-                "ko": "고마워요. 잃어버린 물건을 찾았으니 제자리에 표시를 해 둘게요.",
-                "chunks": [
-                  {
-                    "en": "Thank you. I have the missing item back, and I will mark where it belongs.",
-                    "ko": "고마워요. 잃어버린 물건을 찾았으니 제자리에 표시를 해 둘게요."
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "Thank you.",
-                    "ko": "고마워요."
-                  },
-                  {
-                    "en": "I have",
-                    "ko": "저는 가지고 있어요"
-                  },
-                  {
-                    "en": "the missing item",
-                    "ko": "잃어버린 물건을"
-                  },
-                  {
-                    "en": "back,",
-                    "ko": "되찾아서"
-                  },
-                  {
-                    "en": "and I will mark",
-                    "ko": "그리고 표시해 둘게요"
-                  },
-                  {
-                    "en": "where it belongs.",
-                    "ko": "그것이 속한 곳에."
-                  }
-                ]
-              }
+              "lines": [
+                {
+                  "speaker": "rp_extra_6",
+                  "en": "The arrow is back! Birch will nail it up now.",
+                  "ko": "화살표가 돌아왔어요! 버치가 지금 박을 거예요.",
+                  "chunks": [
+                    {
+                      "en": "The arrow is back! Birch will nail it up now.",
+                      "ko": "화살표가 돌아왔어요! 버치가 지금 박을 거예요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The arrow is back!",
+                      "ko": "화살표가 돌아왔어요!"
+                    },
+                    {
+                      "en": "Birch will nail it",
+                      "ko": "버치가 박을 거예요"
+                    },
+                    {
+                      "en": "up now.",
+                      "ko": "지금."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "rp_extra_6",
+                  "en": "Take this trail badge. It is for the person who saved the sign.",
+                  "ko": "이 숲길 배지를 받으세요. 표지를 구한 사람에게 주는 거예요.",
+                  "chunks": [
+                    {
+                      "en": "Take this trail badge. It is for the person who saved the sign.",
+                      "ko": "이 숲길 배지를 받으세요. 표지를 구한 사람에게 주는 거예요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Take this trail badge.",
+                      "ko": "이 숲길 배지를 받으세요."
+                    },
+                    {
+                      "en": "It is for the person",
+                      "ko": "그건 사람을 위한 거예요"
+                    },
+                    {
+                      "en": "who saved the sign.",
+                      "ko": "표지를 구한."
+                    }
+                  ]
+                }
+              ],
+              "npc": "rp_extra_6"
             },
             {
-              "npc": "rp_extra_6",
               "action": "epilogue",
-              "line": {
-                "en": "I am glad we could help.",
-                "ko": "우리가 도울 수 있어서 기뻐요.",
-                "chunks": [
-                  {
-                    "en": "I am glad we could help.",
-                    "ko": "우리가 도울 수 있어서 기뻐요."
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "I",
-                    "ko": "저는"
-                  },
-                  {
-                    "en": "am glad",
-                    "ko": "기뻐요"
-                  },
-                  {
-                    "en": "we",
-                    "ko": "우리가"
-                  },
-                  {
-                    "en": "could help.",
-                    "ko": "도울 수 있어서."
-                  }
-                ]
-              }
+              "lines": [
+                {
+                  "speaker": "rp_extra_1",
+                  "en": "That night, three travelers found the village because of one small arrow.",
+                  "ko": "그날 밤, 여행자 세 명이 작은 화살표 덕분에 마을을 찾았어요.",
+                  "chunks": [
+                    {
+                      "en": "That night, three travelers found the village because of one small arrow.",
+                      "ko": "그날 밤, 여행자 세 명이 작은 화살표 덕분에 마을을 찾았어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "That night,",
+                      "ko": "그날 밤"
+                    },
+                    {
+                      "en": "three travelers found",
+                      "ko": "여행자 세 명이 찾았어요"
+                    },
+                    {
+                      "en": "the village",
+                      "ko": "마을을"
+                    },
+                    {
+                      "en": "because of one small arrow.",
+                      "ko": "작은 화살표 하나 덕분에."
+                    }
+                  ]
+                }
+              ],
+              "npc": "rp_extra_1"
             }
           ],
           "reward": {
@@ -10127,181 +10588,423 @@
         {
           "id": "rp_exchange",
           "title_en": "Ink for the Trail Map",
-          "title_ko": "숲길 지도에 쓸 잉크",
+          "title_ko": "숲길 지도의 잉크",
           "steps": [
             {
-              "npc": "rp_extra_3",
               "action": "accept",
-              "line": {
-                "en": "Please ask the shop for a bottle of blue ink.",
-                "ko": "상점에 파란 잉크 한 병을 부탁해 주세요.",
-                "chunks": [
-                  {
-                    "en": "Please ask the shop for a bottle of blue ink.",
-                    "ko": "상점에 파란 잉크 한 병을 부탁해 주세요.",
-                    "direct_chunks": [
-                      {
-                        "en": "Please ask",
-                        "ko": "부탁해 주세요"
-                      },
-                      {
-                        "en": "the shop",
-                        "ko": "상점에"
-                      },
-                      {
-                        "en": "for a bottle of blue ink.",
-                        "ko": "파란 잉크 한 병을."
-                      }
-                    ]
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "Please ask",
-                    "ko": "부탁해 주세요"
-                  },
-                  {
-                    "en": "the shop",
-                    "ko": "상점에"
-                  },
-                  {
-                    "en": "for",
-                    "ko": "~을"
-                  },
-                  {
-                    "en": "a bottle of blue ink.",
-                    "ko": "파란 잉크 한 병."
-                  }
-                ]
-              }
+              "lines": [
+                {
+                  "speaker": "Narrator",
+                  "en": "Fern holds the trail map up to the light. The ink has faded.",
+                  "ko": "펀이 숲길 지도를 빛에 비춘다. 잉크가 바래 있다.",
+                  "chunks": [
+                    {
+                      "en": "Fern holds the trail map up to the light. The ink has faded.",
+                      "ko": "펀이 숲길 지도를 빛에 비춘다. 잉크가 바래 있다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Fern holds",
+                      "ko": "펀이 든다"
+                    },
+                    {
+                      "en": "the trail map",
+                      "ko": "숲길 지도를"
+                    },
+                    {
+                      "en": "up to the light.",
+                      "ko": "빛에 비추어."
+                    },
+                    {
+                      "en": "The ink has faded.",
+                      "ko": "잉크가 바래 있다."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "rp_extra_2",
+                  "en": "This is the map that everyone uses. No one can read it now.",
+                  "ko": "모두가 쓰는 지도인데 이젠 아무도 못 읽어요.",
+                  "chunks": [
+                    {
+                      "en": "This is the map that everyone uses. No one can read it now.",
+                      "ko": "모두가 쓰는 지도인데 이젠 아무도 못 읽어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "This is the map",
+                      "ko": "이것은 지도예요"
+                    },
+                    {
+                      "en": "that everyone uses.",
+                      "ko": "모두가 쓰는."
+                    },
+                    {
+                      "en": "No one can read it",
+                      "ko": "아무도 읽을 수 없어요"
+                    },
+                    {
+                      "en": "now.",
+                      "ko": "이제."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "rp_extra_2",
+                  "en": "I need new ink. Willow keeps the oak-gall ink at the inn.",
+                  "ko": "새 잉크가 필요해요. 윌로가 여관에 참나무 잉크를 가지고 있어요.",
+                  "chunks": [
+                    {
+                      "en": "I need new ink. Willow keeps the oak-gall ink at the inn.",
+                      "ko": "새 잉크가 필요해요. 윌로가 여관에 참나무 잉크를 가지고 있어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I need new ink.",
+                      "ko": "새 잉크가 필요해요."
+                    },
+                    {
+                      "en": "Willow keeps",
+                      "ko": "윌로가 보관해요"
+                    },
+                    {
+                      "en": "the oak-gall ink",
+                      "ko": "참나무 잉크를"
+                    },
+                    {
+                      "en": "at the inn.",
+                      "ko": "여관에."
+                    }
+                  ]
+                }
+              ],
+              "npc": "rp_extra_2"
             },
             {
-              "npc": "rp_extra_2",
               "action": "exchange",
-              "line": {
-                "en": "Here is a bottle of blue ink for the trail mapmaker.",
-                "ko": "숲길 지도 제작자에게 전할 파란 잉크 한 병이에요.",
-                "chunks": [
-                  {
-                    "en": "Here is a bottle of blue ink for the trail mapmaker.",
-                    "ko": "숲길 지도 제작자에게 전할 파란 잉크 한 병이에요.",
-                    "direct_chunks": [
-                      {
-                        "en": "Here is",
-                        "ko": "여기 있어요"
-                      },
-                      {
-                        "en": "a bottle of blue ink",
-                        "ko": "파란 잉크 한 병이"
-                      },
-                      {
-                        "en": "for the trail mapmaker.",
-                        "ko": "숲길 지도 제작자를 위한."
-                      }
-                    ]
-                  }
+              "lines": [
+                {
+                  "speaker": "rp_extra_3",
+                  "en": "The ink that I keep is very old. It is for special things.",
+                  "ko": "제가 가진 잉크는 아주 오래된 거예요. 특별한 일에만 써요.",
+                  "chunks": [
+                    {
+                      "en": "The ink that I keep is very old. It is for special things.",
+                      "ko": "제가 가진 잉크는 아주 오래된 거예요. 특별한 일에만 써요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The ink",
+                      "ko": "잉크는"
+                    },
+                    {
+                      "en": "that I keep",
+                      "ko": "제가 가진"
+                    },
+                    {
+                      "en": "is very old.",
+                      "ko": "아주 오래됐어요."
+                    },
+                    {
+                      "en": "It is for special things.",
+                      "ko": "특별한 일을 위한 거예요."
+                    }
+                  ]
+                }
+              ],
+              "task": {
+                "question_en": "How do you ask politely?",
+                "question_ko": "어떻게 공손하게 부탁할까요?",
+                "options": [
+                  "Could I borrow some of your ink, please?",
+                  "Give me the ink.",
+                  "Ink. Now."
                 ],
-                "direct_chunks": [
+                "correct_index": 0,
+                "feedback_ko": "Could I ~, please?는 공손한 부탁이에요.",
+                "question_chunks": [
                   {
-                    "en": "Here is",
-                    "ko": "여기 있어요"
+                    "en": "How",
+                    "ko": "어떻게"
                   },
                   {
-                    "en": "a bottle",
-                    "ko": "한 병"
+                    "en": "do you ask",
+                    "ko": "당신은 부탁하나요"
                   },
                   {
-                    "en": "of blue ink",
-                    "ko": "파란 잉크."
-                  },
-                  {
-                    "en": "for the trail mapmaker.",
-                    "ko": "숲길 지도 제작자를 위한."
+                    "en": "politely?",
+                    "ko": "공손하게?"
                   }
                 ]
-              }
+              },
+              "npc": "rp_extra_3"
             },
             {
-              "npc": "rp_extra_7",
               "action": "deliver",
-              "line": {
-                "en": "I will put it to use today.",
-                "ko": "잘 받았어요. 오늘 바로 쓸게요.",
-                "chunks": [
-                  {
-                    "en": "I will put it to use today.",
-                    "ko": "잘 받았어요. 오늘 바로 쓸게요.",
-                    "direct_chunks": [
-                      {
-                        "en": "I will put it to use",
-                        "ko": "저는 그것을 쓸게요"
-                      },
-                      {
-                        "en": "today.",
-                        "ko": "오늘."
-                      }
-                    ]
-                  }
+              "lines": [
+                {
+                  "speaker": "rp_extra_2",
+                  "en": "Wonderful. The map that I drew twenty years ago will live again.",
+                  "ko": "훌륭해요. 제가 이십 년 전에 그린 지도가 되살아나겠네요.",
+                  "chunks": [
+                    {
+                      "en": "Wonderful. The map that I drew twenty years ago will live again.",
+                      "ko": "훌륭해요. 제가 이십 년 전에 그린 지도가 되살아나겠네요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Wonderful.",
+                      "ko": "훌륭해요."
+                    },
+                    {
+                      "en": "The map",
+                      "ko": "지도가"
+                    },
+                    {
+                      "en": "that I drew",
+                      "ko": "제가 그린"
+                    },
+                    {
+                      "en": "twenty years ago",
+                      "ko": "이십 년 전에"
+                    },
+                    {
+                      "en": "will live again.",
+                      "ko": "되살아날 거예요."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "rp_extra_2",
+                  "en": "But a new path was opened by the bridge builders. Should I add it?",
+                  "ko": "그런데 다리 공사꾼들이 새 길을 냈어요. 추가해야 할까요?",
+                  "chunks": [
+                    {
+                      "en": "But a new path was opened by the bridge builders. Should I add it?",
+                      "ko": "그런데 다리 공사꾼들이 새 길을 냈어요. 추가해야 할까요?"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "But a new path",
+                      "ko": "하지만 새 길이"
+                    },
+                    {
+                      "en": "was opened",
+                      "ko": "열렸어요"
+                    },
+                    {
+                      "en": "by the bridge builders.",
+                      "ko": "다리 공사꾼들에 의해."
+                    },
+                    {
+                      "en": "Should I add it?",
+                      "ko": "추가해야 할까요?"
+                    }
+                  ]
+                }
+              ],
+              "task": {
+                "question_en": "What should Fern do?",
+                "question_ko": "펀은 어떻게 해야 할까요?",
+                "options": [
+                  "Add the new path in blue ink.",
+                  "Leave the old map as it is.",
+                  "Draw a second map."
                 ],
-                "direct_chunks": [
+                "correct_index": 0,
+                "choice": true,
+                "flag": "rp_map_choice",
+                "reactions": [
+                  [
+                    {
+                      "speaker": "rp_extra_2",
+                      "en": "Blue! The new path will be clear, and the old one stays.",
+                      "ko": "파랑이요! 새 길은 분명하고 옛 길은 그대로네요.",
+                      "chunks": [
+                        {
+                          "en": "Blue! The new path will be clear, and the old one stays.",
+                          "ko": "파랑이요! 새 길은 분명하고 옛 길은 그대로네요."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "Blue!",
+                          "ko": "파랑이요!"
+                        },
+                        {
+                          "en": "The new path",
+                          "ko": "새 길은"
+                        },
+                        {
+                          "en": "will be clear,",
+                          "ko": "분명할 거예요"
+                        },
+                        {
+                          "en": "and the old one stays.",
+                          "ko": "옛 길은 그대로예요."
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "speaker": "rp_extra_2",
+                      "en": "Hmm. The map that stays the same is a safe map.",
+                      "ko": "음. 그대로인 지도가 안전한 지도죠.",
+                      "chunks": [
+                        {
+                          "en": "Hmm. The map that stays the same is a safe map.",
+                          "ko": "음. 그대로인 지도가 안전한 지도죠."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "Hmm.",
+                          "ko": "음."
+                        },
+                        {
+                          "en": "The map",
+                          "ko": "지도는"
+                        },
+                        {
+                          "en": "that stays the same",
+                          "ko": "그대로인"
+                        },
+                        {
+                          "en": "is a safe map.",
+                          "ko": "안전한 지도죠."
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "speaker": "rp_extra_2",
+                      "en": "Two maps! One for people who walk, one for people who ride.",
+                      "ko": "지도 두 장! 걷는 사람용, 타는 사람용이요.",
+                      "chunks": [
+                        {
+                          "en": "Two maps! One for people who walk, one for people who ride.",
+                          "ko": "지도 두 장! 걷는 사람용, 타는 사람용이요."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "Two maps!",
+                          "ko": "지도 두 장!"
+                        },
+                        {
+                          "en": "One for people",
+                          "ko": "한 장은 사람들을 위해"
+                        },
+                        {
+                          "en": "who walk,",
+                          "ko": "걷는"
+                        },
+                        {
+                          "en": "one for people",
+                          "ko": "한 장은 사람들을 위해"
+                        },
+                        {
+                          "en": "who ride.",
+                          "ko": "타는."
+                        }
+                      ]
+                    }
+                  ]
+                ],
+                "question_chunks": [
                   {
-                    "en": "I",
-                    "ko": "저는"
+                    "en": "What should",
+                    "ko": "무엇을 해야 할까요"
                   },
                   {
-                    "en": "will put",
-                    "ko": "쓸게요"
-                  },
-                  {
-                    "en": "it",
-                    "ko": "그것을"
-                  },
-                  {
-                    "en": "to use",
-                    "ko": "사용에"
-                  },
-                  {
-                    "en": "today.",
-                    "ko": "오늘."
+                    "en": "Fern do?",
+                    "ko": "펀이?"
                   }
                 ]
-              }
+              },
+              "npc": "rp_extra_2"
             },
             {
-              "npc": "rp_extra_3",
+              "action": "talk",
+              "lines": [
+                {
+                  "speaker": "rp_extra_5",
+                  "en": "The cart that I drive passed the new path today. It is dry and wide.",
+                  "ko": "제가 모는 수레가 오늘 새 길을 지나갔어요. 마르고 넓더군요.",
+                  "chunks": [
+                    {
+                      "en": "The cart that I drive passed the new path today. It is dry and wide.",
+                      "ko": "제가 모는 수레가 오늘 새 길을 지나갔어요. 마르고 넓더군요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The cart",
+                      "ko": "수레가"
+                    },
+                    {
+                      "en": "that I drive",
+                      "ko": "제가 모는"
+                    },
+                    {
+                      "en": "passed the new path",
+                      "ko": "새 길을 지나갔어요"
+                    },
+                    {
+                      "en": "today.",
+                      "ko": "오늘."
+                    },
+                    {
+                      "en": "It is dry and wide.",
+                      "ko": "길은 마르고 넓어요."
+                    }
+                  ]
+                }
+              ],
+              "npc": "rp_extra_5"
+            },
+            {
               "action": "return",
-              "line": {
-                "en": "Good. We can tell the trail mapmaker where to ask for another.",
-                "ko": "잘됐네요. 숲길 지도 제작자에게 필요할 때 다시 부탁할 곳을 알려 줘요.",
-                "chunks": [
-                  {
-                    "en": "Good. We can tell the trail mapmaker where to ask for another.",
-                    "ko": "잘됐네요. 숲길 지도 제작자에게 필요할 때 다시 부탁할 곳을 알려 줘요."
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "Good.",
-                    "ko": "잘됐네요."
-                  },
-                  {
-                    "en": "We can tell",
-                    "ko": "우리는 알려 줄 수 있어요"
-                  },
-                  {
-                    "en": "the trail mapmaker",
-                    "ko": "숲길 지도 제작자에게"
-                  },
-                  {
-                    "en": "where to ask",
-                    "ko": "부탁할 곳을"
-                  },
-                  {
-                    "en": "for another.",
-                    "ko": "또 하나를 위해."
-                  }
-                ]
-              }
+              "lines": [
+                {
+                  "speaker": "rp_extra_2",
+                  "en": "Done. The map that was lost is found again.",
+                  "ko": "다 됐어요. 사라졌던 지도가 다시 살아났어요.",
+                  "chunks": [
+                    {
+                      "en": "Done. The map that was lost is found again.",
+                      "ko": "다 됐어요. 사라졌던 지도가 다시 살아났어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Done.",
+                      "ko": "다 됐어요."
+                    },
+                    {
+                      "en": "The map",
+                      "ko": "지도가"
+                    },
+                    {
+                      "en": "that was lost",
+                      "ko": "사라졌던"
+                    },
+                    {
+                      "en": "is found again.",
+                      "ko": "다시 찾아졌어요."
+                    }
+                  ]
+                }
+              ],
+              "npc": "rp_extra_2"
             }
           ],
           "reward": {
@@ -10311,187 +11014,505 @@
         {
           "id": "rp_rumor",
           "title_en": "Checking the Notice in Relawood",
-          "title_ko": "렐라우드의 안내문",
+          "title_ko": "릴라우드의 안내문",
           "steps": [
             {
-              "npc": "rp_extra_9",
               "action": "accept",
-              "line": {
-                "en": "The white stones have all been removed.",
-                "ko": "흰 돌을 전부 치웠대요.",
-                "chunks": [
-                  {
-                    "en": "The white stones have all been removed.",
-                    "ko": "흰 돌을 전부 치웠대요.",
-                    "direct_chunks": [
-                      {
-                        "en": "The white stones",
-                        "ko": "흰 돌들이"
-                      },
-                      {
-                        "en": "have all been removed.",
-                        "ko": "모두 치워졌어요."
-                      }
-                    ]
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "The white stones",
-                    "ko": "흰 돌을"
-                  },
-                  {
-                    "en": "have all been removed.",
-                    "ko": "전부 치웠대요."
-                  }
-                ]
-              }
+              "lines": [
+                {
+                  "speaker": "Narrator",
+                  "en": "Leaf runs in with a sheet of paper, waving it.",
+                  "ko": "리프가 종이 한 장을 흔들며 뛰어 들어온다.",
+                  "chunks": [
+                    {
+                      "en": "Leaf runs in with a sheet of paper, waving it.",
+                      "ko": "리프가 종이 한 장을 흔들며 뛰어 들어온다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Leaf runs in",
+                      "ko": "리프가 뛰어 들어온다"
+                    },
+                    {
+                      "en": "with a sheet of paper,",
+                      "ko": "종이 한 장을 들고"
+                    },
+                    {
+                      "en": "waving it.",
+                      "ko": "흔들면서."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "rp_extra_9",
+                  "en": "All the white stones on the old trail have been removed!",
+                  "ko": "옛길의 하얀 돌이 전부 치워졌대요!",
+                  "chunks": [
+                    {
+                      "en": "All the white stones on the old trail have been removed!",
+                      "ko": "옛길의 하얀 돌이 전부 치워졌대요!"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "All the white stones",
+                      "ko": "하얀 돌이 전부"
+                    },
+                    {
+                      "en": "on the old trail",
+                      "ko": "옛길의"
+                    },
+                    {
+                      "en": "have been removed!",
+                      "ko": "치워졌어요!"
+                    }
+                  ]
+                },
+                {
+                  "speaker": "rp_extra_9",
+                  "en": "Whoever walks there tonight will be lost.",
+                  "ko": "오늘 밤 거기를 걷는 사람은 누구든 길을 잃을 거예요.",
+                  "chunks": [
+                    {
+                      "en": "Whoever walks there tonight will be lost.",
+                      "ko": "오늘 밤 거기를 걷는 사람은 누구든 길을 잃을 거예요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Whoever walks there",
+                      "ko": "거기를 걷는 사람은 누구든"
+                    },
+                    {
+                      "en": "tonight",
+                      "ko": "오늘 밤"
+                    },
+                    {
+                      "en": "will be lost.",
+                      "ko": "길을 잃을 거예요."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Subject",
+                  "en": "Who told you?",
+                  "ko": "누가 알려 줬어요?",
+                  "chunks": [
+                    {
+                      "en": "Who told you?",
+                      "ko": "누가 알려 줬어요?"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Who told you?",
+                      "ko": "누가 알려 줬나요?"
+                    }
+                  ]
+                },
+                {
+                  "speaker": "rp_extra_9",
+                  "en": "I heard it from the bridge builders. Please check. Ask Thorn.",
+                  "ko": "다리 공사꾼들에게 들었어요. 확인해 주세요. 쏜에게 물어보세요.",
+                  "chunks": [
+                    {
+                      "en": "I heard it from the bridge builders. Please check. Ask Thorn.",
+                      "ko": "다리 공사꾼들에게 들었어요. 확인해 주세요. 쏜에게 물어보세요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I heard it",
+                      "ko": "저는 들었어요"
+                    },
+                    {
+                      "en": "from the bridge builders.",
+                      "ko": "다리 공사꾼들에게서."
+                    },
+                    {
+                      "en": "Please check.",
+                      "ko": "확인해 주세요."
+                    },
+                    {
+                      "en": "Ask Thorn.",
+                      "ko": "쏜에게 물어보세요."
+                    }
+                  ]
+                }
+              ],
+              "npc": "rp_extra_9"
             },
             {
-              "npc": "rp_extra_4",
+              "action": "talk",
+              "lines": [
+                {
+                  "speaker": "rp_extra_4",
+                  "en": "I walked that trail at dawn. The first stone was lifted, not all of them.",
+                  "ko": "새벽에 그 길을 걸었어요. 첫 번째 돌만 들렸지 전부는 아니에요.",
+                  "chunks": [
+                    {
+                      "en": "I walked that trail at dawn. The first stone was lifted, not all of them.",
+                      "ko": "새벽에 그 길을 걸었어요. 첫 번째 돌만 들렸지 전부는 아니에요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I walked that trail",
+                      "ko": "저는 그 길을 걸었어요"
+                    },
+                    {
+                      "en": "at dawn.",
+                      "ko": "새벽에."
+                    },
+                    {
+                      "en": "The first stone",
+                      "ko": "첫 번째 돌이"
+                    },
+                    {
+                      "en": "was lifted,",
+                      "ko": "들렸지만"
+                    },
+                    {
+                      "en": "not all of them.",
+                      "ko": "전부는 아니에요."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "rp_extra_4",
+                  "en": "The man who lifted it wanted a better view for the bridge. Ask Moss.",
+                  "ko": "돌을 든 사람은 다리 공사에 더 잘 보이길 원했어요. 모스에게 물어보세요.",
+                  "chunks": [
+                    {
+                      "en": "The man who lifted it wanted a better view for the bridge. Ask Moss.",
+                      "ko": "돌을 든 사람은 다리 공사에 더 잘 보이길 원했어요. 모스에게 물어보세요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The man",
+                      "ko": "사람은"
+                    },
+                    {
+                      "en": "who lifted it",
+                      "ko": "그것을 든"
+                    },
+                    {
+                      "en": "wanted a better view",
+                      "ko": "더 나은 시야를 원했어요"
+                    },
+                    {
+                      "en": "for the bridge.",
+                      "ko": "다리를 위해."
+                    },
+                    {
+                      "en": "Ask Moss.",
+                      "ko": "모스에게 물어보세요."
+                    }
+                  ]
+                }
+              ],
+              "npc": "rp_extra_4"
+            },
+            {
               "action": "verify",
-              "line": {
-                "en": "Only the first stone was lifted so the bridge builders could pass.",
-                "ko": "다리 공사팀이 지나가도록 첫 돌만 들어냈어요.",
-                "chunks": [
-                  {
-                    "en": "Only the first stone was lifted so the bridge builders could pass.",
-                    "ko": "다리 공사팀이 지나가도록 첫 돌만 들어냈어요.",
-                    "direct_chunks": [
-                      {
-                        "en": "Only the first stone",
-                        "ko": "첫 번째 돌만"
-                      },
-                      {
-                        "en": "was lifted",
-                        "ko": "들어졌어요"
-                      },
-                      {
-                        "en": "so the bridge builders could pass.",
-                        "ko": "다리 공사팀이 지나갈 수 있도록."
-                      }
-                    ]
-                  }
+              "lines": [
+                {
+                  "speaker": "rp_extra_10",
+                  "en": "One stone was moved a few steps. It lies beside the path, and the others stay.",
+                  "ko": "돌 하나가 몇 걸음 옮겨졌어요. 길 옆에 놓여 있고 나머지는 그대로예요.",
+                  "chunks": [
+                    {
+                      "en": "One stone was moved a few steps. It lies beside the path, and the others stay.",
+                      "ko": "돌 하나가 몇 걸음 옮겨졌어요. 길 옆에 놓여 있고 나머지는 그대로예요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "One stone",
+                      "ko": "돌 하나가"
+                    },
+                    {
+                      "en": "was moved a few steps.",
+                      "ko": "몇 걸음 옮겨졌어요."
+                    },
+                    {
+                      "en": "It lies beside the path,",
+                      "ko": "그것은 길 옆에 놓여 있고"
+                    },
+                    {
+                      "en": "and the others stay.",
+                      "ko": "나머지는 그대로예요."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "rp_extra_10",
+                  "en": "Which sentence is checked and exact?",
+                  "ko": "어느 문장이 확인된 정확한 내용일까요?",
+                  "chunks": [
+                    {
+                      "en": "Which sentence is checked and exact?",
+                      "ko": "어느 문장이 확인된 정확한 내용일까요?"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Which sentence",
+                      "ko": "어느 문장이"
+                    },
+                    {
+                      "en": "is checked",
+                      "ko": "확인되었고"
+                    },
+                    {
+                      "en": "and exact?",
+                      "ko": "정확한가요?"
+                    }
+                  ]
+                }
+              ],
+              "task": {
+                "question_en": "Which sentence is checked and exact?",
+                "question_ko": "어느 문장이 확인된 정확한 내용일까요?",
+                "options": [
+                  "Only the first stone, which was lifted, lies beside the path.",
+                  "All the stones are gone.",
+                  "No stone was touched."
                 ],
-                "direct_chunks": [
+                "correct_index": 0,
+                "feedback_ko": "모스가 확인한 사실은 첫 번째 돌 하나만 길 옆으로 옮겨졌다는 것이에요.",
+                "question_chunks": [
                   {
-                    "en": "Only the first stone",
-                    "ko": "첫 번째 돌만"
+                    "en": "Which sentence",
+                    "ko": "어느 문장이"
                   },
                   {
-                    "en": "was lifted",
-                    "ko": "들어졌어요"
+                    "en": "is checked",
+                    "ko": "확인되었고"
                   },
                   {
-                    "en": "so",
-                    "ko": "~하도록"
-                  },
-                  {
-                    "en": "the bridge builders",
-                    "ko": "다리 공사팀이"
-                  },
-                  {
-                    "en": "could pass.",
-                    "ko": "지나갈 수 있."
+                    "en": "and exact?",
+                    "ko": "정확한가요?"
                   }
                 ]
-              }
+              },
+              "npc": "rp_extra_10"
             },
             {
-              "npc": "rp_extra_1",
               "action": "confirm",
-              "line": {
-                "en": "Please give the courier the checked account before the next announcement.",
-                "ko": "다음 안내를 하기 전에 확인한 내용을 배달부에게 전해 주세요.",
-                "chunks": [
-                  {
-                    "en": "Please give the courier the checked account before the next announcement.",
-                    "ko": "다음 안내를 하기 전에 확인한 내용을 배달부에게 전해 주세요.",
-                    "direct_chunks": [
-                      {
-                        "en": "Please give",
-                        "ko": "주세요"
-                      },
-                      {
-                        "en": "the courier",
-                        "ko": "배달부에게"
-                      },
-                      {
-                        "en": "the checked account",
-                        "ko": "확인된 내용을"
-                      },
-                      {
-                        "en": "before the next announcement.",
-                        "ko": "다음 안내 전에."
-                      }
-                    ]
-                  }
+              "lines": [
+                {
+                  "speaker": "rp_extra_1",
+                  "en": "Thank you. What should the notice say first?",
+                  "ko": "고마워요. 안내문에 무엇을 먼저 써야 할까요?",
+                  "chunks": [
+                    {
+                      "en": "Thank you. What should the notice say first?",
+                      "ko": "고마워요. 안내문에 무엇을 먼저 써야 할까요?"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Thank you.",
+                      "ko": "고마워요."
+                    },
+                    {
+                      "en": "What should",
+                      "ko": "무엇이 해야 할까요"
+                    },
+                    {
+                      "en": "the notice",
+                      "ko": "안내문이"
+                    },
+                    {
+                      "en": "say first?",
+                      "ko": "먼저 말하다?"
+                    }
+                  ]
+                }
+              ],
+              "task": {
+                "question_en": "What should the notice say first?",
+                "question_ko": "안내문에 무엇을 먼저 쓸까요?",
+                "options": [
+                  "Only one stone was moved.",
+                  "The old trail is still safe.",
+                  "The bridge builders are working."
                 ],
-                "direct_chunks": [
+                "correct_index": 0,
+                "choice": true,
+                "flag": "rp_notice_choice",
+                "reactions": [
+                  [
+                    {
+                      "speaker": "rp_extra_1",
+                      "en": "Good. The exact fact comes first.",
+                      "ko": "좋아요. 정확한 사실이 먼저예요.",
+                      "chunks": [
+                        {
+                          "en": "Good. The exact fact comes first.",
+                          "ko": "좋아요. 정확한 사실이 먼저예요."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "Good.",
+                          "ko": "좋아요."
+                        },
+                        {
+                          "en": "The exact fact",
+                          "ko": "정확한 사실이"
+                        },
+                        {
+                          "en": "comes first.",
+                          "ko": "먼저예요."
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "speaker": "rp_extra_1",
+                      "en": "Good. People who need the trail will relax.",
+                      "ko": "좋아요. 길이 필요한 사람들이 안심하겠네요.",
+                      "chunks": [
+                        {
+                          "en": "Good. People who need the trail will relax.",
+                          "ko": "좋아요. 길이 필요한 사람들이 안심하겠네요."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "Good.",
+                          "ko": "좋아요."
+                        },
+                        {
+                          "en": "People",
+                          "ko": "사람들이"
+                        },
+                        {
+                          "en": "who need the trail",
+                          "ko": "그 길이 필요한"
+                        },
+                        {
+                          "en": "will relax.",
+                          "ko": "안심할 거예요."
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "speaker": "rp_extra_1",
+                      "en": "Good. They are the ones who will put the stone back.",
+                      "ko": "좋아요. 돌을 제자리에 놓을 사람들이 그들이니까요.",
+                      "chunks": [
+                        {
+                          "en": "Good. They are the ones who will put the stone back.",
+                          "ko": "좋아요. 돌을 제자리에 놓을 사람들이 그들이니까요."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "Good.",
+                          "ko": "좋아요."
+                        },
+                        {
+                          "en": "They are the ones",
+                          "ko": "그들이 바로 그 사람들이에요"
+                        },
+                        {
+                          "en": "who will put the stone back.",
+                          "ko": "돌을 제자리에 놓을."
+                        }
+                      ]
+                    }
+                  ]
+                ],
+                "question_chunks": [
                   {
-                    "en": "Please give",
-                    "ko": "주세요"
+                    "en": "What should",
+                    "ko": "무엇이 해야 할까요"
                   },
                   {
-                    "en": "the courier",
-                    "ko": "배달부에게"
+                    "en": "the notice",
+                    "ko": "안내문이"
                   },
                   {
-                    "en": "the checked account",
-                    "ko": "확인된 내용을"
-                  },
-                  {
-                    "en": "before the next announcement.",
-                    "ko": "다음 안내 전에."
+                    "en": "say first?",
+                    "ko": "먼저 말하다?"
                   }
                 ]
-              }
+              },
+              "npc": "rp_extra_1"
             },
             {
-              "npc": "rp_extra_9",
               "action": "return",
-              "line": {
-                "en": "I have written down the correction with today’s date.",
-                "ko": "오늘 날짜와 함께 정정 내용을 적어 두었어요.",
-                "chunks": [
-                  {
-                    "en": "I have written down the correction with today’s date.",
-                    "ko": "오늘 날짜와 함께 정정 내용을 적어 두었어요.",
-                    "direct_chunks": [
-                      {
-                        "en": "I have written down",
-                        "ko": "저는 적어 두었어요"
-                      },
-                      {
-                        "en": "the correction",
-                        "ko": "정정 내용을"
-                      },
-                      {
-                        "en": "with today’s date.",
-                        "ko": "오늘 날짜와 함께."
-                      }
-                    ]
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "I",
-                    "ko": "저는"
-                  },
-                  {
-                    "en": "have written down",
-                    "ko": "적어 두었어요."
-                  },
-                  {
-                    "en": "the correction",
-                    "ko": "정정 내용을"
-                  },
-                  {
-                    "en": "with today’s date.",
-                    "ko": "오늘 날짜와 함께."
-                  }
-                ]
-              }
+              "lines": [
+                {
+                  "speaker": "rp_extra_9",
+                  "en": "I will check who said it before I run.",
+                  "ko": "뛰기 전에 누가 말했는지 확인할게요.",
+                  "chunks": [
+                    {
+                      "en": "I will check who said it before I run.",
+                      "ko": "뛰기 전에 누가 말했는지 확인할게요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I will check",
+                      "ko": "확인할 거예요"
+                    },
+                    {
+                      "en": "who said it",
+                      "ko": "누가 말했는지"
+                    },
+                    {
+                      "en": "before I run.",
+                      "ko": "뛰기 전에."
+                    }
+                  ]
+                }
+              ],
+              "npc": "rp_extra_9"
+            },
+            {
+              "action": "epilogue",
+              "lines": [
+                {
+                  "speaker": "rp_extra_1",
+                  "en": "By evening, the stone lay back in its place, and the trail was white again.",
+                  "ko": "저녁이 되자 돌은 제자리에 놓였고 길은 다시 하얬어요.",
+                  "chunks": [
+                    {
+                      "en": "By evening, the stone lay back in its place, and the trail was white again.",
+                      "ko": "저녁이 되자 돌은 제자리에 놓였고 길은 다시 하얬어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "By evening,",
+                      "ko": "저녁이 되자"
+                    },
+                    {
+                      "en": "the stone lay back",
+                      "ko": "돌은 다시 놓였고"
+                    },
+                    {
+                      "en": "in its place,",
+                      "ko": "제자리에"
+                    },
+                    {
+                      "en": "and the trail was white again.",
+                      "ko": "길은 다시 하얬어요."
+                    }
+                  ]
+                }
+              ],
+              "npc": "rp_extra_1"
             }
           ],
           "reward": {
@@ -15101,210 +16122,645 @@
           "title_ko": "사라진 종 밧줄",
           "steps": [
             {
-              "npc": "rv_extra_5",
               "action": "accept",
-              "line": {
-                "en": "Please help me find my bell rope.",
-                "ko": "제 종 밧줄을(를) 찾도록 도와주세요.",
-                "chunks": [
-                  {
-                    "en": "Please help me find my bell rope.",
-                    "ko": "제 종 밧줄을(를) 찾도록 도와주세요.",
-                    "direct_chunks": [
-                      {
-                        "en": "Please help me",
-                        "ko": "저를 도와주세요"
-                      },
-                      {
-                        "en": "find",
-                        "ko": "찾는 것을"
-                      },
-                      {
-                        "en": "my bell rope.",
-                        "ko": "제 종 밧줄을."
-                      }
-                    ]
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "Please help me",
-                    "ko": "저를 도와주세요"
-                  },
-                  {
-                    "en": "find",
-                    "ko": "찾는 것을"
-                  },
-                  {
-                    "en": "my bell rope.",
-                    "ko": "제 종 밧줄을."
-                  }
-                ]
-              }
-            },
-            {
-              "npc": "rv_extra_6",
-              "action": "talk",
-              "line": {
-                "en": "I saw something inside the map shop.",
-                "ko": "지도 가게 안에서 무언가를 봤어요.",
-                "chunks": [
-                  {
-                    "en": "I saw something inside the map shop.",
-                    "ko": "지도 가게 안에서 무언가를 봤어요.",
-                    "direct_chunks": [
-                      {
-                        "en": "I saw",
-                        "ko": "저는 봤어요"
-                      },
-                      {
-                        "en": "something",
-                        "ko": "무언가를"
-                      },
-                      {
-                        "en": "inside the map shop.",
-                        "ko": "지도 가게 안에서."
-                      }
-                    ]
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "I saw",
-                    "ko": "저는 봤어요"
-                  },
-                  {
-                    "en": "something",
-                    "ko": "무언가를"
-                  },
-                  {
-                    "en": "inside the map shop.",
-                    "ko": "지도 가게 안에서."
-                  }
-                ]
-              }
-            },
-            {
-              "npc": "rv_extra_8",
-              "action": "confirm",
-              "line": {
-                "en": "Yes, I saw it there too.",
-                "ko": "네, 저도 거기서 봤어요.",
-                "chunks": [
-                  {
-                    "en": "Yes, I saw it there too.",
-                    "ko": "네, 저도 거기서 봤어요."
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "Yes,",
-                    "ko": "네"
-                  },
-                  {
-                    "en": "I saw it",
-                    "ko": "저도 봤어요"
-                  },
-                  {
-                    "en": "there too.",
-                    "ko": "거기서도."
-                  }
-                ]
-              }
-            },
-            {
-              "action": "choose_location",
-              "question_en": "Where should you look?",
-              "options": [
-                "inside the map shop",
-                "at the village gate",
-                "on the roof"
-              ],
-              "correct_index": 0,
-              "feedback_ko": "두 주민이 알려 준 위치를 확인하세요.",
-              "grant_evidence": "rv_found_item",
-              "question_chunks": [
+              "lines": [
                 {
-                  "en": "Where",
-                  "ko": "어디를"
+                  "speaker": "Narrator",
+                  "en": "Chime stands under the harbor bell, looking up at an empty hook.",
+                  "ko": "차임이 항구 종 아래에 서서 빈 고리를 올려다본다.",
+                  "chunks": [
+                    {
+                      "en": "Chime stands under the harbor bell, looking up at an empty hook.",
+                      "ko": "차임이 항구 종 아래에 서서 빈 고리를 올려다본다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Chime stands",
+                      "ko": "차임이 서 있다"
+                    },
+                    {
+                      "en": "under the harbor bell,",
+                      "ko": "항구 종 아래에"
+                    },
+                    {
+                      "en": "looking up",
+                      "ko": "올려다보며"
+                    },
+                    {
+                      "en": "at an empty hook.",
+                      "ko": "빈 고리를."
+                    }
+                  ]
                 },
                 {
-                  "en": "should you look?",
-                  "ko": "당신은 봐야 하는가?"
+                  "speaker": "rv_extra_6",
+                  "en": "The bell rope is gone. This is the place where I ring it every dawn.",
+                  "ko": "종 밧줄이 없어졌어요. 여기가 제가 매일 새벽 종을 치던 곳인데요.",
+                  "chunks": [
+                    {
+                      "en": "The bell rope is gone. This is the place where I ring it every dawn.",
+                      "ko": "종 밧줄이 없어졌어요. 여기가 제가 매일 새벽 종을 치던 곳인데요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The bell rope is gone.",
+                      "ko": "종 밧줄이 없어졌어요."
+                    },
+                    {
+                      "en": "This is the place",
+                      "ko": "여기가 그곳이에요"
+                    },
+                    {
+                      "en": "where I ring it",
+                      "ko": "제가 종을 치는"
+                    },
+                    {
+                      "en": "every dawn.",
+                      "ko": "매일 새벽."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "rv_extra_6",
+                  "en": "The day when the bell stays silent, the boats forget the time.",
+                  "ko": "종이 조용한 날엔 배들이 시간을 잊어요.",
+                  "chunks": [
+                    {
+                      "en": "The day when the bell stays silent, the boats forget the time.",
+                      "ko": "종이 조용한 날엔 배들이 시간을 잊어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The day",
+                      "ko": "그날은"
+                    },
+                    {
+                      "en": "when the bell stays silent,",
+                      "ko": "종이 조용한"
+                    },
+                    {
+                      "en": "the boats forget the time.",
+                      "ko": "배들이 시간을 잊어요."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Subject",
+                  "en": "We will find the rope.",
+                  "ko": "우리가 밧줄을 찾을게요.",
+                  "chunks": [
+                    {
+                      "en": "We will find the rope.",
+                      "ko": "우리가 밧줄을 찾을게요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "We will find",
+                      "ko": "우리가 찾을게요"
+                    },
+                    {
+                      "en": "the rope.",
+                      "ko": "밧줄을."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "rv_extra_6",
+                  "en": "Ask Keel. He is the carpenter who mends the pier.",
+                  "ko": "킬에게 물어보세요. 선착장을 고치는 목수예요.",
+                  "chunks": [
+                    {
+                      "en": "Ask Keel. He is the carpenter who mends the pier.",
+                      "ko": "킬에게 물어보세요. 선착장을 고치는 목수예요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Ask Keel.",
+                      "ko": "킬에게 물어보세요."
+                    },
+                    {
+                      "en": "He is the carpenter",
+                      "ko": "그는 목수예요"
+                    },
+                    {
+                      "en": "who mends the pier.",
+                      "ko": "선착장을 고치는."
+                    }
+                  ]
                 }
-              ]
+              ],
+              "npc": "rv_extra_6"
             },
             {
-              "npc": "rv_extra_5",
+              "action": "talk",
+              "lines": [
+                {
+                  "speaker": "rv_extra_7",
+                  "en": "I used a rope on the pier this morning. It was the time when the tide was rising.",
+                  "ko": "오늘 아침 선착장에서 밧줄을 썼어요. 밀물이 들어오던 때였죠.",
+                  "chunks": [
+                    {
+                      "en": "I used a rope on the pier this morning. It was the time when the tide was rising.",
+                      "ko": "오늘 아침 선착장에서 밧줄을 썼어요. 밀물이 들어오던 때였죠."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I used a rope",
+                      "ko": "저는 밧줄을 썼어요"
+                    },
+                    {
+                      "en": "on the pier",
+                      "ko": "선착장에서"
+                    },
+                    {
+                      "en": "this morning.",
+                      "ko": "오늘 아침."
+                    },
+                    {
+                      "en": "It was the time",
+                      "ko": "그때였어요"
+                    },
+                    {
+                      "en": "when the tide was rising.",
+                      "ko": "밀물이 들어오던."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "rv_extra_7",
+                  "en": "A boy saw it near the rocks, where the crabs hide. Ask Shell.",
+                  "ko": "한 아이가 게들이 숨는 바위 근처에서 봤대요. 셸에게 물어보세요.",
+                  "chunks": [
+                    {
+                      "en": "A boy saw it near the rocks, where the crabs hide. Ask Shell.",
+                      "ko": "한 아이가 게들이 숨는 바위 근처에서 봤대요. 셸에게 물어보세요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "A boy saw it",
+                      "ko": "한 아이가 봤어요"
+                    },
+                    {
+                      "en": "near the rocks,",
+                      "ko": "바위 근처에서"
+                    },
+                    {
+                      "en": "where the crabs hide.",
+                      "ko": "게들이 숨는."
+                    },
+                    {
+                      "en": "Ask Shell.",
+                      "ko": "셸에게 물어보세요."
+                    }
+                  ]
+                }
+              ],
+              "npc": "rv_extra_7"
+            },
+            {
+              "action": "confirm",
+              "lines": [
+                {
+                  "speaker": "Narrator",
+                  "en": "Shell sits on a rock, a fishing line in one hand and a rope in the other.",
+                  "ko": "셸이 바위에 앉아 한 손엔 낚싯줄, 다른 손엔 밧줄을 쥐고 있다.",
+                  "chunks": [
+                    {
+                      "en": "Shell sits on a rock, a fishing line in one hand and a rope in the other.",
+                      "ko": "셸이 바위에 앉아 한 손엔 낚싯줄, 다른 손엔 밧줄을 쥐고 있다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Shell sits on a rock,",
+                      "ko": "셸이 바위에 앉아 있다"
+                    },
+                    {
+                      "en": "a fishing line in one hand",
+                      "ko": "한 손엔 낚싯줄"
+                    },
+                    {
+                      "en": "and a rope in the other.",
+                      "ko": "다른 손엔 밧줄."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "rv_extra_8",
+                  "en": "This is the reason why I took it! A crab was stuck between the stones.",
+                  "ko": "이게 제가 가져간 이유예요! 게가 돌 사이에 끼어 있었어요.",
+                  "chunks": [
+                    {
+                      "en": "This is the reason why I took it! A crab was stuck between the stones.",
+                      "ko": "이게 제가 가져간 이유예요! 게가 돌 사이에 끼어 있었어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "This is the reason",
+                      "ko": "이게 이유예요"
+                    },
+                    {
+                      "en": "why I took it!",
+                      "ko": "제가 가져간."
+                    },
+                    {
+                      "en": "A crab was stuck",
+                      "ko": "게가 끼어 있었어요"
+                    },
+                    {
+                      "en": "between the stones.",
+                      "ko": "돌 사이에."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "rv_extra_8",
+                  "en": "The crab was crying. I used the rope to pull it free.",
+                  "ko": "게가 울고 있었어요. 밧줄로 끌어당겨 빼 줬어요.",
+                  "chunks": [
+                    {
+                      "en": "The crab was crying. I used the rope to pull it free.",
+                      "ko": "게가 울고 있었어요. 밧줄로 끌어당겨 빼 줬어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The crab was crying.",
+                      "ko": "게가 울고 있었어요."
+                    },
+                    {
+                      "en": "I used the rope",
+                      "ko": "저는 밧줄을 썼어요"
+                    },
+                    {
+                      "en": "to pull it free.",
+                      "ko": "그것을 빼내려고."
+                    }
+                  ]
+                }
+              ],
+              "npc": "rv_extra_8"
+            },
+            {
+              "action": "talk",
+              "lines": [
+                {
+                  "speaker": "rv_extra_10",
+                  "en": "A fisher who knows the shore tells you which word fits. Which sentence is correct?",
+                  "ko": "물가를 아는 어부가 알맞은 낱말을 알려 줘요. 어느 문장이 맞을까요?",
+                  "chunks": [
+                    {
+                      "en": "A fisher who knows the shore tells you which word fits. Which sentence is correct?",
+                      "ko": "물가를 아는 어부가 알맞은 낱말을 알려 줘요. 어느 문장이 맞을까요?"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "A fisher",
+                      "ko": "어부가"
+                    },
+                    {
+                      "en": "who knows the shore",
+                      "ko": "물가를 아는"
+                    },
+                    {
+                      "en": "tells you which word fits.",
+                      "ko": "어떤 낱말이 맞는지 알려 줘요."
+                    },
+                    {
+                      "en": "Which sentence",
+                      "ko": "어느 문장이"
+                    },
+                    {
+                      "en": "is correct?",
+                      "ko": "맞나요?"
+                    }
+                  ]
+                }
+              ],
+              "task": {
+                "question_en": "Which sentence is correct?",
+                "question_ko": "어느 문장이 맞을까요?",
+                "options": [
+                  "This is the rock where the crab hid.",
+                  "This is the rock when the crab hid.",
+                  "This is the rock why the crab hid."
+                ],
+                "correct_index": 0,
+                "feedback_ko": "장소를 꾸미는 관계부사는 where예요.",
+                "question_chunks": [
+                  {
+                    "en": "Which sentence",
+                    "ko": "어느 문장이"
+                  },
+                  {
+                    "en": "is correct?",
+                    "ko": "맞나요?"
+                  }
+                ]
+              },
+              "npc": "rv_extra_10"
+            },
+            {
+              "action": "search",
+              "lines": [
+                {
+                  "speaker": "Narrator",
+                  "en": "Behind the rocks, the little crab is already walking away, safe.",
+                  "ko": "바위 뒤에서 작은 게가 안전하게 걸어가고 있다.",
+                  "chunks": [
+                    {
+                      "en": "Behind the rocks, the little crab is already walking away, safe.",
+                      "ko": "바위 뒤에서 작은 게가 안전하게 걸어가고 있다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Behind the rocks,",
+                      "ko": "바위 뒤에서"
+                    },
+                    {
+                      "en": "the little crab",
+                      "ko": "작은 게가"
+                    },
+                    {
+                      "en": "is already walking away,",
+                      "ko": "벌써 걸어가고 있다"
+                    },
+                    {
+                      "en": "safe.",
+                      "ko": "안전하게."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "rv_extra_8",
+                  "en": "I should have asked. But there was no time, and the tide was coming.",
+                  "ko": "먼저 물어봤어야 했어요. 하지만 시간이 없었고 밀물이 오고 있었어요.",
+                  "chunks": [
+                    {
+                      "en": "I should have asked. But there was no time, and the tide was coming.",
+                      "ko": "먼저 물어봤어야 했어요. 하지만 시간이 없었고 밀물이 오고 있었어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I should have asked.",
+                      "ko": "먼저 물어봤어야 했어요."
+                    },
+                    {
+                      "en": "But there was no time,",
+                      "ko": "하지만 시간이 없었고"
+                    },
+                    {
+                      "en": "and the tide was coming.",
+                      "ko": "밀물이 오고 있었어요."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Narrator",
+                  "en": "Shell looks up, worried.",
+                  "ko": "셸이 걱정스럽게 올려다본다.",
+                  "chunks": [
+                    {
+                      "en": "Shell looks up, worried.",
+                      "ko": "셸이 걱정스럽게 올려다본다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Shell looks up,",
+                      "ko": "셸이 올려다본다"
+                    },
+                    {
+                      "en": "worried.",
+                      "ko": "걱정하며."
+                    }
+                  ]
+                }
+              ],
+              "field": "nbg_19.webp",
+              "task": {
+                "question_en": "How will you speak to Shell?",
+                "question_ko": "셸에게 어떻게 말할까요?",
+                "options": [
+                  "You helped the crab, but ask next time.",
+                  "Let us tie the rope back together.",
+                  "Tell Chime the whole story."
+                ],
+                "correct_index": 0,
+                "choice": true,
+                "flag": "rv_shell_choice",
+                "reactions": [
+                  [
+                    {
+                      "speaker": "rv_extra_8",
+                      "en": "I will ask first. That is the way I will do it next time.",
+                      "ko": "먼저 물어볼게요. 다음엔 그렇게 할 거예요.",
+                      "chunks": [
+                        {
+                          "en": "I will ask first. That is the way I will do it next time.",
+                          "ko": "먼저 물어볼게요. 다음엔 그렇게 할 거예요."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "I will ask first.",
+                          "ko": "먼저 물어볼게요."
+                        },
+                        {
+                          "en": "That is the way",
+                          "ko": "그게 방법이에요"
+                        },
+                        {
+                          "en": "I will do it",
+                          "ko": "제가 할"
+                        },
+                        {
+                          "en": "next time.",
+                          "ko": "다음엔."
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "speaker": "rv_extra_8",
+                      "en": "Together? Yes! That is the place where it broke.",
+                      "ko": "같이요? 좋아요! 거기가 끊어졌던 곳이에요.",
+                      "chunks": [
+                        {
+                          "en": "Together? Yes! That is the place where it broke.",
+                          "ko": "같이요? 좋아요! 거기가 끊어졌던 곳이에요."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "Together?",
+                          "ko": "같이요?"
+                        },
+                        {
+                          "en": "Yes!",
+                          "ko": "좋아요!"
+                        },
+                        {
+                          "en": "That is the place",
+                          "ko": "거기가 곳이에요"
+                        },
+                        {
+                          "en": "where it broke.",
+                          "ko": "끊어졌던."
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "speaker": "rv_extra_8",
+                      "en": "The whole story? Okay. That is the reason why I came.",
+                      "ko": "전부 다요? 좋아요. 제가 온 이유가 그거예요.",
+                      "chunks": [
+                        {
+                          "en": "The whole story? Okay. That is the reason why I came.",
+                          "ko": "전부 다요? 좋아요. 제가 온 이유가 그거예요."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "The whole story?",
+                          "ko": "전부 다요?"
+                        },
+                        {
+                          "en": "Okay.",
+                          "ko": "좋아요."
+                        },
+                        {
+                          "en": "That is the reason",
+                          "ko": "그게 이유예요"
+                        },
+                        {
+                          "en": "why I came.",
+                          "ko": "제가 온."
+                        }
+                      ]
+                    }
+                  ]
+                ],
+                "question_chunks": [
+                  {
+                    "en": "How",
+                    "ko": "어떻게"
+                  },
+                  {
+                    "en": "will you speak",
+                    "ko": "당신은 말할 건가요"
+                  },
+                  {
+                    "en": "to Shell?",
+                    "ko": "셸에게?"
+                  }
+                ]
+              }
+            },
+            {
               "action": "return",
-              "line": {
-                "en": "Thank you. I have the missing item back, and I will mark where it belongs.",
-                "ko": "고마워요. 잃어버린 물건을 찾았으니 제자리에 표시를 해 둘게요.",
-                "chunks": [
-                  {
-                    "en": "Thank you. I have the missing item back, and I will mark where it belongs.",
-                    "ko": "고마워요. 잃어버린 물건을 찾았으니 제자리에 표시를 해 둘게요."
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "Thank you.",
-                    "ko": "고마워요."
-                  },
-                  {
-                    "en": "I have",
-                    "ko": "저는 가지고 있어요"
-                  },
-                  {
-                    "en": "the missing item",
-                    "ko": "잃어버린 물건을"
-                  },
-                  {
-                    "en": "back,",
-                    "ko": "되찾아서"
-                  },
-                  {
-                    "en": "and I will mark",
-                    "ko": "그리고 표시해 둘게요"
-                  },
-                  {
-                    "en": "where it belongs.",
-                    "ko": "그것이 속한 곳에."
-                  }
-                ]
-              }
+              "lines": [
+                {
+                  "speaker": "rv_extra_6",
+                  "en": "My rope! And a crab was saved? Shell, you did this?",
+                  "ko": "내 밧줄! 게도 구했다고? 셸, 네가 했니?",
+                  "chunks": [
+                    {
+                      "en": "My rope! And a crab was saved? Shell, you did this?",
+                      "ko": "내 밧줄! 게도 구했다고? 셸, 네가 했니?"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "My rope!",
+                      "ko": "내 밧줄!"
+                    },
+                    {
+                      "en": "And a crab was saved?",
+                      "ko": "게도 구했다고?"
+                    },
+                    {
+                      "en": "Shell, you did this?",
+                      "ko": "셸, 네가 했니?"
+                    }
+                  ]
+                },
+                {
+                  "speaker": "rv_extra_6",
+                  "en": "A kind heart should be thanked. Take this shell charm. You found my rope.",
+                  "ko": "따뜻한 마음은 고마워해야지. 이 조개 장식을 받으렴. 내 밧줄을 찾아 줬어.",
+                  "chunks": [
+                    {
+                      "en": "A kind heart should be thanked. Take this shell charm. You found my rope.",
+                      "ko": "따뜻한 마음은 고마워해야지. 이 조개 장식을 받으렴. 내 밧줄을 찾아 줬어."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "A kind heart",
+                      "ko": "따뜻한 마음은"
+                    },
+                    {
+                      "en": "should be thanked.",
+                      "ko": "고마워해야 해."
+                    },
+                    {
+                      "en": "Take this shell charm.",
+                      "ko": "이 조개 장식을 받아."
+                    },
+                    {
+                      "en": "You found my rope.",
+                      "ko": "네가 내 밧줄을 찾아 줬어."
+                    }
+                  ]
+                }
+              ],
+              "npc": "rv_extra_6"
             },
             {
-              "npc": "rv_extra_6",
               "action": "epilogue",
-              "line": {
-                "en": "I am glad we could help.",
-                "ko": "우리가 도울 수 있어서 기뻐요.",
-                "chunks": [
-                  {
-                    "en": "I am glad we could help.",
-                    "ko": "우리가 도울 수 있어서 기뻐요."
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "I",
-                    "ko": "저는"
-                  },
-                  {
-                    "en": "am glad",
-                    "ko": "기뻐요"
-                  },
-                  {
-                    "en": "we",
-                    "ko": "우리가"
-                  },
-                  {
-                    "en": "could help.",
-                    "ko": "도울 수 있어서."
-                  }
-                ]
-              }
+              "lines": [
+                {
+                  "speaker": "rv_extra_1",
+                  "en": "At dawn, the bell rang again, and the boats knew the time.",
+                  "ko": "새벽에 종이 다시 울렸고 배들은 시간을 알았어요.",
+                  "chunks": [
+                    {
+                      "en": "At dawn, the bell rang again, and the boats knew the time.",
+                      "ko": "새벽에 종이 다시 울렸고 배들은 시간을 알았어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "At dawn,",
+                      "ko": "새벽에"
+                    },
+                    {
+                      "en": "the bell rang again,",
+                      "ko": "종이 다시 울렸고"
+                    },
+                    {
+                      "en": "and the boats knew the time.",
+                      "ko": "배들은 시간을 알았어요."
+                    }
+                  ]
+                }
+              ],
+              "npc": "rv_extra_1"
             }
           ],
           "reward": {
@@ -15316,177 +16772,358 @@
         {
           "id": "rv_exchange",
           "title_en": "A Cord for the Tide Chart",
-          "title_ko": "조수표의 끈",
+          "title_ko": "조석표의 끈",
           "steps": [
             {
-              "npc": "rv_extra_3",
               "action": "accept",
-              "line": {
-                "en": "Please ask the shop for a new chart cord.",
-                "ko": "상점에 새 조수표 끈을 부탁해 주세요.",
-                "chunks": [
-                  {
-                    "en": "Please ask the shop for a new chart cord.",
-                    "ko": "상점에 새 조수표 끈을 부탁해 주세요.",
-                    "direct_chunks": [
-                      {
-                        "en": "Please ask",
-                        "ko": "부탁해 주세요"
-                      },
-                      {
-                        "en": "the shop",
-                        "ko": "상점에"
-                      },
-                      {
-                        "en": "for a new chart cord.",
-                        "ko": "새 조수표 끈을."
-                      }
-                    ]
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "Please ask",
-                    "ko": "부탁해 주세요"
-                  },
-                  {
-                    "en": "the shop",
-                    "ko": "상점에"
-                  },
-                  {
-                    "en": "for",
-                    "ko": "을"
-                  },
-                  {
-                    "en": "a new chart cord.",
-                    "ko": "새 조수표 끈."
-                  }
-                ]
-              }
+              "lines": [
+                {
+                  "speaker": "Narrator",
+                  "en": "Atlas pins the tide chart to his desk. A corner has been torn.",
+                  "ko": "아틀라스가 조석표를 책상에 핀으로 고정한다. 한쪽 모서리가 찢어졌다.",
+                  "chunks": [
+                    {
+                      "en": "Atlas pins the tide chart to his desk. A corner has been torn.",
+                      "ko": "아틀라스가 조석표를 책상에 핀으로 고정한다. 한쪽 모서리가 찢어졌다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Atlas pins the tide chart",
+                      "ko": "아틀라스가 조석표를 고정한다"
+                    },
+                    {
+                      "en": "to his desk.",
+                      "ko": "책상에."
+                    },
+                    {
+                      "en": "A corner has been torn.",
+                      "ko": "모서리가 찢어졌다."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "rv_extra_5",
+                  "en": "This is the chart where every cove is marked. I cannot hang it like this.",
+                  "ko": "모든 만이 표시된 조석표인데 이대로는 걸 수 없어요.",
+                  "chunks": [
+                    {
+                      "en": "This is the chart where every cove is marked. I cannot hang it like this.",
+                      "ko": "모든 만이 표시된 조석표인데 이대로는 걸 수 없어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "This is the chart",
+                      "ko": "이게 조석표예요"
+                    },
+                    {
+                      "en": "where every cove is marked.",
+                      "ko": "모든 만이 표시된."
+                    },
+                    {
+                      "en": "I cannot hang it",
+                      "ko": "걸 수 없어요"
+                    },
+                    {
+                      "en": "like this.",
+                      "ko": "이대로는."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "rv_extra_5",
+                  "en": "I need a strong cord. Bay keeps one at the inn.",
+                  "ko": "튼튼한 끈이 필요해요. 베이가 여관에 하나 가지고 있어요.",
+                  "chunks": [
+                    {
+                      "en": "I need a strong cord. Bay keeps one at the inn.",
+                      "ko": "튼튼한 끈이 필요해요. 베이가 여관에 하나 가지고 있어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I need a strong cord.",
+                      "ko": "튼튼한 끈이 필요해요."
+                    },
+                    {
+                      "en": "Bay keeps one",
+                      "ko": "베이가 하나 가지고 있어요"
+                    },
+                    {
+                      "en": "at the inn.",
+                      "ko": "여관에."
+                    }
+                  ]
+                }
+              ],
+              "npc": "rv_extra_5"
             },
             {
-              "npc": "rv_extra_2",
               "action": "exchange",
-              "line": {
-                "en": "Here is a new chart cord for the harbor keeper.",
-                "ko": "항구 관리인에게 전할 새 조수표 끈이에요.",
-                "chunks": [
-                  {
-                    "en": "Here is a new chart cord for the harbor keeper.",
-                    "ko": "항구 관리인에게 전할 새 조수표 끈이에요.",
-                    "direct_chunks": [
-                      {
-                        "en": "Here is",
-                        "ko": "여기 있어요"
-                      },
-                      {
-                        "en": "a new chart cord",
-                        "ko": "새 조수표 끈이"
-                      },
-                      {
-                        "en": "for the harbor keeper.",
-                        "ko": "항구 관리인을 위한."
-                      }
-                    ]
-                  }
+              "lines": [
+                {
+                  "speaker": "rv_extra_3",
+                  "en": "The cord is from a ship that sailed long ago. It is not for everyone.",
+                  "ko": "그 끈은 오래전에 항해한 배에서 나온 거예요. 아무에게나 주는 게 아니에요.",
+                  "chunks": [
+                    {
+                      "en": "The cord is from a ship that sailed long ago. It is not for everyone.",
+                      "ko": "그 끈은 오래전에 항해한 배에서 나온 거예요. 아무에게나 주는 게 아니에요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The cord is",
+                      "ko": "끈은 ~예요"
+                    },
+                    {
+                      "en": "from a ship",
+                      "ko": "배에서 나온"
+                    },
+                    {
+                      "en": "that sailed long ago.",
+                      "ko": "오래전에 항해한."
+                    },
+                    {
+                      "en": "It is not for everyone.",
+                      "ko": "아무에게나 주는 게 아니에요."
+                    }
+                  ]
+                }
+              ],
+              "task": {
+                "question_en": "How do you ask politely?",
+                "question_ko": "어떻게 공손하게 부탁할까요?",
+                "options": [
+                  "May I borrow the cord, please?",
+                  "Give me the cord.",
+                  "Cord. Now."
                 ],
-                "direct_chunks": [
+                "correct_index": 0,
+                "feedback_ko": "May I ~, please?는 공손한 부탁이에요.",
+                "question_chunks": [
                   {
-                    "en": "Here is",
-                    "ko": "여기 있어요"
+                    "en": "How",
+                    "ko": "어떻게"
                   },
                   {
-                    "en": "a new chart cord",
-                    "ko": "새 조수표 끈이"
+                    "en": "do you ask",
+                    "ko": "당신은 부탁하나요"
                   },
                   {
-                    "en": "for the harbor keeper.",
-                    "ko": "항구 관리인을 위한."
+                    "en": "politely?",
+                    "ko": "공손하게?"
                   }
                 ]
-              }
+              },
+              "npc": "rv_extra_3"
             },
             {
-              "npc": "rv_extra_7",
               "action": "deliver",
-              "line": {
-                "en": "I will put it to use today.",
-                "ko": "잘 받았어요. 오늘 바로 쓸게요.",
-                "chunks": [
-                  {
-                    "en": "I will put it to use today.",
-                    "ko": "잘 받았어요. 오늘 바로 쓸게요.",
-                    "direct_chunks": [
-                      {
-                        "en": "I will put it to use",
-                        "ko": "저는 그것을 쓸게요"
-                      },
-                      {
-                        "en": "today.",
-                        "ko": "오늘."
-                      }
-                    ]
-                  }
+              "lines": [
+                {
+                  "speaker": "rv_extra_5",
+                  "en": "Now I can hang it. But the chart must show the time when the tide is lowest.",
+                  "ko": "이제 걸 수 있어요. 그런데 조석표엔 물이 가장 낮은 때가 표시되어야 해요.",
+                  "chunks": [
+                    {
+                      "en": "Now I can hang it. But the chart must show the time when the tide is lowest.",
+                      "ko": "이제 걸 수 있어요. 그런데 조석표엔 물이 가장 낮은 때가 표시되어야 해요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Now I can hang it.",
+                      "ko": "이제 걸 수 있어요."
+                    },
+                    {
+                      "en": "But the chart must show",
+                      "ko": "하지만 조석표는 보여 줘야 해요"
+                    },
+                    {
+                      "en": "the time",
+                      "ko": "때를"
+                    },
+                    {
+                      "en": "when the tide is lowest.",
+                      "ko": "조수가 가장 낮은."
+                    }
+                  ]
+                }
+              ],
+              "task": {
+                "question_en": "Where should the chart hang?",
+                "question_ko": "조석표를 어디에 걸까요?",
+                "options": [
+                  "At the harbor gate",
+                  "In the inn hall",
+                  "By the fishing boats"
                 ],
-                "direct_chunks": [
+                "correct_index": 0,
+                "choice": true,
+                "flag": "rv_chart_choice",
+                "reactions": [
+                  [
+                    {
+                      "speaker": "rv_extra_5",
+                      "en": "The gate. That is the place where everyone passes.",
+                      "ko": "성문이요. 모두가 지나는 곳이니까요.",
+                      "chunks": [
+                        {
+                          "en": "The gate. That is the place where everyone passes.",
+                          "ko": "성문이요. 모두가 지나는 곳이니까요."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "The gate.",
+                          "ko": "성문이요."
+                        },
+                        {
+                          "en": "That is the place",
+                          "ko": "그곳이 장소예요"
+                        },
+                        {
+                          "en": "where everyone passes.",
+                          "ko": "모두가 지나가는."
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "speaker": "rv_extra_5",
+                      "en": "The inn. That is the place where travelers rest and read.",
+                      "ko": "여관이요. 여행자들이 쉬며 읽는 곳이니까요.",
+                      "chunks": [
+                        {
+                          "en": "The inn. That is the place where travelers rest and read.",
+                          "ko": "여관이요. 여행자들이 쉬며 읽는 곳이니까요."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "The inn.",
+                          "ko": "여관이요."
+                        },
+                        {
+                          "en": "That is the place",
+                          "ko": "그곳이 장소예요"
+                        },
+                        {
+                          "en": "where travelers rest and read.",
+                          "ko": "여행자들이 쉬며 읽는."
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "speaker": "rv_extra_5",
+                      "en": "The boats. That is the place where the fishers need it most.",
+                      "ko": "배 옆이요. 어부들이 가장 필요로 하는 곳이니까요.",
+                      "chunks": [
+                        {
+                          "en": "The boats. That is the place where the fishers need it most.",
+                          "ko": "배 옆이요. 어부들이 가장 필요로 하는 곳이니까요."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "The boats.",
+                          "ko": "배 옆이요."
+                        },
+                        {
+                          "en": "That is the place",
+                          "ko": "그곳이 장소예요"
+                        },
+                        {
+                          "en": "where the fishers need it most.",
+                          "ko": "어부들이 가장 필요로 하는."
+                        }
+                      ]
+                    }
+                  ]
+                ],
+                "question_chunks": [
                   {
-                    "en": "I",
-                    "ko": "저는"
+                    "en": "Where",
+                    "ko": "어디에"
                   },
                   {
-                    "en": "will put",
-                    "ko": "쓸게요"
-                  },
-                  {
-                    "en": "it",
-                    "ko": "그것을"
-                  },
-                  {
-                    "en": "to use",
-                    "ko": "사용에"
-                  },
-                  {
-                    "en": "today.",
-                    "ko": "오늘."
+                    "en": "should the chart hang?",
+                    "ko": "조석표를 걸까요?"
                   }
                 ]
-              }
+              },
+              "npc": "rv_extra_5"
             },
             {
-              "npc": "rv_extra_3",
+              "action": "talk",
+              "lines": [
+                {
+                  "speaker": "rv_extra_4",
+                  "en": "The chart is bright and clear. I can see why it matters.",
+                  "ko": "조석표가 밝고 선명하네요. 왜 중요한지 알겠어요.",
+                  "chunks": [
+                    {
+                      "en": "The chart is bright and clear. I can see why it matters.",
+                      "ko": "조석표가 밝고 선명하네요. 왜 중요한지 알겠어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The chart is bright and clear.",
+                      "ko": "조석표가 밝고 선명하네요."
+                    },
+                    {
+                      "en": "I can see",
+                      "ko": "저는 알겠어요"
+                    },
+                    {
+                      "en": "why it matters.",
+                      "ko": "왜 중요한지."
+                    }
+                  ]
+                }
+              ],
+              "npc": "rv_extra_4"
+            },
+            {
               "action": "return",
-              "line": {
-                "en": "Good. We can tell the harbor keeper where to ask for another.",
-                "ko": "잘됐네요. 항구 관리인에게 필요할 때 다시 부탁할 곳을 알려 줘요.",
-                "chunks": [
-                  {
-                    "en": "Good. We can tell the harbor keeper where to ask for another.",
-                    "ko": "잘됐네요. 항구 관리인에게 필요할 때 다시 부탁할 곳을 알려 줘요."
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "Good.",
-                    "ko": "잘됐네요."
-                  },
-                  {
-                    "en": "We can tell",
-                    "ko": "우리는 알려 줄 수 있어요"
-                  },
-                  {
-                    "en": "the harbor keeper",
-                    "ko": "항구 관리인에게"
-                  },
-                  {
-                    "en": "where to ask",
-                    "ko": "부탁할 곳을"
-                  },
-                  {
-                    "en": "for another.",
-                    "ko": "또 하나를 위해."
-                  }
-                ]
-              }
+              "lines": [
+                {
+                  "speaker": "rv_extra_5",
+                  "en": "Thank you. The chart where every cove is marked now hangs straight.",
+                  "ko": "고마워요. 모든 만이 표시된 조석표가 이제 반듯하게 걸려 있어요.",
+                  "chunks": [
+                    {
+                      "en": "Thank you. The chart where every cove is marked now hangs straight.",
+                      "ko": "고마워요. 모든 만이 표시된 조석표가 이제 반듯하게 걸려 있어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Thank you.",
+                      "ko": "고마워요."
+                    },
+                    {
+                      "en": "The chart",
+                      "ko": "조석표가"
+                    },
+                    {
+                      "en": "where every cove is marked",
+                      "ko": "모든 만이 표시된"
+                    },
+                    {
+                      "en": "now hangs straight.",
+                      "ko": "이제 반듯하게 걸려 있어요."
+                    }
+                  ]
+                }
+              ],
+              "npc": "rv_extra_5"
             }
           ],
           "reward": {
@@ -15499,192 +17136,511 @@
           "title_ko": "웨어포트의 안내문",
           "steps": [
             {
-              "npc": "rv_extra_9",
               "action": "accept",
-              "line": {
-                "en": "The tide chart applies to every cove.",
-                "ko": "조수표는 모든 작은 만에 적용된대요.",
-                "chunks": [
-                  {
-                    "en": "The tide chart applies to every cove.",
-                    "ko": "조수표는 모든 작은 만에 적용된대요.",
-                    "direct_chunks": [
-                      {
-                        "en": "The tide chart",
-                        "ko": "조수표는"
-                      },
-                      {
-                        "en": "applies",
-                        "ko": "적용돼요"
-                      },
-                      {
-                        "en": "to every cove.",
-                        "ko": "모든 작은 만에."
-                      }
-                    ]
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "The tide chart",
-                    "ko": "조수표는"
-                  },
-                  {
-                    "en": "applies",
-                    "ko": "적용돼요"
-                  },
-                  {
-                    "en": "to every cove.",
-                    "ko": "모든 작은 만에."
-                  }
-                ]
-              }
+              "lines": [
+                {
+                  "speaker": "Narrator",
+                  "en": "Tide jogs up to the harbor office, holding a paper notice.",
+                  "ko": "타이드가 종이 공지를 들고 항구 사무소로 달려온다.",
+                  "chunks": [
+                    {
+                      "en": "Tide jogs up to the harbor office, holding a paper notice.",
+                      "ko": "타이드가 종이 공지를 들고 항구 사무소로 달려온다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Tide jogs up",
+                      "ko": "타이드가 달려온다"
+                    },
+                    {
+                      "en": "to the harbor office,",
+                      "ko": "항구 사무소로"
+                    },
+                    {
+                      "en": "holding a paper notice.",
+                      "ko": "종이 공지를 들고."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "rv_extra_9",
+                  "en": "The new tide chart applies to every cove on the coast!",
+                  "ko": "새 조석표는 해안의 모든 만에 적용돼요!",
+                  "chunks": [
+                    {
+                      "en": "The new tide chart applies to every cove on the coast!",
+                      "ko": "새 조석표는 해안의 모든 만에 적용돼요!"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The new tide chart",
+                      "ko": "새 조석표는"
+                    },
+                    {
+                      "en": "applies to",
+                      "ko": "적용돼요"
+                    },
+                    {
+                      "en": "every cove",
+                      "ko": "모든 만에"
+                    },
+                    {
+                      "en": "on the coast!",
+                      "ko": "해안의!"
+                    }
+                  ]
+                },
+                {
+                  "speaker": "rv_extra_9",
+                  "en": "I told the fishers. They are leaving now, at the time when the tide is low.",
+                  "ko": "어부들에게 알렸어요. 조수가 낮은 때에 지금 출발하고 있어요.",
+                  "chunks": [
+                    {
+                      "en": "I told the fishers. They are leaving now, at the time when the tide is low.",
+                      "ko": "어부들에게 알렸어요. 조수가 낮은 때에 지금 출발하고 있어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I told the fishers.",
+                      "ko": "어부들에게 알렸어요."
+                    },
+                    {
+                      "en": "They are leaving now,",
+                      "ko": "그들은 지금 출발해요"
+                    },
+                    {
+                      "en": "at the time",
+                      "ko": "그때에"
+                    },
+                    {
+                      "en": "when the tide is low.",
+                      "ko": "조수가 낮은."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Subject",
+                  "en": "Where did you read it?",
+                  "ko": "어디서 읽었어요?",
+                  "chunks": [
+                    {
+                      "en": "Where did you read it?",
+                      "ko": "어디서 읽었어요?"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Where did you read it?",
+                      "ko": "어디서 읽었나요?"
+                    }
+                  ]
+                },
+                {
+                  "speaker": "rv_extra_9",
+                  "en": "I... only heard it. Please check. Ask Beacon.",
+                  "ko": "저는... 들었을 뿐이에요. 확인해 주세요. 비컨에게 물어보세요.",
+                  "chunks": [
+                    {
+                      "en": "I... only heard it. Please check. Ask Beacon.",
+                      "ko": "저는... 들었을 뿐이에요. 확인해 주세요. 비컨에게 물어보세요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I... only heard it.",
+                      "ko": "저는... 들었을 뿐이에요."
+                    },
+                    {
+                      "en": "Please check.",
+                      "ko": "확인해 주세요."
+                    },
+                    {
+                      "en": "Ask Beacon.",
+                      "ko": "비컨에게 물어보세요."
+                    }
+                  ]
+                }
+              ],
+              "npc": "rv_extra_9"
             },
             {
-              "npc": "rv_extra_4",
+              "action": "talk",
+              "lines": [
+                {
+                  "speaker": "rv_extra_4",
+                  "en": "I stand at the gate where the notice is posted. It lists one harbor only.",
+                  "ko": "저는 공지가 붙은 문에 서 있어요. 항구 하나만 적혀 있어요.",
+                  "chunks": [
+                    {
+                      "en": "I stand at the gate where the notice is posted. It lists one harbor only.",
+                      "ko": "저는 공지가 붙은 문에 서 있어요. 항구 하나만 적혀 있어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I stand at the gate",
+                      "ko": "저는 문에 서 있어요"
+                    },
+                    {
+                      "en": "where the notice is posted.",
+                      "ko": "공지가 붙은."
+                    },
+                    {
+                      "en": "It lists one harbor only.",
+                      "ko": "항구 하나만 적혀 있어요."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "rv_extra_4",
+                  "en": "Go to the harbor office and ask Portia.",
+                  "ko": "항구 사무소로 가서 포르시아에게 물어보세요.",
+                  "chunks": [
+                    {
+                      "en": "Go to the harbor office and ask Portia.",
+                      "ko": "항구 사무소로 가서 포르시아에게 물어보세요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Go to the harbor office",
+                      "ko": "항구 사무소로 가서"
+                    },
+                    {
+                      "en": "and ask Portia.",
+                      "ko": "포르시아에게 물어보세요."
+                    }
+                  ]
+                }
+              ],
+              "npc": "rv_extra_4"
+            },
+            {
               "action": "verify",
-              "line": {
-                "en": "The posted chart is for this harbor; the eastern cove has its own notice.",
-                "ko": "붙어 있는 표는 이 항구용이에요. 동쪽 만에는 별도 안내가 있어요.",
-                "chunks": [
-                  {
-                    "en": "The posted chart is for this harbor; the eastern cove has its own notice.",
-                    "ko": "붙어 있는 표는 이 항구용이에요. 동쪽 만에는 별도 안내가 있어요.",
-                    "direct_chunks": [
-                      {
-                        "en": "The posted chart",
-                        "ko": "붙어 있는 표는"
-                      },
-                      {
-                        "en": "is for this harbor;",
-                        "ko": "이 항구용이에요"
-                      },
-                      {
-                        "en": "the eastern cove",
-                        "ko": "동쪽 만은"
-                      },
-                      {
-                        "en": "has its own notice.",
-                        "ko": "자체 안내가 있어요."
-                      }
-                    ]
-                  }
+              "lines": [
+                {
+                  "speaker": "rv_extra_1",
+                  "en": "The posted chart is only for this harbor. The other coves need their own chart.",
+                  "ko": "붙은 조석표는 이 항구에만 해당돼요. 다른 만은 자기 조석표가 필요해요.",
+                  "chunks": [
+                    {
+                      "en": "The posted chart is only for this harbor. The other coves need their own chart.",
+                      "ko": "붙은 조석표는 이 항구에만 해당돼요. 다른 만은 자기 조석표가 필요해요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The posted chart",
+                      "ko": "붙은 조석표는"
+                    },
+                    {
+                      "en": "is only for this harbor.",
+                      "ko": "이 항구에만 해당돼요."
+                    },
+                    {
+                      "en": "The other coves",
+                      "ko": "다른 만은"
+                    },
+                    {
+                      "en": "need their own chart.",
+                      "ko": "자기 조석표가 필요해요."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "rv_extra_1",
+                  "en": "Which sentence is checked and exact?",
+                  "ko": "어느 문장이 확인된 정확한 내용일까요?",
+                  "chunks": [
+                    {
+                      "en": "Which sentence is checked and exact?",
+                      "ko": "어느 문장이 확인된 정확한 내용일까요?"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Which sentence",
+                      "ko": "어느 문장이"
+                    },
+                    {
+                      "en": "is checked",
+                      "ko": "확인되었고"
+                    },
+                    {
+                      "en": "and exact?",
+                      "ko": "정확한가요?"
+                    }
+                  ]
+                }
+              ],
+              "task": {
+                "question_en": "Which sentence is checked and exact?",
+                "question_ko": "어느 문장이 확인된 정확한 내용일까요?",
+                "options": [
+                  "This is the harbor where the posted chart applies.",
+                  "The chart applies to every cove.",
+                  "There is no chart."
                 ],
-                "direct_chunks": [
+                "correct_index": 0,
+                "feedback_ko": "포르시아가 확인한 사실은 붙은 조석표가 이 항구에만 해당한다는 것이에요.",
+                "question_chunks": [
                   {
-                    "en": "The posted chart",
-                    "ko": "붙어 있는 표는"
+                    "en": "Which sentence",
+                    "ko": "어느 문장이"
                   },
                   {
-                    "en": "is for this harbor;",
-                    "ko": "이 항구용이에요"
+                    "en": "is checked",
+                    "ko": "확인되었고"
                   },
                   {
-                    "en": "the eastern cove",
-                    "ko": "동쪽 만은"
-                  },
-                  {
-                    "en": "has its own notice.",
-                    "ko": "자체 안내가 있어요."
+                    "en": "and exact?",
+                    "ko": "정확한가요?"
                   }
                 ]
-              }
+              },
+              "npc": "rv_extra_1"
             },
             {
-              "npc": "rv_extra_1",
               "action": "confirm",
-              "line": {
-                "en": "Please give the courier the checked account before the next announcement.",
-                "ko": "다음 안내를 하기 전에 확인한 내용을 배달부에게 전해 주세요.",
-                "chunks": [
-                  {
-                    "en": "Please give the courier the checked account before the next announcement.",
-                    "ko": "다음 안내를 하기 전에 확인한 내용을 배달부에게 전해 주세요.",
-                    "direct_chunks": [
-                      {
-                        "en": "Please give",
-                        "ko": "주세요"
-                      },
-                      {
-                        "en": "the courier",
-                        "ko": "배달부에게"
-                      },
-                      {
-                        "en": "the checked account",
-                        "ko": "확인된 내용을"
-                      },
-                      {
-                        "en": "before the next announcement.",
-                        "ko": "다음 안내 전에."
-                      }
-                    ]
-                  }
+              "lines": [
+                {
+                  "speaker": "rv_extra_1",
+                  "en": "Thank you. What should the new notice say first?",
+                  "ko": "고마워요. 새 공지에 무엇을 먼저 써야 할까요?",
+                  "chunks": [
+                    {
+                      "en": "Thank you. What should the new notice say first?",
+                      "ko": "고마워요. 새 공지에 무엇을 먼저 써야 할까요?"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Thank you.",
+                      "ko": "고마워요."
+                    },
+                    {
+                      "en": "What should",
+                      "ko": "무엇이 해야 할까요"
+                    },
+                    {
+                      "en": "the new notice",
+                      "ko": "새 공지가"
+                    },
+                    {
+                      "en": "say first?",
+                      "ko": "먼저 말하다?"
+                    }
+                  ]
+                }
+              ],
+              "task": {
+                "question_en": "What should the notice say first?",
+                "question_ko": "공지에 무엇을 먼저 쓸까요?",
+                "options": [
+                  "This chart is for this harbor only.",
+                  "Check your own cove's chart.",
+                  "Do not leave until you are sure."
                 ],
-                "direct_chunks": [
+                "correct_index": 0,
+                "choice": true,
+                "flag": "rv_notice_choice",
+                "reactions": [
+                  [
+                    {
+                      "speaker": "rv_extra_1",
+                      "en": "Good. The place comes first, so nobody is confused.",
+                      "ko": "좋아요. 장소가 먼저니 아무도 헷갈리지 않겠네요.",
+                      "chunks": [
+                        {
+                          "en": "Good. The place comes first, so nobody is confused.",
+                          "ko": "좋아요. 장소가 먼저니 아무도 헷갈리지 않겠네요."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "Good.",
+                          "ko": "좋아요."
+                        },
+                        {
+                          "en": "The place comes first,",
+                          "ko": "장소가 먼저니"
+                        },
+                        {
+                          "en": "so nobody is confused.",
+                          "ko": "아무도 헷갈리지 않아요."
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "speaker": "rv_extra_1",
+                      "en": "Good. Each cove has the time when its tide is low.",
+                      "ko": "좋아요. 만마다 조수가 낮은 때가 있으니까요.",
+                      "chunks": [
+                        {
+                          "en": "Good. Each cove has the time when its tide is low.",
+                          "ko": "좋아요. 만마다 조수가 낮은 때가 있으니까요."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "Good.",
+                          "ko": "좋아요."
+                        },
+                        {
+                          "en": "Each cove has",
+                          "ko": "각 만에는 있어요"
+                        },
+                        {
+                          "en": "the time",
+                          "ko": "때가"
+                        },
+                        {
+                          "en": "when its tide is low.",
+                          "ko": "그곳의 조수가 낮은."
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "speaker": "rv_extra_1",
+                      "en": "Good. Safety is the reason why we post notices.",
+                      "ko": "좋아요. 안전이 우리가 공지를 붙이는 이유예요.",
+                      "chunks": [
+                        {
+                          "en": "Good. Safety is the reason why we post notices.",
+                          "ko": "좋아요. 안전이 우리가 공지를 붙이는 이유예요."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "Good.",
+                          "ko": "좋아요."
+                        },
+                        {
+                          "en": "Safety is the reason",
+                          "ko": "안전이 이유예요"
+                        },
+                        {
+                          "en": "why we post notices.",
+                          "ko": "우리가 공지를 붙이는."
+                        }
+                      ]
+                    }
+                  ]
+                ],
+                "question_chunks": [
                   {
-                    "en": "Please give",
-                    "ko": "주세요"
+                    "en": "What should",
+                    "ko": "무엇이 해야 할까요"
                   },
                   {
-                    "en": "the courier",
-                    "ko": "배달부에게"
+                    "en": "the notice",
+                    "ko": "공지가"
                   },
                   {
-                    "en": "the checked account",
-                    "ko": "확인된 내용을"
-                  },
-                  {
-                    "en": "before the next announcement.",
-                    "ko": "다음 안내 전에."
+                    "en": "say first?",
+                    "ko": "먼저 말하다?"
                   }
                 ]
-              }
+              },
+              "npc": "rv_extra_1"
             },
             {
-              "npc": "rv_extra_9",
               "action": "return",
-              "line": {
-                "en": "I have written down the correction with today’s date.",
-                "ko": "오늘 날짜와 함께 정정 내용을 적어 두었어요.",
-                "chunks": [
-                  {
-                    "en": "I have written down the correction with today’s date.",
-                    "ko": "오늘 날짜와 함께 정정 내용을 적어 두었어요.",
-                    "direct_chunks": [
-                      {
-                        "en": "I have written down",
-                        "ko": "저는 적어 두었어요"
-                      },
-                      {
-                        "en": "the correction",
-                        "ko": "정정 내용을"
-                      },
-                      {
-                        "en": "with today’s date.",
-                        "ko": "오늘 날짜와 함께."
-                      }
-                    ]
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "I",
-                    "ko": "저는"
-                  },
-                  {
-                    "en": "have written down",
-                    "ko": "적어 두었어요."
-                  },
-                  {
-                    "en": "the correction",
-                    "ko": "정정 내용을"
-                  },
-                  {
-                    "en": "with today’s date.",
-                    "ko": "오늘 날짜와 함께."
-                  }
-                ]
-              }
+              "lines": [
+                {
+                  "speaker": "rv_extra_9",
+                  "en": "I called the fishers back and wrote the correction with today's date.",
+                  "ko": "어부들을 불러들이고 오늘 날짜로 정정문을 적었어요.",
+                  "chunks": [
+                    {
+                      "en": "I called the fishers back and wrote the correction with today's date.",
+                      "ko": "어부들을 불러들이고 오늘 날짜로 정정문을 적었어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I called the fishers back",
+                      "ko": "어부들을 불러들이고"
+                    },
+                    {
+                      "en": "and wrote the correction",
+                      "ko": "정정문을 적었어요"
+                    },
+                    {
+                      "en": "with today's date.",
+                      "ko": "오늘 날짜로."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Subject",
+                  "en": "Next time, ask where it was written first.",
+                  "ko": "다음엔 어디에 적혀 있었는지 먼저 물어보세요.",
+                  "chunks": [
+                    {
+                      "en": "Next time, ask where it was written first.",
+                      "ko": "다음엔 어디에 적혀 있었는지 먼저 물어보세요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Next time,",
+                      "ko": "다음에는"
+                    },
+                    {
+                      "en": "ask where it was written",
+                      "ko": "어디에 적혀 있었는지 물어보세요"
+                    },
+                    {
+                      "en": "first.",
+                      "ko": "먼저."
+                    }
+                  ]
+                }
+              ],
+              "npc": "rv_extra_9"
+            },
+            {
+              "action": "epilogue",
+              "lines": [
+                {
+                  "speaker": "rv_extra_1",
+                  "en": "By noon every boat was safe, and each cove had its own chart.",
+                  "ko": "정오가 되자 모든 배가 안전했고 만마다 자기 조석표가 있었어요.",
+                  "chunks": [
+                    {
+                      "en": "By noon every boat was safe, and each cove had its own chart.",
+                      "ko": "정오가 되자 모든 배가 안전했고 만마다 자기 조석표가 있었어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "By noon",
+                      "ko": "정오가 되자"
+                    },
+                    {
+                      "en": "every boat was safe,",
+                      "ko": "모든 배가 안전했고"
+                    },
+                    {
+                      "en": "and each cove",
+                      "ko": "만마다"
+                    },
+                    {
+                      "en": "had its own chart.",
+                      "ko": "자기 조석표가 있었어요."
+                    }
+                  ]
+                }
+              ],
+              "npc": "rv_extra_1"
             }
           ],
           "reward": {
