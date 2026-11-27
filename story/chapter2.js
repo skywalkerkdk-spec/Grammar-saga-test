@@ -675,7 +675,9 @@
     body.append(notice);
   }
 
+  const AGENT_PORTRAIT={g1:'sj-1',g2:'ps-1',tn:'pf-2',md:'cp-1',rp:'rs-3',ps:'rs-1',pf:'pc-2',rv:'pc-0',pc:'ng-1',sj:'pn-1',cp:'pf-0',pn:'cp-2',ot:'sx-1',iv:'ot-2',pe:'rp-3',ng:'sx-2',rs:'sx-0',sx:'cp-3'};
   function extraPortrait(id) {
+    if (id.endsWith('_agent') && AGENT_PORTRAIT[id.split('_')[0]]) return 'story/maps/villages/'+AGENT_PORTRAIT[id.split('_')[0]]+'.webp';
     const [town,,number]=id.split('_');
     const portraits=['tn-0','g2-0','pf-0','sx-1','rp-2','ps-0','sj-1','ng-0','rs-0','cp-1','iv-1','ot-0','md-3','pe-0','pn-0','rv-0'];
     const available=portraits.filter(name=>!name.startsWith(town+'-'));
