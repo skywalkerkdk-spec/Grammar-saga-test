@@ -123,7 +123,7 @@
     if(reading.mode==='literal'&&chunks?.length) {
       const palette=story.palette;
       chunks.forEach((chunk,i)=>{
-        if(i)p.append(reading.slash?' / ':' ');
+        if(i)p.append(' ');
         const span=node('span');
         withNames(span,chunk[language],language);
         if(reading.color)span.style.color=palette[i%palette.length];
@@ -168,10 +168,7 @@
       const line=lines[index];
       const mode=reading.mode;
       const controls=node('div',undefined,'c2-actions');
-      const select=modeSelect();
-      select.onchange=()=>{reading.mode=select.value;persistReading();renderLine();section.querySelector('select').focus();};
-      controls.append(select);
-      for (const [key,label] of [['color','색상'],['slash','슬래시']]) {
+      for (const [key,label] of [['color','색상']]) {
         const toggle=button(label,()=>{
           reading[key]=!reading[key];persistReading();renderLine();
           section.querySelector('[data-setting="'+key+'"]').focus();
@@ -214,7 +211,7 @@
         const p=node('p',undefined,'c2-line');
         p.lang=language;
         if (mode==='literal') (line.direct_chunks||line.chunks).forEach((chunk,i)=>{
-          if (i) p.append(reading.slash ? ' / ' : ' ');
+          if (i) p.append(' ');
           const span=node('span');
           withNames(span,chunk[language],language);
           if (reading.color) span.style.color=(options.palette||story.palette)[i%(options.palette||story.palette).length];
