@@ -647,186 +647,1130 @@
           "title_ko": "빈 밀가루 자루",
           "steps": [
             {
-              "npc": "g1_extra_5",
               "action": "accept",
-              "line": {
-                "en": "Please help me find my flour sack.",
-                "ko": "제 밀가루 자루을(를) 찾도록 도와주세요.",
-                "chunks": [
-                  {
-                    "en": "Please help me find my flour sack.",
-                    "ko": "제 밀가루 자루을(를) 찾도록 도와주세요.",
-                    "direct_chunks": [
-                      {
-                        "en": "Please help me",
-                        "ko": "저를 도와주세요"
-                      },
-                      {
-                        "en": "find",
-                        "ko": "찾는 것을"
-                      },
-                      {
-                        "en": "my flour sack.",
-                        "ko": "제 밀가루 자루를."
-                      }
-                    ]
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "Please help me",
-                    "ko": "저를 도와주세요"
-                  },
-                  {
-                    "en": "find",
-                    "ko": "찾는 것을"
-                  },
-                  {
-                    "en": "my flour sack.",
-                    "ko": "제 밀가루 자루를."
-                  }
-                ]
-              }
-            },
-            {
-              "npc": "g1_extra_6",
-              "action": "talk",
-              "line": {
-                "en": "I saw something behind the mill.",
-                "ko": "방앗간 뒤에서 무언가를 봤어요.",
-                "chunks": [
-                  {
-                    "en": "I saw something behind the mill.",
-                    "ko": "방앗간 뒤에서 무언가를 봤어요."
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "I saw",
-                    "ko": "저는 봤어요"
-                  },
-                  {
-                    "en": "something",
-                    "ko": "무언가를"
-                  },
-                  {
-                    "en": "behind the mill.",
-                    "ko": "방앗간 뒤에서."
-                  }
-                ]
-              }
-            },
-            {
-              "npc": "g1_extra_8",
-              "action": "confirm",
-              "line": {
-                "en": "Yes, I saw it there too.",
-                "ko": "네, 저도 거기서 봤어요.",
-                "chunks": [
-                  {
-                    "en": "Yes, I saw it there too.",
-                    "ko": "네, 저도 거기서 봤어요."
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "Yes,",
-                    "ko": "네"
-                  },
-                  {
-                    "en": "I saw it",
-                    "ko": "저도 봤어요"
-                  },
-                  {
-                    "en": "there too.",
-                    "ko": "거기서도."
-                  }
-                ]
-              }
-            },
-            {
-              "action": "choose_location",
-              "question_en": "Where should you look?",
-              "options": [
-                "behind the mill",
-                "at the village gate",
-                "on the roof"
+              "lines": [
+                {
+                  "speaker": "Narrator",
+                  "en": "Bran's hands are shaking.",
+                  "ko": "브랜의 손이 떨리고 있다.",
+                  "chunks": [
+                    {
+                      "en": "Bran's hands are shaking.",
+                      "ko": "브랜의 손이 떨리고 있다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Bran's hands",
+                      "ko": "브랜의 손이"
+                    },
+                    {
+                      "en": "are shaking.",
+                      "ko": "떨리고 있다."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_5",
+                  "en": "My flour sack is gone.",
+                  "ko": "내 밀가루 자루가 사라졌어요.",
+                  "chunks": [
+                    {
+                      "en": "My flour sack is gone.",
+                      "ko": "내 밀가루 자루가 사라졌어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "My flour sack",
+                      "ko": "내 밀가루 자루가"
+                    },
+                    {
+                      "en": "is gone.",
+                      "ko": "사라졌어요."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_5",
+                  "en": "I left it behind the mill, but this morning it was gone.",
+                  "ko": "어젯밤 방앗간 뒤에 두었는데, 오늘 아침에 없어졌어요.",
+                  "chunks": [
+                    {
+                      "en": "I left it behind the mill, but this morning it was gone.",
+                      "ko": "어젯밤 방앗간 뒤에 두었는데, 오늘 아침에 없어졌어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I left it",
+                      "ko": "나는 두었어요 그것을"
+                    },
+                    {
+                      "en": "behind the mill,",
+                      "ko": "방앗간 뒤에"
+                    },
+                    {
+                      "en": "but this morning",
+                      "ko": "하지만 오늘 아침"
+                    },
+                    {
+                      "en": "it was gone.",
+                      "ko": "그것이 사라졌어요."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_5",
+                  "en": "My mother sewed a recipe card inside it.",
+                  "ko": "어머니가 그 안에 요리법 카드를 꿰매 두셨어요.",
+                  "chunks": [
+                    {
+                      "en": "My mother sewed a recipe card inside it.",
+                      "ko": "어머니가 그 안에 요리법 카드를 꿰매 두셨어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "My mother",
+                      "ko": "어머니가"
+                    },
+                    {
+                      "en": "sewed",
+                      "ko": "꿰매 넣으셨어요"
+                    },
+                    {
+                      "en": "a recipe card",
+                      "ko": "요리법 카드를"
+                    },
+                    {
+                      "en": "inside it.",
+                      "ko": "그 안에."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_5",
+                  "en": "Without that card, I cannot bake for tomorrow's festival.",
+                  "ko": "그 카드가 없으면 내일 축제 빵을 구울 수 없어요.",
+                  "chunks": [
+                    {
+                      "en": "Without that card, I cannot bake for tomorrow's festival.",
+                      "ko": "그 카드가 없으면 내일 축제 빵을 구울 수 없어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Without that card,",
+                      "ko": "그 카드가 없으면"
+                    },
+                    {
+                      "en": "I",
+                      "ko": "저는"
+                    },
+                    {
+                      "en": "cannot bake",
+                      "ko": "구울 수 없어요"
+                    },
+                    {
+                      "en": "for tomorrow's festival.",
+                      "ko": "내일 축제를 위해."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Subject",
+                  "en": "We will find it together.",
+                  "ko": "우리가 함께 찾아볼게요.",
+                  "chunks": [
+                    {
+                      "en": "We will find it together.",
+                      "ko": "우리가 함께 찾아볼게요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "We",
+                      "ko": "우리가"
+                    },
+                    {
+                      "en": "will find",
+                      "ko": "찾을 거예요"
+                    },
+                    {
+                      "en": "it",
+                      "ko": "그것을"
+                    },
+                    {
+                      "en": "together.",
+                      "ko": "함께."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_5",
+                  "en": "Please start with Belle. She works near the mill.",
+                  "ko": "벨에게 먼저 가 보세요. 방앗간 근처에서 일해요.",
+                  "chunks": [
+                    {
+                      "en": "Please start with Belle. She works near the mill.",
+                      "ko": "벨에게 먼저 가 보세요. 방앗간 근처에서 일해요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Please start",
+                      "ko": "시작해 주세요"
+                    },
+                    {
+                      "en": "with Belle.",
+                      "ko": "벨에게"
+                    },
+                    {
+                      "en": "She works",
+                      "ko": "그녀는 일해요"
+                    },
+                    {
+                      "en": "near the mill.",
+                      "ko": "방앗간 근처에서."
+                    }
+                  ]
+                }
               ],
-              "correct_index": 0,
-              "feedback_ko": "두 주민이 알려 준 위치를 확인하세요.",
-              "grant_evidence": "g1_found_item"
+              "npc": "g1_extra_5"
             },
             {
-              "npc": "g1_extra_5",
+              "action": "talk",
+              "lines": [
+                {
+                  "speaker": "g1_extra_6",
+                  "en": "I saw a small shadow near the mill at sunset.",
+                  "ko": "해 질 무렵 방앗간 근처에서 작은 그림자를 봤어요.",
+                  "chunks": [
+                    {
+                      "en": "I saw a small shadow near the mill at sunset.",
+                      "ko": "해 질 무렵 방앗간 근처에서 작은 그림자를 봤어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I saw",
+                      "ko": "나는 봤어요"
+                    },
+                    {
+                      "en": "a small shadow",
+                      "ko": "작은 그림자를"
+                    },
+                    {
+                      "en": "near the mill",
+                      "ko": "방앗간 근처에서"
+                    },
+                    {
+                      "en": "at sunset.",
+                      "ko": "해 질 무렵."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_6",
+                  "en": "It was dragging something heavy across the grass.",
+                  "ko": "그림자는 무거운 무언가를 풀밭 위로 끌고 있었어요.",
+                  "chunks": [
+                    {
+                      "en": "It was dragging something heavy across the grass.",
+                      "ko": "그림자는 무거운 무언가를 풀밭 위로 끌고 있었어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "It was dragging",
+                      "ko": "그것은 끌고 있었어요"
+                    },
+                    {
+                      "en": "something heavy",
+                      "ko": "무거운 무언가를"
+                    },
+                    {
+                      "en": "across the grass.",
+                      "ko": "풀밭을 가로질러."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Subject",
+                  "en": "Was it a thief?",
+                  "ko": "도둑이었나요?",
+                  "chunks": [
+                    {
+                      "en": "Was it a thief?",
+                      "ko": "도둑이었나요?"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Was it",
+                      "ko": "그것은 ~였나요"
+                    },
+                    {
+                      "en": "a thief?",
+                      "ko": "도둑?"
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_6",
+                  "en": "I am not sure. It looked too small to be an adult.",
+                  "ko": "잘 모르겠어요. 어른이라기엔 너무 작아 보였어요.",
+                  "chunks": [
+                    {
+                      "en": "I am not sure. It looked too small to be an adult.",
+                      "ko": "잘 모르겠어요. 어른이라기엔 너무 작아 보였어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I am not sure.",
+                      "ko": "나는 확신이 없어요"
+                    },
+                    {
+                      "en": "It looked",
+                      "ko": "그것은 보였어요"
+                    },
+                    {
+                      "en": "too small",
+                      "ko": "너무 작게"
+                    },
+                    {
+                      "en": "to be an adult.",
+                      "ko": "어른이기에는."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_6",
+                  "en": "Ask Amy. She plays by the mill every evening.",
+                  "ko": "에이미에게 물어보세요. 저녁마다 방앗간 옆에서 놀아요.",
+                  "chunks": [
+                    {
+                      "en": "Ask Amy. She plays by the mill every evening.",
+                      "ko": "에이미에게 물어보세요. 저녁마다 방앗간 옆에서 놀아요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Ask Amy.",
+                      "ko": "에이미에게 물어보세요"
+                    },
+                    {
+                      "en": "She plays",
+                      "ko": "그녀는 놀아요"
+                    },
+                    {
+                      "en": "by the mill",
+                      "ko": "방앗간 옆에서"
+                    },
+                    {
+                      "en": "every evening.",
+                      "ko": "저녁마다."
+                    }
+                  ]
+                }
+              ],
+              "npc": "g1_extra_6"
+            },
+            {
+              "action": "confirm",
+              "lines": [
+                {
+                  "speaker": "Narrator",
+                  "en": "Amy looks at her shoes and says nothing.",
+                  "ko": "에이미는 신발을 내려다보며 아무 말도 하지 않는다.",
+                  "chunks": [
+                    {
+                      "en": "Amy looks at her shoes and says nothing.",
+                      "ko": "에이미는 신발을 내려다보며 아무 말도 하지 않는다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Amy",
+                      "ko": "에이미는"
+                    },
+                    {
+                      "en": "looks at her shoes",
+                      "ko": "신발을 내려다본다"
+                    },
+                    {
+                      "en": "and says nothing.",
+                      "ko": "그리고 아무 말도 하지 않는다."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_8",
+                  "en": "I did not take anything!",
+                  "ko": "저는 아무것도 안 가져갔어요!",
+                  "chunks": [
+                    {
+                      "en": "I did not take anything!",
+                      "ko": "저는 아무것도 안 가져갔어요!"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I did not take",
+                      "ko": "저는 가져가지 않았어요"
+                    },
+                    {
+                      "en": "anything!",
+                      "ko": "아무것도!"
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Subject",
+                  "en": "Your shoes are covered with white powder.",
+                  "ko": "네 신발에 하얀 가루가 잔뜩 묻었구나.",
+                  "chunks": [
+                    {
+                      "en": "Your shoes are covered with white powder.",
+                      "ko": "네 신발에 하얀 가루가 잔뜩 묻었구나."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Your shoes",
+                      "ko": "네 신발은"
+                    },
+                    {
+                      "en": "are covered",
+                      "ko": "덮여 있어"
+                    },
+                    {
+                      "en": "with white powder.",
+                      "ko": "하얀 가루로."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_8",
+                  "en": "It is just... sand from the river.",
+                  "ko": "그건 그냥... 강가의 모래예요.",
+                  "chunks": [
+                    {
+                      "en": "It is just... sand from the river.",
+                      "ko": "그건 그냥... 강가의 모래예요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "It is just...",
+                      "ko": "그건 그냥"
+                    },
+                    {
+                      "en": "sand",
+                      "ko": "모래예요"
+                    },
+                    {
+                      "en": "from the river.",
+                      "ko": "강에서 온."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Narrator",
+                  "en": "She runs away before you can ask more.",
+                  "ko": "에이미는 더 묻기 전에 달아난다.",
+                  "chunks": [
+                    {
+                      "en": "She runs away before you can ask more.",
+                      "ko": "에이미는 더 묻기 전에 달아난다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "She runs away",
+                      "ko": "그녀는 달아난다"
+                    },
+                    {
+                      "en": "before",
+                      "ko": "~하기 전에"
+                    },
+                    {
+                      "en": "you can ask more.",
+                      "ko": "네가 더 물을 수 있기."
+                    }
+                  ]
+                }
+              ],
+              "npc": "g1_extra_8"
+            },
+            {
+              "action": "talk",
+              "lines": [
+                {
+                  "speaker": "g1_extra_7",
+                  "en": "Look at the ground. These footprints are small and white.",
+                  "ko": "땅을 봐요. 이 발자국들은 작고 하얘요.",
+                  "chunks": [
+                    {
+                      "en": "Look at the ground. These footprints are small and white.",
+                      "ko": "땅을 봐요. 이 발자국들은 작고 하얘요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Look at the ground.",
+                      "ko": "땅을 보세요"
+                    },
+                    {
+                      "en": "These footprints",
+                      "ko": "이 발자국들은"
+                    },
+                    {
+                      "en": "are small",
+                      "ko": "작아요"
+                    },
+                    {
+                      "en": "and white.",
+                      "ko": "그리고 하얘요."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_7",
+                  "en": "They go past my flower bed and stop near the old shed.",
+                  "ko": "발자국은 내 화단을 지나 낡은 헛간 근처에서 멈춰요.",
+                  "chunks": [
+                    {
+                      "en": "They go past my flower bed and stop near the old shed.",
+                      "ko": "발자국은 내 화단을 지나 낡은 헛간 근처에서 멈춰요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "They go",
+                      "ko": "그것들은 가요"
+                    },
+                    {
+                      "en": "past my flower bed",
+                      "ko": "내 화단을 지나"
+                    },
+                    {
+                      "en": "and stop",
+                      "ko": "그리고 멈춰요"
+                    },
+                    {
+                      "en": "near the old shed.",
+                      "ko": "낡은 헛간 근처에서."
+                    }
+                  ]
+                }
+              ],
+              "npc": "g1_extra_7",
+              "task": {
+                "question_en": "Where do the footprints lead?",
+                "question_ko": "발자국은 어디로 이어질까요?",
+                "options": [
+                  "to the old shed",
+                  "to the village gate",
+                  "into the river"
+                ],
+                "correct_index": 0,
+                "feedback_ko": "아이비가 알려 준 발자국의 끝을 다시 떠올려 보세요."
+              }
+            },
+            {
+              "action": "search",
+              "lines": [
+                {
+                  "speaker": "Narrator",
+                  "en": "The old shed smells like dust and hay.",
+                  "ko": "낡은 헛간에서는 먼지와 건초 냄새가 난다.",
+                  "chunks": [
+                    {
+                      "en": "The old shed smells like dust and hay.",
+                      "ko": "낡은 헛간에서는 먼지와 건초 냄새가 난다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The old shed",
+                      "ko": "낡은 헛간은"
+                    },
+                    {
+                      "en": "smells",
+                      "ko": "냄새가 난다"
+                    },
+                    {
+                      "en": "like dust and hay.",
+                      "ko": "먼지와 건초 같은."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Narrator",
+                  "en": "Behind a bale of hay, you find a flour sack.",
+                  "ko": "건초 더미 뒤에서 밀가루 자루를 발견한다.",
+                  "chunks": [
+                    {
+                      "en": "Behind a bale of hay, you find a flour sack.",
+                      "ko": "건초 더미 뒤에서 밀가루 자루를 발견한다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Behind a bale of hay,",
+                      "ko": "건초 더미 뒤에서"
+                    },
+                    {
+                      "en": "you find",
+                      "ko": "너는 발견한다"
+                    },
+                    {
+                      "en": "a flour sack.",
+                      "ko": "밀가루 자루를."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Narrator",
+                  "en": "The sack is dry, and the recipe card is still inside.",
+                  "ko": "자루는 말라 있고 요리법 카드도 그대로 안에 있다.",
+                  "chunks": [
+                    {
+                      "en": "The sack is dry, and the recipe card is still inside.",
+                      "ko": "자루는 말라 있고 요리법 카드도 그대로 안에 있다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The sack is dry,",
+                      "ko": "자루는 말라 있다"
+                    },
+                    {
+                      "en": "and the recipe card",
+                      "ko": "그리고 요리법 카드는"
+                    },
+                    {
+                      "en": "is still inside.",
+                      "ko": "여전히 안에 있다."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Narrator",
+                  "en": "Someone covered it with a blanket to keep it safe.",
+                  "ko": "누군가 안전하게 지키려고 담요로 덮어 두었다.",
+                  "chunks": [
+                    {
+                      "en": "Someone covered it with a blanket to keep it safe.",
+                      "ko": "누군가 안전하게 지키려고 담요로 덮어 두었다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Someone",
+                      "ko": "누군가"
+                    },
+                    {
+                      "en": "covered it",
+                      "ko": "덮어 두었다"
+                    },
+                    {
+                      "en": "with a blanket",
+                      "ko": "담요로"
+                    },
+                    {
+                      "en": "to keep it safe.",
+                      "ko": "안전하게 지키려고."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_8",
+                  "en": "I... I only wanted to protect it!",
+                  "ko": "저는... 그저 지키고 싶었어요!",
+                  "chunks": [
+                    {
+                      "en": "I... I only wanted to protect it!",
+                      "ko": "저는... 그저 지키고 싶었어요!"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I... I only wanted",
+                      "ko": "저는... 그저 원했어요"
+                    },
+                    {
+                      "en": "to protect it!",
+                      "ko": "그것을 지키기를!"
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_8",
+                  "en": "It was raining, and the sack was lying in the mud.",
+                  "ko": "비가 오는데 자루가 진흙 위에 놓여 있었어요.",
+                  "chunks": [
+                    {
+                      "en": "It was raining, and the sack was lying in the mud.",
+                      "ko": "비가 오는데 자루가 진흙 위에 놓여 있었어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "It was raining,",
+                      "ko": "비가 오고 있었어요"
+                    },
+                    {
+                      "en": "and the sack",
+                      "ko": "그리고 자루는"
+                    },
+                    {
+                      "en": "was lying",
+                      "ko": "놓여 있었어요"
+                    },
+                    {
+                      "en": "in the mud.",
+                      "ko": "진흙 속에."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_8",
+                  "en": "I was afraid Mr. Bran would be angry because I moved it.",
+                  "ko": "제가 옮겨서 브랜 아저씨가 화낼까 봐 무서웠어요.",
+                  "chunks": [
+                    {
+                      "en": "I was afraid Mr. Bran would be angry because I moved it.",
+                      "ko": "제가 옮겨서 브랜 아저씨가 화낼까 봐 무서웠어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I was afraid",
+                      "ko": "나는 무서웠어요"
+                    },
+                    {
+                      "en": "Mr. Bran would be angry",
+                      "ko": "브랜 아저씨가 화낼까 봐"
+                    },
+                    {
+                      "en": "because I moved it.",
+                      "ko": "왜냐하면 내가 옮겼으니까."
+                    }
+                  ]
+                }
+              ],
+              "field": "nbg_05.webp",
+              "task": {
+                "question_en": "How will you speak to Amy?",
+                "question_ko": "에이미에게 어떻게 말할까요?",
+                "options": [
+                  "You did the right thing.",
+                  "Next time, tell someone first.",
+                  "Let us return it together."
+                ],
+                "correct_index": 0,
+                "choice": true,
+                "flag": "g1_amy_choice",
+                "reactions": [
+                  [
+                    {
+                      "speaker": "g1_extra_8",
+                      "en": "Really? Thank you!",
+                      "ko": "정말요? 고마워요!",
+                      "chunks": [
+                        {
+                          "en": "Really? Thank you!",
+                          "ko": "정말요? 고마워요!"
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "Really?",
+                          "ko": "정말요?"
+                        },
+                        {
+                          "en": "Thank you!",
+                          "ko": "고마워요!"
+                        }
+                      ]
+                    },
+                    {
+                      "speaker": "Narrator",
+                      "en": "Her shoulders relax for the first time today.",
+                      "ko": "에이미의 어깨가 오늘 처음으로 풀린다.",
+                      "chunks": [
+                        {
+                          "en": "Her shoulders relax for the first time today.",
+                          "ko": "에이미의 어깨가 오늘 처음으로 풀린다."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "Her shoulders relax",
+                          "ko": "그녀의 어깨가 풀린다"
+                        },
+                        {
+                          "en": "for the first time today.",
+                          "ko": "오늘 처음으로."
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "speaker": "g1_extra_8",
+                      "en": "You are right. I should have asked.",
+                      "ko": "맞아요. 먼저 물어봤어야 했어요.",
+                      "chunks": [
+                        {
+                          "en": "You are right. I should have asked.",
+                          "ko": "맞아요. 먼저 물어봤어야 했어요."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "You are right.",
+                          "ko": "맞아요"
+                        },
+                        {
+                          "en": "I",
+                          "ko": "나는"
+                        },
+                        {
+                          "en": "should have asked.",
+                          "ko": "물어봤어야 했어요."
+                        }
+                      ]
+                    },
+                    {
+                      "speaker": "Narrator",
+                      "en": "She nods and wipes her eyes.",
+                      "ko": "에이미는 고개를 끄덕이며 눈물을 닦는다.",
+                      "chunks": [
+                        {
+                          "en": "She nods and wipes her eyes.",
+                          "ko": "에이미는 고개를 끄덕이며 눈물을 닦는다."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "She nods",
+                          "ko": "그녀는 끄덕인다"
+                        },
+                        {
+                          "en": "and wipes her eyes.",
+                          "ko": "그리고 눈을 닦는다."
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "speaker": "g1_extra_8",
+                      "en": "Together? I will carry the card.",
+                      "ko": "같이요? 제가 카드를 들게요.",
+                      "chunks": [
+                        {
+                          "en": "Together? I will carry the card.",
+                          "ko": "같이요? 제가 카드를 들게요."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "Together?",
+                          "ko": "함께요?"
+                        },
+                        {
+                          "en": "I",
+                          "ko": "내가"
+                        },
+                        {
+                          "en": "will carry",
+                          "ko": "들게요"
+                        },
+                        {
+                          "en": "the card.",
+                          "ko": "카드를."
+                        }
+                      ]
+                    },
+                    {
+                      "speaker": "Narrator",
+                      "en": "She smiles and takes your hand.",
+                      "ko": "에이미는 미소 지으며 네 손을 잡는다.",
+                      "chunks": [
+                        {
+                          "en": "She smiles and takes your hand.",
+                          "ko": "에이미는 미소 지으며 네 손을 잡는다."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "She smiles",
+                          "ko": "그녀는 미소 짓는다"
+                        },
+                        {
+                          "en": "and takes your hand.",
+                          "ko": "그리고 네 손을 잡는다."
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              }
+            },
+            {
               "action": "return",
-              "line": {
-                "en": "Thank you. I have the missing item back, and I will mark where it belongs.",
-                "ko": "고마워요. 잃어버린 물건을 찾았으니 제자리에 표시를 해 둘게요.",
-                "chunks": [
-                  {
-                    "en": "Thank you. I have the missing item back, and I will mark where it belongs.",
-                    "ko": "고마워요. 잃어버린 물건을 찾았으니 제자리에 표시를 해 둘게요."
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "Thank you.",
-                    "ko": "고마워요."
-                  },
-                  {
-                    "en": "I have",
-                    "ko": "저는 가지고 있어요"
-                  },
-                  {
-                    "en": "the missing item",
-                    "ko": "잃어버린 물건을"
-                  },
-                  {
-                    "en": "back,",
-                    "ko": "되찾아서"
-                  },
-                  {
-                    "en": "and I will mark",
-                    "ko": "그리고 표시해 둘게요"
-                  },
-                  {
-                    "en": "where it belongs.",
-                    "ko": "그것이 속한 곳에."
-                  }
-                ]
-              }
+              "lines": [
+                {
+                  "speaker": "Narrator",
+                  "en": "Bran sees the sack and drops his hat.",
+                  "ko": "브랜은 자루를 보고 모자를 떨어뜨린다.",
+                  "chunks": [
+                    {
+                      "en": "Bran sees the sack and drops his hat.",
+                      "ko": "브랜은 자루를 보고 모자를 떨어뜨린다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Bran",
+                      "ko": "브랜은"
+                    },
+                    {
+                      "en": "sees the sack",
+                      "ko": "자루를 본다"
+                    },
+                    {
+                      "en": "and drops his hat.",
+                      "ko": "그리고 모자를 떨어뜨린다."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_5",
+                  "en": "My mother's card! It is safe!",
+                  "ko": "어머니의 카드야! 무사하구나!",
+                  "chunks": [
+                    {
+                      "en": "My mother's card! It is safe!",
+                      "ko": "어머니의 카드야! 무사하구나!"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "My mother's card!",
+                      "ko": "어머니의 카드야!"
+                    },
+                    {
+                      "en": "It is safe!",
+                      "ko": "그것은 안전하구나!"
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_8",
+                  "en": "I am sorry, Mr. Bran. I moved your sack without asking.",
+                  "ko": "죄송해요, 브랜 아저씨. 말도 안 하고 자루를 옮겼어요.",
+                  "chunks": [
+                    {
+                      "en": "I am sorry, Mr. Bran. I moved your sack without asking.",
+                      "ko": "죄송해요, 브랜 아저씨. 말도 안 하고 자루를 옮겼어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I am sorry,",
+                      "ko": "죄송해요"
+                    },
+                    {
+                      "en": "Mr. Bran.",
+                      "ko": "브랜 아저씨"
+                    },
+                    {
+                      "en": "I moved your sack",
+                      "ko": "나는 아저씨의 자루를 옮겼어요"
+                    },
+                    {
+                      "en": "without asking.",
+                      "ko": "묻지 않고."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_5",
+                  "en": "If you had not moved it, the rain would have ruined it.",
+                  "ko": "네가 옮기지 않았다면 비가 자루를 망쳐 놓았을 거야.",
+                  "chunks": [
+                    {
+                      "en": "If you had not moved it, the rain would have ruined it.",
+                      "ko": "네가 옮기지 않았다면 비가 자루를 망쳐 놓았을 거야."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "If you had not moved it,",
+                      "ko": "네가 옮기지 않았다면"
+                    },
+                    {
+                      "en": "the rain",
+                      "ko": "비가"
+                    },
+                    {
+                      "en": "would have ruined",
+                      "ko": "망쳐 놓았을 거야"
+                    },
+                    {
+                      "en": "it.",
+                      "ko": "그것을."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_5",
+                  "en": "You did not steal anything. You saved it.",
+                  "ko": "넌 아무것도 훔치지 않았어. 네가 지켜 준 거란다.",
+                  "chunks": [
+                    {
+                      "en": "You did not steal anything. You saved it.",
+                      "ko": "넌 아무것도 훔치지 않았어. 네가 지켜 준 거란다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "You did not steal",
+                      "ko": "너는 훔치지 않았어"
+                    },
+                    {
+                      "en": "anything.",
+                      "ko": "아무것도"
+                    },
+                    {
+                      "en": "You saved it.",
+                      "ko": "너는 구했어 그것을."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_5",
+                  "en": "Would you like to help me bake tomorrow?",
+                  "ko": "내일 빵 굽는 걸 도와주겠니?",
+                  "chunks": [
+                    {
+                      "en": "Would you like to help me bake tomorrow?",
+                      "ko": "내일 빵 굽는 걸 도와주겠니?"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Would you like",
+                      "ko": "~하고 싶니"
+                    },
+                    {
+                      "en": "to help me bake",
+                      "ko": "내가 굽는 걸 돕기를"
+                    },
+                    {
+                      "en": "tomorrow?",
+                      "ko": "내일."
+                    }
+                  ]
+                }
+              ],
+              "npc": "g1_extra_5"
             },
             {
-              "npc": "g1_extra_6",
               "action": "epilogue",
-              "line": {
-                "en": "I am glad we could help.",
-                "ko": "우리가 도울 수 있어서 기뻐요.",
-                "chunks": [
-                  {
-                    "en": "I am glad we could help.",
-                    "ko": "우리가 도울 수 있어서 기뻐요."
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "I",
-                    "ko": "저는"
-                  },
-                  {
-                    "en": "am glad",
-                    "ko": "기뻐요"
-                  },
-                  {
-                    "en": "we",
-                    "ko": "우리가"
-                  },
-                  {
-                    "en": "could help.",
-                    "ko": "도울 수 있어서."
-                  }
-                ]
-              }
+              "lines": [
+                {
+                  "speaker": "g1_extra_6",
+                  "en": "I heard the happy noise from my window.",
+                  "ko": "창문 너머로 기쁜 소리가 들렸어요.",
+                  "chunks": [
+                    {
+                      "en": "I heard the happy noise from my window.",
+                      "ko": "창문 너머로 기쁜 소리가 들렸어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I heard",
+                      "ko": "나는 들었어요"
+                    },
+                    {
+                      "en": "the happy noise",
+                      "ko": "기쁜 소리를"
+                    },
+                    {
+                      "en": "from my window.",
+                      "ko": "내 창문에서."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_6",
+                  "en": "At tomorrow's festival, Bran and Amy will bake the first loaf together.",
+                  "ko": "내일 축제에서 브랜과 에이미가 첫 빵을 함께 구울 거예요.",
+                  "chunks": [
+                    {
+                      "en": "At tomorrow's festival, Bran and Amy will bake the first loaf together.",
+                      "ko": "내일 축제에서 브랜과 에이미가 첫 빵을 함께 구울 거예요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "At tomorrow's festival,",
+                      "ko": "내일 축제에서"
+                    },
+                    {
+                      "en": "Bran and Amy",
+                      "ko": "브랜과 에이미가"
+                    },
+                    {
+                      "en": "will bake",
+                      "ko": "구울 거예요"
+                    },
+                    {
+                      "en": "the first loaf",
+                      "ko": "첫 빵을"
+                    },
+                    {
+                      "en": "together.",
+                      "ko": "함께."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_6",
+                  "en": "I will save you a warm slice.",
+                  "ko": "따뜻한 한 조각을 남겨 둘게요.",
+                  "chunks": [
+                    {
+                      "en": "I will save you a warm slice.",
+                      "ko": "따뜻한 한 조각을 남겨 둘게요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I will save",
+                      "ko": "나는 남겨 둘게요"
+                    },
+                    {
+                      "en": "you",
+                      "ko": "당신에게"
+                    },
+                    {
+                      "en": "a warm slice.",
+                      "ko": "따뜻한 한 조각을."
+                    }
+                  ]
+                }
+              ],
+              "npc": "g1_extra_6"
             }
           ],
           "reward": {
@@ -841,170 +1785,756 @@
           "title_ko": "야간 경비의 빵",
           "steps": [
             {
-              "npc": "g1_extra_3",
               "action": "accept",
-              "line": {
-                "en": "Please ask the shop for a warm loaf.",
-                "ko": "상점에 따뜻한 빵 한 덩이를 부탁해 주세요.",
-                "chunks": [
-                  {
-                    "en": "Please ask the shop for a warm loaf.",
-                    "ko": "상점에 따뜻한 빵 한 덩이를 부탁해 주세요.",
-                    "direct_chunks": [
-                      {
-                        "en": "Please ask",
-                        "ko": "부탁해 주세요"
-                      },
-                      {
-                        "en": "the shop",
-                        "ko": "상점에"
-                      },
-                      {
-                        "en": "for a warm loaf.",
-                        "ko": "따뜻한 빵 한 덩이를."
-                      }
-                    ]
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "Please ask",
-                    "ko": "부탁해 주세요"
-                  },
-                  {
-                    "en": "the shop",
-                    "ko": "상점에"
-                  },
-                  {
-                    "en": "for a warm loaf.",
-                    "ko": "따뜻한 빵 한 덩이를."
-                  }
-                ]
-              }
+              "lines": [
+                {
+                  "speaker": "g1_extra_3",
+                  "en": "Arden has not eaten since yesterday.",
+                  "ko": "아든은 어제부터 아무것도 먹지 않았어요.",
+                  "chunks": [
+                    {
+                      "en": "Arden has not eaten since yesterday.",
+                      "ko": "아든은 어제부터 아무것도 먹지 않았어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Arden",
+                      "ko": "아든은"
+                    },
+                    {
+                      "en": "has not eaten",
+                      "ko": "먹지 않았어요"
+                    },
+                    {
+                      "en": "since yesterday.",
+                      "ko": "어제부터."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_3",
+                  "en": "He says the road must never be empty at night.",
+                  "ko": "그는 밤에 길이 절대 비어서는 안 된다고 말해요.",
+                  "chunks": [
+                    {
+                      "en": "He says the road must never be empty at night.",
+                      "ko": "그는 밤에 길이 절대 비어서는 안 된다고 말해요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "He says",
+                      "ko": "그는 말해요"
+                    },
+                    {
+                      "en": "the road",
+                      "ko": "길이"
+                    },
+                    {
+                      "en": "must never be",
+                      "ko": "절대 ~여서는 안 된다고"
+                    },
+                    {
+                      "en": "empty at night.",
+                      "ko": "비어 있다 밤에."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_3",
+                  "en": "Last spring, a flood caught travelers on that road.",
+                  "ko": "지난봄 홍수가 그 길에서 여행자들을 덮쳤어요.",
+                  "chunks": [
+                    {
+                      "en": "Last spring, a flood caught travelers on that road.",
+                      "ko": "지난봄 홍수가 그 길에서 여행자들을 덮쳤어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Last spring,",
+                      "ko": "지난봄"
+                    },
+                    {
+                      "en": "a flood",
+                      "ko": "홍수가"
+                    },
+                    {
+                      "en": "caught travelers",
+                      "ko": "여행자들을 덮쳤어요"
+                    },
+                    {
+                      "en": "on that road.",
+                      "ko": "그 길에서."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Subject",
+                  "en": "And since then, he never leaves.",
+                  "ko": "그 뒤로 그는 한 번도 자리를 뜨지 않는군요.",
+                  "chunks": [
+                    {
+                      "en": "And since then, he never leaves.",
+                      "ko": "그 뒤로 그는 한 번도 자리를 뜨지 않는군요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "And since then,",
+                      "ko": "그리고 그때부터"
+                    },
+                    {
+                      "en": "he",
+                      "ko": "그는"
+                    },
+                    {
+                      "en": "never leaves.",
+                      "ko": "절대 떠나지 않는군요."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_3",
+                  "en": "Please bring him a warm loaf. Apple will help you.",
+                  "ko": "그에게 따뜻한 빵을 가져다주세요. 애플이 도와줄 거예요.",
+                  "chunks": [
+                    {
+                      "en": "Please bring him a warm loaf. Apple will help you.",
+                      "ko": "그에게 따뜻한 빵을 가져다주세요. 애플이 도와줄 거예요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Please bring",
+                      "ko": "가져다주세요"
+                    },
+                    {
+                      "en": "him",
+                      "ko": "그에게"
+                    },
+                    {
+                      "en": "a warm loaf.",
+                      "ko": "따뜻한 빵을"
+                    },
+                    {
+                      "en": "Apple",
+                      "ko": "애플이"
+                    },
+                    {
+                      "en": "will help you.",
+                      "ko": "당신을 도울 거예요."
+                    }
+                  ]
+                }
+              ],
+              "npc": "g1_extra_3"
             },
             {
-              "npc": "g1_extra_2",
               "action": "exchange",
-              "line": {
-                "en": "Here is a warm loaf for the watch keeper.",
-                "ko": "경비원에게 전할 따뜻한 빵 한 덩이이에요.",
-                "chunks": [
-                  {
-                    "en": "Here is a warm loaf for the watch keeper.",
-                    "ko": "경비원에게 전할 따뜻한 빵 한 덩이이에요.",
-                    "direct_chunks": [
-                      {
-                        "en": "Here is",
-                        "ko": "여기 있어요"
-                      },
-                      {
-                        "en": "a warm loaf",
-                        "ko": "따뜻한 빵 한 덩이가"
-                      },
-                      {
-                        "en": "for the watch keeper.",
-                        "ko": "경비원을 위한."
-                      }
-                    ]
-                  }
+              "lines": [
+                {
+                  "speaker": "g1_extra_2",
+                  "en": "I have warm bread, but only two loaves are left.",
+                  "ko": "따뜻한 빵이 있지만 두 덩이밖에 안 남았어요.",
+                  "chunks": [
+                    {
+                      "en": "I have warm bread, but only two loaves are left.",
+                      "ko": "따뜻한 빵이 있지만 두 덩이밖에 안 남았어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I have warm bread,",
+                      "ko": "나는 따뜻한 빵이 있어요"
+                    },
+                    {
+                      "en": "but only two loaves",
+                      "ko": "하지만 두 덩이만"
+                    },
+                    {
+                      "en": "are left.",
+                      "ko": "남아 있어요."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_2",
+                  "en": "Everything sells fast before the festival.",
+                  "ko": "축제 전에는 뭐든 빨리 팔려요.",
+                  "chunks": [
+                    {
+                      "en": "Everything sells fast before the festival.",
+                      "ko": "축제 전에는 뭐든 빨리 팔려요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Everything",
+                      "ko": "모든 것이"
+                    },
+                    {
+                      "en": "sells fast",
+                      "ko": "빨리 팔려요"
+                    },
+                    {
+                      "en": "before the festival.",
+                      "ko": "축제 전에는."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_2",
+                  "en": "Please ask in a polite way, and I will sell one.",
+                  "ko": "공손하게 부탁하면 한 덩이 팔게요.",
+                  "chunks": [
+                    {
+                      "en": "Please ask in a polite way, and I will sell one.",
+                      "ko": "공손하게 부탁하면 한 덩이 팔게요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Please ask",
+                      "ko": "부탁하세요"
+                    },
+                    {
+                      "en": "in a polite way,",
+                      "ko": "공손한 방식으로"
+                    },
+                    {
+                      "en": "and I will sell",
+                      "ko": "그러면 내가 팔게요"
+                    },
+                    {
+                      "en": "one.",
+                      "ko": "하나를."
+                    }
+                  ]
+                }
+              ],
+              "npc": "g1_extra_2",
+              "task": {
+                "question_en": "How do you ask politely?",
+                "question_ko": "어떻게 공손하게 부탁할까요?",
+                "options": [
+                  "Could I have a warm loaf, please?",
+                  "Give me the loaf now.",
+                  "I want loaf."
                 ],
-                "direct_chunks": [
-                  {
-                    "en": "Here is",
-                    "ko": "여기 있어요"
-                  },
-                  {
-                    "en": "a warm loaf",
-                    "ko": "따뜻한 빵 한 덩이가"
-                  },
-                  {
-                    "en": "for the watch keeper.",
-                    "ko": "경비원을 위한."
-                  }
-                ]
+                "correct_index": 0,
+                "feedback_ko": "공손한 요청은 Could로 시작하고 please를 붙입니다."
               }
             },
             {
-              "npc": "g1_extra_7",
               "action": "deliver",
-              "line": {
-                "en": "I will put it to use today.",
-                "ko": "잘 받았어요. 오늘 바로 쓸게요.",
-                "chunks": [
-                  {
-                    "en": "I will put it to use today.",
-                    "ko": "잘 받았어요. 오늘 바로 쓸게요.",
-                    "direct_chunks": [
-                      {
-                        "en": "I will put it to use",
-                        "ko": "저는 그것을 쓸게요"
-                      },
-                      {
-                        "en": "today.",
-                        "ko": "오늘."
-                      }
-                    ]
-                  }
+              "lines": [
+                {
+                  "speaker": "g1_extra_7",
+                  "en": "Apple sent you? Then take this lavender.",
+                  "ko": "애플이 보냈군요? 그럼 이 라벤더를 가져가세요.",
+                  "chunks": [
+                    {
+                      "en": "Apple sent you? Then take this lavender.",
+                      "ko": "애플이 보냈군요? 그럼 이 라벤더를 가져가세요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Apple sent you?",
+                      "ko": "애플이 보냈나요 당신을"
+                    },
+                    {
+                      "en": "Then take",
+                      "ko": "그러면 가져가세요"
+                    },
+                    {
+                      "en": "this lavender.",
+                      "ko": "이 라벤더를."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_7",
+                  "en": "It helps tired people relax.",
+                  "ko": "지친 사람들이 쉬는 데 도움이 돼요.",
+                  "chunks": [
+                    {
+                      "en": "It helps tired people relax.",
+                      "ko": "지친 사람들이 쉬는 데 도움이 돼요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "It helps",
+                      "ko": "그것은 도와요"
+                    },
+                    {
+                      "en": "tired people",
+                      "ko": "지친 사람들이"
+                    },
+                    {
+                      "en": "relax.",
+                      "ko": "쉬도록."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_7",
+                  "en": "Arden and I planted the roadside lamp last year.",
+                  "ko": "작년에 아든과 내가 길가 등불을 같이 심었어요.",
+                  "chunks": [
+                    {
+                      "en": "Arden and I planted the roadside lamp last year.",
+                      "ko": "작년에 아든과 내가 길가 등불을 같이 심었어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Arden and I",
+                      "ko": "아든과 나는"
+                    },
+                    {
+                      "en": "planted",
+                      "ko": "세웠어요"
+                    },
+                    {
+                      "en": "the roadside lamp",
+                      "ko": "길가 등불을"
+                    },
+                    {
+                      "en": "last year.",
+                      "ko": "작년에."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_7",
+                  "en": "He called it a promise to every traveler.",
+                  "ko": "그는 그것을 모든 여행자에 대한 약속이라고 불렀어요.",
+                  "chunks": [
+                    {
+                      "en": "He called it a promise to every traveler.",
+                      "ko": "그는 그것을 모든 여행자에 대한 약속이라고 불렀어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "He",
+                      "ko": "그는"
+                    },
+                    {
+                      "en": "called it",
+                      "ko": "불렀어요 그것을"
+                    },
+                    {
+                      "en": "a promise",
+                      "ko": "약속이라고"
+                    },
+                    {
+                      "en": "to every traveler.",
+                      "ko": "모든 여행자에게."
+                    }
+                  ]
+                }
+              ],
+              "npc": "g1_extra_7"
+            },
+            {
+              "action": "deliver",
+              "lines": [
+                {
+                  "speaker": "Narrator",
+                  "en": "Arden holds the loaf, but he does not eat.",
+                  "ko": "아든은 빵을 들고 있지만 먹지 않는다.",
+                  "chunks": [
+                    {
+                      "en": "Arden holds the loaf, but he does not eat.",
+                      "ko": "아든은 빵을 들고 있지만 먹지 않는다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Arden",
+                      "ko": "아든은"
+                    },
+                    {
+                      "en": "holds the loaf,",
+                      "ko": "빵을 들고 있다"
+                    },
+                    {
+                      "en": "but he does not eat.",
+                      "ko": "하지만 그는 먹지 않는다."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_4",
+                  "en": "Thank you, but I cannot leave my post.",
+                  "ko": "고맙지만 자리를 비울 수 없어요.",
+                  "chunks": [
+                    {
+                      "en": "Thank you, but I cannot leave my post.",
+                      "ko": "고맙지만 자리를 비울 수 없어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Thank you,",
+                      "ko": "고맙습니다"
+                    },
+                    {
+                      "en": "but I",
+                      "ko": "하지만 저는"
+                    },
+                    {
+                      "en": "cannot leave",
+                      "ko": "떠날 수 없어요"
+                    },
+                    {
+                      "en": "my post.",
+                      "ko": "제 자리를."
+                    }
+                  ]
+                }
+              ],
+              "npc": "g1_extra_4",
+              "task": {
+                "question_en": "How will you persuade Arden?",
+                "question_ko": "아든을 어떻게 설득할까요?",
+                "options": [
+                  "I will watch the road for you.",
+                  "A hungry guard cannot see well.",
+                  "Amber made it for you."
                 ],
-                "direct_chunks": [
-                  {
-                    "en": "I",
-                    "ko": "저는"
-                  },
-                  {
-                    "en": "will put",
-                    "ko": "쓸게요"
-                  },
-                  {
-                    "en": "it",
-                    "ko": "그것을"
-                  },
-                  {
-                    "en": "to use",
-                    "ko": "사용에"
-                  },
-                  {
-                    "en": "today.",
-                    "ko": "오늘."
-                  }
+                "correct_index": 0,
+                "choice": true,
+                "flag": "g1_arden_choice",
+                "reactions": [
+                  [
+                    {
+                      "speaker": "g1_extra_4",
+                      "en": "You would do that? Then I will eat quickly.",
+                      "ko": "대신 봐 주겠다고요? 그럼 빨리 먹을게요.",
+                      "chunks": [
+                        {
+                          "en": "You would do that? Then I will eat quickly.",
+                          "ko": "대신 봐 주겠다고요? 그럼 빨리 먹을게요."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "You",
+                          "ko": "당신이"
+                        },
+                        {
+                          "en": "would do that?",
+                          "ko": "그렇게 하겠다고요"
+                        },
+                        {
+                          "en": "Then I will eat",
+                          "ko": "그럼 나는 먹을게요"
+                        },
+                        {
+                          "en": "quickly.",
+                          "ko": "빨리."
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "speaker": "g1_extra_4",
+                      "en": "Hmm. That is true. Tired eyes miss small dangers.",
+                      "ko": "음, 맞는 말이에요. 지친 눈은 작은 위험을 놓치죠.",
+                      "chunks": [
+                        {
+                          "en": "Hmm. That is true. Tired eyes miss small dangers.",
+                          "ko": "음, 맞는 말이에요. 지친 눈은 작은 위험을 놓치죠."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "Hmm.",
+                          "ko": "음"
+                        },
+                        {
+                          "en": "That is true.",
+                          "ko": "그것은 사실이에요"
+                        },
+                        {
+                          "en": "Tired eyes",
+                          "ko": "지친 눈은"
+                        },
+                        {
+                          "en": "miss small dangers.",
+                          "ko": "작은 위험을 놓쳐요."
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "speaker": "g1_extra_4",
+                      "en": "Amber made this for me? I cannot refuse her.",
+                      "ko": "앰버가 나를 위해 만들었다고요? 거절할 수 없죠.",
+                      "chunks": [
+                        {
+                          "en": "Amber made this for me? I cannot refuse her.",
+                          "ko": "앰버가 나를 위해 만들었다고요? 거절할 수 없죠."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "Amber",
+                          "ko": "앰버가"
+                        },
+                        {
+                          "en": "made this",
+                          "ko": "만들었다고요 이것을"
+                        },
+                        {
+                          "en": "for me?",
+                          "ko": "나를 위해"
+                        },
+                        {
+                          "en": "I",
+                          "ko": "나는"
+                        },
+                        {
+                          "en": "cannot refuse her.",
+                          "ko": "거절할 수 없어요 그녀를."
+                        }
+                      ]
+                    }
+                  ]
                 ]
               }
             },
             {
-              "npc": "g1_extra_3",
+              "action": "talk",
+              "lines": [
+                {
+                  "speaker": "g1_extra_4",
+                  "en": "Last spring, I told a family the road was safe.",
+                  "ko": "지난봄에 나는 한 가족에게 길이 안전하다고 말했어요.",
+                  "chunks": [
+                    {
+                      "en": "Last spring, I told a family the road was safe.",
+                      "ko": "지난봄에 나는 한 가족에게 길이 안전하다고 말했어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Last spring,",
+                      "ko": "지난봄"
+                    },
+                    {
+                      "en": "I told a family",
+                      "ko": "나는 한 가족에게 말했어요"
+                    },
+                    {
+                      "en": "the road was safe.",
+                      "ko": "길이 안전하다고."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_4",
+                  "en": "An hour later, the river rose over the bridge.",
+                  "ko": "한 시간 뒤 강이 다리 위로 넘쳤어요.",
+                  "chunks": [
+                    {
+                      "en": "An hour later, the river rose over the bridge.",
+                      "ko": "한 시간 뒤 강이 다리 위로 넘쳤어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "An hour later,",
+                      "ko": "한 시간 뒤"
+                    },
+                    {
+                      "en": "the river",
+                      "ko": "강이"
+                    },
+                    {
+                      "en": "rose over the bridge.",
+                      "ko": "다리 위로 솟았어요."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_4",
+                  "en": "Nobody was hurt, but I never forgave myself.",
+                  "ko": "다친 사람은 없었지만 나는 나 자신을 용서하지 못했어요.",
+                  "chunks": [
+                    {
+                      "en": "Nobody was hurt, but I never forgave myself.",
+                      "ko": "다친 사람은 없었지만 나는 나 자신을 용서하지 못했어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Nobody was hurt,",
+                      "ko": "아무도 다치지 않았어요"
+                    },
+                    {
+                      "en": "but I",
+                      "ko": "하지만 나는"
+                    },
+                    {
+                      "en": "never forgave myself.",
+                      "ko": "결코 용서하지 못했어요 나 자신을."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Subject",
+                  "en": "Then you kept the road safe ever since.",
+                  "ko": "그럼 그때부터 당신이 길을 지켜 온 거군요.",
+                  "chunks": [
+                    {
+                      "en": "Then you kept the road safe ever since.",
+                      "ko": "그럼 그때부터 당신이 길을 지켜 온 거군요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Then",
+                      "ko": "그렇다면"
+                    },
+                    {
+                      "en": "you",
+                      "ko": "당신은"
+                    },
+                    {
+                      "en": "kept the road safe",
+                      "ko": "길을 안전하게 지켰군요"
+                    },
+                    {
+                      "en": "ever since.",
+                      "ko": "그 뒤로 쭉."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_4",
+                  "en": "Tonight, I will eat, because someone watched the road with me.",
+                  "ko": "오늘 밤은 먹을게요. 누군가 나와 함께 길을 지켜봐 줬으니까요.",
+                  "chunks": [
+                    {
+                      "en": "Tonight, I will eat, because someone watched the road with me.",
+                      "ko": "오늘 밤은 먹을게요. 누군가 나와 함께 길을 지켜봐 줬으니까요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Tonight,",
+                      "ko": "오늘 밤"
+                    },
+                    {
+                      "en": "I",
+                      "ko": "나는"
+                    },
+                    {
+                      "en": "will eat,",
+                      "ko": "먹을 거예요"
+                    },
+                    {
+                      "en": "because someone",
+                      "ko": "왜냐하면 누군가가"
+                    },
+                    {
+                      "en": "watched the road with me.",
+                      "ko": "길을 지켜봤으니까요 나와 함께."
+                    }
+                  ]
+                }
+              ],
+              "npc": "g1_extra_4"
+            },
+            {
               "action": "return",
-              "line": {
-                "en": "Good. We can tell the watch keeper where to ask for another.",
-                "ko": "잘됐네요. 경비원에게 필요할 때 다시 부탁할 곳을 알려 줘요.",
-                "chunks": [
-                  {
-                    "en": "Good. We can tell the watch keeper where to ask for another.",
-                    "ko": "잘됐네요. 경비원에게 필요할 때 다시 부탁할 곳을 알려 줘요."
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "Good.",
-                    "ko": "잘됐네요."
-                  },
-                  {
-                    "en": "We can tell",
-                    "ko": "우리는 알려 줄 수 있어요"
-                  },
-                  {
-                    "en": "the watch keeper",
-                    "ko": "경비원에게"
-                  },
-                  {
-                    "en": "where to ask",
-                    "ko": "부탁할 곳을"
-                  },
-                  {
-                    "en": "for another.",
-                    "ko": "또 하나를 위해."
-                  }
-                ]
-              }
+              "lines": [
+                {
+                  "speaker": "g1_extra_3",
+                  "en": "Arden ate every crumb!",
+                  "ko": "아든이 빵 부스러기까지 다 먹었어요!",
+                  "chunks": [
+                    {
+                      "en": "Arden ate every crumb!",
+                      "ko": "아든이 빵 부스러기까지 다 먹었어요!"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Arden",
+                      "ko": "아든이"
+                    },
+                    {
+                      "en": "ate every crumb!",
+                      "ko": "먹었어요 모든 부스러기를!"
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_3",
+                  "en": "He even smiled and asked for another loaf tomorrow.",
+                  "ko": "웃기까지 하고 내일 빵을 또 달라고 했어요.",
+                  "chunks": [
+                    {
+                      "en": "He even smiled and asked for another loaf tomorrow.",
+                      "ko": "웃기까지 하고 내일 빵을 또 달라고 했어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "He even smiled",
+                      "ko": "그는 심지어 웃었어요"
+                    },
+                    {
+                      "en": "and asked",
+                      "ko": "그리고 부탁했어요"
+                    },
+                    {
+                      "en": "for another loaf",
+                      "ko": "다른 빵을"
+                    },
+                    {
+                      "en": "tomorrow.",
+                      "ko": "내일."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_3",
+                  "en": "A warm loaf can mend a long worry.",
+                  "ko": "따뜻한 빵 하나가 오랜 걱정을 덜어 줄 수 있죠.",
+                  "chunks": [
+                    {
+                      "en": "A warm loaf can mend a long worry.",
+                      "ko": "따뜻한 빵 하나가 오랜 걱정을 덜어 줄 수 있죠."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "A warm loaf",
+                      "ko": "따뜻한 빵 하나는"
+                    },
+                    {
+                      "en": "can mend",
+                      "ko": "고칠 수 있어요"
+                    },
+                    {
+                      "en": "a long worry.",
+                      "ko": "오랜 걱정을."
+                    }
+                  ]
+                }
+              ],
+              "npc": "g1_extra_3"
             }
           ],
           "reward": {
@@ -1017,188 +2547,739 @@
           "title_ko": "비빌의 안내문",
           "steps": [
             {
-              "npc": "g1_extra_9",
               "action": "accept",
-              "line": {
-                "en": "The mill path is blocked by fallen branches.",
-                "ko": "방앗간 길이 떨어진 나뭇가지에 막혔대요.",
-                "chunks": [
-                  {
-                    "en": "The mill path is blocked by fallen branches.",
-                    "ko": "방앗간 길이 떨어진 나뭇가지에 막혔대요.",
-                    "direct_chunks": [
-                      {
-                        "en": "The mill path",
-                        "ko": "방앗간 길이"
-                      },
-                      {
-                        "en": "is blocked",
-                        "ko": "막혀 있어요"
-                      },
-                      {
-                        "en": "by fallen branches.",
-                        "ko": "떨어진 나뭇가지들로."
-                      }
-                    ]
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "The mill path",
-                    "ko": "방앗간 길이"
-                  },
-                  {
-                    "en": "is blocked",
-                    "ko": "막혀 있어요"
-                  },
-                  {
-                    "en": "by fallen branches.",
-                    "ko": "떨어진 나뭇가지들로."
-                  }
-                ]
-              }
+              "lines": [
+                {
+                  "speaker": "g1_extra_9",
+                  "en": "The notice board says the mill path is blocked.",
+                  "ko": "게시판에는 방앗간 길이 막혔다고 적혀 있어요.",
+                  "chunks": [
+                    {
+                      "en": "The notice board says the mill path is blocked.",
+                      "ko": "게시판에는 방앗간 길이 막혔다고 적혀 있어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The notice board says",
+                      "ko": "게시판은 말해요"
+                    },
+                    {
+                      "en": "the mill path",
+                      "ko": "방앗간 길이"
+                    },
+                    {
+                      "en": "is blocked.",
+                      "ko": "막혔다고."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_9",
+                  "en": "Last month, I carried a wrong rumor to another village.",
+                  "ko": "지난달에 나는 틀린 소문을 다른 마을에 전했어요.",
+                  "chunks": [
+                    {
+                      "en": "Last month, I carried a wrong rumor to another village.",
+                      "ko": "지난달에 나는 틀린 소문을 다른 마을에 전했어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Last month,",
+                      "ko": "지난달"
+                    },
+                    {
+                      "en": "I carried",
+                      "ko": "나는 날랐어요"
+                    },
+                    {
+                      "en": "a wrong rumor",
+                      "ko": "틀린 소문을"
+                    },
+                    {
+                      "en": "to another village.",
+                      "ko": "다른 마을로."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_9",
+                  "en": "A merchant avoided Beville for three days because of it.",
+                  "ko": "그 때문에 상인이 사흘 동안 비빌을 피했어요.",
+                  "chunks": [
+                    {
+                      "en": "A merchant avoided Beville for three days because of it.",
+                      "ko": "그 때문에 상인이 사흘 동안 비빌을 피했어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "A merchant",
+                      "ko": "한 상인이"
+                    },
+                    {
+                      "en": "avoided Beville",
+                      "ko": "비빌을 피했어요"
+                    },
+                    {
+                      "en": "for three days",
+                      "ko": "사흘 동안"
+                    },
+                    {
+                      "en": "because of it.",
+                      "ko": "그것 때문에."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_9",
+                  "en": "This time, I must check before I write.",
+                  "ko": "이번에는 쓰기 전에 확인해야 해요.",
+                  "chunks": [
+                    {
+                      "en": "This time, I must check before I write.",
+                      "ko": "이번에는 쓰기 전에 확인해야 해요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "This time,",
+                      "ko": "이번에는"
+                    },
+                    {
+                      "en": "I",
+                      "ko": "나는"
+                    },
+                    {
+                      "en": "must check",
+                      "ko": "확인해야 해요"
+                    },
+                    {
+                      "en": "before I write.",
+                      "ko": "쓰기 전에."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Subject",
+                  "en": "Then let us ask the people who were there.",
+                  "ko": "그럼 그 자리에 있던 사람들에게 물어봅시다.",
+                  "chunks": [
+                    {
+                      "en": "Then let us ask the people who were there.",
+                      "ko": "그럼 그 자리에 있던 사람들에게 물어봅시다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Then let us ask",
+                      "ko": "그럼 물어봅시다"
+                    },
+                    {
+                      "en": "the people",
+                      "ko": "사람들에게"
+                    },
+                    {
+                      "en": "who were there.",
+                      "ko": "그곳에 있었던."
+                    }
+                  ]
+                }
+              ],
+              "npc": "g1_extra_9"
             },
             {
-              "npc": "g1_extra_4",
+              "action": "talk",
+              "lines": [
+                {
+                  "speaker": "g1_extra_10",
+                  "en": "Yes, branches fell on the path last night.",
+                  "ko": "네, 어젯밤 길에 나뭇가지가 떨어졌어요.",
+                  "chunks": [
+                    {
+                      "en": "Yes, branches fell on the path last night.",
+                      "ko": "네, 어젯밤 길에 나뭇가지가 떨어졌어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Yes,",
+                      "ko": "네"
+                    },
+                    {
+                      "en": "branches fell",
+                      "ko": "나뭇가지가 떨어졌어요"
+                    },
+                    {
+                      "en": "on the path",
+                      "ko": "길 위에"
+                    },
+                    {
+                      "en": "last night.",
+                      "ko": "어젯밤."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_10",
+                  "en": "My sheep tried to cross, so I turned them back.",
+                  "ko": "양들이 건너려 해서 제가 돌려보냈어요.",
+                  "chunks": [
+                    {
+                      "en": "My sheep tried to cross, so I turned them back.",
+                      "ko": "양들이 건너려 해서 제가 돌려보냈어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "My sheep",
+                      "ko": "내 양들이"
+                    },
+                    {
+                      "en": "tried to cross,",
+                      "ko": "건너려고 했어요"
+                    },
+                    {
+                      "en": "so I",
+                      "ko": "그래서 나는"
+                    },
+                    {
+                      "en": "turned them back.",
+                      "ko": "돌려보냈어요 그것들을."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_10",
+                  "en": "But the main road is open. Only the side path is blocked.",
+                  "ko": "하지만 큰길은 열려 있어요. 샛길만 막혔죠.",
+                  "chunks": [
+                    {
+                      "en": "But the main road is open. Only the side path is blocked.",
+                      "ko": "하지만 큰길은 열려 있어요. 샛길만 막혔죠."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "But",
+                      "ko": "하지만"
+                    },
+                    {
+                      "en": "the main road",
+                      "ko": "큰길은"
+                    },
+                    {
+                      "en": "is open.",
+                      "ko": "열려 있어요"
+                    },
+                    {
+                      "en": "Only the side path",
+                      "ko": "샛길만"
+                    },
+                    {
+                      "en": "is blocked.",
+                      "ko": "막혔어요."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Subject",
+                  "en": "Did anyone else see it?",
+                  "ko": "다른 분도 보셨나요?",
+                  "chunks": [
+                    {
+                      "en": "Did anyone else see it?",
+                      "ko": "다른 분도 보셨나요?"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Did anyone else",
+                      "ko": "누군가 다른 사람이"
+                    },
+                    {
+                      "en": "see it?",
+                      "ko": "봤나요 그것을?"
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_10",
+                  "en": "Ask Arden. He walks that road at dawn.",
+                  "ko": "아든에게 물어보세요. 새벽마다 그 길을 걸어요.",
+                  "chunks": [
+                    {
+                      "en": "Ask Arden. He walks that road at dawn.",
+                      "ko": "아든에게 물어보세요. 새벽마다 그 길을 걸어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Ask Arden.",
+                      "ko": "아든에게 물어보세요"
+                    },
+                    {
+                      "en": "He walks",
+                      "ko": "그는 걸어요"
+                    },
+                    {
+                      "en": "that road",
+                      "ko": "그 길을"
+                    },
+                    {
+                      "en": "at dawn.",
+                      "ko": "새벽에."
+                    }
+                  ]
+                }
+              ],
+              "npc": "g1_extra_10"
+            },
+            {
               "action": "verify",
-              "line": {
-                "en": "The courier can already pass, but the side path is still muddy.",
-                "ko": "배달부는 벌써 지나갈 수 있지만 샛길은 아직 진흙탕이에요.",
-                "chunks": [
-                  {
-                    "en": "The courier can already pass, but the side path is still muddy.",
-                    "ko": "배달부는 벌써 지나갈 수 있지만 샛길은 아직 진흙탕이에요.",
-                    "direct_chunks": [
-                      {
-                        "en": "The courier can already pass,",
-                        "ko": "배달부는 벌써 지나갈 수 있지만"
-                      },
-                      {
-                        "en": "but the side path",
-                        "ko": "샛길은"
-                      },
-                      {
-                        "en": "is still muddy.",
-                        "ko": "아직 진흙투성이예요."
-                      }
-                    ]
-                  }
+              "lines": [
+                {
+                  "speaker": "g1_extra_4",
+                  "en": "I walked the mill path at dawn.",
+                  "ko": "새벽에 방앗간 길을 걸어 봤어요.",
+                  "chunks": [
+                    {
+                      "en": "I walked the mill path at dawn.",
+                      "ko": "새벽에 방앗간 길을 걸어 봤어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I walked",
+                      "ko": "나는 걸었어요"
+                    },
+                    {
+                      "en": "the mill path",
+                      "ko": "방앗간 길을"
+                    },
+                    {
+                      "en": "at dawn.",
+                      "ko": "새벽에."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_4",
+                  "en": "Two branches fell, but a person on foot can pass.",
+                  "ko": "가지 두 개가 떨어졌지만 걸어서는 지나갈 수 있어요.",
+                  "chunks": [
+                    {
+                      "en": "Two branches fell, but a person on foot can pass.",
+                      "ko": "가지 두 개가 떨어졌지만 걸어서는 지나갈 수 있어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Two branches fell,",
+                      "ko": "가지 두 개가 떨어졌어요"
+                    },
+                    {
+                      "en": "but a person",
+                      "ko": "하지만 사람은"
+                    },
+                    {
+                      "en": "on foot",
+                      "ko": "걸어서"
+                    },
+                    {
+                      "en": "can pass.",
+                      "ko": "지나갈 수 있어요."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_4",
+                  "en": "The side path is muddy. A cart will get stuck.",
+                  "ko": "샛길은 진흙투성이라 수레는 빠질 거예요.",
+                  "chunks": [
+                    {
+                      "en": "The side path is muddy. A cart will get stuck.",
+                      "ko": "샛길은 진흙투성이라 수레는 빠질 거예요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The side path",
+                      "ko": "샛길은"
+                    },
+                    {
+                      "en": "is muddy.",
+                      "ko": "진흙투성이예요"
+                    },
+                    {
+                      "en": "A cart",
+                      "ko": "수레는"
+                    },
+                    {
+                      "en": "will get stuck.",
+                      "ko": "빠질 거예요."
+                    }
+                  ]
+                }
+              ],
+              "npc": "g1_extra_4",
+              "task": {
+                "question_en": "Which sentence is checked and exact?",
+                "question_ko": "어느 문장이 확인된 정확한 내용일까요?",
+                "options": [
+                  "A cart cannot use the side path, but a person can pass.",
+                  "The whole road is closed forever.",
+                  "The mill is destroyed."
                 ],
-                "direct_chunks": [
-                  {
-                    "en": "The courier",
-                    "ko": "배달부는"
-                  },
-                  {
-                    "en": "can already pass,",
-                    "ko": "벌써 지나갈 수 있지만"
-                  },
-                  {
-                    "en": "but the side path",
-                    "ko": "샛길은"
-                  },
-                  {
-                    "en": "is still muddy.",
-                    "ko": "아직 진흙투성이예요."
-                  }
-                ]
+                "correct_index": 0,
+                "feedback_ko": "아든과 리드가 말한 사실만 정확히 담은 문장을 고르세요."
               }
             },
             {
-              "npc": "g1_extra_1",
               "action": "confirm",
-              "line": {
-                "en": "Please give the courier the checked account before the next announcement.",
-                "ko": "다음 안내를 하기 전에 확인한 내용을 배달부에게 전해 주세요.",
-                "chunks": [
-                  {
-                    "en": "Please give the courier the checked account before the next announcement.",
-                    "ko": "다음 안내를 하기 전에 확인한 내용을 배달부에게 전해 주세요.",
-                    "direct_chunks": [
-                      {
-                        "en": "Please give",
-                        "ko": "주세요"
-                      },
-                      {
-                        "en": "the courier",
-                        "ko": "배달부에게"
-                      },
-                      {
-                        "en": "the checked account",
-                        "ko": "확인된 내용을"
-                      },
-                      {
-                        "en": "before the next announcement.",
-                        "ko": "다음 안내 전에."
-                      }
-                    ]
-                  }
+              "lines": [
+                {
+                  "speaker": "g1_extra_1",
+                  "en": "A notice is like a promise to every reader.",
+                  "ko": "안내문은 모든 독자에게 하는 약속과 같아요.",
+                  "chunks": [
+                    {
+                      "en": "A notice is like a promise to every reader.",
+                      "ko": "안내문은 모든 독자에게 하는 약속과 같아요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "A notice",
+                      "ko": "안내문은"
+                    },
+                    {
+                      "en": "is like",
+                      "ko": "~와 같아요"
+                    },
+                    {
+                      "en": "a promise",
+                      "ko": "약속"
+                    },
+                    {
+                      "en": "to every reader.",
+                      "ko": "모든 독자에게."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_1",
+                  "en": "If one word is wrong, people make wrong plans.",
+                  "ko": "한 단어가 틀리면 사람들이 잘못된 계획을 세우게 돼요.",
+                  "chunks": [
+                    {
+                      "en": "If one word is wrong, people make wrong plans.",
+                      "ko": "한 단어가 틀리면 사람들이 잘못된 계획을 세우게 돼요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "If one word",
+                      "ko": "한 단어가"
+                    },
+                    {
+                      "en": "is wrong,",
+                      "ko": "틀리면"
+                    },
+                    {
+                      "en": "people",
+                      "ko": "사람들은"
+                    },
+                    {
+                      "en": "make wrong plans.",
+                      "ko": "잘못된 계획을 세워요."
+                    }
+                  ]
+                }
+              ],
+              "npc": "g1_extra_1",
+              "task": {
+                "question_en": "What should the correction include?",
+                "question_ko": "정정문에는 무엇을 넣을까요?",
+                "options": [
+                  "the date",
+                  "the witnesses' names",
+                  "both"
                 ],
-                "direct_chunks": [
-                  {
-                    "en": "Please give",
-                    "ko": "주세요"
-                  },
-                  {
-                    "en": "the courier",
-                    "ko": "배달부에게"
-                  },
-                  {
-                    "en": "the checked account",
-                    "ko": "확인된 내용을"
-                  },
-                  {
-                    "en": "before the next announcement.",
-                    "ko": "다음 안내 전에."
-                  }
+                "correct_index": 0,
+                "choice": true,
+                "flag": "g1_notice_choice",
+                "reactions": [
+                  [
+                    {
+                      "speaker": "g1_extra_1",
+                      "en": "Good. A date shows when the facts were true.",
+                      "ko": "좋아요. 날짜는 사실이 언제 맞았는지 보여 주죠.",
+                      "chunks": [
+                        {
+                          "en": "Good. A date shows when the facts were true.",
+                          "ko": "좋아요. 날짜는 사실이 언제 맞았는지 보여 주죠."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "Good.",
+                          "ko": "좋아요"
+                        },
+                        {
+                          "en": "A date",
+                          "ko": "날짜는"
+                        },
+                        {
+                          "en": "shows",
+                          "ko": "보여 줘요"
+                        },
+                        {
+                          "en": "when the facts were true.",
+                          "ko": "그 사실이 언제 맞았는지."
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "speaker": "g1_extra_1",
+                      "en": "Good. Names show who checked the facts.",
+                      "ko": "좋아요. 이름은 누가 사실을 확인했는지 보여 주죠.",
+                      "chunks": [
+                        {
+                          "en": "Good. Names show who checked the facts.",
+                          "ko": "좋아요. 이름은 누가 사실을 확인했는지 보여 주죠."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "Good.",
+                          "ko": "좋아요"
+                        },
+                        {
+                          "en": "Names",
+                          "ko": "이름은"
+                        },
+                        {
+                          "en": "show",
+                          "ko": "보여 줘요"
+                        },
+                        {
+                          "en": "who checked the facts.",
+                          "ko": "누가 사실을 확인했는지."
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "speaker": "g1_extra_1",
+                      "en": "Excellent! Both make a notice trustworthy.",
+                      "ko": "훌륭해요! 둘 다 있어야 안내문을 믿을 수 있죠.",
+                      "chunks": [
+                        {
+                          "en": "Excellent! Both make a notice trustworthy.",
+                          "ko": "훌륭해요! 둘 다 있어야 안내문을 믿을 수 있죠."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "Excellent!",
+                          "ko": "훌륭해요"
+                        },
+                        {
+                          "en": "Both",
+                          "ko": "둘 다"
+                        },
+                        {
+                          "en": "make a notice",
+                          "ko": "만들어요 안내문을"
+                        },
+                        {
+                          "en": "trustworthy.",
+                          "ko": "믿을 만하게."
+                        }
+                      ]
+                    }
+                  ]
                 ]
               }
             },
             {
-              "npc": "g1_extra_9",
               "action": "return",
-              "line": {
-                "en": "I have written down the correction with today’s date.",
-                "ko": "오늘 날짜와 함께 정정 내용을 적어 두었어요.",
-                "chunks": [
-                  {
-                    "en": "I have written down the correction with today’s date.",
-                    "ko": "오늘 날짜와 함께 정정 내용을 적어 두었어요.",
-                    "direct_chunks": [
-                      {
-                        "en": "I have written down",
-                        "ko": "저는 적어 두었어요"
-                      },
-                      {
-                        "en": "the correction",
-                        "ko": "정정 내용을"
-                      },
-                      {
-                        "en": "with today’s date.",
-                        "ko": "오늘 날짜와 함께."
-                      }
-                    ]
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "I",
-                    "ko": "저는"
-                  },
-                  {
-                    "en": "have written down",
-                    "ko": "적어 두었어요."
-                  },
-                  {
-                    "en": "the correction",
-                    "ko": "정정 내용을"
-                  },
-                  {
-                    "en": "with today’s date.",
-                    "ko": "오늘 날짜와 함께."
-                  }
-                ]
-              }
+              "lines": [
+                {
+                  "speaker": "g1_extra_9",
+                  "en": "I wrote down the correction with today's date.",
+                  "ko": "오늘 날짜를 넣어 정정문을 적었어요.",
+                  "chunks": [
+                    {
+                      "en": "I wrote down the correction with today's date.",
+                      "ko": "오늘 날짜를 넣어 정정문을 적었어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I wrote down",
+                      "ko": "나는 적었어요"
+                    },
+                    {
+                      "en": "the correction",
+                      "ko": "정정문을"
+                    },
+                    {
+                      "en": "with today's date.",
+                      "ko": "오늘 날짜와 함께."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_9",
+                  "en": "Reed and Arden signed it as witnesses.",
+                  "ko": "리드와 아든이 증인으로 서명했어요.",
+                  "chunks": [
+                    {
+                      "en": "Reed and Arden signed it as witnesses.",
+                      "ko": "리드와 아든이 증인으로 서명했어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Reed and Arden",
+                      "ko": "리드와 아든이"
+                    },
+                    {
+                      "en": "signed it",
+                      "ko": "서명했어요 그것에"
+                    },
+                    {
+                      "en": "as witnesses.",
+                      "ko": "증인으로서."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Subject",
+                  "en": "Now the board tells the truth.",
+                  "ko": "이제 게시판이 진실을 말하네요.",
+                  "chunks": [
+                    {
+                      "en": "Now the board tells the truth.",
+                      "ko": "이제 게시판이 진실을 말하네요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Now",
+                      "ko": "이제"
+                    },
+                    {
+                      "en": "the board",
+                      "ko": "게시판이"
+                    },
+                    {
+                      "en": "tells",
+                      "ko": "말해요"
+                    },
+                    {
+                      "en": "the truth.",
+                      "ko": "진실을."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_9",
+                  "en": "A courier carries news, but a good courier also carries trust.",
+                  "ko": "전령은 소식을 나르지만, 좋은 전령은 신뢰도 나르죠.",
+                  "chunks": [
+                    {
+                      "en": "A courier carries news, but a good courier also carries trust.",
+                      "ko": "전령은 소식을 나르지만, 좋은 전령은 신뢰도 나르죠."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "A courier",
+                      "ko": "전령은"
+                    },
+                    {
+                      "en": "carries news,",
+                      "ko": "소식을 나르지요"
+                    },
+                    {
+                      "en": "but a good courier",
+                      "ko": "하지만 좋은 전령은"
+                    },
+                    {
+                      "en": "also carries trust.",
+                      "ko": "신뢰도 나르죠."
+                    }
+                  ]
+                }
+              ],
+              "npc": "g1_extra_9"
+            },
+            {
+              "action": "epilogue",
+              "lines": [
+                {
+                  "speaker": "g1_extra_1",
+                  "en": "Since the new notice, travelers trust our board again.",
+                  "ko": "새 안내문 이후 여행자들이 우리 게시판을 다시 믿어요.",
+                  "chunks": [
+                    {
+                      "en": "Since the new notice, travelers trust our board again.",
+                      "ko": "새 안내문 이후 여행자들이 우리 게시판을 다시 믿어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Since the new notice,",
+                      "ko": "새 안내문 이후"
+                    },
+                    {
+                      "en": "travelers",
+                      "ko": "여행자들이"
+                    },
+                    {
+                      "en": "trust our board",
+                      "ko": "우리 게시판을 믿어요"
+                    },
+                    {
+                      "en": "again.",
+                      "ko": "다시."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "g1_extra_1",
+                  "en": "Even small words can protect a village.",
+                  "ko": "작은 말 하나도 마을을 지킬 수 있어요.",
+                  "chunks": [
+                    {
+                      "en": "Even small words can protect a village.",
+                      "ko": "작은 말 하나도 마을을 지킬 수 있어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Even small words",
+                      "ko": "작은 말조차"
+                    },
+                    {
+                      "en": "can protect",
+                      "ko": "지킬 수 있어요"
+                    },
+                    {
+                      "en": "a village.",
+                      "ko": "마을을."
+                    }
+                  ]
+                }
+              ],
+              "npc": "g1_extra_1"
             }
           ],
           "reward": {

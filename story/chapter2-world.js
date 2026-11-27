@@ -209,7 +209,13 @@ window.createChapterWorld = function(api, data) {
       if(task.question_ko&&api.koreanVisible?.())body.append(node('p',task.question_ko));
       const row=node('div',undefined,'c2-actions');
       for(const [i,option] of task.options.entries())row.append(button(option,()=>{
-        if(i===task.correct_index)proceed();
+        if(task.choice) {
+          // Choice step: every answer moves the story on, and the reaction line shows the result.
+          if(task.flag)state().flags[task.flag+'_'+i]=true;
+          const reaction=task.reactions?.[i];
+          if(reaction)show(event.title,reaction.map(line=>localized(line,stage.npc)),proceed,null,{skip:false,cancel:back,dock:!!stage.npc,field:portrait,confirm:true,questTitle:event.title});
+          else proceed();
+        } else if(i===task.correct_index)proceed();
         else status.textContent=task.retry_ko||task.feedback_ko||'앞서 들은 단서를 다시 확인하세요.';
       }));
       body.append(row,status);
