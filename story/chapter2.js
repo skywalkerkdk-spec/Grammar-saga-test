@@ -69,6 +69,28 @@
     body.append(select);
   }
 
+  let nameRules=null;
+  const nameRule=()=>{
+    const chips=window.C2_NAME_CHIPS;
+    if(!chips)return null;
+    return nameRules ||= {
+      en:new RegExp('\\b('+chips.en.join('|')+')\\b','g'),
+      ko:new RegExp('('+chips.ko.join('|')+')(?=이에요|이야|이란|이라|이다|예요|에게|한테|[이가은는을를의과와도만에께아야]|[^가-힣]|$)','g'),
+    };
+  };
+  // Put a box around people's names so they stand out inside dialogue.
+  function withNames(parent,text,language) {
+    const rule=nameRule()?.[language];
+    if(!rule||!text){parent.append(text||'');return;}
+    let last=0;
+    for(const match of text.matchAll(rule)) {
+      if(match.index>last)parent.append(text.slice(last,match.index));
+      parent.append(node('span',match[0],'c2-name'));
+      last=match.index+match[0].length;
+    }
+    if(last<text.length)parent.append(text.slice(last));
+  }
+
   function show(title, lines, done, back, options = {}) {
     const docked=!!(options.field||options.dock);
     const field=docked ? dialogue : null;
@@ -121,13 +143,19 @@
       content.setAttribute('aria-live','polite');
       const speaker=node('strong',line.speakerName||displayName(line.speaker_en,line.speaker),'c2-speaker-name');
       if (docked) {
-        const header=node('div',undefined,'c2-field-speaker');
-        if (options.field) {
+        const isHero=line.speakerId==='Subject';
+        const header=node('div',undefined,'c2-field-speaker'+(isHero?' is-hero':''));
+        const atlas=window.NPC_ATLAS?.[line.speakerId];
+        const source=isHero ? 'mp_'+(isRpgM()?rhero():lhero())+'.webp'
+          : line.speakerId==='Narrator' ? null
+          : atlas?.front?.ready ? atlas.front.sheet
+          : options.field;
+        if (source) {
           const portrait=node('img');
-          const art=/art\/npc\/sprites\/(npc_[\w]+)\.webp$/.exec(options.field);
-          portrait.src=art?'art/npc/face/'+art[1]+'.webp':options.field;
+          const art=/art\/npc\/sprites\/(npc_[\w]+)\.webp$/.exec(source);
+          portrait.src=art?'art/npc/face/'+art[1]+'.webp':source;
           portrait.alt='';
-          const frame=node('div',undefined,'c2-speaker-photo'+(art?' is-art':''));
+          const frame=node('div',undefined,'c2-speaker-photo'+(art?' is-art':'')+(isHero?' is-hero-photo':''));
           frame.append(portrait);
           header.append(frame);
         }
@@ -145,11 +173,12 @@
         p.lang=language;
         if (mode==='literal') (line.direct_chunks||line.chunks).forEach((chunk,i)=>{
           if (i) p.append(reading.slash ? ' / ' : ' ');
-          const span=node('span',chunk[language]);
+          const span=node('span');
+          withNames(span,chunk[language],language);
           if (reading.color) span.style.color=(options.palette||story.palette)[i%(options.palette||story.palette).length];
           p.append(span);
         });
-        else p.textContent=line[language];
+        else withNames(p,line[language],language);
         content.append(p);
       }
       const actions=node('div',undefined,'c2-actions');

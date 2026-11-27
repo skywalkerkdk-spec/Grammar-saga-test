@@ -91,3 +91,9 @@
 .c2-field-extra span{max-width:112px}
 .c2-field-extra small{white-space:normal;overflow:visible;font-size:.78em;line-height:1.15;text-overflow:clip}
 .c2-field-extra span{white-space:normal;overflow:visible;text-overflow:clip;text-align:center;max-width:124px;width:max-content}
+
+.c2-name{display:inline-block;padding:0 .3em;margin:0 .08em;border:1.5px solid currentColor;border-radius:5px;background:#ffffff14;font-weight:700;line-height:1.35}
+.c2-field-speaker.is-hero{flex-direction:row-reverse;text-align:right}
+.c2-field-speaker.is-hero .c2-speaker-identity{justify-items:end}
+.c2-speaker-photo.is-hero-photo{background:radial-gradient(ellipse at 50% 38%,#cfe6ff,#7ea6d6 80%)}
+.c2-field-speaker .c2-speaker-photo.is-hero-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 8%;transform:scale(1.55);transform-origin:50% 18%}
