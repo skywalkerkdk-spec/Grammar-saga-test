@@ -43,8 +43,8 @@ window.createChapterWorld = function(api, data) {
     const npc=residents.get(key);
     const named=api.speakerName?.(key);
     return {
-      ...text,speaker:npc?.ko||named?.ko||key||'이야기',
-      speaker_en:npc?.en||named?.en||key||'Narrator',
+      ...text,speaker:npc?.ko||named?.ko||text.speaker_ko||key||'이야기',
+      speaker_en:npc?.en||named?.en||text.speaker_en||key||'Narrator',
       speakerName:npc?.name,speakerJob:npc?.job,
       chunks:lineChunks(text),speakerId:key,
     };
@@ -59,7 +59,7 @@ window.createChapterWorld = function(api, data) {
     }
     const spoken=step.line||step.dialogue||(step.en?step:null);
     const lines=step.lines|| (spoken?[spoken]:[]);
-    return {npc,town:residents.get(npc)?.town||step.town||defaultTown,lines:lines.map(line=>localized(line,npc)),task,field:step.field};
+    return {npc,town:residents.get(npc)?.town||step.town||defaultTown,lines:lines.map(line=>localized(line,npc)),task,field:step.field,route:step.route};
   }
 
   function add(event,steps,settings={}) {
@@ -72,12 +72,13 @@ window.createChapterWorld = function(api, data) {
     }
     events.push({id:event.id,title:settings.title||[event.title_en,event.title_ko].filter(Boolean).join(' · '),
       stages,after:event.aftermath,finish:event.completion_flag||settings.finish||event.id+'_complete',
-      requires:settings.requires||(()=>true),souvenir:settings.souvenir,group:settings.group||'마을'});
+      requires:settings.requires||(()=>true),souvenir:settings.souvenir,reward_item:event.reward_item,group:settings.group||'마을'});
   }
   for(const town of data.TOWN_EVENTS.towns) for(const event of town.events) {
     const souvenir=event.reward?.type==='collection_flag'?{id:event.id,ko:event.reward.name_ko}:null;
     add(event,event.steps,{town:town.town_id,souvenir});
   }
+  for(const quest of data.ROUTE_QUESTS?.quests||[])add(quest,quest.steps,{town:quest.town_id,group:'의뢰'});
   for(const event of [...data.TOWN_UNIQUE_EVENTS.events,...data.TOWN_RELATIONSHIP_STORIES.events])add(event,event.steps);
   for(const event of data.REGIONAL_STORIES_REVISED.cases) {
     const previous=data.TOWN_NETWORK.chains.find(chain=>chain.id===event.id);
@@ -172,6 +173,8 @@ window.createChapterWorld = function(api, data) {
     const stage=event.stages[index];
     if(!stage)return null;
     const npc=residents.get(stage.npc);
+    if(stage.route)return {town:stage.town,npcId:null,locked:!canVisit(stage.town),
+      text:`${api.townName(stage.town)}의 ‘${stage.route.label}’으로 나가 보세요.`};
     return {
       town:stage.town,npcId:stage.npc,locked:!canVisit(stage.town),
       text:npc ? `${api.townName(stage.town)}에서 ${npc.en}에게 말을 걸어 보세요.`
@@ -255,6 +258,74 @@ window.createChapterWorld = function(api, data) {
       api.field(body,map,[{id:'chest',label:'보물함 조사',action:openEvidence,
         art:()=>node('div',undefined,'c2-chest-art')}]);
     }else openEvidence();
+  }
+
+
+  // A route quest sends the player out of town: find the clue, then beat the guardian's grammar questions.
+  function openRoute(townId,exitId,back) {
+    const event=events.find(item=>{
+      if(!item.requires()||flag(item.finish))return false;
+      const stage=item.stages[cursor(item.id)];
+      return stage?.route&&stage.town===townId&&stage.route.exit===exitId;
+    });
+    const map=event&&window.chapterFields?.routes?.[event.stages[cursor(event.id)].route.id];
+    if(!event||!map||!api.field)return false;
+    const index=cursor(event.id);
+    const stage=event.stages[index];
+    const route=stage.route;
+    const marks=()=>state().routeMarks ||= {};
+    const mark=key=>marks()[event.id+'_'+key];
+    const options={skip:false,cancel:back,dock:false,confirm:true,questTitle:event.title};
+    const proceed=()=>{
+      stageStore()[event.id]=index+1;
+      state().trackedStory=event.id;
+      save();
+      back();
+    };
+    const field=(note)=>{
+      const body=panel(event.title,back,'마을로');
+      body.append(node('p',note||(mark('clue')?'단서를 따라 수호자를 찾아가세요.':'길을 걸으며 단서를 찾아보세요.')));
+      const status=node('p');status.setAttribute('role','status');
+      const targets=[
+        {id:'town',label:'마을로 돌아가기',action:back},
+        {id:'clue',label:route.clue.label,art:()=>node('div',undefined,'c2-chest-art'),action:()=>{
+          show(event.title,route.clue.lines.map(line=>localized(line)),()=>{marks()[event.id+'_clue']=true;save();field('단서를 모았습니다. 수호자를 찾아가세요.');},null,options);
+        }},
+        {id:'monster',label:route.monster.label,art:()=>api.monsterArt?.(townId)||node('div',undefined,'c2-chest-art'),action:()=>{
+          if(!mark('clue')){status.textContent='아직 단서가 부족합니다. 길에서 단서를 먼저 찾으세요.';return;}
+          fight();
+        }},
+      ];
+      api.field(body,map,targets);
+      body.append(status);
+    };
+    const fight=()=>{
+      const questions=route.monster.questions;
+      let at=0;
+      const ask=()=>{
+        const task=questions[at];
+        const body=panel(route.monster.name_en+' · '+route.monster.name_ko+' ('+(at+1)+'/'+questions.length+')',()=>field(),'도망치기');
+        const status=node('p');status.setAttribute('role','status');
+        if(api.chunkedLine&&task.question_chunks){
+          body.append(api.chunkedLine(task.question_chunks,'en',task.question_en));
+          if(api.koreanVisible?.())body.append(api.chunkedLine(task.question_chunks,'ko',task.question_ko||''));
+        }else{
+          const question=node('p',task.question_en);question.lang='en';body.append(question);
+          if(task.question_ko&&api.koreanVisible?.())body.append(node('p',task.question_ko));
+        }
+        const row=node('div',undefined,'c2-actions');
+        for(const [i,option] of task.options.entries())row.append(button(option,()=>{
+          if(i!==task.correct_index){status.textContent=task.feedback_ko||'다시 생각해 보세요.';return;}
+          at++;
+          if(at<questions.length)ask();
+          else show(event.title,route.monster.win.map(line=>localized(line)),proceed,null,options);
+        }));
+        body.append(row,status);
+      };
+      show(event.title,route.monster.lines.map(line=>localized(line)),null,ask,options);
+    };
+    show(event.title,stage.lines,()=>field(),null,options);
+    return true;
   }
 
   const canVisit=town=>town==='library'||available(town);
@@ -374,5 +445,5 @@ window.createChapterWorld = function(api, data) {
     }
   }
   const residentsForTown=id=>townResidents.get(id)||[];
-  return {town,journal,finaleOpening,finaleClosing,finalePhase,meetResident,residentsForTown,guidance};
+  return {town,journal,openRoute,finaleOpening,finaleClosing,finalePhase,meetResident,residentsForTown,guidance};
 };

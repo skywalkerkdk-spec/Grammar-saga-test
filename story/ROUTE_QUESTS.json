@@ -1,0 +1,753 @@
+{
+  "version": "0.1",
+  "status": "pilot",
+  "quests": [
+    {
+      "id": "sj_route_wishing_coin",
+      "town_id": "sj",
+      "title_en": "The Wishing Coin",
+      "title_ko": "소원 동전",
+      "completion_flag": "sj_route_wishing_coin_complete",
+      "reward_item": {
+        "stone": 1
+      },
+      "steps": [
+        {
+          "action": "accept",
+          "npc": "sj_extra_1",
+          "lines": [
+            {
+              "speaker": "Narrator",
+              "en": "Mayor Wishwell stands on the stone bridge, looking at a small empty hollow in the railing.",
+              "ko": "위시웰 대표가 돌다리 위에서 난간의 작은 빈 홈을 바라보고 있다.",
+              "chunks": [
+                {
+                  "en": "Mayor Wishwell stands on the stone bridge, looking at a small empty hollow in the railing.",
+                  "ko": "위시웰 대표가 돌다리 위에서 난간의 작은 빈 홈을 바라보고 있다."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "Mayor Wishwell stands",
+                  "ko": "위시웰 대표가 서 있다"
+                },
+                {
+                  "en": "on the stone bridge,",
+                  "ko": "돌다리 위에"
+                },
+                {
+                  "en": "looking at a small empty hollow",
+                  "ko": "작은 빈 홈을 바라보며"
+                },
+                {
+                  "en": "in the railing.",
+                  "ko": "난간의."
+                }
+              ]
+            },
+            {
+              "speaker": "sj_extra_1",
+              "en": "The wishing coin of Ifhaven is gone. For a hundred years, it sat in this hollow.",
+              "ko": "이프헤이븐의 소원 동전이 사라졌어요. 백 년 동안 이 홈에 놓여 있었는데요.",
+              "chunks": [
+                {
+                  "en": "The wishing coin of Ifhaven is gone. For a hundred years, it sat in this hollow.",
+                  "ko": "이프헤이븐의 소원 동전이 사라졌어요. 백 년 동안 이 홈에 놓여 있었는데요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "The wishing coin of Ifhaven",
+                  "ko": "이프헤이븐의 소원 동전이"
+                },
+                {
+                  "en": "is gone.",
+                  "ko": "사라졌어요."
+                },
+                {
+                  "en": "For a hundred years,",
+                  "ko": "백 년 동안"
+                },
+                {
+                  "en": "it sat",
+                  "ko": "그것은 놓여 있었어요"
+                },
+                {
+                  "en": "in this hollow.",
+                  "ko": "이 홈에."
+                }
+              ]
+            },
+            {
+              "speaker": "sj_extra_1",
+              "en": "Last night, a small shadow ran west along the old bridge road. It laughed, \"If you want it, come and ask!\"",
+              "ko": "어젯밤 작은 그림자가 낡은 다리 길을 따라 서쪽으로 달아났어요. 웃으며 \"갖고 싶으면 와서 물어봐!\" 하고 외쳤죠.",
+              "chunks": [
+                {
+                  "en": "Last night, a small shadow ran west along the old bridge road. It laughed, \"If you want it, come and ask!\"",
+                  "ko": "어젯밤 작은 그림자가 낡은 다리 길을 따라 서쪽으로 달아났어요. 웃으며 \"갖고 싶으면 와서 물어봐!\" 하고 외쳤죠."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "Last night,",
+                  "ko": "어젯밤"
+                },
+                {
+                  "en": "a small shadow ran west",
+                  "ko": "작은 그림자가 서쪽으로 달아났어요"
+                },
+                {
+                  "en": "along the old bridge road.",
+                  "ko": "낡은 다리 길을 따라."
+                },
+                {
+                  "en": "It laughed,",
+                  "ko": "그것은 웃으며 말했어요"
+                },
+                {
+                  "en": "\"If you want it,",
+                  "ko": "\"갖고 싶으면"
+                },
+                {
+                  "en": "come and ask!\"",
+                  "ko": "와서 물어봐!\""
+                }
+              ]
+            },
+            {
+              "speaker": "Subject",
+              "en": "We will go west and bring it back.",
+              "ko": "우리가 서쪽으로 가서 되찾아 올게요.",
+              "chunks": [
+                {
+                  "en": "We will go west and bring it back.",
+                  "ko": "우리가 서쪽으로 가서 되찾아 올게요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "We will go west",
+                  "ko": "우리가 서쪽으로 갈게요"
+                },
+                {
+                  "en": "and bring it back.",
+                  "ko": "그리고 되찾아 올게요."
+                }
+              ]
+            },
+            {
+              "speaker": "sj_extra_1",
+              "en": "Thank you. Take the west gate. Look for clues on the road, and be careful. That shadow loves tricky questions.",
+              "ko": "고마워요. 서쪽 문으로 나가세요. 길에서 단서를 찾아보고 조심하세요. 그 그림자는 까다로운 질문을 좋아해요.",
+              "chunks": [
+                {
+                  "en": "Thank you. Take the west gate. Look for clues on the road, and be careful. That shadow loves tricky questions.",
+                  "ko": "고마워요. 서쪽 문으로 나가세요. 길에서 단서를 찾아보고 조심하세요. 그 그림자는 까다로운 질문을 좋아해요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "Thank you.",
+                  "ko": "고마워요."
+                },
+                {
+                  "en": "Take the west gate.",
+                  "ko": "서쪽 문으로 나가세요."
+                },
+                {
+                  "en": "Look for clues",
+                  "ko": "단서를 찾아보세요"
+                },
+                {
+                  "en": "on the road,",
+                  "ko": "길에서"
+                },
+                {
+                  "en": "and be careful.",
+                  "ko": "그리고 조심하세요."
+                },
+                {
+                  "en": "That shadow loves",
+                  "ko": "그 그림자는 좋아해요"
+                },
+                {
+                  "en": "tricky questions.",
+                  "ko": "까다로운 질문을."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "action": "route",
+          "town": "sj",
+          "lines": [
+            {
+              "speaker": "Narrator",
+              "en": "Past the west gate, the old bridge road winds through tall grass and wet stones.",
+              "ko": "서쪽 문 너머로 낡은 다리 길이 키 큰 풀과 젖은 돌 사이로 굽이굽이 이어진다.",
+              "chunks": [
+                {
+                  "en": "Past the west gate, the old bridge road winds through tall grass and wet stones.",
+                  "ko": "서쪽 문 너머로 낡은 다리 길이 키 큰 풀과 젖은 돌 사이로 굽이굽이 이어진다."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "Past the west gate,",
+                  "ko": "서쪽 문 너머로"
+                },
+                {
+                  "en": "the old bridge road winds",
+                  "ko": "낡은 다리 길이 굽이친다"
+                },
+                {
+                  "en": "through tall grass",
+                  "ko": "키 큰 풀 사이로"
+                },
+                {
+                  "en": "and wet stones.",
+                  "ko": "그리고 젖은 돌 사이로."
+                }
+              ]
+            },
+            {
+              "speaker": "Narrator",
+              "en": "Small footprints lead up the path. Somewhere ahead, something is giggling.",
+              "ko": "작은 발자국이 길 위로 이어진다. 저 앞 어딘가에서 킥킥 웃는 소리가 들린다.",
+              "chunks": [
+                {
+                  "en": "Small footprints lead up the path. Somewhere ahead, something is giggling.",
+                  "ko": "작은 발자국이 길 위로 이어진다. 저 앞 어딘가에서 킥킥 웃는 소리가 들린다."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "Small footprints",
+                  "ko": "작은 발자국이"
+                },
+                {
+                  "en": "lead up the path.",
+                  "ko": "길 위로 이어진다."
+                },
+                {
+                  "en": "Somewhere ahead,",
+                  "ko": "저 앞 어딘가에서"
+                },
+                {
+                  "en": "something is giggling.",
+                  "ko": "무언가 킥킥 웃고 있다."
+                }
+              ]
+            }
+          ],
+          "route": {
+            "id": "sj_west",
+            "exit": "exit_west",
+            "label": "서쪽 다리 길",
+            "clue": {
+              "label": "젖은 발자국",
+              "lines": [
+                {
+                  "speaker": "Narrator",
+                  "en": "Beside a mossy stone, you find a torn blue ribbon and a trail of wet footprints.",
+                  "ko": "이끼 낀 돌 옆에서 찢어진 파란 리본과 젖은 발자국 흔적을 발견한다.",
+                  "chunks": [
+                    {
+                      "en": "Beside a mossy stone, you find a torn blue ribbon and a trail of wet footprints.",
+                      "ko": "이끼 낀 돌 옆에서 찢어진 파란 리본과 젖은 발자국 흔적을 발견한다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Beside a mossy stone,",
+                      "ko": "이끼 낀 돌 옆에서"
+                    },
+                    {
+                      "en": "you find",
+                      "ko": "발견한다"
+                    },
+                    {
+                      "en": "a torn blue ribbon",
+                      "ko": "찢어진 파란 리본을"
+                    },
+                    {
+                      "en": "and a trail of wet footprints.",
+                      "ko": "그리고 젖은 발자국 흔적을."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Narrator",
+                  "en": "A note is tied to the ribbon: \"If you win, the coin is yours.\"",
+                  "ko": "리본에 쪽지가 묶여 있다. \"이기면 동전은 네 거야.\"",
+                  "chunks": [
+                    {
+                      "en": "A note is tied to the ribbon: \"If you win, the coin is yours.\"",
+                      "ko": "리본에 쪽지가 묶여 있다. \"이기면 동전은 네 거야.\""
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "A note is tied",
+                      "ko": "쪽지가 묶여 있다"
+                    },
+                    {
+                      "en": "to the ribbon:",
+                      "ko": "리본에"
+                    },
+                    {
+                      "en": "\"If you win,",
+                      "ko": "\"네가 이기면"
+                    },
+                    {
+                      "en": "the coin is yours.\"",
+                      "ko": "동전은 네 거야.\""
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Subject",
+                  "en": "The footprints go toward the north rocks. It is waiting for us there.",
+                  "ko": "발자국이 북쪽 바위로 이어져 있어. 거기서 우리를 기다리고 있나 봐.",
+                  "chunks": [
+                    {
+                      "en": "The footprints go toward the north rocks. It is waiting for us there.",
+                      "ko": "발자국이 북쪽 바위로 이어져 있어. 거기서 우리를 기다리고 있나 봐."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The footprints go",
+                      "ko": "발자국이 이어져 있어"
+                    },
+                    {
+                      "en": "toward the north rocks.",
+                      "ko": "북쪽 바위 쪽으로."
+                    },
+                    {
+                      "en": "It is waiting",
+                      "ko": "그것이 기다리고 있어"
+                    },
+                    {
+                      "en": "for us there.",
+                      "ko": "우리를 거기서."
+                    }
+                  ]
+                }
+              ]
+            },
+            "monster": {
+              "label": "어쩌면 도깨비",
+              "name_en": "Maybe Imp",
+              "name_ko": "어쩌면 도깨비",
+              "lines": [
+                {
+                  "speaker": "Narrator",
+                  "en": "A round little imp pops out from behind the rocks, juggling the wishing coin.",
+                  "ko": "동글동글한 작은 도깨비가 바위 뒤에서 튀어나와 소원 동전을 저글링한다.",
+                  "chunks": [
+                    {
+                      "en": "A round little imp pops out from behind the rocks, juggling the wishing coin.",
+                      "ko": "동글동글한 작은 도깨비가 바위 뒤에서 튀어나와 소원 동전을 저글링한다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "A round little imp",
+                      "ko": "동글동글한 작은 도깨비가"
+                    },
+                    {
+                      "en": "pops out",
+                      "ko": "튀어나온다"
+                    },
+                    {
+                      "en": "from behind the rocks,",
+                      "ko": "바위 뒤에서"
+                    },
+                    {
+                      "en": "juggling the wishing coin.",
+                      "ko": "소원 동전을 저글링하며."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Maybe Imp",
+                  "en": "I am the Maybe Imp! If you answer three questions, I will give it back. Maybe!",
+                  "ko": "나는 어쩌면 도깨비야! 질문 세 개에 답하면 돌려줄게. 어쩌면!",
+                  "chunks": [
+                    {
+                      "en": "I am the Maybe Imp! If you answer three questions, I will give it back. Maybe!",
+                      "ko": "나는 어쩌면 도깨비야! 질문 세 개에 답하면 돌려줄게. 어쩌면!"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I am the Maybe Imp!",
+                      "ko": "나는 어쩌면 도깨비야!"
+                    },
+                    {
+                      "en": "If you answer three questions,",
+                      "ko": "질문 세 개에 답하면"
+                    },
+                    {
+                      "en": "I will give it back.",
+                      "ko": "돌려줄게."
+                    },
+                    {
+                      "en": "Maybe!",
+                      "ko": "어쩌면!"
+                    }
+                  ],
+                  "speaker_en": "Maybe Imp",
+                  "speaker_ko": "어쩌면 도깨비"
+                }
+              ],
+              "questions": [
+                {
+                  "question_en": "If it ___ tomorrow, we will stay home.",
+                  "question_ko": "내일 비가 ___ 우리는 집에 있을 거야.",
+                  "options": [
+                    "rains",
+                    "will rain",
+                    "rained"
+                  ],
+                  "correct_index": 0,
+                  "feedback_ko": "실현 가능한 조건은 if절에 현재형(rains)을 써요.",
+                  "question_chunks": [
+                    {
+                      "en": "If it ___ tomorrow,",
+                      "ko": "내일 비가 ___"
+                    },
+                    {
+                      "en": "we will stay home.",
+                      "ko": "우리는 집에 있을 거야."
+                    }
+                  ]
+                },
+                {
+                  "question_en": "If I ___ a bird, I would fly to you.",
+                  "question_ko": "내가 새___ 너에게 날아갈 텐데.",
+                  "options": [
+                    "were",
+                    "am",
+                    "will be"
+                  ],
+                  "correct_index": 0,
+                  "feedback_ko": "현실과 반대인 가정은 if절에 were를 써요.",
+                  "question_chunks": [
+                    {
+                      "en": "If I ___ a bird,",
+                      "ko": "내가 새___"
+                    },
+                    {
+                      "en": "I would fly to you.",
+                      "ko": "너에게 날아갈 텐데."
+                    }
+                  ]
+                },
+                {
+                  "question_en": "If I found the coin, I ___ return it.",
+                  "question_ko": "동전을 찾는다면 나는 그것을 돌려줄 ___.",
+                  "options": [
+                    "would",
+                    "will",
+                    "did"
+                  ],
+                  "correct_index": 0,
+                  "feedback_ko": "과거형 if절 뒤에는 would + 동사원형이 와요.",
+                  "question_chunks": [
+                    {
+                      "en": "If I found the coin,",
+                      "ko": "동전을 찾는다면"
+                    },
+                    {
+                      "en": "I ___ return it.",
+                      "ko": "나는 돌려줄 ___."
+                    }
+                  ]
+                }
+              ],
+              "win": [
+                {
+                  "speaker": "Maybe Imp",
+                  "en": "Oh no! You answered every question. A promise is a promise.",
+                  "ko": "으악! 질문을 전부 맞혔네. 약속은 약속이지.",
+                  "chunks": [
+                    {
+                      "en": "Oh no! You answered every question. A promise is a promise.",
+                      "ko": "으악! 질문을 전부 맞혔네. 약속은 약속이지."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Oh no!",
+                      "ko": "으악!"
+                    },
+                    {
+                      "en": "You answered every question.",
+                      "ko": "질문을 전부 맞혔네."
+                    },
+                    {
+                      "en": "A promise is a promise.",
+                      "ko": "약속은 약속이지."
+                    }
+                  ],
+                  "speaker_en": "Maybe Imp",
+                  "speaker_ko": "어쩌면 도깨비"
+                },
+                {
+                  "speaker": "Maybe Imp",
+                  "en": "If I had a friend, I would not have taken it. Here, take your coin.",
+                  "ko": "친구가 있었다면 가져가지 않았을 텐데. 자, 동전 가져가.",
+                  "chunks": [
+                    {
+                      "en": "If I had a friend, I would not have taken it. Here, take your coin.",
+                      "ko": "친구가 있었다면 가져가지 않았을 텐데. 자, 동전 가져가."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "If I had a friend,",
+                      "ko": "친구가 있었다면"
+                    },
+                    {
+                      "en": "I would not have taken it.",
+                      "ko": "가져가지 않았을 텐데."
+                    },
+                    {
+                      "en": "Here,",
+                      "ko": "자,"
+                    },
+                    {
+                      "en": "take your coin.",
+                      "ko": "동전 가져가."
+                    }
+                  ],
+                  "speaker_en": "Maybe Imp",
+                  "speaker_ko": "어쩌면 도깨비"
+                },
+                {
+                  "speaker": "Narrator",
+                  "en": "You receive the wishing coin. It is warm in your hand.",
+                  "ko": "소원 동전을 받는다. 손안에서 따뜻하다.",
+                  "chunks": [
+                    {
+                      "en": "You receive the wishing coin. It is warm in your hand.",
+                      "ko": "소원 동전을 받는다. 손안에서 따뜻하다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "You receive",
+                      "ko": "받는다"
+                    },
+                    {
+                      "en": "the wishing coin.",
+                      "ko": "소원 동전을."
+                    },
+                    {
+                      "en": "It is warm",
+                      "ko": "따뜻하다"
+                    },
+                    {
+                      "en": "in your hand.",
+                      "ko": "손안에서."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "action": "report",
+          "npc": "sj_extra_1",
+          "lines": [
+            {
+              "speaker": "sj_extra_1",
+              "en": "The coin! And the shadow? It wanted a friend, you say?",
+              "ko": "동전이다! 그런데 그림자라고요? 친구가 필요했다고요?",
+              "chunks": [
+                {
+                  "en": "The coin! And the shadow? It wanted a friend, you say?",
+                  "ko": "동전이다! 그런데 그림자라고요? 친구가 필요했다고요?"
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "The coin!",
+                  "ko": "동전이다!"
+                },
+                {
+                  "en": "And the shadow?",
+                  "ko": "그런데 그림자는요?"
+                },
+                {
+                  "en": "It wanted a friend,",
+                  "ko": "친구를 원했다고"
+                },
+                {
+                  "en": "you say?",
+                  "ko": "하셨나요?"
+                }
+              ]
+            },
+            {
+              "speaker": "sj_extra_1",
+              "en": "If we had known, we would have invited it. Please, make the first wish with me.",
+              "ko": "알았다면 초대했을 텐데요. 부디 저와 함께 첫 소원을 빌어 주세요.",
+              "chunks": [
+                {
+                  "en": "If we had known, we would have invited it. Please, make the first wish with me.",
+                  "ko": "알았다면 초대했을 텐데요. 부디 저와 함께 첫 소원을 빌어 주세요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "If we had known,",
+                  "ko": "알았다면"
+                },
+                {
+                  "en": "we would have invited it.",
+                  "ko": "초대했을 텐데요."
+                },
+                {
+                  "en": "Please,",
+                  "ko": "부디"
+                },
+                {
+                  "en": "make the first wish",
+                  "ko": "첫 소원을 빌어 주세요"
+                },
+                {
+                  "en": "with me.",
+                  "ko": "저와 함께."
+                }
+              ]
+            },
+            {
+              "speaker": "sj_extra_1",
+              "en": "What do you wish for?",
+              "ko": "무엇을 빌까요?",
+              "chunks": [
+                {
+                  "en": "What do you wish for?",
+                  "ko": "무엇을 빌까요?"
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "What do you wish for?",
+                  "ko": "무엇을 빌까요?"
+                }
+              ]
+            }
+          ],
+          "task": {
+            "question_en": "What will you wish for?",
+            "question_ko": "무엇을 빌까요?",
+            "options": [
+              "I wish the imp had a friend.",
+              "I wish the bridge stayed safe.",
+              "I wish for a good journey."
+            ],
+            "correct_index": 0,
+            "choice": true,
+            "flag": "sj_route_wish",
+            "reactions": [
+              [
+                {
+                  "speaker": "sj_extra_1",
+                  "en": "A kind wish. The bridge will make room for the imp.",
+                  "ko": "따뜻한 소원이네요. 다리가 도깨비를 위한 자리를 마련해 줄 거예요.",
+                  "chunks": [
+                    {
+                      "en": "A kind wish. The bridge will make room for the imp.",
+                      "ko": "따뜻한 소원이네요. 다리가 도깨비를 위한 자리를 마련해 줄 거예요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "A kind wish.",
+                      "ko": "따뜻한 소원이네요."
+                    },
+                    {
+                      "en": "The bridge will make room",
+                      "ko": "다리가 자리를 마련해 줄 거예요"
+                    },
+                    {
+                      "en": "for the imp.",
+                      "ko": "도깨비를 위해."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "speaker": "sj_extra_1",
+                  "en": "A wise wish. The bridge will stand another hundred years.",
+                  "ko": "현명한 소원이네요. 다리가 백 년은 더 서 있겠어요.",
+                  "chunks": [
+                    {
+                      "en": "A wise wish. The bridge will stand another hundred years.",
+                      "ko": "현명한 소원이네요. 다리가 백 년은 더 서 있겠어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "A wise wish.",
+                      "ko": "현명한 소원이네요."
+                    },
+                    {
+                      "en": "The bridge will stand",
+                      "ko": "다리가 서 있을 거예요"
+                    },
+                    {
+                      "en": "another hundred years.",
+                      "ko": "백 년 더."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "speaker": "sj_extra_1",
+                  "en": "A bright wish. Your road will be smooth.",
+                  "ko": "밝은 소원이네요. 당신의 길이 순탄하겠어요.",
+                  "chunks": [
+                    {
+                      "en": "A bright wish. Your road will be smooth.",
+                      "ko": "밝은 소원이네요. 당신의 길이 순탄하겠어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "A bright wish.",
+                      "ko": "밝은 소원이네요."
+                    },
+                    {
+                      "en": "Your road",
+                      "ko": "당신의 길이"
+                    },
+                    {
+                      "en": "will be smooth.",
+                      "ko": "순탄하겠어요."
+                    }
+                  ]
+                }
+              ]
+            ],
+            "question_chunks": [
+              {
+                "en": "What will you wish for?",
+                "ko": "무엇을 빌까요?"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

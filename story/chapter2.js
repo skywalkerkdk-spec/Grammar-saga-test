@@ -382,7 +382,7 @@
     const files=['TOWN_NETWORK','TOWN_EVENTS','TOWN_UNIQUE_EVENTS','TOWN_RELATIONSHIP_STORIES',
       'REGIONAL_STORIES_REVISED','RESIDENT_DAILY_DIALOGUE','DEMON_ARMY_INTRIGUE','DEMON_ARMY_RESOLUTIONS',
       'DEMON_ARMY_MAIN_ARC','COMPANION_AND_OFFICER_DEPTH','BOOK_SECRETS_AND_MERCHANTS',
-      'CHAPTER2_CLOSURE_AND_EXPLORATION','CHAPTER2_FINAL_EXPANSION','CHAPTER2_REVIEW_AND_COMPANIONS'];
+      'CHAPTER2_CLOSURE_AND_EXPLORATION','CHAPTER2_FINAL_EXPANSION','CHAPTER2_REVIEW_AND_COMPANIONS','ROUTE_QUESTS'];
     const data=Object.fromEntries(await Promise.all(files.map(async key=>[key,await loadData('story/'+key+'.json')])));
     chapterWorld=window.createChapterWorld({
       node,button,show,chunkedLine,panel:worldPanel,save:saveWorld,reward:grantQuestReward,state:worldProgress,flag:worldFlag,
@@ -397,6 +397,12 @@
       volumeRead:id=>!!worldProgress().reading?.read?.[id],startHideout,
       field:(body,map,targets)=>window.openChapterField(body,map,isRpgM()?rhero():lhero(),targets),
       koreanVisible:()=>reading.mode!=='english',conversationMenu,portraitFor:extraPortrait,
+      monsterArt:townId=>{
+        const mon=GRMAP[townId]?.boss?.mon;
+        if(!mon)return null;
+        const portrait=node('div',undefined,'c2-field-monster');
+        portrait.innerHTML=sp(mon,'','MON');fill(portrait);return portrait;
+      },
     },data);
     registerHideouts(data.CHAPTER2_FINAL_EXPANSION.lairs);
   }
@@ -746,7 +752,8 @@
       body.append(note);
       map.exits.forEach((exit,index)=>targets.push({id:exit.id,label:exit.label,action:()=>{
         if (index===0) closeDialogue();
-        else note.textContent=exit.label+'은(는) 필드 길과 연결될 예정입니다. 월드맵으로 표시된 출구에서 마을을 나갈 수 있습니다.';
+        else if(!chapterWorld?.openRoute(episode.id,exit.id,()=>villageField(episode,map)))
+          note.textContent=exit.label+'은(는) 아직 갈 일이 없는 길입니다. 마을 사람들에게 의뢰를 받아 보세요.';
       }}));
     }
     const layout=townResidentsOnMap(episode,map,targets,()=>villageField(episode,map));
