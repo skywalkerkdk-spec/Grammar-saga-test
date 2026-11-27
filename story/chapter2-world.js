@@ -376,3 +376,23 @@ window.createChapterWorld = function(api, data) {
   const residentsForTown=id=>townResidents.get(id)||[];
   return {town,journal,finaleOpening,finaleClosing,finalePhase,meetResident,residentsForTown,guidance};
 };
+
+// Expose the development map from the game's title screen.
+(() => {
+  const app = document.getElementById('app');
+  if (!app) return;
+  function addCityTestLink() {
+    const start = app.querySelector('button#go');
+    if (!start || !app.querySelector('#nmi') || app.querySelector('#city-walk-test')) return;
+    const row = document.createElement('p');
+    const link = document.createElement('a');
+    link.id = 'city-walk-test';
+    link.className = 'btn-s';
+    link.href = 'city.html';
+    link.textContent = '성곽 도시 걷기 테스트';
+    row.append(link);
+    start.parentElement.after(row);
+  }
+  addCityTestLink();
+  new MutationObserver(addCityTestLink).observe(app, {childList: true, subtree: true});
+})();
