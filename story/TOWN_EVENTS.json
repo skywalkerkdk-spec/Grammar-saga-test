@@ -5244,210 +5244,699 @@
           "title_ko": "멈춘 시계",
           "steps": [
             {
-              "npc": "tn_extra_5",
               "action": "accept",
-              "line": {
-                "en": "Please help me find my clock key.",
-                "ko": "제 시계 열쇠을(를) 찾도록 도와주세요.",
-                "chunks": [
-                  {
-                    "en": "Please help me find my clock key.",
-                    "ko": "제 시계 열쇠을(를) 찾도록 도와주세요.",
-                    "direct_chunks": [
-                      {
-                        "en": "Please help me",
-                        "ko": "저를 도와주세요"
-                      },
-                      {
-                        "en": "find",
-                        "ko": "찾는 것을"
-                      },
-                      {
-                        "en": "my clock key.",
-                        "ko": "제 시계 열쇠를."
-                      }
-                    ]
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "Please help me",
-                    "ko": "저를 도와주세요"
-                  },
-                  {
-                    "en": "find",
-                    "ko": "찾는 것을"
-                  },
-                  {
-                    "en": "my clock key.",
-                    "ko": "제 시계 열쇠를."
-                  }
-                ]
-              }
-            },
-            {
-              "npc": "tn_extra_6",
-              "action": "talk",
-              "line": {
-                "en": "I saw something inside the blue box.",
-                "ko": "파란 상자 안에서 무언가를 봤어요.",
-                "chunks": [
-                  {
-                    "en": "I saw something inside the blue box.",
-                    "ko": "파란 상자 안에서 무언가를 봤어요.",
-                    "direct_chunks": [
-                      {
-                        "en": "I saw",
-                        "ko": "저는 봤어요"
-                      },
-                      {
-                        "en": "something",
-                        "ko": "무언가를"
-                      },
-                      {
-                        "en": "inside the blue box.",
-                        "ko": "파란 상자 안에서."
-                      }
-                    ]
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "I saw",
-                    "ko": "저는 봤어요"
-                  },
-                  {
-                    "en": "something",
-                    "ko": "무언가를"
-                  },
-                  {
-                    "en": "inside the blue box.",
-                    "ko": "파란 상자 안에서."
-                  }
-                ]
-              }
-            },
-            {
-              "npc": "tn_extra_8",
-              "action": "confirm",
-              "line": {
-                "en": "Yes, I saw it there too.",
-                "ko": "네, 저도 거기서 봤어요.",
-                "chunks": [
-                  {
-                    "en": "Yes, I saw it there too.",
-                    "ko": "네, 저도 거기서 봤어요."
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "Yes,",
-                    "ko": "네"
-                  },
-                  {
-                    "en": "I saw it",
-                    "ko": "저도 봤어요"
-                  },
-                  {
-                    "en": "there too.",
-                    "ko": "거기서도."
-                  }
-                ]
-              }
-            },
-            {
-              "action": "choose_location",
-              "question_en": "Where should you look?",
-              "options": [
-                "inside the blue box",
-                "at the village gate",
-                "on the roof"
-              ],
-              "correct_index": 0,
-              "feedback_ko": "두 주민이 알려 준 위치를 확인하세요.",
-              "grant_evidence": "tn_found_item",
-              "question_chunks": [
+              "lines": [
                 {
-                  "en": "Where",
-                  "ko": "어디를"
+                  "speaker": "Narrator",
+                  "en": "Pendle stands before the tall town clock. Its hands have stopped.",
+                  "ko": "펜들이 높은 마을 시계 앞에 서 있다. 시곗바늘이 멈춰 있다.",
+                  "chunks": [
+                    {
+                      "en": "Pendle stands before the tall town clock. Its hands have stopped.",
+                      "ko": "펜들이 높은 마을 시계 앞에 서 있다. 시곗바늘이 멈춰 있다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Pendle stands",
+                      "ko": "펜들이 서 있다"
+                    },
+                    {
+                      "en": "before the tall town clock.",
+                      "ko": "높은 마을 시계 앞에."
+                    },
+                    {
+                      "en": "Its hands",
+                      "ko": "시곗바늘이"
+                    },
+                    {
+                      "en": "have stopped.",
+                      "ko": "멈춰 있다."
+                    }
+                  ]
                 },
                 {
-                  "en": "should you look?",
-                  "ko": "당신은 봐야 하는가?"
+                  "speaker": "tn_extra_5",
+                  "en": "Yesterday I wound this clock. This morning, the key was gone.",
+                  "ko": "어제는 이 시계의 태엽을 감았어요. 오늘 아침엔 열쇠가 없어졌어요.",
+                  "chunks": [
+                    {
+                      "en": "Yesterday I wound this clock. This morning, the key was gone.",
+                      "ko": "어제는 이 시계의 태엽을 감았어요. 오늘 아침엔 열쇠가 없어졌어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Yesterday I wound this clock.",
+                      "ko": "어제 이 시계의 태엽을 감았어요."
+                    },
+                    {
+                      "en": "This morning,",
+                      "ko": "오늘 아침엔"
+                    },
+                    {
+                      "en": "the key was gone.",
+                      "ko": "열쇠가 없어졌어요."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "tn_extra_5",
+                  "en": "Without it, the clock will not move. Nobody will know the time.",
+                  "ko": "열쇠가 없으면 시계가 움직이지 않을 거예요. 아무도 시간을 모를 거예요.",
+                  "chunks": [
+                    {
+                      "en": "Without it, the clock will not move. Nobody will know the time.",
+                      "ko": "열쇠가 없으면 시계가 움직이지 않을 거예요. 아무도 시간을 모를 거예요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Without it,",
+                      "ko": "열쇠가 없으면"
+                    },
+                    {
+                      "en": "the clock will not move.",
+                      "ko": "시계는 움직이지 않을 거예요."
+                    },
+                    {
+                      "en": "Nobody will know",
+                      "ko": "아무도 모를 거예요"
+                    },
+                    {
+                      "en": "the time.",
+                      "ko": "시간을."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Subject",
+                  "en": "We will find your key.",
+                  "ko": "우리가 열쇠를 찾아 드릴게요.",
+                  "chunks": [
+                    {
+                      "en": "We will find your key.",
+                      "ko": "우리가 열쇠를 찾아 드릴게요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "We will find",
+                      "ko": "우리가 찾을게요"
+                    },
+                    {
+                      "en": "your key.",
+                      "ko": "당신의 열쇠를."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "tn_extra_5",
+                  "en": "Ask Stitch. She sat by the clock all day yesterday.",
+                  "ko": "스티치에게 물어보세요. 어제 하루 종일 시계 옆에 앉아 있었어요.",
+                  "chunks": [
+                    {
+                      "en": "Ask Stitch. She sat by the clock all day yesterday.",
+                      "ko": "스티치에게 물어보세요. 어제 하루 종일 시계 옆에 앉아 있었어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Ask Stitch.",
+                      "ko": "스티치에게 물어보세요."
+                    },
+                    {
+                      "en": "She sat",
+                      "ko": "그녀는 앉아 있었어요"
+                    },
+                    {
+                      "en": "by the clock",
+                      "ko": "시계 옆에"
+                    },
+                    {
+                      "en": "all day yesterday.",
+                      "ko": "어제 하루 종일."
+                    }
+                  ]
                 }
-              ]
+              ],
+              "npc": "tn_extra_5"
             },
             {
-              "npc": "tn_extra_5",
+              "action": "talk",
+              "lines": [
+                {
+                  "speaker": "tn_extra_6",
+                  "en": "I sewed a coat beside the clock. I saw a small boy at noon.",
+                  "ko": "시계 옆에서 외투를 바느질했어요. 정오에 작은 남자아이를 봤어요.",
+                  "chunks": [
+                    {
+                      "en": "I sewed a coat beside the clock. I saw a small boy at noon.",
+                      "ko": "시계 옆에서 외투를 바느질했어요. 정오에 작은 남자아이를 봤어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I sewed a coat",
+                      "ko": "저는 외투를 바느질했어요"
+                    },
+                    {
+                      "en": "beside the clock.",
+                      "ko": "시계 옆에서."
+                    },
+                    {
+                      "en": "I saw a small boy",
+                      "ko": "작은 남자아이를 봤어요"
+                    },
+                    {
+                      "en": "at noon.",
+                      "ko": "정오에."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "tn_extra_6",
+                  "en": "He climbed the steps and took something shiny. Then he ran to the bakery.",
+                  "ko": "그 애가 계단에 올라 반짝이는 걸 가져갔어요. 그러고는 빵집으로 뛰어갔죠.",
+                  "chunks": [
+                    {
+                      "en": "He climbed the steps and took something shiny. Then he ran to the bakery.",
+                      "ko": "그 애가 계단에 올라 반짝이는 걸 가져갔어요. 그러고는 빵집으로 뛰어갔죠."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "He climbed the steps",
+                      "ko": "그는 계단에 올랐어요"
+                    },
+                    {
+                      "en": "and took something shiny.",
+                      "ko": "그리고 반짝이는 걸 가져갔어요."
+                    },
+                    {
+                      "en": "Then he ran",
+                      "ko": "그러고는 달려갔어요"
+                    },
+                    {
+                      "en": "to the bakery.",
+                      "ko": "빵집으로."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Subject",
+                  "en": "Do you know his name?",
+                  "ko": "그 애 이름을 아세요?",
+                  "chunks": [
+                    {
+                      "en": "Do you know his name?",
+                      "ko": "그 애 이름을 아세요?"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Do you know",
+                      "ko": "아세요"
+                    },
+                    {
+                      "en": "his name?",
+                      "ko": "그의 이름을?"
+                    }
+                  ]
+                },
+                {
+                  "speaker": "tn_extra_6",
+                  "en": "Pip. He is June's helper. Please ask June.",
+                  "ko": "핍이에요. 준의 조수죠. 준에게 물어보세요.",
+                  "chunks": [
+                    {
+                      "en": "Pip. He is June's helper. Please ask June.",
+                      "ko": "핍이에요. 준의 조수죠. 준에게 물어보세요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Pip.",
+                      "ko": "핍이에요."
+                    },
+                    {
+                      "en": "He is June's helper.",
+                      "ko": "그는 준의 조수예요."
+                    },
+                    {
+                      "en": "Please ask June.",
+                      "ko": "준에게 물어보세요."
+                    }
+                  ]
+                }
+              ],
+              "npc": "tn_extra_6"
+            },
+            {
+              "action": "confirm",
+              "lines": [
+                {
+                  "speaker": "Narrator",
+                  "en": "June is wiping the counter. Pip hides behind a flour sack.",
+                  "ko": "준이 카운터를 닦고 있다. 핍은 밀가루 포대 뒤에 숨어 있다.",
+                  "chunks": [
+                    {
+                      "en": "June is wiping the counter. Pip hides behind a flour sack.",
+                      "ko": "준이 카운터를 닦고 있다. 핍은 밀가루 포대 뒤에 숨어 있다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "June is wiping the counter.",
+                      "ko": "준이 카운터를 닦고 있다."
+                    },
+                    {
+                      "en": "Pip hides",
+                      "ko": "핍이 숨어 있다"
+                    },
+                    {
+                      "en": "behind a flour sack.",
+                      "ko": "밀가루 포대 뒤에."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "tn_extra_7",
+                  "en": "Pip came in at noon with a key. He is playing with it now.",
+                  "ko": "핍이 정오에 열쇠를 들고 왔어요. 지금도 그걸로 놀고 있죠.",
+                  "chunks": [
+                    {
+                      "en": "Pip came in at noon with a key. He is playing with it now.",
+                      "ko": "핍이 정오에 열쇠를 들고 왔어요. 지금도 그걸로 놀고 있죠."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Pip came in",
+                      "ko": "핍이 왔어요"
+                    },
+                    {
+                      "en": "at noon",
+                      "ko": "정오에"
+                    },
+                    {
+                      "en": "with a key.",
+                      "ko": "열쇠를 들고."
+                    },
+                    {
+                      "en": "He is playing with it",
+                      "ko": "그는 그것을 갖고 놀고 있어요"
+                    },
+                    {
+                      "en": "now.",
+                      "ko": "지금."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "tn_extra_8",
+                  "en": "I did not steal it. I only borrowed it. I wanted to wind my toy.",
+                  "ko": "훔친 거 아니에요. 빌렸을 뿐이에요. 장난감 태엽을 감고 싶었어요.",
+                  "chunks": [
+                    {
+                      "en": "I did not steal it. I only borrowed it. I wanted to wind my toy.",
+                      "ko": "훔친 거 아니에요. 빌렸을 뿐이에요. 장난감 태엽을 감고 싶었어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I did not steal it.",
+                      "ko": "훔친 거 아니에요."
+                    },
+                    {
+                      "en": "I only borrowed it.",
+                      "ko": "빌렸을 뿐이에요."
+                    },
+                    {
+                      "en": "I wanted",
+                      "ko": "저는 하고 싶었어요"
+                    },
+                    {
+                      "en": "to wind my toy.",
+                      "ko": "장난감 태엽을 감는 걸."
+                    }
+                  ]
+                }
+              ],
+              "npc": "tn_extra_7"
+            },
+            {
+              "action": "talk",
+              "lines": [
+                {
+                  "speaker": "tn_extra_9",
+                  "en": "A courier must use the right tense. Which sentence is correct?",
+                  "ko": "배달부는 알맞은 시제를 써야 해요. 어느 문장이 맞을까요?",
+                  "chunks": [
+                    {
+                      "en": "A courier must use the right tense. Which sentence is correct?",
+                      "ko": "배달부는 알맞은 시제를 써야 해요. 어느 문장이 맞을까요?"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "A courier",
+                      "ko": "배달부는"
+                    },
+                    {
+                      "en": "must use the right tense.",
+                      "ko": "알맞은 시제를 써야 해요."
+                    },
+                    {
+                      "en": "Which sentence",
+                      "ko": "어느 문장이"
+                    },
+                    {
+                      "en": "is correct?",
+                      "ko": "맞나요?"
+                    }
+                  ]
+                }
+              ],
+              "task": {
+                "question_en": "Which sentence is correct?",
+                "question_ko": "어느 문장이 맞을까요?",
+                "options": [
+                  "Pip took the key yesterday.",
+                  "Pip takes the key yesterday.",
+                  "Pip will took the key yesterday."
+                ],
+                "correct_index": 0,
+                "feedback_ko": "어제 일어난 일은 과거형(took)으로 말해요.",
+                "question_chunks": [
+                  {
+                    "en": "Which sentence",
+                    "ko": "어느 문장이"
+                  },
+                  {
+                    "en": "is correct?",
+                    "ko": "맞나요?"
+                  }
+                ]
+              },
+              "npc": "tn_extra_9"
+            },
+            {
+              "action": "search",
+              "lines": [
+                {
+                  "speaker": "Narrator",
+                  "en": "On the floor behind the counter, a toy duck sits beside the old brass key.",
+                  "ko": "카운터 뒤 바닥에 장난감 오리가 낡은 놋쇠 열쇠 옆에 놓여 있다.",
+                  "chunks": [
+                    {
+                      "en": "On the floor behind the counter, a toy duck sits beside the old brass key.",
+                      "ko": "카운터 뒤 바닥에 장난감 오리가 낡은 놋쇠 열쇠 옆에 놓여 있다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "On the floor behind the counter,",
+                      "ko": "카운터 뒤 바닥에"
+                    },
+                    {
+                      "en": "a toy duck sits",
+                      "ko": "장난감 오리가 놓여 있다"
+                    },
+                    {
+                      "en": "beside the old brass key.",
+                      "ko": "낡은 놋쇠 열쇠 옆에."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "tn_extra_8",
+                  "en": "I wound my duck, and it walked. Then I forgot to take the key back.",
+                  "ko": "오리 태엽을 감았더니 걸었어요. 그러고는 열쇠를 돌려놓는 걸 잊었어요.",
+                  "chunks": [
+                    {
+                      "en": "I wound my duck, and it walked. Then I forgot to take the key back.",
+                      "ko": "오리 태엽을 감았더니 걸었어요. 그러고는 열쇠를 돌려놓는 걸 잊었어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I wound my duck,",
+                      "ko": "오리 태엽을 감았더니"
+                    },
+                    {
+                      "en": "and it walked.",
+                      "ko": "걷더라고요."
+                    },
+                    {
+                      "en": "Then I forgot",
+                      "ko": "그러고는 잊었어요"
+                    },
+                    {
+                      "en": "to take the key back.",
+                      "ko": "열쇠를 돌려놓는 걸."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "tn_extra_8",
+                  "en": "I will do it now. Is the clock very angry with me?",
+                  "ko": "지금 할게요. 시계가 저한테 많이 화났나요?",
+                  "chunks": [
+                    {
+                      "en": "I will do it now. Is the clock very angry with me?",
+                      "ko": "지금 할게요. 시계가 저한테 많이 화났나요?"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I will do it now.",
+                      "ko": "지금 할게요."
+                    },
+                    {
+                      "en": "Is the clock",
+                      "ko": "시계가 ~인가요"
+                    },
+                    {
+                      "en": "very angry with me?",
+                      "ko": "저한테 많이 화났나요?"
+                    }
+                  ]
+                }
+              ],
+              "field": "nbg_08.webp",
+              "task": {
+                "question_en": "How will you speak to Pip?",
+                "question_ko": "핍에게 어떻게 말할까요?",
+                "options": [
+                  "You must ask before you borrow.",
+                  "Let us return the key together.",
+                  "Wind your duck with a smaller key."
+                ],
+                "correct_index": 0,
+                "choice": true,
+                "flag": "tn_pip_choice",
+                "reactions": [
+                  [
+                    {
+                      "speaker": "tn_extra_8",
+                      "en": "Yesterday I forgot. Tomorrow I will ask first.",
+                      "ko": "어제는 깜빡했지만 내일부터는 먼저 물어볼게요.",
+                      "chunks": [
+                        {
+                          "en": "Yesterday I forgot. Tomorrow I will ask first.",
+                          "ko": "어제는 깜빡했지만 내일부터는 먼저 물어볼게요."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "Yesterday I forgot.",
+                          "ko": "어제는 깜빡했어요."
+                        },
+                        {
+                          "en": "Tomorrow",
+                          "ko": "내일은"
+                        },
+                        {
+                          "en": "I will ask first.",
+                          "ko": "먼저 물어볼게요."
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "speaker": "tn_extra_8",
+                      "en": "Together? Yes! I am running right now!",
+                      "ko": "같이요? 좋아요! 지금 뛰고 있어요!",
+                      "chunks": [
+                        {
+                          "en": "Together? Yes! I am running right now!",
+                          "ko": "같이요? 좋아요! 지금 뛰고 있어요!"
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "Together?",
+                          "ko": "같이요?"
+                        },
+                        {
+                          "en": "Yes!",
+                          "ko": "좋아요!"
+                        },
+                        {
+                          "en": "I am running",
+                          "ko": "저는 뛰고 있어요"
+                        },
+                        {
+                          "en": "right now!",
+                          "ko": "바로 지금!"
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "speaker": "tn_extra_8",
+                      "en": "A smaller key? Pendle will make me one tomorrow, I hope.",
+                      "ko": "더 작은 열쇠요? 펜들 아저씨가 내일 만들어 주면 좋겠어요.",
+                      "chunks": [
+                        {
+                          "en": "A smaller key? Pendle will make me one tomorrow, I hope.",
+                          "ko": "더 작은 열쇠요? 펜들 아저씨가 내일 만들어 주면 좋겠어요."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "A smaller key?",
+                          "ko": "더 작은 열쇠요?"
+                        },
+                        {
+                          "en": "Pendle will make me one",
+                          "ko": "펜들이 만들어 주겠죠"
+                        },
+                        {
+                          "en": "tomorrow,",
+                          "ko": "내일"
+                        },
+                        {
+                          "en": "I hope.",
+                          "ko": "그러길 바라요."
+                        }
+                      ]
+                    }
+                  ]
+                ],
+                "question_chunks": [
+                  {
+                    "en": "How",
+                    "ko": "어떻게"
+                  },
+                  {
+                    "en": "will you speak",
+                    "ko": "당신은 말할 건가요"
+                  },
+                  {
+                    "en": "to Pip?",
+                    "ko": "핍에게?"
+                  }
+                ]
+              }
+            },
+            {
               "action": "return",
-              "line": {
-                "en": "Thank you. I have the missing item back, and I will mark where it belongs.",
-                "ko": "고마워요. 잃어버린 물건을 찾았으니 제자리에 표시를 해 둘게요.",
-                "chunks": [
-                  {
-                    "en": "Thank you. I have the missing item back, and I will mark where it belongs.",
-                    "ko": "고마워요. 잃어버린 물건을 찾았으니 제자리에 표시를 해 둘게요."
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "Thank you.",
-                    "ko": "고마워요."
-                  },
-                  {
-                    "en": "I have",
-                    "ko": "저는 가지고 있어요"
-                  },
-                  {
-                    "en": "the missing item",
-                    "ko": "잃어버린 물건을"
-                  },
-                  {
-                    "en": "back,",
-                    "ko": "되찾아서"
-                  },
-                  {
-                    "en": "and I will mark",
-                    "ko": "그리고 표시해 둘게요"
-                  },
-                  {
-                    "en": "where it belongs.",
-                    "ko": "그것이 속한 곳에."
-                  }
-                ]
-              }
+              "lines": [
+                {
+                  "speaker": "tn_extra_5",
+                  "en": "My key! The clock is moving again. It is ticking, and the town is waking.",
+                  "ko": "내 열쇠! 시계가 다시 움직여요. 똑딱거리고 마을도 깨어나고 있어요.",
+                  "chunks": [
+                    {
+                      "en": "My key! The clock is moving again. It is ticking, and the town is waking.",
+                      "ko": "내 열쇠! 시계가 다시 움직여요. 똑딱거리고 마을도 깨어나고 있어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "My key!",
+                      "ko": "내 열쇠!"
+                    },
+                    {
+                      "en": "The clock is moving again.",
+                      "ko": "시계가 다시 움직여요."
+                    },
+                    {
+                      "en": "It is ticking,",
+                      "ko": "똑딱거리고 있고"
+                    },
+                    {
+                      "en": "and the town is waking.",
+                      "ko": "마을도 깨어나고 있어요."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "tn_extra_5",
+                  "en": "Take this party ribbon. It is for the one who found my key.",
+                  "ko": "이 파티 리본을 받으세요. 제 열쇠를 찾은 분께 드려요.",
+                  "chunks": [
+                    {
+                      "en": "Take this party ribbon. It is for the one who found my key.",
+                      "ko": "이 파티 리본을 받으세요. 제 열쇠를 찾은 분께 드려요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Take this party ribbon.",
+                      "ko": "이 파티 리본을 받으세요."
+                    },
+                    {
+                      "en": "It is for the one",
+                      "ko": "그것은 사람을 위한 거예요"
+                    },
+                    {
+                      "en": "who found my key.",
+                      "ko": "내 열쇠를 찾은."
+                    }
+                  ]
+                }
+              ],
+              "npc": "tn_extra_5"
             },
             {
-              "npc": "tn_extra_6",
               "action": "epilogue",
-              "line": {
-                "en": "I am glad we could help.",
-                "ko": "우리가 도울 수 있어서 기뻐요.",
-                "chunks": [
-                  {
-                    "en": "I am glad we could help.",
-                    "ko": "우리가 도울 수 있어서 기뻐요."
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "I",
-                    "ko": "저는"
-                  },
-                  {
-                    "en": "am glad",
-                    "ko": "기뻐요"
-                  },
-                  {
-                    "en": "we",
-                    "ko": "우리가"
-                  },
-                  {
-                    "en": "could help.",
-                    "ko": "도울 수 있어서."
-                  }
-                ]
-              }
+              "lines": [
+                {
+                  "speaker": "tn_extra_6",
+                  "en": "At noon, the clock rang twelve. Everybody stopped and smiled.",
+                  "ko": "정오에 시계가 열두 번 울렸고 모두가 멈춰 서서 미소 지었어요.",
+                  "chunks": [
+                    {
+                      "en": "At noon, the clock rang twelve. Everybody stopped and smiled.",
+                      "ko": "정오에 시계가 열두 번 울렸고 모두가 멈춰 서서 미소 지었어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "At noon,",
+                      "ko": "정오에"
+                    },
+                    {
+                      "en": "the clock rang twelve.",
+                      "ko": "시계가 열두 번 울렸고"
+                    },
+                    {
+                      "en": "Everybody stopped",
+                      "ko": "모두가 멈춰 서서"
+                    },
+                    {
+                      "en": "and smiled.",
+                      "ko": "미소 지었어요."
+                    }
+                  ]
+                }
+              ],
+              "npc": "tn_extra_6"
             }
           ],
           "reward": {
@@ -5462,170 +5951,408 @@
           "title_ko": "오븐의 작은 종",
           "steps": [
             {
-              "npc": "tn_extra_3",
               "action": "accept",
-              "line": {
-                "en": "Please ask the shop for an oven bell.",
-                "ko": "상점에 오븐용 종을 부탁해 주세요.",
-                "chunks": [
-                  {
-                    "en": "Please ask the shop for an oven bell.",
-                    "ko": "상점에 오븐용 종을 부탁해 주세요.",
-                    "direct_chunks": [
-                      {
-                        "en": "Please ask",
-                        "ko": "부탁해 주세요"
-                      },
-                      {
-                        "en": "the shop",
-                        "ko": "상점에"
-                      },
-                      {
-                        "en": "for an oven bell.",
-                        "ko": "오븐용 종을."
-                      }
-                    ]
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "Please ask",
-                    "ko": "부탁해 주세요"
-                  },
-                  {
-                    "en": "the shop",
-                    "ko": "상점에"
-                  },
-                  {
-                    "en": "for an oven bell.",
-                    "ko": "오븐용 종을."
-                  }
-                ]
-              }
+              "lines": [
+                {
+                  "speaker": "Narrator",
+                  "en": "Dawn holds up a cracked oven bell. It makes a dull sound.",
+                  "ko": "돈이 금이 간 오븐 종을 들어 올린다. 둔탁한 소리가 난다.",
+                  "chunks": [
+                    {
+                      "en": "Dawn holds up a cracked oven bell. It makes a dull sound.",
+                      "ko": "돈이 금이 간 오븐 종을 들어 올린다. 둔탁한 소리가 난다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Dawn holds up",
+                      "ko": "돈이 들어 올린다"
+                    },
+                    {
+                      "en": "a cracked oven bell.",
+                      "ko": "금이 간 오븐 종을"
+                    },
+                    {
+                      "en": "It makes a dull sound.",
+                      "ko": "둔탁한 소리가 난다."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "tn_extra_3",
+                  "en": "The morning baker rings this bell every day. Tomorrow it will not ring at all.",
+                  "ko": "아침 제빵사는 매일 이 종을 쳐요. 내일은 아예 울리지 않을 거예요.",
+                  "chunks": [
+                    {
+                      "en": "The morning baker rings this bell every day. Tomorrow it will not ring at all.",
+                      "ko": "아침 제빵사는 매일 이 종을 쳐요. 내일은 아예 울리지 않을 거예요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The morning baker rings",
+                      "ko": "아침 제빵사는 쳐요"
+                    },
+                    {
+                      "en": "this bell every day.",
+                      "ko": "이 종을 매일."
+                    },
+                    {
+                      "en": "Tomorrow",
+                      "ko": "내일은"
+                    },
+                    {
+                      "en": "it will not ring at all.",
+                      "ko": "아예 울리지 않을 거예요."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "tn_extra_3",
+                  "en": "Please ask Plum for a new one. She is selling bells this week.",
+                  "ko": "플럼에게 새 종을 부탁해 주세요. 이번 주에 종을 팔고 있어요.",
+                  "chunks": [
+                    {
+                      "en": "Please ask Plum for a new one. She is selling bells this week.",
+                      "ko": "플럼에게 새 종을 부탁해 주세요. 이번 주에 종을 팔고 있어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Please ask Plum",
+                      "ko": "플럼에게 부탁해 주세요"
+                    },
+                    {
+                      "en": "for a new one.",
+                      "ko": "새것을."
+                    },
+                    {
+                      "en": "She is selling bells",
+                      "ko": "그녀는 종을 팔고 있어요"
+                    },
+                    {
+                      "en": "this week.",
+                      "ko": "이번 주에."
+                    }
+                  ]
+                }
+              ],
+              "npc": "tn_extra_3"
             },
             {
-              "npc": "tn_extra_2",
               "action": "exchange",
-              "line": {
-                "en": "Here is an oven bell for the morning baker.",
-                "ko": "아침 제빵사에게 전할 오븐용 종이에요.",
-                "chunks": [
-                  {
-                    "en": "Here is an oven bell for the morning baker.",
-                    "ko": "아침 제빵사에게 전할 오븐용 종이에요.",
-                    "direct_chunks": [
-                      {
-                        "en": "Here is",
-                        "ko": "여기 있어요"
-                      },
-                      {
-                        "en": "an oven bell",
-                        "ko": "오븐용 종이"
-                      },
-                      {
-                        "en": "for the morning baker.",
-                        "ko": "아침 제빵사를 위한."
-                      }
-                    ]
-                  }
+              "lines": [
+                {
+                  "speaker": "tn_extra_2",
+                  "en": "I sold three bells yesterday. I will sell the last one to a polite customer.",
+                  "ko": "어제 종 세 개를 팔았어요. 마지막 하나는 공손한 손님에게 팔겠어요.",
+                  "chunks": [
+                    {
+                      "en": "I sold three bells yesterday. I will sell the last one to a polite customer.",
+                      "ko": "어제 종 세 개를 팔았어요. 마지막 하나는 공손한 손님에게 팔겠어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I sold three bells",
+                      "ko": "저는 종 세 개를 팔았어요"
+                    },
+                    {
+                      "en": "yesterday.",
+                      "ko": "어제."
+                    },
+                    {
+                      "en": "I will sell",
+                      "ko": "저는 팔 거예요"
+                    },
+                    {
+                      "en": "the last one",
+                      "ko": "마지막 하나를"
+                    },
+                    {
+                      "en": "to a polite customer.",
+                      "ko": "공손한 손님에게."
+                    }
+                  ]
+                }
+              ],
+              "task": {
+                "question_en": "How do you ask politely?",
+                "question_ko": "어떻게 공손하게 부탁할까요?",
+                "options": [
+                  "Could I buy the last bell, please?",
+                  "Give me the bell.",
+                  "Bell. Now."
                 ],
-                "direct_chunks": [
+                "correct_index": 0,
+                "feedback_ko": "Could I ~, please?는 공손한 부탁이에요.",
+                "question_chunks": [
                   {
-                    "en": "Here is",
-                    "ko": "여기 있어요"
+                    "en": "How",
+                    "ko": "어떻게"
                   },
                   {
-                    "en": "an oven bell",
-                    "ko": "오븐용 종이"
+                    "en": "do you ask",
+                    "ko": "당신은 부탁하나요"
                   },
                   {
-                    "en": "for the morning baker.",
-                    "ko": "아침 제빵사를 위한."
+                    "en": "politely?",
+                    "ko": "공손하게?"
                   }
                 ]
-              }
+              },
+              "npc": "tn_extra_2"
             },
             {
-              "npc": "tn_extra_7",
               "action": "deliver",
-              "line": {
-                "en": "I will put it to use today.",
-                "ko": "잘 받았어요. 오늘 바로 쓸게요.",
-                "chunks": [
-                  {
-                    "en": "I will put it to use today.",
-                    "ko": "잘 받았어요. 오늘 바로 쓸게요.",
-                    "direct_chunks": [
-                      {
-                        "en": "I will put it to use",
-                        "ko": "저는 그것을 쓸게요"
-                      },
-                      {
-                        "en": "today.",
-                        "ko": "오늘."
-                      }
-                    ]
-                  }
+              "lines": [
+                {
+                  "speaker": "tn_extra_7",
+                  "en": "A new bell! I am baking bread right now. It will be ready at dawn.",
+                  "ko": "새 종이네요! 지금 빵을 굽고 있어요. 새벽에 준비될 거예요.",
+                  "chunks": [
+                    {
+                      "en": "A new bell! I am baking bread right now. It will be ready at dawn.",
+                      "ko": "새 종이네요! 지금 빵을 굽고 있어요. 새벽에 준비될 거예요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "A new bell!",
+                      "ko": "새 종이네요!"
+                    },
+                    {
+                      "en": "I am baking bread",
+                      "ko": "저는 빵을 굽고 있어요"
+                    },
+                    {
+                      "en": "right now.",
+                      "ko": "바로 지금."
+                    },
+                    {
+                      "en": "It will be ready",
+                      "ko": "준비될 거예요"
+                    },
+                    {
+                      "en": "at dawn.",
+                      "ko": "새벽에."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "tn_extra_7",
+                  "en": "But which tone should the bell have? It will ring every morning.",
+                  "ko": "그런데 종소리는 어떤 음이 좋을까요? 매일 아침 울릴 텐데요.",
+                  "chunks": [
+                    {
+                      "en": "But which tone should the bell have? It will ring every morning.",
+                      "ko": "그런데 종소리는 어떤 음이 좋을까요? 매일 아침 울릴 텐데요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "But which tone",
+                      "ko": "그런데 어떤 음이"
+                    },
+                    {
+                      "en": "should the bell have?",
+                      "ko": "종에게 어울릴까요?"
+                    },
+                    {
+                      "en": "It will ring",
+                      "ko": "그것은 울릴 거예요"
+                    },
+                    {
+                      "en": "every morning.",
+                      "ko": "매일 아침."
+                    }
+                  ]
+                }
+              ],
+              "task": {
+                "question_en": "Which tone will you pick?",
+                "question_ko": "어떤 음을 고를까요?",
+                "options": [
+                  "A bright, high ring",
+                  "A soft, low chime",
+                  "Two notes, high then low"
                 ],
-                "direct_chunks": [
+                "correct_index": 0,
+                "choice": true,
+                "flag": "tn_bell_choice",
+                "reactions": [
+                  [
+                    {
+                      "speaker": "tn_extra_7",
+                      "en": "Bright! It will wake the whole street at dawn.",
+                      "ko": "밝은 음이요! 새벽에 온 거리를 깨우겠네요.",
+                      "chunks": [
+                        {
+                          "en": "Bright! It will wake the whole street at dawn.",
+                          "ko": "밝은 음이요! 새벽에 온 거리를 깨우겠네요."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "Bright!",
+                          "ko": "밝은 음이요!"
+                        },
+                        {
+                          "en": "It will wake",
+                          "ko": "그것은 깨울 거예요"
+                        },
+                        {
+                          "en": "the whole street",
+                          "ko": "온 거리를"
+                        },
+                        {
+                          "en": "at dawn.",
+                          "ko": "새벽에."
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "speaker": "tn_extra_7",
+                      "en": "Soft. The sleeping babies will sleep a little longer.",
+                      "ko": "부드러운 음이요. 자는 아기들이 조금 더 자겠네요.",
+                      "chunks": [
+                        {
+                          "en": "Soft. The sleeping babies will sleep a little longer.",
+                          "ko": "부드러운 음이요. 자는 아기들이 조금 더 자겠네요."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "Soft.",
+                          "ko": "부드러운 음이요."
+                        },
+                        {
+                          "en": "The sleeping babies",
+                          "ko": "자는 아기들이"
+                        },
+                        {
+                          "en": "will sleep",
+                          "ko": "잘 거예요"
+                        },
+                        {
+                          "en": "a little longer.",
+                          "ko": "조금 더 오래."
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "speaker": "tn_extra_7",
+                      "en": "Two notes! One for the baker and one for the town.",
+                      "ko": "두 음이요! 하나는 제빵사, 하나는 마을을 위한 거죠.",
+                      "chunks": [
+                        {
+                          "en": "Two notes! One for the baker and one for the town.",
+                          "ko": "두 음이요! 하나는 제빵사, 하나는 마을을 위한 거죠."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "Two notes!",
+                          "ko": "두 음이요!"
+                        },
+                        {
+                          "en": "One for the baker",
+                          "ko": "하나는 제빵사를 위해"
+                        },
+                        {
+                          "en": "and one for the town.",
+                          "ko": "하나는 마을을 위해."
+                        }
+                      ]
+                    }
+                  ]
+                ],
+                "question_chunks": [
                   {
-                    "en": "I",
-                    "ko": "저는"
+                    "en": "Which tone",
+                    "ko": "어떤 음을"
                   },
                   {
-                    "en": "will put",
-                    "ko": "쓸게요"
-                  },
-                  {
-                    "en": "it",
-                    "ko": "그것을"
-                  },
-                  {
-                    "en": "to use",
-                    "ko": "사용에"
-                  },
-                  {
-                    "en": "today.",
-                    "ko": "오늘."
+                    "en": "will you pick?",
+                    "ko": "고를 건가요?"
                   }
                 ]
-              }
+              },
+              "npc": "tn_extra_7"
             },
             {
-              "npc": "tn_extra_3",
+              "action": "talk",
+              "lines": [
+                {
+                  "speaker": "tn_extra_10",
+                  "en": "I walked past the bakery this morning. The bell was ringing, and the bread smelled wonderful.",
+                  "ko": "오늘 아침 빵집을 지나갔어요. 종이 울리고 있었고 빵 냄새가 훌륭했어요.",
+                  "chunks": [
+                    {
+                      "en": "I walked past the bakery this morning. The bell was ringing, and the bread smelled wonderful.",
+                      "ko": "오늘 아침 빵집을 지나갔어요. 종이 울리고 있었고 빵 냄새가 훌륭했어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I walked past the bakery",
+                      "ko": "저는 빵집을 지나갔어요"
+                    },
+                    {
+                      "en": "this morning.",
+                      "ko": "오늘 아침."
+                    },
+                    {
+                      "en": "The bell was ringing,",
+                      "ko": "종이 울리고 있었고"
+                    },
+                    {
+                      "en": "and the bread smelled wonderful.",
+                      "ko": "빵 냄새가 훌륭했어요."
+                    }
+                  ]
+                }
+              ],
+              "npc": "tn_extra_10"
+            },
+            {
               "action": "return",
-              "line": {
-                "en": "Good. We can tell the morning baker where to ask for another.",
-                "ko": "잘됐네요. 아침 제빵사에게 필요할 때 다시 부탁할 곳을 알려 줘요.",
-                "chunks": [
-                  {
-                    "en": "Good. We can tell the morning baker where to ask for another.",
-                    "ko": "잘됐네요. 아침 제빵사에게 필요할 때 다시 부탁할 곳을 알려 줘요."
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "Good.",
-                    "ko": "잘됐네요."
-                  },
-                  {
-                    "en": "We can tell",
-                    "ko": "우리는 알려 줄 수 있어요"
-                  },
-                  {
-                    "en": "the morning baker",
-                    "ko": "아침 제빵사에게"
-                  },
-                  {
-                    "en": "where to ask",
-                    "ko": "부탁할 곳을"
-                  },
-                  {
-                    "en": "for another.",
-                    "ko": "또 하나를 위해."
-                  }
-                ]
-              }
+              "lines": [
+                {
+                  "speaker": "tn_extra_3",
+                  "en": "The bell rings every day, and the baker is happy. The inn will serve warm bread tomorrow.",
+                  "ko": "종이 매일 울리고 제빵사도 기뻐해요. 여관은 내일 따뜻한 빵을 내놓을 거예요.",
+                  "chunks": [
+                    {
+                      "en": "The bell rings every day, and the baker is happy. The inn will serve warm bread tomorrow.",
+                      "ko": "종이 매일 울리고 제빵사도 기뻐해요. 여관은 내일 따뜻한 빵을 내놓을 거예요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The bell rings every day,",
+                      "ko": "종이 매일 울리고"
+                    },
+                    {
+                      "en": "and the baker is happy.",
+                      "ko": "제빵사도 기뻐해요."
+                    },
+                    {
+                      "en": "The inn will serve",
+                      "ko": "여관은 내놓을 거예요"
+                    },
+                    {
+                      "en": "warm bread tomorrow.",
+                      "ko": "내일 따뜻한 빵을."
+                    }
+                  ]
+                }
+              ],
+              "npc": "tn_extra_3"
             }
           ],
           "reward": {
@@ -5638,186 +6365,527 @@
           "title_ko": "텐스필드의 안내문",
           "steps": [
             {
-              "npc": "tn_extra_9",
               "action": "accept",
-              "line": {
-                "en": "The market bell will ring an hour early.",
-                "ko": "시장 종이 한 시간 일찍 울린대요.",
-                "chunks": [
-                  {
-                    "en": "The market bell will ring an hour early.",
-                    "ko": "시장 종이 한 시간 일찍 울린대요.",
-                    "direct_chunks": [
-                      {
-                        "en": "The market bell",
-                        "ko": "시장 종이"
-                      },
-                      {
-                        "en": "will ring",
-                        "ko": "울릴 거예요"
-                      },
-                      {
-                        "en": "an hour early.",
-                        "ko": "한 시간 일찍."
-                      }
-                    ]
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "The market bell",
-                    "ko": "시장 종이"
-                  },
-                  {
-                    "en": "will ring",
-                    "ko": "울릴 거예요"
-                  },
-                  {
-                    "en": "an hour early.",
-                    "ko": "한 시간 일찍."
-                  }
-                ]
-              }
+              "lines": [
+                {
+                  "speaker": "Narrator",
+                  "en": "Hour jogs in with his satchel bouncing.",
+                  "ko": "아워가 가방을 덜렁이며 뛰어 들어온다.",
+                  "chunks": [
+                    {
+                      "en": "Hour jogs in with his satchel bouncing.",
+                      "ko": "아워가 가방을 덜렁이며 뛰어 들어온다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Hour jogs in",
+                      "ko": "아워가 뛰어 들어온다"
+                    },
+                    {
+                      "en": "with his satchel bouncing.",
+                      "ko": "가방을 덜렁이며."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "tn_extra_9",
+                  "en": "The market bell will ring an hour early today!",
+                  "ko": "시장 종이 오늘 한 시간 일찍 울릴 거예요!",
+                  "chunks": [
+                    {
+                      "en": "The market bell will ring an hour early today!",
+                      "ko": "시장 종이 오늘 한 시간 일찍 울릴 거예요!"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The market bell",
+                      "ko": "시장 종이"
+                    },
+                    {
+                      "en": "will ring",
+                      "ko": "울릴 거예요"
+                    },
+                    {
+                      "en": "an hour early today!",
+                      "ko": "오늘 한 시간 일찍!"
+                    }
+                  ]
+                },
+                {
+                  "speaker": "tn_extra_9",
+                  "en": "I told every seller. They are packing their carts now.",
+                  "ko": "상인들 모두에게 알렸어요. 지금 수레를 싸고 있어요.",
+                  "chunks": [
+                    {
+                      "en": "I told every seller. They are packing their carts now.",
+                      "ko": "상인들 모두에게 알렸어요. 지금 수레를 싸고 있어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I told every seller.",
+                      "ko": "상인 모두에게 알렸어요."
+                    },
+                    {
+                      "en": "They are packing",
+                      "ko": "그들은 싸고 있어요"
+                    },
+                    {
+                      "en": "their carts now.",
+                      "ko": "지금 수레를."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Subject",
+                  "en": "Who told you?",
+                  "ko": "누가 알려 줬나요?",
+                  "chunks": [
+                    {
+                      "en": "Who told you?",
+                      "ko": "누가 알려 줬나요?"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Who told you?",
+                      "ko": "누가 알려 줬나요?"
+                    }
+                  ]
+                },
+                {
+                  "speaker": "tn_extra_9",
+                  "en": "I heard a bell this morning... Please check. Ask Flint.",
+                  "ko": "오늘 아침 종소리를 들었어요... 확인해 주세요. 플린트에게 물어보세요.",
+                  "chunks": [
+                    {
+                      "en": "I heard a bell this morning... Please check. Ask Flint.",
+                      "ko": "오늘 아침 종소리를 들었어요... 확인해 주세요. 플린트에게 물어보세요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I heard a bell",
+                      "ko": "종소리를 들었어요"
+                    },
+                    {
+                      "en": "this morning...",
+                      "ko": "오늘 아침..."
+                    },
+                    {
+                      "en": "Please check.",
+                      "ko": "확인해 주세요."
+                    },
+                    {
+                      "en": "Ask Flint.",
+                      "ko": "플린트에게 물어보세요."
+                    }
+                  ]
+                }
+              ],
+              "npc": "tn_extra_9"
             },
             {
-              "npc": "tn_extra_4",
+              "action": "talk",
+              "lines": [
+                {
+                  "speaker": "tn_extra_4",
+                  "en": "I stood by the market bell all morning. It did not ring.",
+                  "ko": "저는 아침 내내 시장 종 옆에 서 있었어요. 종은 울리지 않았어요.",
+                  "chunks": [
+                    {
+                      "en": "I stood by the market bell all morning. It did not ring.",
+                      "ko": "저는 아침 내내 시장 종 옆에 서 있었어요. 종은 울리지 않았어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I stood",
+                      "ko": "저는 서 있었어요"
+                    },
+                    {
+                      "en": "by the market bell",
+                      "ko": "시장 종 옆에"
+                    },
+                    {
+                      "en": "all morning.",
+                      "ko": "아침 내내."
+                    },
+                    {
+                      "en": "It did not ring.",
+                      "ko": "종은 울리지 않았어요."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "tn_extra_4",
+                  "en": "A small bell rang near the repair shed. Ask Tempo. He keeps the schedule.",
+                  "ko": "수리 창고 근처에서 작은 종이 울렸어요. 템포에게 물어보세요. 일정을 관리하니까요.",
+                  "chunks": [
+                    {
+                      "en": "A small bell rang near the repair shed. Ask Tempo. He keeps the schedule.",
+                      "ko": "수리 창고 근처에서 작은 종이 울렸어요. 템포에게 물어보세요. 일정을 관리하니까요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "A small bell rang",
+                      "ko": "작은 종이 울렸어요"
+                    },
+                    {
+                      "en": "near the repair shed.",
+                      "ko": "수리 창고 근처에서."
+                    },
+                    {
+                      "en": "Ask Tempo.",
+                      "ko": "템포에게 물어보세요."
+                    },
+                    {
+                      "en": "He keeps",
+                      "ko": "그가 관리해요"
+                    },
+                    {
+                      "en": "the schedule.",
+                      "ko": "일정을."
+                    }
+                  ]
+                }
+              ],
+              "npc": "tn_extra_4"
+            },
+            {
               "action": "verify",
-              "line": {
-                "en": "Only the small repair bell rang early. The market bell is on time.",
-                "ko": "수리한 작은 종만 일찍 울렸어요. 시장 종은 정시에 울려요.",
-                "chunks": [
-                  {
-                    "en": "Only the small repair bell rang early. The market bell is on time.",
-                    "ko": "수리한 작은 종만 일찍 울렸어요. 시장 종은 정시에 울려요."
-                  }
+              "lines": [
+                {
+                  "speaker": "tn_extra_1",
+                  "en": "Only the small repair bell rang early. The market bell rings at ten, as it always does.",
+                  "ko": "일찍 울린 건 작은 수리 종뿐이에요. 시장 종은 늘 그렇듯 열 시에 울려요.",
+                  "chunks": [
+                    {
+                      "en": "Only the small repair bell rang early. The market bell rings at ten, as it always does.",
+                      "ko": "일찍 울린 건 작은 수리 종뿐이에요. 시장 종은 늘 그렇듯 열 시에 울려요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Only the small repair bell",
+                      "ko": "작은 수리 종만"
+                    },
+                    {
+                      "en": "rang early.",
+                      "ko": "일찍 울렸어요."
+                    },
+                    {
+                      "en": "The market bell rings",
+                      "ko": "시장 종은 울려요"
+                    },
+                    {
+                      "en": "at ten,",
+                      "ko": "열 시에"
+                    },
+                    {
+                      "en": "as it always does.",
+                      "ko": "늘 그렇듯."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "tn_extra_1",
+                  "en": "Which sentence is checked and exact?",
+                  "ko": "어느 문장이 확인된 정확한 내용일까요?",
+                  "chunks": [
+                    {
+                      "en": "Which sentence is checked and exact?",
+                      "ko": "어느 문장이 확인된 정확한 내용일까요?"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Which sentence",
+                      "ko": "어느 문장이"
+                    },
+                    {
+                      "en": "is checked",
+                      "ko": "확인되었고"
+                    },
+                    {
+                      "en": "and exact?",
+                      "ko": "정확한가요?"
+                    }
+                  ]
+                }
+              ],
+              "task": {
+                "question_en": "Which sentence is checked and exact?",
+                "question_ko": "어느 문장이 확인된 정확한 내용일까요?",
+                "options": [
+                  "The market bell rings at ten, and only the repair bell rang early.",
+                  "The market bell rang early.",
+                  "The market bell will never ring."
                 ],
-                "direct_chunks": [
+                "correct_index": 0,
+                "feedback_ko": "템포가 확인한 사실은 시장 종은 열 시에 울리고 일찍 울린 건 수리 종뿐이라는 것이에요.",
+                "question_chunks": [
                   {
-                    "en": "Only",
-                    "ko": "오직"
+                    "en": "Which sentence",
+                    "ko": "어느 문장이"
                   },
                   {
-                    "en": "the small repair bell",
-                    "ko": "수리한 작은 종만."
+                    "en": "is checked",
+                    "ko": "확인되었고"
                   },
                   {
-                    "en": "rang",
-                    "ko": "울렸어요"
-                  },
-                  {
-                    "en": "early.",
-                    "ko": "일찍."
-                  },
-                  {
-                    "en": "The market bell",
-                    "ko": "시장 종은"
-                  },
-                  {
-                    "en": "is",
-                    "ko": "있어요"
-                  },
-                  {
-                    "en": "on time.",
-                    "ko": "정시에."
+                    "en": "and exact?",
+                    "ko": "정확한가요?"
                   }
                 ]
-              }
+              },
+              "npc": "tn_extra_1"
             },
             {
-              "npc": "tn_extra_1",
               "action": "confirm",
-              "line": {
-                "en": "Please give the courier the checked account before the next announcement.",
-                "ko": "다음 안내를 하기 전에 확인한 내용을 배달부에게 전해 주세요.",
-                "chunks": [
-                  {
-                    "en": "Please give the courier the checked account before the next announcement.",
-                    "ko": "다음 안내를 하기 전에 확인한 내용을 배달부에게 전해 주세요.",
-                    "direct_chunks": [
-                      {
-                        "en": "Please give",
-                        "ko": "주세요"
-                      },
-                      {
-                        "en": "the courier",
-                        "ko": "배달부에게"
-                      },
-                      {
-                        "en": "the checked account",
-                        "ko": "확인된 내용을"
-                      },
-                      {
-                        "en": "before the next announcement.",
-                        "ko": "다음 안내 전에."
-                      }
-                    ]
-                  }
+              "lines": [
+                {
+                  "speaker": "tn_extra_1",
+                  "en": "Thank you. The sellers are packing, and the market will open late. What should we tell them first?",
+                  "ko": "고마워요. 상인들이 짐을 싸고 있어서 시장이 늦게 열릴 거예요. 무엇을 먼저 알려야 할까요?",
+                  "chunks": [
+                    {
+                      "en": "Thank you. The sellers are packing, and the market will open late. What should we tell them first?",
+                      "ko": "고마워요. 상인들이 짐을 싸고 있어서 시장이 늦게 열릴 거예요. 무엇을 먼저 알려야 할까요?"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Thank you.",
+                      "ko": "고마워요."
+                    },
+                    {
+                      "en": "The sellers are packing,",
+                      "ko": "상인들이 짐을 싸고 있고"
+                    },
+                    {
+                      "en": "and the market will open late.",
+                      "ko": "시장은 늦게 열릴 거예요."
+                    },
+                    {
+                      "en": "What should we tell them first?",
+                      "ko": "무엇을 먼저 알려야 할까요?"
+                    }
+                  ]
+                }
+              ],
+              "task": {
+                "question_en": "What should we tell the sellers first?",
+                "question_ko": "상인들에게 무엇을 먼저 알릴까요?",
+                "options": [
+                  "The market bell rings at ten.",
+                  "Only the repair bell rang early.",
+                  "Please unpack your carts."
                 ],
-                "direct_chunks": [
+                "correct_index": 0,
+                "choice": true,
+                "flag": "tn_notice_choice",
+                "reactions": [
+                  [
+                    {
+                      "speaker": "tn_extra_1",
+                      "en": "Good. The right time comes first.",
+                      "ko": "좋아요. 올바른 시간이 먼저예요.",
+                      "chunks": [
+                        {
+                          "en": "Good. The right time comes first.",
+                          "ko": "좋아요. 올바른 시간이 먼저예요."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "Good.",
+                          "ko": "좋아요."
+                        },
+                        {
+                          "en": "The right time",
+                          "ko": "올바른 시간이"
+                        },
+                        {
+                          "en": "comes first.",
+                          "ko": "먼저예요."
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "speaker": "tn_extra_1",
+                      "en": "Good. Then nobody will be afraid of the bell.",
+                      "ko": "좋아요. 그러면 아무도 종을 두려워하지 않겠네요.",
+                      "chunks": [
+                        {
+                          "en": "Good. Then nobody will be afraid of the bell.",
+                          "ko": "좋아요. 그러면 아무도 종을 두려워하지 않겠네요."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "Good.",
+                          "ko": "좋아요."
+                        },
+                        {
+                          "en": "Then nobody",
+                          "ko": "그러면 아무도"
+                        },
+                        {
+                          "en": "will be afraid",
+                          "ko": "두려워하지 않을 거예요"
+                        },
+                        {
+                          "en": "of the bell.",
+                          "ko": "종을."
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "speaker": "tn_extra_1",
+                      "en": "Good. Action is clear, and they will unpack at once.",
+                      "ko": "좋아요. 할 일이 분명하니 곧바로 짐을 풀겠네요.",
+                      "chunks": [
+                        {
+                          "en": "Good. Action is clear, and they will unpack at once.",
+                          "ko": "좋아요. 할 일이 분명하니 곧바로 짐을 풀겠네요."
+                        }
+                      ],
+                      "direct_chunks": [
+                        {
+                          "en": "Good.",
+                          "ko": "좋아요."
+                        },
+                        {
+                          "en": "Action is clear,",
+                          "ko": "할 일이 분명하고"
+                        },
+                        {
+                          "en": "and they will unpack",
+                          "ko": "그들은 풀 거예요"
+                        },
+                        {
+                          "en": "at once.",
+                          "ko": "곧바로."
+                        }
+                      ]
+                    }
+                  ]
+                ],
+                "question_chunks": [
                   {
-                    "en": "Please give",
-                    "ko": "주세요"
+                    "en": "What should we tell",
+                    "ko": "무엇을 알려야 할까요"
                   },
                   {
-                    "en": "the courier",
-                    "ko": "배달부에게"
+                    "en": "the sellers",
+                    "ko": "상인들에게"
                   },
                   {
-                    "en": "the checked account",
-                    "ko": "확인된 내용을"
-                  },
-                  {
-                    "en": "before the next announcement.",
-                    "ko": "다음 안내 전에."
+                    "en": "first?",
+                    "ko": "먼저?"
                   }
                 ]
-              }
+              },
+              "npc": "tn_extra_1"
             },
             {
-              "npc": "tn_extra_9",
               "action": "return",
-              "line": {
-                "en": "I have written down the correction with today’s date.",
-                "ko": "오늘 날짜와 함께 정정 내용을 적어 두었어요.",
-                "chunks": [
-                  {
-                    "en": "I have written down the correction with today’s date.",
-                    "ko": "오늘 날짜와 함께 정정 내용을 적어 두었어요.",
-                    "direct_chunks": [
-                      {
-                        "en": "I have written down",
-                        "ko": "저는 적어 두었어요"
-                      },
-                      {
-                        "en": "the correction",
-                        "ko": "정정 내용을"
-                      },
-                      {
-                        "en": "with today’s date.",
-                        "ko": "오늘 날짜와 함께."
-                      }
-                    ]
-                  }
-                ],
-                "direct_chunks": [
-                  {
-                    "en": "I",
-                    "ko": "저는"
-                  },
-                  {
-                    "en": "have written down",
-                    "ko": "적어 두었어요."
-                  },
-                  {
-                    "en": "the correction",
-                    "ko": "정정 내용을"
-                  },
-                  {
-                    "en": "with today’s date.",
-                    "ko": "오늘 날짜와 함께."
-                  }
-                ]
-              }
+              "lines": [
+                {
+                  "speaker": "tn_extra_9",
+                  "en": "I wrote the correction with today's date.",
+                  "ko": "오늘 날짜와 함께 정정문을 적었어요.",
+                  "chunks": [
+                    {
+                      "en": "I wrote the correction with today's date.",
+                      "ko": "오늘 날짜와 함께 정정문을 적었어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I wrote",
+                      "ko": "저는 썼어요"
+                    },
+                    {
+                      "en": "the correction",
+                      "ko": "정정문을"
+                    },
+                    {
+                      "en": "with today's date.",
+                      "ko": "오늘 날짜와 함께."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Subject",
+                  "en": "Next time, check what you heard before you run.",
+                  "ko": "다음엔 뛰기 전에 들은 걸 확인하세요.",
+                  "chunks": [
+                    {
+                      "en": "Next time, check what you heard before you run.",
+                      "ko": "다음엔 뛰기 전에 들은 걸 확인하세요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Next time,",
+                      "ko": "다음에는"
+                    },
+                    {
+                      "en": "check what you heard",
+                      "ko": "들은 걸 확인하세요"
+                    },
+                    {
+                      "en": "before you run.",
+                      "ko": "뛰기 전에."
+                    }
+                  ]
+                }
+              ],
+              "npc": "tn_extra_9"
+            },
+            {
+              "action": "epilogue",
+              "lines": [
+                {
+                  "speaker": "tn_extra_1",
+                  "en": "At ten, the market bell rang, and the market opened. Everything was on time again.",
+                  "ko": "열 시에 시장 종이 울렸고 시장이 열렸어요. 모든 게 다시 제시간이었죠.",
+                  "chunks": [
+                    {
+                      "en": "At ten, the market bell rang, and the market opened. Everything was on time again.",
+                      "ko": "열 시에 시장 종이 울렸고 시장이 열렸어요. 모든 게 다시 제시간이었죠."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "At ten,",
+                      "ko": "열 시에"
+                    },
+                    {
+                      "en": "the market bell rang,",
+                      "ko": "시장 종이 울렸고"
+                    },
+                    {
+                      "en": "and the market opened.",
+                      "ko": "시장이 열렸어요."
+                    },
+                    {
+                      "en": "Everything was on time again.",
+                      "ko": "모든 게 다시 제시간이었어요."
+                    }
+                  ]
+                }
+              ],
+              "npc": "tn_extra_1"
             }
           ],
           "reward": {
