@@ -3,8 +3,8 @@ window.openChapterField = function(container, map, hero, targets, options={}) {
   const live={};
   const directions=[[0,1],[-1,0],[1,0],[0,-1]];
   const keys=['ArrowDown','ArrowLeft','ArrowRight','ArrowUp'];
-  const size=46;
-  const duration=155;
+  const size=map.tileSize??46;
+  const duration=map.tileSize ? map.tileSize * 4.5 : 155;
   const world=document.createElement('div');
   world.className='c2-field-world';
   world.style.width=map.tiles[0].length*size+'px';
