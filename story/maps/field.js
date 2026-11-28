@@ -3,13 +3,14 @@ window.openChapterField = function(container, map, hero, targets, options={}) {
   const live={};
   const directions=[[0,1],[-1,0],[1,0],[0,-1]];
   const keys=['ArrowDown','ArrowLeft','ArrowRight','ArrowUp'];
-  const size=map.tileSize??46;
+  const size=map.displaySize??map.tileSize??46;
   const duration=map.stepMs ?? (map.tileSize ? map.tileSize * 4.5 : 155);
   const world=document.createElement('div');
   world.className='c2-field-world';
   world.style.width=map.tiles[0].length*size+'px';
   world.style.height=map.tiles.length*size+'px';
   world.style.backgroundImage=`url(${map.image})`;
+  if (map.displaySize) world.style.backgroundSize='100% 100%';
   const viewport=document.createElement('div');
   viewport.className='c2-field-viewport';
   viewport.append(world);
@@ -172,7 +173,7 @@ window.openChapterField = function(container, map, hero, targets, options={}) {
     if (segment) {
       const progress=(now-segment.start)/duration;
       const t=segment.returning ? 1-progress : progress;
-      paint(x+(segment.x-x)*t,y+(segment.y-y)*t,Math.floor((now-began)/29)%8);
+      paint(x+(segment.x-x)*t,y+(segment.y-y)*t,Math.floor((now-began)/(map.walkCycleMs?map.walkCycleMs/8:29))%8);
       schedule();
     } else {
       began=null;

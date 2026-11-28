@@ -53,7 +53,7 @@ for k,(px,py) in pts.items():
     r=4 if k.endswith('_t') else 3;zt[(xx-px)**2+(yy-(py-1))**2<=r*r]='.'
 tiles=[''.join('.' if tw[y,x] else '#' for x in range(COLS)) for y in range(ROWS)]
 zones=[''.join(zt[y]) for y in range(ROWS)]
-js="/* Walkable overworld test: SOUTH-CENTER panel only (GPT art). */\nwindow.chapterFields=window.chapterFields||{};\nwindow.chapterFields.world="+json.dumps({'image':'story/maps/world.webp','tileSize':48,'stepMs':1000,'tiles':tiles,'zones':zones,'spawn':spawn,'points':pts,'sites':meta},ensure_ascii=False,separators=(',',':'))+";\n"
+js="/* Walkable overworld test: SOUTH-CENTER panel only (GPT art). */\nwindow.chapterFields=window.chapterFields||{};\nwindow.chapterFields.world="+json.dumps({'image':'story/maps/world.webp','tileSize':48,'displaySize':24,'stepMs':1000,'walkCycleMs':720,'tiles':tiles,'zones':zones,'spawn':spawn,'points':pts,'sites':meta},ensure_ascii=False,separators=(',',':'))+";\n"
 open('world.js','w').write(js);im.save('world.webp',quality=80,method=6)
 vis=np.where(tw[:,:,None],np.array([240,240,240]),np.array([20,20,20])).astype(np.uint8)
 v=Image.fromarray(vis).resize((COLS*12,ROWS*12),Image.NEAREST).convert('RGB')
