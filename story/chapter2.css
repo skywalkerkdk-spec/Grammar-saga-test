@@ -97,10 +97,23 @@
 .c2-field-speaker.is-hero .c2-speaker-identity{justify-items:end}
 .c2-speaker-photo.is-hero-photo{background:radial-gradient(ellipse at 50% 38%,#cfe6ff,#7ea6d6 80%)}
 .c2-field-speaker .c2-speaker-photo.is-hero-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 8%;transform:scale(1.55);transform-origin:50% 18%}
-.c2-world .c2-field-viewport{height:min(44dvh,400px)}
 .c2-world .c2-field-hero{width:28px}
 .c2-world .c2-field-pin{opacity:.92}
 .c2-world .c2-field-pin span{font-size:10px;padding:1px 4px;opacity:.9;position:absolute;top:100%;margin-top:4px}
-.c2-world-confirm{display:grid;gap:6px;margin:4px 0}
+.c2-world-confirm{display:grid;gap:6px;margin:4px 0;position:absolute;left:50%;bottom:calc(max(14px,env(safe-area-inset-bottom)) + 132px);transform:translateX(-50%);width:min(86vw,380px);z-index:6;padding:10px 12px;background:#141d2bf2;border:1px solid #dec191;border-radius:10px;box-shadow:0 6px 22px #080b13b3}
 .c2-world-confirm:empty{display:none}
 .c2-world-confirm span{font-size:12px;opacity:.85}
+
+/* 월드맵 걷기: 화면 전체를 지도로 쓰고, 조이스틱·버튼·닫기는 지도 위에 겹쳐 놓습니다(가로·세로 모두). */
+.c2-dialog.c2-world{width:100vw;height:100dvh;max-width:none;max-height:none;margin:0;border:0;border-radius:0;overflow:hidden;background:#30472c}
+.c2-world .c2-body{position:relative;height:100%;padding:0}
+.c2-world .c2-body>h2,.c2-world .c2-body>p{display:none}
+.c2-world .c2-body>h2+button{position:absolute;top:max(8px,env(safe-area-inset-top));right:max(8px,env(safe-area-inset-right));z-index:5;min-height:40px;opacity:.92}
+.c2-world select[aria-label="탐험 목적지"]{position:absolute;top:max(8px,env(safe-area-inset-top));left:max(8px,env(safe-area-inset-left));z-index:5;max-width:48vw;margin:0;opacity:.92}
+.c2-world .c2-field-viewport{position:absolute;inset:0;height:auto;border:0;border-radius:0}
+.c2-world .c2-field-controls{position:absolute;left:0;right:0;bottom:max(14px,env(safe-area-inset-bottom));margin:0;padding:0 max(18px,env(safe-area-inset-right)) 0 max(18px,env(safe-area-inset-left));justify-content:space-between;pointer-events:none;z-index:4}
+.c2-world .c2-field-controls>*{pointer-events:auto}
+.c2-world .c2-field-stick{opacity:.88}
+@media (orientation:landscape) and (max-height:560px){
+.c2-world-confirm{left:calc(max(18px,env(safe-area-inset-left)) + 130px);bottom:max(14px,env(safe-area-inset-bottom));transform:none;width:min(44vw,330px);padding:8px 10px}
+}
