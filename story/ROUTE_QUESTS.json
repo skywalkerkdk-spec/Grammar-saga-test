@@ -338,6 +338,58 @@
                 }
               ]
             },
+            "dungeon": "sj",
+            "gate": {
+              "label": "도깨비의 동굴",
+              "lines": [
+                {
+                  "speaker": "Narrator",
+                  "en": "The cave mouth breathes cold air. Far inside, the imp's giggle echoes.",
+                  "ko": "동굴 입구에서 찬 바람이 분다. 저 안쪽에서 도깨비의 킥킥 소리가 울린다.",
+                  "chunks": [
+                    {
+                      "en": "The cave mouth breathes cold air. Far inside, the imp's giggle echoes.",
+                      "ko": "동굴 입구에서 찬 바람이 분다. 저 안쪽에서 도깨비의 킥킥 소리가 울린다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The cave mouth breathes cold air.",
+                      "ko": "동굴 입구에서 찬 바람이 분다."
+                    },
+                    {
+                      "en": "Far inside,",
+                      "ko": "저 안쪽에서"
+                    },
+                    {
+                      "en": "the imp's giggle echoes.",
+                      "ko": "도깨비의 킥킥 소리가 울린다."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Subject",
+                  "en": "Let us go in and bring the coin home.",
+                  "ko": "들어가서 동전을 집으로 가져오자.",
+                  "chunks": [
+                    {
+                      "en": "Let us go in and bring the coin home.",
+                      "ko": "들어가서 동전을 집으로 가져오자."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Let us go in",
+                      "ko": "들어가자"
+                    },
+                    {
+                      "en": "and bring the coin home.",
+                      "ko": "그리고 동전을 집으로 가져오자."
+                    }
+                  ]
+                }
+              ]
+            },
             "monster": {
               "label": "어쩌면 도깨비",
               "name_en": "Maybe Imp",
@@ -472,12 +524,12 @@
               "win": [
                 {
                   "speaker": "Maybe Imp",
-                  "en": "Oh no! You answered every question. A promise is a promise.",
-                  "ko": "으악! 질문을 전부 맞혔네. 약속은 약속이지.",
+                  "en": "Oh no! You answered every question. Fine, fine, the coin is yours... if you can catch me!",
+                  "ko": "으악! 질문을 전부 맞혔네. 좋아, 좋아, 동전은 네 거야... 나를 잡을 수 있다면!",
                   "chunks": [
                     {
-                      "en": "Oh no! You answered every question. A promise is a promise.",
-                      "ko": "으악! 질문을 전부 맞혔네. 약속은 약속이지."
+                      "en": "Oh no! You answered every question. Fine, fine, the coin is yours... if you can catch me!",
+                      "ko": "으악! 질문을 전부 맞혔네. 좋아, 좋아, 동전은 네 거야... 나를 잡을 수 있다면!"
                     }
                   ],
                   "direct_chunks": [
@@ -490,39 +542,16 @@
                       "ko": "질문을 전부 맞혔네."
                     },
                     {
-                      "en": "A promise is a promise.",
-                      "ko": "약속은 약속이지."
-                    }
-                  ],
-                  "speaker_en": "Maybe Imp",
-                  "speaker_ko": "어쩌면 도깨비"
-                },
-                {
-                  "speaker": "Maybe Imp",
-                  "en": "If I had a friend, I would not have taken it. Here, take your coin.",
-                  "ko": "친구가 있었다면 가져가지 않았을 텐데. 자, 동전 가져가.",
-                  "chunks": [
-                    {
-                      "en": "If I had a friend, I would not have taken it. Here, take your coin.",
-                      "ko": "친구가 있었다면 가져가지 않았을 텐데. 자, 동전 가져가."
-                    }
-                  ],
-                  "direct_chunks": [
-                    {
-                      "en": "If I had a friend,",
-                      "ko": "친구가 있었다면"
+                      "en": "Fine, fine,",
+                      "ko": "좋아, 좋아,"
                     },
                     {
-                      "en": "I would not have taken it.",
-                      "ko": "가져가지 않았을 텐데."
+                      "en": "the coin is yours...",
+                      "ko": "동전은 네 거야..."
                     },
                     {
-                      "en": "Here,",
-                      "ko": "자,"
-                    },
-                    {
-                      "en": "take your coin.",
-                      "ko": "동전 가져가."
+                      "en": "if you can catch me!",
+                      "ko": "나를 잡을 수 있다면!"
                     }
                   ],
                   "speaker_en": "Maybe Imp",
@@ -530,30 +559,55 @@
                 },
                 {
                   "speaker": "Narrator",
-                  "en": "You receive the wishing coin. It is warm in your hand.",
-                  "ko": "소원 동전을 받는다. 손안에서 따뜻하다.",
+                  "en": "The imp dashes away, laughing, and dives into a dark cave at the end of the road.",
+                  "ko": "도깨비가 웃으며 달아나더니 길 끝의 어두운 동굴로 뛰어든다.",
                   "chunks": [
                     {
-                      "en": "You receive the wishing coin. It is warm in your hand.",
-                      "ko": "소원 동전을 받는다. 손안에서 따뜻하다."
+                      "en": "The imp dashes away, laughing, and dives into a dark cave at the end of the road.",
+                      "ko": "도깨비가 웃으며 달아나더니 길 끝의 어두운 동굴로 뛰어든다."
                     }
                   ],
                   "direct_chunks": [
                     {
-                      "en": "You receive",
-                      "ko": "받는다"
+                      "en": "The imp dashes away,",
+                      "ko": "도깨비가 달아난다"
                     },
                     {
-                      "en": "the wishing coin.",
-                      "ko": "소원 동전을."
+                      "en": "laughing,",
+                      "ko": "웃으면서"
                     },
                     {
-                      "en": "It is warm",
-                      "ko": "따뜻하다"
+                      "en": "and dives into a dark cave",
+                      "ko": "그리고 어두운 동굴로 뛰어든다"
                     },
                     {
-                      "en": "in your hand.",
-                      "ko": "손안에서."
+                      "en": "at the end of the road.",
+                      "ko": "길 끝에 있는."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Subject",
+                  "en": "It ran into the dungeon with the coin. We must follow it!",
+                  "ko": "동전을 들고 던전으로 뛰어들었어. 쫓아가야 해!",
+                  "chunks": [
+                    {
+                      "en": "It ran into the dungeon with the coin. We must follow it!",
+                      "ko": "동전을 들고 던전으로 뛰어들었어. 쫓아가야 해!"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "It ran into the dungeon",
+                      "ko": "그것은 던전으로 뛰어들었어"
+                    },
+                    {
+                      "en": "with the coin.",
+                      "ko": "동전을 들고."
+                    },
+                    {
+                      "en": "We must follow it!",
+                      "ko": "우리는 쫓아가야 해!"
                     }
                   ]
                 }
@@ -567,12 +621,12 @@
           "lines": [
             {
               "speaker": "sj_extra_1",
-              "en": "The coin! And the shadow? It wanted a friend, you say?",
-              "ko": "동전이다! 그런데 그림자라고요? 친구가 필요했다고요?",
+              "en": "The coin! And the dungeon boss? It only wanted a friend, you say?",
+              "ko": "동전이다! 던전의 우두머리요? 친구가 필요했을 뿐이라고요?",
               "chunks": [
                 {
-                  "en": "The coin! And the shadow? It wanted a friend, you say?",
-                  "ko": "동전이다! 그런데 그림자라고요? 친구가 필요했다고요?"
+                  "en": "The coin! And the dungeon boss? It only wanted a friend, you say?",
+                  "ko": "동전이다! 던전의 우두머리요? 친구가 필요했을 뿐이라고요?"
                 }
               ],
               "direct_chunks": [
@@ -581,12 +635,12 @@
                   "ko": "동전이다!"
                 },
                 {
-                  "en": "And the shadow?",
-                  "ko": "그런데 그림자는요?"
+                  "en": "And the dungeon boss?",
+                  "ko": "던전의 우두머리요?"
                 },
                 {
-                  "en": "It wanted a friend,",
-                  "ko": "친구를 원했다고"
+                  "en": "It only wanted a friend,",
+                  "ko": "친구가 필요했을 뿐이라고"
                 },
                 {
                   "en": "you say?",
@@ -743,6 +797,2276 @@
               {
                 "en": "What will you wish for?",
                 "ko": "무엇을 빌까요?"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "md_dungeon_keystone",
+      "town_id": "md",
+      "title_en": "The Lost Keystone",
+      "title_ko": "잃어버린 쐐기돌",
+      "completion_flag": "md_dungeon_keystone_complete",
+      "reward_item": {
+        "stone": 1
+      },
+      "steps": [
+        {
+          "action": "accept",
+          "npc": "md_extra_7",
+          "lines": [
+            {
+              "speaker": "Narrator",
+              "en": "Mason stands on the half-built bridge. A round gap waits at the top of the arch.",
+              "ko": "메이슨이 짓다 만 다리 위에 서 있다. 아치 꼭대기에는 둥근 빈자리가 있다.",
+              "chunks": [
+                {
+                  "en": "Mason stands on the half-built bridge. A round gap waits at the top of the arch.",
+                  "ko": "메이슨이 짓다 만 다리 위에 서 있다. 아치 꼭대기에는 둥근 빈자리가 있다."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "Mason stands on the half-built bridge.",
+                  "ko": "메이슨이 짓다 만 다리 위에 서 있다."
+                },
+                {
+                  "en": "A round gap waits at the top of the arch.",
+                  "ko": "아치 꼭대기에는 둥근 빈자리가 있다."
+                }
+              ]
+            },
+            {
+              "speaker": "md_extra_7",
+              "en": "The keystone fell into the old dungeon below. Without it, the arch cannot stand.",
+              "ko": "쐐기돌이 아래쪽 오래된 던전에 떨어졌어요. 그게 없으면 아치가 서 있을 수 없어요.",
+              "chunks": [
+                {
+                  "en": "The keystone fell into the old dungeon below. Without it, the arch cannot stand.",
+                  "ko": "쐐기돌이 아래쪽 오래된 던전에 떨어졌어요. 그게 없으면 아치가 서 있을 수 없어요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "The keystone fell into the old dungeon below.",
+                  "ko": "쐐기돌이 아래쪽 오래된 던전에 떨어졌어요."
+                },
+                {
+                  "en": "Without it, the arch cannot stand.",
+                  "ko": "그게 없으면 아치가 서 있을 수 없어요."
+                }
+              ]
+            },
+            {
+              "speaker": "md_extra_7",
+              "en": "I could not go myself, because a monster guards it. You must be careful. You may get hurt, but you can do it.",
+              "ko": "제가 직접 갈 수는 없었어요, 몬스터가 지키고 있거든요. 조심하셔야 해요. 다치실 수도 있지만, 해낼 수 있어요.",
+              "chunks": [
+                {
+                  "en": "I could not go myself, because a monster guards it. You must be careful. You may get hurt, but you can do it.",
+                  "ko": "제가 직접 갈 수는 없었어요, 몬스터가 지키고 있거든요. 조심하셔야 해요. 다치실 수도 있지만, 해낼 수 있어요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "I could not go myself,",
+                  "ko": "제가 직접 갈 수는 없었어요,"
+                },
+                {
+                  "en": "because a monster guards it.",
+                  "ko": "몬스터가 지키고 있거든요."
+                },
+                {
+                  "en": "You must be careful.",
+                  "ko": "조심하셔야 해요."
+                },
+                {
+                  "en": "You may get hurt,",
+                  "ko": "다치실 수도 있지만,"
+                },
+                {
+                  "en": "but you can do it.",
+                  "ko": "해낼 수 있어요."
+                }
+              ]
+            },
+            {
+              "speaker": "Subject",
+              "en": "We will bring the keystone back.",
+              "ko": "우리가 쐐기돌을 가져올게요.",
+              "chunks": [
+                {
+                  "en": "We will bring the keystone back.",
+                  "ko": "우리가 쐐기돌을 가져올게요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "We will bring the keystone back.",
+                  "ko": "우리가 쐐기돌을 가져올게요."
+                }
+              ]
+            },
+            {
+              "speaker": "md_extra_7",
+              "en": "Thank you. Take the west forest road. It leads to the dungeon.",
+              "ko": "고마워요. 서쪽 숲길로 가세요. 그 길이 던전으로 이어져요.",
+              "chunks": [
+                {
+                  "en": "Thank you. Take the west forest road. It leads to the dungeon.",
+                  "ko": "고마워요. 서쪽 숲길로 가세요. 그 길이 던전으로 이어져요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "Thank you.",
+                  "ko": "고마워요."
+                },
+                {
+                  "en": "Take the west forest road.",
+                  "ko": "서쪽 숲길로 가세요."
+                },
+                {
+                  "en": "It leads to the dungeon.",
+                  "ko": "그 길이 던전으로 이어져요."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "action": "route",
+          "town": "md",
+          "lines": [
+            {
+              "speaker": "Narrator",
+              "en": "The forest road winds downhill. Stone dust marks the way.",
+              "ko": "숲길이 내리막으로 굽이친다. 돌가루가 길을 알려 준다.",
+              "chunks": [
+                {
+                  "en": "The forest road winds downhill. Stone dust marks the way.",
+                  "ko": "숲길이 내리막으로 굽이친다. 돌가루가 길을 알려 준다."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "The forest road winds downhill.",
+                  "ko": "숲길이 내리막으로 굽이친다."
+                },
+                {
+                  "en": "Stone dust marks the way.",
+                  "ko": "돌가루가 길을 알려 준다."
+                }
+              ]
+            },
+            {
+              "speaker": "Narrator",
+              "en": "At the end, a stone door stands open, and cold air pours out.",
+              "ko": "길 끝에 돌문이 열려 있고 찬 공기가 흘러나온다.",
+              "chunks": [
+                {
+                  "en": "At the end, a stone door stands open, and cold air pours out.",
+                  "ko": "길 끝에 돌문이 열려 있고 찬 공기가 흘러나온다."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "At the end, a stone door stands open, and cold air pours out.",
+                  "ko": "길 끝에 돌문이 열려 있고 찬 공기가 흘러나온다."
+                }
+              ]
+            }
+          ],
+          "route": {
+            "id": "md_dungeon_keystone_road",
+            "map": "sj_west",
+            "exit": "exit_west",
+            "label": "서쪽 숲길",
+            "dungeon": "md",
+            "gate": {
+              "label": "오래된 던전 입구",
+              "lines": [
+                {
+                  "speaker": "Narrator",
+                  "en": "A heavy stone block lies half-buried near the door, with fresh scratches on it.",
+                  "ko": "문 근처에 커다란 돌덩이가 반쯤 묻혀 있고 새로 긁힌 자국이 있다.",
+                  "chunks": [
+                    {
+                      "en": "A heavy stone block lies half-buried near the door, with fresh scratches on it.",
+                      "ko": "문 근처에 커다란 돌덩이가 반쯤 묻혀 있고 새로 긁힌 자국이 있다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "A heavy stone block lies half-buried near the door, with fresh scratches on it.",
+                      "ko": "문 근처에 커다란 돌덩이가 반쯤 묻혀 있고 새로 긁힌 자국이 있다."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Subject",
+                  "en": "The keystone must be deeper inside. We can, and we must, go in.",
+                  "ko": "쐐기돌은 더 안쪽에 있을 거야. 들어갈 수 있고, 들어가야만 해.",
+                  "chunks": [
+                    {
+                      "en": "The keystone must be deeper inside. We can, and we must, go in.",
+                      "ko": "쐐기돌은 더 안쪽에 있을 거야. 들어갈 수 있고, 들어가야만 해."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The keystone must be deeper inside.",
+                      "ko": "쐐기돌은 더 안쪽에 있을 거야."
+                    },
+                    {
+                      "en": "We can, and we must, go in.",
+                      "ko": "들어갈 수 있고, 들어가야만 해."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "action": "report",
+          "npc": "md_extra_7",
+          "lines": [
+            {
+              "speaker": "md_extra_7",
+              "en": "The keystone! It may be heavy, but it fits perfectly.",
+              "ko": "쐐기돌이다! 무거울지 몰라도 딱 맞아요.",
+              "chunks": [
+                {
+                  "en": "The keystone! It may be heavy, but it fits perfectly.",
+                  "ko": "쐐기돌이다! 무거울지 몰라도 딱 맞아요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "The keystone!",
+                  "ko": "쐐기돌이다!"
+                },
+                {
+                  "en": "It may be heavy, but it fits perfectly.",
+                  "ko": "무거울지 몰라도 딱 맞아요."
+                }
+              ]
+            },
+            {
+              "speaker": "md_extra_7",
+              "en": "The arch can stand now. The whole town should thank you.",
+              "ko": "이제 아치가 서 있을 수 있어요. 마을 전체가 당신에게 고마워해야 해요.",
+              "chunks": [
+                {
+                  "en": "The arch can stand now. The whole town should thank you.",
+                  "ko": "이제 아치가 서 있을 수 있어요. 마을 전체가 당신에게 고마워해야 해요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "The arch can stand now.",
+                  "ko": "이제 아치가 서 있을 수 있어요."
+                },
+                {
+                  "en": "The whole town should thank you.",
+                  "ko": "마을 전체가 당신에게 고마워해야 해요."
+                }
+              ]
+            },
+            {
+              "speaker": "md_extra_7",
+              "en": "Would you like to place the last stone yourself?",
+              "ko": "마지막 돌을 직접 놓아 보시겠어요?",
+              "chunks": [
+                {
+                  "en": "Would you like to place the last stone yourself?",
+                  "ko": "마지막 돌을 직접 놓아 보시겠어요?"
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "Would you like to place the last stone yourself?",
+                  "ko": "마지막 돌을 직접 놓아 보시겠어요?"
+                }
+              ]
+            }
+          ],
+          "task": {
+            "question_en": "Who should place the last stone?",
+            "question_ko": "누가 마지막 돌을 놓을까요?",
+            "options": [
+              "You place it.",
+              "Mason places it.",
+              "Let Kit place it."
+            ],
+            "correct_index": 0,
+            "choice": true,
+            "flag": "md_dungeon_choice",
+            "reactions": [
+              [
+                {
+                  "speaker": "md_extra_7",
+                  "en": "Then I will hold the ladder. We can finish together.",
+                  "ko": "그럼 제가 사다리를 잡을게요. 함께 끝낼 수 있어요.",
+                  "chunks": [
+                    {
+                      "en": "Then I will hold the ladder. We can finish together.",
+                      "ko": "그럼 제가 사다리를 잡을게요. 함께 끝낼 수 있어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Then I will hold the ladder.",
+                      "ko": "그럼 제가 사다리를 잡을게요."
+                    },
+                    {
+                      "en": "We can finish together.",
+                      "ko": "함께 끝낼 수 있어요."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "speaker": "md_extra_7",
+                  "en": "It is my bridge, so I should. Thank you for letting me.",
+                  "ko": "제 다리니까 제가 놓을게요. 맡겨 줘서 고마워요.",
+                  "chunks": [
+                    {
+                      "en": "It is my bridge, so I should. Thank you for letting me.",
+                      "ko": "제 다리니까 제가 놓을게요. 맡겨 줘서 고마워요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "It is my bridge, so I should.",
+                      "ko": "제 다리니까 제가 놓을게요."
+                    },
+                    {
+                      "en": "Thank you for letting me.",
+                      "ko": "맡겨 줘서 고마워요."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "speaker": "md_extra_8",
+                  "en": "Me? I might drop it... but I will not! I can do it!",
+                  "ko": "저요? 떨어뜨릴지도 몰라요... 하지만 안 그럴게요! 할 수 있어요!",
+                  "chunks": [
+                    {
+                      "en": "Me? I might drop it... but I will not! I can do it!",
+                      "ko": "저요? 떨어뜨릴지도 몰라요... 하지만 안 그럴게요! 할 수 있어요!"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Me?",
+                      "ko": "저요?"
+                    },
+                    {
+                      "en": "I might drop it...",
+                      "ko": "떨어뜨릴지도 몰라요..."
+                    },
+                    {
+                      "en": "but I will not!",
+                      "ko": "하지만 안 그럴게요!"
+                    },
+                    {
+                      "en": "I can do it!",
+                      "ko": "할 수 있어요!"
+                    }
+                  ]
+                }
+              ]
+            ],
+            "question_chunks": [
+              {
+                "en": "Who should place the last stone?",
+                "ko": "누가 마지막 돌을 놓을까요?"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cp_dungeon_dash",
+      "town_id": "cp",
+      "title_en": "Dash Runs Away",
+      "title_ko": "달려간 대시",
+      "completion_flag": "cp_dungeon_dash_complete",
+      "reward_item": {
+        "stone": 1
+      },
+      "steps": [
+        {
+          "action": "accept",
+          "npc": "cp_extra_6",
+          "lines": [
+            {
+              "speaker": "Narrator",
+              "en": "Coach Sprint paces the track, checking the empty starting line again and again.",
+              "ko": "스프린트 코치가 출발선이 비어 있는 것을 거듭 확인하며 트랙을 서성인다.",
+              "chunks": [
+                {
+                  "en": "Coach Sprint paces the track, checking the empty starting line again and again.",
+                  "ko": "스프린트 코치가 출발선이 비어 있는 것을 거듭 확인하며 트랙을 서성인다."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "Coach Sprint paces the track, checking the empty starting line again and again.",
+                  "ko": "스프린트 코치가 출발선이 비어 있는 것을 거듭 확인하며 트랙을 서성인다."
+                }
+              ]
+            },
+            {
+              "speaker": "cp_extra_6",
+              "en": "Dash is gone! He said he would run faster than the wind and raced off toward the hills.",
+              "ko": "대시가 사라졌어요! 바람보다 빨리 달리겠다며 언덕 쪽으로 뛰어갔어요.",
+              "chunks": [
+                {
+                  "en": "Dash is gone! He said he would run faster than the wind and raced off toward the hills.",
+                  "ko": "대시가 사라졌어요! 바람보다 빨리 달리겠다며 언덕 쪽으로 뛰어갔어요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "Dash is gone!",
+                  "ko": "대시가 사라졌어요!"
+                },
+                {
+                  "en": "He said he would run faster than the wind and raced off toward the hills.",
+                  "ko": "바람보다 빨리 달리겠다며 언덕 쪽으로 뛰어갔어요."
+                }
+              ]
+            },
+            {
+              "speaker": "cp_extra_6",
+              "en": "The road to the west leads to a dungeon. It is darker and scarier than he thinks.",
+              "ko": "서쪽 길은 던전으로 이어져요. 그 애가 생각하는 것보다 더 어둡고 무서운 곳이에요.",
+              "chunks": [
+                {
+                  "en": "The road to the west leads to a dungeon. It is darker and scarier than he thinks.",
+                  "ko": "서쪽 길은 던전으로 이어져요. 그 애가 생각하는 것보다 더 어둡고 무서운 곳이에요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "The road to the west leads to a dungeon.",
+                  "ko": "서쪽 길은 던전으로 이어져요."
+                },
+                {
+                  "en": "It is darker and scarier than he thinks.",
+                  "ko": "그 애가 생각하는 것보다 더 어둡고 무서운 곳이에요."
+                }
+              ]
+            },
+            {
+              "speaker": "Subject",
+              "en": "We will bring him back safely.",
+              "ko": "우리가 안전하게 데려올게요.",
+              "chunks": [
+                {
+                  "en": "We will bring him back safely.",
+                  "ko": "우리가 안전하게 데려올게요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "We will bring him back safely.",
+                  "ko": "우리가 안전하게 데려올게요."
+                }
+              ]
+            },
+            {
+              "speaker": "cp_extra_6",
+              "en": "Please hurry. He is the fastest boy I know, but he is not the strongest.",
+              "ko": "서둘러 주세요. 제가 아는 가장 빠른 아이지만 가장 강한 아이는 아니에요.",
+              "chunks": [
+                {
+                  "en": "Please hurry. He is the fastest boy I know, but he is not the strongest.",
+                  "ko": "서둘러 주세요. 제가 아는 가장 빠른 아이지만 가장 강한 아이는 아니에요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "Please hurry.",
+                  "ko": "서둘러 주세요."
+                },
+                {
+                  "en": "He is the fastest boy I know, but he is not the strongest.",
+                  "ko": "제가 아는 가장 빠른 아이지만 가장 강한 아이는 아니에요."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "action": "route",
+          "town": "cp",
+          "lines": [
+            {
+              "speaker": "Narrator",
+              "en": "Small bootprints run along the west dirt road, wide apart, like a sprint.",
+              "ko": "작은 부츠 자국이 서쪽 흙길을 따라 이어져 있다, 넓은 간격으로, 전력 질주하듯이.",
+              "chunks": [
+                {
+                  "en": "Small bootprints run along the west dirt road, wide apart, like a sprint.",
+                  "ko": "작은 부츠 자국이 서쪽 흙길을 따라 이어져 있다, 넓은 간격으로, 전력 질주하듯이."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "Small bootprints run along the west dirt road,",
+                  "ko": "작은 부츠 자국이 서쪽 흙길을 따라 이어져 있다,"
+                },
+                {
+                  "en": "wide apart,",
+                  "ko": "넓은 간격으로,"
+                },
+                {
+                  "en": "like a sprint.",
+                  "ko": "전력 질주하듯이."
+                }
+              ]
+            },
+            {
+              "speaker": "Narrator",
+              "en": "They end at a gaping cave mouth in the hillside.",
+              "ko": "발자국은 언덕의 입을 벌린 동굴 앞에서 끝난다.",
+              "chunks": [
+                {
+                  "en": "They end at a gaping cave mouth in the hillside.",
+                  "ko": "발자국은 언덕의 입을 벌린 동굴 앞에서 끝난다."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "They end at a gaping cave mouth in the hillside.",
+                  "ko": "발자국은 언덕의 입을 벌린 동굴 앞에서 끝난다."
+                }
+              ]
+            }
+          ],
+          "route": {
+            "id": "cp_dungeon_dash_road",
+            "map": "sj_west",
+            "exit": "exit_west",
+            "label": "서쪽 흙길",
+            "dungeon": "cp",
+            "gate": {
+              "label": "언덕 아래 동굴",
+              "lines": [
+                {
+                  "speaker": "Narrator",
+                  "en": "A little red cape snags on a rock beside the cave. Dash was here.",
+                  "ko": "동굴 옆 바위에 작은 빨간 망토가 걸려 있다. 대시가 여기 왔었다.",
+                  "chunks": [
+                    {
+                      "en": "A little red cape snags on a rock beside the cave. Dash was here.",
+                      "ko": "동굴 옆 바위에 작은 빨간 망토가 걸려 있다. 대시가 여기 왔었다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "A little red cape snags on a rock beside the cave.",
+                      "ko": "동굴 옆 바위에 작은 빨간 망토가 걸려 있다."
+                    },
+                    {
+                      "en": "Dash was here.",
+                      "ko": "대시가 여기 왔었다."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Subject",
+                  "en": "He ran in. We should be faster than the monster.",
+                  "ko": "안으로 뛰어들었어. 우리가 몬스터보다 빨라야 해.",
+                  "chunks": [
+                    {
+                      "en": "He ran in. We should be faster than the monster.",
+                      "ko": "안으로 뛰어들었어. 우리가 몬스터보다 빨라야 해."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "He ran in.",
+                      "ko": "안으로 뛰어들었어."
+                    },
+                    {
+                      "en": "We should be faster than the monster.",
+                      "ko": "우리가 몬스터보다 빨라야 해."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "action": "report",
+          "npc": "cp_extra_6",
+          "lines": [
+            {
+              "speaker": "cp_extra_6",
+              "en": "Dash is safe, and he is much quieter than before.",
+              "ko": "대시가 무사해요. 전보다 훨씬 조용해졌네요.",
+              "chunks": [
+                {
+                  "en": "Dash is safe, and he is much quieter than before.",
+                  "ko": "대시가 무사해요. 전보다 훨씬 조용해졌네요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "Dash is safe,",
+                  "ko": "대시가 무사해요."
+                },
+                {
+                  "en": "and he is much quieter than before.",
+                  "ko": "전보다 훨씬 조용해졌네요."
+                }
+              ]
+            },
+            {
+              "speaker": "cp_extra_8",
+              "en": "The monster was bigger than the hill! I ran, but you were braver than me.",
+              "ko": "몬스터가 언덕보다 컸어요! 저는 도망쳤지만 당신이 저보다 용감했어요.",
+              "chunks": [
+                {
+                  "en": "The monster was bigger than the hill! I ran, but you were braver than me.",
+                  "ko": "몬스터가 언덕보다 컸어요! 저는 도망쳤지만 당신이 저보다 용감했어요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "The monster was bigger than the hill!",
+                  "ko": "몬스터가 언덕보다 컸어요!"
+                },
+                {
+                  "en": "I ran, but you were braver than me.",
+                  "ko": "저는 도망쳤지만 당신이 저보다 용감했어요."
+                }
+              ]
+            },
+            {
+              "speaker": "cp_extra_6",
+              "en": "Sometimes the fastest runner needs the strongest friends.",
+              "ko": "때로는 가장 빠른 주자에게 가장 강한 친구들이 필요해요.",
+              "chunks": [
+                {
+                  "en": "Sometimes the fastest runner needs the strongest friends.",
+                  "ko": "때로는 가장 빠른 주자에게 가장 강한 친구들이 필요해요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "Sometimes the fastest runner needs the strongest friends.",
+                  "ko": "때로는 가장 빠른 주자에게 가장 강한 친구들이 필요해요."
+                }
+              ]
+            }
+          ],
+          "task": {
+            "question_en": "What will you tell Dash?",
+            "question_ko": "대시에게 무엇을 말해 줄까요?",
+            "options": [
+              "Speed is good, but stay with us.",
+              "You were brave to run so far.",
+              "Next time, race me instead."
+            ],
+            "correct_index": 0,
+            "choice": true,
+            "flag": "cp_dungeon_choice",
+            "reactions": [
+              [
+                {
+                  "speaker": "cp_extra_8",
+                  "en": "I will stay closer than before. I promise.",
+                  "ko": "전보다 더 가까이 있을게요. 약속해요.",
+                  "chunks": [
+                    {
+                      "en": "I will stay closer than before. I promise.",
+                      "ko": "전보다 더 가까이 있을게요. 약속해요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I will stay closer than before.",
+                      "ko": "전보다 더 가까이 있을게요."
+                    },
+                    {
+                      "en": "I promise.",
+                      "ko": "약속해요."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "speaker": "cp_extra_8",
+                  "en": "Really? I felt smaller than a pebble.",
+                  "ko": "정말요? 저는 조약돌보다 작아진 기분이었어요.",
+                  "chunks": [
+                    {
+                      "en": "Really? I felt smaller than a pebble.",
+                      "ko": "정말요? 저는 조약돌보다 작아진 기분이었어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Really?",
+                      "ko": "정말요?"
+                    },
+                    {
+                      "en": "I felt smaller than a pebble.",
+                      "ko": "저는 조약돌보다 작아진 기분이었어요."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "speaker": "cp_extra_8",
+                  "en": "A race? Yes! I will beat you, and I am faster than you!",
+                  "ko": "달리기요? 좋아요! 제가 이길 거예요. 제가 더 빨라요!",
+                  "chunks": [
+                    {
+                      "en": "A race? Yes! I will beat you, and I am faster than you!",
+                      "ko": "달리기요? 좋아요! 제가 이길 거예요. 제가 더 빨라요!"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "A race?",
+                      "ko": "달리기요?"
+                    },
+                    {
+                      "en": "Yes!",
+                      "ko": "좋아요!"
+                    },
+                    {
+                      "en": "I will beat you,",
+                      "ko": "제가 이길 거예요."
+                    },
+                    {
+                      "en": "and I am faster than you!",
+                      "ko": "제가 더 빨라요!"
+                    }
+                  ]
+                }
+              ]
+            ],
+            "question_chunks": [
+              {
+                "en": "What will you tell Dash?",
+                "ko": "대시에게 무엇을 말해 줄까요?"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ps_dungeon_net",
+      "town_id": "ps",
+      "title_en": "The Net in the Cave",
+      "title_ko": "동굴에 빠진 그물",
+      "completion_flag": "ps_dungeon_net_complete",
+      "reward_item": {
+        "stone": 1
+      },
+      "steps": [
+        {
+          "action": "accept",
+          "npc": "ps_extra_5",
+          "lines": [
+            {
+              "speaker": "Narrator",
+              "en": "Finnick holds the torn end of a rope. The golden net is no longer tied to it.",
+              "ko": "피닉이 찢어진 밧줄 끝을 들고 있다. 금빛 그물은 더 이상 매여 있지 않다.",
+              "chunks": [
+                {
+                  "en": "Finnick holds the torn end of a rope. The golden net is no longer tied to it.",
+                  "ko": "피닉이 찢어진 밧줄 끝을 들고 있다. 금빛 그물은 더 이상 매여 있지 않다."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "Finnick holds the torn end of a rope.",
+                  "ko": "피닉이 찢어진 밧줄 끝을 들고 있다."
+                },
+                {
+                  "en": "The golden net is no longer tied to it.",
+                  "ko": "금빛 그물은 더 이상 매여 있지 않다."
+                }
+              ]
+            },
+            {
+              "speaker": "ps_extra_5",
+              "en": "The golden net was carried away by a wave. It was swept into the cave on the west shore.",
+              "ko": "금빛 그물이 파도에 휩쓸려 갔어요. 서쪽 물가의 동굴로 떠내려갔죠.",
+              "chunks": [
+                {
+                  "en": "The golden net was carried away by a wave. It was swept into the cave on the west shore.",
+                  "ko": "금빛 그물이 파도에 휩쓸려 갔어요. 서쪽 물가의 동굴로 떠내려갔죠."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "The golden net was carried away by a wave.",
+                  "ko": "금빛 그물이 파도에 휩쓸려 갔어요."
+                },
+                {
+                  "en": "It was swept into the cave on the west shore.",
+                  "ko": "서쪽 물가의 동굴로 떠내려갔죠."
+                }
+              ]
+            },
+            {
+              "speaker": "ps_extra_5",
+              "en": "The cave is guarded by a monster. Fish are called there every night.",
+              "ko": "그 동굴은 몬스터가 지키고 있어요. 밤마다 물고기가 거기로 불려 가요.",
+              "chunks": [
+                {
+                  "en": "The cave is guarded by a monster. Fish are called there every night.",
+                  "ko": "그 동굴은 몬스터가 지키고 있어요. 밤마다 물고기가 거기로 불려 가요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "The cave is guarded by a monster.",
+                  "ko": "그 동굴은 몬스터가 지키고 있어요."
+                },
+                {
+                  "en": "Fish are called there every night.",
+                  "ko": "밤마다 물고기가 거기로 불려 가요."
+                }
+              ]
+            },
+            {
+              "speaker": "Subject",
+              "en": "We will find the net and bring it back.",
+              "ko": "우리가 그물을 찾아서 가져올게요.",
+              "chunks": [
+                {
+                  "en": "We will find the net and bring it back.",
+                  "ko": "우리가 그물을 찾아서 가져올게요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "We will find the net and bring it back.",
+                  "ko": "우리가 그물을 찾아서 가져올게요."
+                }
+              ]
+            },
+            {
+              "speaker": "ps_extra_5",
+              "en": "Follow the west forest path along the lake. The net is made of gold thread, so it will shine.",
+              "ko": "호수를 따라 서쪽 숲길로 가세요. 그물은 금실로 짜여 있어서 빛날 거예요.",
+              "chunks": [
+                {
+                  "en": "Follow the west forest path along the lake. The net is made of gold thread, so it will shine.",
+                  "ko": "호수를 따라 서쪽 숲길로 가세요. 그물은 금실로 짜여 있어서 빛날 거예요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "Follow the west forest path along the lake.",
+                  "ko": "호수를 따라 서쪽 숲길로 가세요."
+                },
+                {
+                  "en": "The net is made of gold thread, so it will shine.",
+                  "ko": "그물은 금실로 짜여 있어서 빛날 거예요."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "action": "route",
+          "town": "ps",
+          "lines": [
+            {
+              "speaker": "Narrator",
+              "en": "The forest path runs beside the quiet lake. Wet footprints and fish scales mark the way.",
+              "ko": "숲길이 고요한 호수 옆을 따라간다. 젖은 발자국과 물고기 비늘이 길을 알려 준다.",
+              "chunks": [
+                {
+                  "en": "The forest path runs beside the quiet lake. Wet footprints and fish scales mark the way.",
+                  "ko": "숲길이 고요한 호수 옆을 따라간다. 젖은 발자국과 물고기 비늘이 길을 알려 준다."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "The forest path runs beside the quiet lake.",
+                  "ko": "숲길이 고요한 호수 옆을 따라간다."
+                },
+                {
+                  "en": "Wet footprints and fish scales mark the way.",
+                  "ko": "젖은 발자국과 물고기 비늘이 길을 알려 준다."
+                }
+              ]
+            },
+            {
+              "speaker": "Narrator",
+              "en": "Where the path ends, a dark cave opens above the water.",
+              "ko": "길이 끝나는 곳에서 물 위로 어두운 동굴이 열린다.",
+              "chunks": [
+                {
+                  "en": "Where the path ends, a dark cave opens above the water.",
+                  "ko": "길이 끝나는 곳에서 물 위로 어두운 동굴이 열린다."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "Where the path ends, a dark cave opens above the water.",
+                  "ko": "길이 끝나는 곳에서 물 위로 어두운 동굴이 열린다."
+                }
+              ]
+            }
+          ],
+          "route": {
+            "id": "ps_dungeon_net_road",
+            "map": "sj_west",
+            "exit": "exit_west",
+            "label": "서쪽 숲길",
+            "dungeon": "ps",
+            "gate": {
+              "label": "호숫가 동굴",
+              "lines": [
+                {
+                  "speaker": "Narrator",
+                  "en": "A glint of gold hangs on a rock above the waterline. The net was caught here, and then pulled in.",
+                  "ko": "물가 위 바위에 금빛이 반짝인다. 그물은 여기에 걸렸다가 안으로 끌려 들어갔다.",
+                  "chunks": [
+                    {
+                      "en": "A glint of gold hangs on a rock above the waterline. The net was caught here, and then pulled in.",
+                      "ko": "물가 위 바위에 금빛이 반짝인다. 그물은 여기에 걸렸다가 안으로 끌려 들어갔다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "A glint of gold hangs on a rock above the waterline.",
+                      "ko": "물가 위 바위에 금빛이 반짝인다."
+                    },
+                    {
+                      "en": "The net was caught here, and then pulled in.",
+                      "ko": "그물은 여기에 걸렸다가 안으로 끌려 들어갔다."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Subject",
+                  "en": "The net was taken by the monster. We must get it back.",
+                  "ko": "그물은 몬스터에게 빼앗겼어. 되찾아야 해.",
+                  "chunks": [
+                    {
+                      "en": "The net was taken by the monster. We must get it back.",
+                      "ko": "그물은 몬스터에게 빼앗겼어. 되찾아야 해."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The net was taken by the monster.",
+                      "ko": "그물은 몬스터에게 빼앗겼어."
+                    },
+                    {
+                      "en": "We must get it back.",
+                      "ko": "되찾아야 해."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "action": "report",
+          "npc": "ps_extra_5",
+          "lines": [
+            {
+              "speaker": "ps_extra_5",
+              "en": "The golden net! It has been mended by the water itself, and it shines again.",
+              "ko": "금빛 그물이에요! 물이 직접 고쳐 놓은 듯 다시 빛나네요.",
+              "chunks": [
+                {
+                  "en": "The golden net! It has been mended by the water itself, and it shines again.",
+                  "ko": "금빛 그물이에요! 물이 직접 고쳐 놓은 듯 다시 빛나네요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "The golden net!",
+                  "ko": "금빛 그물이에요!"
+                },
+                {
+                  "en": "It has been mended by the water itself, and it shines again.",
+                  "ko": "물이 직접 고쳐 놓은 듯 다시 빛나네요."
+                }
+              ]
+            },
+            {
+              "speaker": "ps_extra_5",
+              "en": "The fish are called by this net, and the village is fed by it.",
+              "ko": "물고기가 이 그물에 모여들고 마을은 그걸로 먹고살아요.",
+              "chunks": [
+                {
+                  "en": "The fish are called by this net, and the village is fed by it.",
+                  "ko": "물고기가 이 그물에 모여들고 마을은 그걸로 먹고살아요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "The fish are called by this net, and the village is fed by it.",
+                  "ko": "물고기가 이 그물에 모여들고 마을은 그걸로 먹고살아요."
+                }
+              ]
+            },
+            {
+              "speaker": "ps_extra_5",
+              "en": "Where should the first catch be sent?",
+              "ko": "첫 번째로 잡은 물고기는 어디로 보낼까요?",
+              "chunks": [
+                {
+                  "en": "Where should the first catch be sent?",
+                  "ko": "첫 번째로 잡은 물고기는 어디로 보낼까요?"
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "Where should the first catch be sent?",
+                  "ko": "첫 번째로 잡은 물고기는 어디로 보낼까요?"
+                }
+              ]
+            }
+          ],
+          "task": {
+            "question_en": "Where should the first catch be sent?",
+            "question_ko": "첫 번째 물고기를 어디로 보낼까요?",
+            "options": [
+              "To the inn kitchen.",
+              "To the children.",
+              "Back to the lake."
+            ],
+            "correct_index": 0,
+            "choice": true,
+            "flag": "ps_dungeon_choice",
+            "reactions": [
+              [
+                {
+                  "speaker": "ps_extra_3",
+                  "en": "Then tonight's soup will be made from it.",
+                  "ko": "그럼 오늘 밤 수프가 그걸로 만들어지겠네요.",
+                  "chunks": [
+                    {
+                      "en": "Then tonight's soup will be made from it.",
+                      "ko": "그럼 오늘 밤 수프가 그걸로 만들어지겠네요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Then tonight's soup will be made from it.",
+                      "ko": "그럼 오늘 밤 수프가 그걸로 만들어지겠네요."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "speaker": "ps_extra_8",
+                  "en": "Fish for us? It will be eaten before it is cold!",
+                  "ko": "우리에게요? 식기 전에 다 먹어 버릴 거예요!",
+                  "chunks": [
+                    {
+                      "en": "Fish for us? It will be eaten before it is cold!",
+                      "ko": "우리에게요? 식기 전에 다 먹어 버릴 거예요!"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Fish for us?",
+                      "ko": "우리에게요?"
+                    },
+                    {
+                      "en": "It will be eaten before it is cold!",
+                      "ko": "식기 전에 다 먹어 버릴 거예요!"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "speaker": "ps_extra_5",
+                  "en": "The lake will be thanked, and next year's catch will be bigger.",
+                  "ko": "호수에 감사하는 거군요. 내년엔 더 많이 잡히겠어요.",
+                  "chunks": [
+                    {
+                      "en": "The lake will be thanked, and next year's catch will be bigger.",
+                      "ko": "호수에 감사하는 거군요. 내년엔 더 많이 잡히겠어요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The lake will be thanked,",
+                      "ko": "호수에 감사하는 거군요."
+                    },
+                    {
+                      "en": "and next year's catch will be bigger.",
+                      "ko": "내년엔 더 많이 잡히겠어요."
+                    }
+                  ]
+                }
+              ]
+            ],
+            "question_chunks": [
+              {
+                "en": "Where should the first catch be sent?",
+                "ko": "첫 번째 물고기를 어디로 보낼까요?"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rp_dungeon_herb",
+      "town_id": "rp",
+      "title_en": "The Moon Herb",
+      "title_ko": "달빛 약초",
+      "completion_flag": "rp_dungeon_herb_complete",
+      "reward_item": {
+        "stone": 1
+      },
+      "steps": [
+        {
+          "action": "accept",
+          "npc": "rp_extra_10",
+          "lines": [
+            {
+              "speaker": "Narrator",
+              "en": "Moss waits by the herb shelf. One jar is empty, and its label says: Moon Herb.",
+              "ko": "모스가 약초 선반 옆에서 기다리고 있다. 항아리 하나가 비어 있고 라벨에는 '달빛 약초'라고 적혀 있다.",
+              "chunks": [
+                {
+                  "en": "Moss waits by the herb shelf. One jar is empty, and its label says: Moon Herb.",
+                  "ko": "모스가 약초 선반 옆에서 기다리고 있다. 항아리 하나가 비어 있고 라벨에는 '달빛 약초'라고 적혀 있다."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "Moss waits by the herb shelf.",
+                  "ko": "모스가 약초 선반 옆에서 기다리고 있다."
+                },
+                {
+                  "en": "One jar is empty, and its label says: Moon Herb.",
+                  "ko": "항아리 하나가 비어 있고 라벨에는 '달빛 약초'라고 적혀 있다."
+                }
+              ]
+            },
+            {
+              "speaker": "rp_extra_10",
+              "en": "A sick child was brought to me last night. The medicine that cures her needs the moon herb.",
+              "ko": "어젯밤 아픈 아이가 제게 왔어요. 그 아이를 낫게 할 약에는 달빛 약초가 필요해요.",
+              "chunks": [
+                {
+                  "en": "A sick child was brought to me last night. The medicine that cures her needs the moon herb.",
+                  "ko": "어젯밤 아픈 아이가 제게 왔어요. 그 아이를 낫게 할 약에는 달빛 약초가 필요해요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "A sick child was brought to me last night.",
+                  "ko": "어젯밤 아픈 아이가 제게 왔어요."
+                },
+                {
+                  "en": "The medicine that cures her needs the moon herb.",
+                  "ko": "그 아이를 낫게 할 약에는 달빛 약초가 필요해요."
+                }
+              ]
+            },
+            {
+              "speaker": "rp_extra_10",
+              "en": "It grows only in the dungeon beyond the stone bridge. A monster that guards the herb has been seen there.",
+              "ko": "그 약초는 돌다리 너머 던전에서만 자라요. 약초를 지키는 몬스터가 거기서 목격됐어요.",
+              "chunks": [
+                {
+                  "en": "It grows only in the dungeon beyond the stone bridge. A monster that guards the herb has been seen there.",
+                  "ko": "그 약초는 돌다리 너머 던전에서만 자라요. 약초를 지키는 몬스터가 거기서 목격됐어요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "It grows only in the dungeon beyond the stone bridge.",
+                  "ko": "그 약초는 돌다리 너머 던전에서만 자라요."
+                },
+                {
+                  "en": "A monster that guards the herb has been seen there.",
+                  "ko": "약초를 지키는 몬스터가 거기서 목격됐어요."
+                }
+              ]
+            },
+            {
+              "speaker": "Subject",
+              "en": "We will bring it before the sun sets.",
+              "ko": "해가 지기 전에 가져올게요.",
+              "chunks": [
+                {
+                  "en": "We will bring it before the sun sets.",
+                  "ko": "해가 지기 전에 가져올게요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "We will bring it before the sun sets.",
+                  "ko": "해가 지기 전에 가져올게요."
+                }
+              ]
+            },
+            {
+              "speaker": "rp_extra_10",
+              "en": "Take the west stone bridge. The moon herb glows pale blue, so you will see it in the dark.",
+              "ko": "서쪽 돌다리로 가세요. 달빛 약초는 연한 푸른빛을 내서 어둠 속에서도 보일 거예요.",
+              "chunks": [
+                {
+                  "en": "Take the west stone bridge. The moon herb glows pale blue, so you will see it in the dark.",
+                  "ko": "서쪽 돌다리로 가세요. 달빛 약초는 연한 푸른빛을 내서 어둠 속에서도 보일 거예요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "Take the west stone bridge.",
+                  "ko": "서쪽 돌다리로 가세요."
+                },
+                {
+                  "en": "The moon herb glows pale blue, so you will see it in the dark.",
+                  "ko": "달빛 약초는 연한 푸른빛을 내서 어둠 속에서도 보일 거예요."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "action": "route",
+          "town": "rp",
+          "lines": [
+            {
+              "speaker": "Narrator",
+              "en": "The old stone bridge crosses a stream, and the forest grows thicker on the other side.",
+              "ko": "오래된 돌다리가 개울을 건너고 건너편 숲은 더 우거져 있다.",
+              "chunks": [
+                {
+                  "en": "The old stone bridge crosses a stream, and the forest grows thicker on the other side.",
+                  "ko": "오래된 돌다리가 개울을 건너고 건너편 숲은 더 우거져 있다."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "The old stone bridge crosses a stream, and the forest grows thicker on the other side.",
+                  "ko": "오래된 돌다리가 개울을 건너고 건너편 숲은 더 우거져 있다."
+                }
+              ]
+            },
+            {
+              "speaker": "Narrator",
+              "en": "A faint blue glow shines from a doorway between the roots.",
+              "ko": "나무뿌리 사이의 입구에서 연한 푸른빛이 새어 나온다.",
+              "chunks": [
+                {
+                  "en": "A faint blue glow shines from a doorway between the roots.",
+                  "ko": "나무뿌리 사이의 입구에서 연한 푸른빛이 새어 나온다."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "A faint blue glow shines from a doorway between the roots.",
+                  "ko": "나무뿌리 사이의 입구에서 연한 푸른빛이 새어 나온다."
+                }
+              ]
+            }
+          ],
+          "route": {
+            "id": "rp_dungeon_herb_road",
+            "map": "sj_west",
+            "exit": "exit_west",
+            "label": "서쪽 돌다리",
+            "dungeon": "rp",
+            "gate": {
+              "label": "뿌리 사이의 던전",
+              "lines": [
+                {
+                  "speaker": "Narrator",
+                  "en": "Pale blue petals drift out of the dark. The herb is somewhere inside.",
+                  "ko": "연한 푸른 꽃잎이 어둠 속에서 흘러나온다. 약초는 안쪽 어딘가에 있다.",
+                  "chunks": [
+                    {
+                      "en": "Pale blue petals drift out of the dark. The herb is somewhere inside.",
+                      "ko": "연한 푸른 꽃잎이 어둠 속에서 흘러나온다. 약초는 안쪽 어딘가에 있다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Pale blue petals drift out of the dark.",
+                      "ko": "연한 푸른 꽃잎이 어둠 속에서 흘러나온다."
+                    },
+                    {
+                      "en": "The herb is somewhere inside.",
+                      "ko": "약초는 안쪽 어딘가에 있다."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Subject",
+                  "en": "The one who guards it is the one we must pass.",
+                  "ko": "약초를 지키는 존재가 우리가 넘어야 할 상대야.",
+                  "chunks": [
+                    {
+                      "en": "The one who guards it is the one we must pass.",
+                      "ko": "약초를 지키는 존재가 우리가 넘어야 할 상대야."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The one who guards it is the one we must pass.",
+                      "ko": "약초를 지키는 존재가 우리가 넘어야 할 상대야."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "action": "report",
+          "npc": "rp_extra_10",
+          "lines": [
+            {
+              "speaker": "rp_extra_10",
+              "en": "The moon herb! The medicine that I make will be ready by dusk.",
+              "ko": "달빛 약초예요! 제가 만드는 약이 해 질 무렵엔 준비될 거예요.",
+              "chunks": [
+                {
+                  "en": "The moon herb! The medicine that I make will be ready by dusk.",
+                  "ko": "달빛 약초예요! 제가 만드는 약이 해 질 무렵엔 준비될 거예요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "The moon herb!",
+                  "ko": "달빛 약초예요!"
+                },
+                {
+                  "en": "The medicine that I make will be ready by dusk.",
+                  "ko": "제가 만드는 약이 해 질 무렵엔 준비될 거예요."
+                }
+              ]
+            },
+            {
+              "speaker": "rp_extra_8",
+              "en": "The girl who was sick can smile now. She said thanks, and she wants to see the one who helped.",
+              "ko": "아팠던 여자아이가 이제 웃을 수 있어요. 고맙다고 했고, 도와준 분을 만나고 싶대요.",
+              "chunks": [
+                {
+                  "en": "The girl who was sick can smile now. She said thanks, and she wants to see the one who helped.",
+                  "ko": "아팠던 여자아이가 이제 웃을 수 있어요. 고맙다고 했고, 도와준 분을 만나고 싶대요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "The girl who was sick can smile now.",
+                  "ko": "아팠던 여자아이가 이제 웃을 수 있어요."
+                },
+                {
+                  "en": "She said thanks,",
+                  "ko": "고맙다고 했고,"
+                },
+                {
+                  "en": "and she wants to see the one who helped.",
+                  "ko": "도와준 분을 만나고 싶대요."
+                }
+              ]
+            },
+            {
+              "speaker": "rp_extra_10",
+              "en": "What will you take as thanks, a herb tea or a rest?",
+              "ko": "감사의 표시로 무엇을 받으시겠어요, 약초차나 휴식 중에?",
+              "chunks": [
+                {
+                  "en": "What will you take as thanks, a herb tea or a rest?",
+                  "ko": "감사의 표시로 무엇을 받으시겠어요, 약초차나 휴식 중에?"
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "What will you take as thanks,",
+                  "ko": "감사의 표시로 무엇을 받으시겠어요,"
+                },
+                {
+                  "en": "a herb tea or a rest?",
+                  "ko": "약초차나 휴식 중에?"
+                }
+              ]
+            }
+          ],
+          "task": {
+            "question_en": "What will you take as thanks?",
+            "question_ko": "감사의 표시로 무엇을 받을까요?",
+            "options": [
+              "A cup of herb tea.",
+              "A quiet rest at the inn.",
+              "A visit with the girl."
+            ],
+            "correct_index": 0,
+            "choice": true,
+            "flag": "rp_dungeon_choice",
+            "reactions": [
+              [
+                {
+                  "speaker": "rp_extra_10",
+                  "en": "A good choice. It will warm you from the inside.",
+                  "ko": "좋은 선택이에요. 속부터 따뜻해질 거예요.",
+                  "chunks": [
+                    {
+                      "en": "A good choice. It will warm you from the inside.",
+                      "ko": "좋은 선택이에요. 속부터 따뜻해질 거예요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "A good choice.",
+                      "ko": "좋은 선택이에요."
+                    },
+                    {
+                      "en": "It will warm you from the inside.",
+                      "ko": "속부터 따뜻해질 거예요."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "speaker": "rp_extra_3",
+                  "en": "The best bed in the house is yours tonight.",
+                  "ko": "오늘 밤 가장 좋은 침대는 당신 거예요.",
+                  "chunks": [
+                    {
+                      "en": "The best bed in the house is yours tonight.",
+                      "ko": "오늘 밤 가장 좋은 침대는 당신 거예요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "The best bed in the house is yours tonight.",
+                      "ko": "오늘 밤 가장 좋은 침대는 당신 거예요."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "speaker": "rp_extra_8",
+                  "en": "She will tell you a story that she made up herself!",
+                  "ko": "그 애가 직접 지어낸 이야기를 들려줄 거예요!",
+                  "chunks": [
+                    {
+                      "en": "She will tell you a story that she made up herself!",
+                      "ko": "그 애가 직접 지어낸 이야기를 들려줄 거예요!"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "She will tell you a story that she made up herself!",
+                      "ko": "그 애가 직접 지어낸 이야기를 들려줄 거예요!"
+                    }
+                  ]
+                }
+              ]
+            ],
+            "question_chunks": [
+              {
+                "en": "What will you take as thanks?",
+                "ko": "감사의 표시로 무엇을 받을까요?"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rv_dungeon_lens",
+      "town_id": "rv",
+      "title_en": "The Lighthouse Lens",
+      "title_ko": "등대 렌즈",
+      "completion_flag": "rv_dungeon_lens_complete",
+      "reward_item": {
+        "stone": 1
+      },
+      "steps": [
+        {
+          "action": "accept",
+          "npc": "rv_extra_1",
+          "lines": [
+            {
+              "speaker": "Narrator",
+              "en": "Portia looks up at the dark lighthouse. The great lens is missing from its frame.",
+              "ko": "포르시아가 불 꺼진 등대를 올려다본다. 커다란 렌즈가 틀에서 사라져 있다.",
+              "chunks": [
+                {
+                  "en": "Portia looks up at the dark lighthouse. The great lens is missing from its frame.",
+                  "ko": "포르시아가 불 꺼진 등대를 올려다본다. 커다란 렌즈가 틀에서 사라져 있다."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "Portia looks up at the dark lighthouse.",
+                  "ko": "포르시아가 불 꺼진 등대를 올려다본다."
+                },
+                {
+                  "en": "The great lens is missing from its frame.",
+                  "ko": "커다란 렌즈가 틀에서 사라져 있다."
+                }
+              ]
+            },
+            {
+              "speaker": "rv_extra_1",
+              "en": "The lighthouse lens was taken in the storm. A sea monster dragged it into the cave where the tide rolls in.",
+              "ko": "폭풍 속에서 등대 렌즈가 사라졌어요. 바다 몬스터가 밀물이 드나드는 동굴로 끌고 갔죠.",
+              "chunks": [
+                {
+                  "en": "The lighthouse lens was taken in the storm. A sea monster dragged it into the cave where the tide rolls in.",
+                  "ko": "폭풍 속에서 등대 렌즈가 사라졌어요. 바다 몬스터가 밀물이 드나드는 동굴로 끌고 갔죠."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "The lighthouse lens was taken in the storm.",
+                  "ko": "폭풍 속에서 등대 렌즈가 사라졌어요."
+                },
+                {
+                  "en": "A sea monster dragged it into the cave where the tide rolls in.",
+                  "ko": "바다 몬스터가 밀물이 드나드는 동굴로 끌고 갔죠."
+                }
+              ]
+            },
+            {
+              "speaker": "rv_extra_1",
+              "en": "Tonight the boats return in the dark. Without the lens, they will not know where the harbor is.",
+              "ko": "오늘 밤 배들이 어둠 속에서 돌아와요. 렌즈가 없으면 항구가 어디인지 알 수 없을 거예요.",
+              "chunks": [
+                {
+                  "en": "Tonight the boats return in the dark. Without the lens, they will not know where the harbor is.",
+                  "ko": "오늘 밤 배들이 어둠 속에서 돌아와요. 렌즈가 없으면 항구가 어디인지 알 수 없을 거예요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "Tonight the boats return in the dark.",
+                  "ko": "오늘 밤 배들이 어둠 속에서 돌아와요."
+                },
+                {
+                  "en": "Without the lens, they will not know where the harbor is.",
+                  "ko": "렌즈가 없으면 항구가 어디인지 알 수 없을 거예요."
+                }
+              ]
+            },
+            {
+              "speaker": "Subject",
+              "en": "We will bring it back before dusk.",
+              "ko": "해 질 때까지 가져올게요.",
+              "chunks": [
+                {
+                  "en": "We will bring it back before dusk.",
+                  "ko": "해 질 때까지 가져올게요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "We will bring it back before dusk.",
+                  "ko": "해 질 때까지 가져올게요."
+                }
+              ]
+            },
+            {
+              "speaker": "rv_extra_1",
+              "en": "Go north along the stone path, where the cliffs meet the sea. The cave is at the bottom.",
+              "ko": "절벽이 바다와 만나는 곳까지 북쪽 돌길을 따라가세요. 동굴은 그 아래에 있어요.",
+              "chunks": [
+                {
+                  "en": "Go north along the stone path, where the cliffs meet the sea. The cave is at the bottom.",
+                  "ko": "절벽이 바다와 만나는 곳까지 북쪽 돌길을 따라가세요. 동굴은 그 아래에 있어요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "Go north along the stone path, where the cliffs meet the sea.",
+                  "ko": "절벽이 바다와 만나는 곳까지 북쪽 돌길을 따라가세요."
+                },
+                {
+                  "en": "The cave is at the bottom.",
+                  "ko": "동굴은 그 아래에 있어요."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "action": "route",
+          "town": "rv",
+          "lines": [
+            {
+              "speaker": "Narrator",
+              "en": "The north stone path climbs the cliff, and the sea crashes below.",
+              "ko": "북쪽 돌길이 절벽을 오르고 아래에서 파도가 부서진다.",
+              "chunks": [
+                {
+                  "en": "The north stone path climbs the cliff, and the sea crashes below.",
+                  "ko": "북쪽 돌길이 절벽을 오르고 아래에서 파도가 부서진다."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "The north stone path climbs the cliff, and the sea crashes below.",
+                  "ko": "북쪽 돌길이 절벽을 오르고 아래에서 파도가 부서진다."
+                }
+              ]
+            },
+            {
+              "speaker": "Narrator",
+              "en": "At the bottom of a long stair, a sea cave opens. Something glitters inside.",
+              "ko": "긴 계단 끝에서 바다 동굴이 열린다. 안쪽에서 무언가 반짝인다.",
+              "chunks": [
+                {
+                  "en": "At the bottom of a long stair, a sea cave opens. Something glitters inside.",
+                  "ko": "긴 계단 끝에서 바다 동굴이 열린다. 안쪽에서 무언가 반짝인다."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "At the bottom of a long stair, a sea cave opens.",
+                  "ko": "긴 계단 끝에서 바다 동굴이 열린다."
+                },
+                {
+                  "en": "Something glitters inside.",
+                  "ko": "안쪽에서 무언가 반짝인다."
+                }
+              ]
+            }
+          ],
+          "route": {
+            "id": "rv_dungeon_lens_road",
+            "map": "sj_west",
+            "exit": "exit_north",
+            "label": "북쪽 돌길",
+            "dungeon": "rv",
+            "gate": {
+              "label": "바다 동굴",
+              "lines": [
+                {
+                  "speaker": "Narrator",
+                  "en": "Pieces of lens glass sparkle on the wet rocks like scattered stars.",
+                  "ko": "젖은 바위 위에 렌즈 조각이 흩어진 별처럼 반짝인다.",
+                  "chunks": [
+                    {
+                      "en": "Pieces of lens glass sparkle on the wet rocks like scattered stars.",
+                      "ko": "젖은 바위 위에 렌즈 조각이 흩어진 별처럼 반짝인다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Pieces of lens glass sparkle on the wet rocks like scattered stars.",
+                      "ko": "젖은 바위 위에 렌즈 조각이 흩어진 별처럼 반짝인다."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Subject",
+                  "en": "This is where the monster lives. We must go in and find the lens.",
+                  "ko": "여기가 몬스터가 사는 곳이야. 들어가서 렌즈를 찾아야 해.",
+                  "chunks": [
+                    {
+                      "en": "This is where the monster lives. We must go in and find the lens.",
+                      "ko": "여기가 몬스터가 사는 곳이야. 들어가서 렌즈를 찾아야 해."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "This is where the monster lives.",
+                      "ko": "여기가 몬스터가 사는 곳이야."
+                    },
+                    {
+                      "en": "We must go in and find the lens.",
+                      "ko": "들어가서 렌즈를 찾아야 해."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "action": "report",
+          "npc": "rv_extra_1",
+          "lines": [
+            {
+              "speaker": "rv_extra_1",
+              "en": "The lens! Where is the light that was lost? It is here, and it is shining.",
+              "ko": "렌즈예요! 사라졌던 빛은 어디 있을까요? 여기 있고 빛나고 있어요.",
+              "chunks": [
+                {
+                  "en": "The lens! Where is the light that was lost? It is here, and it is shining.",
+                  "ko": "렌즈예요! 사라졌던 빛은 어디 있을까요? 여기 있고 빛나고 있어요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "The lens!",
+                  "ko": "렌즈예요!"
+                },
+                {
+                  "en": "Where is the light that was lost?",
+                  "ko": "사라졌던 빛은 어디 있을까요?"
+                },
+                {
+                  "en": "It is here, and it is shining.",
+                  "ko": "여기 있고 빛나고 있어요."
+                }
+              ]
+            },
+            {
+              "speaker": "rv_extra_6",
+              "en": "I will polish it, and the lighthouse will be lit before the boats arrive.",
+              "ko": "제가 닦을 테니 배들이 도착하기 전에 등대에 불이 켜질 거예요.",
+              "chunks": [
+                {
+                  "en": "I will polish it, and the lighthouse will be lit before the boats arrive.",
+                  "ko": "제가 닦을 테니 배들이 도착하기 전에 등대에 불이 켜질 거예요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "I will polish it, and the lighthouse will be lit before the boats arrive.",
+                  "ko": "제가 닦을 테니 배들이 도착하기 전에 등대에 불이 켜질 거예요."
+                }
+              ]
+            },
+            {
+              "speaker": "rv_extra_1",
+              "en": "Would you like to light the lamp for the first boat?",
+              "ko": "첫 번째 배를 위해 등을 직접 켜 보시겠어요?",
+              "chunks": [
+                {
+                  "en": "Would you like to light the lamp for the first boat?",
+                  "ko": "첫 번째 배를 위해 등을 직접 켜 보시겠어요?"
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "Would you like to light the lamp for the first boat?",
+                  "ko": "첫 번째 배를 위해 등을 직접 켜 보시겠어요?"
+                }
+              ]
+            }
+          ],
+          "task": {
+            "question_en": "What color should the first light be?",
+            "question_ko": "첫 불빛은 무슨 색이어야 할까요?",
+            "options": [
+              "Warm white.",
+              "Soft gold.",
+              "Sea blue."
+            ],
+            "correct_index": 0,
+            "choice": true,
+            "flag": "rv_dungeon_choice",
+            "reactions": [
+              [
+                {
+                  "speaker": "rv_extra_1",
+                  "en": "White is seen from every direction. Good, a clear choice.",
+                  "ko": "하얀빛은 모든 방향에서 보여요. 좋아요, 분명한 선택이네요.",
+                  "chunks": [
+                    {
+                      "en": "White is seen from every direction. Good, a clear choice.",
+                      "ko": "하얀빛은 모든 방향에서 보여요. 좋아요, 분명한 선택이네요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "White is seen from every direction.",
+                      "ko": "하얀빛은 모든 방향에서 보여요."
+                    },
+                    {
+                      "en": "Good,",
+                      "ko": "좋아요,"
+                    },
+                    {
+                      "en": "a clear choice.",
+                      "ko": "분명한 선택이네요."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "speaker": "rv_extra_1",
+                  "en": "Gold is kind to tired sailors. A gentle choice.",
+                  "ko": "금빛은 지친 선원에게 다정해요. 부드러운 선택이네요.",
+                  "chunks": [
+                    {
+                      "en": "Gold is kind to tired sailors. A gentle choice.",
+                      "ko": "금빛은 지친 선원에게 다정해요. 부드러운 선택이네요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Gold is kind to tired sailors.",
+                      "ko": "금빛은 지친 선원에게 다정해요."
+                    },
+                    {
+                      "en": "A gentle choice.",
+                      "ko": "부드러운 선택이네요."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "speaker": "rv_extra_1",
+                  "en": "Blue matches the water. Is it not hard to see? We will try it!",
+                  "ko": "푸른빛은 바다와 어울려요. 보기 어렵지 않을까요? 해 보죠!",
+                  "chunks": [
+                    {
+                      "en": "Blue matches the water. Is it not hard to see? We will try it!",
+                      "ko": "푸른빛은 바다와 어울려요. 보기 어렵지 않을까요? 해 보죠!"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Blue matches the water.",
+                      "ko": "푸른빛은 바다와 어울려요."
+                    },
+                    {
+                      "en": "Is it not hard to see?",
+                      "ko": "보기 어렵지 않을까요?"
+                    },
+                    {
+                      "en": "We will try it!",
+                      "ko": "해 보죠!"
+                    }
+                  ]
+                }
+              ]
+            ],
+            "question_chunks": [
+              {
+                "en": "What color should the first light be?",
+                "ko": "첫 불빛은 무슨 색이어야 할까요?"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tn_dungeon_duck",
+      "town_id": "tn",
+      "title_en": "The Clockwork Duck",
+      "title_ko": "태엽 오리",
+      "completion_flag": "tn_dungeon_duck_complete",
+      "reward_item": {
+        "stone": 1
+      },
+      "steps": [
+        {
+          "action": "accept",
+          "npc": "tn_extra_8",
+          "lines": [
+            {
+              "speaker": "Narrator",
+              "en": "Pip sits on the town steps, holding an empty key and a wound-up string.",
+              "ko": "핍이 마을 계단에 앉아 빈 열쇠와 감긴 줄을 들고 있다.",
+              "chunks": [
+                {
+                  "en": "Pip sits on the town steps, holding an empty key and a wound-up string.",
+                  "ko": "핍이 마을 계단에 앉아 빈 열쇠와 감긴 줄을 들고 있다."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "Pip sits on the town steps, holding an empty key and a wound-up string.",
+                  "ko": "핍이 마을 계단에 앉아 빈 열쇠와 감긴 줄을 들고 있다."
+                }
+              ]
+            },
+            {
+              "speaker": "tn_extra_8",
+              "en": "My clockwork duck ran away! I wound it up too tightly, and it waddled into the old tunnel.",
+              "ko": "제 태엽 오리가 도망갔어요! 태엽을 너무 세게 감았더니 낡은 터널로 뒤뚱뒤뚱 들어갔어요.",
+              "chunks": [
+                {
+                  "en": "My clockwork duck ran away! I wound it up too tightly, and it waddled into the old tunnel.",
+                  "ko": "제 태엽 오리가 도망갔어요! 태엽을 너무 세게 감았더니 낡은 터널로 뒤뚱뒤뚱 들어갔어요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "My clockwork duck ran away!",
+                  "ko": "제 태엽 오리가 도망갔어요!"
+                },
+                {
+                  "en": "I wound it up too tightly, and it waddled into the old tunnel.",
+                  "ko": "태엽을 너무 세게 감았더니 낡은 터널로 뒤뚱뒤뚱 들어갔어요."
+                }
+              ]
+            },
+            {
+              "speaker": "tn_extra_8",
+              "en": "Yesterday it was here. Tomorrow it will stop moving, and I will lose it forever.",
+              "ko": "어제는 여기 있었어요. 내일이면 움직임을 멈출 테고 저는 영영 잃어버릴 거예요.",
+              "chunks": [
+                {
+                  "en": "Yesterday it was here. Tomorrow it will stop moving, and I will lose it forever.",
+                  "ko": "어제는 여기 있었어요. 내일이면 움직임을 멈출 테고 저는 영영 잃어버릴 거예요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "Yesterday it was here.",
+                  "ko": "어제는 여기 있었어요."
+                },
+                {
+                  "en": "Tomorrow it will stop moving, and I will lose it forever.",
+                  "ko": "내일이면 움직임을 멈출 테고 저는 영영 잃어버릴 거예요."
+                }
+              ]
+            },
+            {
+              "speaker": "Subject",
+              "en": "We will find your duck today.",
+              "ko": "오늘 우리가 오리를 찾아 줄게요.",
+              "chunks": [
+                {
+                  "en": "We will find your duck today.",
+                  "ko": "오늘 우리가 오리를 찾아 줄게요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "We will find your duck today.",
+                  "ko": "오늘 우리가 오리를 찾아 줄게요."
+                }
+              ]
+            },
+            {
+              "speaker": "tn_extra_8",
+              "en": "Thank you! Go west along the stone road, and listen for a tick, tick, tick.",
+              "ko": "고마워요! 서쪽 돌길을 따라가서 똑딱똑딱 소리를 들어 보세요.",
+              "chunks": [
+                {
+                  "en": "Thank you! Go west along the stone road, and listen for a tick, tick, tick.",
+                  "ko": "고마워요! 서쪽 돌길을 따라가서 똑딱똑딱 소리를 들어 보세요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "Thank you!",
+                  "ko": "고마워요!"
+                },
+                {
+                  "en": "Go west along the stone road, and listen for a tick, tick, tick.",
+                  "ko": "서쪽 돌길을 따라가서 똑딱똑딱 소리를 들어 보세요."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "action": "route",
+          "town": "tn",
+          "lines": [
+            {
+              "speaker": "Narrator",
+              "en": "The stone road clicks and ticks under your boots. A faint sound answers from far ahead.",
+              "ko": "돌길이 발밑에서 똑딱거린다. 저 앞에서 희미한 소리가 대답한다.",
+              "chunks": [
+                {
+                  "en": "The stone road clicks and ticks under your boots. A faint sound answers from far ahead.",
+                  "ko": "돌길이 발밑에서 똑딱거린다. 저 앞에서 희미한 소리가 대답한다."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "The stone road clicks and ticks under your boots.",
+                  "ko": "돌길이 발밑에서 똑딱거린다."
+                },
+                {
+                  "en": "A faint sound answers from far ahead.",
+                  "ko": "저 앞에서 희미한 소리가 대답한다."
+                }
+              ]
+            },
+            {
+              "speaker": "Narrator",
+              "en": "Tick, tick, tick. The sound leads to the mouth of an old tunnel.",
+              "ko": "똑딱, 똑딱, 똑딱. 소리는 낡은 터널 입구로 이어진다.",
+              "chunks": [
+                {
+                  "en": "Tick, tick, tick. The sound leads to the mouth of an old tunnel.",
+                  "ko": "똑딱, 똑딱, 똑딱. 소리는 낡은 터널 입구로 이어진다."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "Tick,",
+                  "ko": "똑딱,"
+                },
+                {
+                  "en": "tick,",
+                  "ko": "똑딱,"
+                },
+                {
+                  "en": "tick.",
+                  "ko": "똑딱."
+                },
+                {
+                  "en": "The sound leads to the mouth of an old tunnel.",
+                  "ko": "소리는 낡은 터널 입구로 이어진다."
+                }
+              ]
+            }
+          ],
+          "route": {
+            "id": "tn_dungeon_duck_road",
+            "map": "sj_west",
+            "exit": "exit_west",
+            "label": "서쪽 돌길",
+            "dungeon": "tn",
+            "gate": {
+              "label": "낡은 터널",
+              "lines": [
+                {
+                  "speaker": "Narrator",
+                  "en": "A tiny wooden feather lies in the dust. The duck passed through here last night.",
+                  "ko": "먼지 속에 작은 나무 깃털이 떨어져 있다. 오리는 어젯밤 이곳을 지나갔다.",
+                  "chunks": [
+                    {
+                      "en": "A tiny wooden feather lies in the dust. The duck passed through here last night.",
+                      "ko": "먼지 속에 작은 나무 깃털이 떨어져 있다. 오리는 어젯밤 이곳을 지나갔다."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "A tiny wooden feather lies in the dust.",
+                      "ko": "먼지 속에 작은 나무 깃털이 떨어져 있다."
+                    },
+                    {
+                      "en": "The duck passed through here last night.",
+                      "ko": "오리는 어젯밤 이곳을 지나갔다."
+                    }
+                  ]
+                },
+                {
+                  "speaker": "Subject",
+                  "en": "It is still ticking. We are not too late.",
+                  "ko": "아직 똑딱거리고 있어. 늦지 않았어.",
+                  "chunks": [
+                    {
+                      "en": "It is still ticking. We are not too late.",
+                      "ko": "아직 똑딱거리고 있어. 늦지 않았어."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "It is still ticking.",
+                      "ko": "아직 똑딱거리고 있어."
+                    },
+                    {
+                      "en": "We are not too late.",
+                      "ko": "늦지 않았어."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "action": "report",
+          "npc": "tn_extra_8",
+          "lines": [
+            {
+              "speaker": "tn_extra_8",
+              "en": "My duck! It was ticking when it ran, and it is ticking now.",
+              "ko": "내 오리! 도망칠 때도 똑딱거렸고 지금도 똑딱거려요.",
+              "chunks": [
+                {
+                  "en": "My duck! It was ticking when it ran, and it is ticking now.",
+                  "ko": "내 오리! 도망칠 때도 똑딱거렸고 지금도 똑딱거려요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "My duck!",
+                  "ko": "내 오리!"
+                },
+                {
+                  "en": "It was ticking when it ran, and it is ticking now.",
+                  "ko": "도망칠 때도 똑딱거렸고 지금도 똑딱거려요."
+                }
+              ]
+            },
+            {
+              "speaker": "tn_extra_5",
+              "en": "A clockwork heart never forgets its home. It walked in the tunnel and found its own way back.",
+              "ko": "태엽 심장은 집을 잊지 않아요. 터널을 걸어 다니다가 스스로 돌아오는 길을 찾았죠.",
+              "chunks": [
+                {
+                  "en": "A clockwork heart never forgets its home. It walked in the tunnel and found its own way back.",
+                  "ko": "태엽 심장은 집을 잊지 않아요. 터널을 걸어 다니다가 스스로 돌아오는 길을 찾았죠."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "A clockwork heart never forgets its home.",
+                  "ko": "태엽 심장은 집을 잊지 않아요."
+                },
+                {
+                  "en": "It walked in the tunnel and found its own way back.",
+                  "ko": "터널을 걸어 다니다가 스스로 돌아오는 길을 찾았죠."
+                }
+              ]
+            },
+            {
+              "speaker": "tn_extra_8",
+              "en": "Thank you. Tomorrow I will wind it gently, and I will always remember today.",
+              "ko": "고마워요. 내일부터는 살살 감을 거예요. 오늘을 항상 기억할게요.",
+              "chunks": [
+                {
+                  "en": "Thank you. Tomorrow I will wind it gently, and I will always remember today.",
+                  "ko": "고마워요. 내일부터는 살살 감을 거예요. 오늘을 항상 기억할게요."
+                }
+              ],
+              "direct_chunks": [
+                {
+                  "en": "Thank you.",
+                  "ko": "고마워요."
+                },
+                {
+                  "en": "Tomorrow I will wind it gently,",
+                  "ko": "내일부터는 살살 감을 거예요."
+                },
+                {
+                  "en": "and I will always remember today.",
+                  "ko": "오늘을 항상 기억할게요."
+                }
+              ]
+            }
+          ],
+          "task": {
+            "question_en": "What will you tell Pip?",
+            "question_ko": "핍에게 뭐라고 말해 줄까요?",
+            "options": [
+              "Wind it gently next time.",
+              "Give the duck a name.",
+              "Bring it to the clock tower."
+            ],
+            "correct_index": 0,
+            "choice": true,
+            "flag": "tn_dungeon_choice",
+            "reactions": [
+              [
+                {
+                  "speaker": "tn_extra_8",
+                  "en": "I will count to three each turn. One, two, three.",
+                  "ko": "한 번 감을 때마다 셋을 셀게요. 하나, 둘, 셋.",
+                  "chunks": [
+                    {
+                      "en": "I will count to three each turn. One, two, three.",
+                      "ko": "한 번 감을 때마다 셋을 셀게요. 하나, 둘, 셋."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "I will count to three each turn.",
+                      "ko": "한 번 감을 때마다 셋을 셀게요."
+                    },
+                    {
+                      "en": "One,",
+                      "ko": "하나,"
+                    },
+                    {
+                      "en": "two,",
+                      "ko": "둘,"
+                    },
+                    {
+                      "en": "three.",
+                      "ko": "셋."
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "speaker": "tn_extra_8",
+                  "en": "Tick! His name will be Tick. He likes it already!",
+                  "ko": "똑딱! 이름은 '틱'이에요. 벌써 좋아하는 것 같아요!",
+                  "chunks": [
+                    {
+                      "en": "Tick! His name will be Tick. He likes it already!",
+                      "ko": "똑딱! 이름은 '틱'이에요. 벌써 좋아하는 것 같아요!"
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Tick!",
+                      "ko": "똑딱!"
+                    },
+                    {
+                      "en": "His name will be Tick.",
+                      "ko": "이름은 '틱'이에요."
+                    },
+                    {
+                      "en": "He likes it already!",
+                      "ko": "벌써 좋아하는 것 같아요!"
+                    }
+                  ]
+                }
+              ],
+              [
+                {
+                  "speaker": "tn_extra_5",
+                  "en": "Then I will oil its gears, and it will tick for a hundred years.",
+                  "ko": "그럼 제가 태엽에 기름을 쳐 줄게요. 백 년은 똑딱거릴 거예요.",
+                  "chunks": [
+                    {
+                      "en": "Then I will oil its gears, and it will tick for a hundred years.",
+                      "ko": "그럼 제가 태엽에 기름을 쳐 줄게요. 백 년은 똑딱거릴 거예요."
+                    }
+                  ],
+                  "direct_chunks": [
+                    {
+                      "en": "Then I will oil its gears,",
+                      "ko": "그럼 제가 태엽에 기름을 쳐 줄게요."
+                    },
+                    {
+                      "en": "and it will tick for a hundred years.",
+                      "ko": "백 년은 똑딱거릴 거예요."
+                    }
+                  ]
+                }
+              ]
+            ],
+            "question_chunks": [
+              {
+                "en": "What will you tell Pip?",
+                "ko": "핍에게 뭐라고 말해 줄까요?"
               }
             ]
           }

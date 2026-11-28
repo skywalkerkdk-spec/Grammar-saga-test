@@ -397,6 +397,13 @@
       volumeRead:id=>!!worldProgress().reading?.read?.[id],startHideout,
       field:(body,map,targets)=>window.openChapterField(body,map,isRpgM()?rhero():lhero(),targets),
       koreanVisible:()=>reading.mode!=='english',conversationMenu,portraitFor:extraPortrait,
+      dungeonCleared:id=>(SV.cleared||[]).includes(id)||(SV.rcleared||[]).includes(id),
+      enterDungeon:id=>{
+        const dg=DUNGEONS.find(item=>item.id===id);
+        if(!dg)return;
+        closeDialogueIfOpen();
+        G.dg=dg;G.mates=dg.need.slice();G.pets=1;G.rpg=false;G.clearPaid=false;G.fails=0;G.scr='formed';render();
+      },
       monsterArt:townId=>{
         const mon=GRMAP[townId]?.boss?.mon;
         if(!mon)return null;

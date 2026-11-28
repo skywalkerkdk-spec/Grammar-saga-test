@@ -3,7 +3,7 @@ window.createChapterWorld = function(api, data) {
   const {node,button,show,panel,save,recovered,flag,state,townName,visit,available}=api;
   const JOB_KO={"Grocer": "식료품 상인", "Innkeeper": "여관 주인", "Guard": "경비병", "Child": "어린이", "Courier": "전령", "Mayor": "마을 대표", "Healer": "치유사", "Fisher": "어부", "Tailor": "재봉사", "Guide": "안내인", "Farmer": "농부", "Boatman": "뱃사공", "Carpenter": "목수", "Harbor Master": "항만 관리인", "Tutor": "가정교사", "Merchant": "상인", "Miller": "방앗간지기", "Baker": "제빵사", "Gardener": "정원사", "Shepherd": "양치기", "Waiter": "식당 종업원", "Cook": "요리사", "Clockmaker": "시계공", "Party Planner": "파티 기획자", "Engineer": "기술자", "Cart Driver": "마부", "Scout": "정찰병", "Woodworker": "목공예가", "Archivist": "기록관", "Dockworker": "부두 일꾼", "Letter Keeper": "편지 관리인", "Water Seller": "물 장수", "Mapmaker": "지도 제작자", "Bell Keeper": "종지기", "Archaeologist": "고고학자", "Scribe": "필경사", "Bird Keeper": "새 사육사", "Letter Writer": "편지 대필가", "Weaver": "직조공", "Race Judge": "경주 심판", "Coach": "코치", "Medal Maker": "메달 제작자", "Lost Property Clerk": "분실물 담당자", "Umbrella Maker": "우산 제작자", "Bookbinder": "제본가", "Navigator": "항해사", "Shipwright": "조선공", "Lighthouse Keeper": "등대지기", "Travel Agent": "여행 안내원", "Equipment Maker": "장비 제작자", "Forester": "산림 관리인", "Herbalist": "약초상", "Bell Maker": "종 제작자", "Stage Manager": "무대 감독", "Musician": "음악가", "Decor Maker": "장식 제작자", "Seal Keeper": "인장 관리인", "Messenger": "전령", "Translator": "번역가", "Castellan": "성주", "Locksmith": "열쇠공", "Historian": "역사가", "Stoneworker": "석공", "Traveler": "여행자", "Clock Dealer": "시계 상인", "Supplier": "물자 상인", "Witness": "목격자", "Clerk": "서기", "Surveyor": "측량사", "Scholar": "학자", "Sponsor": "후원자", "Broker": "중개인", "Inspector": "검사관", "Hunter": "사냥꾼", "Director": "연출가", "Envoy": "특사", "Counselor": "고문", "Chef": "요리사", "Postman": "우체부", "Foreman": "반장", "Runner": "달리기 선수", "Captain": "대장", "Ranger": "숲지기", "Librarian": "사서", "Mechanic": "정비공", "Cleaner": "청소부", "Landlord": "여관 주인", "Student": "학생", "Gourmet": "미식가", "Walker": "산책객", "Falconer": "매사냥꾼", "Teacher": "교사", "Bookseller": "책방 주인", "Fruit Seller": "과일 상인", "Sailor": "선원", "Swimmer": "수영 선수", "Linguist": "언어학자", "Chess Master": "체스 명인", "Birdwatcher": "탐조가", "Florist": "꽃집 주인", "Keeper": "관리인", "Detective": "탐정", "Officer": "장교", "Artist": "화가"};
   window.C2_JOB_LABEL=jobEn=>JOB_KO[jobEn]?'('+jobEn+' · '+JOB_KO[jobEn]+')':'';
-  window.C2_NAME_CHIPS={en:["Abel", "Alias", "Amber", "Amy", "Apple", "Arden", "Ash", "Axel", "Bay", "Beam", "Belle", "Bran", "Briar", "Cinder", "Creed", "Daisy", "Dash", "Dream", "Ferrum", "Gilt", "Hushwood", "Ivy", "Joy", "Mason", "Mirage", "Morrow", "Mute", "Nox", "Null", "Palm", "Pendle", "Penny", "Pepper", "Reed", "Ripple", "Robin", "Sable", "Slate", "Spine", "Veil", "Vellum", "Vesper", "Wren", "Vale", "Hazel", "Grant", "Ferry", "Oak", "Kit", "Swiftly", "Sage", "Ridgeway", "Goldie", "Wishwell", "Dreama", "Valor", "Pikeford", "Finnick", "Quill", "Clementine", "Possy", "Rowan", "Birch", "Portia", "Chime", "Keel", "Shell", "Marlin", "Beacon", "Atlas", "Stitch", "Tempo", "Plum", "Flint", "Hour", "Rye"],ko:["허쉬우드", "슬레이트", "브라이어", "허시우드", "에이미", "세이블", "메이슨", "아이비", "베스퍼", "리플", "벨럼", "아든", "애플", "로빈", "앰버", "뮤트", "녹스", "페퍼", "길트", "모로", "페룸", "아벨", "베일", "베이", "펜들", "신더", "애쉬", "페니", "액셀", "브랜", "리드", "애시", "렌", "벨", "팜", "널", "빔", "헤이즐", "그랜트", "페리", "오크", "킷", "스위프틀리", "세이지", "서밋", "베리", "페이스", "리지웨이", "메리트", "스프린트", "골디", "플릿", "레스트", "위시웰", "피그", "드리마", "발러", "라크", "펜", "룸", "도브", "페더", "머시", "브룩", "펄", "미스트", "피크포드", "피닉", "퀼", "앵커", "레이크", "트라우트", "프로퍼", "클레멘타인", "포시", "로크", "태그", "레인", "스파인", "파슬", "햄", "로완", "펀", "윌로", "쏜", "액슬", "버치", "스타", "리프", "모스", "포르시아", "코랄", "비컨", "아틀라스", "차임", "킬", "셸", "타이드", "마린", "템포", "플럼", "돈", "플린트", "스티치", "준", "핍", "아워", "라이"]};
+  window.C2_NAME_CHIPS={en:["Abel", "Alias", "Amber", "Amy", "Apple", "Arden", "Ash", "Axel", "Bay", "Beam", "Belle", "Bran", "Briar", "Cinder", "Creed", "Daisy", "Dash", "Dream", "Ferrum", "Gilt", "Hushwood", "Ivy", "Joy", "Mason", "Mirage", "Morrow", "Mute", "Nox", "Null", "Palm", "Pendle", "Penny", "Pepper", "Reed", "Ripple", "Robin", "Sable", "Slate", "Spine", "Veil", "Vellum", "Vesper", "Wren", "Vale", "Hazel", "Grant", "Ferry", "Oak", "Kit", "Swiftly", "Sage", "Ridgeway", "Goldie", "Wishwell", "Dreama", "Valor", "Pikeford", "Finnick", "Quill", "Clementine", "Possy", "Rowan", "Birch", "Portia", "Chime", "Keel", "Shell", "Marlin", "Beacon", "Atlas", "Stitch", "Tempo", "Plum", "Flint", "Hour", "Rye", "Pip"],ko:["허쉬우드", "슬레이트", "브라이어", "허시우드", "에이미", "세이블", "메이슨", "아이비", "베스퍼", "리플", "벨럼", "아든", "애플", "로빈", "앰버", "뮤트", "녹스", "페퍼", "길트", "모로", "페룸", "아벨", "베일", "베이", "펜들", "신더", "애쉬", "페니", "액셀", "브랜", "리드", "애시", "렌", "벨", "팜", "널", "빔", "헤이즐", "그랜트", "페리", "오크", "킷", "스위프틀리", "세이지", "서밋", "베리", "페이스", "리지웨이", "메리트", "스프린트", "골디", "플릿", "레스트", "위시웰", "피그", "드리마", "발러", "라크", "펜", "룸", "도브", "페더", "머시", "브룩", "펄", "미스트", "피크포드", "피닉", "퀼", "앵커", "레이크", "트라우트", "프로퍼", "클레멘타인", "포시", "로크", "태그", "레인", "스파인", "파슬", "햄", "로완", "펀", "윌로", "쏜", "액슬", "버치", "스타", "리프", "모스", "포르시아", "코랄", "비컨", "아틀라스", "차임", "킬", "셸", "타이드", "마린", "템포", "플럼", "돈", "플린트", "스티치", "준", "핍", "아워", "라이", "대시", "똑딱", "틱"]};
   const residents=new Map();
   const townResidents=new Map();
   const addResident=(id,town,en,ko,role)=>{
@@ -261,20 +261,35 @@ window.createChapterWorld = function(api, data) {
   }
 
 
-  // A route quest sends the player out of town: find the clue, then beat the guardian's grammar questions.
+  // Route quests: leave town, optionally find a clue / beat a roadside guardian, then enter the town's dungeon.
+  const routeStage=item=>{const stage=item.stages[cursor(item.id)];return stage?.route?stage:null;};
+  function syncRoutes() {
+    for(const item of events){
+      const stage=routeStage(item);
+      if(!stage?.route.dungeon||!item.requires()||flag(item.finish))continue;
+      if(api.dungeonCleared?.(stage.route.dungeon)){
+        stageStore()[item.id]=cursor(item.id)+1;
+        state().trackedStory=item.id;
+        save();
+      }
+    }
+  }
   function openRoute(townId,exitId,back) {
+    syncRoutes();
     const event=events.find(item=>{
       if(!item.requires()||flag(item.finish))return false;
-      const stage=item.stages[cursor(item.id)];
-      return stage?.route&&stage.town===townId&&stage.route.exit===exitId;
+      const stage=routeStage(item);
+      return stage&&stage.town===townId&&stage.route.exit===exitId;
     });
-    const map=event&&window.chapterFields?.routes?.[event.stages[cursor(event.id)].route.id];
+    const stage0=event&&routeStage(event);
+    const map=stage0&&window.chapterFields?.routes?.[stage0.route.map||stage0.route.id];
     if(!event||!map||!api.field)return false;
     const index=cursor(event.id);
-    const stage=event.stages[index];
+    const stage=stage0;
     const route=stage.route;
     const marks=()=>state().routeMarks ||= {};
     const mark=key=>marks()[event.id+'_'+key];
+    const setMark=key=>{marks()[event.id+'_'+key]=true;save();};
     const options={skip:false,cancel:back,dock:false,confirm:true,questTitle:event.title};
     const proceed=()=>{
       stageStore()[event.id]=index+1;
@@ -282,20 +297,24 @@ window.createChapterWorld = function(api, data) {
       save();
       back();
     };
+    const gateReady=()=>(!route.clue||mark('clue'))&&(!route.monster||mark('monster'));
     const field=(note)=>{
       const body=panel(event.title,back,'마을로');
-      body.append(node('p',note||(mark('clue')?'단서를 따라 수호자를 찾아가세요.':'길을 걸으며 단서를 찾아보세요.')));
+      body.append(node('p',note||(route.clue&&!mark('clue')?'길을 걸으며 단서를 찾아보세요.':route.dungeon?'길 끝의 던전 입구로 가 보세요.':'수호자를 찾아가세요.')));
       const status=node('p');status.setAttribute('role','status');
-      const targets=[
-        {id:'town',label:'마을로 돌아가기',action:back},
-        {id:'clue',label:route.clue.label,art:()=>node('div',undefined,'c2-chest-art'),action:()=>{
-          show(event.title,route.clue.lines.map(line=>localized(line)),()=>{marks()[event.id+'_clue']=true;save();field('단서를 모았습니다. 수호자를 찾아가세요.');},null,options);
-        }},
-        {id:'monster',label:route.monster.label,art:()=>api.monsterArt?.(townId)||node('div',undefined,'c2-chest-art'),action:()=>{
-          if(!mark('clue')){status.textContent='아직 단서가 부족합니다. 길에서 단서를 먼저 찾으세요.';return;}
-          fight();
-        }},
-      ];
+      const targets=[{id:'town',label:'마을로 돌아가기',action:back}];
+      if(route.clue)targets.push({id:'clue',label:route.clue.label,art:()=>node('div',undefined,'c2-chest-art'),action:()=>{
+        show(event.title,route.clue.lines.map(line=>localized(line)),()=>{setMark('clue');field('단서를 모았습니다.');},null,options);
+      }});
+      if(route.monster)targets.push({id:'monster',label:route.monster.label,art:()=>api.monsterArt?.(townId)||node('div',undefined,'c2-chest-art'),action:()=>{
+        if(route.clue&&!mark('clue')){status.textContent='아직 단서가 부족합니다. 길에서 단서를 먼저 찾으세요.';return;}
+        if(mark('monster')){status.textContent='이미 물리친 상대입니다.';return;}
+        fight();
+      }});
+      if(route.dungeon)targets.push({id:'gate',label:route.gate?.label||'던전 입구',art:()=>node('div',undefined,'c2-chest-art'),action:()=>{
+        if(!gateReady()){status.textContent='아직 입구가 열리지 않았습니다. 길에서 할 일을 먼저 마치세요.';return;}
+        show(event.title,(route.gate?.lines||[]).map(line=>localized(line)),()=>api.enterDungeon(route.dungeon),null,{...options,cancel:()=>{}});
+      }});
       api.field(body,map,targets);
       body.append(status);
     };
@@ -318,7 +337,7 @@ window.createChapterWorld = function(api, data) {
           if(i!==task.correct_index){status.textContent=task.feedback_ko||'다시 생각해 보세요.';return;}
           at++;
           if(at<questions.length)ask();
-          else show(event.title,route.monster.win.map(line=>localized(line)),proceed,null,options);
+          else show(event.title,route.monster.win.map(line=>localized(line)),route.dungeon?()=>{setMark('monster');field('상대가 물러났습니다. 던전 입구로 가 보세요.');}:proceed,null,options);
         }));
         body.append(row,status);
       };
@@ -366,6 +385,7 @@ window.createChapterWorld = function(api, data) {
     if(aftermath)body.append(button('마을 후일담',()=>show(label(npc),[localized(aftermath,npc.id)],null,()=>resident(npc,back),{dock:true,skip:false})));
   }
   function town(townId,back) {
+    syncRoutes();
     const body=panel(townName(townId)+' · 주민',back,'마을 이야기로');
     for(const npc of townResidents.get(townId)||[]) {
       body.append(button(label(npc),()=>resident(npc,()=>town(townId,back))));
