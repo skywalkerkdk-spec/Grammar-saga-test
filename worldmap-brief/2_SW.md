@@ -1,4 +1,7 @@
-# Panel 2: SOUTH-WEST
+# Panel 2: SOUTH-WEST (REDRAW: Syntaxbury d4 moved next to d1 and d2)
+
+REDRAW NOTE: this panel was drawn before. Draw it again from scratch with ONE change: the market town Syntaxbury (d4) now stands at 800,1130 (between the Quiet Wood d1 and the Slime Cave d2). The old d4 spot at 2087,1166 becomes plain open meadow with NO site. All other sites keep their positions. For d4 only, the rule 'leave at least 700x600 px open between sites' is relaxed: it must be about 450 px from d1 and d2, with a clear walkable meadow path to each. Keep the SOUTH-CENTER seam identical (main road crossing the RIGHT edge at y=1153).
+
 
 Layout guide image (use it as the placement reference, do NOT draw its text): https://raw.githubusercontent.com/skywalkerkdk-spec/grammar-saga-test/main/worldmap-brief/SW_guide.png
 
@@ -21,7 +24,7 @@ Technical rules:
 - Panel edges: only the roads listed below may touch an inner seam; at every inner seam the ground texture, grass color and lighting must be identical on both sides so the panels stitch seamlessly. Terrain features (hills, forest, rivers) may continue across seams. The outer edges of the continent (top of the top row, bottom of the bottom row, left of the left column, right of the right column) have a 150 px band of ocean or sheer cliff (impassable).
 
 PANEL: SOUTH-WEST (grid position: column 1 of 3, row 2 of 2; the whole continent is 3 x 2 panels = 9216x4096 px).
-Geography: Start of the journey. Outer ocean along the left and bottom edges. Gentle bright forest around d1 (far west), then hills (d2), red-rock canyon (d3), a market plain (d4) and the workshop (d5) along the south; the north half is a rocky plateau with the black castle d6, and the north-west corner is dark corrupted land (purple mist) around d7 and d8. The main road runs from d1 east along the south half and leaves through the right edge.
+Geography: Start of the journey. Outer ocean along the left and bottom edges. Gentle bright forest around d1 (far west), then hills (d2), red-rock canyon (d3), the walled market town Syntaxbury (d4) tucked between d1 and d2 on a gentle meadow, a red-rock canyon (d3) and the workshop (d5) along the south; the north half is a rocky plateau with the black castle d6, and the north-west corner is dark corrupted land (purple mist) around d7 and d8. The main road runs from d1 east along the south half and leaves through the right edge.
 Road crossings on this panel's seams (keep exactly): RIGHT edge: the main road crosses at y=1153. Edges not listed have NO road: keep them open grass/forest/rock continuing the terrain, with no sites within 250 px.
 
 Sites (center coordinates in px at 3072x2048):
@@ -30,7 +33,7 @@ Sites (center coordinates in px at 3072x2048):
 | d1 | The Quiet Wood / 고요한 숲 | DUNGEON ICON (~90x90 px) | 500,1452 | Sleepy forest clearing, mossy stone arch, player's starting area, gentle and bright |
 | d2 | Slime Cave / 슬라임 떼의 동굴 | DUNGEON ICON (~90x90 px) | 1166,819 | Cave mouth in a green hillside, glistening slime puddles |
 | d3 | Golem Canyon / 골렘의 협곡 | DUNGEON ICON (~90x90 px) | 1389,1718 | Narrow red-rock canyon; giant stone golem statue at its mouth |
-| d4 | Merchants' Row / 상인의 상점가 | DUNGEON ICON (~90x90 px) | 2087,1166 | Walled market quarter with striped awnings and stalls right beside the main road; one open gate toward the road |
+| d4 | Syntaxbury / 신택스베리 | TOWN ICON (~110x90 px) | 800,1130 | Small walled market TOWN of the Syntax Kingdom: 4-5 tiny roofs, a striped-awning market corner and a small fountain square behind a low stone wall, ONE open gate on the south side where a side path meets the main road. It sits on a bright meadow between the Quiet Wood (d1) and the Slime Cave (d2), very close to both (about 450 px away), so a beginner can walk from the starting forest to the town and on to the cave. |
 | d5 | Alchemist's Workshop / 연금술사의 공방 | DUNGEON ICON (~90x90 px) | 2742,1718 | Tall crooked stone tower with colorful smoking chimneys and glass domes (workshop) |
 | d6 | Dark Knight's Castle / 다크나이트성 | DUNGEON ICON (~90x90 px) | 2742,466 | Black-stone castle on a rocky plateau, drawbridge gate facing SOUTH toward the main road, ominous (locked at first) |
 | d7 | Corrupted Infinitive Temple / 타락한 인피니티브 신전 | DUNGEON ICON (~90x90 px) | 1845,330 | Ruined temple, broken columns, purple corruption mist (locked at first) |
