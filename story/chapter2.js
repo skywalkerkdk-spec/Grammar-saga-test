@@ -831,6 +831,15 @@
       }
       return best;
     };
+    // 화면(주변)에 보이는 던전들의 몬스터를 거리 가중치로 섞어서 만난다.
+    const mixedSite=([x,y])=>{
+      const near=poolSites.map(id=>{const [px,py]=map.points[id];return {id,d:Math.hypot(px-x,py-y)};}).filter(o=>o.d<=26);
+      if (!near.length) return nearestPool([x,y]);
+      const weights=near.map(o=>1/(o.d+5));
+      let roll=Math.random()*weights.reduce((a,b)=>a+b,0);
+      for (let i=0;i<near.length;i++) {roll-=weights[i];if (roll<=0) return near[i].id;}
+      return near[0].id;
+    };
     const encounterDistance=()=>8+Math.floor(Math.random()*7);
     function fightInBattleScreen(id) {
       const dungeon=wmDg(id);
@@ -851,7 +860,7 @@
       return true;
     }
     function encounter(at) {
-      const id=nearestPool(at);
+      const id=mixedSite(at);
       if (!id) return false;
       if (!isRpgM() && fightInBattleScreen(id)) return true;
       const X=GRMAP[id];
