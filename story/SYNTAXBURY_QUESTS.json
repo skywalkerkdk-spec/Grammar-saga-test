@@ -430,27 +430,27 @@
    "steps": [
     {
      "action": "accept",
-     "npc": "pf_extra_5",
+     "npc": "g2_extra_9",
      "lines": [
       {
        "speaker": "Narrator",
-       "en": "Letter Keeper Seal holds a sealed letter that looks very old.",
-       "ko": "편지지기 실이 아주 오래돼 보이는 봉인된 편지를 들고 있다.",
+       "en": "Courier Quest holds a sealed letter that looks very old.",
+       "ko": "전령 퀘스트가 아주 오래돼 보이는 봉인된 편지를 들고 있다.",
        "chunks": [
         {
-         "en": "Letter Keeper Seal holds a sealed letter that looks very old.",
-         "ko": "편지지기 실이 아주 오래돼 보이는 봉인된 편지를 들고 있다."
+         "en": "Courier Quest holds a sealed letter that looks very old.",
+         "ko": "전령 퀘스트가 아주 오래돼 보이는 봉인된 편지를 들고 있다."
         }
        ],
        "direct_chunks": [
         {
-         "en": "Letter Keeper Seal holds a sealed letter that looks very old.",
-         "ko": "편지지기 실이 아주 오래돼 보이는 봉인된 편지를 들고 있다."
+         "en": "Courier Quest holds a sealed letter that looks very old.",
+         "ko": "전령 퀘스트가 아주 오래돼 보이는 봉인된 편지를 들고 있다."
         }
        ]
       },
       {
-       "speaker": "pf_extra_5",
+       "speaker": "g2_extra_9",
        "en": "This letter has waited ten years to be delivered. Today it flew out of my hands.",
        "ko": "이 편지는 십 년 동안 배달을 기다렸어요. 오늘 제 손에서 날아가 버렸지요.",
        "chunks": [
@@ -471,7 +471,7 @@
        ]
       },
       {
-       "speaker": "pf_extra_5",
+       "speaker": "g2_extra_9",
        "en": "The wind took it across the river bridge to the east. Please find it before it gets wet!",
        "ko": "바람이 그것을 동쪽 강 다리 너머로 데려갔어요. 젖기 전에 찾아 주세요!",
        "chunks": [
@@ -709,10 +709,10 @@
     },
     {
      "action": "report",
-     "npc": "pf_extra_5",
+     "npc": "g2_extra_9",
      "lines": [
       {
-       "speaker": "pf_extra_5",
+       "speaker": "g2_extra_9",
        "en": "The letter is dry! It has traveled so far to reach us. Look, the name has not faded.",
        "ko": "편지가 말라 있네요! 우리에게 오려고 이렇게 멀리 왔군요. 보세요, 이름이 지워지지 않았어요.",
        "chunks": [
@@ -733,19 +733,19 @@
        ]
       },
       {
-       "speaker": "pf_extra_5",
-       "en": "It is addressed to someone who left the Oasis long ago. Who should read it first?",
-       "ko": "오아시스를 오래전에 떠난 사람 앞으로 온 편지예요. 누가 먼저 읽어야 할까요?",
+       "speaker": "g2_extra_9",
+       "en": "It is addressed to someone who left Syntaxbury long ago. Who should read it first?",
+       "ko": "신택스베리를 오래전에 떠난 사람 앞으로 온 편지예요. 누가 먼저 읽어야 할까요?",
        "chunks": [
         {
-         "en": "It is addressed to someone who left the Oasis long ago. Who should read it first?",
-         "ko": "오아시스를 오래전에 떠난 사람 앞으로 온 편지예요. 누가 먼저 읽어야 할까요?"
+         "en": "It is addressed to someone who left Syntaxbury long ago. Who should read it first?",
+         "ko": "신택스베리를 오래전에 떠난 사람 앞으로 온 편지예요. 누가 먼저 읽어야 할까요?"
         }
        ],
        "direct_chunks": [
         {
-         "en": "It is addressed to someone who left the Oasis long ago.",
-         "ko": "오아시스를 오래전에 떠난 사람 앞으로 온 편지예요."
+         "en": "It is addressed to someone who left Syntaxbury long ago.",
+         "ko": "신택스베리를 오래전에 떠난 사람 앞으로 온 편지예요."
         },
         {
          "en": "Who should read it first?",
@@ -768,7 +768,7 @@
       "reactions": [
        [
         {
-         "speaker": "pf_extra_5",
+         "speaker": "g2_extra_9",
          "en": "Right. A letter belongs to the one it was written for.",
          "ko": "맞아요. 편지는 받을 사람의 것이에요.",
          "chunks": [
@@ -787,7 +787,7 @@
        ],
        [
         {
-         "speaker": "pf_extra_5",
+         "speaker": "g2_extra_9",
          "en": "Then the whole market will hear ten years of waiting.",
          "ko": "그러면 시장 전체가 십 년의 기다림을 듣겠네요.",
          "chunks": [
@@ -806,7 +806,7 @@
        ],
        [
         {
-         "speaker": "pf_extra_5",
+         "speaker": "g2_extra_9",
          "en": "Patience suits an old letter. I will keep it safe.",
          "ko": "오래된 편지에는 인내가 어울려요. 잘 보관할게요.",
          "chunks": [
@@ -850,27 +850,27 @@
    "steps": [
     {
      "action": "accept",
-     "npc": "pn_extra_5",
+     "npc": "g2_extra_4",
      "lines": [
       {
        "speaker": "Narrator",
-       "en": "Clerk Tag stares at an empty lost-property shelf.",
-       "ko": "분실물 담당 태그가 텅 빈 분실물 선반을 바라본다.",
+       "en": "Guard Knox stares at an empty lost-property shelf.",
+       "ko": "경비병 녹스가 텅 빈 분실물 선반을 바라본다.",
        "chunks": [
         {
-         "en": "Clerk Tag stares at an empty lost-property shelf.",
-         "ko": "분실물 담당 태그가 텅 빈 분실물 선반을 바라본다."
+         "en": "Guard Knox stares at an empty lost-property shelf.",
+         "ko": "경비병 녹스가 텅 빈 분실물 선반을 바라본다."
         }
        ],
        "direct_chunks": [
         {
-         "en": "Clerk Tag stares at an empty lost-property shelf.",
-         "ko": "분실물 담당 태그가 텅 빈 분실물 선반을 바라본다."
+         "en": "Guard Knox stares at an empty lost-property shelf.",
+         "ko": "경비병 녹스가 텅 빈 분실물 선반을 바라본다."
         }
        ]
       },
       {
-       "speaker": "pn_extra_5",
+       "speaker": "g2_extra_4",
        "en": "Everything is gone: the keys, the scarf, the umbrella and the ring. A magpie mixed up every name tag.",
        "ko": "전부 사라졌어요. 열쇠, 목도리, 우산, 반지까지요. 까치가 이름표를 전부 뒤섞어 놓았어요.",
        "chunks": [
@@ -891,7 +891,7 @@
        ]
       },
       {
-       "speaker": "pn_extra_5",
+       "speaker": "g2_extra_4",
        "en": "It flew out through the south gate with a shiny key. Please bring everything back!",
        "ko": "까치는 반짝이는 열쇠를 물고 남쪽 문으로 나갔어요. 전부 되찾아 주세요!",
        "chunks": [
@@ -1129,10 +1129,10 @@
     },
     {
      "action": "report",
-     "npc": "pn_extra_5",
+     "npc": "g2_extra_4",
      "lines": [
       {
-       "speaker": "pn_extra_5",
+       "speaker": "g2_extra_4",
        "en": "Every treasure is back on the shelf, each with the right name. Thank you!",
        "ko": "보물이 전부 알맞은 이름표와 함께 선반에 돌아왔어요. 고마워요!",
        "chunks": [
@@ -1153,7 +1153,7 @@
        ]
       },
       {
-       "speaker": "pn_extra_5",
+       "speaker": "g2_extra_4",
        "en": "But the shiny key has no name tag at all. Whose treasure is it?",
        "ko": "그런데 반짝이는 열쇠에는 이름표가 아예 없어요. 누구의 보물일까요?",
        "chunks": [
@@ -1188,7 +1188,7 @@
       "reactions": [
        [
         {
-         "speaker": "pn_extra_5",
+         "speaker": "g2_extra_4",
          "en": "Fair enough. Finders deserve something for their trouble.",
          "ko": "그럴 만하네요. 찾아 준 사람에게 보답은 있어야죠.",
          "chunks": [
@@ -1207,7 +1207,7 @@
        ],
        [
         {
-         "speaker": "pn_extra_5",
+         "speaker": "g2_extra_4",
          "en": "Then it stays with us until someone claims it.",
          "ko": "그럼 주인이 나설 때까지 우리가 보관할게요.",
          "chunks": [
@@ -1226,7 +1226,7 @@
        ],
        [
         {
-         "speaker": "pn_extra_5",
+         "speaker": "g2_extra_4",
          "en": "Ha! The magpie will be proud. It can keep its favorite.",
          "ko": "하하! 까치가 자랑스러워하겠네요. 제일 좋아하는 걸 갖게 해 주죠.",
          "chunks": [
@@ -1270,38 +1270,38 @@
    "steps": [
     {
      "action": "accept",
-     "npc": "ng_extra_5",
+     "npc": "g2_extra_3",
      "lines": [
       {
        "speaker": "Narrator",
-       "en": "Stage Manager Cue stands in front of a bare stage, scratching her head.",
-       "ko": "무대감독 큐가 텅 빈 무대 앞에서 머리를 긁적인다.",
+       "en": "Innkeeper Nell stands in her empty inn yard, scratching her head.",
+       "ko": "여관 주인 넬이 텅 빈 여관 마당에서 머리를 긁적인다.",
        "chunks": [
         {
-         "en": "Stage Manager Cue stands in front of a bare stage, scratching her head.",
-         "ko": "무대감독 큐가 텅 빈 무대 앞에서 머리를 긁적인다."
+         "en": "Innkeeper Nell stands in her empty inn yard, scratching her head.",
+         "ko": "여관 주인 넬이 텅 빈 여관 마당에서 머리를 긁적인다."
         }
        ],
        "direct_chunks": [
         {
-         "en": "Stage Manager Cue stands in front of a bare stage, scratching her head.",
-         "ko": "무대감독 큐가 텅 빈 무대 앞에서 머리를 긁적인다."
+         "en": "Innkeeper Nell stands in her empty inn yard, scratching her head.",
+         "ko": "여관 주인 넬이 텅 빈 여관 마당에서 머리를 긁적인다."
         }
        ]
       },
       {
-       "speaker": "ng_extra_5",
-       "en": "Tonight is the Festival of Hope, but our lanterns are gone! The river took them east, one by one.",
+       "speaker": "g2_extra_3",
+       "en": "Tonight is the Festival of Hope, but my lanterns are gone! The river took them east, one by one.",
        "ko": "오늘 밤은 희망 축제인데 등불이 사라졌어요! 강물이 하나씩 동쪽으로 데려갔어요.",
        "chunks": [
         {
-         "en": "Tonight is the Festival of Hope, but our lanterns are gone! The river took them east, one by one.",
+         "en": "Tonight is the Festival of Hope, but my lanterns are gone! The river took them east, one by one.",
          "ko": "오늘 밤은 희망 축제인데 등불이 사라졌어요! 강물이 하나씩 동쪽으로 데려갔어요."
         }
        ],
        "direct_chunks": [
         {
-         "en": "Tonight is the Festival of Hope, but our lanterns are gone!",
+         "en": "Tonight is the Festival of Hope, but my lanterns are gone!",
          "ko": "오늘 밤은 희망 축제인데 등불이 사라졌어요!"
         },
         {
@@ -1311,7 +1311,7 @@
        ]
       },
       {
-       "speaker": "ng_extra_5",
+       "speaker": "g2_extra_3",
        "en": "Please follow the riverside path and bring them back. Without light, there is no hope!",
        "ko": "강변길을 따라가서 되찾아 주세요. 불빛이 없으면 희망도 없어요!",
        "chunks": [
@@ -1424,8 +1424,8 @@
        ],
        "questions": [
         {
-         "question_en": "We need two ___ for the stage.",
-         "question_ko": "무대에는 ___ 두 개가 필요해요.",
+         "question_en": "We need two ___ for the yard.",
+         "question_ko": "마당에는 ___ 두 개가 필요해요.",
          "options": [
           "boxes",
           "box",
@@ -1439,8 +1439,8 @@
            "ko": "우리는 ___ 두 개가 필요해요"
           },
           {
-           "en": "for the stage.",
-           "ko": "무대를 위해."
+           "en": "for the yard.",
+           "ko": "마당을 위해."
           }
          ]
         },
@@ -1545,22 +1545,22 @@
     },
     {
      "action": "report",
-     "npc": "ng_extra_5",
+     "npc": "g2_extra_3",
      "lines": [
       {
-       "speaker": "ng_extra_5",
-       "en": "The lanterns are glowing again! The stage looks alive. The Festival of Hope can begin.",
-       "ko": "등불이 다시 빛나요! 무대가 살아났네요. 희망 축제를 시작할 수 있겠어요.",
+       "speaker": "g2_extra_3",
+       "en": "The lanterns are glowing again! The yard looks alive. The Festival of Hope can begin.",
+       "ko": "등불이 다시 빛나요! 마당이 살아났네요. 희망 축제를 시작할 수 있겠어요.",
        "chunks": [
         {
-         "en": "The lanterns are glowing again! The stage looks alive. The Festival of Hope can begin.",
-         "ko": "등불이 다시 빛나요! 무대가 살아났네요. 희망 축제를 시작할 수 있겠어요."
+         "en": "The lanterns are glowing again! The yard looks alive. The Festival of Hope can begin.",
+         "ko": "등불이 다시 빛나요! 마당이 살아났네요. 희망 축제를 시작할 수 있겠어요."
         }
        ],
        "direct_chunks": [
         {
-         "en": "The lanterns are glowing again! The stage looks alive.",
-         "ko": "등불이 다시 빛나요! 무대가 살아났네요."
+         "en": "The lanterns are glowing again! The yard looks alive.",
+         "ko": "등불이 다시 빛나요! 마당이 살아났네요."
         },
         {
          "en": "The Festival of Hope can begin.",
@@ -1569,7 +1569,7 @@
        ]
       },
       {
-       "speaker": "ng_extra_5",
+       "speaker": "g2_extra_3",
        "en": "One lantern is left over. Where should it shine?",
        "ko": "등불이 하나 남았어요. 어디에서 빛나게 할까요?",
        "chunks": [
@@ -1591,7 +1591,7 @@
       "question_ko": "마지막 등불은 어디서 빛나게 할까요?",
       "options": [
        "On the bridge for travelers.",
-       "On the stage for the show.",
+       "In the inn yard for the party.",
        "In the Guild window."
       ],
       "correct_index": 0,
@@ -1600,7 +1600,7 @@
       "reactions": [
        [
         {
-         "speaker": "ng_extra_5",
+         "speaker": "g2_extra_3",
          "en": "A light for travelers. Hope should reach the road, too.",
          "ko": "나그네를 위한 불빛이네요. 희망은 길에도 닿아야죠.",
          "chunks": [
@@ -1619,26 +1619,26 @@
        ],
        [
         {
-         "speaker": "ng_extra_5",
-         "en": "Then the show will shine brightest of all.",
-         "ko": "그럼 공연이 무엇보다 환하게 빛나겠어요.",
+         "speaker": "g2_extra_3",
+         "en": "Then the party will shine brightest of all.",
+         "ko": "그럼 잔치가 무엇보다 환하게 빛나겠어요.",
          "chunks": [
           {
-           "en": "Then the show will shine brightest of all.",
-           "ko": "그럼 공연이 무엇보다 환하게 빛나겠어요."
+           "en": "Then the party will shine brightest of all.",
+           "ko": "그럼 잔치가 무엇보다 환하게 빛나겠어요."
           }
          ],
          "direct_chunks": [
           {
-           "en": "Then the show will shine brightest of all.",
-           "ko": "그럼 공연이 무엇보다 환하게 빛나겠어요."
+           "en": "Then the party will shine brightest of all.",
+           "ko": "그럼 잔치가 무엇보다 환하게 빛나겠어요."
           }
          ]
         }
        ],
        [
         {
-         "speaker": "ng_extra_5",
+         "speaker": "g2_extra_3",
          "en": "The Guild will glow all night. Adventurers will love it.",
          "ko": "길드가 밤새 환하겠네요. 모험가들이 좋아하겠어요.",
          "chunks": [

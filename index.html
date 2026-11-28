@@ -1818,7 +1818,7 @@ function title(){
   <div class="xrow"><button class="btn-s" id="xcp">📋 복사</button><button class="btn-s" id="xin">📥 가져오기</button></div><div class="hint" id="xmsg"></div></details>
  </div>${CREDIT}</div>`;
  const lm=t=>{$('lmsg').innerHTML=t;};let _sure='';
- const begin=(n,dev)=>{G=fresh(n);G.started=true;G.dev=dev;SV=loadSave(G.name);if(dev){sfx('fanfare');if(!SV.level)SV.level='expert';G.introDone=true;G.opNext='dsel';}else G.opNext='level';G.opFirst=!dev&&!SV.openSeen;G.scr=G.opFirst?'opening':G.opNext;render();};
+ const begin=(n,dev)=>{G=fresh(n);G.started=true;G.dev=dev;SV=loadSave(G.name);if(dev){sfx('fanfare');if(!SV.level)SV.level='expert';G.introDone=true;G.opNext='dsel';}else G.opNext='level';G.opFirst=!dev&&!SV.openSeen;if(G.opFirst)SV.mode='story';G.scr=G.opFirst?'opening':G.opNext;render();};
  const go=async()=>{let n=($('nmi').value||'').trim(),p=($('pwi').value||'');const DEVID={zx:'Mr.KANG',qw:'Mr.KANG-Qw',as:'Mr.KANG-As'};const dev=Object.prototype.hasOwnProperty.call(DEVID,n.toLowerCase());
   if(dev){begin(DEVID[n.toLowerCase()],true);return;}
   if(!n){lm('이름을 입력하세요.');return;}
@@ -5367,7 +5367,9 @@ function regionScreen(k){
   <div class="dtools"><button class="btn-s" id="wmwalk" style="font-size:20px;padding:14px 22px">🚶 필드로 나가기</button></div></div>`;
   bindModeTabs();
   const s=document.getElementById('toshop');if(s)s.onclick=()=>{G.scr='mall';G.toast=null;sfx('select');render();};
-  if(G.owAuto){G.owAuto=false;setTimeout(()=>{if(G.scr==='dsel'&&SV.mode==='story'&&window.chapterOverworld)window.chapterOverworld.open();},0);}
+  if(G.owAuto||(SV.mode==='story'&&!SV.sbStart)){const auto=G.owAuto;G.owAuto=false;setTimeout(()=>{if(G.scr!=='dsel'||SV.mode!=='story')return;
+    if(!SV.sbStart&&window.chapterSyntaxbury){SV.sbStart=true;saveNow();window.chapterSyntaxbury.open();}   /* 이야기의 시작: 신택스베리 마을 안에서 */
+    else if(auto&&window.chapterOverworld)window.chapterOverworld.open();},0);}
  };
  /* 필드에서 들어간 던전: '던전 목록' 버튼을 '필드로 돌아가기'로 */
  const _r=render;render=function(){const x=_r.apply(this,arguments);

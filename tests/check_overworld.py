@@ -20,7 +20,7 @@ with ThreadingHTTPServer(('127.0.0.1',0),partial(Q,directory=root)) as srv:
         pg.goto(url)
         def start():
             pg.goto(url)
-            pg.evaluate("""()=>{G=fresh('Walk test');SV=defSave();SV.mode='story';SV.cleared=['d1','d2','d3','d4','d5','d6','d7','d8'];G.started=true;G.reg=null;G.scr='dsel';render();}""")
+            pg.evaluate("""()=>{G=fresh('Walk test');SV=defSave();SV.mode='story';SV.sbStart=true;SV.cleared=['d1','d2','d3','d4','d5','d6','d7','d8'];G.started=true;G.reg=null;G.scr='dsel';render();}""")
             pg.wait_for_timeout(1500)
         start()
         assert pg.locator('#wmwalk').count()==1,'스토리 모드 허브에 필드 버튼이 있어야 함'

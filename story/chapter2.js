@@ -793,25 +793,23 @@
     const body=hubPanel('Syntaxbury · 신택스베리',toWorld);
     body.querySelector('button').textContent='🚶 필드로 돌아가기';
     // 폐기된 옛 마을(Queston·Perfect Oasis·Pronovia·Nounville)의 주민과 의뢰를 이 마을로 옮겨 왔습니다.
-    const SB_TOWNS=['g2','pf','pn','ng'];
-    const spots=[[20,24],[34,24],[58,24],[76,24],[21,33],[36,33],[60,33],[75,33],[26,28],[68,28],[40,27],[54,36],[30,22],[46,22],[62,22],[50,34]];
+    const SB_TOWNS=['g2'];
+    const spots=[[20,24],[34,24],[58,24],[76,24],[21,33],[36,33],[60,33],[75,33],[26,28],[68,28],[40,27],[56,34],[30,22],[46,22],[62,22],[50,34]];
     const points={...map.points,exit_east_b:[95,28]};
     const folks=[];
-    const GIVERS={g2:'g2_extra_5',pf:'pf_extra_5',pn:'pn_extra_5',ng:'ng_extra_5'};
     const place=entry=>{const spot=spots[folks.length];if(!spot)return;points[entry.id]=spot;folks.push(entry);};
     const back=()=>syntaxburyField();
     for (const town of SB_TOWNS) {
       const episode=episodes.get(town);
       if (!episode) continue;
       const home=(townFor(episode)||'').split('·').pop().trim();
-      for (const target of residentTargets(episode,i=>`story/maps/villages/${town}-${i}.webp`).slice(0,2))
-        place({...target,id:`sb_${town}_${target.id}`,label:`${target.label} (${home})`,action:()=>townDialogue(episode,episode.residents.find(r=>'npc'+r.index===target.id),target.image)});
-      const crowd=chapterWorld?.residentsForTown(town)||[];
-      const extra=[...crowd.slice(0,1),...crowd.filter(r=>r.id===GIVERS[town]&&r.id!==crowd[0]?.id)];
+      for (const target of residentTargets(episode,i=>`story/maps/villages/${town}-${i}.webp`))
+        place({...target,id:`sb_${town}_${target.id}`,label:target.label,action:()=>townDialogue(episode,episode.residents.find(r=>'npc'+r.index===target.id),target.image)});
+      const extra=chapterWorld?.residentsForTown(town)||[];
       for (const npc of extra) {
         const art=atlasFor(npc.id);
         const image=artFront(art)||extraPortrait(npc.id);
-        place({id:npc.id,label:`${npc.en} · ${npc.ko} (${home})`,caption:npc.name,job:npc.job,image,walk:artWalk(art),
+        place({id:npc.id,label:`${npc.en} · ${npc.ko}`,caption:npc.name,job:npc.job,image,walk:artWalk(art),
           action:detail=>chapterWorld.meetResident(npc.id,image,back,!!detail?.guide)});
       }
     }
@@ -880,6 +878,17 @@
           panel.append(node('b','🏘️ Syntaxbury · 신택스베리'));
           panel.append(node('span','신택스 왕국의 시장 마을입니다. 길드·상점·대장간·물약 가게가 있어요.'));
           panel.append(button('마을에 들어가기',()=>{closeDialogueIfOpen();syntaxburyField();}));
+          panel.append(button('계속 걷기',()=>{panel.replaceChildren();}));
+          return;
+        }
+        if (id==='cv') {
+          const shopAt=(tab)=>()=>{closeDialogueIfOpen();G.owDungeon=true;G.owAuto=false;G.toast=null;Object.assign(G,{scr:'shop',shopTab:tab});sfx('select');render();};
+          panel.append(node('b',"🛒 Merchants' Caravan · 상인의 카라반"));
+          panel.append(node('span','길을 오가는 상인들의 마차 야영지입니다. 펫과 물약을 살 수 있어요.'));
+          panel.append(button('🐾 펫 · 아이템 보기',shopAt('adopt')));
+          panel.append(button('🧪 물약 사기',shopAt('potion')));
+          panel.append(button('계속 걷기',()=>{panel.replaceChildren();}));
+          return;
         }
         const unlocked=id==='TEMPLE'?wmUnlocked(id):wmUnlocked(id);
         const d=typeof wmDg==='function'?wmDg(id):null;
