@@ -747,6 +747,19 @@
     return {map:{...map,points},targets:[...targets,...extras]};
   }
 
+  // 마을·초원 걷기 화면: 지도를 전체 화면으로 쓰고, 마을 이름·이어질 의뢰·메뉴는 눌러서 여는 창에 담습니다.
+  function fullscreenField(body,title,guided) {
+    body.parentElement.classList.add('c2-fullfield');
+    const info=node('div',undefined,'c2-field-info');
+    info.hidden=true;
+    const parts=[...body.querySelectorAll(':scope > .c2-actions, :scope > .c2-next-step')];
+    info.append(node('h3',title),...parts,button('닫기',()=>{info.hidden=true;}));
+    const toggle=button('📋 '+title,()=>{info.hidden=!info.hidden;});
+    toggle.className='btn-s c2-field-infobtn';
+    if (guided && parts.some(part=>part.classList.contains('c2-next-step'))) toggle.classList.add('has-news');
+    body.append(toggle,info);
+  }
+
   function villageField(episode,map) {
     const body=hubPanel(townFor(episode),closeDialogue);
     body.querySelector('button').textContent='마을 이야기로';
@@ -763,6 +776,7 @@
           note.textContent=exit.label+'은(는) 아직 갈 일이 없는 길입니다. 마을 사람들에게 의뢰를 받아 보세요.';
       }}));
     }
+    fullscreenField(body,townFor(episode),true);
     const layout=townResidentsOnMap(episode,map,targets,()=>villageField(episode,map));
     const positions=G.c2VillagePositions ||= {};
     window.openChapterField(body,layout.map,isRpgM()?rhero():lhero(),layout.targets,{
@@ -777,10 +791,7 @@
     const map=window.chapterFields?.world;
     if (!map || typeof window.openChapterField!=='function') return;
     const body=hubPanel('월드맵 · 그래머 대륙');
-    body.parentElement.classList.add('c2-world');
-    const note=node('p','조이스틱이나 길 누르기로 걷다가 마을·던전 아이콘 위에 서면 들어갈 수 있습니다.');
-    note.setAttribute('role','status');
-    body.append(note);
+    body.parentElement.classList.add('c2-world','c2-fullfield');
     const panel=node('div',undefined,'c2-world-confirm');
     body.append(panel);
     const sites=map.sites;
@@ -957,6 +968,7 @@
         if (!beginMeadowFight(at,true)) status.textContent='수호자는 아직 길을 막고 있습니다. 초원을 더 탐험하세요.';
       }},
     ];
+    fullscreenField(body,isTown?townFor(episode):'Be Meadow · 비 초원',isTown);
     const layout=isTown?townResidentsOnMap(episode,map,targets,()=>bevilleField('town')):{map,targets};
     window.openChapterField(body,layout.map,state?.rpg||isRpgM()?rhero():lhero(),layout.targets,{
       position,

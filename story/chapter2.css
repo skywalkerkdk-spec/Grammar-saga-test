@@ -105,15 +105,16 @@
 .c2-world-confirm span{font-size:12px;opacity:.85}
 
 /* 월드맵 걷기: 화면 전체를 지도로 쓰고, 조이스틱·버튼·닫기는 지도 위에 겹쳐 놓습니다(가로·세로 모두). */
-.c2-dialog.c2-world{width:100vw;height:100dvh;max-width:none;max-height:none;margin:0;border:0;border-radius:0;overflow:hidden;background:#30472c}
-.c2-world .c2-body{position:relative;height:100%;padding:0}
-.c2-world .c2-body>h2,.c2-world .c2-body>p{display:none}
-.c2-world .c2-body>h2+button{position:absolute;top:max(8px,env(safe-area-inset-top));right:max(8px,env(safe-area-inset-right));z-index:5;min-height:40px;opacity:.92}
-.c2-world select[aria-label="탐험 목적지"]{position:absolute;top:max(8px,env(safe-area-inset-top));left:max(8px,env(safe-area-inset-left));z-index:5;max-width:48vw;margin:0;opacity:.92}
-.c2-world .c2-field-viewport{position:absolute;inset:0;height:auto;border:0;border-radius:0}
-.c2-world .c2-field-controls{position:absolute;left:0;right:0;bottom:max(14px,env(safe-area-inset-bottom));margin:0;padding:0 max(18px,env(safe-area-inset-right)) 0 max(18px,env(safe-area-inset-left));justify-content:space-between;pointer-events:none;z-index:4}
-.c2-world .c2-field-controls>*{pointer-events:auto}
-.c2-world .c2-field-stick{opacity:.88}
+.c2-dialog.c2-fullfield{width:100vw;height:100dvh;max-width:none;max-height:none;margin:0;border:0;border-radius:0;overflow:hidden;background:#30472c}
+.c2-fullfield .c2-body{position:relative;height:100%;padding:0}
+.c2-fullfield .c2-body>h2,.c2-fullfield .c2-body>p{display:none}
+.c2-fullfield .c2-body>p[role=status]:not(:empty){display:block;position:absolute;top:calc(max(8px,env(safe-area-inset-top)) + 92px);left:50%;transform:translateX(-50%);z-index:5;max-width:80vw;margin:0;padding:6px 12px;background:#141d2bee;border:1px solid #dec191;border-radius:8px;font-size:13px;text-align:center}
+.c2-fullfield .c2-body>h2+button{position:absolute;top:max(8px,env(safe-area-inset-top));right:max(8px,env(safe-area-inset-right));z-index:5;min-height:40px;opacity:.92}
+.c2-fullfield select[aria-label="탐험 목적지"]{position:absolute;top:max(8px,env(safe-area-inset-top));left:max(8px,env(safe-area-inset-left));z-index:5;max-width:48vw;margin:0;opacity:.92}
+.c2-fullfield .c2-field-viewport{position:absolute;inset:0;height:auto;border:0;border-radius:0}
+.c2-fullfield .c2-field-controls{position:absolute;left:0;right:0;bottom:max(14px,env(safe-area-inset-bottom));margin:0;padding:0 max(18px,env(safe-area-inset-right)) 0 max(18px,env(safe-area-inset-left));justify-content:space-between;pointer-events:none;z-index:4}
+.c2-fullfield .c2-field-controls>*{pointer-events:auto}
+.c2-fullfield .c2-field-stick{opacity:.88}
 @media (orientation:landscape) and (max-height:560px){
 .c2-world-confirm{left:calc(max(18px,env(safe-area-inset-left)) + 130px);bottom:max(14px,env(safe-area-inset-bottom));transform:none;width:min(44vw,330px);padding:8px 10px}
 }
@@ -122,3 +123,12 @@
 .c2-field-act span{font-size:27px;line-height:1}
 .c2-field-act small{font-size:11px;line-height:1.2;margin-top:2px}
 .c2-field-act:active{transform:scale(.94);filter:brightness(1.18)}
+
+.c2-fullfield .c2-field-infobtn{position:absolute;top:calc(max(8px,env(safe-area-inset-top)) + 48px);left:max(8px,env(safe-area-inset-left));z-index:5;min-height:38px;max-width:48vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;opacity:.94}
+.c2-fullfield .c2-field-infobtn.has-news::after{content:'';display:inline-block;width:9px;height:9px;margin-left:6px;border-radius:50%;background:#ff6b5a;box-shadow:0 0 6px #ff6b5a}
+.c2-fullfield .c2-field-info{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:min(88vw,460px);max-height:78%;overflow:auto;z-index:8;padding:14px;background:#1c2538f7;border:1px solid #dec191;border-radius:12px;box-shadow:0 8px 30px #000c}
+.c2-fullfield .c2-field-info[hidden]{display:none}
+.c2-fullfield .c2-field-info h3{margin:0 0 8px;color:#ffdfa5}
+.c2-fullfield .c2-field-info .c2-actions{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.c2-fullfield .c2-field-info .c2-next-step{margin:8px 0}
+.c2-fullfield .c2-field-viewport{z-index:0;isolation:isolate}
