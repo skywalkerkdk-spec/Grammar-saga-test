@@ -389,7 +389,7 @@
       recovered:twCleared,available:wmUnlocked,visit:visitTown,shuffle,pages:registeredCount,
       speakerName:key=>naming.characters[key]||Object.values(naming.characters).find(name=>name.en===key)||
         (key==='Subject'?{en:G.name,ko:'모험가'}:null),
-      townName:id=>id==='library'?'그래머 대도서관':townFor(episodes.get(id)),
+      townName:id=>id==='library'?'그래머 대도서관':(id==='sb'||id==='g2')?'Syntaxbury · 신택스베리':townFor(episodes.get(id)),
       companion:key=>{
         const unit=companionIds[key];
         return unit==='tank'||(unit==='pet'?!!PETS[SV.pet]:DUNGEONS.some(d=>twCleared(d.id)&&d.need?.includes(unit)));
@@ -827,7 +827,7 @@
     const hub=episodes.get(SB_TOWNS[0]);
     if (hub) townFieldActions(body,hub,back);
     fullscreenField(body,'Syntaxbury · 신택스베리',!!guideId);
-    const go=(scr,extra)=>()=>{closeDialogueIfOpen();G.owDungeon=true;G.owAuto=false;G.toast=null;Object.assign(G,{scr},extra||{});sfx('select');render();};
+    const go=(scr,extra)=>()=>{closeDialogueIfOpen();G.owDungeon=true;G.owHome='sb';G.owAuto=false;G.toast=null;Object.assign(G,{scr},extra||{});sfx('select');render();};
     // 길마다 받아 둔 의뢰가 있으면 그 길로, 없으면 월드맵 필드로 나갑니다.
     const leave=exitId=>{
       if (chapterWorld?.openRoute('sb',exitId,back)) return;
@@ -882,7 +882,7 @@
           return;
         }
         if (id==='cv') {
-          const shopAt=(tab)=>()=>{closeDialogueIfOpen();G.owDungeon=true;G.owAuto=false;G.toast=null;Object.assign(G,{scr:'shop',shopTab:tab});sfx('select');render();};
+          const shopAt=(tab)=>()=>{closeDialogueIfOpen();G.owDungeon=true;G.owHome=null;G.owAuto=false;G.toast=null;Object.assign(G,{scr:'shop',shopTab:tab});sfx('select');render();};
           panel.append(node('b',"🛒 Merchants' Caravan · 상인의 카라반"));
           panel.append(node('span','길을 오가는 상인들의 마차 야영지입니다. 펫과 물약을 살 수 있어요.'));
           panel.append(button('🐾 펫 · 아이템 보기',shopAt('adopt')));
@@ -894,7 +894,7 @@
         const d=typeof wmDg==='function'?wmDg(id):null;
         panel.append(node('b',(unlocked?'⚔️ ':'🔒 ')+(d?.name||m.ko||id)));
         if (d?.desc) panel.append(node('span',d.desc.replace(/<[^>]+>/g,'')));
-        if (unlocked) panel.append(button(id==='TEMPLE'?'신전에 들어가기':'던전에 들어가기',()=>{closeDialogueIfOpen();G.owDungeon=true;wmEnter(id);}));
+        if (unlocked) panel.append(button(id==='TEMPLE'?'신전에 들어가기':'던전에 들어가기',()=>{closeDialogueIfOpen();G.owDungeon=true;G.owHome=null;wmEnter(id);}));
         else panel.append(node('span','아직 잠겨 있습니다. 앞 단계의 던전을 먼저 클리어하세요.'));
       }
       panel.append(button('계속 걷기',()=>{panel.replaceChildren();}));

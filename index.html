@@ -5345,6 +5345,7 @@ function regionScreen(k){
  document.querySelectorAll('.dcard[data-id]').forEach(b=>b.onclick=()=>{G.dg=DUNGEONS.find(d=>d.id===b.dataset.id);G.mates=G.dg.need.slice();G.pets=1;G.scr='formed';render();});
  mapBtns();}
 
+window.sbGoHome=function(){G.owDungeon=false;G.owHome=null;G.owAuto=false;G.clearPaid=false;G.fails=0;G.scr='dsel';SV.sbStart=true;render();setTimeout(()=>{if(window.chapterSyntaxbury&&G.scr==='dsel')window.chapterSyntaxbury.open();},0);};
 (function(){const _d=dsel;
  dsel=function(){
   if(SV.mode==='rpg'&&rpgOpen())return _d();
@@ -5364,8 +5365,9 @@ function regionScreen(k){
   $('app').innerHTML=hud()+`<div class="card"><div class="speaker">🗺️ 스토리 모드</div>
   <div class="story">필드를 걸어 다니며 몬스터와 싸우고, 마을과 던전을 찾아가는 모험 모드입니다. 던전을 클리어하면 <b>🚶 필드로 돌아가기</b>로 이어서 걸을 수 있어요.</div>${modeTabs()}
   <button class="shopbtn" id="toshop">${petc('mini')}<div><b>🏪 상점</b><span>펫·꾸미기·스킨 · 대장간 · 보유 💎 ${SV.cry}</span></div></button>
-  <div class="dtools"><button class="btn-s" id="wmwalk" style="font-size:20px;padding:14px 22px">🚶 필드로 나가기</button></div></div>`;
+  <div class="dtools"><button class="btn-s" id="wmtown" style="font-size:20px;padding:14px 22px">🏘️ 신택스베리 마을로</button> <button class="btn-s" id="wmwalk" style="font-size:20px;padding:14px 22px">🚶 필드로 나가기</button></div></div>`;
   bindModeTabs();
+  const wt=document.getElementById('wmtown');if(wt)wt.onclick=()=>{G.owHome=null;G.owAuto=false;if(window.chapterSyntaxbury)window.chapterSyntaxbury.open();};
   const s=document.getElementById('toshop');if(s)s.onclick=()=>{G.scr='mall';G.toast=null;sfx('select');render();};
   if(G.owAuto||(SV.mode==='story'&&!SV.sbStart)){const auto=G.owAuto;G.owAuto=false;setTimeout(()=>{if(G.scr!=='dsel'||SV.mode!=='story')return;
     if(!SV.sbStart&&window.chapterSyntaxbury){SV.sbStart=true;saveNow();window.chapterSyntaxbury.open();}   /* 이야기의 시작: 신택스베리 마을 안에서 */
@@ -5374,8 +5376,10 @@ function regionScreen(k){
  /* 필드에서 들어간 던전: '던전 목록' 버튼을 '필드로 돌아가기'로 */
  const _r=render;render=function(){const x=_r.apply(this,arguments);
   try{if(G.owDungeon&&G.scr!=='dsel'&&G.scr!=='battle'){document.querySelectorAll('#app button').forEach(b=>{
-   if(/던전 목록/.test(b.textContent)&&!b.dataset.owb){b.dataset.owb='1';b.textContent='🚶 필드로 돌아가기';
-    b.onclick=e=>{e.preventDefault();e.stopPropagation();G.owDungeon=false;G.owAuto=true;G.clearPaid=false;G.fails=0;G.scr='dsel';render();};}});}}catch(e){}
+   if((/던전 목록/.test(b.textContent)||(G.owHome==='sb'&&/^\s*←?\s*돌아가기\s*$/.test(b.textContent)))&&!b.dataset.owb){b.dataset.owb='1';const home=G.owHome==='sb';b.textContent=home?'🏘️ 마을로 돌아가기':'🚶 필드로 돌아가기';
+    b.onclick=e=>{e.preventDefault();e.stopPropagation();G.owDungeon=false;G.clearPaid=false;G.fails=0;G.scr='dsel';
+     if(home){G.owHome=null;G.owAuto=false;SV.sbStart=true;render();setTimeout(()=>{if(window.chapterSyntaxbury&&G.scr==='dsel')window.chapterSyntaxbury.open();},0);}   /* 신택스베리 상점·대장간에서 나오면 마을로 */
+     else{G.owHome=null;G.owAuto=true;render();}};}});}}catch(e){}
   return x;};
 })();
 
@@ -7220,6 +7224,7 @@ function popRunFinal(){const R=G.popRun;if(!R)return '';const ok=R.qok+R.cok,tot
    const t=typeof BACK[scr]==='function'?BACK[scr]():BACK[scr];
    const b=document.createElement('button');b.className='btn-s';b.id='topback';b.textContent='← 돌아가기';
    b.onclick=()=>{try{saveNow();}catch(e){}sfx('click');G.scr=t;G.toast=null;render();};
+   if(G.owDungeon&&G.owHome==='sb'&&window.sbGoHome){b.textContent='🏘️ 마을로 돌아가기';b.onclick=()=>{try{saveNow();}catch(e){}sfx('click');window.sbGoHome();};}   /* 신택스베리 상점·대장간에서는 마을로 */
    if(h)h.insertBefore(b,h.firstChild);
    else{const d=document.createElement('div');d.className='hud';d.appendChild(b);const app=$('app');app.insertBefore(d,app.firstChild);}
   }catch(e){}

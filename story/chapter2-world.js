@@ -347,7 +347,7 @@ window.createChapterWorld = function(api, data) {
     return true;
   }
 
-  const canVisit=town=>town==='library'||available(town);
+  const canVisit=town=>town==='library'||town==='sb'||town==='g2'||available(town);  /* 신택스베리에는 퀘스턴 주민이 살고 있어 항상 갈 수 있습니다 */
   const ready=event=>event.requires()&&!flag(event.finish);
   const active=(town,npc)=>events.filter(event=>{
     if(!ready(event))return false;
