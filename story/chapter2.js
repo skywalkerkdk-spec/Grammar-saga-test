@@ -771,6 +771,117 @@
     });
   }
 
+  // ---- 월드맵 걷기: 큰 대륙 지도를 걸어 다니며 마을·던전 아이콘으로 들어갑니다 ----
+  const OW_TOWNS={tn_t:'tn',md_t:'md',rp_t:'rp',ps_t:'ps',rv_t:'rv',sj_t:'sj',cp_t:'cp'};
+  function overworldField() {
+    const map=window.chapterFields?.world;
+    if (!map || typeof window.openChapterField!=='function') return;
+    const body=hubPanel('월드맵 · 그래머 대륙');
+    body.parentElement.classList.add('c2-world');
+    const note=node('p','조이스틱이나 길 누르기로 걷다가 마을·던전 아이콘 위에 서면 들어갈 수 있습니다.');
+    note.setAttribute('role','status');
+    body.append(note);
+    const panel=node('div',undefined,'c2-world-confirm');
+    body.append(panel);
+    const sites=map.sites;
+    const targets=Object.keys(map.points).map(id=>{
+      const m=sites[id]||{};
+      const town=OW_TOWNS[id];
+      const episode=town&&episodes.get(town);
+      return {id,label:town&&episode?townFor(episode):(m.ko||id),action:()=>askSite(id)};
+    });
+    const siteAt=new Map(Object.entries(map.points).map(([id,p])=>[p[0]+','+p[1],id]));
+    let ignore=null;
+    function askSite(id) {
+      panel.replaceChildren();
+      const town=OW_TOWNS[id];
+      const m=sites[id]||{};
+      if (town) {
+        panel.append(node('b','🏘️ '+(townFor(episodes.get(town))||m.ko)));
+        panel.append(button('마을에 들어가기',()=>{closeDialogueIfOpen();twOpen(town);}));
+      } else {
+        const unlocked=id==='TEMPLE'?wmUnlocked(id):wmUnlocked(id);
+        const d=typeof wmDg==='function'?wmDg(id):null;
+        panel.append(node('b',(unlocked?'⚔️ ':'🔒 ')+(d?.name||m.ko||id)));
+        if (d?.desc) panel.append(node('span',d.desc.replace(/<[^>]+>/g,'')));
+        if (unlocked) panel.append(button(id==='TEMPLE'?'신전에 들어가기':'던전에 들어가기',()=>{closeDialogueIfOpen();wmEnter(id);}));
+        else panel.append(node('span','아직 잠겨 있습니다. 앞 단계의 던전을 먼저 클리어하세요.'));
+      }
+      panel.append(button('계속 걷기',()=>{panel.replaceChildren();}));
+    }
+    const positions=G.c2VillagePositions ||= {};
+    const poolSites=Object.keys(map.points).filter(id=>typeof GRMAP!=='undefined'&&GRMAP[id]&&GQD[GRMAP[id].pool]?.length);
+    const nearestPool=([x,y])=>{
+      let best=null,gap=Infinity;
+      for (const id of poolSites) {
+        const [px,py]=map.points[id];
+        const d=(px-x)**2+(py-y)**2;
+        if (d<gap) {gap=d;best=id;}
+      }
+      return best;
+    };
+    const encounterDistance=()=>70+Math.floor(Math.random()*60);
+    function encounter(at) {
+      const id=nearestPool(at);
+      if (!id) return false;
+      const X=GRMAP[id];
+      const all=GQD[X.pool].map(gqItem);
+      const level=LV();
+      const by=n=>all.filter(item=>item.lv===n);
+      let bag=level==='expert'?by(3):level==='beginner'?by(1):by(2);
+      if (bag.length<5) bag=all;
+      const item=pick(bag);
+      const monster=pick(X.mons);
+      const variant=pick(VAR[monster]||[['','']]);
+      const name=(variant[0]||'')+(MNAME[monster]||monster);
+      panel.replaceChildren();
+      panel.dataset.answer=item.ans;
+      const portrait=node('div',undefined,'c2-field-monster');
+      portrait.innerHTML=sp(monster,'','MON');
+      fill(portrait);
+      if (variant[1]) portrait.style.filter=variant[1];
+      panel.append(portrait,node('b','⚔️ '+name+'이(가) 나타났다!'),node('span',item.s.replace(/____/g,'＿＿＿')));
+      const done=button('계속 걷기',()=>{panel.replaceChildren();delete panel.dataset.answer;});
+      for (const option of shuffle(item.o)) {
+        const choice=button(option,()=>{
+          panel.querySelectorAll('button').forEach(b=>{b.disabled=true;});
+          let message;
+          if (option===item.ans) {
+            const today=new Date().toISOString().slice(0,10);
+            const record=SV.owEnc?.d===today?SV.owEnc:(SV.owEnc={d:today,n:0});
+            if (record.n<10) {record.n++;SV.cry+=2;saveNow();message='물리쳤다! 💎 +2';}
+            else message='물리쳤다! (오늘 보상은 모두 받았어요)';
+          } else message='아쉽다, 놓쳤다… 정답: '+item.ans;
+          panel.append(node('span',message+' · '+item.ko),node('span',item.why.replace(/<[^>]+>/g,'')),done);
+        });
+        panel.append(choice);
+      }
+      return true;
+    }
+    window.openChapterField(body,map,isRpgM()?rhero():lhero(),targets,{
+      position:positions.world,
+      onStep(next) {
+        positions.world=next;
+        const id=siteAt.get(next[0]+','+next[1]);
+        if (!id) ignore=null;
+        else if (ignore!==id) {
+          ignore=id;
+          askSite(id);
+          return true;
+        }
+        if (map.zones[next[1]]?.[next[0]]==='.') return false;
+        G.c2OwSteps=(G.c2OwSteps??encounterDistance())-1;
+        if (G.c2OwSteps>0) return false;
+        G.c2OwSteps=encounterDistance();
+        return encounter(next);
+      },
+    });
+  }
+  window.chapterOverworld={open:overworldField};
+  document.addEventListener('click',event=>{
+    if (event.target.closest?.('#wmwalk')) overworldField();
+  });
+
   function bevilleField(area) {
     const map=window.chapterFields?.[area];
     if (!map || typeof window.openChapterField!=='function') return;

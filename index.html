@@ -5299,7 +5299,7 @@ function mapImg(c){
   if(c.ghost)return `<button class="wmn gh ${ok?'':'lk'} ${cl?'dn':''}" data-wm="${id}" style="left:${(n[1]/c.W*100).toFixed(2)}%;top:${(n[2]/c.H*100).toFixed(2)}%"><u>${cl?'✅':ok?'▶':'🔒'}</u></button>`;
   return `<button class="wmn ${n[6]?'red':''} ${ok?'':'lk'} ${cl?'dn':''}" data-wm="${id}" style="left:${(n[4]/c.W*100).toFixed(2)}%;top:${((n[5]-26)/c.H*100).toFixed(2)}%"><b>${SPDG.includes(id)?'⭐ ':''}${n[2]}${cl?' ✅':ok?'':' 🔒'}</b><em>${n[3]}</em></button>`;}).join('');
  $('app').innerHTML=hud()+`<div class="card"><div class="speaker">${c.title}</div><div class="story">${c.story}</div>
- ${modeTabs()}${mapExtras()}<div class="dtools"><button class="btn-s" id="wmlist">📋 목록으로 보기</button><button class="btn-s" id="wmzoom">🔍 ${G.wmz?'작게':'크게'} 보기</button></div>
+ ${modeTabs()}${mapExtras()}<div class="dtools"><button class="btn-s" id="wmwalk">🚶 걸어서 탐험</button><button class="btn-s" id="wmlist">📋 목록으로 보기</button><button class="btn-s" id="wmzoom">🔍 ${G.wmz?'작게':'크게'} 보기</button></div>
  <div class="wmw"><div class="wmi ${G.wmz?'big':''}" id="wmi" style="aspect-ratio:${c.W}/${c.H}"><img src="${c.img}" alt="${c.title}" draggable="false">${nodes}</div></div></div>`;
  bindModeTabs();wmSize();setTimeout(wmSize,60);mapBindExtras();
  document.querySelectorAll('[data-wm]').forEach(b=>b.onclick=()=>{sfx('select');wmOpen(b.dataset.wm);});
@@ -5360,7 +5360,7 @@ function rpgMapHTML(){const W=worldOpen(),src=W?'worldmap.jpg?v=1':'kingdom.jpg?
   return `<button class="wmn ${n[6]?'red':''} ${ok?'':'lk'} ${cl?'dn':''}" data-wm="${id}" style="left:${(n[4]/1536*100).toFixed(2)}%;top:${((n[5]-26)/1024*100).toFixed(2)}%"><b>${SPDG.includes(id)?'⭐ ':''}${n[2]}${cl?' ✅':ok?'':' 🔒'}</b><em>${n[3]}</em></button>`;}).join('')
  :KM.map(n=>{const id=n[0],ok=wmUnlocked(id),cl=SV.rcleared.includes(id);
   return `<button class="wmn gh ${ok?'':'lk'} ${cl?'dn':''}" data-wm="${id}" style="left:${(n[1]/1536*100).toFixed(2)}%;top:${(n[2]/1024*100).toFixed(2)}%"><u>${cl?'✅':ok?'▶':'🔒'}</u></button>`;}).join('');
- return `<div class="dtools"><button class="btn-s" id="rmlist">📋 목록으로 보기</button><button class="btn-s" id="wmzoom">🔍 ${G.wmz?'작게':'크게'} 보기</button></div>
+ return `<div class="dtools">${W?'<button class="btn-s" id="wmwalk">🚶 걸어서 탐험</button>':''}<button class="btn-s" id="rmlist">📋 목록으로 보기</button><button class="btn-s" id="wmzoom">🔍 ${G.wmz?'작게':'크게'} 보기</button></div>
  <div class="wmw"><div class="wmi ${G.wmz?'big':''}" id="wmi" style="aspect-ratio:1536/1024"><img src="${src}" alt="${alt}" draggable="false">${nodes}</div></div>`;}
 function rpgMapBind(){wmSize();setTimeout(wmSize,60);
  document.querySelectorAll('[data-wm]').forEach(b=>b.onclick=()=>{sfx('select');wmOpen(b.dataset.wm);});
@@ -7782,6 +7782,7 @@ function rvDecorate(){const R=G.run,hud=document.querySelector('#app .hud .mut')
 
 </script>
 <script src="story/maps/fields.js"></script>
+<script src="story/maps/world.js"></script>
 <script src="story/maps/npc-atlas.js"></script>
 <script src="story/maps/npc-walk.js"></script>
 <script src="story/maps/field.js"></script>
