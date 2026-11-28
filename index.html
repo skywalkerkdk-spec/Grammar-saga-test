@@ -2515,9 +2515,10 @@ const rgoldOf=(i,boss)=>Math.max(1,Math.round(3*Math.pow(1.5,i)))*(boss?4:1);
 
 /* ---------- 모드 탭 (던전 목록 위) ---------- */
 function modeTabs(){const o=rpgOpen();
- return `<div class="modetabs"><button class="mtab ${SV.mode!=='rpg'?'on':''}" data-mode="learn">📘 학습 모드<span>한 방에 빠르게 공부 · 💎 수정 획득</span></button>
+ return `<div class="modetabs"><button class="mtab ${SV.mode!=='rpg'&&SV.mode!=='story'?'on':''}" data-mode="learn">📘 학습 모드<span>한 방에 빠르게 공부 · 💎 수정 획득</span></button>
+ <button class="mtab ${SV.mode==='story'?'on':''}" data-mode="story">🗺️ 스토리 모드<span>필드를 걸으며 모험 · 몬스터와 전투 · 던전 도전</span></button>
  <button class="mtab ${SV.mode==='rpg'?'on':''} ${o?'':'lock'}" data-mode="rpg" ${o?'':'disabled'}>⚔️ RPG 모드<span>${o?'장비를 사고 캐릭터 키우기 · 💰+💎':'🔒 학습 모드 다크나이트(DK)성 클리어 후 열림'}</span></button></div>`;}
-function bindModeTabs(){document.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>{if(b.dataset.mode==='rpg'&&!rpgOpen())return;SV.mode=b.dataset.mode;saveNow();sfx('select');render();});}
+function bindModeTabs(){document.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>{if(b.dataset.mode==='rpg'&&!rpgOpen())return;SV.mode=b.dataset.mode;G.owDungeon=false;G.owAuto=b.dataset.mode==='story';saveNow();sfx('select');G.reg=null;G.wlist=false;render();});}
 
 function statPanel(){const s=pstats();
  return `<div class="rstat"><div class="rgear">${['sword','armor','shield'].map(t=>`<div class="rgi">${gearc(SV.gear[t])}<small>${GEAR[SV.gear[t]].nm}${t==='sword'&&swL(SV.gear)?' +'+swL(SV.gear):''}</small></div>`).join('')}</div>
@@ -5300,7 +5301,7 @@ function mapImg(c){
   if(c.ghost)return `<button class="wmn gh ${ok?'':'lk'} ${cl?'dn':''}" data-wm="${id}" style="left:${(n[1]/c.W*100).toFixed(2)}%;top:${(n[2]/c.H*100).toFixed(2)}%"><u>${cl?'✅':ok?'▶':'🔒'}</u></button>`;
   return `<button class="wmn ${n[6]?'red':''} ${ok?'':'lk'} ${cl?'dn':''}" data-wm="${id}" style="left:${(n[4]/c.W*100).toFixed(2)}%;top:${((n[5]-26)/c.H*100).toFixed(2)}%"><b>${SPDG.includes(id)?'⭐ ':''}${n[2]}${cl?' ✅':ok?'':' 🔒'}</b><em>${n[3]}</em></button>`;}).join('');
  $('app').innerHTML=hud()+`<div class="card"><div class="speaker">${c.title}</div><div class="story">${c.story}</div>
- ${modeTabs()}${mapExtras()}<div class="dtools"><button class="btn-s" id="wmwalk">🚶 걸어서 탐험</button><button class="btn-s" id="wmlist">📋 목록으로 보기</button><button class="btn-s" id="wmzoom">🔍 ${G.wmz?'작게':'크게'} 보기</button></div>
+ ${modeTabs()}${mapExtras()}<div class="dtools"><button class="btn-s" id="wmlist">📋 목록으로 보기</button><button class="btn-s" id="wmzoom">🔍 ${G.wmz?'작게':'크게'} 보기</button></div>
  <div class="wmw"><div class="wmi ${G.wmz?'big':''}" id="wmi" style="aspect-ratio:${c.W}/${c.H}"><img src="${c.img}" alt="${c.title}" draggable="false">${nodes}</div></div></div>`;
  bindModeTabs();wmSize();setTimeout(wmSize,60);mapBindExtras();
  document.querySelectorAll('[data-wm]').forEach(b=>b.onclick=()=>{sfx('select');wmOpen(b.dataset.wm);});
@@ -5355,13 +5356,34 @@ function regionScreen(k){
   regionScreen(G.reg);};
 })();
 
+/* ---------- 🗺️ 스토리 모드: 필드 걷기 허브 ---------- */
+(function(){const _d=dsel;
+ dsel=function(){
+  if(SV.mode!=='story')return _d();
+  G.rpg=false;
+  $('app').innerHTML=hud()+`<div class="card"><div class="speaker">🗺️ 스토리 모드</div>
+  <div class="story">필드를 걸어 다니며 몬스터와 싸우고, 마을과 던전을 찾아가는 모험 모드입니다. 던전을 클리어하면 <b>🚶 필드로 돌아가기</b>로 이어서 걸을 수 있어요.</div>${modeTabs()}
+  <button class="shopbtn" id="toshop">${petc('mini')}<div><b>🏪 상점</b><span>펫·꾸미기·스킨 · 대장간 · 보유 💎 ${SV.cry}</span></div></button>
+  <div class="dtools"><button class="btn-s" id="wmwalk" style="font-size:20px;padding:14px 22px">🚶 필드로 나가기</button></div></div>`;
+  bindModeTabs();
+  const s=document.getElementById('toshop');if(s)s.onclick=()=>{G.scr='mall';G.toast=null;sfx('select');render();};
+  if(G.owAuto){G.owAuto=false;setTimeout(()=>{if(G.scr==='dsel'&&SV.mode==='story'&&window.chapterOverworld)window.chapterOverworld.open();},0);}
+ };
+ /* 필드에서 들어간 던전: '던전 목록' 버튼을 '필드로 돌아가기'로 */
+ const _r=render;render=function(){const x=_r.apply(this,arguments);
+  try{if(G.owDungeon&&G.scr!=='dsel'&&G.scr!=='battle'){document.querySelectorAll('#app button').forEach(b=>{
+   if(/던전 목록/.test(b.textContent)&&!b.dataset.owb){b.dataset.owb='1';b.textContent='🚶 필드로 돌아가기';
+    b.onclick=e=>{e.preventDefault();e.stopPropagation();G.owDungeon=false;G.owAuto=true;G.clearPaid=false;G.fails=0;G.scr='dsel';render();};}});}}catch(e){}
+  return x;};
+})();
+
 /* ---------- RPG 모드: 신택스 왕국 지도로 보기 ---------- */
 function rpgMapHTML(){const W=worldOpen(),src=W?'worldmap.jpg?v=1':'kingdom.jpg?v=2',alt=W?'세계 지도':'신택스 왕국 지도';
  const nodes=W?WM.filter(n=>RT[n[0]]!=null).map(n=>{const id=n[0],ok=wmUnlocked(id),cl=SV.rcleared.includes(id);
   return `<button class="wmn ${n[6]?'red':''} ${ok?'':'lk'} ${cl?'dn':''}" data-wm="${id}" style="left:${(n[4]/1536*100).toFixed(2)}%;top:${((n[5]-26)/1024*100).toFixed(2)}%"><b>${SPDG.includes(id)?'⭐ ':''}${n[2]}${cl?' ✅':ok?'':' 🔒'}</b><em>${n[3]}</em></button>`;}).join('')
  :KM.map(n=>{const id=n[0],ok=wmUnlocked(id),cl=SV.rcleared.includes(id);
   return `<button class="wmn gh ${ok?'':'lk'} ${cl?'dn':''}" data-wm="${id}" style="left:${(n[1]/1536*100).toFixed(2)}%;top:${(n[2]/1024*100).toFixed(2)}%"><u>${cl?'✅':ok?'▶':'🔒'}</u></button>`;}).join('');
- return `<div class="dtools">${W?'<button class="btn-s" id="wmwalk">🚶 걸어서 탐험</button>':''}<button class="btn-s" id="rmlist">📋 목록으로 보기</button><button class="btn-s" id="wmzoom">🔍 ${G.wmz?'작게':'크게'} 보기</button></div>
+ return `<div class="dtools"><button class="btn-s" id="rmlist">📋 목록으로 보기</button><button class="btn-s" id="wmzoom">🔍 ${G.wmz?'작게':'크게'} 보기</button></div>
  <div class="wmw"><div class="wmi ${G.wmz?'big':''}" id="wmi" style="aspect-ratio:1536/1024"><img src="${src}" alt="${alt}" draggable="false">${nodes}</div></div>`;}
 function rpgMapBind(){wmSize();setTimeout(wmSize,60);
  document.querySelectorAll('[data-wm]').forEach(b=>b.onclick=()=>{sfx('select');wmOpen(b.dataset.wm);});

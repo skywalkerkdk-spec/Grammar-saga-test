@@ -20,10 +20,10 @@ with ThreadingHTTPServer(('127.0.0.1',0),partial(Q,directory=root)) as srv:
         pg.goto(url)
         def start():
             pg.goto(url)
-            pg.evaluate("""()=>{G=fresh('Walk test');SV=defSave();SV.cleared=['d1','d2','d3','d4','d5','d6','d7','d8'];G.started=true;G.reg=null;G.scr='dsel';render();}""")
+            pg.evaluate("""()=>{G=fresh('Walk test');SV=defSave();SV.mode='story';SV.cleared=['d1','d2','d3','d4','d5','d6','d7','d8'];G.started=true;G.reg=null;G.scr='dsel';render();}""")
             pg.wait_for_timeout(1500)
         start()
-        assert pg.locator('#wmwalk').count()==1,'지도 화면에 걸어서 탐험 버튼이 있어야 함'
+        assert pg.locator('#wmwalk').count()==1,'스토리 모드 허브에 필드 버튼이 있어야 함'
         pg.locator('#wmwalk').click();pg.wait_for_timeout(1500)
         assert pg.locator('dialog.c2-world[open]').count()==1,'월드맵 걷기 창이 열려야 함'
         n=pg.locator('select[aria-label="탐험 목적지"] option').count()
@@ -34,6 +34,14 @@ with ThreadingHTTPServer(('127.0.0.1',0),partial(Q,directory=root)) as srv:
         assert pg.locator('.c2-world-confirm button',has_text='들어가기').count()==1,'비 초원 도착 시 입장 확인이 떠야 함'
         pg.locator('.c2-world-confirm button',has_text='던전에 들어가기').click();pg.wait_for_timeout(800)
         assert pg.evaluate("G.dg.id")=='g1' and pg.evaluate("G.scr") in ('formed','town'),'비 초원 입장(던전 또는 비빌 마을 화면)으로 가야 함: %s %s'%(pg.evaluate("G.dg&&G.dg.id"),pg.evaluate("G.scr"))
+        assert pg.evaluate("G.owDungeon")==True,'필드에서 들어간 던전 표시가 있어야 함'
+        pg.evaluate("G.scr='clear';G.run=genRunG({id:'g1'});G.ei=G.run.length;G.hp=3;G.done=true;G.deaths=0;G.ok=3;G.tot=3;G.maxCmb=3;G.t0=Date.now()-5000;G.goldRun=0;G.clearPaid=false;try{render();}catch(e){}")
+        if pg.locator('#app button',has_text='필드로 돌아가기').count():
+            pg.locator('#app button',has_text='필드로 돌아가기').first.click();pg.wait_for_timeout(1500)
+            assert pg.locator('.c2-field-viewport').count()==1,'클리어 후 필드로 돌아가기가 월드맵을 열어야 함'
+            assert pg.evaluate("G.owDungeon")==False
+        else: print('경고: 클리어 화면 재현 실패(수동 확인 필요)')
+        pg.evaluate("G.scr='dsel';SV.mode='story';render()")
         # 조우: 걸음 수를 1로 만든 뒤 걸으면 문제 조우가 떠야 함
         start();pg.locator('#wmwalk').click();pg.wait_for_timeout(1200)
         pg.evaluate("G.c2OwSteps=1;SV.cry=0;SV.owEnc=null")

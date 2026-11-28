@@ -815,7 +815,7 @@
         const d=typeof wmDg==='function'?wmDg(id):null;
         panel.append(node('b',(unlocked?'⚔️ ':'🔒 ')+(d?.name||m.ko||id)));
         if (d?.desc) panel.append(node('span',d.desc.replace(/<[^>]+>/g,'')));
-        if (unlocked) panel.append(button(id==='TEMPLE'?'신전에 들어가기':'던전에 들어가기',()=>{closeDialogueIfOpen();wmEnter(id);}));
+        if (unlocked) panel.append(button(id==='TEMPLE'?'신전에 들어가기':'던전에 들어가기',()=>{closeDialogueIfOpen();G.owDungeon=true;wmEnter(id);}));
         else panel.append(node('span','아직 잠겨 있습니다. 앞 단계의 던전을 먼저 클리어하세요.'));
       }
       panel.append(button('계속 걷기',()=>{panel.replaceChildren();}));
