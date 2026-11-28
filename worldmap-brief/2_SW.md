@@ -1,6 +1,6 @@
-# Panel 2: SOUTH-WEST (REDRAW: Syntaxbury d4 moved next to d1 and d2)
+# Panel 2: SOUTH-WEST (REDRAW: Syntaxbury d4 moved next to d1 and d2; old d4 spot becomes the Merchants' Caravan)
 
-REDRAW NOTE: this panel was drawn before. Draw it again from scratch with ONE change: the market town Syntaxbury (d4) now stands at 800,1130 (between the Quiet Wood d1 and the Slime Cave d2). The old d4 spot at 2087,1166 becomes plain open meadow with NO site. All other sites keep their positions. For d4 only, the rule 'leave at least 700x600 px open between sites' is relaxed: it must be about 450 px from d1 and d2, with a clear walkable meadow path to each. Keep the SOUTH-CENTER seam identical (main road crossing the RIGHT edge at y=1153).
+REDRAW NOTE: this panel was drawn before. Draw it again from scratch with ONE change: the market town Syntaxbury (d4) now stands at 800,1130 (between the Quiet Wood d1 and the Slime Cave d2). The old d4 spot at 2087,1166 now holds a NEW site: the Merchants' Caravan (cv, see the table). All other sites keep their positions (the old Merchants' Row name is retired). For d4 only, the rule 'leave at least 700x600 px open between sites' is relaxed: it must be about 450 px from d1 and d2, with a clear walkable meadow path to each. Keep the SOUTH-CENTER seam identical (main road crossing the RIGHT edge at y=1153).
 
 
 Layout guide image (use it as the placement reference, do NOT draw its text): https://raw.githubusercontent.com/skywalkerkdk-spec/grammar-saga-test/main/worldmap-brief/SW_guide.png
@@ -34,6 +34,7 @@ Sites (center coordinates in px at 3072x2048):
 | d2 | Slime Cave / 슬라임 떼의 동굴 | DUNGEON ICON (~90x90 px) | 1166,819 | Cave mouth in a green hillside, glistening slime puddles |
 | d3 | Golem Canyon / 골렘의 협곡 | DUNGEON ICON (~90x90 px) | 1389,1718 | Narrow red-rock canyon; giant stone golem statue at its mouth |
 | d4 | Syntaxbury / 신택스베리 | TOWN ICON (~110x90 px) | 800,1130 | Small walled market TOWN of the Syntax Kingdom: 4-5 tiny roofs, a striped-awning market corner and a small fountain square behind a low stone wall, ONE open gate on the south side where a side path meets the main road. It sits on a bright meadow between the Quiet Wood (d1) and the Slime Cave (d2), very close to both (about 450 px away), so a beginner can walk from the starting forest to the town and on to the cave. |
+| cv | Merchants' Caravan / 상인의 카라반 | DUNGEON ICON (~90x90 px) | 2087,1166 | A travelling merchants' CARAVAN camp (not a town): 3-4 covered wagons with striped awnings drawn in a small circle, crates, a lantern pole and a tent, right beside the main road on open grass; ONE open gap on the road side. Small and unmistakable, clearly different from the walled town Syntaxbury. |
 | d5 | Alchemist's Workshop / 연금술사의 공방 | DUNGEON ICON (~90x90 px) | 2742,1718 | Tall crooked stone tower with colorful smoking chimneys and glass domes (workshop) |
 | d6 | Dark Knight's Castle / 다크나이트성 | DUNGEON ICON (~90x90 px) | 2742,466 | Black-stone castle on a rocky plateau, drawbridge gate facing SOUTH toward the main road, ominous (locked at first) |
 | d7 | Corrupted Infinitive Temple / 타락한 인피니티브 신전 | DUNGEON ICON (~90x90 px) | 1845,330 | Ruined temple, broken columns, purple corruption mist (locked at first) |
