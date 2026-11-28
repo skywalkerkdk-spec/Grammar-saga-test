@@ -792,7 +792,40 @@
     const toWorld=()=>{closeDialogueIfOpen();overworldField();};
     const body=hubPanel('Syntaxbury · 신택스베리',toWorld);
     body.querySelector('button').textContent='🚶 필드로 돌아가기';
-    fullscreenField(body,'Syntaxbury · 신택스베리',false);
+    // 폐기된 옛 마을(Queston·Perfect Oasis·Pronovia·Nounville)의 주민과 의뢰를 이 마을로 옮겨 왔습니다.
+    const SB_TOWNS=['g2','pf','pn','ng'];
+    const spots=[[20,24],[34,24],[58,24],[76,24],[21,33],[36,33],[60,33],[75,33],[26,28],[68,28],[40,27],[54,36]];
+    const points={...map.points};
+    const folks=[];
+    const place=entry=>{const spot=spots[folks.length];if(!spot)return;points[entry.id]=spot;folks.push(entry);};
+    const back=()=>syntaxburyField();
+    for (const town of SB_TOWNS) {
+      const episode=episodes.get(town);
+      if (!episode) continue;
+      const home=(townFor(episode)||'').split('·').pop().trim();
+      for (const target of residentTargets(episode,i=>`story/maps/villages/${town}-${i}.webp`).slice(0,2))
+        place({...target,id:`sb_${town}_${target.id}`,label:`${target.label} (${home})`,action:()=>townDialogue(episode,episode.residents.find(r=>'npc'+r.index===target.id),target.image)});
+      for (const npc of (chapterWorld?.residentsForTown(town)||[]).slice(0,1)) {
+        const art=atlasFor(npc.id);
+        const image=artFront(art)||extraPortrait(npc.id);
+        place({id:npc.id,label:`${npc.en} · ${npc.ko} (${home})`,caption:npc.name,job:npc.job,image,walk:artWalk(art),
+          action:detail=>chapterWorld.meetResident(npc.id,image,back,!!detail?.guide)});
+      }
+    }
+    const guide=chapterWorld?.guidance();
+    const guideId=guide&&SB_TOWNS.includes(guide.town)&&guide.npcId?(folks.find(f=>f.id===guide.npcId||f.id===`sb_${guide.town}_${guide.npcId}`)?.id):null;
+    if (guideId) {
+      const notice=node('div',undefined,'c2-next-step');
+      notice.append(node('strong',guide.title),node('p',guide.text),button('다음 주민에게 가기',()=>{
+        const select=body.querySelector('select[aria-label="탐험 목적지"]');
+        if (!select) return;
+        select.value=guideId;select.dispatchEvent(new CustomEvent('change',{detail:{guide:true}}));
+      }));
+      body.append(notice);
+    }
+    const hub=episodes.get(SB_TOWNS[0]);
+    if (hub) townFieldActions(body,hub,back);
+    fullscreenField(body,'Syntaxbury · 신택스베리',!!guideId);
     const go=(scr,extra)=>()=>{closeDialogueIfOpen();G.owDungeon=true;G.owAuto=false;G.toast=null;Object.assign(G,{scr},extra||{});sfx('select');render();};
     const targets=[
       {id:'guild',label:'🏛️ 길드 (스토리 모드 허브)',action:go('dsel')},
@@ -804,7 +837,7 @@
       {id:'exit_east',label:'➡️ 동쪽 다리 (필드)',action:toWorld},
     ];
     const positions=G.c2VillagePositions ||= {};
-    window.openChapterField(body,map,isRpgM()?rhero():lhero(),targets,{position:positions.sb,onStep(pos){positions.sb=pos;}});
+    window.openChapterField(body,{...map,points},isRpgM()?rhero():lhero(),[...targets,...folks],{position:positions.sb,onStep(pos){positions.sb=pos;}});
   }
   window.chapterSyntaxbury={open:syntaxburyField};
 
