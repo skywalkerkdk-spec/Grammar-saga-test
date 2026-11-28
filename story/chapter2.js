@@ -820,7 +820,7 @@
       }
       return best;
     };
-    const encounterDistance=()=>70+Math.floor(Math.random()*60);
+    const encounterDistance=()=>8+Math.floor(Math.random()*7);
     function encounter(at) {
       const id=nearestPool(at);
       if (!id) return false;

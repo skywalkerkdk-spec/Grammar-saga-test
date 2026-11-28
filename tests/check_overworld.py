@@ -29,14 +29,15 @@ with ThreadingHTTPServer(('127.0.0.1',0),partial(Q,directory=root)) as srv:
         n=pg.locator('select[aria-label="탐험 목적지"] option').count()
         assert n>=47,'장소 47곳이 선택 목록에 있어야 함: %d'%n
         if shot:pg.screenshot(path=shot)
-        pg.locator('select[aria-label="탐험 목적지"]').select_option(label='비 초원');pg.wait_for_timeout(30000)
+        pg.evaluate("G.c2OwSteps=99999")
+        pg.locator('select[aria-label="탐험 목적지"]').select_option(label='비 초원');pg.wait_for_selector('.c2-world-confirm button',timeout=200000)
         assert pg.locator('.c2-world-confirm button',has_text='들어가기').count()==1,'비 초원 도착 시 입장 확인이 떠야 함'
         pg.locator('.c2-world-confirm button',has_text='던전에 들어가기').click();pg.wait_for_timeout(800)
         assert pg.evaluate("G.dg.id")=='g1' and pg.evaluate("G.scr") in ('formed','town'),'비 초원 입장(던전 또는 비빌 마을 화면)으로 가야 함: %s %s'%(pg.evaluate("G.dg&&G.dg.id"),pg.evaluate("G.scr"))
         # 조우: 걸음 수를 1로 만든 뒤 걸으면 문제 조우가 떠야 함
         start();pg.locator('#wmwalk').click();pg.wait_for_timeout(1200)
         pg.evaluate("G.c2OwSteps=1;SV.cry=0;SV.owEnc=null")
-        pg.locator('select[aria-label="탐험 목적지"]').select_option(label='골렘의 협곡');pg.wait_for_timeout(15000)
+        pg.locator('select[aria-label="탐험 목적지"]').select_option(label='골렘의 협곡');pg.wait_for_selector('.c2-world-confirm[data-answer]',timeout=60000)
         ans=pg.evaluate("document.querySelector('.c2-world-confirm')?.dataset.answer||''")
         assert ans,'걷다 보면 몬스터 조우(문제)가 떠야 함'
         if shot:pg.screenshot(path=shot.replace('.png','_enc.png'))
