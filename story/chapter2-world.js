@@ -72,7 +72,7 @@ window.createChapterWorld = function(api, data) {
     }
     events.push({id:event.id,title:settings.title||[event.title_en,event.title_ko].filter(Boolean).join(' · '),
       stages,after:event.aftermath,finish:event.completion_flag||settings.finish||event.id+'_complete',
-      requires:settings.requires||(()=>true),souvenir:settings.souvenir,reward_item:event.reward_item,group:settings.group||'마을'});
+      requires:(settings.group==='의뢰'||!stages.every(stage=>stage.town==='g2'))?(settings.requires||(()=>true)):(()=>false),  /* 퀘스턴 옛 이벤트는 숨기고 신택스베리의 개선형 의뢰만 씁니다 */souvenir:settings.souvenir,reward_item:event.reward_item,group:settings.group||'마을'});
   }
   for(const town of data.TOWN_EVENTS.towns) for(const event of town.events) {
     const souvenir=event.reward?.type==='collection_flag'?{id:event.id,ko:event.reward.name_ko}:null;
