@@ -1,0 +1,1674 @@
+{
+ "version": "0.1",
+ "status": "pilot",
+ "quests": [
+  {
+   "id": "sb_route_question_menu",
+   "town_id": "sb",
+   "title_en": "The Menu of Questions",
+   "title_ko": "질문 메뉴판",
+   "completion_flag": "sb_route_question_menu_complete",
+   "reward_item": {
+    "stone": 1
+   },
+   "steps": [
+    {
+     "action": "accept",
+     "npc": "g2_extra_5",
+     "lines": [
+      {
+       "speaker": "Narrator",
+       "en": "Waiter Basil stands in the square, holding an empty menu stand.",
+       "ko": "웨이터 바질이 광장에서 빈 메뉴판 거치대를 들고 서 있다.",
+       "chunks": [
+        {
+         "en": "Waiter Basil stands in the square, holding an empty menu stand.",
+         "ko": "웨이터 바질이 광장에서 빈 메뉴판 거치대를 들고 서 있다."
+        }
+       ],
+       "direct_chunks": [
+        {
+         "en": "Waiter Basil stands in the square, holding an empty menu stand.",
+         "ko": "웨이터 바질이 광장에서 빈 메뉴판 거치대를 들고 서 있다."
+        }
+       ]
+      },
+      {
+       "speaker": "g2_extra_5",
+       "en": "Our menu is gone! At Queston, we never took orders without questions. Here in Syntaxbury, no one knows what to ask.",
+       "ko": "메뉴판이 사라졌어요! 퀘스턴에서는 질문 없이는 주문을 받지 않았거든요. 여기 신택스베리에서는 아무도 뭘 물어야 할지 몰라요.",
+       "chunks": [
+        {
+         "en": "Our menu is gone! At Queston, we never took orders without questions. Here in Syntaxbury, no one knows what to ask.",
+         "ko": "메뉴판이 사라졌어요! 퀘스턴에서는 질문 없이는 주문을 받지 않았거든요. 여기 신택스베리에서는 아무도 뭘 물어야 할지 몰라요."
+        }
+       ],
+       "direct_chunks": [
+        {
+         "en": "Our menu is gone! At Queston, we never took orders without questions.",
+         "ko": "메뉴판이 사라졌어요! 퀘스턴에서는 질문 없이는 주문을 받지 않았거든요."
+        },
+        {
+         "en": "Here in Syntaxbury, no one knows what to ask.",
+         "ko": "여기 신택스베리에서는 아무도 뭘 물어야 할지 몰라요."
+        }
+       ]
+      },
+      {
+       "speaker": "g2_extra_5",
+       "en": "A tiny shadow ran west along the old kingdom road with it. Please bring my menu back!",
+       "ko": "작은 그림자가 그것을 들고 서쪽 옛 왕국 길로 달아났어요. 제 메뉴판을 되찾아 주세요!",
+       "chunks": [
+        {
+         "en": "A tiny shadow ran west along the old kingdom road with it. Please bring my menu back!",
+         "ko": "작은 그림자가 그것을 들고 서쪽 옛 왕국 길로 달아났어요. 제 메뉴판을 되찾아 주세요!"
+        }
+       ],
+       "direct_chunks": [
+        {
+         "en": "A tiny shadow ran west along the old kingdom road with it.",
+         "ko": "작은 그림자가 그것을 들고 서쪽 옛 왕국 길로 달아났어요."
+        },
+        {
+         "en": "Please bring my menu back!",
+         "ko": "제 메뉴판을 되찾아 주세요!"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "action": "route",
+     "town": "sb",
+     "route": {
+      "id": "sb_route_question_menu_road",
+      "map": "sj_west",
+      "exit": "exit_west",
+      "label": "서쪽 옛 왕국 길",
+      "clue": {
+       "label": "찢어진 메뉴 조각",
+       "lines": [
+        {
+         "speaker": "Narrator",
+         "en": "Under a signpost, you find a torn corner of the menu.",
+         "ko": "표지판 아래에서 찢어진 메뉴 모서리를 발견한다.",
+         "chunks": [
+          {
+           "en": "Under a signpost, you find a torn corner of the menu.",
+           "ko": "표지판 아래에서 찢어진 메뉴 모서리를 발견한다."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "Under a signpost, you find a torn corner of the menu.",
+           "ko": "표지판 아래에서 찢어진 메뉴 모서리를 발견한다."
+          }
+         ]
+        },
+        {
+         "speaker": "Narrator",
+         "en": "It says: \"Ask the right question, and the dish is yours.\"",
+         "ko": "이렇게 적혀 있다. \"알맞게 물으면 요리는 네 것.\"",
+         "chunks": [
+          {
+           "en": "It says: \"Ask the right question, and the dish is yours.\"",
+           "ko": "이렇게 적혀 있다. \"알맞게 물으면 요리는 네 것.\""
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "It says: \"Ask the right question, and the dish is yours.\"",
+           "ko": "이렇게 적혀 있다. \"알맞게 물으면 요리는 네 것.\""
+          }
+         ]
+        }
+       ]
+      },
+      "monster": {
+       "label": "물음표 요정",
+       "name_en": "Question Sprite",
+       "name_ko": "물음표 요정",
+       "lines": [
+        {
+         "speaker": "Narrator",
+         "en": "A curly little sprite hops out, hugging the menu.",
+         "ko": "곱슬곱슬한 작은 요정이 메뉴판을 끌어안고 튀어나온다.",
+         "chunks": [
+          {
+           "en": "A curly little sprite hops out, hugging the menu.",
+           "ko": "곱슬곱슬한 작은 요정이 메뉴판을 끌어안고 튀어나온다."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "A curly little sprite hops out, hugging the menu.",
+           "ko": "곱슬곱슬한 작은 요정이 메뉴판을 끌어안고 튀어나온다."
+          }
+         ]
+        },
+        {
+         "speaker": "Question Sprite",
+         "en": "I only answer questions! Ask correctly three times, and I will return it.",
+         "ko": "나는 질문에만 답해! 세 번 제대로 물으면 돌려줄게.",
+         "chunks": [
+          {
+           "en": "I only answer questions! Ask correctly three times, and I will return it.",
+           "ko": "나는 질문에만 답해! 세 번 제대로 물으면 돌려줄게."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "I only answer questions! Ask correctly three times, and I will return it.",
+           "ko": "나는 질문에만 답해! 세 번 제대로 물으면 돌려줄게."
+          }
+         ],
+         "speaker_en": "Question Sprite",
+         "speaker_ko": "물음표 요정"
+        }
+       ],
+       "questions": [
+        {
+         "question_en": "___ do you live? — I live in Syntaxbury.",
+         "question_ko": "___ 사세요? — 신택스베리에 살아요.",
+         "options": [
+          "Where",
+          "Who",
+          "When"
+         ],
+         "correct_index": 0,
+         "feedback_ko": "장소를 물을 때는 where를 써요.",
+         "question_chunks": [
+          {
+           "en": "___ do you live?",
+           "ko": "___ 사세요?"
+          },
+          {
+           "en": "I live in Syntaxbury.",
+           "ko": "신택스베리에 살아요."
+          }
+         ]
+        },
+        {
+         "question_en": "___ she like fish?",
+         "question_ko": "그녀는 생선을 좋아___?",
+         "options": [
+          "Does",
+          "Do",
+          "Is"
+         ],
+         "correct_index": 0,
+         "feedback_ko": "주어가 she이면 does를 써요.",
+         "question_chunks": [
+          {
+           "en": "___ she like fish?",
+           "ko": "그녀는 생선을 좋아___?"
+          }
+         ]
+        },
+        {
+         "question_en": "What ___ you eat yesterday?",
+         "question_ko": "어제 뭘 먹___?",
+         "options": [
+          "did",
+          "do",
+          "does"
+         ],
+         "correct_index": 0,
+         "feedback_ko": "과거 시제 의문문은 did를 써요.",
+         "question_chunks": [
+          {
+           "en": "What ___ you eat",
+           "ko": "뭘 먹___"
+          },
+          {
+           "en": "yesterday?",
+           "ko": "어제?"
+          }
+         ]
+        }
+       ],
+       "win": [
+        {
+         "speaker": "Question Sprite",
+         "en": "Three good questions! Here, take the menu. It was lonely without them.",
+         "ko": "좋은 질문 세 개네! 자, 메뉴판 가져가. 질문이 없어서 외로웠어.",
+         "chunks": [
+          {
+           "en": "Three good questions! Here, take the menu. It was lonely without them.",
+           "ko": "좋은 질문 세 개네! 자, 메뉴판 가져가. 질문이 없어서 외로웠어."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "Three good questions! Here, take the menu. It was lonely without them.",
+           "ko": "좋은 질문 세 개네! 자, 메뉴판 가져가. 질문이 없어서 외로웠어."
+          }
+         ],
+         "speaker_en": "Question Sprite",
+         "speaker_ko": "물음표 요정"
+        }
+       ]
+      }
+     },
+     "lines": [
+      {
+       "speaker": "Narrator",
+       "en": "You leave Syntaxbury by the old kingdom road.",
+       "ko": "당신은 옛 왕국 길을 따라 신택스베리를 나선다.",
+       "chunks": [
+        {
+         "en": "You leave Syntaxbury by the old kingdom road.",
+         "ko": "당신은 옛 왕국 길을 따라 신택스베리를 나선다."
+        }
+       ],
+       "direct_chunks": [
+        {
+         "en": "You leave Syntaxbury by the old kingdom road.",
+         "ko": "당신은 옛 왕국 길을 따라 신택스베리를 나선다."
+        }
+       ]
+      },
+      {
+       "speaker": "Subject",
+       "en": "Let us find the menu. A sprite cannot hide forever.",
+       "ko": "메뉴판을 찾자. 요정이 영원히 숨어 있을 수는 없어.",
+       "chunks": [
+        {
+         "en": "Let us find the menu. A sprite cannot hide forever.",
+         "ko": "메뉴판을 찾자. 요정이 영원히 숨어 있을 수는 없어."
+        }
+       ],
+       "direct_chunks": [
+        {
+         "en": "Let us find the menu. A sprite cannot hide forever.",
+         "ko": "메뉴판을 찾자. 요정이 영원히 숨어 있을 수는 없어."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "action": "report",
+     "npc": "g2_extra_5",
+     "lines": [
+      {
+       "speaker": "g2_extra_5",
+       "en": "My menu! Every dish has a question again. Thank you. Now Syntaxbury can order properly.",
+       "ko": "제 메뉴판이에요! 요리마다 다시 질문이 붙었네요. 고마워요. 이제 신택스베리 사람들도 제대로 주문할 수 있겠어요.",
+       "chunks": [
+        {
+         "en": "My menu! Every dish has a question again. Thank you. Now Syntaxbury can order properly.",
+         "ko": "제 메뉴판이에요! 요리마다 다시 질문이 붙었네요. 고마워요. 이제 신택스베리 사람들도 제대로 주문할 수 있겠어요."
+        }
+       ],
+       "direct_chunks": [
+        {
+         "en": "My menu! Every dish has a question again.",
+         "ko": "제 메뉴판이에요! 요리마다 다시 질문이 붙었네요."
+        },
+        {
+         "en": "Thank you. Now Syntaxbury can order properly.",
+         "ko": "고마워요. 이제 신택스베리 사람들도 제대로 주문할 수 있겠어요."
+        }
+       ]
+      },
+      {
+       "speaker": "g2_extra_5",
+       "en": "The sprite wants a seat at the first table. What should I say?",
+       "ko": "요정이 첫 번째 테이블에 앉고 싶다고 하네요. 뭐라고 할까요?",
+       "chunks": [
+        {
+         "en": "The sprite wants a seat at the first table. What should I say?",
+         "ko": "요정이 첫 번째 테이블에 앉고 싶다고 하네요. 뭐라고 할까요?"
+        }
+       ],
+       "direct_chunks": [
+        {
+         "en": "The sprite wants a seat at the first table.",
+         "ko": "요정이 첫 번째 테이블에 앉고 싶다고 하네요."
+        },
+        {
+         "en": "What should I say?",
+         "ko": "뭐라고 할까요?"
+        }
+       ]
+      }
+     ],
+     "task": {
+      "question_en": "What should Basil say to the sprite?",
+      "question_ko": "바질은 요정에게 뭐라고 해야 할까요?",
+      "options": [
+       "Come and eat with us.",
+       "Sit, but ask politely.",
+       "Come back next week."
+      ],
+      "correct_index": 0,
+      "choice": true,
+      "flag": "sb_q_menu",
+      "reactions": [
+       [
+        {
+         "speaker": "g2_extra_5",
+         "en": "A warm answer. The first dish is on the house.",
+         "ko": "따뜻한 답이네요. 첫 요리는 서비스예요.",
+         "chunks": [
+          {
+           "en": "A warm answer. The first dish is on the house.",
+           "ko": "따뜻한 답이네요. 첫 요리는 서비스예요."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "A warm answer. The first dish is on the house.",
+           "ko": "따뜻한 답이네요. 첫 요리는 서비스예요."
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "speaker": "g2_extra_5",
+         "en": "Good manners. We can all learn from that.",
+         "ko": "좋은 예절이에요. 우리 모두 배울 점이네요.",
+         "chunks": [
+          {
+           "en": "Good manners. We can all learn from that.",
+           "ko": "좋은 예절이에요. 우리 모두 배울 점이네요."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "Good manners. We can all learn from that.",
+           "ko": "좋은 예절이에요. 우리 모두 배울 점이네요."
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "speaker": "g2_extra_5",
+         "en": "A fair answer. We will save a table.",
+         "ko": "공정한 답이네요. 자리를 맡아 둘게요.",
+         "chunks": [
+          {
+           "en": "A fair answer. We will save a table.",
+           "ko": "공정한 답이네요. 자리를 맡아 둘게요."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "A fair answer. We will save a table.",
+           "ko": "공정한 답이네요. 자리를 맡아 둘게요."
+          }
+         ]
+        }
+       ]
+      ],
+      "question_chunks": [
+       {
+        "en": "What should Basil say",
+        "ko": "바질은 뭐라고 해야 할까요"
+       },
+       {
+        "en": "to the sprite?",
+        "ko": "요정에게?"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "sb_route_ten_year_letter",
+   "town_id": "sb",
+   "title_en": "The Ten-Year Letter",
+   "title_ko": "십 년 만의 편지",
+   "completion_flag": "sb_route_ten_year_letter_complete",
+   "reward_item": {
+    "stone": 1
+   },
+   "steps": [
+    {
+     "action": "accept",
+     "npc": "pf_extra_5",
+     "lines": [
+      {
+       "speaker": "Narrator",
+       "en": "Letter Keeper Seal holds a sealed letter that looks very old.",
+       "ko": "편지지기 실이 아주 오래돼 보이는 봉인된 편지를 들고 있다.",
+       "chunks": [
+        {
+         "en": "Letter Keeper Seal holds a sealed letter that looks very old.",
+         "ko": "편지지기 실이 아주 오래돼 보이는 봉인된 편지를 들고 있다."
+        }
+       ],
+       "direct_chunks": [
+        {
+         "en": "Letter Keeper Seal holds a sealed letter that looks very old.",
+         "ko": "편지지기 실이 아주 오래돼 보이는 봉인된 편지를 들고 있다."
+        }
+       ]
+      },
+      {
+       "speaker": "pf_extra_5",
+       "en": "This letter has waited ten years to be delivered. Today it flew out of my hands.",
+       "ko": "이 편지는 십 년 동안 배달을 기다렸어요. 오늘 제 손에서 날아가 버렸지요.",
+       "chunks": [
+        {
+         "en": "This letter has waited ten years to be delivered. Today it flew out of my hands.",
+         "ko": "이 편지는 십 년 동안 배달을 기다렸어요. 오늘 제 손에서 날아가 버렸지요."
+        }
+       ],
+       "direct_chunks": [
+        {
+         "en": "This letter has waited ten years to be delivered.",
+         "ko": "이 편지는 십 년 동안 배달을 기다렸어요."
+        },
+        {
+         "en": "Today it flew out of my hands.",
+         "ko": "오늘 제 손에서 날아가 버렸지요."
+        }
+       ]
+      },
+      {
+       "speaker": "pf_extra_5",
+       "en": "The wind took it across the river bridge to the east. Please find it before it gets wet!",
+       "ko": "바람이 그것을 동쪽 강 다리 너머로 데려갔어요. 젖기 전에 찾아 주세요!",
+       "chunks": [
+        {
+         "en": "The wind took it across the river bridge to the east. Please find it before it gets wet!",
+         "ko": "바람이 그것을 동쪽 강 다리 너머로 데려갔어요. 젖기 전에 찾아 주세요!"
+        }
+       ],
+       "direct_chunks": [
+        {
+         "en": "The wind took it across the river bridge to the east.",
+         "ko": "바람이 그것을 동쪽 강 다리 너머로 데려갔어요."
+        },
+        {
+         "en": "Please find it before it gets wet!",
+         "ko": "젖기 전에 찾아 주세요!"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "action": "route",
+     "town": "sb",
+     "route": {
+      "id": "sb_route_ten_year_letter_road",
+      "map": "sj_west",
+      "exit": "exit_east",
+      "label": "동쪽 다리",
+      "clue": {
+       "label": "밀랍 도장 자국",
+       "lines": [
+        {
+         "speaker": "Narrator",
+         "en": "On the bridge railing, you find a drop of red sealing wax.",
+         "ko": "다리 난간에서 붉은 봉랍 한 방울을 발견한다.",
+         "chunks": [
+          {
+           "en": "On the bridge railing, you find a drop of red sealing wax.",
+           "ko": "다리 난간에서 붉은 봉랍 한 방울을 발견한다."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "On the bridge railing, you find a drop of red sealing wax.",
+           "ko": "다리 난간에서 붉은 봉랍 한 방울을 발견한다."
+          }
+         ]
+        },
+        {
+         "speaker": "Narrator",
+         "en": "A trail of wax spots leads down to the riverbank.",
+         "ko": "봉랍 자국이 강둑까지 이어져 있다.",
+         "chunks": [
+          {
+           "en": "A trail of wax spots leads down to the riverbank.",
+           "ko": "봉랍 자국이 강둑까지 이어져 있다."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "A trail of wax spots leads down to the riverbank.",
+           "ko": "봉랍 자국이 강둑까지 이어져 있다."
+          }
+         ]
+        }
+       ]
+      },
+      "monster": {
+       "label": "바람 우체부",
+       "name_en": "Gust the Courier",
+       "name_ko": "바람 우체부 거스트",
+       "lines": [
+        {
+         "speaker": "Narrator",
+         "en": "A swirl of wind spins into a tiny courier with the letter on his hat.",
+         "ko": "바람이 소용돌이치며 모자에 편지를 얹은 작은 우체부가 된다.",
+         "chunks": [
+          {
+           "en": "A swirl of wind spins into a tiny courier with the letter on his hat.",
+           "ko": "바람이 소용돌이치며 모자에 편지를 얹은 작은 우체부가 된다."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "A swirl of wind spins into a tiny courier with the letter on his hat.",
+           "ko": "바람이 소용돌이치며 모자에 편지를 얹은 작은 우체부가 된다."
+          }
+         ]
+        },
+        {
+         "speaker": "Gust the Courier",
+         "en": "I have never lost a letter! Answer three questions, and you may have it.",
+         "ko": "나는 편지를 잃어버린 적이 없어! 질문 세 개에 답하면 가져가도 좋아.",
+         "chunks": [
+          {
+           "en": "I have never lost a letter! Answer three questions, and you may have it.",
+           "ko": "나는 편지를 잃어버린 적이 없어! 질문 세 개에 답하면 가져가도 좋아."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "I have never lost a letter! Answer three questions, and you may have it.",
+           "ko": "나는 편지를 잃어버린 적이 없어! 질문 세 개에 답하면 가져가도 좋아."
+          }
+         ],
+         "speaker_en": "Gust the Courier",
+         "speaker_ko": "바람 우체부 거스트"
+        }
+       ],
+       "questions": [
+        {
+         "question_en": "I ___ lived here for ten years.",
+         "question_ko": "나는 여기서 십 년째 살___.",
+         "options": [
+          "have",
+          "has",
+          "had"
+         ],
+         "correct_index": 0,
+         "feedback_ko": "주어가 I이면 have + 과거분사(현재완료)를 써요.",
+         "question_chunks": [
+          {
+           "en": "I ___ lived here",
+           "ko": "나는 여기서 살___"
+          },
+          {
+           "en": "for ten years.",
+           "ko": "십 년째."
+          }
+         ]
+        },
+        {
+         "question_en": "She has ___ finished her letter.",
+         "question_ko": "그녀는 ___ 편지를 다 썼어요.",
+         "options": [
+          "already",
+          "yesterday",
+          "last year"
+         ],
+         "correct_index": 0,
+         "feedback_ko": "현재완료에는 already를 쓸 수 있지만 yesterday나 last year는 쓰지 않아요.",
+         "question_chunks": [
+          {
+           "en": "She has ___ finished",
+           "ko": "그녀는 ___ 다 썼어요"
+          },
+          {
+           "en": "her letter.",
+           "ko": "편지를."
+          }
+         ]
+        },
+        {
+         "question_en": "___ you ever seen a river at night?",
+         "question_ko": "밤의 강을 본 적이 ___?",
+         "options": [
+          "Have",
+          "Did",
+          "Are"
+         ],
+         "correct_index": 0,
+         "feedback_ko": "경험을 물을 때는 Have you ever + 과거분사를 써요.",
+         "question_chunks": [
+          {
+           "en": "___ you ever seen",
+           "ko": "본 적이 ___"
+          },
+          {
+           "en": "a river at night?",
+           "ko": "밤의 강을?"
+          }
+         ]
+        }
+       ],
+       "win": [
+        {
+         "speaker": "Gust the Courier",
+         "en": "Not one mistake. Take the letter. It is lighter than ten years.",
+         "ko": "하나도 안 틀렸네. 편지를 가져가. 십 년보다 가볍잖아.",
+         "chunks": [
+          {
+           "en": "Not one mistake. Take the letter. It is lighter than ten years.",
+           "ko": "하나도 안 틀렸네. 편지를 가져가. 십 년보다 가볍잖아."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "Not one mistake. Take the letter. It is lighter than ten years.",
+           "ko": "하나도 안 틀렸네. 편지를 가져가. 십 년보다 가볍잖아."
+          }
+         ],
+         "speaker_en": "Gust the Courier",
+         "speaker_ko": "바람 우체부 거스트"
+        }
+       ]
+      }
+     },
+     "lines": [
+      {
+       "speaker": "Narrator",
+       "en": "You cross the east bridge as the wind pulls at your sleeves.",
+       "ko": "바람이 소매를 잡아당기는 가운데 동쪽 다리를 건넌다.",
+       "chunks": [
+        {
+         "en": "You cross the east bridge as the wind pulls at your sleeves.",
+         "ko": "바람이 소매를 잡아당기는 가운데 동쪽 다리를 건넌다."
+        }
+       ],
+       "direct_chunks": [
+        {
+         "en": "You cross the east bridge as the wind pulls at your sleeves.",
+         "ko": "바람이 소매를 잡아당기는 가운데 동쪽 다리를 건넌다."
+        }
+       ]
+      },
+      {
+       "speaker": "Subject",
+       "en": "The letter has waited ten years. We can find it today.",
+       "ko": "편지는 십 년을 기다렸어. 오늘은 찾을 수 있을 거야.",
+       "chunks": [
+        {
+         "en": "The letter has waited ten years. We can find it today.",
+         "ko": "편지는 십 년을 기다렸어. 오늘은 찾을 수 있을 거야."
+        }
+       ],
+       "direct_chunks": [
+        {
+         "en": "The letter has waited ten years. We can find it today.",
+         "ko": "편지는 십 년을 기다렸어. 오늘은 찾을 수 있을 거야."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "action": "report",
+     "npc": "pf_extra_5",
+     "lines": [
+      {
+       "speaker": "pf_extra_5",
+       "en": "The letter is dry! It has traveled so far to reach us. Look, the name has not faded.",
+       "ko": "편지가 말라 있네요! 우리에게 오려고 이렇게 멀리 왔군요. 보세요, 이름이 지워지지 않았어요.",
+       "chunks": [
+        {
+         "en": "The letter is dry! It has traveled so far to reach us. Look, the name has not faded.",
+         "ko": "편지가 말라 있네요! 우리에게 오려고 이렇게 멀리 왔군요. 보세요, 이름이 지워지지 않았어요."
+        }
+       ],
+       "direct_chunks": [
+        {
+         "en": "The letter is dry! It has traveled so far to reach us.",
+         "ko": "편지가 말라 있네요! 우리에게 오려고 이렇게 멀리 왔군요."
+        },
+        {
+         "en": "Look, the name has not faded.",
+         "ko": "보세요, 이름이 지워지지 않았어요."
+        }
+       ]
+      },
+      {
+       "speaker": "pf_extra_5",
+       "en": "It is addressed to someone who left the Oasis long ago. Who should read it first?",
+       "ko": "오아시스를 오래전에 떠난 사람 앞으로 온 편지예요. 누가 먼저 읽어야 할까요?",
+       "chunks": [
+        {
+         "en": "It is addressed to someone who left the Oasis long ago. Who should read it first?",
+         "ko": "오아시스를 오래전에 떠난 사람 앞으로 온 편지예요. 누가 먼저 읽어야 할까요?"
+        }
+       ],
+       "direct_chunks": [
+        {
+         "en": "It is addressed to someone who left the Oasis long ago.",
+         "ko": "오아시스를 오래전에 떠난 사람 앞으로 온 편지예요."
+        },
+        {
+         "en": "Who should read it first?",
+         "ko": "누가 먼저 읽어야 할까요?"
+        }
+       ]
+      }
+     ],
+     "task": {
+      "question_en": "Who should read the letter first?",
+      "question_ko": "편지를 누가 먼저 읽어야 할까요?",
+      "options": [
+       "Deliver it to its owner.",
+       "Read it aloud at the bridge.",
+       "Keep it sealed for now."
+      ],
+      "correct_index": 0,
+      "choice": true,
+      "flag": "sb_pf_letter",
+      "reactions": [
+       [
+        {
+         "speaker": "pf_extra_5",
+         "en": "Right. A letter belongs to the one it was written for.",
+         "ko": "맞아요. 편지는 받을 사람의 것이에요.",
+         "chunks": [
+          {
+           "en": "Right. A letter belongs to the one it was written for.",
+           "ko": "맞아요. 편지는 받을 사람의 것이에요."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "Right. A letter belongs to the one it was written for.",
+           "ko": "맞아요. 편지는 받을 사람의 것이에요."
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "speaker": "pf_extra_5",
+         "en": "Then the whole market will hear ten years of waiting.",
+         "ko": "그러면 시장 전체가 십 년의 기다림을 듣겠네요.",
+         "chunks": [
+          {
+           "en": "Then the whole market will hear ten years of waiting.",
+           "ko": "그러면 시장 전체가 십 년의 기다림을 듣겠네요."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "Then the whole market will hear ten years of waiting.",
+           "ko": "그러면 시장 전체가 십 년의 기다림을 듣겠네요."
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "speaker": "pf_extra_5",
+         "en": "Patience suits an old letter. I will keep it safe.",
+         "ko": "오래된 편지에는 인내가 어울려요. 잘 보관할게요.",
+         "chunks": [
+          {
+           "en": "Patience suits an old letter. I will keep it safe.",
+           "ko": "오래된 편지에는 인내가 어울려요. 잘 보관할게요."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "Patience suits an old letter. I will keep it safe.",
+           "ko": "오래된 편지에는 인내가 어울려요. 잘 보관할게요."
+          }
+         ]
+        }
+       ]
+      ],
+      "question_chunks": [
+       {
+        "en": "Who should read",
+        "ko": "누가 읽어야 할까요"
+       },
+       {
+        "en": "the letter first?",
+        "ko": "편지를 먼저?"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "sb_route_whose_treasure",
+   "town_id": "sb",
+   "title_en": "Whose Treasure Is It?",
+   "title_ko": "이건 누구 보물일까?",
+   "completion_flag": "sb_route_whose_treasure_complete",
+   "reward_item": {
+    "stone": 1
+   },
+   "steps": [
+    {
+     "action": "accept",
+     "npc": "pn_extra_5",
+     "lines": [
+      {
+       "speaker": "Narrator",
+       "en": "Clerk Tag stares at an empty lost-property shelf.",
+       "ko": "분실물 담당 태그가 텅 빈 분실물 선반을 바라본다.",
+       "chunks": [
+        {
+         "en": "Clerk Tag stares at an empty lost-property shelf.",
+         "ko": "분실물 담당 태그가 텅 빈 분실물 선반을 바라본다."
+        }
+       ],
+       "direct_chunks": [
+        {
+         "en": "Clerk Tag stares at an empty lost-property shelf.",
+         "ko": "분실물 담당 태그가 텅 빈 분실물 선반을 바라본다."
+        }
+       ]
+      },
+      {
+       "speaker": "pn_extra_5",
+       "en": "Everything is gone: the keys, the scarf, the umbrella and the ring. A magpie mixed up every name tag.",
+       "ko": "전부 사라졌어요. 열쇠, 목도리, 우산, 반지까지요. 까치가 이름표를 전부 뒤섞어 놓았어요.",
+       "chunks": [
+        {
+         "en": "Everything is gone: the keys, the scarf, the umbrella and the ring. A magpie mixed up every name tag.",
+         "ko": "전부 사라졌어요. 열쇠, 목도리, 우산, 반지까지요. 까치가 이름표를 전부 뒤섞어 놓았어요."
+        }
+       ],
+       "direct_chunks": [
+        {
+         "en": "Everything is gone: the keys, the scarf, the umbrella and the ring.",
+         "ko": "전부 사라졌어요. 열쇠, 목도리, 우산, 반지까지요."
+        },
+        {
+         "en": "A magpie mixed up every name tag.",
+         "ko": "까치가 이름표를 전부 뒤섞어 놓았어요."
+        }
+       ]
+      },
+      {
+       "speaker": "pn_extra_5",
+       "en": "It flew out through the south gate with a shiny key. Please bring everything back!",
+       "ko": "까치는 반짝이는 열쇠를 물고 남쪽 문으로 나갔어요. 전부 되찾아 주세요!",
+       "chunks": [
+        {
+         "en": "It flew out through the south gate with a shiny key. Please bring everything back!",
+         "ko": "까치는 반짝이는 열쇠를 물고 남쪽 문으로 나갔어요. 전부 되찾아 주세요!"
+        }
+       ],
+       "direct_chunks": [
+        {
+         "en": "It flew out through the south gate with a shiny key.",
+         "ko": "까치는 반짝이는 열쇠를 물고 남쪽 문으로 나갔어요."
+        },
+        {
+         "en": "Please bring everything back!",
+         "ko": "전부 되찾아 주세요!"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "action": "route",
+     "town": "sb",
+     "route": {
+      "id": "sb_route_whose_treasure_road",
+      "map": "sj_west",
+      "exit": "exit_south",
+      "label": "남쪽 문",
+      "clue": {
+       "label": "흩어진 이름표",
+       "lines": [
+        {
+         "speaker": "Narrator",
+         "en": "Name tags lie scattered across the grass outside the gate.",
+         "ko": "문밖 풀밭에 이름표들이 흩어져 있다.",
+         "chunks": [
+          {
+           "en": "Name tags lie scattered across the grass outside the gate.",
+           "ko": "문밖 풀밭에 이름표들이 흩어져 있다."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "Name tags lie scattered across the grass outside the gate.",
+           "ko": "문밖 풀밭에 이름표들이 흩어져 있다."
+          }
+         ]
+        },
+        {
+         "speaker": "Narrator",
+         "en": "One tag says \"mine\", another says \"yours\", and none match.",
+         "ko": "하나는 \"내 것\", 다른 하나는 \"네 것\"이라고 적혀 있지만 맞는 것이 없다.",
+         "chunks": [
+          {
+           "en": "One tag says \"mine\", another says \"yours\", and none match.",
+           "ko": "하나는 \"내 것\", 다른 하나는 \"네 것\"이라고 적혀 있지만 맞는 것이 없다."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "One tag says \"mine\", another says \"yours\", and none match.",
+           "ko": "하나는 \"내 것\", 다른 하나는 \"네 것\"이라고 적혀 있지만 맞는 것이 없다."
+          }
+         ]
+        }
+       ]
+      },
+      "monster": {
+       "label": "헷갈린 까치",
+       "name_en": "Mix-up Magpie",
+       "name_ko": "헷갈린 까치",
+       "lines": [
+        {
+         "speaker": "Narrator",
+         "en": "A magpie lands on a fence post, its nest full of shiny things.",
+         "ko": "까치가 울타리 기둥에 내려앉는다. 둥지에는 반짝이는 것이 가득하다.",
+         "chunks": [
+          {
+           "en": "A magpie lands on a fence post, its nest full of shiny things.",
+           "ko": "까치가 울타리 기둥에 내려앉는다. 둥지에는 반짝이는 것이 가득하다."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "A magpie lands on a fence post, its nest full of shiny things.",
+           "ko": "까치가 울타리 기둥에 내려앉는다. 둥지에는 반짝이는 것이 가득하다."
+          }
+         ]
+        },
+        {
+         "speaker": "Mix-up Magpie",
+         "en": "Mine, yours, his, hers? I cannot tell! Teach me, and I will give them back.",
+         "ko": "내 것, 네 것, 그의 것, 그녀의 것? 모르겠어! 가르쳐 주면 돌려줄게.",
+         "chunks": [
+          {
+           "en": "Mine, yours, his, hers? I cannot tell! Teach me, and I will give them back.",
+           "ko": "내 것, 네 것, 그의 것, 그녀의 것? 모르겠어! 가르쳐 주면 돌려줄게."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "Mine, yours, his, hers? I cannot tell! Teach me, and I will give them back.",
+           "ko": "내 것, 네 것, 그의 것, 그녀의 것? 모르겠어! 가르쳐 주면 돌려줄게."
+          }
+         ],
+         "speaker_en": "Mix-up Magpie",
+         "speaker_ko": "헷갈린 까치"
+        }
+       ],
+       "questions": [
+        {
+         "question_en": "This bag is not mine. It is ___.",
+         "question_ko": "이 가방은 내 것이 아니야. 그건 ___ 거야.",
+         "options": [
+          "yours",
+          "you",
+          "your"
+         ],
+         "correct_index": 0,
+         "feedback_ko": "소유대명사 yours는 '너의 것'이에요.",
+         "question_chunks": [
+          {
+           "en": "This bag is not mine.",
+           "ko": "이 가방은 내 것이 아니야."
+          },
+          {
+           "en": "It is ___.",
+           "ko": "그건 ___ 거야."
+          }
+         ]
+        },
+        {
+         "question_en": "Tom hurt ___ yesterday.",
+         "question_ko": "톰은 어제 ___ 다쳤어요.",
+         "options": [
+          "himself",
+          "him",
+          "he"
+         ],
+         "correct_index": 0,
+         "feedback_ko": "주어와 목적어가 같을 때는 재귀대명사 himself를 써요.",
+         "question_chunks": [
+          {
+           "en": "Tom hurt ___",
+           "ko": "톰은 ___ 다쳤어요"
+          },
+          {
+           "en": "yesterday.",
+           "ko": "어제."
+          }
+         ]
+        },
+        {
+         "question_en": "___ umbrella is this? — It is Mia's.",
+         "question_ko": "이건 ___ 우산이에요? — 미아 거예요.",
+         "options": [
+          "Whose",
+          "Who",
+          "Whom"
+         ],
+         "correct_index": 0,
+         "feedback_ko": "누구의 것인지 물을 때는 whose를 써요.",
+         "question_chunks": [
+          {
+           "en": "___ umbrella is this?",
+           "ko": "이건 ___ 우산이에요?"
+          },
+          {
+           "en": "It is Mia's.",
+           "ko": "미아 거예요."
+          }
+         ]
+        }
+       ],
+       "win": [
+        {
+         "speaker": "Mix-up Magpie",
+         "en": "Oh! Now I know whose is whose. Take all of it, even the shiny key.",
+         "ko": "아! 이제 누가 누구 건지 알겠어. 전부 가져가, 반짝이는 열쇠도.",
+         "chunks": [
+          {
+           "en": "Oh! Now I know whose is whose. Take all of it, even the shiny key.",
+           "ko": "아! 이제 누가 누구 건지 알겠어. 전부 가져가, 반짝이는 열쇠도."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "Oh! Now I know whose is whose. Take all of it, even the shiny key.",
+           "ko": "아! 이제 누가 누구 건지 알겠어. 전부 가져가, 반짝이는 열쇠도."
+          }
+         ],
+         "speaker_en": "Mix-up Magpie",
+         "speaker_ko": "헷갈린 까치"
+        }
+       ]
+      }
+     },
+     "lines": [
+      {
+       "speaker": "Narrator",
+       "en": "You step through the south gate onto the quiet fields.",
+       "ko": "당신은 남쪽 문을 지나 조용한 들판으로 나선다.",
+       "chunks": [
+        {
+         "en": "You step through the south gate onto the quiet fields.",
+         "ko": "당신은 남쪽 문을 지나 조용한 들판으로 나선다."
+        }
+       ],
+       "direct_chunks": [
+        {
+         "en": "You step through the south gate onto the quiet fields.",
+         "ko": "당신은 남쪽 문을 지나 조용한 들판으로 나선다."
+        }
+       ]
+      },
+      {
+       "speaker": "Subject",
+       "en": "Whose things are these? We will find out together.",
+       "ko": "이건 누구 물건일까? 함께 알아보자.",
+       "chunks": [
+        {
+         "en": "Whose things are these? We will find out together.",
+         "ko": "이건 누구 물건일까? 함께 알아보자."
+        }
+       ],
+       "direct_chunks": [
+        {
+         "en": "Whose things are these? We will find out together.",
+         "ko": "이건 누구 물건일까? 함께 알아보자."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "action": "report",
+     "npc": "pn_extra_5",
+     "lines": [
+      {
+       "speaker": "pn_extra_5",
+       "en": "Every treasure is back on the shelf, each with the right name. Thank you!",
+       "ko": "보물이 전부 알맞은 이름표와 함께 선반에 돌아왔어요. 고마워요!",
+       "chunks": [
+        {
+         "en": "Every treasure is back on the shelf, each with the right name. Thank you!",
+         "ko": "보물이 전부 알맞은 이름표와 함께 선반에 돌아왔어요. 고마워요!"
+        }
+       ],
+       "direct_chunks": [
+        {
+         "en": "Every treasure is back on the shelf, each with the right name.",
+         "ko": "보물이 전부 알맞은 이름표와 함께 선반에 돌아왔어요."
+        },
+        {
+         "en": "Thank you!",
+         "ko": "고마워요!"
+        }
+       ]
+      },
+      {
+       "speaker": "pn_extra_5",
+       "en": "But the shiny key has no name tag at all. Whose treasure is it?",
+       "ko": "그런데 반짝이는 열쇠에는 이름표가 아예 없어요. 누구의 보물일까요?",
+       "chunks": [
+        {
+         "en": "But the shiny key has no name tag at all. Whose treasure is it?",
+         "ko": "그런데 반짝이는 열쇠에는 이름표가 아예 없어요. 누구의 보물일까요?"
+        }
+       ],
+       "direct_chunks": [
+        {
+         "en": "But the shiny key has no name tag at all.",
+         "ko": "그런데 반짝이는 열쇠에는 이름표가 아예 없어요."
+        },
+        {
+         "en": "Whose treasure is it?",
+         "ko": "누구의 보물일까요?"
+        }
+       ]
+      }
+     ],
+     "task": {
+      "question_en": "Whose treasure is the shiny key?",
+      "question_ko": "반짝이는 열쇠는 누구의 보물일까요?",
+      "options": [
+       "It belongs to the finder.",
+       "It belongs to the shelf.",
+       "It belongs to the magpie."
+      ],
+      "correct_index": 0,
+      "choice": true,
+      "flag": "sb_pn_key",
+      "reactions": [
+       [
+        {
+         "speaker": "pn_extra_5",
+         "en": "Fair enough. Finders deserve something for their trouble.",
+         "ko": "그럴 만하네요. 찾아 준 사람에게 보답은 있어야죠.",
+         "chunks": [
+          {
+           "en": "Fair enough. Finders deserve something for their trouble.",
+           "ko": "그럴 만하네요. 찾아 준 사람에게 보답은 있어야죠."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "Fair enough. Finders deserve something for their trouble.",
+           "ko": "그럴 만하네요. 찾아 준 사람에게 보답은 있어야죠."
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "speaker": "pn_extra_5",
+         "en": "Then it stays with us until someone claims it.",
+         "ko": "그럼 주인이 나설 때까지 우리가 보관할게요.",
+         "chunks": [
+          {
+           "en": "Then it stays with us until someone claims it.",
+           "ko": "그럼 주인이 나설 때까지 우리가 보관할게요."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "Then it stays with us until someone claims it.",
+           "ko": "그럼 주인이 나설 때까지 우리가 보관할게요."
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "speaker": "pn_extra_5",
+         "en": "Ha! The magpie will be proud. It can keep its favorite.",
+         "ko": "하하! 까치가 자랑스러워하겠네요. 제일 좋아하는 걸 갖게 해 주죠.",
+         "chunks": [
+          {
+           "en": "Ha! The magpie will be proud. It can keep its favorite.",
+           "ko": "하하! 까치가 자랑스러워하겠네요. 제일 좋아하는 걸 갖게 해 주죠."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "Ha! The magpie will be proud. It can keep its favorite.",
+           "ko": "하하! 까치가 자랑스러워하겠네요. 제일 좋아하는 걸 갖게 해 주죠."
+          }
+         ]
+        }
+       ]
+      ],
+      "question_chunks": [
+       {
+        "en": "Whose treasure is",
+        "ko": "누구의 보물일까요"
+       },
+       {
+        "en": "the shiny key?",
+        "ko": "반짝이는 열쇠는?"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "sb_route_festival_lanterns",
+   "town_id": "sb",
+   "title_en": "The Festival Lanterns",
+   "title_ko": "축제의 등불",
+   "completion_flag": "sb_route_festival_lanterns_complete",
+   "reward_item": {
+    "stone": 1
+   },
+   "steps": [
+    {
+     "action": "accept",
+     "npc": "ng_extra_5",
+     "lines": [
+      {
+       "speaker": "Narrator",
+       "en": "Stage Manager Cue stands in front of a bare stage, scratching her head.",
+       "ko": "무대감독 큐가 텅 빈 무대 앞에서 머리를 긁적인다.",
+       "chunks": [
+        {
+         "en": "Stage Manager Cue stands in front of a bare stage, scratching her head.",
+         "ko": "무대감독 큐가 텅 빈 무대 앞에서 머리를 긁적인다."
+        }
+       ],
+       "direct_chunks": [
+        {
+         "en": "Stage Manager Cue stands in front of a bare stage, scratching her head.",
+         "ko": "무대감독 큐가 텅 빈 무대 앞에서 머리를 긁적인다."
+        }
+       ]
+      },
+      {
+       "speaker": "ng_extra_5",
+       "en": "Tonight is the Festival of Hope, but our lanterns are gone! The river took them east, one by one.",
+       "ko": "오늘 밤은 희망 축제인데 등불이 사라졌어요! 강물이 하나씩 동쪽으로 데려갔어요.",
+       "chunks": [
+        {
+         "en": "Tonight is the Festival of Hope, but our lanterns are gone! The river took them east, one by one.",
+         "ko": "오늘 밤은 희망 축제인데 등불이 사라졌어요! 강물이 하나씩 동쪽으로 데려갔어요."
+        }
+       ],
+       "direct_chunks": [
+        {
+         "en": "Tonight is the Festival of Hope, but our lanterns are gone!",
+         "ko": "오늘 밤은 희망 축제인데 등불이 사라졌어요!"
+        },
+        {
+         "en": "The river took them east, one by one.",
+         "ko": "강물이 하나씩 동쪽으로 데려갔어요."
+        }
+       ]
+      },
+      {
+       "speaker": "ng_extra_5",
+       "en": "Please follow the riverside path and bring them back. Without light, there is no hope!",
+       "ko": "강변길을 따라가서 되찾아 주세요. 불빛이 없으면 희망도 없어요!",
+       "chunks": [
+        {
+         "en": "Please follow the riverside path and bring them back. Without light, there is no hope!",
+         "ko": "강변길을 따라가서 되찾아 주세요. 불빛이 없으면 희망도 없어요!"
+        }
+       ],
+       "direct_chunks": [
+        {
+         "en": "Please follow the riverside path and bring them back.",
+         "ko": "강변길을 따라가서 되찾아 주세요."
+        },
+        {
+         "en": "Without light, there is no hope!",
+         "ko": "불빛이 없으면 희망도 없어요!"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "action": "route",
+     "town": "sb",
+     "route": {
+      "id": "sb_route_festival_lanterns_road",
+      "map": "sj_west",
+      "exit": "exit_east_b",
+      "label": "동쪽 강변길",
+      "clue": {
+       "label": "떠내려온 등불",
+       "lines": [
+        {
+         "speaker": "Narrator",
+         "en": "A small paper lantern is stuck among the reeds, still glowing.",
+         "ko": "작은 종이 등불 하나가 갈대 사이에 걸린 채 아직도 빛나고 있다.",
+         "chunks": [
+          {
+           "en": "A small paper lantern is stuck among the reeds, still glowing.",
+           "ko": "작은 종이 등불 하나가 갈대 사이에 걸린 채 아직도 빛나고 있다."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "A small paper lantern is stuck among the reeds, still glowing.",
+           "ko": "작은 종이 등불 하나가 갈대 사이에 걸린 채 아직도 빛나고 있다."
+          }
+         ]
+        },
+        {
+         "speaker": "Narrator",
+         "en": "More lights twinkle farther along the bank.",
+         "ko": "강둑 저 멀리에서도 불빛이 반짝인다.",
+         "chunks": [
+          {
+           "en": "More lights twinkle farther along the bank.",
+           "ko": "강둑 저 멀리에서도 불빛이 반짝인다."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "More lights twinkle farther along the bank.",
+           "ko": "강둑 저 멀리에서도 불빛이 반짝인다."
+          }
+         ]
+        }
+       ]
+      },
+      "monster": {
+       "label": "등불 요정",
+       "name_en": "Lantern Sprite",
+       "name_ko": "등불 요정",
+       "lines": [
+        {
+         "speaker": "Narrator",
+         "en": "A sprite made of soft light sits on a pile of lanterns.",
+         "ko": "부드러운 빛으로 이루어진 요정이 등불 더미 위에 앉아 있다.",
+         "chunks": [
+          {
+           "en": "A sprite made of soft light sits on a pile of lanterns.",
+           "ko": "부드러운 빛으로 이루어진 요정이 등불 더미 위에 앉아 있다."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "A sprite made of soft light sits on a pile of lanterns.",
+           "ko": "부드러운 빛으로 이루어진 요정이 등불 더미 위에 앉아 있다."
+          }
+         ]
+        },
+        {
+         "speaker": "Lantern Sprite",
+         "en": "I like to count them! Count correctly with me, and I will share.",
+         "ko": "나는 등불 세는 걸 좋아해! 나와 함께 제대로 세면 나눠 줄게.",
+         "chunks": [
+          {
+           "en": "I like to count them! Count correctly with me, and I will share.",
+           "ko": "나는 등불 세는 걸 좋아해! 나와 함께 제대로 세면 나눠 줄게."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "I like to count them! Count correctly with me, and I will share.",
+           "ko": "나는 등불 세는 걸 좋아해! 나와 함께 제대로 세면 나눠 줄게."
+          }
+         ],
+         "speaker_en": "Lantern Sprite",
+         "speaker_ko": "등불 요정"
+        }
+       ],
+       "questions": [
+        {
+         "question_en": "We need two ___ for the stage.",
+         "question_ko": "무대에는 ___ 두 개가 필요해요.",
+         "options": [
+          "boxes",
+          "box",
+          "boxs"
+         ],
+         "correct_index": 0,
+         "feedback_ko": "x로 끝나는 명사는 -es를 붙여 복수형을 만들어요.",
+         "question_chunks": [
+          {
+           "en": "We need two ___",
+           "ko": "우리는 ___ 두 개가 필요해요"
+          },
+          {
+           "en": "for the stage.",
+           "ko": "무대를 위해."
+          }
+         ]
+        },
+        {
+         "question_en": "There is some ___ in the jar.",
+         "question_ko": "병 안에 ___이 조금 있어요.",
+         "options": [
+          "water",
+          "waters",
+          "a water"
+         ],
+         "correct_index": 0,
+         "feedback_ko": "water는 셀 수 없는 명사라서 복수형이나 a를 쓰지 않아요.",
+         "question_chunks": [
+          {
+           "en": "There is some ___",
+           "ko": "___이 조금 있어요"
+          },
+          {
+           "en": "in the jar.",
+           "ko": "병 안에."
+          }
+         ]
+        },
+        {
+         "question_en": "She wants ___ apple.",
+         "question_ko": "그녀는 사과 ___ 개를 원해요.",
+         "options": [
+          "an",
+          "a",
+          "many"
+         ],
+         "correct_index": 0,
+         "feedback_ko": "모음 소리로 시작하는 단어 앞에는 an을 써요.",
+         "question_chunks": [
+          {
+           "en": "She wants ___ apple.",
+           "ko": "그녀는 사과 ___ 개를 원해요."
+          }
+         ]
+        }
+       ],
+       "win": [
+        {
+         "speaker": "Lantern Sprite",
+         "en": "Perfect counting! Take the lanterns. Let them shine for everyone.",
+         "ko": "완벽한 셈이야! 등불을 가져가. 모두를 위해 빛나게 해 줘.",
+         "chunks": [
+          {
+           "en": "Perfect counting! Take the lanterns. Let them shine for everyone.",
+           "ko": "완벽한 셈이야! 등불을 가져가. 모두를 위해 빛나게 해 줘."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "Perfect counting! Take the lanterns. Let them shine for everyone.",
+           "ko": "완벽한 셈이야! 등불을 가져가. 모두를 위해 빛나게 해 줘."
+          }
+         ],
+         "speaker_en": "Lantern Sprite",
+         "speaker_ko": "등불 요정"
+        }
+       ]
+      }
+     },
+     "lines": [
+      {
+       "speaker": "Narrator",
+       "en": "You walk along the river as dusk turns the water gold.",
+       "ko": "해 질 녘 강물이 금빛으로 물드는 강변을 따라 걷는다.",
+       "chunks": [
+        {
+         "en": "You walk along the river as dusk turns the water gold.",
+         "ko": "해 질 녘 강물이 금빛으로 물드는 강변을 따라 걷는다."
+        }
+       ],
+       "direct_chunks": [
+        {
+         "en": "You walk along the river as dusk turns the water gold.",
+         "ko": "해 질 녘 강물이 금빛으로 물드는 강변을 따라 걷는다."
+        }
+       ]
+      },
+      {
+       "speaker": "Subject",
+       "en": "The lanterns floated this way. Let us follow the light.",
+       "ko": "등불이 이쪽으로 떠내려갔어. 불빛을 따라가 보자.",
+       "chunks": [
+        {
+         "en": "The lanterns floated this way. Let us follow the light.",
+         "ko": "등불이 이쪽으로 떠내려갔어. 불빛을 따라가 보자."
+        }
+       ],
+       "direct_chunks": [
+        {
+         "en": "The lanterns floated this way. Let us follow the light.",
+         "ko": "등불이 이쪽으로 떠내려갔어. 불빛을 따라가 보자."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "action": "report",
+     "npc": "ng_extra_5",
+     "lines": [
+      {
+       "speaker": "ng_extra_5",
+       "en": "The lanterns are glowing again! The stage looks alive. The Festival of Hope can begin.",
+       "ko": "등불이 다시 빛나요! 무대가 살아났네요. 희망 축제를 시작할 수 있겠어요.",
+       "chunks": [
+        {
+         "en": "The lanterns are glowing again! The stage looks alive. The Festival of Hope can begin.",
+         "ko": "등불이 다시 빛나요! 무대가 살아났네요. 희망 축제를 시작할 수 있겠어요."
+        }
+       ],
+       "direct_chunks": [
+        {
+         "en": "The lanterns are glowing again! The stage looks alive.",
+         "ko": "등불이 다시 빛나요! 무대가 살아났네요."
+        },
+        {
+         "en": "The Festival of Hope can begin.",
+         "ko": "희망 축제를 시작할 수 있겠어요."
+        }
+       ]
+      },
+      {
+       "speaker": "ng_extra_5",
+       "en": "One lantern is left over. Where should it shine?",
+       "ko": "등불이 하나 남았어요. 어디에서 빛나게 할까요?",
+       "chunks": [
+        {
+         "en": "One lantern is left over. Where should it shine?",
+         "ko": "등불이 하나 남았어요. 어디에서 빛나게 할까요?"
+        }
+       ],
+       "direct_chunks": [
+        {
+         "en": "One lantern is left over. Where should it shine?",
+         "ko": "등불이 하나 남았어요. 어디에서 빛나게 할까요?"
+        }
+       ]
+      }
+     ],
+     "task": {
+      "question_en": "Where should the last lantern shine?",
+      "question_ko": "마지막 등불은 어디서 빛나게 할까요?",
+      "options": [
+       "On the bridge for travelers.",
+       "On the stage for the show.",
+       "In the Guild window."
+      ],
+      "correct_index": 0,
+      "choice": true,
+      "flag": "sb_ng_lantern",
+      "reactions": [
+       [
+        {
+         "speaker": "ng_extra_5",
+         "en": "A light for travelers. Hope should reach the road, too.",
+         "ko": "나그네를 위한 불빛이네요. 희망은 길에도 닿아야죠.",
+         "chunks": [
+          {
+           "en": "A light for travelers. Hope should reach the road, too.",
+           "ko": "나그네를 위한 불빛이네요. 희망은 길에도 닿아야죠."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "A light for travelers. Hope should reach the road, too.",
+           "ko": "나그네를 위한 불빛이네요. 희망은 길에도 닿아야죠."
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "speaker": "ng_extra_5",
+         "en": "Then the show will shine brightest of all.",
+         "ko": "그럼 공연이 무엇보다 환하게 빛나겠어요.",
+         "chunks": [
+          {
+           "en": "Then the show will shine brightest of all.",
+           "ko": "그럼 공연이 무엇보다 환하게 빛나겠어요."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "Then the show will shine brightest of all.",
+           "ko": "그럼 공연이 무엇보다 환하게 빛나겠어요."
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "speaker": "ng_extra_5",
+         "en": "The Guild will glow all night. Adventurers will love it.",
+         "ko": "길드가 밤새 환하겠네요. 모험가들이 좋아하겠어요.",
+         "chunks": [
+          {
+           "en": "The Guild will glow all night. Adventurers will love it.",
+           "ko": "길드가 밤새 환하겠네요. 모험가들이 좋아하겠어요."
+          }
+         ],
+         "direct_chunks": [
+          {
+           "en": "The Guild will glow all night. Adventurers will love it.",
+           "ko": "길드가 밤새 환하겠네요. 모험가들이 좋아하겠어요."
+          }
+         ]
+        }
+       ]
+      ],
+      "question_chunks": [
+       {
+        "en": "Where should the last lantern",
+        "ko": "마지막 등불은 어디서"
+       },
+       {
+        "en": "shine?",
+        "ko": "빛나게 할까요?"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

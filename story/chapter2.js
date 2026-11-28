@@ -382,7 +382,7 @@
     const files=['TOWN_NETWORK','TOWN_EVENTS','TOWN_UNIQUE_EVENTS','TOWN_RELATIONSHIP_STORIES',
       'REGIONAL_STORIES_REVISED','RESIDENT_DAILY_DIALOGUE','DEMON_ARMY_INTRIGUE','DEMON_ARMY_RESOLUTIONS',
       'DEMON_ARMY_MAIN_ARC','COMPANION_AND_OFFICER_DEPTH','BOOK_SECRETS_AND_MERCHANTS',
-      'CHAPTER2_CLOSURE_AND_EXPLORATION','CHAPTER2_FINAL_EXPANSION','CHAPTER2_REVIEW_AND_COMPANIONS','ROUTE_QUESTS'];
+      'CHAPTER2_CLOSURE_AND_EXPLORATION','CHAPTER2_FINAL_EXPANSION','CHAPTER2_REVIEW_AND_COMPANIONS','ROUTE_QUESTS','SYNTAXBURY_QUESTS'];
     const data=Object.fromEntries(await Promise.all(files.map(async key=>[key,await loadData('story/'+key+'.json')])));
     chapterWorld=window.createChapterWorld({
       node,button,show,chunkedLine,panel:worldPanel,save:saveWorld,reward:grantQuestReward,state:worldProgress,flag:worldFlag,
@@ -794,9 +794,10 @@
     body.querySelector('button').textContent='🚶 필드로 돌아가기';
     // 폐기된 옛 마을(Queston·Perfect Oasis·Pronovia·Nounville)의 주민과 의뢰를 이 마을로 옮겨 왔습니다.
     const SB_TOWNS=['g2','pf','pn','ng'];
-    const spots=[[20,24],[34,24],[58,24],[76,24],[21,33],[36,33],[60,33],[75,33],[26,28],[68,28],[40,27],[54,36]];
-    const points={...map.points};
+    const spots=[[20,24],[34,24],[58,24],[76,24],[21,33],[36,33],[60,33],[75,33],[26,28],[68,28],[40,27],[54,36],[30,22],[46,22],[62,22],[50,34]];
+    const points={...map.points,exit_east_b:[95,28]};
     const folks=[];
+    const GIVERS={g2:'g2_extra_5',pf:'pf_extra_5',pn:'pn_extra_5',ng:'ng_extra_5'};
     const place=entry=>{const spot=spots[folks.length];if(!spot)return;points[entry.id]=spot;folks.push(entry);};
     const back=()=>syntaxburyField();
     for (const town of SB_TOWNS) {
@@ -805,7 +806,9 @@
       const home=(townFor(episode)||'').split('·').pop().trim();
       for (const target of residentTargets(episode,i=>`story/maps/villages/${town}-${i}.webp`).slice(0,2))
         place({...target,id:`sb_${town}_${target.id}`,label:`${target.label} (${home})`,action:()=>townDialogue(episode,episode.residents.find(r=>'npc'+r.index===target.id),target.image)});
-      for (const npc of (chapterWorld?.residentsForTown(town)||[]).slice(0,1)) {
+      const crowd=chapterWorld?.residentsForTown(town)||[];
+      const extra=[...crowd.slice(0,1),...crowd.filter(r=>r.id===GIVERS[town]&&r.id!==crowd[0]?.id)];
+      for (const npc of extra) {
         const art=atlasFor(npc.id);
         const image=artFront(art)||extraPortrait(npc.id);
         place({id:npc.id,label:`${npc.en} · ${npc.ko} (${home})`,caption:npc.name,job:npc.job,image,walk:artWalk(art),
@@ -827,14 +830,20 @@
     if (hub) townFieldActions(body,hub,back);
     fullscreenField(body,'Syntaxbury · 신택스베리',!!guideId);
     const go=(scr,extra)=>()=>{closeDialogueIfOpen();G.owDungeon=true;G.owAuto=false;G.toast=null;Object.assign(G,{scr},extra||{});sfx('select');render();};
+    // 길마다 받아 둔 의뢰가 있으면 그 길로, 없으면 월드맵 필드로 나갑니다.
+    const leave=exitId=>{
+      if (chapterWorld?.openRoute('sb',exitId,back)) return;
+      toWorld();
+    };
     const targets=[
       {id:'guild',label:'🏛️ 길드 (스토리 모드 허브)',action:go('dsel')},
       {id:'shop',label:'🐾 펫 · 아이템 가게',action:go('shop',{shopTab:'adopt'})},
       {id:'smith',label:'⚒️ 대장간',action:go('forge',{forgeView:'gear',stoneBoot:0,enhRes:null})},
       {id:'potion',label:'🧪 물약 · 연금술사',action:go('shop',{shopTab:'potion'})},
-      {id:'exit_south',label:'🚪 마을 나가기 (필드)',action:toWorld},
-      {id:'exit_west',label:'⬅️ 서쪽 길 (필드)',action:toWorld},
-      {id:'exit_east',label:'➡️ 동쪽 다리 (필드)',action:toWorld},
+      {id:'exit_south',label:'🚪 남쪽 문 (필드)',action:()=>leave('exit_south')},
+      {id:'exit_west',label:'⬅️ 서쪽 길 (필드)',action:()=>leave('exit_west')},
+      {id:'exit_east',label:'➡️ 동쪽 다리 (필드)',action:()=>leave('exit_east')},
+      {id:'exit_east_b',label:'➡️ 동쪽 강변길 (필드)',action:()=>leave('exit_east_b')},
     ];
     const positions=G.c2VillagePositions ||= {};
     window.openChapterField(body,{...map,points},isRpgM()?rhero():lhero(),[...targets,...folks],{position:positions.sb,onStep(pos){positions.sb=pos;}});

@@ -78,7 +78,7 @@ window.createChapterWorld = function(api, data) {
     const souvenir=event.reward?.type==='collection_flag'?{id:event.id,ko:event.reward.name_ko}:null;
     add(event,event.steps,{town:town.town_id,souvenir});
   }
-  for(const quest of data.ROUTE_QUESTS?.quests||[])add(quest,quest.steps,{town:quest.town_id,group:'의뢰'});
+  for(const quest of [...(data.ROUTE_QUESTS?.quests||[]),...(data.SYNTAXBURY_QUESTS?.quests||[])])add(quest,quest.steps,{town:quest.town_id,group:'의뢰'});
   for(const event of [...data.TOWN_UNIQUE_EVENTS.events,...data.TOWN_RELATIONSHIP_STORIES.events])add(event,event.steps);
   for(const event of data.REGIONAL_STORIES_REVISED.cases) {
     const previous=data.TOWN_NETWORK.chains.find(chain=>chain.id===event.id);
