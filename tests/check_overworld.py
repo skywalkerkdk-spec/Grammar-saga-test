@@ -37,11 +37,16 @@ with ThreadingHTTPServer(('127.0.0.1',0),partial(Q,directory=root)) as srv:
         # 조우: 걸음 수를 1로 만든 뒤 걸으면 문제 조우가 떠야 함
         start();pg.locator('#wmwalk').click();pg.wait_for_timeout(1200)
         pg.evaluate("G.c2OwSteps=1;SV.cry=0;SV.owEnc=null")
-        pg.locator('select[aria-label="탐험 목적지"]').select_option(label='퀘스천 동굴');pg.wait_for_selector('.c2-world-confirm[data-answer]',timeout=60000)
-        ans=pg.evaluate("document.querySelector('.c2-world-confirm')?.dataset.answer||''")
-        assert ans,'걷다 보면 몬스터 조우(문제)가 떠야 함'
+        pg.locator('select[aria-label="탐험 목적지"]').select_option(label='퀘스천 동굴');pg.wait_for_function("G.scr==='battle'&&!!G.owFight",timeout=60000)
+        assert pg.locator('#mon').count()==1 and pg.locator('#qc .choice').count()>=2,'기존 전투 화면(몬스터+문제)이 떠야 함'
         if shot:pg.screenshot(path=shot.replace('.png','_enc.png'))
-        pg.locator('.c2-world-confirm button',has_text=ans).first.click();pg.wait_for_timeout(300)
-        assert pg.evaluate("SV.cry")==2,'정답이면 💎+2: %s'%pg.evaluate("SV.cry")
-        print('월드맵 걷기: 열기·장소 7곳·도착→던전 입장·조우→정답 보상 통과 / 오류',errs)
+        assert pg.evaluate("!!localStorage.getItem(RUNKEY())")==False,'필드 전투가 던전 이어하기 기록을 만들면 안 됨'
+        a=pg.evaluate("G.run[0].options[G.run[0].answer]")
+        pg.locator('#qc .choice',has_text=a).first.click();pg.wait_for_timeout(1500)
+        assert pg.evaluate("SV.cry")>0,'정답이면 기존 방식대로 💎 보상: %s'%pg.evaluate("SV.cry")
+        pg.locator('#nx').click();pg.wait_for_timeout(1500)
+        assert pg.evaluate("!G.owFight && G.scr")=='dsel','전투 후 원래 화면으로 돌아와야 함: %s'%pg.evaluate("G.scr")
+        assert pg.locator('dialog.c2-world[open]').count()==1,'전투 후 월드맵이 다시 열려야 함'
+        assert pg.evaluate("!!localStorage.getItem(RUNKEY())")==False,'전투 후에도 이어하기 기록이 생기면 안 됨'
+        print('월드맵 걷기: 열기·장소 7곳·도착→던전 입장·조우→기존 전투 화면→정답 보상→월드맵 복귀 통과 / 오류',errs)
         assert not errs,errs

@@ -1964,7 +1964,7 @@ function fmtParty(ks,mk,petH,full){
  return {html:cols.join(''),nc:cols.length};}
 function battle(){
  const R=G.run,e=R[G.ei];const bossHp=HP0(e);
- $('app').innerHTML=hud(`<span class="mut">${G.dg.name} · ${G.dg.full?'적':'몬스터'} ${G.ei+1}/${R.length}</span><button class="btn-s" id="saveout">💾 저장하고 나가기</button>${G.dev?'<button class="btn-s" id="devskip">⏭ 건너뛰기</button><button class="btn-s" id="devout">🗺️ 나가기</button>':''}`)+`
+ $('app').innerHTML=hud(`<span class="mut">${G.dg.name} · ${G.dg.full?'적':'몬스터'} ${G.ei+1}/${R.length}</span><button class="btn-s" id="saveout">${G.owFight?'🚶 필드로 돌아가기':'💾 저장하고 나가기'}</button>${G.dev?'<button class="btn-s" id="devskip">⏭ 건너뛰기</button><button class="btn-s" id="devout">🗺️ 나가기</button>':''}`)+`
  <div class="arena ${G.dg.bg||G.dg.id}" id="arena"><div class="ground"></div>
  <div class="pname">${esc(G.name)}<br>${heartsHTML()}</div>
  ${(()=>{const F=fmtParty(['tank'].concat(G.mates),k=>sp(k),petRow('pet'),!!G.dg.full);return `<div class="party ${G.dg.full?'fullp':''}${G.dg.id==='d4'&&e.boss?' bigp':''}" id="pty" style="--nc:${F.nc}">${F.html}</div>`;})()}
@@ -1972,7 +1972,7 @@ function battle(){
  <div class="monster ${e.boss?'boss':''}" id="mon">${monHTML(e)}</div></div>
  <div class="card" id="qc">${qbody(G.pq||e)}</div>`;
  bindQ(G.pq||e);saveRun();if(!G.dev)markSeen(e);if(G.rvm)rvDecorate();
- $('saveout').onclick=()=>{saveRun();sfx('select');G.toastSave=true;G.scr='dsel';render();saveToast();};
+ $('saveout').onclick=()=>{if(G.owFight){G.owFight.finish();return;}saveRun();sfx('select');G.toastSave=true;G.scr='dsel';render();saveToast();};
  if(G.dev){$('devskip').onclick=()=>{G.ei++;G.done=false;G.b=null;G.pick=null;G.sel=null;G.first=true;if(G.ei>=G.run.length){clearRun();G.scr=(G.dg.full&&!G.dg.mix)?'ending':'clear';G.endPhase='roll';}render();};$('devout').onclick=()=>{G.scr='dsel';render();};}
 }
 function qlabel(t){return ({build:'⚔️ 성분 배치',pet:'🐾 수식어(펫) 떼어 내기',judge:'🤔 지금 파티로 잡을 수 있을까?',choose:'🎯 알맞은 말 고르기',deploy:'🏰 출전 동료 고르기',trait:'⛪ 특성 골라 출전'}[t])||(typeof QX!=='undefined'&&QX[t]&&QX[t].label)||t;}
@@ -2089,7 +2089,7 @@ function bubbleSync(){const qc=$('qc'),ar=$('arena');if(!qc||!ar)return;const ts
 function bindQ(e){flav();bubbleSync();
  if(G.done){if(G.rpg||pvOn()||rdOn())return;
   const nx=$('nx'),rt=$('rt');
-  if(nx)nx.onclick=()=>{if(G.rvm){rvNext();return;}G.ei++;G.done=false;G.b=null;G.pick=null;G.sel=null;G.first=true;G.gotGold=0;if(G.ei>=G.run.length){clearRun();G.scr=(G.dg.full&&!G.dg.mix)?'ending':'clear';G.endPhase='roll';}render();};
+  if(nx)nx.onclick=()=>{if(G.owFight){G.owFight.finish();return;}if(G.rvm){rvNext();return;}G.ei++;G.done=false;G.b=null;G.pick=null;G.sel=null;G.first=true;G.gotGold=0;if(G.ei>=G.run.length){clearRun();G.scr=(G.dg.full&&!G.dg.mix)?'ending':'clear';G.endPhase='roll';}render();};
   if(rt)rt.onclick=()=>{G.done=false;G.b=null;G.pick=null;G.sel=null;rerQ(e);};
   const tg=$('tograve');if(tg)tg.onclick=()=>{G.rv=reviveTarget(e);G.b=null;G.scr='grave';render();sfx('wipe');};
   return;
@@ -2358,7 +2358,7 @@ function ending(){
 
 /* ---------- 이어하기 (던전 진행 자동 저장, 이 기기·이 이름만) ---------- */
 const RUNKEY=()=>'sg_run_'+G.name;
-function saveRun(){if(!G.dg||!G.run||G.dev||G.rvm)return;try{localStorage.setItem(RUNKEY(),JSON.stringify({id:G.dg.id,mates:G.mates,pets:G.pets,run:G.run,ei:G.ei,hp:G.hp,deaths:G.deaths,ok:G.ok,tot:G.tot,okw:G.okw||0,totw:G.totw||0,fails:G.fails,wrongs:G.wrongs,goldRun:G.goldRun,first:G.first,streak:G.streak||0,el:Date.now()-(G.t0||Date.now()),mc:G.maxCmb||0,adv:!!(G.done&&G.pick==='ok'),lv:SV.level,t:Date.now()}));}catch(e){}}
+function saveRun(){if(!G.dg||!G.run||G.dev||G.rvm||G.owFight)return;try{localStorage.setItem(RUNKEY(),JSON.stringify({id:G.dg.id,mates:G.mates,pets:G.pets,run:G.run,ei:G.ei,hp:G.hp,deaths:G.deaths,ok:G.ok,tot:G.tot,okw:G.okw||0,totw:G.totw||0,fails:G.fails,wrongs:G.wrongs,goldRun:G.goldRun,first:G.first,streak:G.streak||0,el:Date.now()-(G.t0||Date.now()),mc:G.maxCmb||0,adv:!!(G.done&&G.pick==='ok'),lv:SV.level,t:Date.now()}));}catch(e){}}
 function clearRun(){try{localStorage.removeItem(RUNKEY());}catch(e){}}
 function peekRun(){try{return JSON.parse(localStorage.getItem(RUNKEY())||'null');}catch(e){return null;}}
 function loadRun(){G.rpg=false;const r=peekRun();if(!r)return false;const d=DUNGEONS.find(x=>x.id===r.id);if(!d)return false;

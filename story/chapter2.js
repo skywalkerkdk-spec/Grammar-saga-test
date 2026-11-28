@@ -821,9 +821,28 @@
       return best;
     };
     const encounterDistance=()=>8+Math.floor(Math.random()*7);
+    function fightInBattleScreen(id) {
+      const dungeon=wmDg(id);
+      const mobs=dungeon?genRunG({id}).filter(item=>!item.boss):[];
+      if (!mobs.length) return false;
+      const keep={};
+      for (const key of ['scr','dg','mates','pets','run','ei','hp','deaths','streak','done','first','b','pick','sel','ok','tot','okw','totw','wrongs','goldRun','clearPaid','fails','t0','maxCmb','cmb','rpg']) keep[key]=G[key];
+      const finish=()=>{
+        G.owFight=null;
+        Object.assign(G,keep);
+        render();
+        overworldField();
+      };
+      closeDialogueIfOpen();
+      Object.assign(G,{rpg:false,dg:dungeon,mates:dungeon.need.slice(),pets:1,run:[pick(mobs)],ei:0,hp:3,deaths:0,streak:0,done:false,first:true,b:null,pick:null,sel:null,ok:0,tot:0,okw:0,totw:0,wrongs:[],goldRun:0,clearPaid:false,fails:0,t0:Date.now(),maxCmb:0,cmb:0,owFight:{finish},scr:'battle'});
+      sfx('formed');
+      render();
+      return true;
+    }
     function encounter(at) {
       const id=nearestPool(at);
       if (!id) return false;
+      if (!isRpgM() && fightInBattleScreen(id)) return true;
       const X=GRMAP[id];
       const all=GQD[X.pool].map(gqItem);
       const level=LV();
