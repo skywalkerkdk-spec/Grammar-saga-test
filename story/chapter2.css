@@ -117,3 +117,8 @@
 @media (orientation:landscape) and (max-height:560px){
 .c2-world-confirm{left:calc(max(18px,env(safe-area-inset-left)) + 130px);bottom:max(14px,env(safe-area-inset-bottom));transform:none;width:min(44vw,330px);padding:8px 10px}
 }
+
+.c2-field-act{display:grid;place-items:center;align-content:center;width:80px;height:80px;padding:0;border:1px solid #dec191;border-radius:50%;background:radial-gradient(circle at 38% 30%,#7a6347,#43352a 68%,#261c15);box-shadow:inset 0 2px 4px #ffffff26,0 3px 9px #000a;color:#ffe9c4;font-weight:700;touch-action:manipulation;user-select:none;cursor:pointer}
+.c2-field-act span{font-size:27px;line-height:1}
+.c2-field-act small{font-size:11px;line-height:1.2;margin-top:2px}
+.c2-field-act:active{transform:scale(.94);filter:brightness(1.18)}

@@ -824,6 +824,7 @@ canvas.px[data-src="SPR"][data-k="shaman"],canvas.px[data-src="SPR"][data-k^="cs
 .rdcharge .cgh{font-size:13px;margin-bottom:4px}
 .rdcharge .cgh b#cgd{color:#ffd85a;letter-spacing:2px}
 .rdcharge .sentence{font-size:15px}
+#qc .sentence{font-size:20px;padding:10px 14px}
 .rdp .rdch{color:#ffd85a;font-weight:900;margin-left:3px;text-shadow:0 0 4px #000}
 .rdht .choice small{opacity:.8;margin-left:4px}
 
@@ -2073,7 +2074,7 @@ function qbody(e){
   const heal=ok&&G.healed?` <span class="healpop">🔥${lhNeed()}연속 정답! +❤️</span>`:(ok&&G.hp<3?` <span class="hint">🔥 ${G.streak}/${lhNeed()}</span>`:'');const hurt=!ok&&G.guarded?` <span class="healpop">🛡️ ${HWORD[lhero()]}의 힘으로 하트를 지켰어요!</span>`:!ok&&!G.rvm?` <span class="hurtpop">-❤️ (남은 하트 ${Math.max(0,G.hp)})</span>`:'';
   const gold=ok&&G.gotGold?` <span class="goldpop">+💎${G.gotGold}</span>`:'';
   h+=`<div class="feedback ${ok?'ok':'no'}"><div style="font-weight:900;font-size:19px">${head}${gold}${heal}${hurt}</div>${(()=>{let q='';if(ok&&e.type==='judge'&&e.answer==='retreat')q=e.retreatT;else if(ok&&HP1(e)===0)q=e.kill;else if(!ok)q=e.taunt;return q?`<div class="talk">💬 <b>${esc(e.mname)}</b>: "${esc(q)}"</div>`:'';})()}${ok?glossHTML(e)+'<div class="exp">'+explainHTML(e)+'</div>':(G.rvm?'<div class="rvans">✅ 정답: <b>'+esc(rightAns(e))+'</b></div>'+glossHTML(e)+'<div class="exp">'+explainHTML(e)+'</div>'+(typeof detailHTML==='function'?detailHTML(e):'')+'<div class="hint">👀 해설을 읽고 다시 도전해 보세요!</div>':wrongWhy(e))}</div>`;
-  h+= ok?`<button class="next" id="nx">${G.ei<G.run.length-1?(HP1(e)>0?'⚔️ 계속 공격 ▶':G.run[0]?.c2Meadow&&!e.boss?'확인':(G.dg.full?'다음 적 ▶':'다음 몬스터 ▶')):'🏆 결과 보기'}</button>`:(G.hp<=0?`<button class="next grave-btn" id="tograve">🪦 파티가 쓰러졌다… 묘지로</button>`:`<button class="next" id="rt">🔁 다시 도전</button>`);
+  h+= ok?`<button class="next" id="nx">${G.ei<G.run.length-1?(HP1(e)>0?'⚔️ 계속 공격 ▶':G.run[0]?.c2Meadow&&!e.boss?'확인':(G.dg.full?'다음 적 ▶':'다음 몬스터 ▶')):(G.owFight?'🚶 계속 걷기':'🏆 결과 보기')}</button>`:(G.hp<=0?`<button class="next grave-btn" id="tograve">🪦 파티가 쓰러졌다… 묘지로</button>`:`<button class="next" id="rt">🔁 다시 도전</button>`);
  }
  return h;
 }

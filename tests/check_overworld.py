@@ -38,6 +38,8 @@ with ThreadingHTTPServer(('127.0.0.1',0),partial(Q,directory=root)) as srv:
         start();pg.locator('#wmwalk').click();pg.wait_for_timeout(1200)
         pg.evaluate("G.c2OwSteps=1;SV.cry=0;SV.owEnc=null")
         pg.locator('select[aria-label="탐험 목적지"]').select_option(label='퀘스천 동굴');pg.wait_for_function("G.scr==='battle'&&!!G.owFight",timeout=60000)
+        pg.wait_for_selector('#qc .choice',timeout=10000)
+        print('문제 유형',pg.evaluate("G.run[0].type"),pg.locator('#mon').count(),pg.locator('#qc .choice').count())
         assert pg.locator('#mon').count()==1 and pg.locator('#qc .choice').count()>=2,'기존 전투 화면(몬스터+문제)이 떠야 함'
         if shot:pg.screenshot(path=shot.replace('.png','_enc.png'))
         assert pg.evaluate("!!localStorage.getItem(RUNKEY())")==False,'필드 전투가 던전 이어하기 기록을 만들면 안 됨'

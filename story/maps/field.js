@@ -307,6 +307,8 @@ window.openChapterField = function(container, map, hero, targets, options={}) {
     const target=targets.filter(item=>reach(item)<=1).sort((a,b)=>reach(a)-reach(b))[0];
     if (target && !segment) target.action();
   });
+  interact.className='c2-field-act';
+  interact.innerHTML='<span aria-hidden="true">✋</span><small>상호작용</small>';
   controls.append(interact);
   container.onkeydown=event=>{
     const direction=keys.indexOf(event.key);
