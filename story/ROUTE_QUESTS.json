@@ -245,7 +245,7 @@
           "route": {
             "id": "sj_west",
             "exit": "exit_west",
-            "label": "서쪽 다리 길",
+            "label": "서쪽 산길",
             "clue": {
               "label": "젖은 발자국",
               "lines": [
