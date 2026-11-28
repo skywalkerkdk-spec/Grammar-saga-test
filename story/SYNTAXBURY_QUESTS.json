@@ -35,18 +35,18 @@
       },
       {
        "speaker": "g2_extra_5",
-       "en": "Our menu is gone! At Queston, we never took orders without questions. Here in Syntaxbury, no one knows what to ask.",
-       "ko": "메뉴판이 사라졌어요! 퀘스턴에서는 질문 없이는 주문을 받지 않았거든요. 여기 신택스베리에서는 아무도 뭘 물어야 할지 몰라요.",
+       "en": "Our menu is gone! In my kitchen, we never take orders without questions. Here in Syntaxbury, no one knows what to ask.",
+       "ko": "메뉴판이 사라졌어요! 제 주방에서는 질문 없이는 주문을 받지 않거든요. 여기 신택스베리에서는 아무도 뭘 물어야 할지 몰라요.",
        "chunks": [
         {
-         "en": "Our menu is gone! At Queston, we never took orders without questions. Here in Syntaxbury, no one knows what to ask.",
-         "ko": "메뉴판이 사라졌어요! 퀘스턴에서는 질문 없이는 주문을 받지 않았거든요. 여기 신택스베리에서는 아무도 뭘 물어야 할지 몰라요."
+         "en": "Our menu is gone! In my kitchen, we never take orders without questions. Here in Syntaxbury, no one knows what to ask.",
+         "ko": "메뉴판이 사라졌어요! 제 주방에서는 질문 없이는 주문을 받지 않거든요. 여기 신택스베리에서는 아무도 뭘 물어야 할지 몰라요."
         }
        ],
        "direct_chunks": [
         {
-         "en": "Our menu is gone! At Queston, we never took orders without questions.",
-         "ko": "메뉴판이 사라졌어요! 퀘스턴에서는 질문 없이는 주문을 받지 않았거든요."
+         "en": "Our menu is gone! In my kitchen, we never take orders without questions.",
+         "ko": "메뉴판이 사라졌어요! 제 주방에서는 질문 없이는 주문을 받지 않거든요."
         },
         {
          "en": "Here in Syntaxbury, no one knows what to ask.",

@@ -1877,7 +1877,11 @@
 
   function loadData(path) {
     return fetch(new URL(path,document.baseURI),{cache:'no-cache'})
-      .then(response=>{if (!response.ok) throw new Error(path+' unavailable');return response.json();});
+      .then(response=>{if (!response.ok) throw new Error(path+' unavailable');return response.text();})
+      // 퀘스턴 마을은 없어지고 그 주민이 신택스베리에 살므로, 대화 속 마을 이름도 신택스베리로 바꿉니다.
+      .then(text=>JSON.parse(text
+        .replace(/퀘스턴(은|이(?!라|다|에|었)|을|과|으로)/g,(m,p)=>'신택스베리'+({'은':'는','이':'가','을':'를','과':'와','으로':'로'}[p]))
+        .replace(/퀘스턴/g,'신택스베리').replace(/Queston/g,'Syntaxbury')));
   }
 
   Promise.all([loadData('story/STORY_DATA.json'),loadData('story/NAMING_REGISTRY.json')])
