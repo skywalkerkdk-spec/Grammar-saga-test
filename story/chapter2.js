@@ -799,7 +799,7 @@
       const m=sites[id]||{};
       const town=OW_TOWNS[id];
       const episode=town&&episodes.get(town);
-      return {id,label:town&&episode?townFor(episode):(id==='d4'?'🏘️ 상인의 상점가 마을':(m.ko||id)),action:()=>askSite(id)};
+      return {id,label:town&&episode?townFor(episode):(id==='d4'?'🏘️ Syntaxbury · 신택스베리':(m.ko||id)),action:()=>askSite(id)};
     });
     const siteAt=new Map(Object.entries(map.points).map(([id,p])=>[p[0]+','+p[1],id]));
     let ignore=null;
@@ -812,8 +812,8 @@
         panel.append(button('마을에 들어가기',()=>{closeDialogueIfOpen();twOpen(town);}));
       } else {
         if (id==='d4') {
-          panel.append(node('b','🏘️ 상인의 상점가 마을'));
-          panel.append(node('span','신텍스 왕국의 시장 마을입니다. 상점에서 펫·꾸미기·스킨을 살 수 있어요.'));
+          panel.append(node('b','🏘️ Syntaxbury · 신택스베리'));
+          panel.append(node('span','신택스 왕국의 시장 마을입니다. 상점에서 펫·꾸미기·스킨을 살 수 있어요.'));
           panel.append(button('🏪 상점 가기',()=>{closeDialogueIfOpen();G.owDungeon=true;G.scr='mall';G.toast=null;sfx('select');render();}));
         }
         const unlocked=id==='TEMPLE'?wmUnlocked(id):wmUnlocked(id);
