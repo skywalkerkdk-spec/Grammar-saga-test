@@ -785,6 +785,29 @@
     });
   }
 
+  // ---- 신택스베리(서쪽 왕국 시장 마을): 길드·상점·대장간·물약 가게가 있는 걷기 마을 ----
+  function syntaxburyField() {
+    const map=window.chapterFields?.sb;
+    if (!map || typeof window.openChapterField!=='function') return;
+    const toWorld=()=>{closeDialogueIfOpen();overworldField();};
+    const body=hubPanel('Syntaxbury · 신택스베리',toWorld);
+    body.querySelector('button').textContent='🚶 필드로 돌아가기';
+    fullscreenField(body,'Syntaxbury · 신택스베리',false);
+    const go=(scr,extra)=>()=>{closeDialogueIfOpen();G.owDungeon=true;G.owAuto=false;G.toast=null;Object.assign(G,{scr},extra||{});sfx('select');render();};
+    const targets=[
+      {id:'guild',label:'🏛️ 길드 (스토리 모드 허브)',action:go('dsel')},
+      {id:'shop',label:'🐾 펫 · 아이템 가게',action:go('shop',{shopTab:'adopt'})},
+      {id:'smith',label:'⚒️ 대장간',action:go('forge',{forgeView:'gear',stoneBoot:0,enhRes:null})},
+      {id:'potion',label:'🧪 물약 · 연금술사',action:go('shop',{shopTab:'potion'})},
+      {id:'exit_south',label:'🚪 마을 나가기 (필드)',action:toWorld},
+      {id:'exit_west',label:'⬅️ 서쪽 길 (필드)',action:toWorld},
+      {id:'exit_east',label:'➡️ 동쪽 다리 (필드)',action:toWorld},
+    ];
+    const positions=G.c2VillagePositions ||= {};
+    window.openChapterField(body,map,isRpgM()?rhero():lhero(),targets,{position:positions.sb,onStep(pos){positions.sb=pos;}});
+  }
+  window.chapterSyntaxbury={open:syntaxburyField};
+
   // ---- 월드맵 걷기: 큰 대륙 지도를 걸어 다니며 마을·던전 아이콘으로 들어갑니다 ----
   const OW_TOWNS={tn_t:'tn',md_t:'md',rp_t:'rp',ps_t:'ps',rv_t:'rv',sj_t:'sj',cp_t:'cp'};
   function overworldField() {
@@ -813,8 +836,8 @@
       } else {
         if (id==='d4') {
           panel.append(node('b','🏘️ Syntaxbury · 신택스베리'));
-          panel.append(node('span','신택스 왕국의 시장 마을입니다. 상점에서 펫·꾸미기·스킨을 살 수 있어요.'));
-          panel.append(button('🏪 상점 가기',()=>{closeDialogueIfOpen();G.owDungeon=true;G.scr='mall';G.toast=null;sfx('select');render();}));
+          panel.append(node('span','신택스 왕국의 시장 마을입니다. 길드·상점·대장간·물약 가게가 있어요.'));
+          panel.append(button('마을에 들어가기',()=>{closeDialogueIfOpen();syntaxburyField();}));
         }
         const unlocked=id==='TEMPLE'?wmUnlocked(id):wmUnlocked(id);
         const d=typeof wmDg==='function'?wmDg(id):null;
